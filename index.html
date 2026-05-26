@@ -80,7 +80,7 @@
     preview.innerHTML = '<div style="text-align:center; color:#ab9a84;">🌸 讀取中...</div>';
     try {
       // 重要：这里的 URL 必须指向你仓库的 news.json 原始文件
-      const res = await fetch('https://raw.githubusercontent.com/你的GitHub用户名/eirin-report/main/data/news.json');
+      const res = await fetch('https://raw.githubusercontent.com/Kasilovsky/eirin-report/main/data/news.json');
       if (!res.ok) throw new Error('文件不存在');
       const data = await res.json();
       preview.innerHTML = generateReportHTML(data.articles);

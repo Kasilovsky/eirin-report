@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -6,194 +7,132 @@
     <title>永遠亭 医療報告 · 八意永琳</title>
     <style>
         :root {
-            --bg: #ffffff;
-            --text: #1e293b;
-            --card-bg: #fdfdfd;
-            --border: #cbd5e1;
-            --accent: #1e3a5f;
-            --highlight: #b91c1c;
-            --subtle: #64748b;
+            --bg: #ffffff; --text: #1e293b; --card-bg: #fdfdfd; --border: #cbd5e1;
+            --accent: #1e3a5f; --highlight: #b91c1c; --subtle: #64748b;
             --shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
         body.dark {
-            --bg: #0f172a;
-            --text: #e2e8f0;
-            --card-bg: #1e293b;
-            --border: #334155;
-            --accent: #38bdf8;
-            --highlight: #f87171;
-            --subtle: #94a3b8;
+            --bg: #0f172a; --text: #e2e8f0; --card-bg: #1e293b; --border: #334155;
+            --accent: #38bdf8; --highlight: #f87171; --subtle: #94a3b8;
             --shadow: 0 2px 12px rgba(0,0,0,0.4);
         }
         * { margin:0; padding:0; box-sizing:border-box; }
         body {
-            font-family: 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            min-height: 100vh;
-            transition: background 0.3s;
+            font-family: 'Segoe UI', 'Noto Sans SC', 'PingFang SC', sans-serif;
+            background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.3s;
         }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 16px 12px 32px;
-            position: relative;
-        }
-        /* 三点菜单按钮 */
+        .container { max-width: 600px; margin: 0 auto; padding: 16px 12px 32px; position: relative; }
         .menu-btn {
-            position: absolute;
-            top: 12px;
-            right: 12px;
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 50%;
-            width: 36px;
-            height: 36px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            font-size: 1.4em;
-            color: var(--text);
-            z-index: 10;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-            transition: background 0.2s;
+            position: absolute; top: 12px; right: 12px;
+            background: var(--card-bg); border: 1px solid var(--border); border-radius: 50%;
+            width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
+            cursor: pointer; font-size: 1.4em; color: var(--text); z-index: 10; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
-        .menu-btn:hover { background: var(--border); }
-
-        /* 弹出菜单 */
         .popup-menu {
-            position: absolute;
-            top: 52px;
-            right: 12px;
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-            z-index: 20;
-            padding: 8px 0;
-            min-width: 180px;
-            display: none;
+            position: absolute; top: 52px; right: 12px;
+            background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2); z-index: 20; padding: 8px 0; min-width: 180px; display: none;
         }
         .popup-menu.show { display: block; }
         .popup-menu .menu-item {
-            padding: 10px 16px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            color: var(--text);
-            font-size: 0.9em;
-            cursor: pointer;
+            padding: 10px 16px; display: flex; align-items: center; justify-content: space-between;
+            color: var(--text); font-size: 0.9em; cursor: pointer;
         }
-        .popup-menu .menu-item:hover { background: var(--border); }
-        .popup-menu .divider {
-            border-bottom: 1px solid var(--border);
-            margin: 4px 0;
-        }
-
-        /* 开关组件 */
         .switch { position: relative; display: inline-block; width: 42px; height: 22px; }
         .switch input { display: none; }
-        .slider {
-            position: absolute; cursor: pointer; top:0; left:0; right:0; bottom:0;
-            background: #ccc; border-radius: 22px; transition: 0.3s;
-        }
-        .slider:before {
-            position: absolute; content:""; height: 16px; width: 16px;
-            left: 3px; bottom: 3px; background: white; border-radius: 50%; transition: 0.3s;
-        }
+        .slider { position: absolute; cursor: pointer; top:0; left:0; right:0; bottom:0; background: #ccc; border-radius: 22px; transition: 0.3s; }
+        .slider:before { position: absolute; content:""; height: 16px; width: 16px; left: 3px; bottom: 3px; background: white; border-radius: 50%; transition: 0.3s; }
         input:checked + .slider { background: var(--accent); }
         input:checked + .slider:before { transform: translateX(20px); }
 
         .header { text-align: center; border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin-top: 40px; margin-bottom: 20px; }
-        .header h1 { font-size: 1.8em; color: var(--accent); letter-spacing: 2px; margin-bottom: 4px; }
-        .header .subtitle { font-size: 0.85em; color: var(--subtle); margin-bottom: 8px; }
+        .header h1 { font-size: 1.8em; color: var(--accent); letter-spacing: 2px; }
+        .subtitle { font-size: 0.85em; color: var(--subtle); margin-bottom: 8px; }
         .date-badge { display: inline-block; background: var(--highlight); color: #fff; padding: 4px 16px; border-radius: 20px; font-size: 0.8em; font-weight: bold; }
-        .filter-bar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; justify-content: center; }
-        .filter-btn {
-            background: none; border: 1px solid var(--border); color: var(--text);
-            padding: 4px 14px; border-radius: 20px; cursor: pointer; font-size: 0.8em; transition: all 0.2s;
+
+        .time-filter {
+            display: flex; justify-content: center; gap: 6px; margin-bottom: 12px; flex-wrap: wrap;
         }
-        .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+        .time-filter button {
+            background: none; border: 1px solid var(--border); color: var(--text);
+            padding: 4px 12px; border-radius: 20px; cursor: pointer; font-size: 0.8em; transition: 0.2s;
+        }
+        .time-filter button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+        .pagination {
+            display: flex; justify-content: center; gap: 8px; margin: 16px 0; align-items: center;
+        }
+        .pagination button {
+            background: var(--accent); color: #fff; border: none; padding: 6px 12px; border-radius: 20px;
+            font-size: 0.8em; cursor: pointer;
+        }
+        .pagination button:disabled { opacity: 0.5; cursor: default; }
+        .page-info { font-size: 0.85em; color: var(--subtle); }
+
         .news-card {
             background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px;
             padding: 14px; margin-bottom: 14px; box-shadow: var(--shadow); word-break: break-word;
         }
-        .news-source-tag { font-weight: 700; font-size: 0.75em; color: var(--highlight); text-transform: uppercase; }
+        .news-source-tag { font-weight: 700; font-size: 0.75em; color: var(--highlight); }
         .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; }
-        .news-citation { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; font-style: italic; }
-        .news-summary { font-size: 0.9em; color: var(--text); opacity: 0.85; margin-bottom: 10px; }
+        .news-citation { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; }
+        .news-summary { font-size: 0.9em; opacity: 0.85; margin-bottom: 10px; }
         .news-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-        .btn-sm {
-            background: var(--accent); color: #fff; border: none; padding: 4px 12px;
-            border-radius: 16px; font-size: 0.75em; cursor: pointer; text-decoration: none; display: inline-block;
-        }
+        .btn-sm { background: var(--accent); color: #fff; border: none; padding: 4px 12px; border-radius: 16px; font-size: 0.75em; cursor: pointer; text-decoration: none; display: inline-block; }
         .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
         .actions-bar { margin-top: 20px; text-align: center; }
-        .btn {
-            background: var(--accent); color: #fff; border: none; padding: 10px 24px;
-            border-radius: 24px; font-size: 0.9em; cursor: pointer; transition: opacity 0.2s;
-        }
-        .btn:hover { opacity: 0.9; }
-        .resources {
-            margin-top: 24px; padding: 14px; background: var(--card-bg);
-            border: 1px solid var(--border); border-radius: 12px; text-align: center;
-        }
-        .resources h3 { color: var(--accent); font-size: 0.95em; margin-bottom: 10px; }
+        .btn { background: var(--accent); color: #fff; border: none; padding: 10px 24px; border-radius: 24px; font-size: 0.9em; cursor: pointer; }
+        .resources { margin-top: 24px; padding: 14px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; text-align: center; }
+        .resources h3 { color: var(--accent); font-size: 0.95em; }
         .resource-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
-        .resource-links a {
-            color: var(--accent); text-decoration: none; border: 1px solid var(--border);
-            padding: 4px 12px; border-radius: 16px; font-size: 0.8em;
-        }
+        .resource-links a { color: var(--accent); text-decoration: none; border: 1px solid var(--border); padding: 4px 12px; border-radius: 16px; font-size: 0.8em; }
         .footer { text-align: center; margin-top: 16px; font-size: 0.7em; color: var(--subtle); }
     </style>
 </head>
 <body>
 <div class="container">
-    <!-- 三点菜单按钮 -->
     <div class="menu-btn" id="menuBtn">⋮</div>
-    <!-- 弹出菜单 -->
     <div class="popup-menu" id="popupMenu">
-        <div class="menu-item" id="chineseItem">
+        <div class="menu-item">
             <span>🇨🇳 漢化顯示</span>
-            <label class="switch">
-                <input type="checkbox" id="chineseToggle" checked>
-                <span class="slider"></span>
-            </label>
+            <label class="switch"><input type="checkbox" id="chineseToggle" checked><span class="slider"></span></label>
         </div>
-        <div class="divider"></div>
-        <div class="menu-item" id="darkItem">
+        <div class="menu-item">
             <span>🌙 暗色模式</span>
-            <label class="switch">
-                <input type="checkbox" id="darkToggle">
-                <span class="slider"></span>
-            </label>
+            <label class="switch"><input type="checkbox" id="darkToggle"><span class="slider"></span></label>
         </div>
     </div>
 
     <div class="header">
-        <div style="font-size:2em; margin-bottom:4px;">🏹🐇</div>
+        <div style="font-size:2em;">🏹🐇</div>
         <h1>永遠亭 医療報告</h1>
-        <div class="subtitle">八意永琳 · 每日權威醫學進展</div>
+        <div class="subtitle">八意永琳 · 權威期刊彙編</div>
         <div class="date-badge" id="dateDisplay"></div>
     </div>
 
-    <!-- 来源筛选 -->
-    <div class="filter-bar" id="filterBar">
-        <button class="filter-btn active" data-filter="all">全部</button>
-        <button class="filter-btn" data-filter="NEJM">NEJM</button>
-        <button class="filter-btn" data-filter="PubMed">PubMed</button>
+    <!-- 时间范围 -->
+    <div class="time-filter" id="timeFilter">
+        <button data-range="7" class="active">一週</button>
+        <button data-range="30">一月</button>
+        <button data-range="90">三月</button>
+        <button data-range="180">六月</button>
     </div>
 
     <!-- 新闻列表 -->
     <div id="newsContainer"><p style="text-align:center; opacity:0.7;">🌸 讀取中...</p></div>
 
-    <!-- 操作按钮 -->
-    <div class="actions-bar">
-        <button class="btn" id="copyAllBtn">📋 複製今日速報文本</button>
+    <!-- 分页控件 -->
+    <div class="pagination" id="pagination">
+        <button id="prevPage">◀ 上一頁</button>
+        <span class="page-info" id="pageInfo"></span>
+        <button id="nextPage">下一頁 ▶</button>
     </div>
 
-    <!-- 医学资源 -->
+    <!-- 复制速报 -->
+    <div class="actions-bar">
+        <button class="btn" id="copyAllBtn">📋 複製當前頁速報</button>
+    </div>
+
     <div class="resources">
         <h3>📚 醫學資源</h3>
         <div class="resource-links">
@@ -204,152 +143,154 @@
             <a href="https://www.who.int/" target="_blank">WHO</a>
         </div>
     </div>
-
     <div class="footer">© 永遠亭 令和時代醫療速報 · 每日自動更新</div>
 </div>
 
 <script>
-    // ---------- 全局变量 ----------
+    // ---------- 全局状态 ----------
     let allArticles = [];
-    let currentFilter = 'all';
+    let filteredArticles = [];
+    let currentRange = 7;        // 默认一周
+    let currentPage = 1;
+    const pageSize = 10;
     let useChinese = true;
 
-    // ---------- 日期设置 ----------
-    (function(){
-        const now = new Date();
-        const y = now.getFullYear();
-        const m = String(now.getMonth()+1).padStart(2,'0');
-        const d = String(now.getDate()).padStart(2,'0');
-        document.getElementById('dateDisplay').textContent = `令和${y-2018}年（${y}）${m}月${d}日`;
-    })();
+    // 日期
+    const today = new Date();
+    const y = today.getFullYear();
+    const m = String(today.getMonth()+1).padStart(2,'0');
+    const d = String(today.getDate()).padStart(2,'0');
+    document.getElementById('dateDisplay').textContent = `令和${y-2018}年（${y}）${m}月${d}日`;
 
-    // ---------- 工具函数 ----------
-    function escapeHtml(text) {
-        return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"');
+    // 工具
+    function escapeHtml(text) { return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"'); }
+
+    // 时间范围过滤
+    function filterByRange() {
+        const cutoff = new Date(today);
+        cutoff.setDate(cutoff.getDate() - currentRange);
+        const cutoffStr = cutoff.toISOString().split('T')[0]; // yyyy-mm-dd
+        filteredArticles = allArticles.filter(a => {
+            if (!a.date) return false;
+            return a.date >= cutoffStr;
+        });
+        currentPage = 1;
+        renderPage();
     }
 
-    // ---------- 新闻渲染 ----------
-    function renderNews(articles) {
+    // 分页渲染
+    function renderPage() {
+        const start = (currentPage - 1) * pageSize;
+        const end = start + pageSize;
+        const pageArticles = filteredArticles.slice(start, end);
         const container = document.getElementById('newsContainer');
-        if (!articles.length) {
-            container.innerHTML = '<p style="text-align:center; opacity:0.7;">今日暫無新聞。</p>';
-            return;
-        }
-        let html = '';
-        articles.forEach((a, idx) => {
-            const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
-            const summary = useChinese ? (a.summary_zh || a.summary_en) : (a.summary_en || '');
-            html += `
-                <div class="news-card">
-                    <div class="news-source-tag">■ ${escapeHtml(a.source)} · ${escapeHtml(a.category)}</div>
-                    <div class="news-title">${escapeHtml(title)}</div>
-                    ${a.citation ? `<div class="news-citation">${escapeHtml(a.citation)}</div>` : ''}
-                    ${summary ? `<div class="news-summary">${escapeHtml(summary)}</div>` : ''}
-                    <div class="news-actions">
-                        ${a.link ? `<a class="btn-sm" href="${escapeHtml(a.link)}" target="_blank">📎 查看原文</a>` : ''}
-                        <button class="btn-sm btn-outline" onclick="copySingle(${idx})">📋 複製引用</button>
+        if (pageArticles.length === 0) {
+            container.innerHTML = '<p style="text-align:center; opacity:0.7;">此時間範圍暫無新聞。</p>';
+        } else {
+            let html = '';
+            pageArticles.forEach((a, idx) => {
+                const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
+                const summary = useChinese ? (a.summary_zh || a.summary_en) : (a.summary_en || '');
+                html += `
+                    <div class="news-card">
+                        <div class="news-source-tag">■ ${escapeHtml(a.source)} · ${escapeHtml(a.category)}</div>
+                        <div class="news-title">${escapeHtml(title)}</div>
+                        ${a.citation ? `<div class="news-citation">${escapeHtml(a.citation)}</div>` : ''}
+                        ${summary ? `<div class="news-summary">${escapeHtml(summary)}</div>` : ''}
+                        <div class="news-actions">
+                            ${a.link ? `<a class="btn-sm" href="${escapeHtml(a.link)}" target="_blank">📎 原文</a>` : ''}
+                            <button class="btn-sm btn-outline" onclick="copySingle('${escapeHtml(title)}', '${escapeHtml(a.citation||'')}', '${escapeHtml(a.link||'')}')">📋 複製引用</button>
+                        </div>
                     </div>
-                </div>
-            `;
-        });
-        container.innerHTML = html;
-    }
-
-    // 筛选
-    function applyFilter(filter) {
-        currentFilter = filter;
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.filter === filter);
-        });
-        const filtered = (filter === 'all') ? allArticles : allArticles.filter(a => a.source === filter);
-        renderNews(filtered);
-    }
-
-    document.getElementById('filterBar').addEventListener('click', (e) => {
-        if (e.target.classList.contains('filter-btn')) {
-            applyFilter(e.target.dataset.filter);
+                `;
+            });
+            container.innerHTML = html;
         }
-    });
 
-    // 加载新闻
+        // 更新分页信息
+        const totalPages = Math.ceil(filteredArticles.length / pageSize) || 1;
+        document.getElementById('pageInfo').textContent = `${currentPage} / ${totalPages}`;
+        document.getElementById('prevPage').disabled = currentPage <= 1;
+        document.getElementById('nextPage').disabled = currentPage >= totalPages;
+    }
+
+    function copySingle(title, citation, link) {
+        const text = `${title}\n${citation}\n${link}`;
+        navigator.clipboard.writeText(text).then(() => alert('已複製')).catch(() => alert('複製失敗'));
+    }
+
+    // 加载数据
     async function loadNews() {
         try {
             const res = await fetch('https://raw.githubusercontent.com/Kasilovsky/eirin-report/main/data/news.json');
             if (!res.ok) throw new Error('無法載入');
             const data = await res.json();
             allArticles = data.articles || [];
-            applyFilter(currentFilter);
+            filterByRange();
         } catch (err) {
             document.getElementById('newsContainer').innerHTML = '<p style="text-align:center; opacity:0.7;">⚠️ 無法載入新聞</p>';
         }
     }
 
-    // 复制单条
-    function copySingle(idx) {
-        const a = allArticles[idx];
-        if (!a) return;
-        const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
-        const text = `${title}\n${a.citation || ''}\n${a.link || ''}`;
-        navigator.clipboard.writeText(text).then(() => alert('已複製引用')).catch(() => alert('複製失敗'));
-    }
+    // 事件绑定
+    document.getElementById('timeFilter').addEventListener('click', (e) => {
+        if (e.target.tagName === 'BUTTON') {
+            document.querySelectorAll('#timeFilter button').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            currentRange = parseInt(e.target.dataset.range);
+            filterByRange();
+        }
+    });
 
-    // 复制全部速报
+    document.getElementById('prevPage').addEventListener('click', () => {
+        if (currentPage > 1) { currentPage--; renderPage(); }
+    });
+    document.getElementById('nextPage').addEventListener('click', () => {
+        const totalPages = Math.ceil(filteredArticles.length / pageSize);
+        if (currentPage < totalPages) { currentPage++; renderPage(); }
+    });
+
+    // 复制当前页速报
     document.getElementById('copyAllBtn').addEventListener('click', () => {
-        if (!allArticles.length) return alert('暫無新聞');
+        const start = (currentPage - 1) * pageSize;
+        const pageArticles = filteredArticles.slice(start, start + pageSize);
+        if (!pageArticles.length) return alert('暫無新聞');
         let text = `【永遠亭 医療速報】${document.getElementById('dateDisplay').textContent}\n`;
-        allArticles.forEach((a, i) => {
+        pageArticles.forEach((a, i) => {
             const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
-            text += `\n${i+1}. [${a.source}] ${title}`;
+            text += `\n${start+i+1}. [${a.source}] ${title}`;
             if (a.citation) text += `\n   ${a.citation}`;
             if (a.link) text += `\n   ${a.link}`;
         });
-        text += '\n\n—— 八意永琳';
-        navigator.clipboard.writeText(text).then(() => alert('速報文本已複製')).catch(() => alert('複製失敗'));
+        text += '\n—— 八意永琳';
+        navigator.clipboard.writeText(text).then(() => alert('速報已複製')).catch(() => alert('複製失敗'));
     });
 
-    // ---------- 弹出菜单逻辑 ----------
+    // 三点菜单
     const menuBtn = document.getElementById('menuBtn');
     const popupMenu = document.getElementById('popupMenu');
+    menuBtn.addEventListener('click', e => { e.stopPropagation(); popupMenu.classList.toggle('show'); });
+    document.addEventListener('click', () => popupMenu.classList.remove('show'));
+    popupMenu.addEventListener('click', e => e.stopPropagation());
+
     const chineseToggle = document.getElementById('chineseToggle');
     const darkToggle = document.getElementById('darkToggle');
-
-    // 点击三点按钮切换菜单显示
-    menuBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        popupMenu.classList.toggle('show');
-    });
-
-    // 点击页面其他地方关闭菜单
-    document.addEventListener('click', () => {
-        popupMenu.classList.remove('show');
-    });
-
-    // 汉化开关
     chineseToggle.checked = useChinese;
-    chineseToggle.addEventListener('change', function(e) {
-        e.stopPropagation();
+    chineseToggle.addEventListener('change', function() {
         useChinese = this.checked;
-        applyFilter(currentFilter);
+        renderPage();
     });
-
-    // 暗色模式开关
     darkToggle.checked = document.body.classList.contains('dark');
-    darkToggle.addEventListener('change', function(e) {
-        e.stopPropagation();
+    darkToggle.addEventListener('change', function() {
         document.body.classList.toggle('dark', this.checked);
         localStorage.setItem('theme', this.checked ? 'dark' : 'light');
     });
-
-    // 初始化暗色模式
     if (localStorage.getItem('theme') === 'dark') {
         document.body.classList.add('dark');
         darkToggle.checked = true;
     }
 
-    // 阻止菜单内部点击关闭
-    popupMenu.addEventListener('click', (e) => e.stopPropagation());
-
-    // 初始加载
+    // 启动
     loadNews();
 </script>
 </body>

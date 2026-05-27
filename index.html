@@ -50,14 +50,19 @@
         .subtitle { font-size: 0.85em; color: var(--subtle); margin-bottom: 8px; }
         .date-badge { display: inline-block; background: var(--highlight); color: #fff; padding: 4px 16px; border-radius: 20px; font-size: 0.8em; font-weight: bold; }
 
-        .time-filter {
-            display: flex; justify-content: center; gap: 6px; margin-bottom: 12px; flex-wrap: wrap;
+        .filter-section { margin-bottom: 16px; }
+        .filter-label { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; text-align: center; }
+        .filter-group {
+            display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; margin-bottom: 8px;
         }
-        .time-filter button {
+        .filter-group button, .filter-group .tag {
             background: none; border: 1px solid var(--border); color: var(--text);
             padding: 4px 12px; border-radius: 20px; cursor: pointer; font-size: 0.8em; transition: 0.2s;
         }
-        .time-filter button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+        .filter-group button.active, .filter-group .tag.active {
+            background: var(--accent); color: #fff; border-color: var(--accent);
+        }
+        .tag { user-select: none; }
 
         .pagination {
             display: flex; justify-content: center; gap: 8px; margin: 16px 0; align-items: center;
@@ -91,6 +96,7 @@
 </head>
 <body>
 <div class="container">
+    <!-- 三点菜单 -->
     <div class="menu-btn" id="menuBtn">⋮</div>
     <div class="popup-menu" id="popupMenu">
         <div class="menu-item">
@@ -110,12 +116,20 @@
         <div class="date-badge" id="dateDisplay"></div>
     </div>
 
-    <!-- 时间范围 -->
-    <div class="time-filter" id="timeFilter">
-        <button data-range="7" class="active">一週</button>
-        <button data-range="30">一月</button>
-        <button data-range="90">三月</button>
-        <button data-range="180">六月</button>
+    <!-- 筛选区域 -->
+    <div class="filter-section">
+        <div class="filter-label">⏳ 時間範圍</div>
+        <div class="filter-group" id="timeFilter">
+            <button data-range="7" class="active">一週</button>
+            <button data-range="30">一月</button>
+            <button data-range="90">三月</button>
+            <button data-range="180">六月</button>
+        </div>
+
+        <div class="filter-label">📰 期刊篩選</div>
+        <div class="filter-group" id="journalFilter">
+            <!-- 期刊标签由JS动态生成 -->
+        </div>
     </div>
 
     <!-- 新闻列表 -->
@@ -150,10 +164,11 @@
     // ---------- 全局状态 ----------
     let allArticles = [];
     let filteredArticles = [];
-    let currentRange = 7;        // 默认一周
+    let currentRange = 7;
     let currentPage = 1;
     const pageSize = 10;
     let useChinese = true;
+    let selectedJournals = new Set();   // 选中的期刊名
 
     // 日期
     const today = new Date();
@@ -162,30 +177,58 @@
     const d = String(today.getDate()).padStart(2,'0');
     document.getElementById('dateDisplay').textContent = `令和${y-2018}年（${y}）${m}月${d}日`;
 
-    // 工具
     function escapeHtml(text) { return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"'); }
 
-    // 时间范围过滤
-    function filterByRange() {
+    // ---------- 过滤逻辑 ----------
+    function applyFilters() {
         const cutoff = new Date(today);
         cutoff.setDate(cutoff.getDate() - currentRange);
-        const cutoffStr = cutoff.toISOString().split('T')[0]; // yyyy-mm-dd
+        const cutoffStr = cutoff.toISOString().split('T')[0];
         filteredArticles = allArticles.filter(a => {
-            if (!a.date) return false;
-            return a.date >= cutoffStr;
+            if (!a.date || a.date < cutoffStr) return false;
+            if (selectedJournals.size > 0 && !selectedJournals.has(a.source)) return false;
+            return true;
         });
         currentPage = 1;
         renderPage();
     }
 
-    // 分页渲染
+    // 更新期刊标签UI
+    function updateJournalTags() {
+        const journalSet = new Set();
+        allArticles.forEach(a => { if (a.source) journalSet.add(a.source); });
+        const container = document.getElementById('journalFilter');
+        container.innerHTML = '';
+        // 默认全选
+        if (selectedJournals.size === 0) {
+            journalSet.forEach(j => selectedJournals.add(j));
+        }
+        journalSet.forEach(journal => {
+            const tag = document.createElement('span');
+            tag.className = 'tag' + (selectedJournals.has(journal) ? ' active' : '');
+            tag.textContent = journal;
+            tag.addEventListener('click', () => {
+                if (selectedJournals.has(journal)) {
+                    selectedJournals.delete(journal);
+                    tag.classList.remove('active');
+                } else {
+                    selectedJournals.add(journal);
+                    tag.classList.add('active');
+                }
+                applyFilters();
+            });
+            container.appendChild(tag);
+        });
+    }
+
+    // 渲染页面
     function renderPage() {
         const start = (currentPage - 1) * pageSize;
         const end = start + pageSize;
         const pageArticles = filteredArticles.slice(start, end);
         const container = document.getElementById('newsContainer');
         if (pageArticles.length === 0) {
-            container.innerHTML = '<p style="text-align:center; opacity:0.7;">此時間範圍暫無新聞。</p>';
+            container.innerHTML = '<p style="text-align:center; opacity:0.7;">無符合條件的新聞。</p>';
         } else {
             let html = '';
             pageArticles.forEach((a, idx) => {
@@ -207,7 +250,6 @@
             container.innerHTML = html;
         }
 
-        // 更新分页信息
         const totalPages = Math.ceil(filteredArticles.length / pageSize) || 1;
         document.getElementById('pageInfo').textContent = `${currentPage} / ${totalPages}`;
         document.getElementById('prevPage').disabled = currentPage <= 1;
@@ -226,7 +268,8 @@
             if (!res.ok) throw new Error('無法載入');
             const data = await res.json();
             allArticles = data.articles || [];
-            filterByRange();
+            updateJournalTags();
+            applyFilters();
         } catch (err) {
             document.getElementById('newsContainer').innerHTML = '<p style="text-align:center; opacity:0.7;">⚠️ 無法載入新聞</p>';
         }
@@ -238,7 +281,7 @@
             document.querySelectorAll('#timeFilter button').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
             currentRange = parseInt(e.target.dataset.range);
-            filterByRange();
+            applyFilters();
         }
     });
 
@@ -250,7 +293,6 @@
         if (currentPage < totalPages) { currentPage++; renderPage(); }
     });
 
-    // 复制当前页速报
     document.getElementById('copyAllBtn').addEventListener('click', () => {
         const start = (currentPage - 1) * pageSize;
         const pageArticles = filteredArticles.slice(start, start + pageSize);

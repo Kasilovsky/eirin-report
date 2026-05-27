@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=2.0">
     <title>永遠亭 医療報告 · 八意永琳</title>
     <style>
+        /* ===== 原有變數與基本佈局 ===== */
         :root {
             --bg: #ffffff; --text: #1e293b; --card-bg: #fdfdfd; --border: #cbd5e1;
             --accent: #1e3a5f; --highlight: #b91c1c; --subtle: #64748b;
@@ -21,12 +22,11 @@
             background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.3s;
             overflow-x: hidden;
         }
-        /* 侧边栏 */
         .sidebar {
             position: fixed; top: 0; left: -280px; width: 280px; height: 100%;
             background: var(--card-bg); border-right: 1px solid var(--border);
             box-shadow: 2px 0 12px rgba(0,0,0,0.1); z-index: 1000; transition: left 0.3s ease;
-            display: flex; flex-direction: column; padding: 24px 16px;
+            display: flex; flex-direction: column; padding: 24px 16px; overflow-y: auto;
         }
         .sidebar.open { left: 0; }
         .sidebar-backdrop {
@@ -56,7 +56,6 @@
         input:checked + .slider { background: var(--accent); }
         input:checked + .slider:before { transform: translateX(20px); }
 
-        /* 主界面 */
         .container { max-width: 600px; margin: 0 auto; padding: 16px 12px 32px; position: relative; }
         .menu-btn {
             position: absolute; top: 12px; left: 12px;
@@ -82,9 +81,15 @@
         .news-card {
             background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px;
             padding: 14px; margin-bottom: 14px; box-shadow: var(--shadow); word-break: break-word;
+            transition: transform 0.1s;
         }
+        .news-card:active { transform: scale(0.98); }
         .news-source-tag { font-weight: 700; font-size: 0.75em; color: var(--highlight); }
-        .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; }
+        .news-title {
+            font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4;
+            cursor: pointer; text-decoration: underline; text-decoration-color: var(--subtle);
+        }
+        .news-title:hover { color: var(--accent); }
         .news-citation { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; }
         .news-summary { font-size: 0.9em; opacity: 0.85; margin-bottom: 10px; }
         .news-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
@@ -97,10 +102,30 @@
         .resource-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
         .resource-links a { color: var(--accent); text-decoration: none; border: 1px solid var(--border); padding: 4px 12px; border-radius: 16px; font-size: 0.8em; }
         .footer { text-align: center; margin-top: 16px; font-size: 0.7em; color: var(--subtle); }
+
+        /* 模態框 */
+        .modal {
+            display: none; position: fixed; top:0; left:0; width:100%; height:100%;
+            background: rgba(0,0,0,0.6); z-index: 2000; align-items: center; justify-content: center;
+        }
+        .modal.show { display: flex; }
+        .modal-content {
+            background: var(--card-bg); border-radius: 12px; padding: 24px; max-width: 500px;
+            width: 90%; max-height: 80vh; overflow-y: auto; box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+            position: relative;
+        }
+        .modal-close {
+            position: absolute; top: 8px; right: 12px; font-size: 1.4em; cursor: pointer;
+            color: var(--subtle); background: none; border: none;
+        }
+        .modal-title { font-weight: 700; font-size: 1.2em; margin-bottom: 12px; }
+        .modal-meta { font-size: 0.85em; color: var(--subtle); margin-bottom: 8px; }
+        .modal-section { margin-bottom: 10px; }
+        .modal-label { font-weight: 600; color: var(--accent); }
     </style>
 </head>
 <body>
-<!-- 侧边栏 -->
+<!-- 側邊欄 -->
 <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
 <div class="sidebar" id="sidebar">
     <h3>🔬 篩選與設定</h3>
@@ -131,9 +156,21 @@
             <label class="switch"><input type="checkbox" id="darkToggle"><span class="slider"></span></label>
         </div>
     </div>
+
+    <div class="sidebar-section">
+        <button class="btn" id="discussBtn" style="width:100%;">💬 竹林茶會 (討論板)</button>
+    </div>
 </div>
 
-<!-- 主页面 -->
+<!-- 模態框 -->
+<div class="modal" id="detailModal">
+    <div class="modal-content">
+        <button class="modal-close" id="modalClose">&times;</button>
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+<!-- 主頁面 -->
 <div class="container">
     <div class="menu-btn" id="menuBtn">☰</div>
 
@@ -144,17 +181,14 @@
         <div class="date-badge" id="dateDisplay"></div>
     </div>
 
-    <!-- 新闻列表 -->
     <div id="newsContainer"><p style="text-align:center; opacity:0.7;">🌸 讀取中...</p></div>
 
-    <!-- 分页 -->
     <div class="pagination" id="pagination">
         <button id="prevPage">◀ 上一頁</button>
         <span class="page-info" id="pageInfo"></span>
         <button id="nextPage">下一頁 ▶</button>
     </div>
 
-    <!-- 复制速报 -->
     <div class="actions-bar">
         <button class="btn" id="copyAllBtn">📋 複製當前頁速報</button>
     </div>
@@ -173,7 +207,7 @@
 </div>
 
 <script>
-    // ---------- 全局状态 ----------
+    // ========== 全域變數 ==========
     let allArticles = [];
     let filteredArticles = [];
     let currentRange = 7;
@@ -182,7 +216,6 @@
     let useChinese = true;
     let selectedJournals = new Set();
 
-    // 日期
     const today = new Date();
     const y = today.getFullYear();
     const m = String(today.getMonth()+1).padStart(2,'0');
@@ -191,7 +224,7 @@
 
     function escapeHtml(text) { return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"'); }
 
-    // ---------- 过滤逻辑 ----------
+    // ========== 過濾邏輯 ==========
     function applyFilters() {
         const cutoff = new Date(today);
         cutoff.setDate(cutoff.getDate() - currentRange);
@@ -205,7 +238,6 @@
         renderPage();
     }
 
-    // 更新期刊标签
     function updateJournalTags() {
         const journalSet = new Set();
         allArticles.forEach(a => { if (a.source) journalSet.add(a.source); });
@@ -232,7 +264,7 @@
         });
     }
 
-    // 渲染页面
+    // ========== 渲染頁面 ==========
     function renderPage() {
         const start = (currentPage - 1) * pageSize;
         const end = start + pageSize;
@@ -248,7 +280,7 @@
                 html += `
                     <div class="news-card">
                         <div class="news-source-tag">■ ${escapeHtml(a.source)} · ${escapeHtml(a.category)}</div>
-                        <div class="news-title">${escapeHtml(title)}</div>
+                        <div class="news-title" onclick="openDetail(${allArticles.indexOf(a)})">${escapeHtml(title)}</div>
                         ${a.citation ? `<div class="news-citation">${escapeHtml(a.citation)}</div>` : ''}
                         ${summary ? `<div class="news-summary">${escapeHtml(summary)}</div>` : ''}
                         <div class="news-actions">
@@ -272,7 +304,39 @@
         navigator.clipboard.writeText(text).then(() => alert('已複製')).catch(() => alert('複製失敗'));
     }
 
-    // 加载数据
+    // ========== 模態框 (詳情彈窗) ==========
+    function openDetail(articleIndex) {
+        const a = allArticles[articleIndex];
+        if (!a) return;
+        const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
+        const authors = a.authors || '未知';
+        const doi = a.doi || '暫無';
+        const citation = a.citation || '';
+        const link = a.link || '#';
+        const summary = useChinese ? (a.summary_zh || a.summary_en) : (a.summary_en || '無摘要');
+
+        const modalBody = document.getElementById('modalBody');
+        modalBody.innerHTML = `
+            <div class="modal-title">${escapeHtml(title)}</div>
+            <div class="modal-meta">${escapeHtml(citation)}</div>
+            <div class="modal-section"><span class="modal-label">作者：</span>${escapeHtml(authors)}</div>
+            <div class="modal-section"><span class="modal-label">DOI：</span>${escapeHtml(doi)}</div>
+            <div class="modal-section"><span class="modal-label">摘要：</span>${escapeHtml(summary)}</div>
+            <div class="modal-section"><a href="${escapeHtml(link)}" target="_blank" class="btn-sm">🔗 PubMed 原文</a></div>
+        `;
+        document.getElementById('detailModal').classList.add('show');
+    }
+
+    document.getElementById('modalClose').addEventListener('click', () => {
+        document.getElementById('detailModal').classList.remove('show');
+    });
+    document.getElementById('detailModal').addEventListener('click', (e) => {
+        if (e.target === document.getElementById('detailModal')) {
+            document.getElementById('detailModal').classList.remove('show');
+        }
+    });
+
+    // ========== 數據加載 ==========
     async function loadNews() {
         try {
             const res = await fetch('https://raw.githubusercontent.com/Kasilovsky/eirin-report/main/data/news.json');
@@ -286,11 +350,10 @@
         }
     }
 
-    // 侧边栏控制
+    // ========== 側邊欄控制 ==========
     const sidebar = document.getElementById('sidebar');
     const backdrop = document.getElementById('sidebarBackdrop');
-    const menuBtn = document.getElementById('menuBtn');
-    menuBtn.addEventListener('click', () => {
+    document.getElementById('menuBtn').addEventListener('click', () => {
         sidebar.classList.add('open');
         backdrop.classList.add('show');
     });
@@ -299,7 +362,6 @@
         backdrop.classList.remove('show');
     });
 
-    // 时间筛选（侧边栏内）
     document.getElementById('timeFilter').addEventListener('click', (e) => {
         if (e.target.tagName === 'BUTTON') {
             document.querySelectorAll('#timeFilter button').forEach(b => b.classList.remove('active'));
@@ -309,7 +371,6 @@
         }
     });
 
-    // 分页
     document.getElementById('prevPage').addEventListener('click', () => {
         if (currentPage > 1) { currentPage--; renderPage(); }
     });
@@ -318,7 +379,6 @@
         if (currentPage < totalPages) { currentPage++; renderPage(); }
     });
 
-    // 复制速报
     document.getElementById('copyAllBtn').addEventListener('click', () => {
         const start = (currentPage - 1) * pageSize;
         const pageArticles = filteredArticles.slice(start, start + pageSize);
@@ -334,7 +394,12 @@
         navigator.clipboard.writeText(text).then(() => alert('速報已複製')).catch(() => alert('複製失敗'));
     });
 
-    // 汉化与暗色模式
+    // 討論板按鈕
+    document.getElementById('discussBtn').addEventListener('click', () => {
+        window.open('https://github.com/Kasilovsky/eirin-report/issues', '_blank');
+    });
+
+    // 漢化與暗色模式
     const chineseToggle = document.getElementById('chineseToggle');
     const darkToggle = document.getElementById('darkToggle');
     chineseToggle.checked = useChinese;
@@ -352,7 +417,17 @@
         darkToggle.checked = true;
     }
 
-    // 启动
+    // ========== 離線緩存 (Service Worker) ==========
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js').then(reg => {
+                console.log('Service Worker 註冊成功');
+            }).catch(err => {
+                console.log('SW 註冊失敗: ', err);
+            });
+        });
+    }
+
     loadNews();
 </script>
 </body>

@@ -1,11 +1,11 @@
-import json, feedparser, requests, os, re, time
-from datetime import datetime
+import json, requests, os, time, re
+from datetime import datetime, timedelta
 
 OUTPUT_FILE = 'data/news.json'
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
+JOURNALS = ['N Engl J Med', 'Lancet', 'JAMA']  # 可自行增删
 
 def translate_to_chinese(text):
-    """返回中文翻译，失败则返回原文"""
     if not text or len(text.strip()) == 0:
         return text
     segment = text[:500]
@@ -23,99 +23,102 @@ def translate_to_chinese(text):
         print(f"翻译失败: {e}")
         return text
 
-def fetch_nejm():
-    url = 'https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm'
-    feed = feedparser.parse(url)
-    articles = []
-    for entry in feed.entries[:5]:
-        raw = entry.summary if hasattr(entry,'summary') else ''
-        citation_match = re.search(r'(N Engl J Med \d{4};?\s*\d+:\d+[-–]\d+)', raw)
-        citation = citation_match.group(1) if citation_match else ''
-        clean = re.sub(r'<[^>]+>', '', raw)
-        summary_en = clean.replace(citation, '').strip()
+def fetch_recent_articles(days=180, max_results=100):
+    """使用 PubMed E-utilities 获取指定天数内特定期刊的文章"""
+    end_date = datetime.now()
+    start_date = end_date - timedelta(days=days)
+    mindate = start_date.strftime('%Y/%m/%d')
+    maxdate = end_date.strftime('%Y/%m/%d')
 
-        title_en = entry.title
-        title_zh = translate_to_chinese(title_en)
-        summary_zh = translate_to_chinese(summary_en[:300]) if summary_en else ''
-
-        articles.append({
-            'category': '最新研究',
-            'title_en': title_en,
-            'title_zh': title_zh,
-            'summary_en': summary_en[:300] + ('...' if len(summary_en)>300 else ''),
-            'summary_zh': summary_zh + ('...' if summary_zh else ''),
-            'source': 'NEJM',
-            'citation': citation,
-            'link': entry.link
-        })
-        time.sleep(0.5)
-    return articles
-
-def fetch_pubmed():
     base = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/'
-    params = {
-        'db': 'pubmed',
-        'term': '("2026"[Date - Publication] : "3000"[Date - Publication]) AND ("N Engl J Med"[Jour] OR "Lancet"[Jour] OR "JAMA"[Jour])',
-        'retmax': 5,
-        'sort': 'pub_date',
-        'retmode': 'json'
-    }
-    try:
-        resp = requests.get(base+'esearch.fcgi', params=params, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
-        ids = resp.json()['esearchresult']['idlist']
-        if not ids:
-            return []
-        sum_params = {'db':'pubmed','id':','.join(ids),'retmode':'json'}
-        sum_resp = requests.get(base+'esummary.fcgi', params=sum_params, headers=HEADERS, timeout=15)
-        sum_resp.raise_for_status()
-        results = sum_resp.json()['result']
-        articles = []
-        for pid in ids:
-            p = results.get(pid, {})
-            title_en = p.get('title','未知')
-            title_zh = translate_to_chinese(title_en)
-            source = p.get('source', '')
-            volume = p.get('volume', '')
-            issue = p.get('issue', '')
-            pages = p.get('pages', '')
-            pubdate = p.get('pubdate', '')
-            citation = f"{source}. {pubdate}; {volume}({issue}):{pages}" if source and volume else ''
-            articles.append({
-                'category': '權威期刊',
-                'title_en': title_en,
-                'title_zh': title_zh,
-                'summary_en': '',
-                'summary_zh': '',
-                'source': 'PubMed',
-                'citation': citation,
-                'link': f'https://pubmed.ncbi.nlm.nih.gov/{pid}/'
-            })
-            time.sleep(0.5)
-        return articles
-    except Exception as e:
-        print(f'PubMed error: {e}')
-        return []
+    articles = []
+
+    for journal in JOURNALS:
+        # 搜索该期刊在日期范围内的 PMID 列表
+        search_term = f'"{journal}"[Journal] AND ("{mindate}"[Date - Publication] : "{maxdate}"[Date - Publication])'
+        search_params = {
+            'db': 'pubmed',
+            'term': search_term,
+            'retmax': max_results,
+            'sort': 'pub_date',
+            'retmode': 'json'
+        }
+        try:
+            resp = requests.get(base + 'esearch.fcgi', params=search_params, headers=HEADERS, timeout=15)
+            resp.raise_for_status()
+            id_list = resp.json().get('esearchresult', {}).get('idlist', [])
+            if not id_list:
+                continue
+            # 分批获取摘要（每批最多 20 个 PMID）
+            for i in range(0, len(id_list), 20):
+                batch_ids = id_list[i:i+20]
+                sum_params = {
+                    'db': 'pubmed',
+                    'id': ','.join(batch_ids),
+                    'retmode': 'json'
+                }
+                sum_resp = requests.get(base + 'esummary.fcgi', params=sum_params, headers=HEADERS, timeout=15)
+                sum_resp.raise_for_status()
+                results = sum_resp.json().get('result', {})
+                for pmid in batch_ids:
+                    paper = results.get(pmid, {})
+                    if not paper:
+                        continue
+                    title_en = paper.get('title', '未知标题')
+                    title_zh = translate_to_chinese(title_en)
+                    pubdate = paper.get('pubdate', '')
+                    # 尝试解析为日期对象
+                    try:
+                        # PubMed pubdate 格式多样，尝试提取年份-月-日
+                        date_obj = datetime.strptime(pubdate[:10], '%Y %b %d') if pubdate else None
+                    except:
+                        date_obj = None
+                    citation = f"{paper.get('source','')}. {pubdate}; {paper.get('volume','')}({paper.get('issue','')}):{paper.get('pages','')}"
+                    articles.append({
+                        'category': '權威期刊',
+                        'title_en': title_en,
+                        'title_zh': title_zh,
+                        'summary_en': '',
+                        'summary_zh': '',
+                        'source': journal,
+                        'citation': citation,
+                        'link': f'https://pubmed.ncbi.nlm.nih.gov/{pmid}/',
+                        'date': date_obj.strftime('%Y-%m-%d') if date_obj else ''
+                    })
+                time.sleep(0.3)   # 遵守 API 频率限制
+        except Exception as e:
+            print(f'抓取 {journal} 时出错: {e}')
+            continue
+
+    # 去重（按 PMID 的 link）
+    seen_links = set()
+    unique_articles = []
+    for art in articles:
+        if art['link'] not in seen_links:
+            seen_links.add(art['link'])
+            unique_articles.append(art)
+    # 按日期降序排列
+    unique_articles.sort(key=lambda x: x.get('date', ''), reverse=True)
+    return unique_articles
 
 def main():
-    all_articles = []
-    all_articles.extend(fetch_nejm())
-    all_articles.extend(fetch_pubmed())
-    if not all_articles:
-        all_articles.append({
+    articles = fetch_recent_articles(days=180, max_results=100)
+    if not articles:
+        articles.append({
             'category': '系統訊息',
             'title_en': 'No news available',
-            'title_zh': '今日無自動抓取之新聞',
-            'summary_en': 'Please try later.',
+            'title_zh': '暫無新聞',
+            'summary_en': '',
             'summary_zh': '請稍後再試。',
             'source': '永遠亭',
             'citation': '',
-            'link': ''
+            'link': '',
+            'date': datetime.now().strftime('%Y-%m-%d')
         })
     os.makedirs('data', exist_ok=True)
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump({'date': datetime.now().strftime('%Y-%m-%d'), 'articles': all_articles}, f, ensure_ascii=False, indent=2)
-    print(f'✅ 翻譯並保存 {len(all_articles)} 條新聞')
+        json.dump({'date': datetime.now().strftime('%Y-%m-%d'), 'articles': articles}, f, ensure_ascii=False, indent=2)
+    print(f'✅ 已保存 {len(articles)} 篇近 6 个月文章')
 
 if __name__ == '__main__':
     main()

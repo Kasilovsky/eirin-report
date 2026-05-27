@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -20,23 +19,35 @@
         body {
             font-family: 'Segoe UI', 'Noto Sans SC', 'PingFang SC', sans-serif;
             background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.3s;
+            overflow-x: hidden;
         }
-        .container { max-width: 600px; margin: 0 auto; padding: 16px 12px 32px; position: relative; }
-        .menu-btn {
-            position: absolute; top: 12px; right: 12px;
-            background: var(--card-bg); border: 1px solid var(--border); border-radius: 50%;
-            width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
-            cursor: pointer; font-size: 1.4em; color: var(--text); z-index: 10; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        /* 侧边栏 */
+        .sidebar {
+            position: fixed; top: 0; left: -280px; width: 280px; height: 100%;
+            background: var(--card-bg); border-right: 1px solid var(--border);
+            box-shadow: 2px 0 12px rgba(0,0,0,0.1); z-index: 1000; transition: left 0.3s ease;
+            display: flex; flex-direction: column; padding: 24px 16px;
         }
-        .popup-menu {
-            position: absolute; top: 52px; right: 12px;
-            background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.2); z-index: 20; padding: 8px 0; min-width: 180px; display: none;
+        .sidebar.open { left: 0; }
+        .sidebar-backdrop {
+            position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.35);
+            z-index: 999; display: none;
         }
-        .popup-menu.show { display: block; }
-        .popup-menu .menu-item {
-            padding: 10px 16px; display: flex; align-items: center; justify-content: space-between;
-            color: var(--text); font-size: 0.9em; cursor: pointer;
+        .sidebar-backdrop.show { display: block; }
+        .sidebar h3 { color: var(--accent); margin-bottom: 12px; font-size: 1em; }
+        .sidebar-section { margin-bottom: 24px; }
+        .sidebar-section .label { font-size: 0.8em; color: var(--subtle); margin-bottom: 8px; }
+        .filter-group { display: flex; flex-wrap: wrap; gap: 6px; }
+        .filter-group button, .filter-group .tag {
+            background: none; border: 1px solid var(--border); color: var(--text);
+            padding: 4px 12px; border-radius: 20px; cursor: pointer; font-size: 0.8em; transition: 0.2s;
+        }
+        .filter-group button.active, .filter-group .tag.active {
+            background: var(--accent); color: #fff; border-color: var(--accent);
+        }
+        .setting-row {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 8px 0; border-bottom: 1px solid var(--border);
         }
         .switch { position: relative; display: inline-block; width: 42px; height: 22px; }
         .switch input { display: none; }
@@ -45,24 +56,18 @@
         input:checked + .slider { background: var(--accent); }
         input:checked + .slider:before { transform: translateX(20px); }
 
+        /* 主界面 */
+        .container { max-width: 600px; margin: 0 auto; padding: 16px 12px 32px; position: relative; }
+        .menu-btn {
+            position: absolute; top: 12px; left: 12px;
+            background: var(--card-bg); border: 1px solid var(--border); border-radius: 50%;
+            width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
+            cursor: pointer; font-size: 1.3em; color: var(--text); z-index: 10; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
         .header { text-align: center; border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin-top: 40px; margin-bottom: 20px; }
         .header h1 { font-size: 1.8em; color: var(--accent); letter-spacing: 2px; }
         .subtitle { font-size: 0.85em; color: var(--subtle); margin-bottom: 8px; }
         .date-badge { display: inline-block; background: var(--highlight); color: #fff; padding: 4px 16px; border-radius: 20px; font-size: 0.8em; font-weight: bold; }
-
-        .filter-section { margin-bottom: 16px; }
-        .filter-label { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; text-align: center; }
-        .filter-group {
-            display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; margin-bottom: 8px;
-        }
-        .filter-group button, .filter-group .tag {
-            background: none; border: 1px solid var(--border); color: var(--text);
-            padding: 4px 12px; border-radius: 20px; cursor: pointer; font-size: 0.8em; transition: 0.2s;
-        }
-        .filter-group button.active, .filter-group .tag.active {
-            background: var(--accent); color: #fff; border-color: var(--accent);
-        }
-        .tag { user-select: none; }
 
         .pagination {
             display: flex; justify-content: center; gap: 8px; margin: 16px 0; align-items: center;
@@ -95,19 +100,42 @@
     </style>
 </head>
 <body>
-<div class="container">
-    <!-- 三点菜单 -->
-    <div class="menu-btn" id="menuBtn">⋮</div>
-    <div class="popup-menu" id="popupMenu">
-        <div class="menu-item">
+<!-- 侧边栏 -->
+<div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+<div class="sidebar" id="sidebar">
+    <h3>🔬 篩選與設定</h3>
+
+    <div class="sidebar-section">
+        <div class="label">📰 期刊選擇</div>
+        <div class="filter-group" id="journalFilter"></div>
+    </div>
+
+    <div class="sidebar-section">
+        <div class="label">⏳ 時間範圍</div>
+        <div class="filter-group" id="timeFilter">
+            <button data-range="7" class="active">一週</button>
+            <button data-range="30">一月</button>
+            <button data-range="90">三月</button>
+            <button data-range="180">六月</button>
+        </div>
+    </div>
+
+    <div class="sidebar-section">
+        <div class="label">⚙️ 設定</div>
+        <div class="setting-row">
             <span>🇨🇳 漢化顯示</span>
             <label class="switch"><input type="checkbox" id="chineseToggle" checked><span class="slider"></span></label>
         </div>
-        <div class="menu-item">
+        <div class="setting-row">
             <span>🌙 暗色模式</span>
             <label class="switch"><input type="checkbox" id="darkToggle"><span class="slider"></span></label>
         </div>
     </div>
+</div>
+
+<!-- 主页面 -->
+<div class="container">
+    <div class="menu-btn" id="menuBtn">☰</div>
 
     <div class="header">
         <div style="font-size:2em;">🏹🐇</div>
@@ -116,26 +144,10 @@
         <div class="date-badge" id="dateDisplay"></div>
     </div>
 
-    <!-- 筛选区域 -->
-    <div class="filter-section">
-        <div class="filter-label">⏳ 時間範圍</div>
-        <div class="filter-group" id="timeFilter">
-            <button data-range="7" class="active">一週</button>
-            <button data-range="30">一月</button>
-            <button data-range="90">三月</button>
-            <button data-range="180">六月</button>
-        </div>
-
-        <div class="filter-label">📰 期刊篩選</div>
-        <div class="filter-group" id="journalFilter">
-            <!-- 期刊标签由JS动态生成 -->
-        </div>
-    </div>
-
     <!-- 新闻列表 -->
     <div id="newsContainer"><p style="text-align:center; opacity:0.7;">🌸 讀取中...</p></div>
 
-    <!-- 分页控件 -->
+    <!-- 分页 -->
     <div class="pagination" id="pagination">
         <button id="prevPage">◀ 上一頁</button>
         <span class="page-info" id="pageInfo"></span>
@@ -168,7 +180,7 @@
     let currentPage = 1;
     const pageSize = 10;
     let useChinese = true;
-    let selectedJournals = new Set();   // 选中的期刊名
+    let selectedJournals = new Set();
 
     // 日期
     const today = new Date();
@@ -193,13 +205,12 @@
         renderPage();
     }
 
-    // 更新期刊标签UI
+    // 更新期刊标签
     function updateJournalTags() {
         const journalSet = new Set();
         allArticles.forEach(a => { if (a.source) journalSet.add(a.source); });
         const container = document.getElementById('journalFilter');
         container.innerHTML = '';
-        // 默认全选
         if (selectedJournals.size === 0) {
             journalSet.forEach(j => selectedJournals.add(j));
         }
@@ -275,7 +286,20 @@
         }
     }
 
-    // 事件绑定
+    // 侧边栏控制
+    const sidebar = document.getElementById('sidebar');
+    const backdrop = document.getElementById('sidebarBackdrop');
+    const menuBtn = document.getElementById('menuBtn');
+    menuBtn.addEventListener('click', () => {
+        sidebar.classList.add('open');
+        backdrop.classList.add('show');
+    });
+    backdrop.addEventListener('click', () => {
+        sidebar.classList.remove('open');
+        backdrop.classList.remove('show');
+    });
+
+    // 时间筛选（侧边栏内）
     document.getElementById('timeFilter').addEventListener('click', (e) => {
         if (e.target.tagName === 'BUTTON') {
             document.querySelectorAll('#timeFilter button').forEach(b => b.classList.remove('active'));
@@ -285,6 +309,7 @@
         }
     });
 
+    // 分页
     document.getElementById('prevPage').addEventListener('click', () => {
         if (currentPage > 1) { currentPage--; renderPage(); }
     });
@@ -293,6 +318,7 @@
         if (currentPage < totalPages) { currentPage++; renderPage(); }
     });
 
+    // 复制速报
     document.getElementById('copyAllBtn').addEventListener('click', () => {
         const start = (currentPage - 1) * pageSize;
         const pageArticles = filteredArticles.slice(start, start + pageSize);
@@ -308,13 +334,7 @@
         navigator.clipboard.writeText(text).then(() => alert('速報已複製')).catch(() => alert('複製失敗'));
     });
 
-    // 三点菜单
-    const menuBtn = document.getElementById('menuBtn');
-    const popupMenu = document.getElementById('popupMenu');
-    menuBtn.addEventListener('click', e => { e.stopPropagation(); popupMenu.classList.toggle('show'); });
-    document.addEventListener('click', () => popupMenu.classList.remove('show'));
-    popupMenu.addEventListener('click', e => e.stopPropagation());
-
+    // 汉化与暗色模式
     const chineseToggle = document.getElementById('chineseToggle');
     const darkToggle = document.getElementById('darkToggle');
     chineseToggle.checked = useChinese;

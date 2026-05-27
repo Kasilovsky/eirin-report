@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 OUTPUT_FILE = 'data/news.json'
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
-JOURNALS = ['N Engl J Med', 'Lancet', 'JAMA']  # 可自行增删
+JOURNALS = ['N Engl J Med', 'Lancet', 'JAMA']  # 可自行增刪
 
 def translate_to_chinese(text):
     if not text or len(text.strip()) == 0:
@@ -24,7 +24,6 @@ def translate_to_chinese(text):
         return text
 
 def fetch_recent_articles(days=180, max_results=100):
-    """使用 PubMed E-utilities 获取指定天数内特定期刊的文章"""
     end_date = datetime.now()
     start_date = end_date - timedelta(days=days)
     mindate = start_date.strftime('%Y/%m/%d')
@@ -34,7 +33,6 @@ def fetch_recent_articles(days=180, max_results=100):
     articles = []
 
     for journal in JOURNALS:
-        # 搜索该期刊在日期范围内的 PMID 列表
         search_term = f'"{journal}"[Journal] AND ("{mindate}"[Date - Publication] : "{maxdate}"[Date - Publication])'
         search_params = {
             'db': 'pubmed',
@@ -49,7 +47,7 @@ def fetch_recent_articles(days=180, max_results=100):
             id_list = resp.json().get('esearchresult', {}).get('idlist', [])
             if not id_list:
                 continue
-            # 分批获取摘要（每批最多 20 个 PMID）
+            # 分批獲取摘要（每批最多 20 個 PMID）
             for i in range(0, len(id_list), 20):
                 batch_ids = id_list[i:i+20]
                 sum_params = {
@@ -67,13 +65,22 @@ def fetch_recent_articles(days=180, max_results=100):
                     title_en = paper.get('title', '未知标题')
                     title_zh = translate_to_chinese(title_en)
                     pubdate = paper.get('pubdate', '')
-                    # 尝试解析为日期对象
                     try:
-                        # PubMed pubdate 格式多样，尝试提取年份-月-日
                         date_obj = datetime.strptime(pubdate[:10], '%Y %b %d') if pubdate else None
                     except:
                         date_obj = None
+
+                    # 作者處理（取前5位）
+                    authors_list = paper.get('authors', [])
+                    author_names = [a.get('name', '') for a in authors_list[:5]]
+                    authors_str = ', '.join(author_names)
+
+                    # DOI 處理
+                    doi_raw = paper.get('elocationid', '')
+                    doi = doi_raw.replace('doi: ', '') if doi_raw.lower().startswith('doi:') else ''
+
                     citation = f"{paper.get('source','')}. {pubdate}; {paper.get('volume','')}({paper.get('issue','')}):{paper.get('pages','')}"
+
                     articles.append({
                         'category': '權威期刊',
                         'title_en': title_en,
@@ -83,21 +90,22 @@ def fetch_recent_articles(days=180, max_results=100):
                         'source': journal,
                         'citation': citation,
                         'link': f'https://pubmed.ncbi.nlm.nih.gov/{pmid}/',
-                        'date': date_obj.strftime('%Y-%m-%d') if date_obj else ''
+                        'date': date_obj.strftime('%Y-%m-%d') if date_obj else '',
+                        'authors': authors_str,
+                        'doi': doi
                     })
-                time.sleep(0.3)   # 遵守 API 频率限制
+                time.sleep(0.3)   # 遵守 API 頻率限制
         except Exception as e:
-            print(f'抓取 {journal} 时出错: {e}')
+            print(f'抓取 {journal} 時出錯: {e}')
             continue
 
-    # 去重（按 PMID 的 link）
+    # 去重（按 link）
     seen_links = set()
     unique_articles = []
     for art in articles:
         if art['link'] not in seen_links:
             seen_links.add(art['link'])
             unique_articles.append(art)
-    # 按日期降序排列
     unique_articles.sort(key=lambda x: x.get('date', ''), reverse=True)
     return unique_articles
 
@@ -113,12 +121,14 @@ def main():
             'source': '永遠亭',
             'citation': '',
             'link': '',
-            'date': datetime.now().strftime('%Y-%m-%d')
+            'date': datetime.now().strftime('%Y-%m-%d'),
+            'authors': '',
+            'doi': ''
         })
     os.makedirs('data', exist_ok=True)
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump({'date': datetime.now().strftime('%Y-%m-%d'), 'articles': articles}, f, ensure_ascii=False, indent=2)
-    print(f'✅ 已保存 {len(articles)} 篇近 6 个月文章')
+    print(f'✅ 已保存 {len(articles)} 篇近 6 個月文章')
 
 if __name__ == '__main__':
     main()

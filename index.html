@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -7,61 +6,106 @@
     <title>永遠亭 医療報告 · 八意永琳</title>
     <style>
         :root {
-            --bg: #ffffff; --text: #1e293b; --card-bg: #fdfdfd; --border: #cbd5e1;
-            --accent: #1e3a5f; --highlight: #b91c1c; --subtle: #64748b;
+            --bg: #ffffff;
+            --text: #1e293b;
+            --card-bg: #fdfdfd;
+            --border: #cbd5e1;
+            --accent: #1e3a5f;
+            --highlight: #b91c1c;
+            --subtle: #64748b;
             --shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
         body.dark {
-            --bg: #0f172a; --text: #e2e8f0; --card-bg: #1e293b; --border: #334155;
-            --accent: #38bdf8; --highlight: #f87171; --subtle: #94a3b8;
+            --bg: #0f172a;
+            --text: #e2e8f0;
+            --card-bg: #1e293b;
+            --border: #334155;
+            --accent: #38bdf8;
+            --highlight: #f87171;
+            --subtle: #94a3b8;
             --shadow: 0 2px 12px rgba(0,0,0,0.4);
         }
         * { margin:0; padding:0; box-sizing:border-box; }
         body {
-            font-family: 'Segoe UI', 'Noto Sans SC', 'PingFang SC', sans-serif;
-            background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.3s;
+            font-family: 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            transition: background 0.3s;
         }
-        .container { max-width: 600px; margin: 0 auto; padding: 16px 12px 32px; position: relative; }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 16px 12px 32px;
+            position: relative;
+        }
+        /* 三点菜单按钮 */
+        .menu-btn {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.4em;
+            color: var(--text);
+            z-index: 10;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            transition: background 0.2s;
+        }
+        .menu-btn:hover { background: var(--border); }
 
-        .top-bar { display: flex; justify-content: flex-end; margin-bottom: 6px; gap: 8px; }
-        .icon-btn {
-            background: none; border: none; font-size: 1.2em; cursor: pointer; color: var(--subtle);
-            padding: 4px 8px; border-radius: 20px;
+        /* 弹出菜单 */
+        .popup-menu {
+            position: absolute;
+            top: 52px;
+            right: 12px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+            z-index: 20;
+            padding: 8px 0;
+            min-width: 180px;
+            display: none;
         }
-        .icon-btn:hover { background: var(--border); }
+        .popup-menu.show { display: block; }
+        .popup-menu .menu-item {
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: var(--text);
+            font-size: 0.9em;
+            cursor: pointer;
+        }
+        .popup-menu .menu-item:hover { background: var(--border); }
+        .popup-menu .divider {
+            border-bottom: 1px solid var(--border);
+            margin: 4px 0;
+        }
 
-        /* 设置面板 - 从右上角滑出 */
-        .settings-panel {
-            position: fixed; top: 0; right: -320px; width: 280px; height: 100vh;
-            background: var(--card-bg); border-left: 1px solid var(--border);
-            box-shadow: -4px 0 20px rgba(0,0,0,0.2); z-index: 999;
-            padding: 24px 20px; transition: right 0.3s ease;
-        }
-        .settings-panel.open { right: 0; }
-        .settings-backdrop {
-            position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.3);
-            z-index: 998; display: none;
-        }
-        .settings-backdrop.show { display: block; }
-        .settings-panel h3 { margin-bottom: 16px; color: var(--accent); }
-        .setting-row {
-            display: flex; justify-content: space-between; align-items: center;
-            padding: 12px 0; border-bottom: 1px solid var(--border);
-        }
-        .switch { position: relative; display: inline-block; width: 44px; height: 24px; }
+        /* 开关组件 */
+        .switch { position: relative; display: inline-block; width: 42px; height: 22px; }
         .switch input { display: none; }
         .slider {
             position: absolute; cursor: pointer; top:0; left:0; right:0; bottom:0;
-            background: #ccc; border-radius: 24px; transition: 0.3s;
+            background: #ccc; border-radius: 22px; transition: 0.3s;
         }
         .slider:before {
-            position: absolute; content:""; height: 18px; width: 18px;
+            position: absolute; content:""; height: 16px; width: 16px;
             left: 3px; bottom: 3px; background: white; border-radius: 50%; transition: 0.3s;
         }
         input:checked + .slider { background: var(--accent); }
         input:checked + .slider:before { transform: translateX(20px); }
 
-        .header { text-align: center; border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin-bottom: 20px; }
+        .header { text-align: center; border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin-top: 40px; margin-bottom: 20px; }
         .header h1 { font-size: 1.8em; color: var(--accent); letter-spacing: 2px; margin-bottom: 4px; }
         .header .subtitle { font-size: 0.85em; color: var(--subtle); margin-bottom: 8px; }
         .date-badge { display: inline-block; background: var(--highlight); color: #fff; padding: 4px 16px; border-radius: 20px; font-size: 0.8em; font-weight: bold; }
@@ -80,23 +124,51 @@
         .news-citation { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; font-style: italic; }
         .news-summary { font-size: 0.9em; color: var(--text); opacity: 0.85; margin-bottom: 10px; }
         .news-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-        .btn-sm { background: var(--accent); color: #fff; border: none; padding: 4px 12px; border-radius: 16px; font-size: 0.75em; cursor: pointer; text-decoration: none; display: inline-block; }
+        .btn-sm {
+            background: var(--accent); color: #fff; border: none; padding: 4px 12px;
+            border-radius: 16px; font-size: 0.75em; cursor: pointer; text-decoration: none; display: inline-block;
+        }
         .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
         .actions-bar { margin-top: 20px; text-align: center; }
-        .btn { background: var(--accent); color: #fff; border: none; padding: 10px 24px; border-radius: 24px; font-size: 0.9em; cursor: pointer; }
-        .resources { margin-top: 24px; padding: 14px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; text-align: center; }
+        .btn {
+            background: var(--accent); color: #fff; border: none; padding: 10px 24px;
+            border-radius: 24px; font-size: 0.9em; cursor: pointer; transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.9; }
+        .resources {
+            margin-top: 24px; padding: 14px; background: var(--card-bg);
+            border: 1px solid var(--border); border-radius: 12px; text-align: center;
+        }
         .resources h3 { color: var(--accent); font-size: 0.95em; margin-bottom: 10px; }
         .resource-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
-        .resource-links a { color: var(--accent); text-decoration: none; border: 1px solid var(--border); padding: 4px 12px; border-radius: 16px; font-size: 0.8em; }
+        .resource-links a {
+            color: var(--accent); text-decoration: none; border: 1px solid var(--border);
+            padding: 4px 12px; border-radius: 16px; font-size: 0.8em;
+        }
         .footer { text-align: center; margin-top: 16px; font-size: 0.7em; color: var(--subtle); }
     </style>
 </head>
 <body>
 <div class="container">
-    <!-- 顶部工具栏 -->
-    <div class="top-bar">
-        <button class="icon-btn" onclick="toggleTheme()" title="切换暗色模式">🌓</button>
-        <button class="icon-btn" id="settingsBtn" title="设置">⚙️</button>
+    <!-- 三点菜单按钮 -->
+    <div class="menu-btn" id="menuBtn">⋮</div>
+    <!-- 弹出菜单 -->
+    <div class="popup-menu" id="popupMenu">
+        <div class="menu-item" id="chineseItem">
+            <span>🇨🇳 漢化顯示</span>
+            <label class="switch">
+                <input type="checkbox" id="chineseToggle" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="divider"></div>
+        <div class="menu-item" id="darkItem">
+            <span>🌙 暗色模式</span>
+            <label class="switch">
+                <input type="checkbox" id="darkToggle">
+                <span class="slider"></span>
+            </label>
+        </div>
     </div>
 
     <div class="header">
@@ -106,18 +178,22 @@
         <div class="date-badge" id="dateDisplay"></div>
     </div>
 
+    <!-- 来源筛选 -->
     <div class="filter-bar" id="filterBar">
         <button class="filter-btn active" data-filter="all">全部</button>
         <button class="filter-btn" data-filter="NEJM">NEJM</button>
         <button class="filter-btn" data-filter="PubMed">PubMed</button>
     </div>
 
+    <!-- 新闻列表 -->
     <div id="newsContainer"><p style="text-align:center; opacity:0.7;">🌸 讀取中...</p></div>
 
+    <!-- 操作按钮 -->
     <div class="actions-bar">
         <button class="btn" id="copyAllBtn">📋 複製今日速報文本</button>
     </div>
 
+    <!-- 医学资源 -->
     <div class="resources">
         <h3>📚 醫學資源</h3>
         <div class="resource-links">
@@ -132,33 +208,13 @@
     <div class="footer">© 永遠亭 令和時代醫療速報 · 每日自動更新</div>
 </div>
 
-<!-- 设置面板（隐藏） -->
-<div class="settings-backdrop" id="settingsBackdrop"></div>
-<div class="settings-panel" id="settingsPanel">
-    <h3>⚙️ 顯示設定</h3>
-    <div class="setting-row">
-        <span>啟用漢化</span>
-        <label class="switch">
-            <input type="checkbox" id="translateToggle" checked>
-            <span class="slider"></span>
-        </label>
-    </div>
-    <div class="setting-row">
-        <span>暗色模式</span>
-        <label class="switch">
-            <input type="checkbox" id="darkToggle">
-            <span class="slider"></span>
-        </label>
-    </div>
-    <button class="btn" style="width:100%; margin-top:20px;" onclick="closeSettings()">關閉</button>
-</div>
-
 <script>
+    // ---------- 全局变量 ----------
     let allArticles = [];
     let currentFilter = 'all';
-    let useChinese = true;   // 默认中文
+    let useChinese = true;
 
-    // 日期
+    // ---------- 日期设置 ----------
     (function(){
         const now = new Date();
         const y = now.getFullYear();
@@ -167,8 +223,12 @@
         document.getElementById('dateDisplay').textContent = `令和${y-2018}年（${y}）${m}月${d}日`;
     })();
 
-    function escapeHtml(text) { return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"'); }
+    // ---------- 工具函数 ----------
+    function escapeHtml(text) {
+        return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"');
+    }
 
+    // ---------- 新闻渲染 ----------
     function renderNews(articles) {
         const container = document.getElementById('newsContainer');
         if (!articles.length) {
@@ -195,6 +255,7 @@
         container.innerHTML = html;
     }
 
+    // 筛选
     function applyFilter(filter) {
         currentFilter = filter;
         document.querySelectorAll('.filter-btn').forEach(btn => {
@@ -205,9 +266,12 @@
     }
 
     document.getElementById('filterBar').addEventListener('click', (e) => {
-        if (e.target.classList.contains('filter-btn')) applyFilter(e.target.dataset.filter);
+        if (e.target.classList.contains('filter-btn')) {
+            applyFilter(e.target.dataset.filter);
+        }
     });
 
+    // 加载新闻
     async function loadNews() {
         try {
             const res = await fetch('https://raw.githubusercontent.com/Kasilovsky/eirin-report/main/data/news.json');
@@ -220,6 +284,7 @@
         }
     }
 
+    // 复制单条
     function copySingle(idx) {
         const a = allArticles[idx];
         if (!a) return;
@@ -228,6 +293,7 @@
         navigator.clipboard.writeText(text).then(() => alert('已複製引用')).catch(() => alert('複製失敗'));
     }
 
+    // 复制全部速报
     document.getElementById('copyAllBtn').addEventListener('click', () => {
         if (!allArticles.length) return alert('暫無新聞');
         let text = `【永遠亭 医療速報】${document.getElementById('dateDisplay').textContent}\n`;
@@ -241,47 +307,47 @@
         navigator.clipboard.writeText(text).then(() => alert('速報文本已複製')).catch(() => alert('複製失敗'));
     });
 
-    // ---------- 设置面板逻辑 ----------
-    const settingsPanel = document.getElementById('settingsPanel');
-    const settingsBackdrop = document.getElementById('settingsBackdrop');
-    const translateToggle = document.getElementById('translateToggle');
+    // ---------- 弹出菜单逻辑 ----------
+    const menuBtn = document.getElementById('menuBtn');
+    const popupMenu = document.getElementById('popupMenu');
+    const chineseToggle = document.getElementById('chineseToggle');
     const darkToggle = document.getElementById('darkToggle');
 
-    function openSettings() {
-        settingsPanel.classList.add('open');
-        settingsBackdrop.classList.add('show');
-    }
-    function closeSettings() {
-        settingsPanel.classList.remove('open');
-        settingsBackdrop.classList.remove('show');
-    }
-    document.getElementById('settingsBtn').addEventListener('click', openSettings);
-    settingsBackdrop.addEventListener('click', closeSettings);
+    // 点击三点按钮切换菜单显示
+    menuBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        popupMenu.classList.toggle('show');
+    });
 
-    // 翻译开关
-    translateToggle.checked = useChinese;
-    translateToggle.addEventListener('change', function() {
+    // 点击页面其他地方关闭菜单
+    document.addEventListener('click', () => {
+        popupMenu.classList.remove('show');
+    });
+
+    // 汉化开关
+    chineseToggle.checked = useChinese;
+    chineseToggle.addEventListener('change', function(e) {
+        e.stopPropagation();
         useChinese = this.checked;
         applyFilter(currentFilter);
     });
 
-    // 暗色模式开关（与之前按钮联动）
+    // 暗色模式开关
     darkToggle.checked = document.body.classList.contains('dark');
-    darkToggle.addEventListener('change', function() {
+    darkToggle.addEventListener('change', function(e) {
+        e.stopPropagation();
         document.body.classList.toggle('dark', this.checked);
         localStorage.setItem('theme', this.checked ? 'dark' : 'light');
     });
 
-    function toggleTheme() {
-        const dark = !document.body.classList.contains('dark');
-        document.body.classList.toggle('dark', dark);
-        darkToggle.checked = dark;
-        localStorage.setItem('theme', dark ? 'dark' : 'light');
-    }
+    // 初始化暗色模式
     if (localStorage.getItem('theme') === 'dark') {
         document.body.classList.add('dark');
         darkToggle.checked = true;
     }
+
+    // 阻止菜单内部点击关闭
+    popupMenu.addEventListener('click', (e) => e.stopPropagation());
 
     // 初始加载
     loadNews();

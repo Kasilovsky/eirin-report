@@ -25,11 +25,10 @@
             border-radius: 8px; cursor: pointer; font-size: 0.9em;
         }
 
-        /* 可折叠发帖区 */
         .compose-box {
             background: white; border-radius: 8px; padding: 16px; margin-bottom: 20px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            display: none; /* 默认隐藏 */
+            display: none;
         }
         .compose-box.show { display: block; }
         .compose-box input, .compose-box textarea {
@@ -51,12 +50,31 @@
 
         .issue-card {
             background: white; border-radius: 8px; padding: 16px; margin-bottom: 12px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05); text-decoration: none; color: inherit;
-            display: block;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+            transition: box-shadow 0.2s;
         }
-        .issue-title { font-weight: bold; margin-bottom: 4px; }
-        .issue-meta { font-size: 0.8em; color: #6b5b4b; }
+        .issue-title { font-weight: bold; margin-bottom: 4px; color: #2f2418; }
+        .issue-meta { font-size: 0.8em; color: #6b5b4b; margin-bottom: 8px; }
+        .reply-area { margin-top: 12px; display: none; }
+        .reply-area.show { display: block; }
+        .reply-area textarea {
+            width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px;
+            font-family: inherit; font-size: 0.9em; resize: vertical; margin-bottom: 8px;
+        }
+        .reply-actions { display: flex; gap: 8px; justify-content: flex-end; }
+        .reply-btn {
+            background: #1e3a5f; color: white; border: none;
+            padding: 6px 14px; border-radius: 20px; font-size: 0.85em; cursor: pointer;
+        }
+        .reply-btn:hover { background: #b91c1c; }
+        .cancel-reply-btn {
+            background: #e0d7c6; border: none; padding: 6px 14px;
+            border-radius: 20px; font-size: 0.85em; cursor: pointer;
+        }
         .loading { text-align: center; color: #8b7b6b; padding: 40px; }
+        .info-text {
+            font-size: 0.8em; color: #8b7b6b; text-align: center; margin-top: 8px;
+        }
     </style>
 </head>
 <body>
@@ -70,7 +88,6 @@
         <button class="refresh-btn" onclick="loadIssues()">🔄 重新整理</button>
     </div>
 
-    <!-- 可折叠发帖区 -->
     <div class="compose-box" id="composeBox">
         <h3 style="margin-bottom:12px;">✏️ 發表新話題</h3>
         <input type="text" id="issueTitle" placeholder="標題">
@@ -88,16 +105,18 @@
 
     <div id="issues-container"><div class="loading">🌸 載入討論中...</div></div>
 
+    <div class="info-text">
+        💡 點擊卡片標題可跳轉至 GitHub 查看詳情。使用下方「💬 快速回覆」無需離開本頁。
+    </div>
+
     <script>
         const repo = 'Kasilovsky/eirin-report';
         let personalToken = localStorage.getItem('gh_token') || '';
 
-        // 自动填入已保存的 Token
         if (personalToken) {
             document.getElementById('tokenInput').value = personalToken;
         }
 
-        // 折叠/展开发帖区
         const composeBox = document.getElementById('composeBox');
         const toggleBtn = document.getElementById('toggleComposeBtn');
         toggleBtn.addEventListener('click', () => {
@@ -134,7 +153,7 @@
                 document.getElementById('issueBody').value = '';
                 composeBox.classList.remove('show');
                 toggleBtn.textContent = '✚ 發佈新帖';
-                loadIssues(); // 刷新列表
+                loadIssues();
             } else {
                 const err = await res.json();
                 alert('❌ 發佈失敗: ' + err.message);
@@ -155,25 +174,77 @@
                         container.innerHTML = '<div class="loading">🌿 暫無討論，來發第一帖吧！</div>';
                         return;
                     }
-                    container.innerHTML = issues.map(issue => `
-                        <a class="issue-card" href="${issue.html_url}" target="_blank">
-                            <div class="issue-title">${escapeHtml(issue.title)}</div>
-                            <div class="issue-meta">
-                                #${issue.number} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()} · ${issue.state === 'open' ? '🟢 開放' : '🔴 已關閉'}
+                    container.innerHTML = issues.map(issue => {
+                        const issueNumber = issue.number;
+                        const htmlUrl = issue.html_url;
+                        return `
+                        <div class="issue-card">
+                            <div class="issue-title" onclick="window.open('${htmlUrl}', '_blank')" style="cursor:pointer; text-decoration:underline;">
+                                ${escapeHtml(issue.title)}
                             </div>
-                        </a>
-                    `).join('');
+                            <div class="issue-meta">
+                                #${issueNumber} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()} · ${issue.state === 'open' ? '🟢 開放' : '🔴 已關閉'}
+                            </div>
+                            <div class="reply-actions">
+                                <button class="reply-btn" onclick="toggleReply(${issueNumber})">💬 快速回覆</button>
+                            </div>
+                            <div class="reply-area" id="reply-area-${issueNumber}">
+                                <textarea id="reply-body-${issueNumber}" placeholder="輸入你的回覆..."></textarea>
+                                <div class="reply-actions">
+                                    <button class="cancel-reply-btn" onclick="toggleReply(${issueNumber})">取消</button>
+                                    <button class="reply-btn" onclick="submitReply(${issueNumber})">送出回覆</button>
+                                </div>
+                            </div>
+                        </div>
+                        `;
+                    }).join('');
                 })
                 .catch(err => {
                     container.innerHTML = `<div class="loading">⚠️ ${err.message}</div>`;
                 });
         }
 
+        function toggleReply(issueNumber) {
+            const area = document.getElementById(`reply-area-${issueNumber}`);
+            if (!area) return;
+            area.classList.toggle('show');
+            if (area.classList.contains('show')) {
+                document.getElementById(`reply-body-${issueNumber}`).focus();
+            }
+        }
+
+        async function submitReply(issueNumber) {
+            const token = personalToken || document.getElementById('tokenInput').value.trim();
+            if (!token) {
+                alert('請先設定你的 GitHub Token。');
+                return;
+            }
+            const body = document.getElementById(`reply-body-${issueNumber}`).value.trim();
+            if (!body) return alert('請輸入回覆內容');
+
+            const res = await fetch(`https://api.github.com/repos/${repo}/issues/${issueNumber}/comments`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `token ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ body })
+            });
+
+            if (res.ok) {
+                alert('✅ 回覆成功！');
+                document.getElementById(`reply-body-${issueNumber}`).value = '';
+                toggleReply(issueNumber); // 收起回复框
+            } else {
+                const err = await res.json();
+                alert('❌ 回覆失敗: ' + err.message);
+            }
+        }
+
         function escapeHtml(text) {
             return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"');
         }
 
-        // 页面加载时立即获取帖子列表
         loadIssues();
     </script>
 </body>

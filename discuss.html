@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>竹林茶會 · 討論板</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Noto Sans SC', sans-serif;
+            background: #f5f0e7; color: #3e3232;
+            max-width: 600px; margin: 0 auto; padding: 20px;
+        }
+        .header { text-align: center; margin-bottom: 20px; }
+        .header h1 { color: #4a3620; }
+        .post-btn {
+            display: block; width: 100%; background: #1e3a5f; color: white; border: none;
+            padding: 12px; border-radius: 8px; font-size: 1.1em; cursor: pointer; margin-bottom: 20px;
+        }
+        .issue-card {
+            background: white; border-radius: 8px; padding: 16px; margin-bottom: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05); text-decoration: none; color: inherit;
+            display: block;
+        }
+        .issue-title { font-weight: bold; margin-bottom: 4px; }
+        .issue-meta { font-size: 0.8em; color: #6b5b4b; }
+        .loading { text-align: center; color: #8b7b6b; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎋 竹林茶會</h1>
+        <p>永遠亭醫療報告 · 群友討論區</p>
+    </div>
+    <button class="post-btn" onclick="window.open('https://github.com/Kasilovsky/eirin-report/issues/new', '_blank')">＋ 發佈新帖</button>
+    <div id="issues-container"><div class="loading">載入討論中...</div></div>
+
+    <script>
+        const repo = 'Kasilovsky/eirin-report';
+        fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=30`)
+            .then(res => res.json())
+            .then(issues => {
+                const container = document.getElementById('issues-container');
+                if (!issues.length) {
+                    container.innerHTML = '<p class="loading">暫無討論，來發第一帖吧！</p>';
+                    return;
+                }
+                container.innerHTML = issues.map(issue => `
+                    <a class="issue-card" href="${issue.html_url}" target="_blank">
+                        <div class="issue-title">${issue.title}</div>
+                        <div class="issue-meta">#${issue.number} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()} · ${issue.state}</div>
+                    </a>
+                `).join('');
+            })
+            .catch(err => {
+                document.getElementById('issues-container').innerHTML = '<p class="loading">⚠️ 無法載入討論</p>';
+            });
+    </script>
+</body>
+</html>

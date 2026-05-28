@@ -12,10 +12,43 @@
         }
         .header { text-align: center; margin-bottom: 20px; }
         .header h1 { color: #4a3620; }
-        .post-btn {
-            display: block; width: 100%; background: #1e3a5f; color: white; border: none;
-            padding: 12px; border-radius: 8px; font-size: 1.1em; cursor: pointer; margin-bottom: 20px;
+        .action-bar {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 20px;
         }
+        .toggle-btn {
+            background: #1e3a5f; color: white; border: none;
+            padding: 10px 20px; border-radius: 8px; font-size: 1em; cursor: pointer;
+        }
+        .refresh-btn {
+            background: #e0d7c6; border: none; padding: 10px 16px;
+            border-radius: 8px; cursor: pointer; font-size: 0.9em;
+        }
+
+        /* 可折叠发帖区 */
+        .compose-box {
+            background: white; border-radius: 8px; padding: 16px; margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            display: none; /* 默认隐藏 */
+        }
+        .compose-box.show { display: block; }
+        .compose-box input, .compose-box textarea {
+            width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc;
+            border-radius: 6px; font-family: inherit; font-size: 0.95em;
+        }
+        .compose-box textarea { height: 120px; resize: vertical; }
+        .token-row {
+            display: flex; gap: 8px; align-items: center; margin-bottom: 4px;
+        }
+        .token-row input { flex: 1; margin-bottom: 0; }
+        .submit-btn {
+            background: #b91c1c; color: white; border: none; padding: 8px 20px;
+            border-radius: 6px; cursor: pointer; font-weight: bold;
+        }
+        .note {
+            font-size: 0.75em; color: #8b7b6b; margin-top: 8px;
+        }
+
         .issue-card {
             background: white; border-radius: 8px; padding: 16px; margin-bottom: 12px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.05); text-decoration: none; color: inherit;
@@ -23,25 +56,7 @@
         }
         .issue-title { font-weight: bold; margin-bottom: 4px; }
         .issue-meta { font-size: 0.8em; color: #6b5b4b; }
-        .loading { text-align: center; color: #8b7b6b; }
-
-        .compose-box {
-            background: white; border-radius: 8px; padding: 16px; margin-bottom: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        }
-        .compose-box input, .compose-box textarea {
-            width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc;
-            border-radius: 6px; font-family: inherit; font-size: 0.95em;
-        }
-        .compose-box textarea { height: 100px; resize: vertical; }
-        .token-input { display: flex; gap: 8px; align-items: center; }
-        .token-input input { flex: 1; }
-        .small-btn {
-            background: #e0d7c6; border: none; padding: 8px 16px; border-radius: 6px;
-            cursor: pointer; font-size: 0.85em;
-        }
-        .small-btn.primary { background: #1e3a5f; color: white; }
-        .note { font-size: 0.75em; color: #8b7b6b; margin-top: 4px; }
+        .loading { text-align: center; color: #8b7b6b; padding: 40px; }
     </style>
 </head>
 <body>
@@ -50,32 +65,50 @@
         <p>永遠亭醫療報告 · 群友討論區</p>
     </div>
 
+    <div class="action-bar">
+        <button class="toggle-btn" id="toggleComposeBtn">✚ 發佈新帖</button>
+        <button class="refresh-btn" onclick="loadIssues()">🔄 重新整理</button>
+    </div>
+
+    <!-- 可折叠发帖区 -->
     <div class="compose-box" id="composeBox">
-        <h3>✏️ 快速發帖</h3>
+        <h3 style="margin-bottom:12px;">✏️ 發表新話題</h3>
         <input type="text" id="issueTitle" placeholder="標題">
         <textarea id="issueBody" placeholder="內容（支援 Markdown，可直接拖曳圖片至此）"></textarea>
-        <div class="token-input">
+        <div class="token-row">
             <input type="password" id="tokenInput" placeholder="GitHub Token (只需設定一次)">
-            <button class="small-btn primary" onclick="submitIssue()">發佈</button>
+            <button class="submit-btn" onclick="submitIssue()">發佈</button>
         </div>
         <div class="note">
-            🔑 需要 GitHub 個人存取權杖 (Token) 才能發文。 
-            <a href="https://github.com/settings/tokens/new?scopes=repo&description=eirin-discuss" target="_blank">點此建立 Token</a>（只需勾選 repo 權限）。
-            之後會自動儲存在本機。
+            🔑 需要 GitHub 個人存取權杖 (Token) 才能發文。<br>
+            <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=eirin-discuss" target="_blank">點此建立 Token</a>（勾選 `public_repo` 權限）。<br>
+            Token 會安全儲存在你的瀏覽器中。
         </div>
     </div>
 
-    <button class="post-btn" onclick="document.getElementById('composeBox').scrollIntoView()">✚ 撰寫新帖</button>
-
-    <div id="issues-container"><div class="loading">載入討論中...</div></div>
+    <div id="issues-container"><div class="loading">🌸 載入討論中...</div></div>
 
     <script>
         const repo = 'Kasilovsky/eirin-report';
         let personalToken = localStorage.getItem('gh_token') || '';
 
+        // 自动填入已保存的 Token
         if (personalToken) {
             document.getElementById('tokenInput').value = personalToken;
         }
+
+        // 折叠/展开发帖区
+        const composeBox = document.getElementById('composeBox');
+        const toggleBtn = document.getElementById('toggleComposeBtn');
+        toggleBtn.addEventListener('click', () => {
+            composeBox.classList.toggle('show');
+            if (composeBox.classList.contains('show')) {
+                document.getElementById('issueTitle').focus();
+                toggleBtn.textContent = '✖ 取消發帖';
+            } else {
+                toggleBtn.textContent = '✚ 發佈新帖';
+            }
+        });
 
         async function submitIssue() {
             const title = document.getElementById('issueTitle').value.trim();
@@ -95,38 +128,52 @@
             });
 
             if (res.ok) {
-                alert('發佈成功！');
+                alert('✅ 發佈成功！');
                 localStorage.setItem('gh_token', token);
                 document.getElementById('issueTitle').value = '';
                 document.getElementById('issueBody').value = '';
-                loadIssues();
+                composeBox.classList.remove('show');
+                toggleBtn.textContent = '✚ 發佈新帖';
+                loadIssues(); // 刷新列表
             } else {
                 const err = await res.json();
-                alert('發佈失敗: ' + err.message);
+                alert('❌ 發佈失敗: ' + err.message);
             }
         }
 
         function loadIssues() {
-            fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=30`)
-                .then(res => res.json())
+            const container = document.getElementById('issues-container');
+            container.innerHTML = '<div class="loading">🌸 載入中...</div>';
+
+            fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=30&sort=created&direction=desc`)
+                .then(res => {
+                    if (!res.ok) throw new Error('無法讀取討論');
+                    return res.json();
+                })
                 .then(issues => {
-                    const container = document.getElementById('issues-container');
                     if (!issues.length) {
-                        container.innerHTML = '<p class="loading">暫無討論，來發第一帖吧！</p>';
+                        container.innerHTML = '<div class="loading">🌿 暫無討論，來發第一帖吧！</div>';
                         return;
                     }
                     container.innerHTML = issues.map(issue => `
                         <a class="issue-card" href="${issue.html_url}" target="_blank">
-                            <div class="issue-title">${issue.title}</div>
-                            <div class="issue-meta">#${issue.number} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()} · ${issue.state}</div>
+                            <div class="issue-title">${escapeHtml(issue.title)}</div>
+                            <div class="issue-meta">
+                                #${issue.number} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()} · ${issue.state === 'open' ? '🟢 開放' : '🔴 已關閉'}
+                            </div>
                         </a>
                     `).join('');
                 })
                 .catch(err => {
-                    document.getElementById('issues-container').innerHTML = '<p class="loading">⚠️ 無法載入討論</p>';
+                    container.innerHTML = `<div class="loading">⚠️ ${err.message}</div>`;
                 });
         }
 
+        function escapeHtml(text) {
+            return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"');
+        }
+
+        // 页面加载时立即获取帖子列表
         loadIssues();
     </script>
 </body>

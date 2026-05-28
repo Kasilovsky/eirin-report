@@ -24,6 +24,24 @@
         .issue-title { font-weight: bold; margin-bottom: 4px; }
         .issue-meta { font-size: 0.8em; color: #6b5b4b; }
         .loading { text-align: center; color: #8b7b6b; }
+
+        .compose-box {
+            background: white; border-radius: 8px; padding: 16px; margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .compose-box input, .compose-box textarea {
+            width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc;
+            border-radius: 6px; font-family: inherit; font-size: 0.95em;
+        }
+        .compose-box textarea { height: 100px; resize: vertical; }
+        .token-input { display: flex; gap: 8px; align-items: center; }
+        .token-input input { flex: 1; }
+        .small-btn {
+            background: #e0d7c6; border: none; padding: 8px 16px; border-radius: 6px;
+            cursor: pointer; font-size: 0.85em;
+        }
+        .small-btn.primary { background: #1e3a5f; color: white; }
+        .note { font-size: 0.75em; color: #8b7b6b; margin-top: 4px; }
     </style>
 </head>
 <body>
@@ -31,29 +49,85 @@
         <h1>🎋 竹林茶會</h1>
         <p>永遠亭醫療報告 · 群友討論區</p>
     </div>
-    <button class="post-btn" onclick="window.open('https://github.com/Kasilovsky/eirin-report/issues/new', '_blank')">＋ 發佈新帖</button>
+
+    <div class="compose-box" id="composeBox">
+        <h3>✏️ 快速發帖</h3>
+        <input type="text" id="issueTitle" placeholder="標題">
+        <textarea id="issueBody" placeholder="內容（支援 Markdown，可直接拖曳圖片至此）"></textarea>
+        <div class="token-input">
+            <input type="password" id="tokenInput" placeholder="GitHub Token (只需設定一次)">
+            <button class="small-btn primary" onclick="submitIssue()">發佈</button>
+        </div>
+        <div class="note">
+            🔑 需要 GitHub 個人存取權杖 (Token) 才能發文。 
+            <a href="https://github.com/settings/tokens/new?scopes=repo&description=eirin-discuss" target="_blank">點此建立 Token</a>（只需勾選 repo 權限）。
+            之後會自動儲存在本機。
+        </div>
+    </div>
+
+    <button class="post-btn" onclick="document.getElementById('composeBox').scrollIntoView()">✚ 撰寫新帖</button>
+
     <div id="issues-container"><div class="loading">載入討論中...</div></div>
 
     <script>
         const repo = 'Kasilovsky/eirin-report';
-        fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=30`)
-            .then(res => res.json())
-            .then(issues => {
-                const container = document.getElementById('issues-container');
-                if (!issues.length) {
-                    container.innerHTML = '<p class="loading">暫無討論，來發第一帖吧！</p>';
-                    return;
-                }
-                container.innerHTML = issues.map(issue => `
-                    <a class="issue-card" href="${issue.html_url}" target="_blank">
-                        <div class="issue-title">${issue.title}</div>
-                        <div class="issue-meta">#${issue.number} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()} · ${issue.state}</div>
-                    </a>
-                `).join('');
-            })
-            .catch(err => {
-                document.getElementById('issues-container').innerHTML = '<p class="loading">⚠️ 無法載入討論</p>';
+        let personalToken = localStorage.getItem('gh_token') || '';
+
+        if (personalToken) {
+            document.getElementById('tokenInput').value = personalToken;
+        }
+
+        async function submitIssue() {
+            const title = document.getElementById('issueTitle').value.trim();
+            const body = document.getElementById('issueBody').value.trim();
+            const token = document.getElementById('tokenInput').value.trim();
+
+            if (!title || !body) return alert('請填寫標題和內容');
+            if (!token) return alert('請貼上你的 GitHub Token');
+
+            const res = await fetch(`https://api.github.com/repos/${repo}/issues`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `token ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ title, body })
             });
+
+            if (res.ok) {
+                alert('發佈成功！');
+                localStorage.setItem('gh_token', token);
+                document.getElementById('issueTitle').value = '';
+                document.getElementById('issueBody').value = '';
+                loadIssues();
+            } else {
+                const err = await res.json();
+                alert('發佈失敗: ' + err.message);
+            }
+        }
+
+        function loadIssues() {
+            fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=30`)
+                .then(res => res.json())
+                .then(issues => {
+                    const container = document.getElementById('issues-container');
+                    if (!issues.length) {
+                        container.innerHTML = '<p class="loading">暫無討論，來發第一帖吧！</p>';
+                        return;
+                    }
+                    container.innerHTML = issues.map(issue => `
+                        <a class="issue-card" href="${issue.html_url}" target="_blank">
+                            <div class="issue-title">${issue.title}</div>
+                            <div class="issue-meta">#${issue.number} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()} · ${issue.state}</div>
+                        </a>
+                    `).join('');
+                })
+                .catch(err => {
+                    document.getElementById('issues-container').innerHTML = '<p class="loading">⚠️ 無法載入討論</p>';
+                });
+        }
+
+        loadIssues();
     </script>
 </body>
 </html>

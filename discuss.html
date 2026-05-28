@@ -51,17 +51,43 @@
         .issue-card {
             background: white; border-radius: 8px; padding: 16px; margin-bottom: 12px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-            transition: box-shadow 0.2s;
         }
-        .issue-title { font-weight: bold; margin-bottom: 4px; color: #2f2418; }
+        .issue-header {
+            display: flex; justify-content: space-between; align-items: baseline;
+        }
+        .issue-title {
+            font-weight: bold; color: #2f2418; cursor: pointer;
+            flex: 1; margin-right: 10px;
+        }
         .issue-meta { font-size: 0.8em; color: #6b5b4b; margin-bottom: 8px; }
-        .reply-area { margin-top: 12px; display: none; }
-        .reply-area.show { display: block; }
-        .reply-area textarea {
-            width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px;
-            font-family: inherit; font-size: 0.9em; resize: vertical; margin-bottom: 8px;
+        .comment-badge {
+            background: #e0d7c6; padding: 2px 10px; border-radius: 20px;
+            font-size: 0.8em; cursor: pointer; white-space: nowrap;
         }
-        .reply-actions { display: flex; gap: 8px; justify-content: flex-end; }
+        .comment-badge:hover { background: #d0c0a0; }
+
+        .comments-section {
+            margin-top: 12px; border-top: 1px solid #e0d7c6; padding-top: 12px;
+            display: none;
+        }
+        .comments-section.show { display: block; }
+        .comment-item {
+            background: #f9f6f0; padding: 10px; margin-bottom: 8px;
+            border-radius: 6px;
+        }
+        .comment-author { font-size: 0.8em; font-weight: bold; color: #4a3620; }
+        .comment-time { font-size: 0.75em; color: #8b7b6b; margin-left: 8px; }
+        .comment-body { font-size: 0.9em; margin-top: 4px; word-break: break-word; }
+        .load-comments {
+            font-size: 0.85em; color: #8b7b6b; text-align: center; padding: 10px;
+        }
+
+        .reply-box { margin-top: 10px; }
+        .reply-box textarea {
+            width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px;
+            font-family: inherit; font-size: 0.9em; resize: vertical;
+        }
+        .reply-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 6px; }
         .reply-btn {
             background: #1e3a5f; color: white; border: none;
             padding: 6px 14px; border-radius: 20px; font-size: 0.85em; cursor: pointer;
@@ -71,9 +97,13 @@
             background: #e0d7c6; border: none; padding: 6px 14px;
             border-radius: 20px; font-size: 0.85em; cursor: pointer;
         }
+
         .loading { text-align: center; color: #8b7b6b; padding: 40px; }
         .info-text {
             font-size: 0.8em; color: #8b7b6b; text-align: center; margin-top: 8px;
+        }
+        .github-link {
+            font-size: 0.75em; color: #8b7b6b; cursor: pointer; text-decoration: underline;
         }
     </style>
 </head>
@@ -106,7 +136,7 @@
     <div id="issues-container"><div class="loading">🌸 載入討論中...</div></div>
 
     <div class="info-text">
-        💡 點擊卡片標題可跳轉至 GitHub 查看詳情。使用下方「💬 快速回覆」無需離開本頁。
+        💡 點擊帖子標題或 💬 數字即可展開查看回覆，無需離開本頁。
     </div>
 
     <script>
@@ -128,6 +158,9 @@
                 toggleBtn.textContent = '✚ 發佈新帖';
             }
         });
+
+        // 储存每个 issue 的评论数据以及展开状态
+        const commentsCache = {};
 
         async function submitIssue() {
             const title = document.getElementById('issueTitle').value.trim();
@@ -175,28 +208,19 @@
                         return;
                     }
                     container.innerHTML = issues.map(issue => {
-                        const issueNumber = issue.number;
-                        const htmlUrl = issue.html_url;
+                        const number = issue.number;
+                        const commentCount = issue.comments || 0;
                         return `
-                        <div class="issue-card">
-                            <div class="issue-title" onclick="window.open('${htmlUrl}', '_blank')" style="cursor:pointer; text-decoration:underline;">
-                                ${escapeHtml(issue.title)}
+                        <div class="issue-card" id="issue-${number}">
+                            <div class="issue-header">
+                                <span class="issue-title" onclick="toggleComments(${number})">${escapeHtml(issue.title)}</span>
+                                <span class="comment-badge" onclick="toggleComments(${number})">💬 ${commentCount}</span>
                             </div>
                             <div class="issue-meta">
-                                #${issueNumber} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()} · ${issue.state === 'open' ? '🟢 開放' : '🔴 已關閉'}
+                                #${number} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()} · ${issue.state === 'open' ? '🟢 開放' : '🔴 已關閉'}
                             </div>
-                            <div class="reply-actions">
-                                <button class="reply-btn" onclick="toggleReply(${issueNumber})">💬 快速回覆</button>
-                            </div>
-                            <div class="reply-area" id="reply-area-${issueNumber}">
-                                <textarea id="reply-body-${issueNumber}" placeholder="輸入你的回覆..."></textarea>
-                                <div class="reply-actions">
-                                    <button class="cancel-reply-btn" onclick="toggleReply(${issueNumber})">取消</button>
-                                    <button class="reply-btn" onclick="submitReply(${issueNumber})">送出回覆</button>
-                                </div>
-                            </div>
-                        </div>
-                        `;
+                            <div class="comments-section" id="comments-${number}"></div>
+                        </div>`;
                     }).join('');
                 })
                 .catch(err => {
@@ -204,22 +228,78 @@
                 });
         }
 
-        function toggleReply(issueNumber) {
-            const area = document.getElementById(`reply-area-${issueNumber}`);
-            if (!area) return;
-            area.classList.toggle('show');
-            if (area.classList.contains('show')) {
-                document.getElementById(`reply-body-${issueNumber}`).focus();
+        // 切换评论显示
+        async function toggleComments(issueNumber) {
+            const commentsDiv = document.getElementById(`comments-${issueNumber}`);
+            if (!commentsDiv) return;
+
+            if (commentsDiv.classList.contains('show')) {
+                commentsDiv.classList.remove('show');
+                return;
             }
+
+            // 显示加载中
+            commentsDiv.innerHTML = '<div class="load-comments">🌸 載入回覆中...</div>';
+            commentsDiv.classList.add('show');
+
+            if (commentsCache[issueNumber]) {
+                // 直接渲染缓存
+                renderComments(issueNumber, commentsCache[issueNumber]);
+            } else {
+                // 从 API 获取评论
+                try {
+                    const res = await fetch(`https://api.github.com/repos/${repo}/issues/${issueNumber}/comments`);
+                    if (!res.ok) throw new Error('無法載入回覆');
+                    const comments = await res.json();
+                    commentsCache[issueNumber] = comments;
+                    renderComments(issueNumber, comments);
+                } catch (err) {
+                    commentsDiv.innerHTML = `<div class="load-comments">⚠️ ${err.message}</div>`;
+                }
+            }
+        }
+
+        // 渲染评论列表和回复框
+        function renderComments(issueNumber, comments) {
+            const commentsDiv = document.getElementById(`comments-${issueNumber}`);
+            if (!commentsDiv) return;
+
+            let html = '';
+            if (comments.length === 0) {
+                html = '<div class="load-comments">🌿 尚無回覆</div>';
+            } else {
+                html = comments.map(c => `
+                    <div class="comment-item">
+                        <div>
+                            <span class="comment-author">${escapeHtml(c.user.login)}</span>
+                            <span class="comment-time">${new Date(c.created_at).toLocaleString()}</span>
+                        </div>
+                        <div class="comment-body">${escapeHtml(c.body)}</div>
+                    </div>
+                `).join('');
+            }
+
+            // 回复输入框
+            html += `
+                <div class="reply-box">
+                    <textarea id="reply-text-${issueNumber}" placeholder="輸入你的回覆..." rows="2"></textarea>
+                    <div class="reply-actions">
+                        <button class="reply-btn" onclick="submitReply(${issueNumber})">送出回覆</button>
+                    </div>
+                    <div class="note">🔑 回覆需使用 Token，若未設定請先在上方發帖區設定一次。</div>
+                </div>
+            `;
+
+            commentsDiv.innerHTML = html;
         }
 
         async function submitReply(issueNumber) {
             const token = personalToken || document.getElementById('tokenInput').value.trim();
             if (!token) {
-                alert('請先設定你的 GitHub Token。');
+                alert('請先設定你的 GitHub Token（可在發帖區輸入並儲存）。');
                 return;
             }
-            const body = document.getElementById(`reply-body-${issueNumber}`).value.trim();
+            const body = document.getElementById(`reply-text-${issueNumber}`).value.trim();
             if (!body) return alert('請輸入回覆內容');
 
             const res = await fetch(`https://api.github.com/repos/${repo}/issues/${issueNumber}/comments`, {
@@ -232,9 +312,22 @@
             });
 
             if (res.ok) {
-                alert('✅ 回覆成功！');
-                document.getElementById(`reply-body-${issueNumber}`).value = '';
-                toggleReply(issueNumber); // 收起回复框
+                // 清除缓存，重新加载评论
+                delete commentsCache[issueNumber];
+                // 重新加载该 issue 的评论
+                const commentsDiv = document.getElementById(`comments-${issueNumber}`);
+                if (commentsDiv && commentsDiv.classList.contains('show')) {
+                    toggleComments(issueNumber); // 先关闭再打开会重新加载
+                    // 简单刷新：先关闭再打开
+                    commentsDiv.classList.remove('show');
+                    setTimeout(() => toggleComments(issueNumber), 50);
+                }
+                // 更新评论数（因为 GitHub 不会立即返回，我们手动 +1）
+                const badge = document.querySelector(`#issue-${issueNumber} .comment-badge`);
+                if (badge) {
+                    const currentCount = parseInt(badge.textContent.replace('💬 ', '')) || 0;
+                    badge.textContent = `💬 ${currentCount + 1}`;
+                }
             } else {
                 const err = await res.json();
                 alert('❌ 回覆失敗: ' + err.message);
@@ -245,6 +338,7 @@
             return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"');
         }
 
+        // 初始化
         loadIssues();
     </script>
 </body>

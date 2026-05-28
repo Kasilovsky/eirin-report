@@ -59,12 +59,31 @@
             font-weight: bold; color: #2f2418; cursor: pointer;
             flex: 1; margin-right: 10px;
         }
-        .issue-meta { font-size: 0.8em; color: #6b5b4b; margin-bottom: 8px; }
+        .issue-title:hover { text-decoration: underline; }
+        .issue-meta {
+            font-size: 0.8em; color: #6b5b4b; margin-bottom: 8px;
+            display: flex; gap: 12px; flex-wrap: wrap;
+        }
         .comment-badge {
             background: #e0d7c6; padding: 2px 10px; border-radius: 20px;
             font-size: 0.8em; cursor: pointer; white-space: nowrap;
         }
         .comment-badge:hover { background: #d0c0a0; }
+
+        /* 正文区域 */
+        .issue-body {
+            font-size: 0.9em; color: #3e3232; white-space: pre-wrap; word-break: break-word;
+            margin-bottom: 10px; line-height: 1.5;
+        }
+        .body-preview {
+            max-height: 4.5em; overflow: hidden; position: relative;
+        }
+        .body-full { display: none; }
+        .expand-btn {
+            color: #1e3a5f; cursor: pointer; font-size: 0.85em; text-decoration: underline;
+            margin-top: 4px; display: inline-block;
+        }
+        .expand-btn:hover { color: #b91c1c; }
 
         .comments-section {
             margin-top: 12px; border-top: 1px solid #e0d7c6; padding-top: 12px;
@@ -77,7 +96,7 @@
         }
         .comment-author { font-size: 0.8em; font-weight: bold; color: #4a3620; }
         .comment-time { font-size: 0.75em; color: #8b7b6b; margin-left: 8px; }
-        .comment-body { font-size: 0.9em; margin-top: 4px; word-break: break-word; }
+        .comment-body { font-size: 0.9em; margin-top: 4px; white-space: pre-wrap; word-break: break-word; }
         .load-comments {
             font-size: 0.85em; color: #8b7b6b; text-align: center; padding: 10px;
         }
@@ -93,17 +112,10 @@
             padding: 6px 14px; border-radius: 20px; font-size: 0.85em; cursor: pointer;
         }
         .reply-btn:hover { background: #b91c1c; }
-        .cancel-reply-btn {
-            background: #e0d7c6; border: none; padding: 6px 14px;
-            border-radius: 20px; font-size: 0.85em; cursor: pointer;
-        }
 
         .loading { text-align: center; color: #8b7b6b; padding: 40px; }
         .info-text {
             font-size: 0.8em; color: #8b7b6b; text-align: center; margin-top: 8px;
-        }
-        .github-link {
-            font-size: 0.75em; color: #8b7b6b; cursor: pointer; text-decoration: underline;
         }
     </style>
 </head>
@@ -159,7 +171,7 @@
             }
         });
 
-        // 储存每个 issue 的评论数据以及展开状态
+        // 缓存评论数据
         const commentsCache = {};
 
         async function submitIssue() {
@@ -210,6 +222,9 @@
                     container.innerHTML = issues.map(issue => {
                         const number = issue.number;
                         const commentCount = issue.comments || 0;
+                        const body = issue.body || '';
+                        // 生成正文 HTML，支持折叠
+                        const bodyHtml = generateBodyHtml(body, number);
                         return `
                         <div class="issue-card" id="issue-${number}">
                             <div class="issue-header">
@@ -217,8 +232,12 @@
                                 <span class="comment-badge" onclick="toggleComments(${number})">💬 ${commentCount}</span>
                             </div>
                             <div class="issue-meta">
-                                #${number} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()} · ${issue.state === 'open' ? '🟢 開放' : '🔴 已關閉'}
+                                <span>#${number}</span>
+                                <span>${issue.user.login}</span>
+                                <span>${new Date(issue.created_at).toLocaleDateString()}</span>
+                                <span>${issue.state === 'open' ? '🟢 開放' : '🔴 已關閉'}</span>
                             </div>
+                            ${bodyHtml}
                             <div class="comments-section" id="comments-${number}"></div>
                         </div>`;
                     }).join('');
@@ -228,7 +247,40 @@
                 });
         }
 
-        // 切换评论显示
+        function generateBodyHtml(body, issueNumber) {
+            if (!body) return '';
+            const maxLength = 200;
+            const escaped = escapeHtml(body);
+            if (escaped.length <= maxLength) {
+                return `<div class="issue-body">${escaped}</div>`;
+            }
+            const preview = escaped.substring(0, maxLength) + '...';
+            return `
+                <div class="issue-body">
+                    <span class="body-preview" id="body-preview-${issueNumber}">${preview}</span>
+                    <span class="body-full" id="body-full-${issueNumber}">${escaped}</span>
+                    <span class="expand-btn" id="expand-btn-${issueNumber}" onclick="toggleBody(${issueNumber})">[展開全文]</span>
+                </div>`;
+        }
+
+        // 展开/收起正文
+        function toggleBody(issueNumber) {
+            const preview = document.getElementById(`body-preview-${issueNumber}`);
+            const full = document.getElementById(`body-full-${issueNumber}`);
+            const btn = document.getElementById(`expand-btn-${issueNumber}`);
+            if (!preview || !full || !btn) return;
+            if (full.style.display === 'none' || full.style.display === '') {
+                preview.style.display = 'none';
+                full.style.display = 'inline';
+                btn.textContent = '[收合]';
+            } else {
+                preview.style.display = 'inline';
+                full.style.display = 'none';
+                btn.textContent = '[展開全文]';
+            }
+        }
+
+        // 评论切换
         async function toggleComments(issueNumber) {
             const commentsDiv = document.getElementById(`comments-${issueNumber}`);
             if (!commentsDiv) return;
@@ -238,15 +290,12 @@
                 return;
             }
 
-            // 显示加载中
             commentsDiv.innerHTML = '<div class="load-comments">🌸 載入回覆中...</div>';
             commentsDiv.classList.add('show');
 
             if (commentsCache[issueNumber]) {
-                // 直接渲染缓存
                 renderComments(issueNumber, commentsCache[issueNumber]);
             } else {
-                // 从 API 获取评论
                 try {
                     const res = await fetch(`https://api.github.com/repos/${repo}/issues/${issueNumber}/comments`);
                     if (!res.ok) throw new Error('無法載入回覆');
@@ -259,7 +308,6 @@
             }
         }
 
-        // 渲染评论列表和回复框
         function renderComments(issueNumber, comments) {
             const commentsDiv = document.getElementById(`comments-${issueNumber}`);
             if (!commentsDiv) return;
@@ -279,7 +327,6 @@
                 `).join('');
             }
 
-            // 回复输入框
             html += `
                 <div class="reply-box">
                     <textarea id="reply-text-${issueNumber}" placeholder="輸入你的回覆..." rows="2"></textarea>
@@ -312,21 +359,16 @@
             });
 
             if (res.ok) {
-                // 清除缓存，重新加载评论
                 delete commentsCache[issueNumber];
-                // 重新加载该 issue 的评论
                 const commentsDiv = document.getElementById(`comments-${issueNumber}`);
                 if (commentsDiv && commentsDiv.classList.contains('show')) {
-                    toggleComments(issueNumber); // 先关闭再打开会重新加载
-                    // 简单刷新：先关闭再打开
                     commentsDiv.classList.remove('show');
                     setTimeout(() => toggleComments(issueNumber), 50);
                 }
-                // 更新评论数（因为 GitHub 不会立即返回，我们手动 +1）
                 const badge = document.querySelector(`#issue-${issueNumber} .comment-badge`);
                 if (badge) {
-                    const currentCount = parseInt(badge.textContent.replace('💬 ', '')) || 0;
-                    badge.textContent = `💬 ${currentCount + 1}`;
+                    const current = parseInt(badge.textContent.replace('💬 ', '')) || 0;
+                    badge.textContent = `💬 ${current + 1}`;
                 }
             } else {
                 const err = await res.json();

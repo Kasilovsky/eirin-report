@@ -383,8 +383,9 @@
         navigator.clipboard.writeText(text).then(() => alert('速報已複製')).catch(() => alert('複製失敗'));
     });
 
+    // 修正後的討論板按鈕連結
     document.getElementById('discussBtn').addEventListener('click', () => {
-        window.open('/discuss.html', '_blank');
+        window.open('discuss.html', '_blank');
     });
 
     const chineseToggle = document.getElementById('chineseToggle');

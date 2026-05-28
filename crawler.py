@@ -47,7 +47,6 @@ def fetch_recent_articles(days=180, max_results=100):
             id_list = resp.json().get('esearchresult', {}).get('idlist', [])
             if not id_list:
                 continue
-            # 分批獲取摘要（每批最多 20 個 PMID）
             for i in range(0, len(id_list), 20):
                 batch_ids = id_list[i:i+20]
                 sum_params = {
@@ -70,12 +69,10 @@ def fetch_recent_articles(days=180, max_results=100):
                     except:
                         date_obj = None
 
-                    # 作者處理（取前5位）
                     authors_list = paper.get('authors', [])
                     author_names = [a.get('name', '') for a in authors_list[:5]]
                     authors_str = ', '.join(author_names)
 
-                    # DOI 處理
                     doi_raw = paper.get('elocationid', '')
                     doi = doi_raw.replace('doi: ', '') if doi_raw.lower().startswith('doi:') else ''
 
@@ -94,12 +91,11 @@ def fetch_recent_articles(days=180, max_results=100):
                         'authors': authors_str,
                         'doi': doi
                     })
-                time.sleep(0.3)   # 遵守 API 頻率限制
+                time.sleep(0.3)
         except Exception as e:
             print(f'抓取 {journal} 時出錯: {e}')
             continue
 
-    # 去重（按 link）
     seen_links = set()
     unique_articles = []
     for art in articles:

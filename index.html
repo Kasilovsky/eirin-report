@@ -77,7 +77,7 @@
             padding: 14px; margin-bottom: 14px; box-shadow: var(--shadow); word-break: break-word;
         }
         .news-source-tag { font-weight: 700; font-size: 0.75em; color: var(--highlight); }
-        .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; cursor: pointer; }
+        .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; }
         .news-citation { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; }
         .news-summary { font-size: 0.9em; opacity: 0.85; margin-bottom: 10px; }
         .news-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
@@ -91,6 +91,10 @@
         .resource-links a { color: var(--accent); text-decoration: none; border: 1px solid var(--border); padding: 4px 12px; border-radius: 16px; font-size: 0.8em; }
         .footer { text-align: center; margin-top: 16px; font-size: 0.7em; color: var(--subtle); }
         .error-box { background: #fff3cd; border: 1px solid #ffc107; padding: 12px; border-radius: 8px; margin: 10px 0; color: #856404; }
+        .clear-cache-btn {
+            background: #dc3545; color: white; border: none; padding: 8px 16px;
+            border-radius: 20px; font-size: 0.85em; cursor: pointer; margin-top: 8px;
+        }
     </style>
 </head>
 <body>
@@ -124,12 +128,14 @@
     <div class="sidebar-section">
         <button class="btn" id="discussBtn" style="width:100%;">💬 竹林茶會</button>
     </div>
+    <div class="sidebar-section">
+        <button class="clear-cache-btn" id="clearCacheBtn">🧹 清除緩存並重新載入</button>
+    </div>
 </div>
 
 <div class="container">
     <div class="menu-btn" id="menuBtn">☰</div>
     <div class="header">
-        <div style="font-size:2em;">🏹🐇</div>
         <h1>永遠亭 医療報告</h1>
         <div class="subtitle">八意永琳 · 權威期刊彙編</div>
         <div class="date-badge" id="dateDisplay"></div>
@@ -157,6 +163,14 @@
 </div>
 
 <script>
+    // 1. 主动注销所有 Service Worker，防止旧 SW 拦截
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(registrations => {
+            registrations.forEach(reg => reg.unregister());
+            console.log('所有 SW 已注销');
+        });
+    }
+
     // ----- 全局状态 -----
     let allArticles = [];
     let filteredArticles = [];
@@ -166,28 +180,27 @@
     let useChinese = true;
     let selectedJournals = new Set();
 
-    // 日期显示
     const today = new Date();
     document.getElementById('dateDisplay').textContent =
         `令和${today.getFullYear()-2018}年（${today.getFullYear()}）${String(today.getMonth()+1).padStart(2,'0')}月${String(today.getDate()).padStart(2,'0')}日`;
 
     function escapeHtml(text) { return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"'); }
 
-    // ----- 数据加载（绕过缓存，强制网络请求）-----
+    // 2. 使用同源路径请求，彻底避免跨域
     async function loadNews() {
         const container = document.getElementById('newsContainer');
         container.innerHTML = '<p style="text-align:center;">⏳ 正在連線資料庫...</p>';
         try {
-            const timestamp = new Date().getTime();
-            const res = await fetch(
-                `https://raw.githubusercontent.com/Kasilovsky/eirin-report/main/data/news.json?t=${timestamp}`,
-                { cache: 'no-store' }  // 强制不使用缓存
-            );
-            if (!res.ok) {
-                throw new Error(`HTTP ${res.status}: ${res.statusText}`);
-            }
+            // 同源请求 /data/news.json，加上时间戳绕过缓存
+            const timestamp = Date.now();
+            const url = `/data/news.json?t=${timestamp}`;
+            const res = await fetch(url, { cache: 'no-store' });
+            if (!res.ok) throw new Error(`HTTP ${res.status}: ${res.statusText}`);
             const data = await res.json();
-            if (!data.articles || data.articles.length === 0) {
+            if (!data.articles || !Array.isArray(data.articles)) {
+                throw new Error('數據格式錯誤');
+            }
+            if (data.articles.length === 0) {
                 container.innerHTML = '<p style="text-align:center;">📭 數據庫暫無文章。</p>';
                 return;
             }
@@ -199,12 +212,12 @@
             container.innerHTML = `
                 <div class="error-box">
                     <strong>❌ 無法載入新聞</strong><br>
-                    錯誤：${escapeHtml(err.message)}
+                    錯誤：${escapeHtml(err.message)}<br>
+                    <button class="clear-cache-btn" onclick="forceClearCache()">🧹 清除緩存並重試</button>
                 </div>`;
         }
     }
 
-    // ----- 期刊标签生成 -----
     function updateJournalTags() {
         const journalSet = new Set();
         allArticles.forEach(a => { if (a.source) journalSet.add(a.source); });
@@ -259,13 +272,11 @@
             let html = '';
             pageArticles.forEach(a => {
                 const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
-                const summary = useChinese ? (a.summary_zh || a.summary_en) : (a.summary_en || '');
                 html += `
                     <div class="news-card">
                         <div class="news-source-tag">■ ${escapeHtml(a.source)}</div>
                         <div class="news-title">${escapeHtml(title)}</div>
                         ${a.citation ? `<div class="news-citation">${escapeHtml(a.citation)}</div>` : ''}
-                        ${summary ? `<div class="news-summary">${escapeHtml(summary)}</div>` : ''}
                         <div class="news-actions">
                             ${a.link ? `<a class="btn-sm" href="${escapeHtml(a.link)}" target="_blank">📎 原文</a>` : ''}
                             <button class="btn-sm btn-outline" onclick="copySingle('${escapeHtml(title)}', '${escapeHtml(a.citation||'')}', '${escapeHtml(a.link||'')}')">📋 複製引用</button>
@@ -284,7 +295,18 @@
         navigator.clipboard.writeText(`${title}\n${citation}\n${link}`).then(() => alert('已複製'));
     }
 
-    // ----- 侧边栏 & 按钮事件 -----
+    // 强制清除缓存函数
+    function forceClearCache() {
+        if ('caches' in window) {
+            caches.keys().then(keys => keys.forEach(key => caches.delete(key)));
+        }
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(regs => regs.forEach(r => r.unregister()));
+        }
+        location.reload(true);
+    }
+
+    // 侧边栏 & 按钮事件
     document.getElementById('menuBtn').addEventListener('click', () => {
         document.getElementById('sidebar').classList.add('open');
         document.getElementById('sidebarBackdrop').classList.add('show');
@@ -320,8 +342,8 @@
     });
 
     document.getElementById('discussBtn').addEventListener('click', () => window.open('discuss.html', '_blank'));
+    document.getElementById('clearCacheBtn').addEventListener('click', forceClearCache);
 
-    // 汉化 & 暗色模式
     const chineseToggle = document.getElementById('chineseToggle');
     const darkToggle = document.getElementById('darkToggle');
     chineseToggle.checked = useChinese;
@@ -335,18 +357,6 @@
         document.body.classList.add('dark');
         darkToggle.checked = true;
     }
-
-    // ★ 关键修复：暂时完全移除 Service Worker 注册，避免缓存拦截 ★
-    // 如果需要恢复 SW，取消下面这段注释即可
-    /*
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/sw.js')
-                .then(reg => console.log('SW registered'))
-                .catch(err => console.log('SW failed', err));
-        });
-    }
-    */
 
     loadNews();
 </script>

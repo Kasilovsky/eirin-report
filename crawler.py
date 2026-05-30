@@ -1,8 +1,7 @@
-
 import json, requests, os, time, re
 from datetime import datetime, timedelta
 
-OUTPUT_FILE = 'news.json'   # 直接放在根目录
+OUTPUT_FILE = 'data/news.json'   # 恢复 data 文件夹
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
 JOURNALS = ['N Engl J Med', 'Lancet', 'JAMA']
 
@@ -122,6 +121,8 @@ def main():
             'authors': '',
             'doi': ''
         })
+    # 确保 data 文件夹存在
+    os.makedirs('data', exist_ok=True)
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump({'date': datetime.now().strftime('%Y-%m-%d'), 'articles': articles}, f, ensure_ascii=False, indent=2)
     print(f'✅ 已保存 {len(articles)} 篇文章至 {OUTPUT_FILE}')

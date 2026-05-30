@@ -67,27 +67,17 @@
         .subtitle { font-size: 0.85em; color: var(--subtle); margin-bottom: 8px; }
         .date-badge { display: inline-block; background: var(--highlight); color: #fff; padding: 4px 16px; border-radius: 20px; font-size: 0.8em; font-weight: bold; }
 
-        .pagination {
-            display: flex; justify-content: center; gap: 8px; margin: 16px 0; align-items: center;
-        }
-        .pagination button {
-            background: var(--accent); color: #fff; border: none; padding: 6px 12px; border-radius: 20px;
-            font-size: 0.8em; cursor: pointer;
-        }
+        .pagination { display: flex; justify-content: center; gap: 8px; margin: 16px 0; align-items: center; }
+        .pagination button { background: var(--accent); color: #fff; border: none; padding: 6px 12px; border-radius: 20px; font-size: 0.8em; cursor: pointer; }
         .pagination button:disabled { opacity: 0.5; cursor: default; }
         .page-info { font-size: 0.85em; color: var(--subtle); }
 
         .news-card {
             background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px;
             padding: 14px; margin-bottom: 14px; box-shadow: var(--shadow); word-break: break-word;
-            transition: transform 0.1s;
         }
-        .news-card:active { transform: scale(0.98); }
         .news-source-tag { font-weight: 700; font-size: 0.75em; color: var(--highlight); }
-        .news-title {
-            font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4;
-            cursor: pointer; text-decoration: underline; text-decoration-color: var(--subtle);
-        }
+        .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; cursor: pointer; text-decoration: underline; }
         .news-title:hover { color: var(--accent); }
         .news-citation { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; }
         .news-summary { font-size: 0.9em; opacity: 0.85; margin-bottom: 10px; }
@@ -101,37 +91,17 @@
         .resource-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
         .resource-links a { color: var(--accent); text-decoration: none; border: 1px solid var(--border); padding: 4px 12px; border-radius: 16px; font-size: 0.8em; }
         .footer { text-align: center; margin-top: 16px; font-size: 0.7em; color: var(--subtle); }
-
-        .modal {
-            display: none; position: fixed; top:0; left:0; width:100%; height:100%;
-            background: rgba(0,0,0,0.6); z-index: 2000; align-items: center; justify-content: center;
-        }
-        .modal.show { display: flex; }
-        .modal-content {
-            background: var(--card-bg); border-radius: 12px; padding: 24px; max-width: 500px;
-            width: 90%; max-height: 80vh; overflow-y: auto; box-shadow: 0 8px 24px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .modal-close {
-            position: absolute; top: 8px; right: 12px; font-size: 1.4em; cursor: pointer;
-            color: var(--subtle); background: none; border: none;
-        }
-        .modal-title { font-weight: 700; font-size: 1.2em; margin-bottom: 12px; }
-        .modal-meta { font-size: 0.85em; color: var(--subtle); margin-bottom: 8px; }
-        .modal-section { margin-bottom: 10px; }
-        .modal-label { font-weight: 600; color: var(--accent); }
+        .error-box { background: #fff3cd; border: 1px solid #ffc107; padding: 12px; border-radius: 8px; margin: 10px 0; color: #856404; }
     </style>
 </head>
 <body>
 <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
 <div class="sidebar" id="sidebar">
     <h3>🔬 篩選與設定</h3>
-
     <div class="sidebar-section">
         <div class="label">📰 期刊選擇</div>
         <div class="filter-group" id="journalFilter"></div>
     </div>
-
     <div class="sidebar-section">
         <div class="label">⏳ 時間範圍</div>
         <div class="filter-group" id="timeFilter">
@@ -141,7 +111,6 @@
             <button data-range="180">六月</button>
         </div>
     </div>
-
     <div class="sidebar-section">
         <div class="label">⚙️ 設定</div>
         <div class="setting-row">
@@ -153,40 +122,28 @@
             <label class="switch"><input type="checkbox" id="darkToggle"><span class="slider"></span></label>
         </div>
     </div>
-
     <div class="sidebar-section">
-        <button class="btn" id="discussBtn" style="width:100%;">💬 竹林茶會 (討論板)</button>
-    </div>
-</div>
-
-<div class="modal" id="detailModal">
-    <div class="modal-content">
-        <button class="modal-close" id="modalClose">&times;</button>
-        <div id="modalBody"></div>
+        <button class="btn" id="discussBtn" style="width:100%;">💬 竹林茶會</button>
     </div>
 </div>
 
 <div class="container">
     <div class="menu-btn" id="menuBtn">☰</div>
-
     <div class="header">
+        <div style="font-size:2em;">🏹🐇</div>
         <h1>永遠亭 医療報告</h1>
         <div class="subtitle">八意永琳 · 權威期刊彙編</div>
         <div class="date-badge" id="dateDisplay"></div>
     </div>
-
     <div id="newsContainer"><p style="text-align:center; opacity:0.7;">🌸 讀取中...</p></div>
-
     <div class="pagination" id="pagination">
         <button id="prevPage">◀ 上一頁</button>
         <span class="page-info" id="pageInfo"></span>
         <button id="nextPage">下一頁 ▶</button>
     </div>
-
     <div class="actions-bar">
         <button class="btn" id="copyAllBtn">📋 複製當前頁速報</button>
     </div>
-
     <div class="resources">
         <h3>📚 醫學資源</h3>
         <div class="resource-links">
@@ -201,6 +158,7 @@
 </div>
 
 <script>
+    // ----- 全局状态 -----
     let allArticles = [];
     let filteredArticles = [];
     let currentRange = 7;
@@ -209,32 +167,61 @@
     let useChinese = true;
     let selectedJournals = new Set();
 
+    // 日期显示
     const today = new Date();
-    const y = today.getFullYear();
-    const m = String(today.getMonth()+1).padStart(2,'0');
-    const d = String(today.getDate()).padStart(2,'0');
-    document.getElementById('dateDisplay').textContent = `令和${y-2018}年（${y}）${m}月${d}日`;
+    document.getElementById('dateDisplay').textContent =
+        `令和${today.getFullYear()-2018}年（${today.getFullYear()}）${String(today.getMonth()+1).padStart(2,'0')}月${String(today.getDate()).padStart(2,'0')}日`;
 
     function escapeHtml(text) { return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"'); }
 
-    function applyFilters() {
-        const cutoff = new Date(today);
-        cutoff.setDate(cutoff.getDate() - currentRange);
-        const cutoffStr = cutoff.toISOString().split('T')[0];
-        filteredArticles = allArticles.filter(a => {
-            if (!a.date || a.date < cutoffStr) return false;
-            if (selectedJournals.size > 0 && !selectedJournals.has(a.source)) return false;
-            return true;
-        });
-        currentPage = 1;
-        renderPage();
+    // ----- 数据加载（带时间戳防缓存）-----
+    async function loadNews() {
+        const container = document.getElementById('newsContainer');
+        container.innerHTML = '<p style="text-align:center;">⏳ 正在連線資料庫...</p>';
+        try {
+            // 添加时间戳参数避免缓存
+            const timestamp = new Date().getTime();
+            const res = await fetch(
+                `https://raw.githubusercontent.com/Kasilovsky/eirin-report/main/data/news.json?t=${timestamp}`
+            );
+            if (!res.ok) {
+                throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+            }
+            const data = await res.json();
+            if (!data.articles || data.articles.length === 0) {
+                container.innerHTML = '<p style="text-align:center;">📭 數據庫暫無文章，請確認爬蟲是否正常運行。</p>';
+                return;
+            }
+            allArticles = data.articles;
+            // 更新期刊标签
+            updateJournalTags();
+            // 应用筛选
+            applyFilters();
+        } catch (err) {
+            console.error('加載新聞失敗:', err);
+            container.innerHTML = `
+                <div class="error-box">
+                    <strong>❌ 無法載入新聞</strong><br>
+                    錯誤訊息：${escapeHtml(err.message)}<br>
+                    請檢查：<br>
+                    1. 倉庫是否為公開 (Public)<br>
+                    2. data/news.json 檔案是否存在<br>
+                    3. 網路連線是否正常
+                </div>`;
+        }
     }
 
+    // ----- 期刊标签生成 -----
     function updateJournalTags() {
         const journalSet = new Set();
         allArticles.forEach(a => { if (a.source) journalSet.add(a.source); });
         const container = document.getElementById('journalFilter');
         container.innerHTML = '';
+        if (journalSet.size === 0) {
+            container.innerHTML = '<span style="font-size:0.8em; color:var(--subtle);">暫無期刊</span>';
+            return;
+        }
+        // 默认全选
         if (selectedJournals.size === 0) {
             journalSet.forEach(j => selectedJournals.add(j));
         }
@@ -256,35 +243,46 @@
         });
     }
 
+    // ----- 筛选 & 分页 -----
+    function applyFilters() {
+        const cutoff = new Date(today);
+        cutoff.setDate(cutoff.getDate() - currentRange);
+        const cutoffStr = cutoff.toISOString().split('T')[0];
+        filteredArticles = allArticles.filter(a => {
+            if (!a.date || a.date < cutoffStr) return false;
+            if (selectedJournals.size > 0 && !selectedJournals.has(a.source)) return false;
+            return true;
+        });
+        currentPage = 1;
+        renderPage();
+    }
+
     function renderPage() {
         const start = (currentPage - 1) * pageSize;
         const end = start + pageSize;
         const pageArticles = filteredArticles.slice(start, end);
         const container = document.getElementById('newsContainer');
         if (pageArticles.length === 0) {
-            container.innerHTML = '<p style="text-align:center; opacity:0.7;">無符合條件的新聞。</p>';
+            container.innerHTML = '<p style="text-align:center;">🔍 沒有符合條件的新聞，請調整期刊或時間範圍。</p>';
         } else {
             let html = '';
-            pageArticles.forEach((a, idx) => {
-                const realIndex = allArticles.indexOf(a);
+            pageArticles.forEach(a => {
                 const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
                 const summary = useChinese ? (a.summary_zh || a.summary_en) : (a.summary_en || '');
                 html += `
                     <div class="news-card">
-                        <div class="news-source-tag">■ ${escapeHtml(a.source)} · ${escapeHtml(a.category)}</div>
-                        <div class="news-title" onclick="openDetail(${realIndex})">${escapeHtml(title)}</div>
+                        <div class="news-source-tag">■ ${escapeHtml(a.source)}</div>
+                        <div class="news-title">${escapeHtml(title)}</div>
                         ${a.citation ? `<div class="news-citation">${escapeHtml(a.citation)}</div>` : ''}
                         ${summary ? `<div class="news-summary">${escapeHtml(summary)}</div>` : ''}
                         <div class="news-actions">
                             ${a.link ? `<a class="btn-sm" href="${escapeHtml(a.link)}" target="_blank">📎 原文</a>` : ''}
                             <button class="btn-sm btn-outline" onclick="copySingle('${escapeHtml(title)}', '${escapeHtml(a.citation||'')}', '${escapeHtml(a.link||'')}')">📋 複製引用</button>
                         </div>
-                    </div>
-                `;
+                    </div>`;
             });
             container.innerHTML = html;
         }
-
         const totalPages = Math.ceil(filteredArticles.length / pageSize) || 1;
         document.getElementById('pageInfo').textContent = `${currentPage} / ${totalPages}`;
         document.getElementById('prevPage').disabled = currentPage <= 1;
@@ -292,65 +290,20 @@
     }
 
     function copySingle(title, citation, link) {
-        const text = `${title}\n${citation}\n${link}`;
-        navigator.clipboard.writeText(text).then(() => alert('已複製')).catch(() => alert('複製失敗'));
+        navigator.clipboard.writeText(`${title}\n${citation}\n${link}`).then(() => alert('已複製'));
     }
 
-    function openDetail(articleIndex) {
-        const a = allArticles[articleIndex];
-        if (!a) return;
-        const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
-        const authors = a.authors || '未知';
-        const doi = a.doi || '暫無';
-        const citation = a.citation || '';
-        const link = a.link || '#';
-        const summary = useChinese ? (a.summary_zh || a.summary_en) : (a.summary_en || '無摘要');
-        const modalBody = document.getElementById('modalBody');
-        modalBody.innerHTML = `
-            <div class="modal-title">${escapeHtml(title)}</div>
-            <div class="modal-meta">${escapeHtml(citation)}</div>
-            <div class="modal-section"><span class="modal-label">作者：</span>${escapeHtml(authors)}</div>
-            <div class="modal-section"><span class="modal-label">DOI：</span>${escapeHtml(doi)}</div>
-            <div class="modal-section"><span class="modal-label">摘要：</span>${escapeHtml(summary)}</div>
-            <div class="modal-section"><a href="${escapeHtml(link)}" target="_blank" class="btn-sm">🔗 PubMed 原文</a></div>
-        `;
-        document.getElementById('detailModal').classList.add('show');
-    }
-
-    document.getElementById('modalClose').addEventListener('click', () => {
-        document.getElementById('detailModal').classList.remove('show');
-    });
-    document.getElementById('detailModal').addEventListener('click', (e) => {
-        if (e.target === document.getElementById('detailModal')) {
-            document.getElementById('detailModal').classList.remove('show');
-        }
-    });
-
-    async function loadNews() {
-        try {
-            const res = await fetch('https://raw.githubusercontent.com/Kasilovsky/eirin-report/main/data/news.json');
-            if (!res.ok) throw new Error('無法載入');
-            const data = await res.json();
-            allArticles = data.articles || [];
-            updateJournalTags();
-            applyFilters();
-        } catch (err) {
-            document.getElementById('newsContainer').innerHTML = '<p style="text-align:center; opacity:0.7;">⚠️ 無法載入新聞</p>';
-        }
-    }
-
-    const sidebar = document.getElementById('sidebar');
-    const backdrop = document.getElementById('sidebarBackdrop');
+    // ----- 侧边栏 & 按钮事件 -----
     document.getElementById('menuBtn').addEventListener('click', () => {
-        sidebar.classList.add('open');
-        backdrop.classList.add('show');
+        document.getElementById('sidebar').classList.add('open');
+        document.getElementById('sidebarBackdrop').classList.add('show');
     });
-    backdrop.addEventListener('click', () => {
-        sidebar.classList.remove('open');
-        backdrop.classList.remove('show');
+    document.getElementById('sidebarBackdrop').addEventListener('click', () => {
+        document.getElementById('sidebar').classList.remove('open');
+        document.getElementById('sidebarBackdrop').classList.remove('show');
     });
 
-    document.getElementById('timeFilter').addEventListener('click', (e) => {
+    document.getElementById('timeFilter').addEventListener('click', e => {
         if (e.target.tagName === 'BUTTON') {
             document.querySelectorAll('#timeFilter button').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
@@ -363,57 +316,36 @@
         if (currentPage > 1) { currentPage--; renderPage(); }
     });
     document.getElementById('nextPage').addEventListener('click', () => {
-        const totalPages = Math.ceil(filteredArticles.length / pageSize);
-        if (currentPage < totalPages) { currentPage++; renderPage(); }
+        if (currentPage < Math.ceil(filteredArticles.length/pageSize)) { currentPage++; renderPage(); }
     });
 
     document.getElementById('copyAllBtn').addEventListener('click', () => {
-        const start = (currentPage - 1) * pageSize;
-        const pageArticles = filteredArticles.slice(start, start + pageSize);
-        if (!pageArticles.length) return alert('暫無新聞');
+        const pageArticles = filteredArticles.slice((currentPage-1)*pageSize, currentPage*pageSize);
+        if (!pageArticles.length) return;
         let text = `【永遠亭 医療速報】${document.getElementById('dateDisplay').textContent}\n`;
-        pageArticles.forEach((a, i) => {
-            const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
-            text += `\n${start+i+1}. [${a.source}] ${title}`;
-            if (a.citation) text += `\n   ${a.citation}`;
-            if (a.link) text += `\n   ${a.link}`;
-        });
+        pageArticles.forEach((a, i) => text += `\n${i+1}. [${a.source}] ${useChinese ? (a.title_zh||a.title_en) : a.title_en}\n   ${a.citation||''}`);
         text += '\n—— 八意永琳';
-        navigator.clipboard.writeText(text).then(() => alert('速報已複製')).catch(() => alert('複製失敗'));
+        navigator.clipboard.writeText(text).then(() => alert('速報已複製'));
     });
 
-    // 修正後的討論板按鈕連結
-    document.getElementById('discussBtn').addEventListener('click', () => {
-        window.open('discuss.html', '_blank');
-    });
+    document.getElementById('discussBtn').addEventListener('click', () => window.open('discuss.html', '_blank'));
 
+    // 汉化 & 暗色模式
     const chineseToggle = document.getElementById('chineseToggle');
     const darkToggle = document.getElementById('darkToggle');
     chineseToggle.checked = useChinese;
-    chineseToggle.addEventListener('change', function() {
-        useChinese = this.checked;
-        renderPage();
-    });
+    chineseToggle.addEventListener('change', () => { useChinese = chineseToggle.checked; renderPage(); });
     darkToggle.checked = document.body.classList.contains('dark');
-    darkToggle.addEventListener('change', function() {
-        document.body.classList.toggle('dark', this.checked);
-        localStorage.setItem('theme', this.checked ? 'dark' : 'light');
+    darkToggle.addEventListener('change', () => {
+        document.body.classList.toggle('dark', darkToggle.checked);
+        localStorage.setItem('theme', darkToggle.checked ? 'dark' : 'light');
     });
     if (localStorage.getItem('theme') === 'dark') {
         document.body.classList.add('dark');
         darkToggle.checked = true;
     }
 
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/sw.js').then(reg => {
-                console.log('Service Worker 註冊成功');
-            }).catch(err => {
-                console.log('SW 註冊失敗: ', err);
-            });
-        });
-    }
-
+    // 启动
     loadNews();
 </script>
 </body>

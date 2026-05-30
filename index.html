@@ -77,7 +77,7 @@
             padding: 14px; margin-bottom: 14px; box-shadow: var(--shadow); word-break: break-word;
         }
         .news-source-tag { font-weight: 700; font-size: 0.75em; color: var(--highlight); }
-        .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; }
+        .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; cursor: pointer; }
         .news-citation { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; }
         .news-summary { font-size: 0.9em; opacity: 0.85; margin-bottom: 10px; }
         .news-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
@@ -136,6 +136,7 @@
 <div class="container">
     <div class="menu-btn" id="menuBtn">☰</div>
     <div class="header">
+        <div style="font-size:2em;">🏹🐇</div>
         <h1>永遠亭 医療報告</h1>
         <div class="subtitle">八意永琳 · 權威期刊彙編</div>
         <div class="date-badge" id="dateDisplay"></div>
@@ -163,15 +164,13 @@
 </div>
 
 <script>
-    // 1. 主动注销所有 Service Worker，防止旧 SW 拦截
+    // 主动注销所有 Service Worker
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.getRegistrations().then(registrations => {
             registrations.forEach(reg => reg.unregister());
-            console.log('所有 SW 已注销');
         });
     }
 
-    // ----- 全局状态 -----
     let allArticles = [];
     let filteredArticles = [];
     let currentRange = 7;
@@ -186,14 +185,13 @@
 
     function escapeHtml(text) { return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"'); }
 
-    // 2. 使用同源路径请求，彻底避免跨域
     async function loadNews() {
         const container = document.getElementById('newsContainer');
         container.innerHTML = '<p style="text-align:center;">⏳ 正在連線資料庫...</p>';
         try {
-            // 同源请求 /data/news.json，加上时间戳绕过缓存
             const timestamp = Date.now();
-            const url = `/data/news.json?t=${timestamp}`;
+            // 请求根目录下的 news.json，同源无跨域问题
+            const url = `/news.json?t=${timestamp}`;
             const res = await fetch(url, { cache: 'no-store' });
             if (!res.ok) throw new Error(`HTTP ${res.status}: ${res.statusText}`);
             const data = await res.json();
@@ -212,7 +210,7 @@
             container.innerHTML = `
                 <div class="error-box">
                     <strong>❌ 無法載入新聞</strong><br>
-                    錯誤：${escapeHtml(err.message)}<br>
+                    錯誤：${escapeHtml(err.message)}
                     <button class="clear-cache-btn" onclick="forceClearCache()">🧹 清除緩存並重試</button>
                 </div>`;
         }
@@ -295,7 +293,6 @@
         navigator.clipboard.writeText(`${title}\n${citation}\n${link}`).then(() => alert('已複製'));
     }
 
-    // 强制清除缓存函数
     function forceClearCache() {
         if ('caches' in window) {
             caches.keys().then(keys => keys.forEach(key => caches.delete(key)));

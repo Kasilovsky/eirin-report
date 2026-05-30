@@ -77,8 +77,7 @@
             padding: 14px; margin-bottom: 14px; box-shadow: var(--shadow); word-break: break-word;
         }
         .news-source-tag { font-weight: 700; font-size: 0.75em; color: var(--highlight); }
-        .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; cursor: pointer; text-decoration: underline; }
-        .news-title:hover { color: var(--accent); }
+        .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; cursor: pointer; }
         .news-citation { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; }
         .news-summary { font-size: 0.9em; opacity: 0.85; margin-bottom: 10px; }
         .news-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
@@ -174,39 +173,33 @@
 
     function escapeHtml(text) { return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"'); }
 
-    // ----- 数据加载（带时间戳防缓存）-----
+    // ----- 数据加载（绕过缓存，强制网络请求）-----
     async function loadNews() {
         const container = document.getElementById('newsContainer');
         container.innerHTML = '<p style="text-align:center;">⏳ 正在連線資料庫...</p>';
         try {
-            // 添加时间戳参数避免缓存
             const timestamp = new Date().getTime();
             const res = await fetch(
-                `https://raw.githubusercontent.com/Kasilovsky/eirin-report/main/data/news.json?t=${timestamp}`
+                `https://raw.githubusercontent.com/Kasilovsky/eirin-report/main/data/news.json?t=${timestamp}`,
+                { cache: 'no-store' }  // 强制不使用缓存
             );
             if (!res.ok) {
                 throw new Error(`HTTP ${res.status}: ${res.statusText}`);
             }
             const data = await res.json();
             if (!data.articles || data.articles.length === 0) {
-                container.innerHTML = '<p style="text-align:center;">📭 數據庫暫無文章，請確認爬蟲是否正常運行。</p>';
+                container.innerHTML = '<p style="text-align:center;">📭 數據庫暫無文章。</p>';
                 return;
             }
             allArticles = data.articles;
-            // 更新期刊标签
             updateJournalTags();
-            // 应用筛选
             applyFilters();
         } catch (err) {
-            console.error('加載新聞失敗:', err);
+            console.error(err);
             container.innerHTML = `
                 <div class="error-box">
                     <strong>❌ 無法載入新聞</strong><br>
-                    錯誤訊息：${escapeHtml(err.message)}<br>
-                    請檢查：<br>
-                    1. 倉庫是否為公開 (Public)<br>
-                    2. data/news.json 檔案是否存在<br>
-                    3. 網路連線是否正常
+                    錯誤：${escapeHtml(err.message)}
                 </div>`;
         }
     }
@@ -221,7 +214,6 @@
             container.innerHTML = '<span style="font-size:0.8em; color:var(--subtle);">暫無期刊</span>';
             return;
         }
-        // 默认全选
         if (selectedJournals.size === 0) {
             journalSet.forEach(j => selectedJournals.add(j));
         }
@@ -243,7 +235,6 @@
         });
     }
 
-    // ----- 筛选 & 分页 -----
     function applyFilters() {
         const cutoff = new Date(today);
         cutoff.setDate(cutoff.getDate() - currentRange);
@@ -263,7 +254,7 @@
         const pageArticles = filteredArticles.slice(start, end);
         const container = document.getElementById('newsContainer');
         if (pageArticles.length === 0) {
-            container.innerHTML = '<p style="text-align:center;">🔍 沒有符合條件的新聞，請調整期刊或時間範圍。</p>';
+            container.innerHTML = '<p style="text-align:center;">🔍 沒有符合條件的新聞。</p>';
         } else {
             let html = '';
             pageArticles.forEach(a => {
@@ -345,7 +336,18 @@
         darkToggle.checked = true;
     }
 
-    // 启动
+    // ★ 关键修复：暂时完全移除 Service Worker 注册，避免缓存拦截 ★
+    // 如果需要恢复 SW，取消下面这段注释即可
+    /*
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js')
+                .then(reg => console.log('SW registered'))
+                .catch(err => console.log('SW failed', err));
+        });
+    }
+    */
+
     loadNews();
 </script>
 </body>

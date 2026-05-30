@@ -164,7 +164,7 @@
 </div>
 
 <script>
-    // 主动注销所有 Service Worker
+    // 主动注销所有 Service Worker，避免缓存干扰
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.getRegistrations().then(registrations => {
             registrations.forEach(reg => reg.unregister());
@@ -189,9 +189,10 @@
         const container = document.getElementById('newsContainer');
         container.innerHTML = '<p style="text-align:center;">⏳ 正在連線資料庫...</p>';
         try {
+            // 使用绝对 URL，彻底避免路径问题
             const timestamp = Date.now();
-            // 请求根目录下的 news.json，同源无跨域问题
-            const url = `/news.json?t=${timestamp}`;
+            const url = `https://kasilovsky.github.io/eirin-report/data/news.json?t=${timestamp}`;
+            console.log('正在請求:', url);
             const res = await fetch(url, { cache: 'no-store' });
             if (!res.ok) throw new Error(`HTTP ${res.status}: ${res.statusText}`);
             const data = await res.json();
@@ -210,7 +211,9 @@
             container.innerHTML = `
                 <div class="error-box">
                     <strong>❌ 無法載入新聞</strong><br>
-                    錯誤：${escapeHtml(err.message)}
+                    錯誤：${escapeHtml(err.message)}<br>
+                    請確認檔案是否存在：
+                    <a href="https://kasilovsky.github.io/eirin-report/data/news.json" target="_blank">點此檢查 news.json</a>
                     <button class="clear-cache-btn" onclick="forceClearCache()">🧹 清除緩存並重試</button>
                 </div>`;
         }
@@ -303,7 +306,6 @@
         location.reload(true);
     }
 
-    // 侧边栏 & 按钮事件
     document.getElementById('menuBtn').addEventListener('click', () => {
         document.getElementById('sidebar').classList.add('open');
         document.getElementById('sidebarBackdrop').classList.add('show');

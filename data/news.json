@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-31",
+  "date": "2026-06-01",
   "articles": [
     {
       "category": "權威期刊",
@@ -328,6 +328,58 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Ivonescimab plus chemotherapy versus tislelizumab plus chemotherapy in advanced squamous non-small-cell lung cancer (HARMONi-6): interim overall survival analysis of a randomised, double-blind, phase 3 trial in China.",
+      "title_zh": "Ivonescimab联合化疗与tislelizumab联合化疗治疗晚期鳞状非小细胞肺癌（ HARMONi-6 ） ：中国一项随机、双盲、3期临床试验的中期总生存期分析。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 May 31; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42218899/",
+      "date": "2026-05-03",
+      "authors": "Lu S, Liu B, Luo Y, Sun L, Wu L",
+      "doi": ""
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Ivonescimab in advanced squamous non-small-cell lung cancer: can we raise the survival bar?",
+      "title_zh": "Ivonescimab治疗晚期鳞状非小细胞肺癌：我们能提高生存标准吗？",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 May 31; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42218898/",
+      "date": "2026-05-03",
+      "authors": "Cascone T, Mountzios G",
+      "doi": ""
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Moving beyond R-CHOP in large B-cell lymphoma.",
+      "title_zh": "在大B细胞淋巴瘤中超越R-CHOP。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 May 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42217459/",
+      "date": "2026-05-03",
+      "authors": "Nijland M",
+      "doi": ""
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Tafasitamab plus lenalidomide and R-CHOP versus R-CHOP for first-line treatment of patients with high-risk diffuse large B-cell lymphoma (frontMIND): a global, phase 3, randomised, double-blind, placebo-controlled trial.",
+      "title_zh": "Tafasitamab联合来那度胺和R-CHOP与R-CHOP用于高风险弥漫性大B细胞淋巴瘤患者的一线治疗（ frontMIND ） ：一项全球性、3期、随机、双盲、安慰剂对照试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 May 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42217458/",
+      "date": "2026-05-03",
+      "authors": "Lenz G, Trněný M, Burke JM, Nowakowski GS, Fox CP",
+      "doi": ""
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Alzheimer's disease.",
       "title_zh": "阿兹海默症",
       "summary_en": "",
@@ -572,6 +624,45 @@
       "date": "2026-05-03",
       "authors": "Schneider LS",
       "doi": "10.1016/S0140-6736(26)00514-3"
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Cancer Diagnostic Delay Rates Associated With a Population-Based Screening Trial Evaluating a Cell-Free DNA Multicancer Early Detection Test.",
+      "title_zh": "Cancer Diagnostic Delay Rates Associated With a Population-Based Screening Trial Evaluating a Cell-Free DNA Multicancer Early Detection Test.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 May 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42217468/",
+      "date": "2026-05-03",
+      "authors": "Mann S, Nascimento de Lima P, Eagan J, Ulyte A, Griffin BA",
+      "doi": "10.1001/jama.2026.6803"
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Multicancer Detection Tests: Promise, Hype, and Reality.",
+      "title_zh": "Multicancer Detection Tests: Promise, Hype, and Reality.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 May 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42217467/",
+      "date": "2026-05-03",
+      "authors": "Sullivan R, Booth CM",
+      "doi": "10.1001/jama.2026.7683"
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Spillover Effects in Clinical Trials.",
+      "title_zh": "Spillover Effects in Clinical Trials.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 May 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42217466/",
+      "date": "2026-05-03",
+      "authors": "Dahabreh IJ, Lewis RJ",
+      "doi": "10.1001/jama.2026.7858"
     },
     {
       "category": "權威期刊",
@@ -1902,7 +1993,7 @@
     {
       "category": "權威期刊",
       "title_en": "Minimizing Adverse Effects in Hypertension Treatment.",
-      "title_zh": "最大限度地减少高血压治疗中的不良反应。",
+      "title_zh": "Minimizing Adverse Effects in Hypertension Treatment.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1941,7 +2032,7 @@
     {
       "category": "權威期刊",
       "title_en": "Medical Licensing and State Police Power: Professional Regulation After Chiles v Salazar.",
-      "title_zh": "医疗执照和国家警察权力： Chiles诉Salazar之后的专业监管。",
+      "title_zh": "Medical Licensing and State Police Power: Professional Regulation After Chiles v Salazar.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1954,7 +2045,7 @@
     {
       "category": "權威期刊",
       "title_en": "Growing Trends in the Payvider Model and US Hospital Systems Owning Health Plans, 2018-2023.",
-      "title_zh": "2018-2023年Payvider模式和拥有健康计划的美国医院系统的增长趋势。",
+      "title_zh": "Growing Trends in the Payvider Model and US Hospital Systems Owning Health Plans, 2018-2023.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1980,7 +2071,7 @@
     {
       "category": "權威期刊",
       "title_en": "Breaking Up Health Care Conglomerates-The Right Fix Right Now?",
-      "title_zh": "打破医疗保健集团-现在正确的解决方案？",
+      "title_zh": "Breaking Up Health Care Conglomerates-The Right Fix Right Now?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3643,58 +3734,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "A WHO worth fighting for: the case for focused, ambitious reform.",
-      "title_zh": "一个值得为之奋斗的人：专注、雄心勃勃的改革的理由。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 May 16; 407(10542):1899-1902",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42068982/",
-      "date": "2026-05-01",
-      "authors": "Nordström A, Nkengasong J, Piot P, Correia E Silva MR, Alwan A",
-      "doi": "10.1016/S0140-6736(26)00805-6"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Signe de cils in peripheral facial palsy.",
-      "title_zh": "Signe de cils在外周性面神经麻痹中。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 May 16; 407(10542):1984-1986",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41997165/",
-      "date": "2026-05-01",
-      "authors": "Oancea A, Stebner A, Lieb J, Kassoum A, Widmer F",
-      "doi": "10.1016/S0140-6736(26)00197-2"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Hantavirus outbreak on a cruise ship in the South Atlantic.",
-      "title_zh": "Hantavirus outbreak on a cruise ship in the South Atlantic.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 May 15; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42140222/",
-      "date": "2026-05-01",
-      "authors": "Islam MS, Chughtai AA, Wood JG, Sawleshwarkar S, Muscatello DJ",
-      "doi": ""
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Eugene Braunwald.",
-      "title_zh": "Eugene Braunwald。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 May 14; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42134383/",
-      "date": "2026-05-01",
-      "authors": "Green A",
-      "doi": ""
-    },
-    {
-      "category": "權威期刊",
       "title_en": "CDC Warns About Medetomidine in the US Illegal Fentanyl Supply.",
       "title_zh": "CDC Warns About Medetomidine in the US Illegal Fentanyl Supply.",
       "summary_en": "",
@@ -3861,45 +3900,6 @@
       "date": "2026-05-01",
       "authors": "Patel VR, Liu M, Jena AB",
       "doi": "10.1001/jama.2026.5157"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Autism-Understanding Diagnosis, Prevalence, and Treatment: A Healthy Dialogue With Jeremy Veenstra-VanderWeele and Dost Öngür.",
-      "title_zh": "Autism-Understanding Diagnosis, Prevalence, and Treatment: A Healthy Dialogue With Jeremy Veenstra-VanderWeele and Dost Öngür.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 May 19; 335(19):e263415",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42018302/",
-      "date": "2026-05-01",
-      "authors": "Angus DC",
-      "doi": "10.1001/jama.2026.3415"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Using Serious Games to Increase the Implementation of Trauma Triage Guidelines: Research Summary.",
-      "title_zh": "Using Serious Games to Increase the Implementation of Trauma Triage Guidelines: Research Summary.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 May 19; 335(19):e264133",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42008284/",
-      "date": "2026-05-01",
-      "authors": "",
-      "doi": "10.1001/jama.2026.4133"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "US State Actions Related to COVID-19 Vaccination Infrastructure and Access Amid Federal Shifts.",
-      "title_zh": "US State Actions Related to COVID-19 Vaccination Infrastructure and Access Amid Federal Shifts.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 May 19; 335(19):1719-1721",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42008283/",
-      "date": "2026-05-01",
-      "authors": "Kukoyi OM, Wang VS, Yao K, Cipriano CB, Mayi CM",
-      "doi": "10.1001/jama.2026.5148"
     }
   ]
 }

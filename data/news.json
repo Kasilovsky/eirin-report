@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-06",
+  "date": "2026-06-07",
   "articles": [
     {
       "category": "權威期刊",
@@ -39,6 +39,32 @@
       "date": "2026-12-02",
       "authors": "Farrenkopf P, Poltavets U, Howarth C, Raymond NA, Poole DN",
       "doi": "10.1016/S0140-6736(25)02388-8"
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Multireceptor modulation in metabolic disease: are more targets better?",
+      "title_zh": "Multireceptor modulation in metabolic disease: are more targets better?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jun 6; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42250576/",
+      "date": "2026-06-06",
+      "authors": "Zhang S, Lingvay I",
+      "doi": ""
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+      "title_zh": "RETATRUTIDE、GIP、GLP-1和胰高血糖素受体激动剂在2型糖尿病患者和血糖控制不足的饮食和运动患者中的有效性和安全性（ TRANSCEND-T2D-1 ） ：一项双盲、随机、3期临床试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jun 6; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42250575/",
+      "date": "2026-06-06",
+      "authors": "Bajaj HS, Welch M, Shah P, Luna E, Jaouimaa FZ",
+      "doi": ""
     },
     {
       "category": "權威期刊",
@@ -302,6 +328,32 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Insulin Cost Caps, Trade-Offs, and Pharmacoequity in Diabetes.",
+      "title_zh": "糖尿病患者的胰岛素成本上限、权衡和药物权益。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 6; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42250274/",
+      "date": "2026-06-06",
+      "authors": "Essien UR, Byhoff E",
+      "doi": "10.1001/jama.2026.7544"
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Insulin Costs and Use by Medicare Beneficiaries After the Inflation Reduction Act Out-of-Pocket Cap.",
+      "title_zh": "《减少通货膨胀法》实施后胰岛素费用和医疗保险受益人的使用情况",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 6; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42250272/",
+      "date": "2026-06-06",
+      "authors": "Myerson R, Kim NH, Romley J, Qato DM, Cao Y",
+      "doi": "10.1001/jama.2026.5975"
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Obinutuzumab or Tacrolimus in Primary Membranous Nephropathy.",
       "title_zh": "Obinutuzumab或他克莫司在原发性膜性肾病中的应用。",
       "summary_en": "",
@@ -381,7 +433,7 @@
     {
       "category": "權威期刊",
       "title_en": "Fruity Flavors, Festivals, and F1-WHO Report Reveals How Nicotine Pouches Hook Consumers.",
-      "title_zh": "果味、节日和F1-WHO报告揭示了尼古丁袋如何吸引消费者。",
+      "title_zh": "Fruity Flavors, Festivals, and F1-WHO Report Reveals How Nicotine Pouches Hook Consumers.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -394,7 +446,7 @@
     {
       "category": "權威期刊",
       "title_en": "HFpEF May Be a Different Disease in Patients With Severe Obesity.",
-      "title_zh": "在重度肥胖患者中， HFpEF可能是一种不同的疾病。",
+      "title_zh": "HFpEF May Be a Different Disease in Patients With Severe Obesity.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -407,7 +459,7 @@
     {
       "category": "權威期刊",
       "title_en": "Digital Sleep-Wake Cycle Metrics May Help Predict Dementia Risk.",
-      "title_zh": "数字睡眠唤醒周期指标可能有助于预测痴呆风险。",
+      "title_zh": "Digital Sleep-Wake Cycle Metrics May Help Predict Dementia Risk.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -420,7 +472,7 @@
     {
       "category": "權威期刊",
       "title_en": "Metabolic Bariatric Surgery Declines as GLP-1 Drug Use Increases.",
-      "title_zh": "代谢减肥手术随着GLP-1药物使用的增加而下降。",
+      "title_zh": "Metabolic Bariatric Surgery Declines as GLP-1 Drug Use Increases.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -446,7 +498,7 @@
     {
       "category": "權威期刊",
       "title_en": "Finerenone in Patients With Chronic Kidney Disease Due to Glomerular Diseases: Research Summary.",
-      "title_zh": "Finerenone在肾小球疾病慢性肾脏疾病患者中的应用：研究总结。",
+      "title_zh": "Finerenone in Patients With Chronic Kidney Disease Due to Glomerular Diseases: Research Summary.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -927,7 +979,7 @@
     {
       "category": "權威期刊",
       "title_en": "Chatting With AI and the Electronic Health Record.",
-      "title_zh": "与人工智能和电子健康记录聊天。",
+      "title_zh": "Chatting With AI and the Electronic Health Record.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -940,7 +992,7 @@
     {
       "category": "權威期刊",
       "title_en": "Chasing Zebras.",
-      "title_zh": "追逐斑马。",
+      "title_zh": "Chasing Zebras.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3708,32 +3760,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Diverticulitis May Peak Seasonally.",
-      "title_zh": "Diverticulitis May Peak Seasonally.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 May 26; 335(20):1744-1745",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42065897/",
-      "date": "2026-05-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.2128"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Most US Health Care Workers Vaccinated for Flu, Less Than Half for COVID-19.",
-      "title_zh": "Most US Health Care Workers Vaccinated for Flu, Less Than Half for COVID-19.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 May 26; 335(20):1744",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42065894/",
-      "date": "2026-05-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.2126"
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Prehospital Resuscitation with Type O Whole Blood for Trauma and Hemorrhage.",
       "title_zh": "Prehospital Resuscitation with Type O Whole Blood for Trauma and Hemorrhage.",
       "summary_en": "",
@@ -3874,32 +3900,6 @@
       "date": "2026-05-01",
       "authors": "Olalla J",
       "doi": "10.1056/NEJMc2604136"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Implementing the commitments of the World Health Assembly kidney health resolution: a key opportunity to improve health for millions.",
-      "title_zh": "Implementing the commitments of the World Health Assembly kidney health resolution: a key opportunity to improve health for millions.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 May 19; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42155504/",
-      "date": "2026-05-01",
-      "authors": "Tonelli M, Kalyesubula R, Tungsanga S, Francis A, Gill J",
-      "doi": ""
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Meeting the 2024 UN General Assembly declaration targets on antimicrobial resistance.",
-      "title_zh": "实现2024年联合国大会关于抗菌素耐药性的宣言目标。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 May 19; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42155500/",
-      "date": "2026-05-01",
-      "authors": "Laxminarayan R, Limmathurotsakul D, de Abreu AL, Alimi Y, Karkey A",
-      "doi": ""
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-07",
+  "date": "2026-06-08",
   "articles": [
     {
       "category": "權威期刊",
@@ -39,6 +39,97 @@
       "date": "2026-12-02",
       "authors": "Farrenkopf P, Poltavets U, Howarth C, Raymond NA, Poole DN",
       "doi": "10.1016/S0140-6736(25)02388-8"
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Beyond insulin escalation: REIMAGINE 3 and advanced type 2 diabetes care.",
+      "title_zh": "超越胰岛素升级：重新构想3和先进的2型糖尿病护理。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jun 7; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42251857/",
+      "date": "2026-06-07",
+      "authors": "van Raalte DH, Muskiet MHA",
+      "doi": ""
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Cagrilintide-semaglutide (CagriSema) as an add-on to basal insulin in adults with type 2 diabetes (REIMAGINE 3): a randomised, double-blind, placebo-controlled, multicentre, phase 3 study.",
+      "title_zh": "Cagrilintide-semaglutide （ CagriSema ）作为成人2型糖尿病患者基础胰岛素的附加治疗（ REIMAGINE 3 ） ：一项随机、双盲、安慰剂对照、多中心、3期研究。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jun 7; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42251856/",
+      "date": "2026-06-07",
+      "authors": "Rosenstock J, Billings LK, Gajria R, Giorgino F, Johansen NB",
+      "doi": ""
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Orforglipron Added to Titrated Insulin Glargine in Type 2 Diabetes: The ACHIEVE-5 Randomized Clinical Trial.",
+      "title_zh": "Orforglipron Added to Titrated Insulin Glargine in Type 2 Diabetes: The ACHIEVE-5 Randomized Clinical Trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 7; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42251769/",
+      "date": "2026-06-07",
+      "authors": "Giorgino F, D'Souza S, Ludwig L, Kiyosue A, Ibriga H",
+      "doi": "10.1001/jama.2026.9512"
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Mazdutide and Orforglipron-New Evidence in Obesity and Diabetes.",
+      "title_zh": "Mazdutide and Orforglipron-New Evidence in Obesity and Diabetes.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 7; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42251768/",
+      "date": "2026-06-07",
+      "authors": "Gadde KM, Talebloo J, Heymsfield SB",
+      "doi": "10.1001/jama.2026.10443"
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Orforglipron Added to Titrated Insulin Glargine in Type 2 Diabetes: Research Summary.",
+      "title_zh": "Orforglipron Added to Titrated Insulin Glargine in Type 2 Diabetes: Research Summary.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 7; ():e269759",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42251766/",
+      "date": "2026-06-07",
+      "authors": "",
+      "doi": "10.1001/jama.2026.9759"
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Treatment With 9-mg Mazdutide for Weight Reduction in Chinese Adults With Obesity: Research Summary.",
+      "title_zh": "Treatment With 9-mg Mazdutide for Weight Reduction in Chinese Adults With Obesity: Research Summary.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 7; ():e268427",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42251596/",
+      "date": "2026-06-07",
+      "authors": "",
+      "doi": "10.1001/jama.2026.8427"
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Treatment With 9-mg Mazdutide for Weight Reduction in Chinese Adults With Obesity: The GLORY-2 Randomized Clinical Trial.",
+      "title_zh": "Treatment With 9-mg Mazdutide for Weight Reduction in Chinese Adults With Obesity: The GLORY-2 Randomized Clinical Trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 7; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42251595/",
+      "date": "2026-06-07",
+      "authors": "Gao L, Jiang H, Cai H, Tian J, Shi B",
+      "doi": "10.1001/jama.2026.8142"
     },
     {
       "category": "權威期刊",
@@ -329,7 +420,7 @@
     {
       "category": "權威期刊",
       "title_en": "Insulin Cost Caps, Trade-Offs, and Pharmacoequity in Diabetes.",
-      "title_zh": "糖尿病患者的胰岛素成本上限、权衡和药物权益。",
+      "title_zh": "Insulin Cost Caps, Trade-Offs, and Pharmacoequity in Diabetes.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -342,7 +433,7 @@
     {
       "category": "權威期刊",
       "title_en": "Insulin Costs and Use by Medicare Beneficiaries After the Inflation Reduction Act Out-of-Pocket Cap.",
-      "title_zh": "《减少通货膨胀法》实施后胰岛素费用和医疗保险受益人的使用情况",
+      "title_zh": "Insulin Costs and Use by Medicare Beneficiaries After the Inflation Reduction Act Out-of-Pocket Cap.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2214,7 +2305,7 @@
     {
       "category": "權威期刊",
       "title_en": "Blood biomarkers for Alzheimer's disease: from detection to decisions.",
-      "title_zh": "阿尔茨海默病的血液生物标志物：从检测到决策。",
+      "title_zh": "Blood biomarkers for Alzheimer's disease: from detection to decisions.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -2227,7 +2318,7 @@
     {
       "category": "權威期刊",
       "title_en": "Prasinezumab: what have we learned from PASADENA and PADOVA?",
-      "title_zh": "Prasinezumab ：我们从帕萨迪纳和帕多瓦学到了什么？",
+      "title_zh": "Prasinezumab: what have we learned from PASADENA and PADOVA?",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -2240,7 +2331,7 @@
     {
       "category": "權威期刊",
       "title_en": "Advancing tau-PET imaging in Alzheimer's disease.",
-      "title_zh": "在阿尔茨海默病中推进tau-PET成像。",
+      "title_zh": "Advancing tau-PET imaging in Alzheimer's disease.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -2279,7 +2370,7 @@
     {
       "category": "權威期刊",
       "title_en": "A new era in neurology.",
-      "title_zh": "神经病学的新时代。",
+      "title_zh": "A new era in neurology.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -2292,7 +2383,7 @@
     {
       "category": "權威期刊",
       "title_en": "Efficacy and safety of oral semaglutide 14 mg (flexible dose) in early-stage symptomatic Alzheimer's disease (evoke and evoke+): two phase 3, randomised, placebo-controlled trials.",
-      "title_zh": "口服semaglutide 14 mg （灵活剂量）治疗早期症状性阿尔茨海默病（ EVOK和EVOK + ）的有效性和安全性：两项3期、随机、安慰剂对照试验。",
+      "title_zh": "Efficacy and safety of oral semaglutide 14 mg (flexible dose) in early-stage symptomatic Alzheimer's disease (evoke and evoke+): two phase 3, randomised, placebo-controlled trials.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -2305,7 +2396,7 @@
     {
       "category": "權威期刊",
       "title_en": "Semaglutide for Alzheimer's disease after evoke and evoke.",
-      "title_zh": "Semaglutide用于唤起和唤起后的阿尔茨海默病。",
+      "title_zh": "Semaglutide for Alzheimer's disease after evoke and evoke.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -2929,7 +3020,7 @@
     {
       "category": "權威期刊",
       "title_en": "Ebola outbreaks in DR Congo and Uganda: until when?",
-      "title_zh": "刚果民主共和国和乌干达的埃博拉疫情：何时爆发？",
+      "title_zh": "Ebola outbreaks in DR Congo and Uganda: until when?",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -2942,7 +3033,7 @@
     {
       "category": "權威期刊",
       "title_en": "Redefining first-line standards with new partners.",
-      "title_zh": "与新合作伙伴重新定义一线标准。",
+      "title_zh": "Redefining first-line standards with new partners.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -2955,7 +3046,7 @@
     {
       "category": "權威期刊",
       "title_en": "Bundibugyo virus disease outbreak in Ituri, Democratic Republic of the Congo.",
-      "title_zh": "Bundibugyo病毒病在刚果民主共和国伊图里爆发。",
+      "title_zh": "Bundibugyo virus disease outbreak in Ituri, Democratic Republic of the Congo.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -2994,7 +3085,7 @@
     {
       "category": "權威期刊",
       "title_en": "Sacituzumab tirumotecan plus pembrolizumab versus pembrolizumab in PD-L1-positive advanced non-small-cell lung cancer (OptiTROP-Lung05): interim analysis of a randomised, open-label, phase 3 trial.",
-      "title_zh": "在PD-L1阳性晚期非小细胞肺癌（ OptiTROP-Lung05 ）中，萨西妥珠单抗替鲁莫替康联合帕博利珠单抗与帕博利珠单抗：一项随机、开放标签、3期临床试验的中期分析。",
+      "title_zh": "Sacituzumab tirumotecan plus pembrolizumab versus pembrolizumab in PD-L1-positive advanced non-small-cell lung cancer (OptiTROP-Lung05): interim analysis of a randomised, open-label, phase 3 trial.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3020,7 +3111,7 @@
     {
       "category": "權威期刊",
       "title_en": "The Lancet Commission on precision health: equitable, data-driven health outcomes for all.",
-      "title_zh": "《柳叶刀》精准健康委员会：人人享有公平、数据驱动的健康结果。",
+      "title_zh": "The Lancet Commission on precision health: equitable, data-driven health outcomes for all.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3033,7 +3124,7 @@
     {
       "category": "權威期刊",
       "title_en": "Updated trends in the global prevalence and burden of mental disorders, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023.",
-      "title_zh": "1990-2023年全球精神障碍患病率和负担的最新趋势： 2023年全球疾病负担研究的系统分析。",
+      "title_zh": "Updated trends in the global prevalence and burden of mental disorders, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3046,7 +3137,7 @@
     {
       "category": "權威期刊",
       "title_en": "Department of Error.",
-      "title_zh": "错误部门。",
+      "title_zh": "Department of Error.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3059,7 +3150,7 @@
     {
       "category": "權威期刊",
       "title_en": "Department of Error.",
-      "title_zh": "错误部门。",
+      "title_zh": "Department of Error.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3098,7 +3189,7 @@
     {
       "category": "權威期刊",
       "title_en": "Challenging narratives on Syria's health system - Authors' reply.",
-      "title_zh": "对叙利亚卫生系统的质疑性叙述--作者的回复。",
+      "title_zh": "Challenging narratives on Syria's health system - Authors' reply.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3111,7 +3202,7 @@
     {
       "category": "權威期刊",
       "title_en": "Challenging narratives on Syria's health system.",
-      "title_zh": "对叙利亚卫生系统的质疑性叙述。",
+      "title_zh": "Challenging narratives on Syria's health system.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3124,7 +3215,7 @@
     {
       "category": "權威期刊",
       "title_en": "Carr-Hill formula recalibration to reflect rural disadvantage.",
-      "title_zh": "Carr-Hill公式重新校准以反映农村劣势。",
+      "title_zh": "Carr-Hill formula recalibration to reflect rural disadvantage.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3150,7 +3241,7 @@
     {
       "category": "權威期刊",
       "title_en": "Effects of Venezuela's health system collapse on Latin America.",
-      "title_zh": "委内瑞拉卫生系统崩溃对拉丁美洲的影响。",
+      "title_zh": "Effects of Venezuela's health system collapse on Latin America.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3189,7 +3280,7 @@
     {
       "category": "權威期刊",
       "title_en": "Justice out of time: infected blood and patient knowledge.",
-      "title_zh": "时间之外的正义：受感染的血液和患者知识。",
+      "title_zh": "Justice out of time: infected blood and patient knowledge.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3202,7 +3293,7 @@
     {
       "category": "權威期刊",
       "title_en": "The age of ageing.",
-      "title_zh": "衰老的年龄。",
+      "title_zh": "The age of ageing.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3215,7 +3306,7 @@
     {
       "category": "權威期刊",
       "title_en": "Offline: The future of war.",
-      "title_zh": "离线：战争的未来。",
+      "title_zh": "Offline: The future of war.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3241,7 +3332,7 @@
     {
       "category": "權威期刊",
       "title_en": "Transforming the humanitarian system: our role to confront embedded inequities.",
-      "title_zh": "转变人道主义系统：我们在应对根深蒂固的不平等方面的作用。",
+      "title_zh": "Transforming the humanitarian system: our role to confront embedded inequities.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3254,7 +3345,7 @@
     {
       "category": "權威期刊",
       "title_en": "Paul B Spiegel: pioneer in humanitarian health.",
-      "title_zh": "Paul B Spiegel ：人道主义卫生领域的先驱。",
+      "title_zh": "Paul B Spiegel: pioneer in humanitarian health.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3280,7 +3371,7 @@
     {
       "category": "權威期刊",
       "title_en": "Johns Hopkins Center for Humanitarian Health-Lancet Commission on health, conflict, and forced displacement: health in a world of crises and impunity.",
-      "title_zh": "约翰·霍普金斯人道主义卫生中心-《柳叶刀》卫生、冲突和被迫流离失所问题委员会：危机和有罪不罚世界中的卫生问题。",
+      "title_zh": "Johns Hopkins Center for Humanitarian Health-Lancet Commission on health, conflict, and forced displacement: health in a world of crises and impunity.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3293,7 +3384,7 @@
     {
       "category": "權威期刊",
       "title_en": "A much-needed reboot for international solidarity.",
-      "title_zh": "迫切需要重新启动以实现国际团结。",
+      "title_zh": "A much-needed reboot for international solidarity.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3319,7 +3410,7 @@
     {
       "category": "權威期刊",
       "title_en": "Safety and efficacy of astegolimab for COPD with frequent exacerbations regardless of baseline blood eosinophil counts (ALIENTO and ARNASA): randomised, double-blind, placebo-controlled, phase 2b and 3 trials.",
-      "title_zh": "无论基线血嗜酸性粒细胞计数（ ALIENTO和ARNASA ）如何，阿斯替戈单抗治疗COPD频繁急性发作的安全性和有效性：随机、双盲、安慰剂对照、2b期和3期试验。",
+      "title_zh": "Safety and efficacy of astegolimab for COPD with frequent exacerbations regardless of baseline blood eosinophil counts (ALIENTO and ARNASA): randomised, double-blind, placebo-controlled, phase 2b and 3 trials.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3332,7 +3423,7 @@
     {
       "category": "權威期刊",
       "title_en": "Astegolimab and the new era of biologics in COPD care.",
-      "title_zh": "Astegolimab和COPD护理中生物制剂的新时代。",
+      "title_zh": "Astegolimab and the new era of biologics in COPD care.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3345,7 +3436,7 @@
     {
       "category": "權威期刊",
       "title_en": "Department of Error.",
-      "title_zh": "错误部门。",
+      "title_zh": "Department of Error.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3371,7 +3462,7 @@
     {
       "category": "權威期刊",
       "title_en": "Endovascular thrombectomy for patients with large-core ischaemic stroke presenting up to 24 h after onset (ATLAS): a systematic review and individual patient data meta-analysis with central imaging adjudication.",
-      "title_zh": "大核缺血性卒中患者发病后24小时内行血管内血栓切除术（ ATLAS ） ：一项系统评价和个体患者数据荟萃分析，包括中央影像学裁定。",
+      "title_zh": "Endovascular thrombectomy for patients with large-core ischaemic stroke presenting up to 24 h after onset (ATLAS): a systematic review and individual patient data meta-analysis with central imaging adjudication.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -3392,32 +3483,6 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/42173105/",
       "date": "2026-05-02",
       "authors": "Car J, Wong TY, Atun R",
-      "doi": ""
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Announcing the Lancet Commission on schizophrenia and psychotic disorders.",
-      "title_zh": "Announcing the Lancet Commission on schizophrenia and psychotic disorders.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 May 21; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42167297/",
-      "date": "2026-05-02",
-      "authors": "Leboyer M, Pedraz-Petrozzi B, Spangemacher M, Berk M, Lancet Commission on schizophrenia and psychotic disorders",
-      "doi": ""
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Imagining otherwise for better health: a Lancet Commission on activism and health.",
-      "title_zh": "想象以其他方式改善健康状况：《柳叶刀》行动主义与健康委员会。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 May 20; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42161319/",
-      "date": "2026-05-02",
-      "authors": "Burgess RA, Gamlin J, Gumbonzvanda N, Mateus A, Horton R",
       "doi": ""
     },
     {
@@ -3692,71 +3757,6 @@
       "date": "2026-05-02",
       "authors": "Morelli N, Marotti C, Gallerini S",
       "doi": "10.1001/jama.2026.4816"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Tenecteplase for Acute Non-Large Vessel Occlusion After Ischemic Stroke-Reply.",
-      "title_zh": "Tenecteplase for Acute Non-Large Vessel Occlusion After Ischemic Stroke-Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 May 27; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42201700/",
-      "date": "2026-05-02",
-      "authors": "Ma G, Zhong L, Hao J, OPTION Investigators",
-      "doi": "10.1001/jama.2026.4819"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The MV Hondius Hantavirus Outbreak-Lessons for Pandemic Preparedness.",
-      "title_zh": "The MV Hondius Hantavirus Outbreak-Lessons for Pandemic Preparedness.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 May 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42189668/",
-      "date": "2026-05-02",
-      "authors": "Hertelendy AJ, Gostin LO, Ciottone GR",
-      "doi": "10.1001/jama.2026.10321"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Apolipoprotein B May Improve CVD Risk Assessment in Younger Adults.",
-      "title_zh": "Apolipoprotein B May Improve CVD Risk Assessment in Younger Adults.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 May 26; 335(20):1744",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42065905/",
-      "date": "2026-05-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.2124"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Weight Loss, Adverse Effects With GLP-1 Medications May Be Influenced by Genetics.",
-      "title_zh": "Weight Loss, Adverse Effects With GLP-1 Medications May Be Influenced by Genetics.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 May 26; 335(20):1739-1740",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42065899/",
-      "date": "2026-05-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.6177"
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Major Meta-Analysis Links Social Media to Worse Youth Mental Health.",
-      "title_zh": "Major Meta-Analysis Links Social Media to Worse Youth Mental Health.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 May 26; 335(20):1741-1743",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42065898/",
-      "date": "2026-05-02",
-      "authors": "Schweitzer K",
-      "doi": "10.1001/jama.2026.3974"
     },
     {
       "category": "權威期刊",

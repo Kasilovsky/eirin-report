@@ -10,17 +10,41 @@
             --accent: #1e3a5f; --highlight: #b91c1c; --subtle: #64748b;
             --shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
+        body.spring { --bg: #fffbf5; --accent: #b85c5c; --highlight: #e07b7b; }
+        body.summer { --bg: #f0f7e8; --accent: #2d6a4f; --highlight: #40916c; }
+        body.autumn { --bg: #fdf6e8; --accent: #b8860b; --highlight: #d4a017; }
+        body.winter { --bg: #f0f4f8; --accent: #1e3a5f; --highlight: #3b82f6; }
         body.dark {
-            --bg: #0f172a; --text: #e2e8f0; --card-bg: #1e293b; --border: #334155;
-            --accent: #38bdf8; --highlight: #f87171; --subtle: #94a3b8;
-            --shadow: 0 2px 12px rgba(0,0,0,0.4);
+            --bg: #0f172a !important; --text: #e2e8f0 !important; --card-bg: #1e293b !important; --border: #334155 !important;
+            --accent: #38bdf8 !important; --highlight: #f87171 !important; --subtle: #94a3b8 !important;
+            --shadow: 0 2px 12px rgba(0,0,0,0.4) !important;
         }
+        body.dark .bamboo-bg { display: none; }
+
         * { margin:0; padding:0; box-sizing:border-box; }
         body {
             font-family: 'Segoe UI', 'Noto Sans SC', 'PingFang SC', sans-serif;
-            background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.3s;
+            background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.5s;
             overflow-x: hidden;
         }
+
+        .bamboo-bg { position: fixed; top:0; left:0; width:100%; height:100%; pointer-events: none; z-index:0; }
+        .leaf { position: absolute; top:-10%; opacity:0.7; animation: fall linear infinite; }
+        @keyframes fall {
+            0% { transform: translateY(0) rotate(0deg); opacity:0.8; }
+            100% { transform: translateY(110vh) rotate(360deg); opacity:0; }
+        }
+        .firefly { position: absolute; width:6px; height:6px; background:#ffd700; border-radius:50%; box-shadow: 0 0 8px #ffd700; animation: fly 4s ease-in-out infinite; }
+        @keyframes fly {
+            0%,100% { transform: translate(0,0); opacity:0.3; }
+            50% { transform: translate(20px,-20px); opacity:0.8; }
+        }
+        .toggle-anim {
+            position: fixed; bottom: 16px; right: 16px; background: var(--card-bg);
+            border:1px solid var(--border); padding: 6px 12px; border-radius:20px;
+            font-size: 0.8em; cursor: pointer; z-index: 100; box-shadow: var(--shadow); color: var(--text);
+        }
+
         .sidebar {
             position: fixed; top: 0; left: -280px; width: 280px; height: 100%;
             background: var(--card-bg); border-right: 1px solid var(--border);
@@ -28,10 +52,7 @@
             display: flex; flex-direction: column; padding: 24px 16px; overflow-y: auto;
         }
         .sidebar.open { left: 0; }
-        .sidebar-backdrop {
-            position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.35);
-            z-index: 999; display: none;
-        }
+        .sidebar-backdrop { position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.35); z-index: 999; display: none; }
         .sidebar-backdrop.show { display: block; }
         .sidebar h3 { color: var(--accent); margin-bottom: 12px; font-size: 1em; }
         .sidebar-section { margin-bottom: 24px; }
@@ -41,13 +62,8 @@
             background: none; border: 1px solid var(--border); color: var(--text);
             padding: 4px 12px; border-radius: 20px; cursor: pointer; font-size: 0.8em; transition: 0.2s;
         }
-        .filter-group button.active, .filter-group .tag.active {
-            background: var(--accent); color: #fff; border-color: var(--accent);
-        }
-        .setting-row {
-            display: flex; justify-content: space-between; align-items: center;
-            padding: 8px 0; border-bottom: 1px solid var(--border);
-        }
+        .filter-group button.active, .filter-group .tag.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+        .setting-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); }
         .switch { position: relative; display: inline-block; width: 42px; height: 22px; }
         .switch input { display: none; }
         .slider { position: absolute; cursor: pointer; top:0; left:0; right:0; bottom:0; background: #ccc; border-radius: 22px; transition: 0.3s; }
@@ -55,7 +71,7 @@
         input:checked + .slider { background: var(--accent); }
         input:checked + .slider:before { transform: translateX(20px); }
 
-        .container { max-width: 600px; margin: 0 auto; padding: 16px 12px 32px; position: relative; }
+        .container { max-width: 600px; margin: 0 auto; padding: 16px 12px 32px; position: relative; z-index:1; }
         .menu-btn {
             position: absolute; top: 12px; left: 12px;
             background: var(--card-bg); border: 1px solid var(--border); border-radius: 50%;
@@ -66,20 +82,16 @@
         .header h1 { font-size: 1.8em; color: var(--accent); letter-spacing: 2px; }
         .subtitle { font-size: 0.85em; color: var(--subtle); margin-bottom: 8px; }
         .date-badge { display: inline-block; background: var(--highlight); color: #fff; padding: 4px 16px; border-radius: 20px; font-size: 0.8em; font-weight: bold; }
-
         .pagination { display: flex; justify-content: center; gap: 8px; margin: 16px 0; align-items: center; }
         .pagination button { background: var(--accent); color: #fff; border: none; padding: 6px 12px; border-radius: 20px; font-size: 0.8em; cursor: pointer; }
         .pagination button:disabled { opacity: 0.5; cursor: default; }
         .page-info { font-size: 0.85em; color: var(--subtle); }
-
-        .news-card {
-            background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px;
-            padding: 14px; margin-bottom: 14px; box-shadow: var(--shadow); word-break: break-word;
-        }
+        .news-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 14px; margin-bottom: 14px; box-shadow: var(--shadow); word-break: break-word; }
         .news-source-tag { font-weight: 700; font-size: 0.75em; color: var(--highlight); }
         .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; cursor: pointer; }
         .news-citation { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; }
-        .news-summary { font-size: 0.9em; opacity: 0.85; margin-bottom: 10px; }
+        .departments { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0; }
+        .dept-tag { background: var(--accent); color: #fff; padding: 2px 10px; border-radius: 14px; font-size: 0.7em; opacity: 0.8; }
         .news-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
         .btn-sm { background: var(--accent); color: #fff; border: none; padding: 4px 12px; border-radius: 16px; font-size: 0.75em; cursor: pointer; text-decoration: none; display: inline-block; }
         .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
@@ -91,19 +103,22 @@
         .resource-links a { color: var(--accent); text-decoration: none; border: 1px solid var(--border); padding: 4px 12px; border-radius: 16px; font-size: 0.8em; }
         .footer { text-align: center; margin-top: 16px; font-size: 0.7em; color: var(--subtle); }
         .error-box { background: #fff3cd; border: 1px solid #ffc107; padding: 12px; border-radius: 8px; margin: 10px 0; color: #856404; }
-        .clear-cache-btn {
-            background: #dc3545; color: white; border: none; padding: 8px 16px;
-            border-radius: 20px; font-size: 0.85em; cursor: pointer; margin-top: 8px;
-        }
     </style>
 </head>
-<body>
+<body class="spring">
+<div class="bamboo-bg" id="bambooBg"></div>
+<button class="toggle-anim" id="toggleAnimBtn">🎋 竹林開</button>
+
 <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
 <div class="sidebar" id="sidebar">
     <h3>🔬 篩選與設定</h3>
     <div class="sidebar-section">
         <div class="label">📰 期刊選擇</div>
         <div class="filter-group" id="journalFilter"></div>
+    </div>
+    <div class="sidebar-section">
+        <div class="label">🏥 科室分類</div>
+        <div class="filter-group" id="deptFilter"></div>
     </div>
     <div class="sidebar-section">
         <div class="label">⏳ 時間範圍</div>
@@ -124,19 +139,19 @@
             <span>🌙 暗色模式</span>
             <label class="switch"><input type="checkbox" id="darkToggle"><span class="slider"></span></label>
         </div>
+        <div class="setting-row">
+            <span>🍂 四季主題</span>
+            <label class="switch"><input type="checkbox" id="seasonToggle" checked><span class="slider"></span></label>
+        </div>
     </div>
     <div class="sidebar-section">
         <button class="btn" id="discussBtn" style="width:100%;">💬 竹林茶會</button>
-    </div>
-    <div class="sidebar-section">
-        <button class="clear-cache-btn" id="clearCacheBtn">🧹 清除緩存並重新載入</button>
     </div>
 </div>
 
 <div class="container">
     <div class="menu-btn" id="menuBtn">☰</div>
     <div class="header">
-        <div style="font-size:2em;">🏹🐇</div>
         <h1>永遠亭 医療報告</h1>
         <div class="subtitle">八意永琳 · 權威期刊彙編</div>
         <div class="date-badge" id="dateDisplay"></div>
@@ -156,6 +171,10 @@
             <a href="https://www.nejm.org/" target="_blank">NEJM</a>
             <a href="https://www.thelancet.com/" target="_blank">Lancet</a>
             <a href="https://jamanetwork.com/" target="_blank">JAMA</a>
+            <a href="https://www.bmj.com/" target="_blank">BMJ</a>
+            <a href="https://www.nature.com/nm/" target="_blank">Nature Medicine</a>
+            <a href="https://www.cell.com/" target="_blank">Cell</a>
+            <a href="https://stm.sciencemag.org/" target="_blank">Science TM</a>
             <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a>
             <a href="https://www.who.int/" target="_blank">WHO</a>
         </div>
@@ -164,20 +183,104 @@
 </div>
 
 <script>
-    // 主动注销所有 Service Worker，避免缓存干扰
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.getRegistrations().then(registrations => {
-            registrations.forEach(reg => reg.unregister());
-        });
+    // ---------- 竹林動畫 ----------
+    const animBg = document.getElementById('bambooBg');
+    const animToggleBtn = document.getElementById('toggleAnimBtn');
+    let animEnabled = false;
+
+    function createLeaves() {
+        animBg.innerHTML = '';
+        for (let i=0; i<12; i++) {
+            const leaf = document.createElement('div');
+            leaf.className = 'leaf';
+            leaf.innerHTML = '🍃';
+            leaf.style.left = Math.random()*100+'%';
+            leaf.style.fontSize = (14 + Math.random()*16)+'px';
+            leaf.style.animationDuration = (8 + Math.random()*10)+'s';
+            leaf.style.animationDelay = Math.random()*8+'s';
+            animBg.appendChild(leaf);
+        }
+        for (let i=0; i<5; i++) {
+            const firefly = document.createElement('div');
+            firefly.className = 'firefly';
+            firefly.style.left = Math.random()*100+'%';
+            firefly.style.top = Math.random()*100+'%';
+            firefly.style.animationDelay = Math.random()*4+'s';
+            animBg.appendChild(firefly);
+        }
     }
 
+    function clearAnimation() { animBg.innerHTML = ''; }
+
+    function updateAnimUI() {
+        if (animEnabled) {
+            if (animBg.innerHTML === '') createLeaves();
+            animToggleBtn.textContent = '🎋 竹林開';
+            animToggleBtn.style.display = 'block';
+        } else {
+            clearAnimation();
+            animToggleBtn.textContent = '🎋 竹林關';
+            const seasonOn = document.getElementById('seasonToggle').checked;
+            if (!seasonOn) animToggleBtn.style.display = 'none';
+            else animToggleBtn.style.display = 'block';
+        }
+    }
+
+    animToggleBtn.addEventListener('click', () => {
+        if (!document.getElementById('seasonToggle').checked) return;
+        animEnabled = !animEnabled;
+        updateAnimUI();
+    });
+
+    // 四季主題控制動效
+    function applySeason() {
+        const month = new Date().getMonth() + 1;
+        let seasonClass = '';
+        if (month >= 3 && month <= 5) seasonClass = 'spring';
+        else if (month >= 6 && month <= 8) seasonClass = 'summer';
+        else if (month >= 9 && month <= 11) seasonClass = 'autumn';
+        else seasonClass = 'winter';
+        document.body.className = document.body.className.replace(/spring|summer|autumn|winter/g, '') + ' ' + seasonClass;
+        if (document.body.classList.contains('dark')) document.body.classList.add('dark');
+    }
+
+    const seasonToggle = document.getElementById('seasonToggle');
+    seasonToggle.checked = true;
+    seasonToggle.addEventListener('change', function() {
+        const isOn = this.checked;
+        if (isOn) { applySeason(); animEnabled = true; }
+        else { document.body.className = document.body.className.replace(/spring|summer|autumn|winter/g, ''); animEnabled = false; }
+        updateAnimUI();
+        localStorage.setItem('season', isOn);
+    });
+
+    if (localStorage.getItem('season') === 'false') { seasonToggle.checked = false; animEnabled = false; }
+    else { applySeason(); animEnabled = true; }
+
+    function syncDarkAnim() {
+        if (document.body.classList.contains('dark')) {
+            clearAnimation();
+            animToggleBtn.style.display = 'none';
+        } else {
+            if (seasonToggle.checked) updateAnimUI();
+            else { animToggleBtn.style.display = 'none'; clearAnimation(); }
+        }
+    }
+
+    if (localStorage.getItem('dark') === 'true') {
+        document.body.classList.add('dark');
+        syncDarkAnim();
+    } else { updateAnimUI(); }
+
+    // ---------- 資料處理 ----------
     let allArticles = [];
     let filteredArticles = [];
-    let currentRange = 7;
-    let currentPage = 1;
+    let currentRange = 7, currentPage = 1;
     const pageSize = 10;
     let useChinese = true;
     let selectedJournals = new Set();
+    let selectedDepts = new Set();
+    let filtersInitialized = false;
 
     const today = new Date();
     document.getElementById('dateDisplay').textContent =
@@ -187,62 +290,57 @@
 
     async function loadNews() {
         const container = document.getElementById('newsContainer');
-        container.innerHTML = '<p style="text-align:center;">⏳ 正在連線資料庫...</p>';
+        container.innerHTML = '<p style="text-align:center;">⏳ 讀取中...</p>';
         try {
-            // 使用绝对 URL，彻底避免路径问题
-            const timestamp = Date.now();
-            const url = `https://kasilovsky.github.io/eirin-report/data/news.json?t=${timestamp}`;
-            console.log('正在請求:', url);
-            const res = await fetch(url, { cache: 'no-store' });
-            if (!res.ok) throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+            const ts = Date.now();
+            const res = await fetch(`https://kasilovsky.github.io/eirin-report/data/news.json?t=${ts}`, { cache: 'no-store' });
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
             const data = await res.json();
-            if (!data.articles || !Array.isArray(data.articles)) {
-                throw new Error('數據格式錯誤');
-            }
-            if (data.articles.length === 0) {
-                container.innerHTML = '<p style="text-align:center;">📭 數據庫暫無文章。</p>';
-                return;
-            }
+            if (!data.articles || !Array.isArray(data.articles)) throw new Error('格式錯誤');
             allArticles = data.articles;
             updateJournalTags();
+            updateDeptTags();
             applyFilters();
         } catch (err) {
-            console.error(err);
-            container.innerHTML = `
-                <div class="error-box">
-                    <strong>❌ 無法載入新聞</strong><br>
-                    錯誤：${escapeHtml(err.message)}<br>
-                    請確認檔案是否存在：
-                    <a href="https://kasilovsky.github.io/eirin-report/data/news.json" target="_blank">點此檢查 news.json</a>
-                    <button class="clear-cache-btn" onclick="forceClearCache()">🧹 清除緩存並重試</button>
-                </div>`;
+            container.innerHTML = `<div class="error-box">❌ 無法載入：${escapeHtml(err.message)}</div>`;
         }
     }
 
     function updateJournalTags() {
-        const journalSet = new Set();
-        allArticles.forEach(a => { if (a.source) journalSet.add(a.source); });
+        const journals = new Set();
+        allArticles.forEach(a => { if (a.source) journals.add(a.source); });
         const container = document.getElementById('journalFilter');
         container.innerHTML = '';
-        if (journalSet.size === 0) {
-            container.innerHTML = '<span style="font-size:0.8em; color:var(--subtle);">暫無期刊</span>';
-            return;
+        if (!filtersInitialized && selectedJournals.size === 0) {
+            journals.forEach(j => selectedJournals.add(j));
+            filtersInitialized = true;
         }
-        if (selectedJournals.size === 0) {
-            journalSet.forEach(j => selectedJournals.add(j));
-        }
-        journalSet.forEach(journal => {
+        journals.forEach(j => {
             const tag = document.createElement('span');
-            tag.className = 'tag' + (selectedJournals.has(journal) ? ' active' : '');
-            tag.textContent = journal;
+            tag.className = 'tag' + (selectedJournals.has(j) ? ' active' : '');
+            tag.textContent = j;
             tag.addEventListener('click', () => {
-                if (selectedJournals.has(journal)) {
-                    selectedJournals.delete(journal);
-                    tag.classList.remove('active');
-                } else {
-                    selectedJournals.add(journal);
-                    tag.classList.add('active');
-                }
+                if (selectedJournals.has(j)) { selectedJournals.delete(j); tag.classList.remove('active'); }
+                else { selectedJournals.add(j); tag.classList.add('active'); }
+                applyFilters();
+            });
+            container.appendChild(tag);
+        });
+    }
+
+    function updateDeptTags() {
+        const depts = new Set();
+        allArticles.forEach(a => { if (a.departments && Array.isArray(a.departments)) a.departments.forEach(d => depts.add(d)); });
+        const container = document.getElementById('deptFilter');
+        container.innerHTML = '';
+        if (!filtersInitialized && selectedDepts.size === 0) depts.forEach(d => selectedDepts.add(d));
+        depts.forEach(d => {
+            const tag = document.createElement('span');
+            tag.className = 'tag' + (selectedDepts.has(d) ? ' active' : '');
+            tag.textContent = d;
+            tag.addEventListener('click', () => {
+                if (selectedDepts.has(d)) { selectedDepts.delete(d); tag.classList.remove('active'); }
+                else { selectedDepts.add(d); tag.classList.add('active'); }
                 applyFilters();
             });
             container.appendChild(tag);
@@ -256,6 +354,10 @@
         filteredArticles = allArticles.filter(a => {
             if (!a.date || a.date < cutoffStr) return false;
             if (selectedJournals.size > 0 && !selectedJournals.has(a.source)) return false;
+            if (selectedDepts.size > 0) {
+                const deps = a.departments || [];
+                if (!deps.some(d => selectedDepts.has(d))) return false;
+            }
             return true;
         });
         currentPage = 1;
@@ -263,98 +365,86 @@
     }
 
     function renderPage() {
-        const start = (currentPage - 1) * pageSize;
-        const end = start + pageSize;
-        const pageArticles = filteredArticles.slice(start, end);
+        const start = (currentPage-1)*pageSize;
+        const pageArticles = filteredArticles.slice(start, start+pageSize);
         const container = document.getElementById('newsContainer');
         if (pageArticles.length === 0) {
-            container.innerHTML = '<p style="text-align:center;">🔍 沒有符合條件的新聞。</p>';
+            container.innerHTML = '<p style="text-align:center;">🔍 無符合條件的新聞</p>';
         } else {
             let html = '';
             pageArticles.forEach(a => {
                 const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
+                const deptTags = (a.departments||[]).map(d => `<span class="dept-tag">${d}</span>`).join('');
                 html += `
                     <div class="news-card">
                         <div class="news-source-tag">■ ${escapeHtml(a.source)}</div>
                         <div class="news-title">${escapeHtml(title)}</div>
+                        <div class="departments">${deptTags}</div>
                         ${a.citation ? `<div class="news-citation">${escapeHtml(a.citation)}</div>` : ''}
                         <div class="news-actions">
                             ${a.link ? `<a class="btn-sm" href="${escapeHtml(a.link)}" target="_blank">📎 原文</a>` : ''}
-                            <button class="btn-sm btn-outline" onclick="copySingle('${escapeHtml(title)}', '${escapeHtml(a.citation||'')}', '${escapeHtml(a.link||'')}')">📋 複製引用</button>
+                            <button class="btn-sm btn-outline" onclick="copySingle('${escapeHtml(title)}', '${escapeHtml(a.citation||'')}', '${escapeHtml(a.link||'')}')">📋 複製</button>
                         </div>
                     </div>`;
             });
             container.innerHTML = html;
         }
-        const totalPages = Math.ceil(filteredArticles.length / pageSize) || 1;
-        document.getElementById('pageInfo').textContent = `${currentPage} / ${totalPages}`;
+        const total = Math.ceil(filteredArticles.length/pageSize)||1;
+        document.getElementById('pageInfo').textContent = `${currentPage}/${total}`;
         document.getElementById('prevPage').disabled = currentPage <= 1;
-        document.getElementById('nextPage').disabled = currentPage >= totalPages;
+        document.getElementById('nextPage').disabled = currentPage >= total;
     }
 
     function copySingle(title, citation, link) {
         navigator.clipboard.writeText(`${title}\n${citation}\n${link}`).then(() => alert('已複製'));
     }
 
-    function forceClearCache() {
-        if ('caches' in window) {
-            caches.keys().then(keys => keys.forEach(key => caches.delete(key)));
-        }
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.getRegistrations().then(regs => regs.forEach(r => r.unregister()));
-        }
-        location.reload(true);
-    }
-
-    document.getElementById('menuBtn').addEventListener('click', () => {
+    document.getElementById('menuBtn').onclick = () => {
         document.getElementById('sidebar').classList.add('open');
         document.getElementById('sidebarBackdrop').classList.add('show');
-    });
-    document.getElementById('sidebarBackdrop').addEventListener('click', () => {
+    };
+    document.getElementById('sidebarBackdrop').onclick = () => {
         document.getElementById('sidebar').classList.remove('open');
         document.getElementById('sidebarBackdrop').classList.remove('show');
-    });
-
+    };
     document.getElementById('timeFilter').addEventListener('click', e => {
-        if (e.target.tagName === 'BUTTON') {
-            document.querySelectorAll('#timeFilter button').forEach(b => b.classList.remove('active'));
+        if (e.target.tagName==='BUTTON') {
+            [...document.querySelectorAll('#timeFilter button')].forEach(b=>b.classList.remove('active'));
             e.target.classList.add('active');
             currentRange = parseInt(e.target.dataset.range);
             applyFilters();
         }
     });
-
-    document.getElementById('prevPage').addEventListener('click', () => {
-        if (currentPage > 1) { currentPage--; renderPage(); }
-    });
-    document.getElementById('nextPage').addEventListener('click', () => {
-        if (currentPage < Math.ceil(filteredArticles.length/pageSize)) { currentPage++; renderPage(); }
-    });
-
-    document.getElementById('copyAllBtn').addEventListener('click', () => {
-        const pageArticles = filteredArticles.slice((currentPage-1)*pageSize, currentPage*pageSize);
-        if (!pageArticles.length) return;
+    document.getElementById('prevPage').onclick = () => { if(currentPage>1){ currentPage--; renderPage(); } };
+    document.getElementById('nextPage').onclick = () => { if(currentPage<Math.ceil(filteredArticles.length/pageSize)){ currentPage++; renderPage(); } };
+    document.getElementById('copyAllBtn').onclick = () => {
+        const arts = filteredArticles.slice((currentPage-1)*pageSize, currentPage*pageSize);
+        if (!arts.length) return;
         let text = `【永遠亭 医療速報】${document.getElementById('dateDisplay').textContent}\n`;
-        pageArticles.forEach((a, i) => text += `\n${i+1}. [${a.source}] ${useChinese ? (a.title_zh||a.title_en) : a.title_en}\n   ${a.citation||''}`);
+        arts.forEach((a,i) => {
+            text += `\n${i+1}. [${a.source}] ${useChinese?(a.title_zh||a.title_en):a.title_en}`;
+            if (a.citation) text += `\n   ${a.citation}`;
+        });
         text += '\n—— 八意永琳';
-        navigator.clipboard.writeText(text).then(() => alert('速報已複製'));
-    });
+        navigator.clipboard.writeText(text).then(()=>alert('已複製'));
+    };
+    document.getElementById('discussBtn').onclick = () => window.open('discuss.html', '_blank');
 
-    document.getElementById('discussBtn').addEventListener('click', () => window.open('discuss.html', '_blank'));
-    document.getElementById('clearCacheBtn').addEventListener('click', forceClearCache);
-
-    const chineseToggle = document.getElementById('chineseToggle');
+    document.getElementById('chineseToggle').checked = useChinese;
+    document.getElementById('chineseToggle').onchange = function() { useChinese = this.checked; renderPage(); };
     const darkToggle = document.getElementById('darkToggle');
-    chineseToggle.checked = useChinese;
-    chineseToggle.addEventListener('change', () => { useChinese = chineseToggle.checked; renderPage(); });
     darkToggle.checked = document.body.classList.contains('dark');
-    darkToggle.addEventListener('change', () => {
-        document.body.classList.toggle('dark', darkToggle.checked);
-        localStorage.setItem('theme', darkToggle.checked ? 'dark' : 'light');
-    });
-    if (localStorage.getItem('theme') === 'dark') {
-        document.body.classList.add('dark');
-        darkToggle.checked = true;
+    darkToggle.onchange = function() {
+        document.body.classList.toggle('dark', this.checked);
+        localStorage.setItem('dark', this.checked);
+        syncDarkAnim();
+    };
+    if (localStorage.getItem('dark')==='true') { document.body.classList.add('dark'); darkToggle.checked = true; syncDarkAnim(); }
+
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js').then(reg => console.log('SW ready'));
+        });
     }
 
     loadNews();

@@ -1,9 +1,46 @@
 import json, requests, os, time, re
 from datetime import datetime, timedelta
 
-OUTPUT_FILE = 'data/news.json'   # 恢复 data 文件夹
+OUTPUT_FILE = 'data/news.json'
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
-JOURNALS = ['N Engl J Med', 'Lancet', 'JAMA']
+
+JOURNALS = [
+    'N Engl J Med', 'Lancet', 'JAMA',
+    'BMJ', 'Nature Medicine', 'Cell',
+    'Science Translational Medicine'
+]
+
+MESH_CATEGORY_MAP = {
+    'Cardiovascular Diseases': '心血管',
+    'Heart Diseases': '心血管',
+    'Hypertension': '心血管',
+    'Neoplasms': '腫瘤',
+    'Medical Oncology': '腫瘤',
+    'Nervous System Diseases': '神經',
+    'Mental Disorders': '神經',
+    'Infections': '感染',
+    'Communicable Diseases': '感染',
+    'Respiratory Tract Diseases': '呼吸',
+    'Digestive System Diseases': '消化',
+    'Endocrine System Diseases': '內分泌',
+    'Nutritional and Metabolic Diseases': '內分泌',
+    'Immune System Diseases': '免疫',
+    'Rheumatic Diseases': '風濕',
+    'Musculoskeletal Diseases': '骨科',
+    'Hematologic Diseases': '血液',
+    'Urologic Diseases': '泌尿',
+    'Renal Insufficiency': '腎臟',
+    'Ophthalmology': '眼科',
+    'Otolaryngology': '耳鼻喉',
+    'Dermatology': '皮膚',
+    'Pediatrics': '兒科',
+    'Geriatrics': '老年醫學',
+    'Obstetrics': '婦產',
+    'Public Health': '公共衛生',
+    'Epidemiology': '流行病學',
+    'Pharmacology': '藥理',
+    'Genetics': '遺傳',
+}
 
 def translate_to_chinese(text):
     if not text or len(text.strip()) == 0:
@@ -20,15 +57,22 @@ def translate_to_chinese(text):
             return text
         return translated + text[500:]
     except Exception as e:
-        print(f"翻译失败: {e}")
+        print(f"翻譯失敗: {e}")
         return text
+
+def get_departments(mesh_terms):
+    departments = set()
+    for term in mesh_terms:
+        for key, dept in MESH_CATEGORY_MAP.items():
+            if key.lower() in term.lower():
+                departments.add(dept)
+    return list(departments) if departments else ['綜合']
 
 def fetch_recent_articles(days=180, max_results=100):
     end_date = datetime.now()
     start_date = end_date - timedelta(days=days)
     mindate = start_date.strftime('%Y/%m/%d')
     maxdate = end_date.strftime('%Y/%m/%d')
-
     base = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/'
     articles = []
 
@@ -61,7 +105,7 @@ def fetch_recent_articles(days=180, max_results=100):
                     paper = results.get(pmid, {})
                     if not paper:
                         continue
-                    title_en = paper.get('title', '未知标题')
+                    title_en = paper.get('title', '未知標題')
                     title_zh = translate_to_chinese(title_en)
                     pubdate = paper.get('pubdate', '')
                     try:
@@ -75,8 +119,10 @@ def fetch_recent_articles(days=180, max_results=100):
 
                     doi_raw = paper.get('elocationid', '')
                     doi = doi_raw.replace('doi: ', '') if doi_raw.lower().startswith('doi:') else ''
-
                     citation = f"{paper.get('source','')}. {pubdate}; {paper.get('volume','')}({paper.get('issue','')}):{paper.get('pages','')}"
+
+                    mesh_terms = paper.get('meshheadings', [])
+                    departments = get_departments(mesh_terms)
 
                     articles.append({
                         'category': '權威期刊',
@@ -89,7 +135,8 @@ def fetch_recent_articles(days=180, max_results=100):
                         'link': f'https://pubmed.ncbi.nlm.nih.gov/{pmid}/',
                         'date': date_obj.strftime('%Y-%m-%d') if date_obj else '',
                         'authors': authors_str,
-                        'doi': doi
+                        'doi': doi,
+                        'departments': departments
                     })
                 time.sleep(0.3)
         except Exception as e:
@@ -119,13 +166,13 @@ def main():
             'link': '',
             'date': datetime.now().strftime('%Y-%m-%d'),
             'authors': '',
-            'doi': ''
+            'doi': '',
+            'departments': ['系統']
         })
-    # 确保 data 文件夹存在
     os.makedirs('data', exist_ok=True)
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump({'date': datetime.now().strftime('%Y-%m-%d'), 'articles': articles}, f, ensure_ascii=False, indent=2)
-    print(f'✅ 已保存 {len(articles)} 篇文章至 {OUTPUT_FILE}')
+    print(f'✅ 已保存 {len(articles)} 篇文章')
 
 if __name__ == '__main__':
     main()

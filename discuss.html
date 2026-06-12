@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -5,383 +6,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>竹林茶會 · 討論板</title>
     <style>
-        body {
-            font-family: 'Segoe UI', 'Noto Sans SC', sans-serif;
-            background: #f5f0e7; color: #3e3232;
-            max-width: 600px; margin: 0 auto; padding: 20px;
-        }
-        .header { text-align: center; margin-bottom: 20px; }
-        .header h1 { color: #4a3620; }
-        .action-bar {
-            display: flex; justify-content: space-between; align-items: center;
-            margin-bottom: 20px;
-        }
-        .toggle-btn {
-            background: #1e3a5f; color: white; border: none;
-            padding: 10px 20px; border-radius: 8px; font-size: 1em; cursor: pointer;
-        }
-        .refresh-btn {
-            background: #e0d7c6; border: none; padding: 10px 16px;
-            border-radius: 8px; cursor: pointer; font-size: 0.9em;
-        }
-
-        .compose-box {
-            background: white; border-radius: 8px; padding: 16px; margin-bottom: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            display: none;
-        }
-        .compose-box.show { display: block; }
-        .compose-box input, .compose-box textarea {
-            width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc;
-            border-radius: 6px; font-family: inherit; font-size: 0.95em;
-        }
-        .compose-box textarea { height: 120px; resize: vertical; }
-        .token-row {
-            display: flex; gap: 8px; align-items: center; margin-bottom: 4px;
-        }
-        .token-row input { flex: 1; margin-bottom: 0; }
-        .submit-btn {
-            background: #b91c1c; color: white; border: none; padding: 8px 20px;
-            border-radius: 6px; cursor: pointer; font-weight: bold;
-        }
-        .note {
-            font-size: 0.75em; color: #8b7b6b; margin-top: 8px;
-        }
-
-        .issue-card {
-            background: white; border-radius: 8px; padding: 16px; margin-bottom: 12px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-        }
-        .issue-header {
-            display: flex; justify-content: space-between; align-items: baseline;
-        }
-        .issue-title {
-            font-weight: bold; color: #2f2418; cursor: pointer;
-            flex: 1; margin-right: 10px;
-        }
-        .issue-title:hover { text-decoration: underline; }
-        .issue-meta {
-            font-size: 0.8em; color: #6b5b4b; margin-bottom: 8px;
-            display: flex; gap: 12px; flex-wrap: wrap;
-        }
-        .comment-badge {
-            background: #e0d7c6; padding: 2px 10px; border-radius: 20px;
-            font-size: 0.8em; cursor: pointer; white-space: nowrap;
-        }
-        .comment-badge:hover { background: #d0c0a0; }
-
-        /* 正文区域 */
-        .issue-body {
-            font-size: 0.9em; color: #3e3232; white-space: pre-wrap; word-break: break-word;
-            margin-bottom: 10px; line-height: 1.5;
-        }
-        .body-preview {
-            max-height: 4.5em; overflow: hidden; position: relative;
-        }
-        .body-full { display: none; }
-        .expand-btn {
-            color: #1e3a5f; cursor: pointer; font-size: 0.85em; text-decoration: underline;
-            margin-top: 4px; display: inline-block;
-        }
-        .expand-btn:hover { color: #b91c1c; }
-
-        .comments-section {
-            margin-top: 12px; border-top: 1px solid #e0d7c6; padding-top: 12px;
-            display: none;
-        }
-        .comments-section.show { display: block; }
-        .comment-item {
-            background: #f9f6f0; padding: 10px; margin-bottom: 8px;
-            border-radius: 6px;
-        }
-        .comment-author { font-size: 0.8em; font-weight: bold; color: #4a3620; }
-        .comment-time { font-size: 0.75em; color: #8b7b6b; margin-left: 8px; }
-        .comment-body { font-size: 0.9em; margin-top: 4px; white-space: pre-wrap; word-break: break-word; }
-        .load-comments {
-            font-size: 0.85em; color: #8b7b6b; text-align: center; padding: 10px;
-        }
-
-        .reply-box { margin-top: 10px; }
-        .reply-box textarea {
-            width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px;
-            font-family: inherit; font-size: 0.9em; resize: vertical;
-        }
-        .reply-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 6px; }
-        .reply-btn {
-            background: #1e3a5f; color: white; border: none;
-            padding: 6px 14px; border-radius: 20px; font-size: 0.85em; cursor: pointer;
-        }
-        .reply-btn:hover { background: #b91c1c; }
-
-        .loading { text-align: center; color: #8b7b6b; padding: 40px; }
-        .info-text {
-            font-size: 0.8em; color: #8b7b6b; text-align: center; margin-top: 8px;
-        }
+        body { font-family: 'Segoe UI','Noto Sans SC',sans-serif; background:#f5f0e7; color:#3e3232; max-width:600px; margin:0 auto; padding:20px; }
+        .header { text-align:center; margin-bottom:20px; }
+        .header h1 { color:#4a3620; }
+        .action-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; }
+        .toggle-btn { background:#1e3a5f; color:white; border:none; padding:10px 20px; border-radius:8px; font-size:1em; cursor:pointer; }
+        .refresh-btn { background:#e0d7c6; border:none; padding:10px 16px; border-radius:8px; cursor:pointer; font-size:0.9em; }
+        .compose-box { background:white; border-radius:8px; padding:16px; margin-bottom:20px; box-shadow:0 2px 8px rgba(0,0,0,0.08); display:none; }
+        .compose-box.show { display:block; }
+        .compose-box input, .compose-box textarea { width:100%; padding:10px; margin-bottom:10px; border:1px solid #ccc; border-radius:6px; font-family:inherit; }
+        .compose-box textarea { height:120px; resize:vertical; }
+        .token-row { display:flex; gap:8px; align-items:center; }
+        .token-row input { flex:1; }
+        .submit-btn { background:#b91c1c; color:white; border:none; padding:8px 20px; border-radius:6px; cursor:pointer; }
+        .note { font-size:0.75em; color:#8b7b6b; margin-top:8px; }
+        .issue-card { background:white; border-radius:8px; padding:16px; margin-bottom:12px; box-shadow:0 2px 6px rgba(0,0,0,0.05); }
+        .issue-title { font-weight:bold; cursor:pointer; }
+        .issue-meta { font-size:0.8em; color:#6b5b4b; }
+        .reactions { display:flex; gap:8px; margin:8px 0; align-items:center; }
+        .reaction-btn { background:transparent; border:1px solid #ccc; border-radius:16px; padding:2px 10px; cursor:pointer; font-size:0.85em; }
+        .comments-section { margin-top:12px; border-top:1px solid #e0d7c6; padding-top:12px; display:none; }
+        .comments-section.show { display:block; }
+        .comment-item { background:#f9f6f0; padding:10px; margin-bottom:8px; border-radius:6px; }
+        .comment-meta { font-size:0.8em; color:#6b5b4b; }
+        .reply-box { margin-top:10px; }
+        .reply-box textarea { width:100%; padding:8px; border:1px solid #ccc; border-radius:6px; }
+        .reply-actions { display:flex; gap:8px; justify-content:flex-end; margin-top:6px; }
+        .loading { text-align:center; color:#8b7b6b; padding:40px; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>🎋 竹林茶會</h1>
-        <p>永遠亭醫療報告 · 群友討論區</p>
+<div class="header"><h1>🎋 竹林茶會</h1><p>永遠亭醫療報告 · 群友討論區</p></div>
+<div class="action-bar">
+    <button class="toggle-btn" id="toggleComposeBtn">✚ 發佈新帖</button>
+    <button class="refresh-btn" onclick="loadIssues()">🔄 重新整理</button>
+</div>
+<div class="compose-box" id="composeBox">
+    <input type="text" id="issueTitle" placeholder="標題">
+    <textarea id="issueBody" placeholder="內容（支援 Markdown）"></textarea>
+    <div class="token-row">
+        <input type="password" id="tokenInput" placeholder="GitHub Token">
+        <button class="submit-btn" onclick="submitIssue()">發佈</button>
     </div>
+    <div class="note">🔑 需要 Token (勾選 public_repo)。<a href="https://github.com/settings/tokens/new?scopes=public_repo&description=eirin-discuss" target="_blank">點此建立</a></div>
+</div>
+<div id="issues-container"><div class="loading">🌸 載入中...</div></div>
 
-    <div class="action-bar">
-        <button class="toggle-btn" id="toggleComposeBtn">✚ 發佈新帖</button>
-        <button class="refresh-btn" onclick="loadIssues()">🔄 重新整理</button>
-    </div>
+<script>
+    const repo = 'Kasilovsky/eirin-report';
+    let token = localStorage.getItem('gh_token') || '';
+    if (token) document.getElementById('tokenInput').value = token;
 
-    <div class="compose-box" id="composeBox">
-        <h3 style="margin-bottom:12px;">✏️ 發表新話題</h3>
-        <input type="text" id="issueTitle" placeholder="標題">
-        <textarea id="issueBody" placeholder="內容（支援 Markdown，可直接拖曳圖片至此）"></textarea>
-        <div class="token-row">
-            <input type="password" id="tokenInput" placeholder="GitHub Token (只需設定一次)">
-            <button class="submit-btn" onclick="submitIssue()">發佈</button>
-        </div>
-        <div class="note">
-            🔑 需要 GitHub 個人存取權杖 (Token) 才能發文。<br>
-            <a href="https://github.com/settings/tokens/new?scopes=public_repo&description=eirin-discuss" target="_blank">點此建立 Token</a>（勾選 `public_repo` 權限）。<br>
-            Token 會安全儲存在你的瀏覽器中。
-        </div>
-    </div>
+    document.getElementById('toggleComposeBtn').onclick = () => {
+        document.getElementById('composeBox').classList.toggle('show');
+    };
 
-    <div id="issues-container"><div class="loading">🌸 載入討論中...</div></div>
-
-    <div class="info-text">
-        💡 點擊帖子標題或 💬 數字即可展開查看回覆，無需離開本頁。
-    </div>
-
-    <script>
-        const repo = 'Kasilovsky/eirin-report';
-        let personalToken = localStorage.getItem('gh_token') || '';
-
-        if (personalToken) {
-            document.getElementById('tokenInput').value = personalToken;
-        }
-
-        const composeBox = document.getElementById('composeBox');
-        const toggleBtn = document.getElementById('toggleComposeBtn');
-        toggleBtn.addEventListener('click', () => {
-            composeBox.classList.toggle('show');
-            if (composeBox.classList.contains('show')) {
-                document.getElementById('issueTitle').focus();
-                toggleBtn.textContent = '✖ 取消發帖';
-            } else {
-                toggleBtn.textContent = '✚ 發佈新帖';
-            }
+    async function submitIssue() {
+        const title = document.getElementById('issueTitle').value.trim();
+        const body = document.getElementById('issueBody').value.trim();
+        token = document.getElementById('tokenInput').value.trim();
+        if (!title || !body || !token) return alert('請填寫完整');
+        const res = await fetch(`https://api.github.com/repos/${repo}/issues`, {
+            method:'POST', headers:{'Authorization':`token ${token}`,'Content-Type':'application/json'},
+            body:JSON.stringify({title,body})
         });
+        if (res.ok) {
+            alert('發佈成功'); localStorage.setItem('gh_token', token);
+            document.getElementById('issueTitle').value=''; document.getElementById('issueBody').value='';
+            loadIssues();
+        } else alert('失敗: '+ (await res.json()).message);
+    }
 
-        // 缓存评论数据
-        const commentsCache = {};
-
-        async function submitIssue() {
-            const title = document.getElementById('issueTitle').value.trim();
-            const body = document.getElementById('issueBody').value.trim();
-            const token = document.getElementById('tokenInput').value.trim();
-
-            if (!title || !body) return alert('請填寫標題和內容');
-            if (!token) return alert('請貼上你的 GitHub Token');
-
-            const res = await fetch(`https://api.github.com/repos/${repo}/issues`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `token ${token}`,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ title, body })
-            });
-
-            if (res.ok) {
-                alert('✅ 發佈成功！');
-                localStorage.setItem('gh_token', token);
-                document.getElementById('issueTitle').value = '';
-                document.getElementById('issueBody').value = '';
-                composeBox.classList.remove('show');
-                toggleBtn.textContent = '✚ 發佈新帖';
-                loadIssues();
-            } else {
-                const err = await res.json();
-                alert('❌ 發佈失敗: ' + err.message);
-            }
-        }
-
-        function loadIssues() {
-            const container = document.getElementById('issues-container');
-            container.innerHTML = '<div class="loading">🌸 載入中...</div>';
-
-            fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=30&sort=created&direction=desc`)
-                .then(res => {
-                    if (!res.ok) throw new Error('無法讀取討論');
-                    return res.json();
-                })
-                .then(issues => {
-                    if (!issues.length) {
-                        container.innerHTML = '<div class="loading">🌿 暫無討論，來發第一帖吧！</div>';
-                        return;
-                    }
-                    container.innerHTML = issues.map(issue => {
-                        const number = issue.number;
-                        const commentCount = issue.comments || 0;
-                        const body = issue.body || '';
-                        // 生成正文 HTML，支持折叠
-                        const bodyHtml = generateBodyHtml(body, number);
-                        return `
-                        <div class="issue-card" id="issue-${number}">
-                            <div class="issue-header">
-                                <span class="issue-title" onclick="toggleComments(${number})">${escapeHtml(issue.title)}</span>
-                                <span class="comment-badge" onclick="toggleComments(${number})">💬 ${commentCount}</span>
-                            </div>
-                            <div class="issue-meta">
-                                <span>#${number}</span>
-                                <span>${issue.user.login}</span>
-                                <span>${new Date(issue.created_at).toLocaleDateString()}</span>
-                                <span>${issue.state === 'open' ? '🟢 開放' : '🔴 已關閉'}</span>
-                            </div>
-                            ${bodyHtml}
-                            <div class="comments-section" id="comments-${number}"></div>
-                        </div>`;
-                    }).join('');
-                })
-                .catch(err => {
-                    container.innerHTML = `<div class="loading">⚠️ ${err.message}</div>`;
-                });
-        }
-
-        function generateBodyHtml(body, issueNumber) {
-            if (!body) return '';
-            const maxLength = 200;
-            const escaped = escapeHtml(body);
-            if (escaped.length <= maxLength) {
-                return `<div class="issue-body">${escaped}</div>`;
-            }
-            const preview = escaped.substring(0, maxLength) + '...';
+    async function loadIssues() {
+        const cont = document.getElementById('issues-container');
+        cont.innerHTML = '<div class="loading">載入中...</div>';
+        const res = await fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=30&sort=created&direction=desc`);
+        const issues = await res.json();
+        if (!issues.length) { cont.innerHTML = '<div class="loading">尚無討論</div>'; return; }
+        cont.innerHTML = issues.map(issue => {
+            const r = issue.reactions || {};
             return `
-                <div class="issue-body">
-                    <span class="body-preview" id="body-preview-${issueNumber}">${preview}</span>
-                    <span class="body-full" id="body-full-${issueNumber}">${escaped}</span>
-                    <span class="expand-btn" id="expand-btn-${issueNumber}" onclick="toggleBody(${issueNumber})">[展開全文]</span>
-                </div>`;
-        }
-
-        // 展开/收起正文
-        function toggleBody(issueNumber) {
-            const preview = document.getElementById(`body-preview-${issueNumber}`);
-            const full = document.getElementById(`body-full-${issueNumber}`);
-            const btn = document.getElementById(`expand-btn-${issueNumber}`);
-            if (!preview || !full || !btn) return;
-            if (full.style.display === 'none' || full.style.display === '') {
-                preview.style.display = 'none';
-                full.style.display = 'inline';
-                btn.textContent = '[收合]';
-            } else {
-                preview.style.display = 'inline';
-                full.style.display = 'none';
-                btn.textContent = '[展開全文]';
-            }
-        }
-
-        // 评论切换
-        async function toggleComments(issueNumber) {
-            const commentsDiv = document.getElementById(`comments-${issueNumber}`);
-            if (!commentsDiv) return;
-
-            if (commentsDiv.classList.contains('show')) {
-                commentsDiv.classList.remove('show');
-                return;
-            }
-
-            commentsDiv.innerHTML = '<div class="load-comments">🌸 載入回覆中...</div>';
-            commentsDiv.classList.add('show');
-
-            if (commentsCache[issueNumber]) {
-                renderComments(issueNumber, commentsCache[issueNumber]);
-            } else {
-                try {
-                    const res = await fetch(`https://api.github.com/repos/${repo}/issues/${issueNumber}/comments`);
-                    if (!res.ok) throw new Error('無法載入回覆');
-                    const comments = await res.json();
-                    commentsCache[issueNumber] = comments;
-                    renderComments(issueNumber, comments);
-                } catch (err) {
-                    commentsDiv.innerHTML = `<div class="load-comments">⚠️ ${err.message}</div>`;
-                }
-            }
-        }
-
-        function renderComments(issueNumber, comments) {
-            const commentsDiv = document.getElementById(`comments-${issueNumber}`);
-            if (!commentsDiv) return;
-
-            let html = '';
-            if (comments.length === 0) {
-                html = '<div class="load-comments">🌿 尚無回覆</div>';
-            } else {
-                html = comments.map(c => `
-                    <div class="comment-item">
-                        <div>
-                            <span class="comment-author">${escapeHtml(c.user.login)}</span>
-                            <span class="comment-time">${new Date(c.created_at).toLocaleString()}</span>
-                        </div>
-                        <div class="comment-body">${escapeHtml(c.body)}</div>
-                    </div>
-                `).join('');
-            }
-
-            html += `
-                <div class="reply-box">
-                    <textarea id="reply-text-${issueNumber}" placeholder="輸入你的回覆..." rows="2"></textarea>
-                    <div class="reply-actions">
-                        <button class="reply-btn" onclick="submitReply(${issueNumber})">送出回覆</button>
-                    </div>
-                    <div class="note">🔑 回覆需使用 Token，若未設定請先在上方發帖區設定一次。</div>
+            <div class="issue-card">
+                <div class="issue-title" onclick="toggleComments(${issue.number})">${escapeHtml(issue.title)}</div>
+                <div class="issue-meta">#${issue.number} · ${issue.user.login} · ${new Date(issue.created_at).toLocaleDateString()}</div>
+                <div class="reactions" id="reactions-${issue.number}">
+                    <button class="reaction-btn" onclick="addReaction(${issue.number}, '+1')">👍 ${r['+1']||0}</button>
+                    <button class="reaction-btn" onclick="addReaction(${issue.number}, 'heart')">❤️ ${r.heart||0}</button>
+                    <button class="reaction-btn" onclick="addReaction(${issue.number}, 'tada')">🎉 ${r.tada||0}</button>
                 </div>
-            `;
+                <div class="comments-section" id="comments-${issue.number}"></div>
+            </div>`;
+        }).join('');
+    }
 
-            commentsDiv.innerHTML = html;
-        }
+    async function addReaction(issueNumber, reaction) {
+        if (!token) { alert('請先設定 Token'); return; }
+        const res = await fetch(`https://api.github.com/repos/${repo}/issues/${issueNumber}/reactions`, {
+            method:'POST', headers:{'Authorization':`token ${token}`, 'Accept':'application/vnd.github.squirrel-girl-preview+json'},
+            body:JSON.stringify({content:reaction})
+        });
+        if (res.ok) { loadIssues(); } else { alert('反應失敗: '+(await res.json()).message); }
+    }
 
-        async function submitReply(issueNumber) {
-            const token = personalToken || document.getElementById('tokenInput').value.trim();
-            if (!token) {
-                alert('請先設定你的 GitHub Token（可在發帖區輸入並儲存）。');
-                return;
-            }
-            const body = document.getElementById(`reply-text-${issueNumber}`).value.trim();
-            if (!body) return alert('請輸入回覆內容');
+    function toggleComments(num) {
+        const div = document.getElementById(`comments-${num}`);
+        div.classList.toggle('show');
+        if (div.classList.contains('show') && !div.innerHTML) loadComments(num);
+    }
 
-            const res = await fetch(`https://api.github.com/repos/${repo}/issues/${issueNumber}/comments`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `token ${token}`,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ body })
-            });
+    async function loadComments(issueNumber) {
+        const div = document.getElementById(`comments-${issueNumber}`);
+        div.innerHTML = '<div class="loading">載入回覆...</div>';
+        const res = await fetch(`https://api.github.com/repos/${repo}/issues/${issueNumber}/comments`);
+        const comments = await res.json();
+        let html = comments.map(c => `
+            <div class="comment-item">
+                <div class="comment-meta">${c.user.login} · ${new Date(c.created_at).toLocaleString()}</div>
+                <div>${escapeHtml(c.body)}</div>
+                <div class="reactions">
+                    <button class="reaction-btn" onclick="addCommentReaction(${c.id}, '+1')">👍 ${c.reactions?.['+1']||0}</button>
+                    <button class="reaction-btn" onclick="addCommentReaction(${c.id}, 'heart')">❤️ ${c.reactions?.heart||0}</button>
+                </div>
+            </div>`).join('');
+        html += `
+            <div class="reply-box">
+                <textarea id="reply-${issueNumber}" placeholder="回覆..."></textarea>
+                <div class="reply-actions"><button onclick="submitReply(${issueNumber})">送出</button></div>
+            </div>`;
+        div.innerHTML = html;
+    }
 
-            if (res.ok) {
-                delete commentsCache[issueNumber];
-                const commentsDiv = document.getElementById(`comments-${issueNumber}`);
-                if (commentsDiv && commentsDiv.classList.contains('show')) {
-                    commentsDiv.classList.remove('show');
-                    setTimeout(() => toggleComments(issueNumber), 50);
-                }
-                const badge = document.querySelector(`#issue-${issueNumber} .comment-badge`);
-                if (badge) {
-                    const current = parseInt(badge.textContent.replace('💬 ', '')) || 0;
-                    badge.textContent = `💬 ${current + 1}`;
-                }
-            } else {
-                const err = await res.json();
-                alert('❌ 回覆失敗: ' + err.message);
-            }
-        }
+    async function submitReply(issueNumber) {
+        if (!token) { alert('請設定 Token'); return; }
+        const body = document.getElementById(`reply-${issueNumber}`).value.trim();
+        if (!body) return;
+        const res = await fetch(`https://api.github.com/repos/${repo}/issues/${issueNumber}/comments`, {
+            method:'POST', headers:{'Authorization':`token ${token}`,'Content-Type':'application/json'},
+            body:JSON.stringify({body})
+        });
+        if (res.ok) { loadComments(issueNumber); } else alert('失敗');
+    }
 
-        function escapeHtml(text) {
-            return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"');
-        }
-
-        // 初始化
+    async function addCommentReaction(commentId, reaction) {
+        if (!token) { alert('請設定 Token'); return; }
+        await fetch(`https://api.github.com/repos/${repo}/issues/comments/${commentId}/reactions`, {
+            method:'POST', headers:{'Authorization':`token ${token}`, 'Accept':'application/vnd.github.squirrel-girl-preview+json'},
+            body:JSON.stringify({content:reaction})
+        });
         loadIssues();
-    </script>
+    }
+
+    function escapeHtml(t) { return String(t).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"'); }
+    loadIssues();
+</script>
 </body>
 </html>

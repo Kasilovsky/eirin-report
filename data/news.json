@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-15",
+  "date": "2026-06-16",
   "articles": [
     {
       "category": "權威期刊",
@@ -1021,6 +1021,22 @@
       "date": "2026-06-08",
       "authors": "Afors K, Saridogan E",
       "doi": "10.1001/jama.2026.5831",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Strengthening the UK primary healthcare response to suicidal ideation.",
+      "title_zh": "Strengthening the UK primary healthcare response to suicidal ideation.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 8; 393():e959881",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42290518/",
+      "date": "2026-06-08",
+      "authors": "Tyrrell EG, Morriss R, Vijaykumar L, Mughal F",
+      "doi": "10.1136/bmj-2026-959881",
       "departments": [
         "綜合"
       ]
@@ -2803,54 +2819,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Measured and Estimated Glomerular Filtration Rates and Risk of Adverse Health Outcomes.",
-      "title_zh": "Measured and Estimated Glomerular Filtration Rates and Risk of Adverse Health Outcomes.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 4; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42240159/",
-      "date": "2026-06-04",
-      "authors": "Fu EL, Créon A, Grams ME, Coresh J, Sjölander A",
-      "doi": "10.1001/jama.2026.9639",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Precision, Pragmatism, and Emerging Paradigms in Determining Kidney Filtration Function.",
-      "title_zh": "Precision, Pragmatism, and Emerging Paradigms in Determining Kidney Filtration Function.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 4; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42240151/",
-      "date": "2026-06-04",
-      "authors": "Potluri VS, Husain SA, Reese PP",
-      "doi": "10.1001/jama.2026.9991",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Rivaroxaban for Cardiovascular Disease Prevention in Chronic Kidney Disease: High Risk, but No Reward?",
-      "title_zh": "Rivaroxaban for Cardiovascular Disease Prevention in Chronic Kidney Disease: High Risk, but No Reward?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 4; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42240149/",
-      "date": "2026-06-04",
-      "authors": "Bansal N, Winkelmayer WC",
-      "doi": "10.1001/jama.2026.9780",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Global estimates of mortality in newborn babies, children, and adolescents.",
       "title_zh": "Global estimates of mortality in newborn babies, children, and adolescents.",
       "summary_en": "",
@@ -3229,102 +3197,6 @@
       "date": "2026-06-03",
       "authors": "Tanaka Y",
       "doi": "10.1056/NEJMe2605851",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "What Is Ebola?",
-      "title_zh": "What Is Ebola?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 3; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42234553/",
-      "date": "2026-06-03",
-      "authors": "Zhou S, Malani P",
-      "doi": "10.1001/jama.2026.10847",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Controversies About Osteoporotic Fracture Prevention Strategies.",
-      "title_zh": "Controversies About Osteoporotic Fracture Prevention Strategies.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 3; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42234459/",
-      "date": "2026-06-03",
-      "authors": "Ott SM",
-      "doi": "10.1001/jama.2026.7878",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Coffee, Tea, and Cognitive Function.",
-      "title_zh": "Coffee, Tea, and Cognitive Function.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 3; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42234455/",
-      "date": "2026-06-03",
-      "authors": "Schiappacasse L, Rouaud O, Hottinger AF",
-      "doi": "10.1001/jama.2026.5316",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Private Equity's Growing Presence in Health Care-Promise or Peril?: A Healthy Dialogue With Sneha Kannan.",
-      "title_zh": "Private Equity's Growing Presence in Health Care-Promise or Peril?: A Healthy Dialogue With Sneha Kannan.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 3; ():e268432",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42234450/",
-      "date": "2026-06-03",
-      "authors": "Angus DC, O'Connor MB",
-      "doi": "10.1001/jama.2026.8432",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Coffee, Tea, and Cognitive Function-Reply.",
-      "title_zh": "Coffee, Tea, and Cognitive Function-Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 3; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42234438/",
-      "date": "2026-06-03",
-      "authors": "Zhang Y, Wang DD",
-      "doi": "10.1001/jama.2026.5319",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Incentivizing Kidney Transplants While Safeguarding Equity.",
-      "title_zh": "Incentivizing Kidney Transplants While Safeguarding Equity.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 3; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42234436/",
-      "date": "2026-06-03",
-      "authors": "Rentas CM, McElroy LM, Norman SP, Sheetz KH",
-      "doi": "10.1001/jama.2026.8838",
       "departments": [
         "綜合"
       ]
@@ -3795,118 +3667,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Knee bracing outcomes for osteoarthritis.",
-      "title_zh": "Knee bracing outcomes for osteoarthritis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 2; 393():e436986",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42229945/",
-      "date": "2026-06-02",
-      "authors": "",
-      "doi": "10.1136/bmj-2026-436986",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "GPs to switch off \"nuisance\" prescribing software in next phase of collective action.",
-      "title_zh": "GPs to switch off \"nuisance\" prescribing software in next phase of collective action.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 2; 393():e054408",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42229944/",
-      "date": "2026-06-02",
-      "authors": "Iacobucci G",
-      "doi": "10.1136/bmj-2026-054408",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "NHS consultants are \"quiet quitting,\" senior doctors warn, with industrial ballot under way.",
-      "title_zh": "NHS consultants are \"quiet quitting,\" senior doctors warn, with industrial ballot under way.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 2; 393():e199151",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42229943/",
-      "date": "2026-06-02",
-      "authors": "Mahase E",
-      "doi": "10.1136/bmj-2026-199151",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Resident doctor suspended for claiming to be training while preparing for wedding.",
-      "title_zh": "Resident doctor suspended for claiming to be training while preparing for wedding.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 2; 393():e476011",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42229940/",
-      "date": "2026-06-02",
-      "authors": "Dyer C",
-      "doi": "10.1136/bmj-2026-476011",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Health Bill reforms would silence patient voice in the NHS.",
-      "title_zh": "Health Bill reforms would silence patient voice in the NHS.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 2; 393():e529441",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42229939/",
-      "date": "2026-06-02",
-      "authors": "Denegri S",
-      "doi": "10.1136/bmj-2026-529441",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Diagnosis and management of resistant hypertension.",
-      "title_zh": "Diagnosis and management of resistant hypertension.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 2; 393():e326216",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42229938/",
-      "date": "2026-06-02",
-      "authors": "",
-      "doi": "10.1136/bmj-2026-326216",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ebola: Three vaccines rushed into development for Bundibugyo outbreak.",
-      "title_zh": "Ebola: Three vaccines rushed into development for Bundibugyo outbreak.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 2; 393():e557985",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42229937/",
-      "date": "2026-06-02",
-      "authors": "Baraniuk C",
-      "doi": "10.1136/bmj-2026-557985",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Translating 'food is medicine' from concept to reality.",
       "title_zh": "Translating 'food is medicine' from concept to reality.",
       "summary_en": "",
@@ -3981,6 +3741,150 @@
       "date": "2026-06-02",
       "authors": "Chai C, Sultan E, Sarkar SR, Zhong L, Nanes Sarfati D",
       "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The OMB and the Politicization of Science.",
+      "title_zh": "The OMB and the Politicization of Science.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42296051/",
+      "date": "2026-06-01",
+      "authors": "Editors",
+      "doi": "10.1056/NEJMe2608017",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Immunosuppression-Associated Peripheral T-Cell Lymphoma.",
+      "title_zh": "Immunosuppression-Associated Peripheral T-Cell Lymphoma.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42294861/",
+      "date": "2026-06-01",
+      "authors": "Cliff ERS, Kenealy M",
+      "doi": "10.1056/NEJMicm2501877",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The Convergence of Down Syndrome and Alzheimer's Disease - Scientific and Ethical Imperatives.",
+      "title_zh": "The Convergence of Down Syndrome and Alzheimer's Disease - Scientific and Ethical Imperatives.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42294860/",
+      "date": "2026-06-01",
+      "authors": "Rafii MS",
+      "doi": "10.1056/NEJMp2602106",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "\"In One Year, I Want You Alive\".",
+      "title_zh": "“一年之内，我要你活着”。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42294855/",
+      "date": "2026-06-01",
+      "authors": "Wilson JC 3rd",
+      "doi": "10.1056/NEJMp2514748",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Psychedelic Therapies in the United States - Balancing State and Federal Oversight.",
+      "title_zh": "Psychedelic Therapies in the United States - Balancing State and Federal Oversight.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42294853/",
+      "date": "2026-06-01",
+      "authors": "Hughes M",
+      "doi": "10.1056/NEJMp2518374",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Patient-Driven Care in Psychedelic Therapy.",
+      "title_zh": "迷幻疗法中的患者驱动护理。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42294851/",
+      "date": "2026-06-01",
+      "authors": "Zisman-Ilani Y, Yehuda R",
+      "doi": "10.1056/NEJMp2605585",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Clinical Long-Read Genome Sequencing for Rare-Disease Diagnostics.",
+      "title_zh": "Clinical Long-Read Genome Sequencing for Rare-Disease Diagnostics.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42294850/",
+      "date": "2026-06-01",
+      "authors": "de Bitter TJJ, van der Sanden B, Sagath L, Höps W, Arts P",
+      "doi": "10.1056/NEJMc2602512",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Lonvoguran Ziclumeran - In Vivo CRISPR Gene Editing in Hereditary Angioedema.",
+      "title_zh": "Lonvoguran Ziclumeran -遗传性血管水肿的体内CRISPR基因编辑。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42294842/",
+      "date": "2026-06-01",
+      "authors": "Cohn DM, Gurugama P, Longhurst HJ, Aygören-Pürsün E, Craig TJ",
+      "doi": "10.1056/NEJMoa2600931",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Talquetamab-Daratumumab in Relapsed or Refractory Myeloma.",
+      "title_zh": "复发或难治性骨髓瘤中的Talquetamab-Daratumumab。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42294841/",
+      "date": "2026-06-01",
+      "authors": "Mina R, Beksac M, Rodríguez-Otero P, Chen W, Mateos MV",
+      "doi": "10.1056/NEJMoa2604657",
       "departments": [
         "綜合"
       ]
@@ -4509,6 +4413,22 @@
       "date": "2026-06-01",
       "authors": "Houston BL, McIsaac DI, Breau RH, Kanji S, Greenstreet P",
       "doi": "10.1056/NEJMoa2515820",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Mezigdomide, carfilzomib, and dexamethasone versus carfilzomib and dexamethasone in patients with relapsed or refractory multiple myeloma (SUCCESSOR-2): a phase 3, open-label, randomised controlled trial.",
+      "title_zh": "Mezigdomide、carfilzomib、dexamethasone与carfilzomib、dexamethasone治疗复发或难治性多发性骨髓瘤患者（ SUCCESSOR-2 ） ：一项3期、标签开放、随机对照试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jun 14; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42289183/",
+      "date": "2026-06-01",
+      "authors": "Dimopoulos MA, Schjesvold F, Fu C, Hartley-Brown MA, Gomez C",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -5059,6 +4979,150 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Low Back Pain: A Review.",
+      "title_zh": "Low Back Pain: A Review.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42295944/",
+      "date": "2026-06-01",
+      "authors": "Cashin AG, Chou R, Weimer MB, McAuley JH",
+      "doi": "10.1001/jama.2026.9631",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Illicit Injectable Peptides and Regulatory Gaps.",
+      "title_zh": "Illicit Injectable Peptides and Regulatory Gaps.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42295803/",
+      "date": "2026-06-01",
+      "authors": "Piatkowski T, Ganson KT, Nagata JM",
+      "doi": "10.1001/jama.2026.10690",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "A Book for Medical Device Patents-Reply.",
+      "title_zh": "A Book for Medical Device Patents-Reply.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42295794/",
+      "date": "2026-06-01",
+      "authors": "Simon DA, Paasche-Orlow MK, Noorchashm H",
+      "doi": "10.1001/jama.2026.6382",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "A Book for Medical Device Patents.",
+      "title_zh": "A Book for Medical Device Patents.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42295785/",
+      "date": "2026-06-01",
+      "authors": "Halsey ES",
+      "doi": "10.1001/jama.2026.6379",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Editorials.",
+      "title_zh": "Editorials.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42295779/",
+      "date": "2026-06-01",
+      "authors": "",
+      "doi": "10.1001/jama.2025.15978",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Changes in Specialty and Geography of Medicare's New Residency Positions.",
+      "title_zh": "Changes in Specialty and Geography of Medicare's New Residency Positions.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42295775/",
+      "date": "2026-06-01",
+      "authors": "Ramesh T, Tsai TC, Yu H",
+      "doi": "10.1001/jama.2026.7929",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Lifestyle and Metformin Interventions and Risk of Multimorbidity in Adults With Prediabetes.",
+      "title_zh": "Lifestyle and Metformin Interventions and Risk of Multimorbidity in Adults With Prediabetes.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42295772/",
+      "date": "2026-06-01",
+      "authors": "Salive ME, Tjaden AH, Ames JR, Crandall JP, Dabelea D",
+      "doi": "10.1001/jama.2026.8492",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "An AI-Based OCT System to Detect Diabetic Macular Edema: A Prospective Validation and Noninferiority Randomized Clinical Trial.",
+      "title_zh": "An AI-Based OCT System to Detect Diabetic Macular Edema: A Prospective Validation and Noninferiority Randomized Clinical Trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42295755/",
+      "date": "2026-06-01",
+      "authors": "Zhang S, Ran A, Zhou J, Ling A, Sham K",
+      "doi": "10.1001/jama.2026.7025",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Addressing Multimorbidity Challenges in Diabetes-Lifestyle and Beyond.",
+      "title_zh": "Addressing Multimorbidity Challenges in Diabetes-Lifestyle and Beyond.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42295750/",
+      "date": "2026-06-01",
+      "authors": "Florez H, Foster C, Vizcaino G",
+      "doi": "10.1001/jama.2026.10080",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "FDA Approves First Treatment for Chronic Hepatitis Delta Virus Infection.",
       "title_zh": "FDA Approves First Treatment for Chronic Hepatitis Delta Virus Infection.",
       "summary_en": "",
@@ -5581,6 +5645,102 @@
       "date": "2026-06-01",
       "authors": "Stoppe C, Hill A, Cancio LC, Day AG, Pruskowski KA",
       "doi": "10.1001/jama.2026.10616",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Data sharing must evolve towards data sovereignty.",
+      "title_zh": "Data sharing must evolve towards data sovereignty.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 15; 393():e372314",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297447/",
+      "date": "2026-06-01",
+      "authors": "Lang T",
+      "doi": "10.1136/bmj-2026-372314",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Breaking down barriers to medical training - the resident doctor who helps students meet their potential.",
+      "title_zh": "Breaking down barriers to medical training - the resident doctor who helps students meet their potential.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 15; 393():e582553",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297445/",
+      "date": "2026-06-01",
+      "authors": "Dean E",
+      "doi": "10.1136/bmj-2026-582553",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Public health should partner with faith communities.",
+      "title_zh": "Public health should partner with faith communities.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 15; 393():e340889",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297441/",
+      "date": "2026-06-01",
+      "authors": "Bedi R",
+      "doi": "10.1136/bmj-2026-340889",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Obesity versus China: how Ozempic is complicating the world's largest weight loss campaign.",
+      "title_zh": "Obesity versus China: how Ozempic is complicating the world's largest weight loss campaign.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 15; 393():e523232",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297440/",
+      "date": "2026-06-01",
+      "authors": "Murphy F",
+      "doi": "10.1136/bmj-2026-523232",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Advances in the development of malaria vaccines.",
+      "title_zh": "Advances in the development of malaria vaccines.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 15; 393():e084166",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297417/",
+      "date": "2026-06-01",
+      "authors": "Sorgho H, Rouamba T, Natama HM, Tinto H",
+      "doi": "10.1136/bmj-2025-084166",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Dengue: Brazil suspends rollout of new vaccine after two deaths.",
+      "title_zh": "Dengue: Brazil suspends rollout of new vaccine after two deaths.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 15; 393():e205610",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297416/",
+      "date": "2026-06-01",
+      "authors": "Taylor L",
+      "doi": "10.1136/bmj-2026-205610",
       "departments": [
         "綜合"
       ]
@@ -6147,6 +6307,86 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Blood signatures of cell type-specific aging forecast disease risk and resilience.",
+      "title_zh": "Blood signatures of cell type-specific aging forecast disease risk and resilience.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297982/",
+      "date": "2026-06-01",
+      "authors": "",
+      "doi": "10.1038/s41591-026-04447-x",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Plasma proteomic signatures of cellular aging predict human disease.",
+      "title_zh": "Plasma proteomic signatures of cellular aging predict human disease.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297981/",
+      "date": "2026-06-01",
+      "authors": "Ding DY, Bot VA, Chen KL, Groves JW, Pálovics R",
+      "doi": "10.1038/s41591-026-04446-y",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Adaptive deep brain stimulation for dynamic gait control in Parkinson's disease: a randomized feasibility trial.",
+      "title_zh": "Adaptive deep brain stimulation for dynamic gait control in Parkinson's disease: a randomized feasibility trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297980/",
+      "date": "2026-06-01",
+      "authors": "Louie KH, Balakid JP, Bath JE, Song S, Fekri Azgomi H",
+      "doi": "10.1038/s41591-026-04434-2",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Activity-dependent adaptive deep brain stimulation improves gait in Parkinson's disease.",
+      "title_zh": "Activity-dependent adaptive deep brain stimulation improves gait in Parkinson's disease.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297979/",
+      "date": "2026-06-01",
+      "authors": "Scafa S, de Seta V, Wang R, Sánchez López P, Sánchez López A",
+      "doi": "10.1038/s41591-026-04432-4",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Long-term independent use of an intracortical brain-computer interface for speech and cursor control.",
+      "title_zh": "Long-term independent use of an intracortical brain-computer interface for speech and cursor control.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42297978/",
+      "date": "2026-06-01",
+      "authors": "Card NS, Singer-Clark T, Peracha H, Iacobacci C, Hou X",
+      "doi": "10.1038/s41591-026-04414-6",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "The Hong Kong Genome Project is a flagship initiative for precision medicine in Chinese populations.",
       "title_zh": "The Hong Kong Genome Project is a flagship initiative for precision medicine in Chinese populations.",
       "summary_en": "",
@@ -6355,15 +6595,15 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Gregory J. Hannon (1964-2026).",
-      "title_zh": "Gregory J. Hannon (1964-2026).",
+      "title_en": "The critical role of the endogenous immune compartment after CAR T cell therapy in recurrent GBM.",
+      "title_zh": "The critical role of the endogenous immune compartment after CAR T cell therapy in recurrent GBM.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Cell",
-      "citation": "Cell. 2026 Jun 12; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285090/",
+      "citation": "Cell. 2026 Jun 15; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42296961/",
       "date": "2026-06-01",
-      "authors": "Brennecke J, Lowe SW",
+      "authors": "Freeburg NF, Chafamo D, Konanur Gopikrishna G, Murphy RM, Peng JJ",
       "doi": "",
       "departments": [
         "綜合"
@@ -7588,7 +7828,7 @@
     {
       "category": "權威期刊",
       "title_en": "Semaglutide for Alzheimer's disease after evoke and evoke.",
-      "title_zh": "Semaglutide用于唤起和唤起后的阿尔茨海默病。",
+      "title_zh": "Semaglutide for Alzheimer's disease after evoke and evoke.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -7811,152 +8051,8 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Transcatheter or Surgical Aortic-Valve Replacement at 7 Years.",
-      "title_zh": "Transcatheter or Surgical Aortic-Valve Replacement at 7 Years.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 May 28; 394(20):2066",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202333/",
-      "date": "2026-05-02",
-      "authors": "Crane JG, Slaughter MS, Gallo M",
-      "doi": "10.1056/NEJMc2604007",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Hematopoietic Stem-Cell Gene Therapy for Cystinosis. Reply.",
-      "title_zh": "Hematopoietic Stem-Cell Gene Therapy for Cystinosis. Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 May 28; 394(20):2065-2066",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202332/",
-      "date": "2026-05-02",
-      "authors": "Barshop BA, Ahmed I, Cherqui S",
-      "doi": "10.1056/NEJMc2603539",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Hematopoietic Stem-Cell Gene Therapy for Cystinosis.",
-      "title_zh": "Hematopoietic Stem-Cell Gene Therapy for Cystinosis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 May 28; 394(20):2065",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202331/",
-      "date": "2026-05-02",
-      "authors": "Caliment A, Niel O",
-      "doi": "10.1056/NEJMc2603539",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Hematopoietic Stem-Cell Gene Therapy for Cystinosis.",
-      "title_zh": "Hematopoietic Stem-Cell Gene Therapy for Cystinosis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 May 28; 394(20):2064-2065",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202330/",
-      "date": "2026-05-02",
-      "authors": "Küçük H",
-      "doi": "10.1056/NEJMc2603539",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Resolution of PML after Treatment with Virus-Specific T Cells and HCT.",
-      "title_zh": "用病毒特异性T细胞和HCT治疗后PML消退。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 May 28; 394(20):2061-2064",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202329/",
-      "date": "2026-05-02",
-      "authors": "Gonzalez CE, Fletcher A, Jenkins TL, Zahraeifard S, Peterson R",
-      "doi": "10.1056/NEJMc2514186",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ten Years of Hydroxyurea for Ugandan Children with Sickle Cell Anemia.",
-      "title_zh": "Ten Years of Hydroxyurea for Ugandan Children with Sickle Cell Anemia.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 May 28; 394(20):2059-2061",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202328/",
-      "date": "2026-05-02",
-      "authors": "Ware RE, Opoka RO, Latham T, Kasirye P, Kasembo P",
-      "doi": "10.1056/NEJMc2603063",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Remuscularizing the Failing Human Heart.",
-      "title_zh": "重新塑造衰竭的人类心脏。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 May 28; 394(20):2055-2058",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202327/",
-      "date": "2026-05-02",
-      "authors": "Srivastava D",
-      "doi": "10.1056/NEJMe2601013",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Patching Up Damaged Hearts.",
-      "title_zh": "Patching Up Damaged Hearts.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 May 28; 394(20):2054-2055",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202326/",
-      "date": "2026-05-02",
-      "authors": "Margulies KB",
-      "doi": "10.1056/NEJMe2601225",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Case 15-2026: A 64-Year-Old Woman with Fatigue, Memory Changes, and Falls.",
-      "title_zh": "病例15-2026 ：一名64岁的女性，患有疲劳、记忆力变化和跌倒。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 May 28; 394(20):2041-2050",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202325/",
-      "date": "2026-05-02",
-      "authors": "Bhattacharyya S, Cartmell SCD, Hung AY, Bilodeau PA, Conner EC",
-      "doi": "10.1056/NEJMcpc2517865",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Redefining first-line standards with new partners.",
-      "title_zh": "与新合作伙伴重新定义一线标准。",
+      "title_zh": "Redefining first-line standards with new partners.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -7980,22 +8076,6 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/42214392/",
       "date": "2026-05-02",
       "authors": "Xiong A, Yao W, Zheng W, Yu Y, Chen P",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Advances in ophthalmic artificial intelligence.",
-      "title_zh": "Advances in ophthalmic artificial intelligence.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 May 27; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202838/",
-      "date": "2026-05-02",
-      "authors": "Liu Z, Wu X, Lin H",
       "doi": "",
       "departments": [
         "綜合"
@@ -11005,86 +11085,6 @@
       "date": "",
       "authors": "El Hayek E, Campen M, Jorgensen B",
       "doi": "10.1038/s41591-026-04349-y",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Epigenetic fingerprints link early-onset colon and rectal cancer to pesticide exposure.",
-      "title_zh": "Epigenetic fingerprints link early-onset colon and rectal cancer to pesticide exposure.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 May; 32(5):1827-1837",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42014507/",
-      "date": "",
-      "authors": "Maas SCE, Baraibar I, Lemler L, Butjosa-Espín M, Blanco Irazuegui O",
-      "doi": "10.1038/s41591-026-04342-5",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Low-plastic diet and urinary levels of plastic-associated phthalates and bisphenols: the randomized controlled PERTH Trial.",
-      "title_zh": "Low-plastic diet and urinary levels of plastic-associated phthalates and bisphenols: the randomized controlled PERTH Trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 May; 32(5):1871-1883",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42014506/",
-      "date": "",
-      "authors": "Harray AJ, Lucas AD, Herrmann SE, Vlaskovsky PS, Elagali A",
-      "doi": "10.1038/s41591-026-04324-7",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Publisher Correction: Reliability of LLMs as medical assistants for the general public: a randomized preregistered study.",
-      "title_zh": "Publisher Correction: Reliability of LLMs as medical assistants for the general public: a randomized preregistered study.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 May; 32(5):1937",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41998345/",
-      "date": "",
-      "authors": "Bean AM, Payne RE, Parsons G, Kirk HR, Ciro J",
-      "doi": "10.1038/s41591-026-04404-8",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Author Correction: Obicetrapib in patients with heterozygous familial hypercholesterolemia: the BROOKLYN randomized clinical trial.",
-      "title_zh": "Author Correction: Obicetrapib in patients with heterozygous familial hypercholesterolemia: the BROOKLYN randomized clinical trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 May; 32(5):1935",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41998344/",
-      "date": "",
-      "authors": "Nicholls SJ, Nelson AJ, Ditmarsch M, Kastelein JJP, Ballantyne CM",
-      "doi": "10.1038/s41591-026-04405-7",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Integrated epidemiological and molecular data inform the relationship between precancer and cancer states of esophageal adenocarcinoma.",
-      "title_zh": "Integrated epidemiological and molecular data inform the relationship between precancer and cancer states of esophageal adenocarcinoma.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 May; 32(5):1805-1816",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41991688/",
-      "date": "",
-      "authors": "Zamani SA, Wu L, Black EL, Bartram A, Ng AWT",
-      "doi": "10.1038/s41591-026-04331-8",
       "departments": [
         "綜合"
       ]

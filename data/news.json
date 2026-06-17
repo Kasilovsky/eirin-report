@@ -4243,38 +4243,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Pain.",
-      "title_zh": "Pain.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):2075",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42301297/",
-      "date": "2026-06-01",
-      "authors": "Edison SE",
-      "doi": "10.1001/jama.2026.4412",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Pain and Poetry: \"Conversing With a Clown\".",
-      "title_zh": "Pain and Poetry: \"Conversing With a Clown\".",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):2075",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42301296/",
-      "date": "2026-06-01",
-      "authors": "Roberts K, Campo R",
-      "doi": "10.1001/jama.2026.4415",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "More Than 19 000 Measles Cases in a Month-What the Current Outbreak in Bangladesh Signals to the World.",
       "title_zh": "More Than 19 000 Measles Cases in a Month-What the Current Outbreak in Bangladesh Signals to the World.",
       "summary_en": "",
@@ -10717,6 +10685,38 @@
       "date": "2026-03-01",
       "authors": "Li H, Zhang W, Li T, Miao Y, Yang C",
       "doi": "10.1126/scitranslmed.aeb4775",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "未知標題",
+      "title_zh": "未知標題",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": ". ; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42301297/",
+      "date": "",
+      "authors": "",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "未知標題",
+      "title_zh": "未知標題",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": ". ; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42301296/",
+      "date": "",
+      "authors": "",
+      "doi": "",
       "departments": [
         "綜合"
       ]

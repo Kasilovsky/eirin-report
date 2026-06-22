@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "articles": [
     {
       "category": "權威期刊",
@@ -1997,6 +1997,22 @@
       "date": "2026-06-02",
       "authors": "Dörner T",
       "doi": "10.1056/NEJMe2605617",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Medical Aid for Palestinians: Gaza facing a health-care catastrophe.",
+      "title_zh": "巴勒斯坦人的医疗援助：加沙面临医疗保健灾难。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jun 21; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42323951/",
+      "date": "2026-06-02",
+      "authors": "Shalltoot F",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -4244,7 +4260,7 @@
     {
       "category": "權威期刊",
       "title_en": "About 1 in 5 US Youth Use AI Chatbots for Mental Health Advice.",
-      "title_zh": "About 1 in 5 US Youth Use AI Chatbots for Mental Health Advice.",
+      "title_zh": "大约五分之一的美国青少年使用人工智能聊天机器人提供心理健康建议。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4260,7 +4276,7 @@
     {
       "category": "權威期刊",
       "title_en": "Ultraprocessed Foods Linked to Cardiometabolic Risks.",
-      "title_zh": "Ultraprocessed Foods Linked to Cardiometabolic Risks.",
+      "title_zh": "与心脏代谢风险相关的超加工食品。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4276,7 +4292,7 @@
     {
       "category": "權威期刊",
       "title_en": "Beyond Binary-The Case for Amyloid Centiloid Quantification.",
-      "title_zh": "Beyond Binary-The Case for Amyloid Centiloid Quantification.",
+      "title_zh": "Beyond Binary -淀粉样蛋白Centiloid定量的案例。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -8077,22 +8093,6 @@
       "date": "2026-05-06",
       "authors": "Horowitz NB, Mohammad IA, Shin JH, Hickey JW, Chockley P",
       "doi": "10.1126/scitranslmed.adw5567",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ivonescimab plus chemotherapy versus tislelizumab plus chemotherapy in advanced squamous non-small-cell lung cancer (HARMONi-6): interim overall survival analysis of a randomised, double-blind, phase 3 trial in China.",
-      "title_zh": "Ivonescimab联合化疗与tislelizumab联合化疗治疗晚期鳞状非小细胞肺癌（ HARMONi-6 ） ：中国一项随机、双盲、3期临床试验的中期总生存期分析。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 May 31; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42218899/",
-      "date": "2026-05-03",
-      "authors": "Lu S, Liu B, Luo Y, Sun L, Wu L",
-      "doi": "",
       "departments": [
         "綜合"
       ]

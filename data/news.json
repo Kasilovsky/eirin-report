@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "articles": [
     {
       "category": "權威期刊",
@@ -147,22 +147,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Obinutuzumab or Tacrolimus in Primary Membranous Nephropathy.",
-      "title_zh": "Obinutuzumab或他克莫司在原发性膜性肾病中的应用。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 5; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42246654/",
-      "date": "2026-06-05",
-      "authors": "Fervenza FC, Hou FF, Hao CM, Kirsztajn GM, Gesualdo L",
-      "doi": "10.1056/NEJMoa2602678",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Taming the inflamed heart.",
       "title_zh": "Taming the inflamed heart.",
       "summary_en": "",
@@ -237,70 +221,6 @@
       "date": "2026-06-05",
       "authors": "Yuan J, Zhang X, Li S, Wang K, Sun Y",
       "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Finerenone in Persons with Chronic Kidney Disease without Diabetes.",
-      "title_zh": "Finerenone在无糖尿病的慢性肾脏疾病患者中的应用。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 4; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42246672/",
-      "date": "2026-06-04",
-      "authors": "Heerspink HJL, Neuen BL, Agarwal R, Cherney DZI, Lam CSP",
-      "doi": "10.1056/NEJMoa2604625",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Chronic Myeloid Leukemia in Low- and Middle-Income Countries. Reply.",
-      "title_zh": "低收入和中等收入国家的慢性粒细胞白血病。回复。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 4; 394(21):2175-2176",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42235031/",
-      "date": "2026-06-04",
-      "authors": "Annamalay A, Radich J",
-      "doi": "10.1056/NEJMc2605636",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Chronic Myeloid Leukemia in Low- and Middle-Income Countries.",
-      "title_zh": "低收入和中等收入国家的慢性粒细胞白血病。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 4; 394(21):2175",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42235030/",
-      "date": "2026-06-04",
-      "authors": "Mahon FX, Réa D, Rousselot P",
-      "doi": "10.1056/NEJMc2605636",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Polymyalgia Rheumatica. Reply.",
-      "title_zh": "风湿性多发性肌痛。回复。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 4; 394(21):2174-2175",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42235029/",
-      "date": "2026-06-04",
-      "authors": "Dejaco C, Matteson EL",
-      "doi": "10.1056/NEJMc2604645",
       "departments": [
         "綜合"
       ]
@@ -509,6 +429,86 @@
       "date": "2026-06-03",
       "authors": "Wang P, Du S, Wu S, Zhai Y, Bai J",
       "doi": "10.1126/scitranslmed.aea0189",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Phase 3 Trial of Oral Infigratinib in Children with Achondroplasia.",
+      "title_zh": "口服Infigratinib在软骨发育不全儿童中的3期试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 28; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42370681/",
+      "date": "2026-06-02",
+      "authors": "Savarirayan R, Hoover-Fong J, Irving M, Arundel P, de Bergua JM",
+      "doi": "10.1056/NEJMoa2604565",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Opportunities to Combat the Chronic Pain-Opioid Use Disorder Syndemic.",
+      "title_zh": "对抗慢性疼痛-阿片类药物使用障碍综合征的机会。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 27; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42370712/",
+      "date": "2026-06-02",
+      "authors": "Su ZI, Blanco C, Wiley T, Volkow ND",
+      "doi": "10.1056/NEJMp2601411",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The Invisible Load of Cognitive Symptoms.",
+      "title_zh": "The Invisible Load of Cognitive Symptoms.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 27; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42370699/",
+      "date": "2026-06-02",
+      "authors": "Stubberud J",
+      "doi": "10.1056/NEJMp2600769",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Cat Scratch Disease.",
+      "title_zh": "猫抓病",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 27; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42370680/",
+      "date": "2026-06-02",
+      "authors": "Wadhwa RD, Loving VA",
+      "doi": "10.1056/NEJMicm2602360",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Declarations of Independence - Physicians and the U.S. Body Politic, 1776-2026.",
+      "title_zh": "独立宣言-医生和美国身体政治， 1776-2026。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 27; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42370669/",
+      "date": "2026-06-02",
+      "authors": "Podolsky SH, Jones DS, Barr J",
+      "doi": "10.1056/NEJMp2600945",
       "departments": [
         "綜合"
       ]
@@ -1037,6 +1037,22 @@
       "date": "2026-06-02",
       "authors": "Sullivan NJ",
       "doi": "10.1056/NEJMra2607216",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The US Ebola response and the future of global health leadership.",
+      "title_zh": "美国的埃博拉应对措施和全球卫生领导力的未来。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42372768/",
+      "date": "2026-06-02",
+      "authors": "Kuppalli K, Spencer C, Cetron M, Houry D",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -2099,6 +2115,102 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Specialized or General-Purpose-The Wrong Question for Mental Health AI Safety.",
+      "title_zh": "Specialized or General-Purpose-The Wrong Question for Mental Health AI Safety.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371659/",
+      "date": "2026-06-02",
+      "authors": "Nelson BW, Kalinich M, Torous J",
+      "doi": "10.1001/jama.2026.11448",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Pricing for Oncology Biosimilars.",
+      "title_zh": "Oncology Biosimilars的定价。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371655/",
+      "date": "2026-06-02",
+      "authors": "Jensen C, Tichy E",
+      "doi": "10.1001/jama.2026.6815",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Familial Hypercholesterolemia.",
+      "title_zh": "家族性高胆固醇血症。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371647/",
+      "date": "2026-06-02",
+      "authors": "Stein JH, Tattersall MC",
+      "doi": "10.1001/jama.2026.8822",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Reporting Error.",
+      "title_zh": "报告错误。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371645/",
+      "date": "2026-06-02",
+      "authors": "",
+      "doi": "10.1001/jama.2026.9649",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Replacement Text for Funding/Support Section.",
+      "title_zh": "Replacement Text for Funding/Support Section.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371640/",
+      "date": "2026-06-02",
+      "authors": "",
+      "doi": "10.1001/jama.2026.11797",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Pricing for Oncology Biosimilars-Reply.",
+      "title_zh": "Oncology Biosimilars-Reply的定价。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371639/",
+      "date": "2026-06-02",
+      "authors": "Robinson JC",
+      "doi": "10.1001/jama.2026.6818",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "US Food Swamps Have Increased as Food Deserts Remain Static.",
       "title_zh": "由于食物沙漠保持静止，美国食物沼泽有所增加。",
       "summary_en": "",
@@ -2132,7 +2244,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA Approves First New Active Sunscreen Ingredient in Decades.",
-      "title_zh": "FDA批准了几十年来首个新的活性防晒成分。",
+      "title_zh": "FDA Approves First New Active Sunscreen Ingredient in Decades.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3155,6 +3267,182 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Nottingham families were right about maternity failings; now ministers must listen to their calls for a statutory public inquiry.",
+      "title_zh": "Nottingham families were right about maternity failings; now ministers must listen to their calls for a statutory public inquiry.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 29; 393():e100106",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373112/",
+      "date": "2026-06-02",
+      "authors": "Pantelic M",
+      "doi": "10.1136/bmj-2026-100106",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Kneecap resurfacing is more cost effective than total knee replacement, study suggests.",
+      "title_zh": "Kneecap resurfacing is more cost effective than total knee replacement, study suggests.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 29; 393():e100112",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373111/",
+      "date": "2026-06-02",
+      "authors": "Iacobucci G",
+      "doi": "10.1136/bmj-2026-100112",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Doctor who had sexual relationship with teenage patient allowed to return to practise.",
+      "title_zh": "Doctor who had sexual relationship with teenage patient allowed to return to practise.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 29; 393():e100113",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373109/",
+      "date": "2026-06-02",
+      "authors": "Dyer C",
+      "doi": "10.1136/bmj-2026-100113",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Palantir: NHS England admits data don't prove contentious software benefits health service.",
+      "title_zh": "Palantir: NHS England admits data don't prove contentious software benefits health service.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 29; 393():e100110",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373108/",
+      "date": "2026-06-02",
+      "authors": "Armstrong S",
+      "doi": "10.1136/bmj-2026-100110",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "UK doctors call for support and guidance to challenge use of \"unethical\" suppliers.",
+      "title_zh": "UK doctors call for support and guidance to challenge use of \"unethical\" suppliers.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 29; 393():e100114",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373106/",
+      "date": "2026-06-02",
+      "authors": "Rimmer A",
+      "doi": "10.1136/bmj-2026-100114",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "NHS dentistry: a system failing by design.",
+      "title_zh": "NHS dentistry: a system failing by design.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 29; 393():e100078",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373102/",
+      "date": "2026-06-02",
+      "authors": "Bedi R",
+      "doi": "10.1136/bmj-2026-100078",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Dangers of finance capital in healthcare.",
+      "title_zh": "Dangers of finance capital in healthcare.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 29; 393():e210213",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373100/",
+      "date": "2026-06-02",
+      "authors": "McCoy D, Thulare A, Lavinas L",
+      "doi": "10.1136/bmj-2026-210213",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Gaza: Israel \"deliberately targeted\" children, UN inquiry finds.",
+      "title_zh": "Gaza: Israel \"deliberately targeted\" children, UN inquiry finds.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 28; 393():e100092",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373122/",
+      "date": "2026-06-02",
+      "authors": "Howard S",
+      "doi": "10.1136/bmj-2026-100092",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Can the NHS afford Mounjaro? It spent £574m on the jab last year despite most eligible patients not getting it.",
+      "title_zh": "Can the NHS afford Mounjaro? It spent £574m on the jab last year despite most eligible patients not getting it.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 28; 393():e100104",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373101/",
+      "date": "2026-06-02",
+      "authors": "Wilkinson E",
+      "doi": "10.1136/bmj-2026-100104",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "To improve maternity services we must confront the damaging ideology that prizes \"normal childbirth\" over safe care.",
+      "title_zh": "To improve maternity services we must confront the damaging ideology that prizes \"normal childbirth\" over safe care.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 28; 393():e100094",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373099/",
+      "date": "2026-06-02",
+      "authors": "Titcombe J",
+      "doi": "10.1136/bmj-2026-100094",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The Dutch hospital system offers lessons for building resilience and trust in health systems.",
+      "title_zh": "The Dutch hospital system offers lessons for building resilience and trust in health systems.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 28; 393():e100101",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42373098/",
+      "date": "2026-06-02",
+      "authors": "Leistikow I, Varkevisser M",
+      "doi": "10.1136/bmj-2026-100101",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Obesity is rising fastest in young adults, study shows.",
       "title_zh": "Obesity is rising fastest in young adults, study shows.",
       "summary_en": "",
@@ -3971,6 +4259,38 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Author Correction: SEZ6-targeting antibody-drug conjugate ABBV-706 in advanced small cell lung cancer and solid tumors: a phase 1 trial.",
+      "title_zh": "Author Correction: SEZ6-targeting antibody-drug conjugate ABBV-706 in advanced small cell lung cancer and solid tumors: a phase 1 trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42374088/",
+      "date": "2026-06-02",
+      "authors": "Byers LA, Cho BC, Cooper AJ, Chiang AC, Han JY",
+      "doi": "10.1038/s41591-026-04544-x",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Delivering the benefits of genomic data reanalysis for diagnosis equitably and at scale.",
+      "title_zh": "Delivering the benefits of genomic data reanalysis for diagnosis equitably and at scale.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42374087/",
+      "date": "2026-06-02",
+      "authors": "",
+      "doi": "10.1038/s41591-026-04516-1",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Re-administration of AAV-mediated gene therapy for OTOF-related deafness: a single-arm trial.",
       "title_zh": "Re-administration of AAV-mediated gene therapy for OTOF-related deafness: a single-arm trial.",
       "summary_en": "",
@@ -4285,6 +4605,38 @@
       "date": "2026-06-02",
       "authors": "Bethlehem L, Bartu L, Marke G, Mar P, Feldman S",
       "doi": "10.1038/s41591-026-04442-2",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Arc mediates intercellular tau transmission via extracellular vesicles.",
+      "title_zh": "Arc mediates intercellular tau transmission via extracellular vesicles.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42372723/",
+      "date": "2026-06-02",
+      "authors": "Tyagi M, de Hoog E, Grega M, Sullivan KR, Walker AC",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Electromagnetic field-inducible in vivo gene switch for remote spatiotemporal control of gene expression.",
+      "title_zh": "Electromagnetic field-inducible in vivo gene switch for remote spatiotemporal control of gene expression.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42372722/",
+      "date": "2026-06-02",
+      "authors": "Kim J, Hwang Y, Kim S, Kwon D, Park J",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -6419,22 +6771,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Diagnosis and treatment of postpartum haemorrhage: a race against time.",
-      "title_zh": "Diagnosis and treatment of postpartum haemorrhage: a race against time.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 12; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285120/",
-      "date": "2026-06-01",
-      "authors": "Coomarasamy A, Devall AJ, Bell S, Sindhu KN, Mammoliti KM",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Postoperative Delirium May Predict Long-Term Cognitive Decline.",
       "title_zh": "Postoperative Delirium May Predict Long-Term Cognitive Decline.",
       "summary_en": "",
@@ -6877,102 +7213,6 @@
       "date": "2026-06-01",
       "authors": "Anderer S",
       "doi": "10.1001/jama.2026.6196",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "GLP-1 Drugs May Help Treat Psoriasis.",
-      "title_zh": "GLP-1 Drugs May Help Treat Psoriasis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):2005",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42172016/",
-      "date": "2026-06-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.6194",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "FDA Approves New Medication for Agitation Associated With Dementia.",
-      "title_zh": "FDA Approves New Medication for Agitation Associated With Dementia.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):2005",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42172014/",
-      "date": "2026-06-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.6193",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "GLP-1 Drugs Will Cost $50 a Month Under Medicare Pilot Program.",
-      "title_zh": "GLP-1 Drugs Will Cost $50 a Month Under Medicare Pilot Program.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):2006",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42172013/",
-      "date": "2026-06-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.6198",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Invasive Approach May Not Benefit Frail Older Adults With NSTEMI.",
-      "title_zh": "Invasive Approach May Not Benefit Frail Older Adults With NSTEMI.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):2005",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42172010/",
-      "date": "2026-06-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.6195",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Designing Trustworthy Clinical AI.",
-      "title_zh": "Designing Trustworthy Clinical AI.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):e261351",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42166151/",
-      "date": "2026-06-01",
-      "authors": "Hswen Y",
-      "doi": "10.1001/jama.2026.1351",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Screening Children for Early-Stage Type 1 Diabetes.",
-      "title_zh": "Screening Children for Early-Stage Type 1 Diabetes.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):2046-2056",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42166139/",
-      "date": "2026-06-01",
-      "authors": "Winkler C, Friedl N, Abt R, Ackermann K, Bently J",
-      "doi": "10.1001/jama.2026.6085",
       "departments": [
         "綜合"
       ]
@@ -7581,182 +7821,6 @@
       "date": "2026-06-01",
       "authors": "Tanne JH",
       "doi": "10.1136/bmj-2026-327847",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Updated International Patient Decision Aid Standards (IPDAS version 5.0): modified Delphi, evidence informed consensus process.",
-      "title_zh": "Updated International Patient Decision Aid Standards (IPDAS version 5.0): modified Delphi, evidence informed consensus process.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e088116",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285563/",
-      "date": "2026-06-01",
-      "authors": "Volk RJ, Lewis KB, Smith M, Carley M, Barry MJ",
-      "doi": "10.1136/bmj-2025-088116",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Health secretary urges NHS to take \"right risks\" with AI, but says he \"cannot go further\" on resident doctors pay.",
-      "title_zh": "Health secretary urges NHS to take \"right risks\" with AI, but says he \"cannot go further\" on resident doctors pay.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e850301",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285561/",
-      "date": "2026-06-01",
-      "authors": "Moberly T",
-      "doi": "10.1136/bmj-2026-850301",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Wegovy weight loss pill gets UK approval.",
-      "title_zh": "Wegovy weight loss pill gets UK approval.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e059332",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285560/",
-      "date": "2026-06-01",
-      "authors": "Iacobucci G",
-      "doi": "10.1136/bmj-2026-059332",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Fitness to practice tribunals for sexual misconduct are unfit for purpose.",
-      "title_zh": "Fitness to practice tribunals for sexual misconduct are unfit for purpose.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e244469",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285559/",
-      "date": "2026-06-01",
-      "authors": "Cox B, Seddon I",
-      "doi": "10.1136/bmj-2026-244469",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "American Diabetes Association controversy: Activism is necessary to protect scientific freedom.",
-      "title_zh": "American Diabetes Association controversy: Activism is necessary to protect scientific freedom.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e555118",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285558/",
-      "date": "2026-06-01",
-      "authors": "Nathan DM",
-      "doi": "10.1136/bmj-2026-555118",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Rise in autism and ADHD: patient experience is not fixed.",
-      "title_zh": "Rise in autism and ADHD: patient experience is not fixed.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e294376",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285557/",
-      "date": "2026-06-01",
-      "authors": "Coates J",
-      "doi": "10.1136/bmj-2026-294376",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Nearly 3000 NHS patients a day are treated in corridors, official data show.",
-      "title_zh": "Nearly 3000 NHS patients a day are treated in corridors, official data show.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e887896",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285556/",
-      "date": "2026-06-01",
-      "authors": "Limb M",
-      "doi": "10.1136/bmj-2026-887896",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Teen social media use for more than two hours a day linked to a raised risk of depressive symptoms, Australian study finds.",
-      "title_zh": "Teen social media use for more than two hours a day linked to a raised risk of depressive symptoms, Australian study finds.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e242401",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285555/",
-      "date": "2026-06-01",
-      "authors": "Nogrady B",
-      "doi": "10.1136/bmj-2026-242401",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Meningitis B: UK launches vaccine programme to protect students after fatal outbreaks.",
-      "title_zh": "Meningitis B: UK launches vaccine programme to protect students after fatal outbreaks.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e567368",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285554/",
-      "date": "2026-06-01",
-      "authors": "Mahase E",
-      "doi": "10.1136/bmj-2026-567368",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Measles: Two children die in England as confirmed cases surge.",
-      "title_zh": "Measles: Two children die in England as confirmed cases surge.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 11; 393():e533875",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42276568/",
-      "date": "2026-06-01",
-      "authors": "Mahase E",
-      "doi": "10.1136/bmj-2026-533875",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The limits of reporting checklists in paediatric research.",
-      "title_zh": "The limits of reporting checklists in paediatric research.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 11; 393():e164303",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42276567/",
-      "date": "2026-06-01",
-      "authors": "Gordon M, Raman S, Woolfenden S",
-      "doi": "10.1136/bmj-2026-164303",
       "departments": [
         "綜合"
       ]
@@ -9293,38 +9357,6 @@
       "date": "2026-05-02",
       "authors": "He Y, Bae JSH, Nowak E, Outeiral C, Nissley DA",
       "doi": "10.1016/j.cell.2026.03.008",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Whole-body molecular and cellular mapping of the laboratory mouse.",
-      "title_zh": "Whole-body molecular and cellular mapping of the laboratory mouse.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 May 28; 189(11):3481-3498.e24",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41903540/",
-      "date": "2026-05-02",
-      "authors": "Clevenger MH, Cipurko D, Patil A, Li B, Takahama M",
-      "doi": "10.1016/j.cell.2026.03.006",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Hyperinnervation inhibits organ-level regeneration in mammalian skin.",
-      "title_zh": "Hyperinnervation inhibits organ-level regeneration in mammalian skin.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 May 28; 189(11):3270-3286.e17",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41864207/",
-      "date": "2026-05-02",
-      "authors": "Tam HT, Peng J, Freeman R, Shwartz Y, Brielle S",
-      "doi": "10.1016/j.cell.2026.02.027",
       "departments": [
         "綜合"
       ]
@@ -11053,38 +11085,6 @@
       "date": "",
       "authors": "Omar M, Agbareia R, Gorenshtein A, Ramaswamy A, Sakhuja A",
       "doi": "10.1038/s41591-026-04350-5",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The Q-MONSTAR consortium: advancing fault-tolerant quantum computing for precision oncology.",
-      "title_zh": "The Q-MONSTAR consortium: advancing fault-tolerant quantum computing for precision oncology.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jun; 32(6):1946-1947",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42014508/",
-      "date": "",
-      "authors": "Imai M, Yamashita R, Fujisawa T, Sokuoka H, Miki I",
-      "doi": "10.1038/s41591-026-04346-1",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "A sustainable house design to improve child health in rural Africa: a cluster-randomized controlled trial.",
-      "title_zh": "A sustainable house design to improve child health in rural Africa: a cluster-randomized controlled trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jun; 32(6):2294-2301",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42014505/",
-      "date": "",
-      "authors": "Mshamu S, Mukaka M, Sanga C, Kambanga S, Rutaihwa AD",
-      "doi": "10.1038/s41591-026-04367-w",
       "departments": [
         "綜合"
       ]

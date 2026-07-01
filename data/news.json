@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "articles": [
     {
       "category": "權威期刊",
@@ -109,22 +109,6 @@
       "date": "2026-06-08",
       "authors": "Luo Y, Zhong Y, Basu S, Wu MC, Mayr C",
       "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
-      "title_zh": "Survodutide每周一次用于治疗肥胖成人。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 7; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42253238/",
-      "date": "2026-06-07",
-      "authors": "le Roux CW, Wharton S, Startseva E, Kloer IM, Hussain SA",
-      "doi": "10.1056/NEJMoa2600751",
       "departments": [
         "綜合"
       ]
@@ -259,6 +243,358 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Safety and efficacy of mRNA vaccines: a mechanistic and public health perspective.",
+      "title_zh": "MRNA疫苗的安全性和有效性：机械和公共卫生视角。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379196/",
+      "date": "2026-06-03",
+      "authors": "Blakney AK, Top KA, Cowling BJ, Larson HJ, Shattock RJ",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Education Leadership in Accreditation Reform-Reply.",
+      "title_zh": "Education Leadership in Accreditation Reform-Reply.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377988/",
+      "date": "2026-06-03",
+      "authors": "Stern DT, Lypson ML, Hafferty FW",
+      "doi": "10.1001/jama.2026.7003",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Complexity of Diagnosing Volume Overload.",
+      "title_zh": "Complexity of Diagnosing Volume Overload.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377986/",
+      "date": "2026-06-03",
+      "authors": "Su EH, Chu YQ, Tsai TY",
+      "doi": "10.1001/jama.2026.11041",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Incorrect Data in Rational Clinical Examination Article.",
+      "title_zh": "Incorrect Data in Rational Clinical Examination Article.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377978/",
+      "date": "2026-06-03",
+      "authors": "",
+      "doi": "10.1001/jama.2026.9987",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Education Leadership in Accreditation Reform.",
+      "title_zh": "Education Leadership in Accreditation Reform.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377975/",
+      "date": "2026-06-03",
+      "authors": "Rajput VK",
+      "doi": "10.1001/jama.2026.7000",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Complexity of Diagnosing Volume Overload-Reply.",
+      "title_zh": "Complexity of Diagnosing Volume Overload-Reply.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377972/",
+      "date": "2026-06-03",
+      "authors": "Drum B, Johnson SA, Liles EA Jr",
+      "doi": "10.1001/jama.2026.11050",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Antiviral Therapies for Adults With Mild to Moderate COVID-19 Infection.",
+      "title_zh": "Antiviral Therapies for Adults With Mild to Moderate COVID-19 Infection.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377969/",
+      "date": "2026-06-03",
+      "authors": "Leung PB, Davis AM, Marks KM",
+      "doi": "10.1001/jama.2026.6918",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Complexity of Diagnosing Volume Overload.",
+      "title_zh": "Complexity of Diagnosing Volume Overload.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377968/",
+      "date": "2026-06-03",
+      "authors": "Shirota S, Shimizu T",
+      "doi": "10.1001/jama.2026.11038",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Complexity of Diagnosing Volume Overload.",
+      "title_zh": "Complexity of Diagnosing Volume Overload.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377953/",
+      "date": "2026-06-03",
+      "authors": "Makam AN, Dhaliwal G, Nguyen OK",
+      "doi": "10.1001/jama.2026.11035",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Complexity of Diagnosing Volume Overload.",
+      "title_zh": "Complexity of Diagnosing Volume Overload.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377949/",
+      "date": "2026-06-03",
+      "authors": "Romano LR, Pellicori P, Cleland JGF",
+      "doi": "10.1001/jama.2026.11044",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Education Leadership in Accreditation Reform.",
+      "title_zh": "Education Leadership in Accreditation Reform.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377948/",
+      "date": "2026-06-03",
+      "authors": "Weinstein DF, Thibault GE",
+      "doi": "10.1001/jama.2026.7006",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Use of Social Media for Health Information Among US Adults.",
+      "title_zh": "Use of Social Media for Health Information Among US Adults.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377946/",
+      "date": "2026-06-03",
+      "authors": "Pedroso AF, Dhingra LS, Khan M, Carter M, Aminorroaya A",
+      "doi": "10.1001/jama.2026.8682",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Complexity of Diagnosing Volume Overload.",
+      "title_zh": "Complexity of Diagnosing Volume Overload.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377943/",
+      "date": "2026-06-03",
+      "authors": "Gulati U, Eisen LA",
+      "doi": "10.1001/jama.2026.11047",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The UK's visa brake will limit Sudan's healthcare recovery.",
+      "title_zh": "The UK's visa brake will limit Sudan's healthcare recovery.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 30; 393():e100105",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379651/",
+      "date": "2026-06-03",
+      "authors": "Alrawa SS, Farah R, Mosaad M, Ali R",
+      "doi": "10.1136/bmj-2026-100105",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Miscarriage: poor access to care leaves thousands of UK women desperately searching for answers.",
+      "title_zh": "Miscarriage: poor access to care leaves thousands of UK women desperately searching for answers.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 30; 393():e100109",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379650/",
+      "date": "2026-06-03",
+      "authors": "Mahase E",
+      "doi": "10.1136/bmj-2026-100109",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Amos maternity review: Doctors must work differently as units \"no longer fit for purpose,\" but report is dogged by controversy.",
+      "title_zh": "Amos maternity review: Doctors must work differently as units \"no longer fit for purpose,\" but report is dogged by controversy.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 30; 393():e100127",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379649/",
+      "date": "2026-06-03",
+      "authors": "Iacobucci G",
+      "doi": "10.1136/bmj-2026-100127",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "WHO's misguided push for complementary and alternative medicine.",
+      "title_zh": "WHO's misguided push for complementary and alternative medicine.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 30; 393():e100062",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379646/",
+      "date": "2026-06-03",
+      "authors": "Philips CA, Caulfield T, de Jong C, Qi X, Narayan DC",
+      "doi": "10.1136/bmj-2026-100062",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Why the GMC should not retain a right of appeal against MPTS decisions.",
+      "title_zh": "Why the GMC should not retain a right of appeal against MPTS decisions.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 30; 393():e100121",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379645/",
+      "date": "2026-06-03",
+      "authors": "Singh I",
+      "doi": "10.1136/bmj-2026-100121",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Resident doctors' strikes end with latest pay offer accepted.",
+      "title_zh": "Resident doctors' strikes end with latest pay offer accepted.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 30; 393():e100122",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379644/",
+      "date": "2026-06-03",
+      "authors": "O'Dowd A",
+      "doi": "10.1136/bmj-2026-100122",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Children in England face mental health \"crisis\" as referrals reach over a million.",
+      "title_zh": "Children in England face mental health \"crisis\" as referrals reach over a million.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 30; 393():e100120",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379643/",
+      "date": "2026-06-03",
+      "authors": "Iacobucci G",
+      "doi": "10.1136/bmj-2026-100120",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "PCOS name change to PMOS: clinical coding systems will take a while to catch up.",
+      "title_zh": "PCOS name change to PMOS: clinical coding systems will take a while to catch up.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 30; 393():e100118",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379642/",
+      "date": "2026-06-03",
+      "authors": "Majeed A",
+      "doi": "10.1136/bmj-2026-100118",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Can I talk about industrial action with colleagues?",
+      "title_zh": "Can I talk about industrial action with colleagues?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 30; 393():e100025",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379638/",
+      "date": "2026-06-03",
+      "authors": "Rimmer A",
+      "doi": "10.1136/bmj-2026-100025",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Limited evidence of AI superiority in seasonal influenza vaccine strain selection.",
       "title_zh": "Limited evidence of AI superiority in seasonal influenza vaccine strain selection.",
       "summary_en": "",
@@ -301,6 +637,70 @@
       "date": "2026-06-03",
       "authors": "Kadakia KT, Dash Y, Abernethy AP, Honig N, Levine RL",
       "doi": "10.1038/s41591-026-04445-z",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Whole-cell particle-based digital twin simulations from 4D lattice light-sheet microscopy data.",
+      "title_zh": "Whole-cell particle-based digital twin simulations from 4D lattice light-sheet microscopy data.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379169/",
+      "date": "2026-06-03",
+      "authors": "Arkfeld E, Wang Z, Hakozaki H, Schöneberg J",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Systematic discovery of pathogen effector functions across human pathogens and pathways.",
+      "title_zh": "Systematic discovery of pathogen effector functions across human pathogens and pathways.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379168/",
+      "date": "2026-06-03",
+      "authors": "Pachano T, Leng H, Dugied G, Tribble T, Loubiere V",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Structural basis for host membrane binding and remodeling by invading malaria parasites.",
+      "title_zh": "Structural basis for host membrane binding and remodeling by invading malaria parasites.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379167/",
+      "date": "2026-06-03",
+      "authors": "Haile MT, Kaxiras DA, Zhen J, Lee CL, Jiang B",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Multiscale integration of tissue and chromatin context converts cell heterogeneity into stable intestinal patterning.",
+      "title_zh": "Multiscale integration of tissue and chromatin context converts cell heterogeneity into stable intestinal patterning.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42379166/",
+      "date": "2026-06-03",
+      "authors": "Schwayer C, Barbiero S, Brückner DB, Oost KC, Baader C",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -429,6 +829,22 @@
       "date": "2026-06-03",
       "authors": "Wang P, Du S, Wu S, Zhai Y, Bai J",
       "doi": "10.1126/scitranslmed.aea0189",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Retraction: Jayne DRW et al. Avacopan for the Treatment of ANCA-Associated Vasculitis, N Engl J Med 2021;384:599-609.",
+      "title_zh": "撤回： Jayne DRW et al. Avacopan for the Treatment of ANCA-Associated Vasculitis, N Engl J Med 2021; 384: 599-609。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377355/",
+      "date": "2026-06-02",
+      "authors": "Rubin EJ",
+      "doi": "10.1056/NEJMe2608684",
       "departments": [
         "綜合"
       ]
@@ -2132,7 +2548,7 @@
     {
       "category": "權威期刊",
       "title_en": "Pricing for Oncology Biosimilars.",
-      "title_zh": "Oncology Biosimilars的定价。",
+      "title_zh": "Pricing for Oncology Biosimilars.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2148,7 +2564,7 @@
     {
       "category": "權威期刊",
       "title_en": "Familial Hypercholesterolemia.",
-      "title_zh": "家族性高胆固醇血症。",
+      "title_zh": "Familial Hypercholesterolemia.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2164,7 +2580,7 @@
     {
       "category": "權威期刊",
       "title_en": "Reporting Error.",
-      "title_zh": "报告错误。",
+      "title_zh": "Reporting Error.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2196,7 +2612,7 @@
     {
       "category": "權威期刊",
       "title_en": "Pricing for Oncology Biosimilars-Reply.",
-      "title_zh": "Oncology Biosimilars-Reply的定价。",
+      "title_zh": "Pricing for Oncology Biosimilars-Reply.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2212,7 +2628,7 @@
     {
       "category": "權威期刊",
       "title_en": "US Food Swamps Have Increased as Food Deserts Remain Static.",
-      "title_zh": "由于食物沙漠保持静止，美国食物沼泽有所增加。",
+      "title_zh": "US Food Swamps Have Increased as Food Deserts Remain Static.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -6755,22 +7171,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Department of Error.",
-      "title_zh": "错误部门。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 13; 407(10546):2374",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42155499/",
-      "date": "2026-06-01",
-      "authors": "",
-      "doi": "10.1016/S0140-6736(26)01012-3",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Postoperative Delirium May Predict Long-Term Cognitive Decline.",
       "title_zh": "Postoperative Delirium May Predict Long-Term Cognitive Decline.",
       "summary_en": "",
@@ -7021,198 +7421,6 @@
       "date": "2026-06-01",
       "authors": "HARMONi-A Study Investigators, Fang W, Zhao Y, Luo Y, Yang R",
       "doi": "10.1001/jama.2026.7745",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Review of Type 1 Diabetes.",
-      "title_zh": "Review of Type 1 Diabetes.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42307926/",
-      "date": "2026-06-01",
-      "authors": "Garcia Bernal GC, Núñez Soria AA, Bernal González DA",
-      "doi": "10.1001/jama.2026.6457",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Vibriosis.",
-      "title_zh": "Vibriosis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42307921/",
-      "date": "2026-06-01",
-      "authors": "Jay R, Hughes M, Angelo KM",
-      "doi": "10.1001/jama.2026.9892",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Unpacking the Rise in Early-Onset Cancer: A Healthy Dialogue With Kimmie Ng and Ilana Richman.",
-      "title_zh": "Unpacking the Rise in Early-Onset Cancer: A Healthy Dialogue With Kimmie Ng and Ilana Richman.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 17; ():e269957",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42307920/",
-      "date": "2026-06-01",
-      "authors": "Angus DC, O'Connor MB",
-      "doi": "10.1001/jama.2026.9957",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Review of Type 1 Diabetes.",
-      "title_zh": "Review of Type 1 Diabetes.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42307919/",
-      "date": "2026-06-01",
-      "authors": "Jones SI, Boettcher LB, Kuller JA",
-      "doi": "10.1001/jama.2026.6460",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Review of Type 1 Diabetes.",
-      "title_zh": "Review of Type 1 Diabetes.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42307915/",
-      "date": "2026-06-01",
-      "authors": "Potter SR, El Chediak A, Parsons RF",
-      "doi": "10.1001/jama.2026.6463",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Nursing Home Closures and Access to Long-Term Care.",
-      "title_zh": "Nursing Home Closures and Access to Long-Term Care.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42307912/",
-      "date": "2026-06-01",
-      "authors": "Olenski AR, Werner RM",
-      "doi": "10.1001/jama.2026.8509",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Prone Positioning in Viral Bronchiolitis-Back to the Back?",
-      "title_zh": "Prone Positioning in Viral Bronchiolitis-Back to the Back?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42307574/",
-      "date": "2026-06-01",
-      "authors": "Kohne JG, Conway SR, Shein SL",
-      "doi": "10.1001/jama.2026.11742",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Prone Positioning in Infants With Acute Bronchiolitis: Research Summary.",
-      "title_zh": "Prone Positioning in Infants With Acute Bronchiolitis: Research Summary.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 17; ():e2611220",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42307573/",
-      "date": "2026-06-01",
-      "authors": "",
-      "doi": "10.1001/jama.2026.11220",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Prone Positioning in Infants With Acute Bronchiolitis: The PROPOSITIS Randomized Clinical Trial.",
-      "title_zh": "Prone Positioning in Infants With Acute Bronchiolitis: The PROPOSITIS Randomized Clinical Trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42307570/",
-      "date": "2026-06-01",
-      "authors": "Baudin F, Pouyau R, Subtil F, Jarrasse C, Tochon M",
-      "doi": "10.1001/jama.2026.11078",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "More Than 19 000 Measles Cases in a Month-What the Current Outbreak in Bangladesh Signals to the World.",
-      "title_zh": "More Than 19 000 Measles Cases in a Month-What the Current Outbreak in Bangladesh Signals to the World.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):1999-2000",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42172022/",
-      "date": "2026-06-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.9016",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "More Than 1 in 10 US Adults Use Sleep Aids Most Days.",
-      "title_zh": "More Than 1 in 10 US Adults Use Sleep Aids Most Days.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):2005-2006",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42172020/",
-      "date": "2026-06-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.6197",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Eating Less Protein May Improve Outcomes for Patients With Kidney Disease.",
-      "title_zh": "Eating Less Protein May Improve Outcomes for Patients With Kidney Disease.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 16; 335(23):2005",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42172018/",
-      "date": "2026-06-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.6196",
       "departments": [
         "綜合"
       ]
@@ -7677,150 +7885,6 @@
       "date": "2026-06-01",
       "authors": "O'Dowd A",
       "doi": "10.1136/bmj-2026-712681",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Data sharing must evolve towards data sovereignty.",
-      "title_zh": "Data sharing must evolve towards data sovereignty.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 15; 393():e372314",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42297447/",
-      "date": "2026-06-01",
-      "authors": "Lang T",
-      "doi": "10.1136/bmj-2026-372314",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Breaking down barriers to medical training - the resident doctor who helps students meet their potential.",
-      "title_zh": "Breaking down barriers to medical training - the resident doctor who helps students meet their potential.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 15; 393():e582553",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42297445/",
-      "date": "2026-06-01",
-      "authors": "Dean E",
-      "doi": "10.1136/bmj-2026-582553",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Public health should partner with faith communities.",
-      "title_zh": "Public health should partner with faith communities.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 15; 393():e340889",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42297441/",
-      "date": "2026-06-01",
-      "authors": "Bedi R",
-      "doi": "10.1136/bmj-2026-340889",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Obesity versus China: how Ozempic is complicating the world's largest weight loss campaign.",
-      "title_zh": "Obesity versus China: how Ozempic is complicating the world's largest weight loss campaign.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 15; 393():e523232",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42297440/",
-      "date": "2026-06-01",
-      "authors": "Murphy F",
-      "doi": "10.1136/bmj-2026-523232",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Advances in the development of malaria vaccines.",
-      "title_zh": "Advances in the development of malaria vaccines.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 15; 393():e084166",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42297417/",
-      "date": "2026-06-01",
-      "authors": "Sorgho H, Rouamba T, Natama HM, Tinto H",
-      "doi": "10.1136/bmj-2025-084166",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Dengue: Brazil suspends rollout of new vaccine after two deaths.",
-      "title_zh": "Dengue: Brazil suspends rollout of new vaccine after two deaths.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 15; 393():e205610",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42297416/",
-      "date": "2026-06-01",
-      "authors": "Taylor L",
-      "doi": "10.1136/bmj-2026-205610",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ebola: Outbreak cases are \"tip of iceberg,\" says Africa CDC official at centre of epidemic.",
-      "title_zh": "Ebola: Outbreak cases are \"tip of iceberg,\" says Africa CDC official at centre of epidemic.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e726541",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285583/",
-      "date": "2026-06-01",
-      "authors": "Baraniuk C",
-      "doi": "10.1136/bmj-2026-726541",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Reporting of Cohort and Routinely Collected Data in Randomised Controlled Trial Protocols (SPIRIT-ROUTINE): extension checklist with explanation and elaboration.",
-      "title_zh": "Reporting of Cohort and Routinely Collected Data in Randomised Controlled Trial Protocols (SPIRIT-ROUTINE): extension checklist with explanation and elaboration.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e087095",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285568/",
-      "date": "2026-06-01",
-      "authors": "Kearney PM, McCarthy M, Rengarajan S, O'Keeffe LM, Avery K",
-      "doi": "10.1136/bmj-2025-087095",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Trump: ADA president elect resigns after US doctors are ejected from diabetes meeting.",
-      "title_zh": "Trump: ADA president elect resigns after US doctors are ejected from diabetes meeting.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jun 12; 393():e327847",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42285564/",
-      "date": "2026-06-01",
-      "authors": "Tanne JH",
-      "doi": "10.1136/bmj-2026-327847",
       "departments": [
         "綜合"
       ]
@@ -9293,70 +9357,6 @@
       "date": "2026-05-02",
       "authors": "Mao Y, Xia Z, Pan X, Xia W, Jiang P",
       "doi": "10.1016/j.cell.2026.03.039",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Predicting competition and substrate preferences for targeted microbiome alteration.",
-      "title_zh": "Predicting competition and substrate preferences for targeted microbiome alteration.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 May 28; 189(11):3324-3338.e23",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41999742/",
-      "date": "2026-05-02",
-      "authors": "Moyne O, Norton GJ, Al-Bassam M, Lieng C, Thiruppathy D",
-      "doi": "10.1016/j.cell.2026.03.036",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Electromagnetic field-inducible in vivo gene switch for remote spatiotemporal control of gene expression.",
-      "title_zh": "Electromagnetic field-inducible in vivo gene switch for remote spatiotemporal control of gene expression.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 May 28; 189(11):3465-3480.e23",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41985457/",
-      "date": "2026-05-02",
-      "authors": "Kim J, Hwang Y, Kim S, Kwon D, Park J",
-      "doi": "10.1016/j.cell.2026.03.029",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Rational design of G(i)-biased CB1 agonist with reduced side effects.",
-      "title_zh": "Rational design of G(i)-biased CB1 agonist with reduced side effects.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 May 28; 189(11):3432-3443.e16",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41980782/",
-      "date": "2026-05-02",
-      "authors": "Liao YY, Che J, Gao YT, Xue J, Li L",
-      "doi": "10.1016/j.cell.2026.03.020",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Rational discovery of therapeutic PAK1 allosteric activators.",
-      "title_zh": "Rational discovery of therapeutic PAK1 allosteric activators.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 May 28; 189(11):3444-3464.e28",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41923641/",
-      "date": "2026-05-02",
-      "authors": "He Y, Bae JSH, Nowak E, Outeiral C, Nissley DA",
-      "doi": "10.1016/j.cell.2026.03.008",
       "departments": [
         "綜合"
       ]

@@ -1,6 +1,102 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "articles": [
+    {
+      "category": "權威期刊",
+      "title_en": "The 2026 Wakley-Wu Lien Teh Prize Essay: why medicine, and why stay?",
+      "title_zh": "2026年Wakley-Wu Lien Teh奖论文：为什么要医学，为什么要留下来？",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 4; 408(10549):12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42349484/",
+      "date": "2026-07-04",
+      "authors": "Wang HH, Lau E, Horton R",
+      "doi": "10.1016/S0140-6736(26)01233-X",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The Global Fund needs a more open search for its next leader.",
+      "title_zh": "全球基金需要更开放地寻找下一任领导者。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 4; 408(10549):23",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42335921/",
+      "date": "2026-07-04",
+      "authors": "Ratevosian J",
+      "doi": "10.1016/S0140-6736(26)01156-6",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Combined bladder-kidney transplantation: first-in-human feasibility trial.",
+      "title_zh": "Combined bladder-kidney transplantation: first-in-human feasibility trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 4; 408(10549):31-37",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42335920/",
+      "date": "2026-07-04",
+      "authors": "Nassiri N, Gill IS",
+      "doi": "10.1016/S0140-6736(26)00718-X",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Kidney-bladder transplantation: redefining surgical options for patients with concurrent bladder and kidney disease.",
+      "title_zh": "Kidney-bladder transplantation: redefining surgical options for patients with concurrent bladder and kidney disease.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 4; 408(10549):2-3",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42335919/",
+      "date": "2026-07-04",
+      "authors": "Jadlowiec CC, Nunez-Nateras R",
+      "doi": "10.1016/S0140-6736(26)01025-1",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "A clearer path for resurfacing the patella during total knee replacement.",
+      "title_zh": "在全膝关节置换术期间，为髌骨重新铺面提供更清晰的路径。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 4; 408(10549):6-7",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42309120/",
+      "date": "2026-07-04",
+      "authors": "Troelsen A",
+      "doi": "10.1016/S0140-6736(26)01195-5",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Patellar resurfacing in total knee replacement: 20-year clinical and economic results of a large multicentre, randomised controlled trial in the UK.",
+      "title_zh": "Patellar resurfacing in total knee replacement: 20-year clinical and economic results of a large multicentre, randomised controlled trial in the UK.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 4; 408(10549):52-61",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42309116/",
+      "date": "2026-07-04",
+      "authors": "Murray DW, Hudson J, Dakin H, MacLennan G, Little M",
+      "doi": "10.1016/S0140-6736(26)00652-5",
+      "departments": [
+        "綜合"
+      ]
+    },
     {
       "category": "權威期刊",
       "title_en": "Ianalumab plus Eltrombopag in Immune Thrombocytopenia. Reply.",
@@ -387,6 +483,134 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "WHO Issues Guidelines for Treating Ebola and Marburg Viruses.",
+      "title_zh": "世卫组织发布埃博拉和马尔堡病毒治疗指南。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42390994/",
+      "date": "2026-07-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9465",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "FDA Approves Additional Naloxone Nasal Spray for Opioid Overdose.",
+      "title_zh": "FDA批准额外的纳洛酮鼻腔喷雾剂用于阿片类药物过量。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42390990/",
+      "date": "2026-07-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9470",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "HIV May Hide in More Cells Than Previously Thought-Here's What That Could Mean for a Cure.",
+      "title_zh": "HIV可能隐藏在比以前想象的更多的细胞中-这对治愈意味着什么。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42390980/",
+      "date": "2026-07-02",
+      "authors": "Abbasi J",
+      "doi": "10.1001/jama.2026.12082",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "US Dietary Supplement Use Increasing, Especially in Older Adults.",
+      "title_zh": "美国膳食补充剂使用增加，特别是在老年人中。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42390979/",
+      "date": "2026-07-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9466",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Heat Stress From Climate Change Surges Globally.",
+      "title_zh": "全球气候变化带来的热应激激增。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42390978/",
+      "date": "2026-07-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9469",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Strength Training Linked With Lower Cardiovascular Disease Risk in Women.",
+      "title_zh": "Strength Training Linked With Lower Cardiovascular Disease Risk in Women.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42390975/",
+      "date": "2026-07-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9468",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "First Alzheimer Disease Blood Test May Produce Many False-Positive Results, Study Finds.",
+      "title_zh": "First Alzheimer Disease Blood Test May Produce Many False-Positive Results, Study Finds.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42390973/",
+      "date": "2026-07-02",
+      "authors": "Rubin R",
+      "doi": "10.1001/jama.2026.12326",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "FDA Adds Kidney Injury Warning to OTC Weight-Loss Drug Orlistat.",
+      "title_zh": "FDA Adds Kidney Injury Warning to OTC Weight-Loss Drug Orlistat.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42390971/",
+      "date": "2026-07-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9467",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Ebola at 50 - Lessons for Outbreak Response and Preparedness.",
       "title_zh": "50岁的埃博拉-疫情应对和防范经验教训。",
       "summary_en": "",
@@ -452,7 +676,7 @@
     {
       "category": "權威期刊",
       "title_en": "Surgical and Endoscopic Therapies for GERD.",
-      "title_zh": "GERD的手术和内窥镜治疗。",
+      "title_zh": "Surgical and Endoscopic Therapies for GERD.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -483,24 +707,8 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "\"Suturing\": Love, Death, and Perfection's Limits.",
-      "title_zh": "“缝合” ：爱、死亡和完美的极限。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 1; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42384410/",
-      "date": "2026-07-01",
-      "authors": "Roberts K, Campo R",
-      "doi": "10.1001/jama.2026.6679",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "What Is Low Back Pain?",
-      "title_zh": "什么是腰背痛？",
+      "title_zh": "What Is Low Back Pain?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -516,7 +724,7 @@
     {
       "category": "權威期刊",
       "title_en": "From Silicon Valley to the Vatican-The Expanding Debate on AI Ethics.",
-      "title_zh": "从硅谷到梵蒂冈--关于人工智能伦理的不断扩大的辩论。",
+      "title_zh": "From Silicon Valley to the Vatican-The Expanding Debate on AI Ethics.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -532,7 +740,7 @@
     {
       "category": "權威期刊",
       "title_en": "Smallpox-Old and New.",
-      "title_zh": "天花-旧的和新的。",
+      "title_zh": "Smallpox-Old and New.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -573,22 +781,6 @@
       "date": "2026-07-01",
       "authors": "Cipriani A, Mulsant BH, Efthimiou O",
       "doi": "10.1001/jama.2026.7533",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Suturing.",
-      "title_zh": "Suturing.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 1; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42384376/",
-      "date": "2026-07-01",
-      "authors": "Stimac R",
-      "doi": "10.1001/jama.2026.6676",
       "departments": [
         "綜合"
       ]
@@ -1363,6 +1555,86 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Complexity of Diagnosing Volume Overload.",
+      "title_zh": "Complexity of Diagnosing Volume Overload.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377953/",
+      "date": "2026-06-03",
+      "authors": "Makam AN, Dhaliwal G, Nguyen OK",
+      "doi": "10.1001/jama.2026.11035",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Complexity of Diagnosing Volume Overload.",
+      "title_zh": "Complexity of Diagnosing Volume Overload.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377949/",
+      "date": "2026-06-03",
+      "authors": "Romano LR, Pellicori P, Cleland JGF",
+      "doi": "10.1001/jama.2026.11044",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Education Leadership in Accreditation Reform.",
+      "title_zh": "Education Leadership in Accreditation Reform.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377948/",
+      "date": "2026-06-03",
+      "authors": "Weinstein DF, Thibault GE",
+      "doi": "10.1001/jama.2026.7006",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Use of Social Media for Health Information Among US Adults.",
+      "title_zh": "Use of Social Media for Health Information Among US Adults.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377946/",
+      "date": "2026-06-03",
+      "authors": "Pedroso AF, Dhingra LS, Khan M, Carter M, Aminorroaya A",
+      "doi": "10.1001/jama.2026.8682",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Complexity of Diagnosing Volume Overload.",
+      "title_zh": "Complexity of Diagnosing Volume Overload.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42377943/",
+      "date": "2026-06-03",
+      "authors": "Gulati U, Eisen LA",
+      "doi": "10.1001/jama.2026.11047",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "The UK's visa brake will limit Sudan's healthcare recovery.",
       "title_zh": "The UK's visa brake will limit Sudan's healthcare recovery.",
       "summary_en": "",
@@ -1613,6 +1885,22 @@
       "date": "2026-06-03",
       "authors": "Kadakia KT, Dash Y, Abernethy AP, Honig N, Levine RL",
       "doi": "10.1038/s41591-026-04445-z",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "A viral ORFeome library for systems-level genetic dissection of host-pathogen interactions.",
+      "title_zh": "A viral ORFeome library for systems-level genetic dissection of host-pathogen interactions.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Jun 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42392077/",
+      "date": "2026-06-03",
+      "authors": "Fujimura E, O'Leary CN, Li MZ, Roberts RA, Glassman CR",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -2819,22 +3107,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "The 2026 Wakley-Wu Lien Teh Prize Essay: why medicine, and why stay?",
-      "title_zh": "2026年Wakley-Wu Lien Teh奖论文：为什么要医学，为什么要留下来？",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 25; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42349484/",
-      "date": "2026-06-02",
-      "authors": "Wang HH, Lau E, Horton R",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Indonesia's health reform: from pandemic mandate to the six pillars of transformation.",
       "title_zh": "Indonesia's health reform: from pandemic mandate to the six pillars of transformation.",
       "summary_en": "",
@@ -3004,54 +3276,6 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/42335922/",
       "date": "2026-06-02",
       "authors": "Russo FM, Sananès N, Letourneau A, Devlieger R, Mégier C",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The Global Fund needs a more open search for its next leader.",
-      "title_zh": "全球基金需要更开放地寻找下一任领导者。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 23; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42335921/",
-      "date": "2026-06-02",
-      "authors": "Ratevosian J",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Combined bladder-kidney transplantation: first-in-human feasibility trial.",
-      "title_zh": "Combined bladder-kidney transplantation: first-in-human feasibility trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 23; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42335920/",
-      "date": "2026-06-02",
-      "authors": "Nassiri N, Gill IS",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Kidney-bladder transplantation: redefining surgical options for patients with concurrent bladder and kidney disease.",
-      "title_zh": "Kidney-bladder transplantation: redefining surgical options for patients with concurrent bladder and kidney disease.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 23; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42335919/",
-      "date": "2026-06-02",
-      "authors": "Jadlowiec CC, Nunez-Nateras R",
       "doi": "",
       "departments": [
         "綜合"
@@ -3437,6 +3661,246 @@
       "date": "2026-06-02",
       "authors": "Leboyer M, Pedraz-Petrozzi B, Spangemacher M, Berk M, Lancet Commission on schizophrenia and psychotic disorders",
       "doi": "10.1016/S0140-6736(26)00916-5",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Specialized or General-Purpose-The Wrong Question for Mental Health AI Safety.",
+      "title_zh": "Specialized or General-Purpose-The Wrong Question for Mental Health AI Safety.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371659/",
+      "date": "2026-06-02",
+      "authors": "Nelson BW, Kalinich M, Torous J",
+      "doi": "10.1001/jama.2026.11448",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Pricing for Oncology Biosimilars.",
+      "title_zh": "Pricing for Oncology Biosimilars.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371655/",
+      "date": "2026-06-02",
+      "authors": "Jensen C, Tichy E",
+      "doi": "10.1001/jama.2026.6815",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Familial Hypercholesterolemia.",
+      "title_zh": "Familial Hypercholesterolemia.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371647/",
+      "date": "2026-06-02",
+      "authors": "Stein JH, Tattersall MC",
+      "doi": "10.1001/jama.2026.8822",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Reporting Error.",
+      "title_zh": "Reporting Error.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371645/",
+      "date": "2026-06-02",
+      "authors": "",
+      "doi": "10.1001/jama.2026.9649",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Replacement Text for Funding/Support Section.",
+      "title_zh": "Replacement Text for Funding/Support Section.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371640/",
+      "date": "2026-06-02",
+      "authors": "",
+      "doi": "10.1001/jama.2026.11797",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Pricing for Oncology Biosimilars-Reply.",
+      "title_zh": "Pricing for Oncology Biosimilars-Reply.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42371639/",
+      "date": "2026-06-02",
+      "authors": "Robinson JC",
+      "doi": "10.1001/jama.2026.6818",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "US Food Swamps Have Increased as Food Deserts Remain Static.",
+      "title_zh": "US Food Swamps Have Increased as Food Deserts Remain Static.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 26; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42360770/",
+      "date": "2026-06-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.8319",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Earlier Egg Introduction Recommendations Linked to Fewer Infant Allergies.",
+      "title_zh": "Earlier Egg Introduction Recommendations Linked to Fewer Infant Allergies.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 26; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42360766/",
+      "date": "2026-06-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.8315",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "FDA Approves First New Active Sunscreen Ingredient in Decades.",
+      "title_zh": "FDA Approves First New Active Sunscreen Ingredient in Decades.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 26; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42360764/",
+      "date": "2026-06-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.8318",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "HHS Says Psychiatric Medications Are Overprescribed, but Are They?",
+      "title_zh": "HHS Says Psychiatric Medications Are Overprescribed, but Are They?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 26; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42360762/",
+      "date": "2026-06-02",
+      "authors": "Rubin R",
+      "doi": "10.1001/jama.2026.8946",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "FDA Approves First Over-the-Counter Continuous Glucose Monitor for Children.",
+      "title_zh": "FDA Approves First Over-the-Counter Continuous Glucose Monitor for Children.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 26; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42360759/",
+      "date": "2026-06-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.8314",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Ebola May Be Associated With Lasting Neurological Complications.",
+      "title_zh": "Ebola May Be Associated With Lasting Neurological Complications.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 26; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42360757/",
+      "date": "2026-06-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.8316",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "PCOS Is Now PMOS-Will a New Name Translate to Improved Clinical Care?",
+      "title_zh": "PCOS Is Now PMOS-Will a New Name Translate to Improved Clinical Care?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 26; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42360724/",
+      "date": "2026-06-02",
+      "authors": "Schweitzer K",
+      "doi": "10.1001/jama.2026.10402",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Accrediting Bodies to Increase Nutrition Education Requirements.",
+      "title_zh": "Accrediting Bodies to Increase Nutrition Education Requirements.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 26; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42360718/",
+      "date": "2026-06-02",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.8317",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Whole-System Trust in Science, Medicine, and Public Health.",
+      "title_zh": "Whole-System Trust in Science, Medicine, and Public Health.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jun 25; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42348398/",
+      "date": "2026-06-02",
+      "authors": "Dzau VJ, DeStefano L, Taylor SM",
+      "doi": "10.1001/jama.2026.12502",
       "departments": [
         "綜合"
       ]
@@ -4301,54 +4765,6 @@
       "date": "2026-06-02",
       "authors": "Rothman JM, Kwan B, Jena AB",
       "doi": "10.1001/jama.2026.6524",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Trends in Newborn Hepatitis B Virus Vaccination.",
-      "title_zh": "Trends in Newborn Hepatitis B Virus Vaccination.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42329630/",
-      "date": "2026-06-02",
-      "authors": "Dysart K, Ruan AB, Burris HH",
-      "doi": "10.1001/jama.2026.6521",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Trends in Patient Portal Messages, Office Visits, and Telephone Encounters.",
-      "title_zh": "Trends in Patient Portal Messages, Office Visits, and Telephone Encounters.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42329625/",
-      "date": "2026-06-02",
-      "authors": "Long JJ, McAdams-DeMarco MA, Schwartz MD, Chodosh J, Oermann EK",
-      "doi": "10.1001/jama.2026.8690",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Stopping Alzheimer Disease: 50 Years of Progress.",
-      "title_zh": "Stopping Alzheimer Disease: 50 Years of Progress.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42329624/",
-      "date": "2026-06-02",
-      "authors": "Hsiao JK",
-      "doi": "10.1001/jama.2026.10969",
       "departments": [
         "綜合"
       ]
@@ -7027,22 +7443,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "A clearer path for resurfacing the patella during total knee replacement.",
-      "title_zh": "在全膝关节置换术期间，为髌骨重新铺面提供更清晰的路径。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42309120/",
-      "date": "2026-06-01",
-      "authors": "Troelsen A",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Will mezigdomide find its place in the T-cell redirecting treatment landscape for relapsed multiple myeloma?",
       "title_zh": "Mezigdomide是否会在复发性多发性骨髓瘤的T细胞重定向治疗中占据一席之地？",
       "summary_en": "",
@@ -7084,22 +7484,6 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/42309117/",
       "date": "2026-06-01",
       "authors": "Sasieni P, Falcaro M",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Patellar resurfacing in total knee replacement: 20-year clinical and economic results of a large multicentre, randomised controlled trial in the UK.",
-      "title_zh": "Patellar resurfacing in total knee replacement: 20-year clinical and economic results of a large multicentre, randomised controlled trial in the UK.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42309116/",
-      "date": "2026-06-01",
-      "authors": "Murray DW, Hudson J, Dakin H, MacLennan G, Little M",
       "doi": "",
       "departments": [
         "綜合"
@@ -7469,54 +7853,6 @@
       "date": "2026-06-01",
       "authors": "Tully DC",
       "doi": "10.1016/S0140-6736(26)01043-3",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Postoperative Delirium May Predict Long-Term Cognitive Decline.",
-      "title_zh": "Postoperative Delirium May Predict Long-Term Cognitive Decline.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 18; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42313561/",
-      "date": "2026-06-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.8309",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "FDA Advises Against Over-the-Counter Skin Lightening Products.",
-      "title_zh": "FDA Advises Against Over-the-Counter Skin Lightening Products.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 18; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42313557/",
-      "date": "2026-06-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.8311",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "ACOG Releases Maternal Immunization Schedule, Breaking From CDC.",
-      "title_zh": "ACOG Releases Maternal Immunization Schedule, Breaking From CDC.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 18; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42313556/",
-      "date": "2026-06-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.8308",
       "departments": [
         "綜合"
       ]
@@ -9149,22 +9485,6 @@
       "date": "2026-05-02",
       "authors": "Bintu B, Isogai Y, Jenie I, Zhuang X, Dulac C",
       "doi": "10.1016/j.cell.2026.03.053",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Unbiased niche labeling maps immune-excluded niche in bone metastasis.",
-      "title_zh": "Unbiased niche labeling maps immune-excluded niche in bone metastasis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 May 28; 189(11):3287-3305.e25",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42054994/",
-      "date": "2026-05-02",
-      "authors": "Xu Z, Liu F, Ding Y, Pan T, Wu YH",
-      "doi": "10.1016/j.cell.2026.04.009",
       "departments": [
         "綜合"
       ]

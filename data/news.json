@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-04",
+  "date": "2026-07-05",
   "articles": [
     {
       "category": "權威期刊",
@@ -429,6 +429,22 @@
       "date": "2026-07-04",
       "authors": "Burgess RA, Gamlin J, Gumbonzvanda N, Mateus A, Horton R",
       "doi": "10.1016/S0140-6736(26)01019-6",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Assisted dying and the silencing of medicine's next generation.",
+      "title_zh": "Assisted dying and the silencing of medicine's next generation.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42398507/",
+      "date": "2026-07-03",
+      "authors": "Khan HA, Chhatwal K, Bryan M, Merzah J, Arab S",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -4413,22 +4429,6 @@
       "date": "2026-06-02",
       "authors": "Lenz G, Trněný M, Burke JM, Nowakowski GS, Fox CP",
       "doi": "10.1016/S0140-6736(26)00866-4",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Announcing the Lancet Commission on schizophrenia and psychotic disorders.",
-      "title_zh": "Announcing the Lancet Commission on schizophrenia and psychotic disorders.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 20; 407(10547):2483-2484",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42167297/",
-      "date": "2026-06-02",
-      "authors": "Leboyer M, Pedraz-Petrozzi B, Spangemacher M, Berk M, Lancet Commission on schizophrenia and psychotic disorders",
-      "doi": "10.1016/S0140-6736(26)00916-5",
       "departments": [
         "綜合"
       ]

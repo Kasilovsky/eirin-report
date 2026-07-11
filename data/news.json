@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "articles": [
     {
       "category": "權威期刊",
@@ -1268,7 +1268,7 @@
     {
       "category": "權威期刊",
       "title_en": "Rates of Precipitated Withdrawal in a Trial of ED-Initiated Buprenorphine for Opioid Use Disorder-Reply.",
-      "title_zh": "ED启动的阿片类药物使用障碍丁丙诺啡试验中的沉淀性戒断率-回复。",
+      "title_zh": "Rates of Precipitated Withdrawal in a Trial of ED-Initiated Buprenorphine for Opioid Use Disorder-Reply.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1309,22 +1309,6 @@
       "date": "2026-07-08",
       "authors": "Morris DG, Adams Z",
       "doi": "10.1001/jama.2026.8562",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Medical news in brief: Ex-health secretary's PM bid, obesity rise in young adults, child mental health \"crisis,\" and other stories.",
-      "title_zh": "Medical news in brief: Ex-health secretary's PM bid, obesity rise in young adults, child mental health \"crisis,\" and other stories.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 8; 394():e100160",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42425552/",
-      "date": "2026-07-08",
-      "authors": "",
-      "doi": "10.1136/bmj-2026-100160",
       "departments": [
         "綜合"
       ]
@@ -4211,6 +4195,22 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Long-Term Survival of Hypoimmune Allogeneic Islets without Immunosuppression.",
+      "title_zh": "Long-Term Survival of Hypoimmune Allogeneic Islets without Immunosuppression.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jul 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42430558/",
+      "date": "2026-07-01",
+      "authors": "Carlsson PO, Hu X, Scholz H, Lundgren T, Ingvast S",
+      "doi": "10.1056/NEJMc2604408",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Ebola at 50 - Lessons for Outbreak Response and Preparedness.",
       "title_zh": "50岁的埃博拉-疫情应对和防范经验教训。",
       "summary_en": "",
@@ -4221,6 +4221,182 @@
       "date": "2026-07-01",
       "authors": "Zumla A, Ntoumi F, Ndembi N, Mulangu S, Piot P",
       "doi": "10.1056/NEJMp2607819",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Ending HIV: a reality check.",
+      "title_zh": "终结人类免疫缺陷病毒：现实检查。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):93",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425115/",
+      "date": "2026-07-01",
+      "authors": "The Lancet",
+      "doi": "10.1016/S0140-6736(26)01375-9",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Children in all policies: lessons from a global collaboration to promote the health and wellbeing of children and future generations.",
+      "title_zh": "Children in all policies: lessons from a global collaboration to promote the health and wellbeing of children and future generations.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):169-182",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425114/",
+      "date": "2026-07-01",
+      "authors": "Dalglish SL, Sakyi KS, Prost A, Amin S, Sardesi A",
+      "doi": "10.1016/S0140-6736(26)00856-1",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Long-term outcomes of total hip replacement - Authors' reply.",
+      "title_zh": "全髋关节置换术的长期结果-作者的回复。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):124",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425113/",
+      "date": "2026-07-01",
+      "authors": "Atrey A, Thompson Z, Demeris N, Khoshbin A, Hailer NP",
+      "doi": "10.1016/S0140-6736(26)01131-1",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Department of Error.",
+      "title_zh": "错误部门。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):124",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425112/",
+      "date": "2026-07-01",
+      "authors": "",
+      "doi": "10.1016/S0140-6736(26)01340-1",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Long-term outcomes of total hip replacement.",
+      "title_zh": "Long-term outcomes of total hip replacement.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):123-124",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425111/",
+      "date": "2026-07-01",
+      "authors": "Emanuel KS, Steenbekkers L, Janssen SJ",
+      "doi": "10.1016/S0140-6736(26)00923-2",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Long-term outcomes of total hip replacement.",
+      "title_zh": "Long-term outcomes of total hip replacement.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):122",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425110/",
+      "date": "2026-07-01",
+      "authors": "Sourougeon Y, Fogel I, Fichman G, Prat D, Thein R",
+      "doi": "10.1016/S0140-6736(26)00921-9",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Long-term outcomes of total hip replacement.",
+      "title_zh": "Long-term outcomes of total hip replacement.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):122-123",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425109/",
+      "date": "2026-07-01",
+      "authors": "Delaney PG, Piuzzi NS",
+      "doi": "10.1016/S0140-6736(26)00922-0",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The African Medicines Agency: time for integration with the African Vaccine Regulatory Forum.",
+      "title_zh": "The African Medicines Agency: time for integration with the African Vaccine Regulatory Forum.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):121-122",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425108/",
+      "date": "2026-07-01",
+      "authors": "Wiysonge CS, Iwu-Jaja C",
+      "doi": "10.1016/S0140-6736(26)01075-5",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Childhood cancer: expanded treatment access is not enough.",
+      "title_zh": "Childhood cancer: expanded treatment access is not enough.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):120-121",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425107/",
+      "date": "2026-07-01",
+      "authors": "Landrigan PJ, Etzel RA, Straif K",
+      "doi": "10.1016/S0140-6736(26)01076-7",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "David Rosner.",
+      "title_zh": "David Rosner.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):116",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425106/",
+      "date": "2026-07-01",
+      "authors": "Green A",
+      "doi": "10.1016/S0140-6736(26)01337-1",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The architecture of hope.",
+      "title_zh": "The architecture of hope.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 11; 408(10550):112-113",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42425105/",
+      "date": "2026-07-01",
+      "authors": "Francis G",
+      "doi": "10.1016/S0140-6736(26)01335-8",
       "departments": [
         "綜合"
       ]
@@ -4493,6 +4669,134 @@
       "date": "2026-07-01",
       "authors": "NCD Risk Factor Collaboration (NCD-RisC)",
       "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "FDA Approves First Generic Single-Dose Flu Treatment.",
+      "title_zh": "FDA批准首个通用单剂量流感治疗。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42430183/",
+      "date": "2026-07-01",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9476",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "US Youth Tobacco Use Declines, but Flavored Products Remain Popular.",
+      "title_zh": "美国青少年烟草使用量下降，但调味品仍然很受欢迎。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42430176/",
+      "date": "2026-07-01",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9472",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Sugary Drink Consumption May Raise Hypertension Risk, Starting in Childhood.",
+      "title_zh": "从童年开始，饮用含糖饮料可能会增加高血压风险。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42430154/",
+      "date": "2026-07-01",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9475",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Testosterone Therapy: Does New Evidence Warrant Broader Prescribing?",
+      "title_zh": "睾丸激素治疗：新证据是否需要更广泛的处方？",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42430153/",
+      "date": "2026-07-01",
+      "authors": "Schweitzer K",
+      "doi": "10.1001/jama.2026.13149",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "FDA Approves First Oral Carbapenem for Complicated UTIs.",
+      "title_zh": "FDA批准首个口服碳青霉烯治疗复杂性尿路感染。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42430152/",
+      "date": "2026-07-01",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9474",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Approval of Respiratory Biologics Linked to Decline in Asthma Exacerbations.",
+      "title_zh": "与哮喘急性发作下降相关的呼吸道生物制剂的批准。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42430145/",
+      "date": "2026-07-01",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9473",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Acetaminophen Use During Pregnancy Is Unlikely to Cause Autism or ADHD, New Study Reaffirms.",
+      "title_zh": "新研究重申，在怀孕期间使用对乙酰氨基酚不太可能导致自闭症或多动症。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42430144/",
+      "date": "2026-07-01",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.13150",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "GLP-1 Drugs Associated With Smell and Taste Disruptions.",
+      "title_zh": "与嗅觉和味觉干扰相关的GLP-1药物。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42430142/",
+      "date": "2026-07-01",
+      "authors": "Anderer S",
+      "doi": "10.1001/jama.2026.9471",
       "departments": [
         "綜合"
       ]
@@ -6883,182 +7187,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Indonesia's health reform: from pandemic mandate to the six pillars of transformation.",
-      "title_zh": "Indonesia's health reform: from pandemic mandate to the six pillars of transformation.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 25; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42349483/",
-      "date": "2026-06-02",
-      "authors": "Sadikin BG",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "LGBTQ+ Russians increasingly avoiding doctors.",
-      "title_zh": "LGBTQ +俄罗斯人越来越多地避开医生。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 25; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42349482/",
-      "date": "2026-06-02",
-      "authors": "Holt E",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Oral ghrelin receptor agonist: a new promise for the improvement of systolic function.",
-      "title_zh": "口服ghrelin受体激动剂：改善收缩功能的新希望。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 24; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42341801/",
-      "date": "2026-06-02",
-      "authors": "Saldarriaga C, Rendon J",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Tirofiban and thrombectomy for acute ischaemic stroke.",
-      "title_zh": "替罗非班和血栓切除术治疗急性缺血性卒中。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 24; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42341799/",
-      "date": "2026-06-02",
-      "authors": "Dippel DWJ, Cornelissen SA",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Efficacy and safety of tirofiban after successful endovascular reperfusion in acute ischaemic stroke (ATTRACTION) in China: a multicentre, double-blind, randomised controlled trial.",
-      "title_zh": "Efficacy and safety of tirofiban after successful endovascular reperfusion in acute ischaemic stroke (ATTRACTION) in China: a multicentre, double-blind, randomised controlled trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 24; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42341797/",
-      "date": "2026-06-02",
-      "authors": "Huang H, Xu S, Qin T, Wang M, Li G",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Safety, pharmacokinetics, and exploratory efficacy of the oral ghrelin receptor agonist AC01 in heart failure with reduced ejection fraction (GOAL-HF1): a randomised, double-blind, placebo-controlled, phase 1b/2a study.",
-      "title_zh": "口服Ghrelin受体激动剂AC01治疗射血分数降低的心力衰竭的安全性、药代动力学和探索性疗效（ GOAL-HF1 ） ：一项随机、双盲、安慰剂对照的1b/2a期研究。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 24; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42341796/",
-      "date": "2026-06-02",
-      "authors": "Lund LH, Barandiarán Aizpurua A, Bollano E, Braun O, Brouwer JLP",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "New responses required to address rapidly changing needs: a Lancet Commission on adolescent health and wellbeing in China.",
-      "title_zh": "New responses required to address rapidly changing needs: a Lancet Commission on adolescent health and wellbeing in China.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 24; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42341795/",
-      "date": "2026-06-02",
-      "authors": "Dong Y, Wei J, Xi B, Hu Y, Lin Y",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "How middle powers can strengthen global health governance: the case of South Korea.",
-      "title_zh": "How middle powers can strengthen global health governance: the case of South Korea.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42330994/",
-      "date": "2026-06-02",
-      "authors": "Moon S, Ha S, Kim J, Kwon S, Lee HS",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The UCL-Lancet Commission on Migration and Health: review of the state of progress.",
-      "title_zh": "伦敦大学学院-柳叶刀移民与健康委员会：进展情况审查。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 20; 407(10547):2554-2576",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42314718/",
-      "date": "2026-06-02",
-      "authors": "Abubakar I, Tellez D, Aldridge RW, Altare C, Barreto ML",
-      "doi": "10.1016/S0140-6736(26)00494-0",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Department of Error.",
-      "title_zh": "错误部门。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 20; 407(10547):2502",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42314717/",
-      "date": "2026-06-02",
-      "authors": "",
-      "doi": "10.1016/S0140-6736(26)01200-6",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Department of Error.",
-      "title_zh": "错误部门。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jun 20; 407(10547):2502",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42314716/",
-      "date": "2026-06-02",
-      "authors": "",
-      "doi": "10.1016/S0140-6736(26)01201-8",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Specialized or General-Purpose-The Wrong Question for Mental Health AI Safety.",
       "title_zh": "Specialized or General-Purpose-The Wrong Question for Mental Health AI Safety.",
       "summary_en": "",
@@ -7213,134 +7341,6 @@
       "date": "2026-06-02",
       "authors": "Rubin R",
       "doi": "10.1001/jama.2026.8946",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "FDA Approves First Over-the-Counter Continuous Glucose Monitor for Children.",
-      "title_zh": "FDA Approves First Over-the-Counter Continuous Glucose Monitor for Children.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42360759/",
-      "date": "2026-06-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.8314",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ebola May Be Associated With Lasting Neurological Complications.",
-      "title_zh": "Ebola May Be Associated With Lasting Neurological Complications.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42360757/",
-      "date": "2026-06-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.8316",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "PCOS Is Now PMOS-Will a New Name Translate to Improved Clinical Care?",
-      "title_zh": "PCOS Is Now PMOS-Will a New Name Translate to Improved Clinical Care?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42360724/",
-      "date": "2026-06-02",
-      "authors": "Schweitzer K",
-      "doi": "10.1001/jama.2026.10402",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Accrediting Bodies to Increase Nutrition Education Requirements.",
-      "title_zh": "Accrediting Bodies to Increase Nutrition Education Requirements.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42360718/",
-      "date": "2026-06-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.8317",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Whole-System Trust in Science, Medicine, and Public Health.",
-      "title_zh": "Whole-System Trust in Science, Medicine, and Public Health.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 25; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42348398/",
-      "date": "2026-06-02",
-      "authors": "Dzau VJ, DeStefano L, Taylor SM",
-      "doi": "10.1001/jama.2026.12502",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Cesarean Delivery.",
-      "title_zh": "Cesarean Delivery.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 25; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42348205/",
-      "date": "2026-06-02",
-      "authors": "Bellanti JA, Li D",
-      "doi": "10.1001/jama.2026.6779",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Amyotrophic Lateral Sclerosis.",
-      "title_zh": "Amyotrophic Lateral Sclerosis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 25; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42348198/",
-      "date": "2026-06-02",
-      "authors": "Walter KL",
-      "doi": "10.1001/jama.2026.9755",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Learning to Listen.",
-      "title_zh": "Learning to Listen.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 25; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42348197/",
-      "date": "2026-06-02",
-      "authors": "Gaddam S",
-      "doi": "10.1001/jama.2026.9606",
       "departments": [
         "綜合"
       ]
@@ -7613,6 +7613,22 @@
       "date": "2026-06-02",
       "authors": "Middleton RM, Craig EM, Rodgers WJ, Nicholas R",
       "doi": "10.1136/bmj-2026-100021",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Heatwave: France declares highest alert amid surge of deaths, as high temperatures smother Europe.",
+      "title_zh": "Heatwave: France declares highest alert amid surge of deaths, as high temperatures smother Europe.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jun 26; 393():e100091",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42362211/",
+      "date": "2026-06-02",
+      "authors": "Casassus B",
+      "doi": "10.1136/bmj-2026-100091",
       "departments": [
         "綜合"
       ]
@@ -8749,22 +8765,6 @@
       "date": "2026-06-01",
       "authors": "Cliff ERS, Kenealy M",
       "doi": "10.1056/NEJMicm2501877",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The Convergence of Down Syndrome and Alzheimer's Disease - Scientific and Ethical Imperatives.",
-      "title_zh": "The Convergence of Down Syndrome and Alzheimer's Disease - Scientific and Ethical Imperatives.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 18; 394(23):2286-2289",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42294860/",
-      "date": "2026-06-01",
-      "authors": "Rafii MS",
-      "doi": "10.1056/NEJMp2602106",
       "departments": [
         "綜合"
       ]

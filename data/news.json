@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "articles": [
     {
       "category": "權威期刊",
@@ -1236,7 +1236,7 @@
     {
       "category": "權威期刊",
       "title_en": "Hepatitis B.",
-      "title_zh": "乙型肝炎",
+      "title_zh": "Hepatitis B.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1268,7 +1268,7 @@
     {
       "category": "權威期刊",
       "title_en": "Rates of Precipitated Withdrawal in a Trial of ED-Initiated Buprenorphine for Opioid Use Disorder-Reply.",
-      "title_zh": "ED启动的阿片类药物使用障碍丁丙诺啡试验中的沉淀性戒断率-回复。",
+      "title_zh": "Rates of Precipitated Withdrawal in a Trial of ED-Initiated Buprenorphine for Opioid Use Disorder-Reply.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4195,6 +4195,86 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Rivaroxaban Then Aspirin vs. Aspirin Alone after Total Hip or Knee Arthroplasty.",
+      "title_zh": "利伐沙班，然后是阿司匹林与全髋关节或膝关节置换术后单独使用阿司匹林。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jul 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42437501/",
+      "date": "2026-07-01",
+      "authors": "Shivakumar S, Matino D, Zukor D, Kahn SR, Vincent G",
+      "doi": "10.1056/NEJMoa2603649",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Pharmacotherapeutic Decisions in Autism.",
+      "title_zh": "Pharmacotherapeutic Decisions in Autism.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jul 11; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42437505/",
+      "date": "2026-07-01",
+      "authors": "Zisman-Ilani Y, Walfisch R, Veenstra-VanderWeele J, Mandell DS",
+      "doi": "10.1056/NEJMp2602649",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Descending Thoracic Aortic Aneurysm.",
+      "title_zh": "Descending Thoracic Aortic Aneurysm.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jul 11; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42437504/",
+      "date": "2026-07-01",
+      "authors": "Gattu MC, K M",
+      "doi": "10.1056/NEJMicm2505469",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The Symptom Tracker.",
+      "title_zh": "症状追踪表",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jul 11; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42437503/",
+      "date": "2026-07-01",
+      "authors": "McGaughey S",
+      "doi": "10.1056/NEJMp2516621",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The Exam Room as Sanctuary - Caring for Undocumented Patients.",
+      "title_zh": "The Exam Room as Sanctuary - Caring for Undocumented Patients.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jul 11; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42437502/",
+      "date": "2026-07-01",
+      "authors": "Linares MA, Liauw D, Cervantes L",
+      "doi": "10.1056/NEJMp2603126",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Long-Term Survival of Hypoimmune Allogeneic Islets without Immunosuppression.",
       "title_zh": "Long-Term Survival of Hypoimmune Allogeneic Islets without Immunosuppression.",
       "summary_en": "",
@@ -4685,6 +4765,70 @@
       "date": "2026-07-01",
       "authors": "NCD Risk Factor Collaboration (NCD-RisC)",
       "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Clinicopathologic Evaluation of Amyloid Clearance in Alzheimer Disease.",
+      "title_zh": "阿尔茨海默病淀粉样蛋白清除率的临床病理学评价。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42437499/",
+      "date": "2026-07-01",
+      "authors": "Brown CA, Robinson JL, Das SR, McGrew E, Suh E",
+      "doi": "10.1001/jama.2026.13058",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "YEARS Algorithm for Diagnosis of Suspected Pulmonary Embolism in Patients With Cancer: Research Summary.",
+      "title_zh": "YEARS Algorithm for Diagnosis of Suspected Pulmonary Embolism in Patients With Cancer: Research Summary.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 12; ():e2610855",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42437324/",
+      "date": "2026-07-01",
+      "authors": "",
+      "doi": "10.1001/jama.2026.10855",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Ruling Out PE in Cancer-Can YEARS Reduce CT Imaging?",
+      "title_zh": "在癌症中排除PE -能否减少CT影像学检查？",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42437323/",
+      "date": "2026-07-01",
+      "authors": "Han HB, Beckman JA",
+      "doi": "10.1001/jama.2026.12480",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "YEARS Algorithm for Diagnosis of Suspected Pulmonary Embolism in Patients With Cancer: A Randomized Clinical Trial.",
+      "title_zh": "YEARS Algorithm for Diagnosis of Suspected Pulmonary Embolism in Patients With Cancer: A Randomized Clinical Trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42437322/",
+      "date": "2026-07-01",
+      "authors": "Akerboom B, Martens ESL, Stals MAM, Brouwer RE, Coppens M",
+      "doi": "10.1001/jama.2026.10676",
       "departments": [
         "綜合"
       ]
@@ -7491,70 +7635,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "US Food Swamps Have Increased as Food Deserts Remain Static.",
-      "title_zh": "US Food Swamps Have Increased as Food Deserts Remain Static.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42360770/",
-      "date": "2026-06-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.8319",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Earlier Egg Introduction Recommendations Linked to Fewer Infant Allergies.",
-      "title_zh": "Earlier Egg Introduction Recommendations Linked to Fewer Infant Allergies.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42360766/",
-      "date": "2026-06-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.8315",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "FDA Approves First New Active Sunscreen Ingredient in Decades.",
-      "title_zh": "FDA Approves First New Active Sunscreen Ingredient in Decades.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42360764/",
-      "date": "2026-06-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.8318",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "HHS Says Psychiatric Medications Are Overprescribed, but Are They?",
-      "title_zh": "HHS Says Psychiatric Medications Are Overprescribed, but Are They?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42360762/",
-      "date": "2026-06-02",
-      "authors": "Rubin R",
-      "doi": "10.1001/jama.2026.8946",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Nottingham families were right about maternity failings; now ministers must listen to their calls for a statutory public inquiry.",
       "title_zh": "Nottingham families were right about maternity failings; now ministers must listen to their calls for a statutory public inquiry.",
       "summary_en": "",
@@ -8717,86 +8797,6 @@
       "date": "2026-06-01",
       "authors": "Aird WC, Ton VK, Sultana S, Azar SS, Kotton CN",
       "doi": "10.1056/NEJMcpc2517867",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Chromoblastomycosis.",
-      "title_zh": "着色真菌病",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 18; 394(23):e54",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42308486/",
-      "date": "2026-06-01",
-      "authors": "Parker ER, Tao L",
-      "doi": "10.1056/NEJMicm2600078",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Management of Differentiated Thyroid Cancer.",
-      "title_zh": "Management of Differentiated Thyroid Cancer.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 18; 394(23):2340-2355",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42308485/",
-      "date": "2026-06-01",
-      "authors": "Hegedüs L, Wirth LJ, Tuttle RM",
-      "doi": "10.1056/NEJMra2416814",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Cefazolin for Methicillin-Susceptible Staphylococcus aureus Bacteremia.",
-      "title_zh": "头孢唑啉治疗甲氧西林敏感性金黄色葡萄球菌菌血症。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 18; 394(23):2329-2339",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42308484/",
-      "date": "2026-06-01",
-      "authors": "Staphylococcus aureus Network Adaptive Platform (SNAP) Trial Group, Lee TC, Barina LA, Walls G, Goodman AL",
-      "doi": "10.1056/NEJMoa2506905",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Is Change Possible?: ITT Episode 2.7.",
-      "title_zh": "变革是否可能？ ： ITT第2.7集。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 18; 394(23):e53",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42308483/",
-      "date": "2026-06-01",
-      "authors": "",
-      "doi": "10.1056/NEJMp2601981",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Immunosuppression-Associated Peripheral T-Cell Lymphoma.",
-      "title_zh": "Immunosuppression-Associated Peripheral T-Cell Lymphoma.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 18; 394(23):2356",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42294861/",
-      "date": "2026-06-01",
-      "authors": "Cliff ERS, Kenealy M",
-      "doi": "10.1056/NEJMicm2501877",
       "departments": [
         "綜合"
       ]

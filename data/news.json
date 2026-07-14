@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "articles": [
     {
       "category": "權威期刊",
@@ -484,7 +484,7 @@
     {
       "category": "權威期刊",
       "title_en": "Alzheimer Disease Biomarkers and Assisted Dying: When Diagnosis Becomes a Deadline.",
-      "title_zh": "阿尔茨海默病生物标志物和辅助死亡：当诊断成为截止日期时。",
+      "title_zh": "Alzheimer Disease Biomarkers and Assisted Dying: When Diagnosis Becomes a Deadline.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4195,6 +4195,22 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Platelet-Activating Anti-Platelet Factor 4 Disorders.",
+      "title_zh": "Platelet-Activating Anti-Platelet Factor 4 Disorders.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Jul 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42441431/",
+      "date": "2026-07-01",
+      "authors": "Warkentin TE, Greinacher A",
+      "doi": "10.1056/NEJMra2502459",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Rivaroxaban Then Aspirin vs. Aspirin Alone after Total Hip or Knee Arthroplasty.",
       "title_zh": "利伐沙班，然后是阿司匹林与全髋关节或膝关节置换术后单独使用阿司匹林。",
       "summary_en": "",
@@ -4771,6 +4787,134 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Ceperognastat in Alzheimer Disease: Lessons From a Negative Clinical Trial.",
+      "title_zh": "Ceperognastat在阿尔茨海默病中的作用：阴性临床试验的教训。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42441398/",
+      "date": "2026-07-01",
+      "authors": "Rabinovici GD, Grill JD",
+      "doi": "10.1001/jama.2026.12323",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Ceperognastat in Early Symptomatic Alzheimer Disease: A Randomized Clinical Trial.",
+      "title_zh": "Ceperognastat在早期症状性阿尔茨海默病中的作用：一项随机临床试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42441396/",
+      "date": "2026-07-01",
+      "authors": "Fleisher AS, Munsie L, Mancini M, Cheng YJ, Guo J",
+      "doi": "10.1001/jama.2026.12768",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Threshold in Focus-Defining Amyloid Positivity on the Centiloid Scale.",
+      "title_zh": "Centiloid量表上焦点定义淀粉样蛋白阳性的阈值。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42441393/",
+      "date": "2026-07-01",
+      "authors": "Nasrallah IM, Brown CA",
+      "doi": "10.1001/jama.2026.12565",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Amyloid PET Quantitation and Centiloid Thresholds in the Diagnosis of Alzheimer Disease: An Individual Participant Data Meta-Analysis.",
+      "title_zh": "阿尔茨海默病诊断中的淀粉样蛋白PET定量和Centiloid阈值：个体参与者数据荟萃分析。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42441390/",
+      "date": "2026-07-01",
+      "authors": "Blazhenets G, Soleimani-Meigooni DN, Chiotis K, Allen IE, Rabinovici GD",
+      "doi": "10.1001/jama.2026.13116",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Ceperognastat in Early Symptomatic Alzheimer Disease: Research Summary.",
+      "title_zh": "Ceperognastat在早期症状性阿尔茨海默病中的作用：研究总结。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 13; ():e2612911",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42441387/",
+      "date": "2026-07-01",
+      "authors": "",
+      "doi": "10.1001/jama.2026.12911",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Radiation Dose in Coronary Artery Disease Diagnostic Imaging-Reply.",
+      "title_zh": "Radiation Dose in Coronary Artery Disease Diagnostic Imaging-Reply.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42440329/",
+      "date": "2026-07-01",
+      "authors": "Einstein AJ, Paez D",
+      "doi": "10.1001/jama.2026.8929",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Radiation Dose in Coronary Artery Disease Diagnostic Imaging.",
+      "title_zh": "Radiation Dose in Coronary Artery Disease Diagnostic Imaging.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42440310/",
+      "date": "2026-07-01",
+      "authors": "Li S, Jiang R",
+      "doi": "10.1001/jama.2026.8926",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Cutting Medicaid for Children-A Bet Against the Future.",
+      "title_zh": "削减儿童医疗补助--反对未来的赌注。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Jul 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42440307/",
+      "date": "2026-07-01",
+      "authors": "Racine AD, Gruber JH",
+      "doi": "10.1001/jama.2026.12868",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Clinicopathologic Evaluation of Amyloid Clearance in Alzheimer Disease.",
       "title_zh": "阿尔茨海默病淀粉样蛋白清除率的临床病理学评价。",
       "summary_en": "",
@@ -4884,7 +5028,7 @@
     {
       "category": "權威期刊",
       "title_en": "Testosterone Therapy: Does New Evidence Warrant Broader Prescribing?",
-      "title_zh": "睾丸激素治疗：新证据是否需要更广泛的处方？",
+      "title_zh": "Testosterone Therapy: Does New Evidence Warrant Broader Prescribing?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4900,7 +5044,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA Approves First Oral Carbapenem for Complicated UTIs.",
-      "title_zh": "FDA批准首个口服碳青霉烯治疗复杂性尿路感染。",
+      "title_zh": "FDA Approves First Oral Carbapenem for Complicated UTIs.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4916,7 +5060,7 @@
     {
       "category": "權威期刊",
       "title_en": "Approval of Respiratory Biologics Linked to Decline in Asthma Exacerbations.",
-      "title_zh": "与哮喘急性发作下降相关的呼吸道生物制剂的批准。",
+      "title_zh": "Approval of Respiratory Biologics Linked to Decline in Asthma Exacerbations.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4932,7 +5076,7 @@
     {
       "category": "權威期刊",
       "title_en": "Acetaminophen Use During Pregnancy Is Unlikely to Cause Autism or ADHD, New Study Reaffirms.",
-      "title_zh": "新研究重申，在怀孕期间使用对乙酰氨基酚不太可能导致自闭症或多动症。",
+      "title_zh": "Acetaminophen Use During Pregnancy Is Unlikely to Cause Autism or ADHD, New Study Reaffirms.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4948,7 +5092,7 @@
     {
       "category": "權威期刊",
       "title_en": "GLP-1 Drugs Associated With Smell and Taste Disruptions.",
-      "title_zh": "与嗅觉和味觉干扰相关的GLP-1药物。",
+      "title_zh": "GLP-1 Drugs Associated With Smell and Taste Disruptions.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -6093,38 +6237,6 @@
       "date": "2026-06-03",
       "authors": "Weinstein DF, Thibault GE",
       "doi": "10.1001/jama.2026.7006",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Use of Social Media for Health Information Among US Adults.",
-      "title_zh": "Use of Social Media for Health Information Among US Adults.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42377946/",
-      "date": "2026-06-03",
-      "authors": "Pedroso AF, Dhingra LS, Khan M, Carter M, Aminorroaya A",
-      "doi": "10.1001/jama.2026.8682",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Complexity of Diagnosing Volume Overload.",
-      "title_zh": "Complexity of Diagnosing Volume Overload.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42377943/",
-      "date": "2026-06-03",
-      "authors": "Gulati U, Eisen LA",
-      "doi": "10.1001/jama.2026.11047",
       "departments": [
         "綜合"
       ]
@@ -7539,102 +7651,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Specialized or General-Purpose-The Wrong Question for Mental Health AI Safety.",
-      "title_zh": "Specialized or General-Purpose-The Wrong Question for Mental Health AI Safety.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42371659/",
-      "date": "2026-06-02",
-      "authors": "Nelson BW, Kalinich M, Torous J",
-      "doi": "10.1001/jama.2026.11448",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Pricing for Oncology Biosimilars.",
-      "title_zh": "Pricing for Oncology Biosimilars.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42371655/",
-      "date": "2026-06-02",
-      "authors": "Jensen C, Tichy E",
-      "doi": "10.1001/jama.2026.6815",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Familial Hypercholesterolemia.",
-      "title_zh": "Familial Hypercholesterolemia.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42371647/",
-      "date": "2026-06-02",
-      "authors": "Stein JH, Tattersall MC",
-      "doi": "10.1001/jama.2026.8822",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Reporting Error.",
-      "title_zh": "Reporting Error.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42371645/",
-      "date": "2026-06-02",
-      "authors": "",
-      "doi": "10.1001/jama.2026.9649",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Replacement Text for Funding/Support Section.",
-      "title_zh": "Replacement Text for Funding/Support Section.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42371640/",
-      "date": "2026-06-02",
-      "authors": "",
-      "doi": "10.1001/jama.2026.11797",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Pricing for Oncology Biosimilars-Reply.",
-      "title_zh": "Pricing for Oncology Biosimilars-Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jun 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42371639/",
-      "date": "2026-06-02",
-      "authors": "Robinson JC",
-      "doi": "10.1001/jama.2026.6818",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Nottingham families were right about maternity failings; now ministers must listen to their calls for a statutory public inquiry.",
       "title_zh": "Nottingham families were right about maternity failings; now ministers must listen to their calls for a statutory public inquiry.",
       "summary_en": "",
@@ -8781,22 +8797,6 @@
       "date": "2026-06-01",
       "authors": "Rowell SE, Rogers SO Jr",
       "doi": "10.1056/NEJMe2605735",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Case 17-2026: A 74-Year-Old Man with Pancytopenia.",
-      "title_zh": "病例17-2026 ：一名患有全血细胞减少症的74岁男性。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jun 18; 394(23):2357-2368",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42308487/",
-      "date": "2026-06-01",
-      "authors": "Aird WC, Ton VK, Sultana S, Azar SS, Kotton CN",
-      "doi": "10.1056/NEJMcpc2517867",
       "departments": [
         "綜合"
       ]

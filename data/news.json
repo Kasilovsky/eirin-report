@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "articles": [
     {
       "category": "權威期刊",
@@ -2211,22 +2211,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Deaths of two children prompt calls for patients referred to hospital by GPs to be assessed only by doctors.",
-      "title_zh": "Deaths of two children prompt calls for patients referred to hospital by GPs to be assessed only by doctors.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 6; 394():e100196",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42409389/",
-      "date": "2026-07-06",
-      "authors": "Rimmer A",
-      "doi": "10.1136/bmj-2026-100196",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Data rights are the missing pillar for modernizing consent in medicine.",
       "title_zh": "Data rights are the missing pillar for modernizing consent in medicine.",
       "summary_en": "",
@@ -2605,150 +2589,6 @@
       "date": "2026-07-04",
       "authors": "Samarasekera U",
       "doi": "10.1016/S0140-6736(26)01190-6",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "How CEPI can enhance global vaccine equity and transparency.",
-      "title_zh": "CEPI如何提高全球疫苗公平性和透明度。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jul 4; 408(10549):7-10",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42259338/",
-      "date": "2026-07-04",
-      "authors": "Whiteman M, Tundang R, Maybarduk P, Abdullah H, Moon S",
-      "doi": "10.1016/S0140-6736(26)01137-2",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Beyond insulin escalation: REIMAGINE 3 and advanced type 2 diabetes care.",
-      "title_zh": "超越胰岛素升级：重新构想3和先进的2型糖尿病护理。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Jul 4; 408(10549):3-5",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42251857/",
-      "date": "2026-07-04",
-      "authors": "van Raalte DH, Muskiet MHA",
-      "doi": "10.1016/S0140-6736(26)01074-3",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Peptides: FDA appointed advisory committee criticised for conflicts of interest.",
-      "title_zh": "Peptides: FDA appointed advisory committee criticised for conflicts of interest.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 3; 394():e100181",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42398967/",
-      "date": "2026-07-03",
-      "authors": "Liang L",
-      "doi": "10.1136/bmj-2026-100181",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Hantavirus outbreak linked to cruise ship is over, say officials.",
-      "title_zh": "Hantavirus outbreak linked to cruise ship is over, say officials.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 3; 394():e100187",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42398966/",
-      "date": "2026-07-03",
-      "authors": "Iacobucci G",
-      "doi": "10.1136/bmj-2026-100187",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "BMA recommends that 16 and 17 year olds get access to cross sex hormones.",
-      "title_zh": "BMA recommends that 16 and 17 year olds get access to cross sex hormones.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 3; 394():e100186",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42398965/",
-      "date": "2026-07-03",
-      "authors": "Waters A",
-      "doi": "10.1136/bmj-2026-100186",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Andy Burnham could apply lessons from Manchester to create a healthier Britain with a stronger economy.",
-      "title_zh": "Andy Burnham could apply lessons from Manchester to create a healthier Britain with a stronger economy.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 3; 394():e100169",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42398962/",
-      "date": "2026-07-03",
-      "authors": "McKee M, Hiam L",
-      "doi": "10.1136/bmj-2026-100169",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Uganda confirms Marburg case as Ebola outbreak continues.",
-      "title_zh": "Uganda confirms Marburg case as Ebola outbreak continues.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 3; 394():e100194",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42398961/",
-      "date": "2026-07-03",
-      "authors": "Wasswa H",
-      "doi": "10.1136/bmj-2026-100194",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Australia increases penalties for social media companies to enforce under 16s ban.",
-      "title_zh": "Australia increases penalties for social media companies to enforce under 16s ban.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 3; 394():e100184",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42398960/",
-      "date": "2026-07-03",
-      "authors": "Nogrady B",
-      "doi": "10.1136/bmj-2026-100184",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "New BMA GP committee chair Clare Bannon is elected.",
-      "title_zh": "New BMA GP committee chair Clare Bannon is elected.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 3; 394():e100193",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42398959/",
-      "date": "2026-07-03",
-      "authors": "Iacobucci G",
-      "doi": "10.1136/bmj-2026-100193",
       "departments": [
         "綜合"
       ]
@@ -3149,38 +2989,6 @@
       "date": "2026-07-02",
       "authors": "Chatzizisis YS",
       "doi": "10.1056/NEJMe2603714",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Covid-19 vaccine study pulled by US CDC is finally published.",
-      "title_zh": "Covid-19 vaccine study pulled by US CDC is finally published.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 2; 394():e100157",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42392621/",
-      "date": "2026-07-02",
-      "authors": "Cozzolino A",
-      "doi": "10.1136/bmj-2026-100157",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The doctor will post you now.",
-      "title_zh": "The doctor will post you now.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 2; 394():e100147",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42392620/",
-      "date": "2026-07-02",
-      "authors": "Mattera NA",
-      "doi": "10.1136/bmj-2025-100147",
       "departments": [
         "綜合"
       ]
@@ -4093,6 +3901,38 @@
       "date": "2026-07-01",
       "authors": "Poulter NR, Beaney T, Kerr GK, Kiru G, Schlaich M",
       "doi": "10.1016/S0140-6736(26)00379-X",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Pregnancy as exclusion criterion in Ebola research: not again.",
+      "title_zh": "妊娠作为埃博拉研究中的排除标准：不再。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 17; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468542/",
+      "date": "2026-07-01",
+      "authors": "Schwartz L, Ahmed E, Palmero A, Ho CWL, Ravinetto R",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Empirical treatment with valganciclovir in infants living with HIV and hospitalised with severe pneumonia in Africa: a multicentre, open-label, factorial, randomised, controlled, superiority trial.",
+      "title_zh": "Empirical treatment with valganciclovir in infants living with HIV and hospitalised with severe pneumonia in Africa: a multicentre, open-label, factorial, randomised, controlled, superiority trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Jul 17; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468541/",
+      "date": "2026-07-01",
+      "authors": "Moraleda C, Tagarro A, Domínguez-Rodríguez S, Musiime V, Mujuru H",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -5939,6 +5779,166 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Energy drinks ban: Sales to under-16s in England will be illegal from April.",
+      "title_zh": "Energy drinks ban: Sales to under-16s in England will be illegal from April.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jul 17; 394():e100322",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468993/",
+      "date": "2026-07-01",
+      "authors": "Rimmer A",
+      "doi": "10.1136/bmj-2026-100322",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Inappropriate access of patient records is damaging for the NHS.",
+      "title_zh": "Inappropriate access of patient records is damaging for the NHS.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jul 17; 394():e100300",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468990/",
+      "date": "2026-07-01",
+      "authors": "Tuncdogan A",
+      "doi": "10.1136/bmj-2026-100300",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Alzheimer's drug lecanemab: FDA approves easier initial use, with \"huge implications\" for UK.",
+      "title_zh": "Alzheimer's drug lecanemab: FDA approves easier initial use, with \"huge implications\" for UK.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jul 17; 394():e100318",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468989/",
+      "date": "2026-07-01",
+      "authors": "Baraniuk C",
+      "doi": "10.1136/bmj-2026-100318",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Will devolving powers to mayors close England's health gap?",
+      "title_zh": "Will devolving powers to mayors close England's health gap?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jul 17; 394():e100274",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468988/",
+      "date": "2026-07-01",
+      "authors": "Newman J, Charlesworth A, Cylus J, Sutton M",
+      "doi": "10.1136/bmj-2026-100274",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Meningitis B: All 15 year olds should be offered vaccine on NHS, say expert advisers.",
+      "title_zh": "Meningitis B: All 15 year olds should be offered vaccine on NHS, say expert advisers.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jul 17; 394():e100313",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468987/",
+      "date": "2026-07-01",
+      "authors": "Wise J",
+      "doi": "10.1136/bmj-2026-100313",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Havana syndrome: US to compensate victims.",
+      "title_zh": "Havana syndrome: US to compensate victims.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jul 17; 394():e100312",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468986/",
+      "date": "2026-07-01",
+      "authors": "Cozzolino A",
+      "doi": "10.1136/bmj-2026-100312",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "SUCCEED guideline for reporting studies of scaling evidence-informed interventions, with explanations and examples.",
+      "title_zh": "SUCCEED guideline for reporting studies of scaling evidence-informed interventions, with explanations and examples.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jul 17; 394():e069389",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468985/",
+      "date": "2026-07-01",
+      "authors": "Gogovor A, Légaré F, Moher D, Zomahoun HTV, Ben Charif A",
+      "doi": "10.1136/bmj-2026-069389",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The hidden curriculum of academic medicine.",
+      "title_zh": "The hidden curriculum of academic medicine.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jul 17; 394():e100293",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468984/",
+      "date": "2026-07-01",
+      "authors": "Ducker EL",
+      "doi": "10.1136/bmj-2026-100293",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Cyclosporiasis: as \"explosive diarrhoea\" sweeps US, what's behind the outbreak and what is Trump's role?",
+      "title_zh": "Cyclosporiasis: as \"explosive diarrhoea\" sweeps US, what's behind the outbreak and what is Trump's role?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jul 17; 394():e100317",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468983/",
+      "date": "2026-07-01",
+      "authors": "Brown C",
+      "doi": "10.1136/bmj-2026-100317",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Scarlett McNally: Clinical audit needs a shake-up.",
+      "title_zh": "Scarlett McNally: Clinical audit needs a shake-up.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Jul 17; 394():e100150",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468981/",
+      "date": "2026-07-01",
+      "authors": "McNally S",
+      "doi": "10.1136/bmj-2026-100150",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Spinal muscular atrophy: all babies in England to be screened for rare neuromuscular disease.",
       "title_zh": "Spinal muscular atrophy: all babies in England to be screened for rare neuromuscular disease.",
       "summary_en": "",
@@ -6691,6 +6691,22 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "An AI co-scientist to accelerate biomedical research.",
+      "title_zh": "An AI co-scientist to accelerate biomedical research.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Jul 17; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42469479/",
+      "date": "2026-07-01",
+      "authors": "O'Leary K",
+      "doi": "10.1038/d41591-026-00037-z",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Author Correction: Integrated community-based HIV and sexual and reproductive health services for youth: a cluster-randomized trial.",
       "title_zh": "Author Correction: Integrated community-based HIV and sexual and reproductive health services for youth: a cluster-randomized trial.",
       "summary_en": "",
@@ -6947,6 +6963,38 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Robust regulatory interplay of enhancers, facilitators, and promoters in a native chromatin context.",
+      "title_zh": "Robust regulatory interplay of enhancers, facilitators, and promoters in a native chromatin context.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Jul 17; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468524/",
+      "date": "2026-07-01",
+      "authors": "Zhou Z, Cheng Y, Lieberth J, Zhang J, Jin Y",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Skin-innervating glutamatergic neurons modulate aging.",
+      "title_zh": "Skin-innervating glutamatergic neurons modulate aging.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Jul 17; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42468523/",
+      "date": "2026-07-01",
+      "authors": "Wang Z, Jin X, Wu Y, Ding W, Zhang F",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Boron-bridged GIPCs stabilize cell wall anchoring and PIN polar domains.",
       "title_zh": "Boron-bridged GIPCs stabilize cell wall anchoring and PIN polar domains.",
       "summary_en": "",
@@ -7165,38 +7213,6 @@
       "date": "2026-07-01",
       "authors": "Clarke R, Rayatpour A, Garnica J, Lozinski BM, Lee J",
       "doi": "10.1126/scitranslmed.aef2269",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Prion-based protein self-assembly tunes mutagenesis to enable rapid adaptation.",
-      "title_zh": "Prion-based protein self-assembly tunes mutagenesis to enable rapid adaptation.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 9; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42263676/",
-      "date": "2026-06-09",
-      "authors": "Van Elgort A, Jakobson CM, Chen YR, Byers JS, Futia RA",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "mRNA 3' UTRs chaperone intrinsically disordered regions to control protein activity.",
-      "title_zh": "mRNA 3' UTRs chaperone intrinsically disordered regions to control protein activity.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 8; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42259285/",
-      "date": "2026-06-08",
-      "authors": "Luo Y, Zhong Y, Basu S, Wu MC, Mayr C",
-      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -7997,22 +8013,6 @@
       "date": "2026-06-02",
       "authors": "Tian R, Zong X, Ren D, Tica S, Hong D",
       "doi": "10.1038/s41591-026-04448-w",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "PROTEUS trial heralds perioperative therapy for prostate cancer.",
-      "title_zh": "PROTEUS trial heralds perioperative therapy for prostate cancer.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jun 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42331980/",
-      "date": "2026-06-02",
-      "authors": "O'Leary K",
-      "doi": "10.1038/d41591-026-00032-4",
       "departments": [
         "綜合"
       ]

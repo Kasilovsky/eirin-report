@@ -1,6 +1,230 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "articles": [
+    {
+      "category": "權威期刊",
+      "title_en": "Self-Directed vs Clinician-Delivered Cognitive Behavioral Therapy for Chronic Pain: Research Summary.",
+      "title_zh": "Self-Directed vs Clinician-Delivered Cognitive Behavioral Therapy for Chronic Pain: Research Summary.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 4; ():e268105",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42340736/",
+      "date": "2026-08-04",
+      "authors": "",
+      "doi": "10.1001/jama.2026.8105",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Classic Hodgkin Lymphoma: A Review.",
+      "title_zh": "经典霍奇金淋巴瘤：综述。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545803/",
+      "date": "2026-08-03",
+      "authors": "Patel KK, Moskowitz AJ",
+      "doi": "10.1001/jama.2026.13402",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Error in Author Name.",
+      "title_zh": "作者姓名出错。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545800/",
+      "date": "2026-08-03",
+      "authors": "",
+      "doi": "10.1001/jama.2026.15761",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Discontinuation of Levothyroxine-Reply.",
+      "title_zh": "Discontinuation of Levothyroxine-Reply.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545717/",
+      "date": "2026-08-03",
+      "authors": "Ravensberg J, Gussekloo J, Poortvliet RKE",
+      "doi": "10.1001/jama.2026.11178",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Regulation of General Wellness Devices.",
+      "title_zh": "Regulation of General Wellness Devices.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545714/",
+      "date": "2026-08-03",
+      "authors": "Curfman G",
+      "doi": "10.1001/jama.2026.15043",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "One-Year Outcomes After Endovascular Treatment for Large Acute Ischemic Stroke: The TESLA Randomized Clinical Trial.",
+      "title_zh": "One-Year Outcomes After Endovascular Treatment for Large Acute Ischemic Stroke: The TESLA Randomized Clinical Trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545711/",
+      "date": "2026-08-03",
+      "authors": "Zaidat OO, Al Kasab S, Sheth SA, Rai AT, Ortega-Gutierrez S",
+      "doi": "10.1001/jama.2026.12814",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Discontinuation of Levothyroxine.",
+      "title_zh": "Discontinuation of Levothyroxine.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545710/",
+      "date": "2026-08-03",
+      "authors": "Kaneda Y",
+      "doi": "10.1001/jama.2026.11175",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Addition of High-Dose Vitamin D3 to Standard Treatment in Patients With Metastatic Colorectal Cancer: Research Summary.",
+      "title_zh": "Addition of High-Dose Vitamin D3 to Standard Treatment in Patients With Metastatic Colorectal Cancer: Research Summary.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():e269499",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545706/",
+      "date": "2026-08-03",
+      "authors": "",
+      "doi": "10.1001/jama.2026.9499",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Sorting Results of Unknown Significance-A Framework for Clinicians Navigating Wearable Data in the AI Era.",
+      "title_zh": "Sorting Results of Unknown Significance-A Framework for Clinicians Navigating Wearable Data in the AI Era.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545692/",
+      "date": "2026-08-03",
+      "authors": "Kishore SP, Narang P, Auerbach A",
+      "doi": "10.1001/jama.2026.13895",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The Need to Avoid a Regulatory Gray Zone in Digital Wellness.",
+      "title_zh": "The Need to Avoid a Regulatory Gray Zone in Digital Wellness.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545688/",
+      "date": "2026-08-03",
+      "authors": "Whyte JJ",
+      "doi": "10.1001/jama.2026.14789",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Addition of High-Dose Vitamin D3 to Standard Treatment in Patients With Metastatic Colorectal Cancer: The SOLARIS Randomized Clinical Trial (Alliance A021703).",
+      "title_zh": "Addition of High-Dose Vitamin D3 to Standard Treatment in Patients With Metastatic Colorectal Cancer: The SOLARIS Randomized Clinical Trial (Alliance A021703).",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545685/",
+      "date": "2026-08-03",
+      "authors": "Ng K, Ou FS, Zemla T, Jackson NA, Kalyan A",
+      "doi": "10.1001/jama.2026.9350",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Incorrect Author Affiliations.",
+      "title_zh": "Incorrect Author Affiliations.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545683/",
+      "date": "2026-08-03",
+      "authors": "",
+      "doi": "10.1001/jama.2026.15000",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Doctor's Dirty Little Secret - The Cost of Silence.",
+      "title_zh": "Doctor's Dirty Little Secret - The Cost of Silence.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Aug 1; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545006/",
+      "date": "2026-08-01",
+      "authors": "Khan T",
+      "doi": "10.1056/NEJMp2515506",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Obstructive Hypertrophic Cardiomyopathy.",
+      "title_zh": "Obstructive Hypertrophic Cardiomyopathy.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Aug 1; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42544997/",
+      "date": "2026-08-01",
+      "authors": "Nishizono JK, Nakata M",
+      "doi": "10.1056/NEJMicm2603868",
+      "departments": [
+        "綜合"
+      ]
+    },
     {
       "category": "權威期刊",
       "title_en": "How definitions shape obesity-attributable death estimates - Authors' reply.",
@@ -643,38 +867,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Condyloma Acuminata of the Urethra.",
-      "title_zh": "Condyloma Acuminata of the Urethra.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jul 9; 395(2):175",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42418777/",
-      "date": "2026-07-09",
-      "authors": "Bae JH, Moon HW",
-      "doi": "10.1056/NEJMicm2603369",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Nutrition Therapy in Critically Ill Adults.",
-      "title_zh": "Nutrition Therapy in Critically Ill Adults.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jul 9; 395(2):162-174",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42418776/",
-      "date": "2026-07-09",
-      "authors": "Patel JJ, McClave SA",
-      "doi": "10.1056/NEJMra2506111",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "KRAS-G12D inhibitor HRS-4642 plus chemotherapy in advanced KRAS(G12D)-mutant pancreatic cancer: a phase 1b/2 trial.",
       "title_zh": "KRAS-G12D inhibitor HRS-4642 plus chemotherapy in advanced KRAS(G12D)-mutant pancreatic cancer: a phase 1b/2 trial.",
       "summary_en": "",
@@ -733,374 +925,6 @@
       "date": "2026-07-09",
       "authors": "Strenzke N",
       "doi": "10.1038/s41591-026-04512-5",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Recent advances in Alzheimer's disease: From molecular mechanisms to therapeutic strategies.",
-      "title_zh": "Recent advances in Alzheimer's disease: From molecular mechanisms to therapeutic strategies.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4193-4224",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42425064/",
-      "date": "2026-07-09",
-      "authors": "Rudman MD, Ulrich JD, Holtzman DM",
-      "doi": "10.1016/j.cell.2026.06.006",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Bridging omics and physiology to build multimodal clocks of human aging.",
-      "title_zh": "Bridging omics and physiology to build multimodal clocks of human aging.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4190-4192",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42425063/",
-      "date": "2026-07-09",
-      "authors": "Koyuncu S, Petrovic D, Vilchez D",
-      "doi": "10.1016/j.cell.2026.06.018",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Rewriting Duchenne muscular dystrophy therapy.",
-      "title_zh": "Rewriting Duchenne muscular dystrophy therapy.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4188-4189",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42425062/",
-      "date": "2026-07-09",
-      "authors": "Gonzalez-Perez P, Blackstone C",
-      "doi": "10.1016/j.cell.2026.06.011",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Photosynthetic medicine: Engineering a plant-derived nanofoundry to power mammalian cells.",
-      "title_zh": "Photosynthetic medicine: Engineering a plant-derived nanofoundry to power mammalian cells.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4185-4187",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42425061/",
-      "date": "2026-07-09",
-      "authors": "Saiding Q, Xie T, Tao W",
-      "doi": "10.1016/j.cell.2026.05.001",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "LEF1 and niche factors determine T cell stemness across chronic diseases.",
-      "title_zh": "LEF1 and niche factors determine T cell stemness across chronic diseases.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4325-4341.e10",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42385703/",
-      "date": "2026-07-09",
-      "authors": "Miakicheva S, Hawley KM, Zumbo P, Gearty SV, Grassmann S",
-      "doi": "10.1016/j.cell.2026.06.022",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Electromagnetic field-inducible in vivo gene switch for remote spatiotemporal control of gene expression.",
-      "title_zh": "Electromagnetic field-inducible in vivo gene switch for remote spatiotemporal control of gene expression.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4517-4518",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42372722/",
-      "date": "2026-07-09",
-      "authors": "Kim J, Hwang Y, Kim S, Kwon D, Park J",
-      "doi": "10.1016/j.cell.2026.06.020",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Multimodal targeting chimeras enable integrated immunotherapy leveraging tumor-immune microenvironment.",
-      "title_zh": "Multimodal targeting chimeras enable integrated immunotherapy leveraging tumor-immune microenvironment.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4512-4516",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42349412/",
-      "date": "2026-07-09",
-      "authors": "Lin F, Yin S, Zhang Z, Yu Y, Fang H",
-      "doi": "10.1016/j.cell.2026.06.019",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Proteomic analysis of dental enamel from 20 Homo naledi individuals shows no male markers.",
-      "title_zh": "Proteomic analysis of dental enamel from 20 Homo naledi individuals shows no male markers.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4415-4424.e11",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42341758/",
-      "date": "2026-07-09",
-      "authors": "Madupe PP, Taurozzi AJ, Koenig C, Patramanis I, Munir F",
-      "doi": "10.1016/j.cell.2026.05.044",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Cellular architecture and neighborhood-informed virtual spatial tumor profiling from histopathology.",
-      "title_zh": "Cellular architecture and neighborhood-informed virtual spatial tumor profiling from histopathology.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4241-4259.e9",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42302781/",
-      "date": "2026-07-09",
-      "authors": "Li Y, Li Z, Quinton R, Ji Y, Zhang X",
-      "doi": "10.1016/j.cell.2026.05.031",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "A CRISPR knockout mouse library for functional genomics in influenza research.",
-      "title_zh": "A CRISPR knockout mouse library for functional genomics in influenza research.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4471-4488.e7",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42302780/",
-      "date": "2026-07-09",
-      "authors": "Ueki H, Tomita Y, Duong C, Mitake H, Kiso M",
-      "doi": "10.1016/j.cell.2026.05.032",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "RNA structure programs endogenous ADAR for precise and efficient editing.",
-      "title_zh": "RNA structure programs endogenous ADAR for precise and efficient editing.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4359-4376.e27",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42269608/",
-      "date": "2026-07-09",
-      "authors": "Song D, Liu G, Zhang W, Ren J, Jin X",
-      "doi": "10.1016/j.cell.2026.04.047",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Long-term reversal of Duchenne muscular dystrophy via circular arRNA-guided exon skipping in monkeys and humans.",
-      "title_zh": "Long-term reversal of Duchenne muscular dystrophy via circular arRNA-guided exon skipping in monkeys and humans.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4377-4395.e20",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42269605/",
-      "date": "2026-07-09",
-      "authors": "Guo W, Tang H, Yi Z, Zhang T, Yuan P",
-      "doi": "10.1016/j.cell.2026.05.030",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Persistent and transient senescent cells contribute to brain-barrier development.",
-      "title_zh": "Persistent and transient senescent cells contribute to brain-barrier development.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4295-4309.e6",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42269604/",
-      "date": "2026-07-09",
-      "authors": "Watson LA, Adelsheim Z, Carter MJ, Carter GT, Jimenez-Reyes KL",
-      "doi": "10.1016/j.cell.2026.05.022",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Paleogenomes reveal the evolutionary relationship between modern and cave lions.",
-      "title_zh": "Paleogenomes reveal the evolutionary relationship between modern and cave lions.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4425-4436.e11",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42235515/",
-      "date": "2026-07-09",
-      "authors": "Stanton DWG, Bergström A, Heintzman PD, van der Valk T, Carmagnini A",
-      "doi": "10.1016/j.cell.2026.05.007",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Explosive cytotoxicity of ruptoblasts bridges hormone surveillance and immune defense.",
-      "title_zh": "Explosive cytotoxicity of ruptoblasts bridges hormone surveillance and immune defense.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4342-4358.e8",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42229422/",
-      "date": "2026-07-09",
-      "authors": "Chai C, Sultan E, Sarkar SR, Zhong L, Nanes Sarfati D",
-      "doi": "10.1016/j.cell.2026.05.008",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Farnesylation-driven KRAS phase separation promotes colon tumor growth.",
-      "title_zh": "Farnesylation-driven KRAS phase separation promotes colon tumor growth.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4260-4275.e8",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202789/",
-      "date": "2026-07-09",
-      "authors": "Wang X, Zhang Y, Lu M, Gong Y, Guan T",
-      "doi": "10.1016/j.cell.2026.05.002",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Structural basis of Wnt signalosome extracellular complex assembly.",
-      "title_zh": "Structural basis of Wnt signalosome extracellular complex assembly.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4310-4324.e18",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42202788/",
-      "date": "2026-07-09",
-      "authors": "Yue D, Sun G, Cao Y, Li H, Yang Y",
-      "doi": "10.1016/j.cell.2026.05.006",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Scavenger receptor class F member 2 is an intracellular receptor for hepatitis B virus.",
-      "title_zh": "Scavenger receptor class F member 2 is an intracellular receptor for hepatitis B virus.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4454-4470.e9",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42167249/",
-      "date": "2026-07-09",
-      "authors": "Li C, Wang Y, Xiong R, Li Q, Zhou Z",
-      "doi": "10.1016/j.cell.2026.04.045",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Nociceptive innervation limits tertiary lymphoid structures to promote lung cancer.",
-      "title_zh": "Nociceptive innervation limits tertiary lymphoid structures to promote lung cancer.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4276-4294.e33",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42161272/",
-      "date": "2026-07-09",
-      "authors": "Ho YH, Bregni G, Stazi M, Peinado P, Chen PH",
-      "doi": "10.1016/j.cell.2026.04.038",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Transplanting light-dependent reactions for mammalian eye photosynthesis.",
-      "title_zh": "Transplanting light-dependent reactions for mammalian eye photosynthesis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4396-4414.e32",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42143020/",
-      "date": "2026-07-09",
-      "authors": "Xing K, Yan Y, Zhu Z, Chen Y, Dadol GC",
-      "doi": "10.1016/j.cell.2026.04.034",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Discovery and heterologous reconstitution of a plant noncanonical quasi-circadian gene regulatory network.",
-      "title_zh": "Discovery and heterologous reconstitution of a plant noncanonical quasi-circadian gene regulatory network.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4437-4453.e20",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42127895/",
-      "date": "2026-07-09",
-      "authors": "Wang S, Su Y, Xu Y, Wang Z, Yao L",
-      "doi": "10.1016/j.cell.2026.04.033",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "AI-predicted spatial transcriptomics unlocks breast cancer biomarkers from pathology.",
-      "title_zh": "AI-predicted spatial transcriptomics unlocks breast cancer biomarkers from pathology.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4225-4240.e25",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42105763/",
-      "date": "2026-07-09",
-      "authors": "Shulman ED, Campagnolo EM, Lodha R, Chung Y, Stemmer A",
-      "doi": "10.1016/j.cell.2026.04.023",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Multimodal clocks of human aging.",
-      "title_zh": "Multimodal clocks of human aging.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4489-4511.e31",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42105758/",
-      "date": "2026-07-09",
-      "authors": "Li J, Jiang B, Zhang W, Hao J, Liu Z",
-      "doi": "10.1016/j.cell.2026.04.025",
       "departments": [
         "綜合"
       ]
@@ -1812,7 +1636,7 @@
     {
       "category": "權威期刊",
       "title_en": "Ischemic Heart Disease Deaths Increasingly Tied to BMI, Hyperglycemia.",
-      "title_zh": "缺血性心脏病死亡与BMI、高血糖的关系越来越密切。",
+      "title_zh": "Ischemic Heart Disease Deaths Increasingly Tied to BMI, Hyperglycemia.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1828,7 +1652,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA Approves First Oral PCSK9 Inhibitor to Lower LDL Cholesterol.",
-      "title_zh": "FDA批准首个降低低密度脂蛋白胆固醇的口服PCSK9抑制剂。",
+      "title_zh": "FDA Approves First Oral PCSK9 Inhibitor to Lower LDL Cholesterol.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1844,7 +1668,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA Approves At-Home Starting Dose for Anti-Amyloid Therapy.",
-      "title_zh": "FDA批准抗淀粉样蛋白治疗的家庭起始剂量。",
+      "title_zh": "FDA Approves At-Home Starting Dose for Anti-Amyloid Therapy.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2429,54 +2253,6 @@
       "date": "2026-07-03",
       "authors": "Shen W, Moon I, Nguyen TH, Li MM, Huang Y",
       "doi": "10.1038/s41591-026-04502-7",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Spatial atlas of the human brain vasculature reveals specialized cell ensembles.",
-      "title_zh": "Spatial atlas of the human brain vasculature reveals specialized cell ensembles.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 31; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42537647/",
-      "date": "2026-07-03",
-      "authors": "Wang JC, Sanchez D, Arul S, Gülsuyu B, Gopinadhan A",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Dietary arginine drives codon-dependent MHC class I translation and improves immunity in colon tumorigenesis and respiratory viral infection.",
-      "title_zh": "Dietary arginine drives codon-dependent MHC class I translation and improves immunity in colon tumorigenesis and respiratory viral infection.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42532044/",
-      "date": "2026-07-03",
-      "authors": "Wu Q, Seydlitz LM, Iakimov V, Hsu DJ, Habibzadeh P",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Basement membrane turnover controls cell shape.",
-      "title_zh": "Basement membrane turnover controls cell shape.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42532043/",
-      "date": "2026-07-03",
-      "authors": "Barrientos R, Meadowcroft B, Sánchez-Sánchez BJ, Stramer BM, Paluch EK",
-      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -4611,198 +4387,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Safe Sleep Video Intervention via Text Messaging to Low-Income Families: The SMARTER Randomized Clinical Trial.",
-      "title_zh": "Safe Sleep Video Intervention via Text Messaging to Low-Income Families: The SMARTER Randomized Clinical Trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 23; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42490082/",
-      "date": "2026-07-02",
-      "authors": "Moon RY, Colson ER, Hauck FR, Kellams AL, Parker MG",
-      "doi": "10.1001/jama.2026.9119",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "What Is Male Hypogonadism?",
-      "title_zh": "What Is Male Hypogonadism?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 23; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42490080/",
-      "date": "2026-07-02",
-      "authors": "Walter KL",
-      "doi": "10.1001/jama.2026.11900",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Evolocumab to Reduce Cardiovascular Events in Patients With Diabetes Without Known Significant Atherosclerosis-Reply.",
-      "title_zh": "Evolocumab to Reduce Cardiovascular Events in Patients With Diabetes Without Known Significant Atherosclerosis-Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 23; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42490076/",
-      "date": "2026-07-02",
-      "authors": "Marston NA, Bohula EA, Sabatine MS",
-      "doi": "10.1001/jama.2026.10555",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Gastroparesis: A Review.",
-      "title_zh": "Gastroparesis: A Review.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42485161/",
-      "date": "2026-07-02",
-      "authors": "Camilleri M",
-      "doi": "10.1001/jama.2026.12181",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Mechanical Thrombectomy in Ischemic Stroke With a Medium or Distal Arterial Occlusion: Research Summary.",
-      "title_zh": "Mechanical Thrombectomy in Ischemic Stroke With a Medium or Distal Arterial Occlusion: Research Summary.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 22; ():e269146",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42485053/",
-      "date": "2026-07-02",
-      "authors": "",
-      "doi": "10.1001/jama.2026.9146",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Breast Density Masking and Precision Screening-Reply.",
-      "title_zh": "Breast Density Masking and Precision Screening-Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42485034/",
-      "date": "2026-07-02",
-      "authors": "Holt DB",
-      "doi": "10.1001/jama.2026.9600",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Breast Density Masking and Precision Screening.",
-      "title_zh": "Breast Density Masking and Precision Screening.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42485029/",
-      "date": "2026-07-02",
-      "authors": "Engels T, Heppner E, Sheehy A",
-      "doi": "10.1001/jama.2026.9597",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ulcerative Colitis Management in Adults.",
-      "title_zh": "Ulcerative Colitis Management in Adults.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42485028/",
-      "date": "2026-07-02",
-      "authors": "Loeb LP, Davis AM, Kinnucan JA",
-      "doi": "10.1001/jama.2026.8803",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Why and How Should the Government Fund Biomedical Research?: A Healthy Dialogue With Jeremy Berg.",
-      "title_zh": "Why and How Should the Government Fund Biomedical Research?: A Healthy Dialogue With Jeremy Berg.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 22; ():e2612849",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42485027/",
-      "date": "2026-07-02",
-      "authors": "Angus DC, O'Connor MB",
-      "doi": "10.1001/jama.2026.12849",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Mechanical Thrombectomy in Ischemic Stroke With a Medium or Distal Arterial Occlusion: The DISCOUNT Randomized Clinical Trial.",
-      "title_zh": "Mechanical Thrombectomy in Ischemic Stroke With a Medium or Distal Arterial Occlusion: The DISCOUNT Randomized Clinical Trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42485024/",
-      "date": "2026-07-02",
-      "authors": "Clarençon F, Bala F, Baptiste A, Pasi M, Marnat G",
-      "doi": "10.1001/jama.2026.8977",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "What Is Cyclosporiasis?",
-      "title_zh": "What Is Cyclosporiasis?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 21; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42479478/",
-      "date": "2026-07-02",
-      "authors": "Linder KA, Malani PN",
-      "doi": "10.1001/jama.2026.14866",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "US Food Swamps Have Increased as Food Deserts Remain Static.",
-      "title_zh": "US Food Swamps Have Increased as Food Deserts Remain Static.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 21; 336(3):187",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42360770/",
-      "date": "2026-07-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.8319",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Antihistamines for atopic dermatitis (eczema): systematic review and network meta-analysis of randomised trials.",
       "title_zh": "Antihistamines for atopic dermatitis (eczema): systematic review and network meta-analysis of randomised trials.",
       "summary_en": "",
@@ -6499,598 +6083,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Gasdermin E couples viral pyroptosis to lethal hepatic lipid accumulation.",
-      "title_zh": "Gasdermin E couples viral pyroptosis to lethal hepatic lipid accumulation.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42526439/",
-      "date": "2026-07-02",
-      "authors": "Wang C, Zheng X, Zhang Y, Shang X, Qu Q",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "CRISPR screens identify targets to rescue age-related T cell dysfunction in cancer.",
-      "title_zh": "CRISPR screens identify targets to rescue age-related T cell dysfunction in cancer.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42526438/",
-      "date": "2026-07-02",
-      "authors": "Chen ACY, Ji KY, Yerinde C, Knudsen NH, Bi K",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Why machines don't speak biology: Toward native biological language models.",
-      "title_zh": "Why machines don't speak biology: Toward native biological language models.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 28; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42520803/",
-      "date": "2026-07-02",
-      "authors": "Stelzer Y, Tanay A",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Coordinated RNA- and protein-templated synthesis of double-stranded DNA by a dual reverse transcriptase immune system.",
-      "title_zh": "Coordinated RNA- and protein-templated synthesis of double-stranded DNA by a dual reverse transcriptase immune system.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 28; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42520802/",
-      "date": "2026-07-02",
-      "authors": "Wang M, Yoneyama K, Žedaveinytė R, Ishikawa J, Tang S",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Advancing cancer detection and treatment using longitudinal routine clinical data.",
-      "title_zh": "Advancing cancer detection and treatment using longitudinal routine clinical data.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 27; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42508404/",
-      "date": "2026-07-02",
-      "authors": "Liu F, Wang K, Xu H, Tang C, Shen X",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "UniPert-G2CP bridges genetic and chemical screens from molecular representation to phenotype modeling.",
-      "title_zh": "UniPert-G2CP bridges genetic and chemical screens from molecular representation to phenotype modeling.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 24; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42497867/",
-      "date": "2026-07-02",
-      "authors": "Li Y, Zeng M, Zhu J, Liu L, Wang F",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Dynamic dimer-of-dimers architecture defines Mg(2+) transport in human CNNM4.",
-      "title_zh": "Dynamic dimer-of-dimers architecture defines Mg(2+) transport in human CNNM4.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 24; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42497866/",
-      "date": "2026-07-02",
-      "authors": "Bai Z, Zhou XE, Lü W, Du J",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "An Oryza orphan gene confers trans-species drought tolerance.",
-      "title_zh": "An Oryza orphan gene confers trans-species drought tolerance.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42492508/",
-      "date": "2026-07-02",
-      "authors": "Tu H, Liu Q, Ye T, Ye Y, Feng X",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Trichoderma swollenin activates AtABCB5-dependent auxin efflux to promote plant development.",
-      "title_zh": "Trichoderma swollenin activates AtABCB5-dependent auxin efflux to promote plant development.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42492507/",
-      "date": "2026-07-02",
-      "authors": "Lu J, Liu J, Jiang S, Xu Y, Yan Z",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Bacteriophage genome-wide transposon mutagenesis.",
-      "title_zh": "Bacteriophage genome-wide transposon mutagenesis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4810-4824.e7",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42492495/",
-      "date": "2026-07-02",
-      "authors": "Chan A, Yee WX, Mozumdar D, Kokontis C, Rojas-Montero M",
-      "doi": "10.1016/j.cell.2026.06.030",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Auxin signaling.",
-      "title_zh": "Auxin signaling.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4531-4547",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42492494/",
-      "date": "2026-07-02",
-      "authors": "Chu J, Ang ACH, de Roij M, Strader L, Xu T",
-      "doi": "10.1016/j.cell.2026.06.024",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Do autoantibodies shape cancer immunosurveillance?",
-      "title_zh": "Do autoantibodies shape cancer immunosurveillance?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4525-4530",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42492493/",
-      "date": "2026-07-02",
-      "authors": "Bastard P, Hulett T, Smith-Byrne K, Landegren N, Mogensen TH",
-      "doi": "10.1016/j.cell.2026.06.021",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The silicon citizen naturalist.",
-      "title_zh": "The silicon citizen naturalist.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4522-4524",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42492492/",
-      "date": "2026-07-02",
-      "authors": "Hudson ME, Battu G",
-      "doi": "10.1016/j.cell.2026.07.002",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "UTR-ly unexpected: RNA chaperones tame intrinsically disordered proteins.",
-      "title_zh": "UTR-ly unexpected: RNA chaperones tame intrinsically disordered proteins.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4519-4521",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42492491/",
-      "date": "2026-07-02",
-      "authors": "Linsenmeier M, Shorter J",
-      "doi": "10.1016/j.cell.2026.06.023",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "A spliceosome-independent eukaryote generated by complete intron removal.",
-      "title_zh": "A spliceosome-independent eukaryote generated by complete intron removal.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4637-4649.e5",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42456655/",
-      "date": "2026-07-02",
-      "authors": "Man X, Zhang WT, Zhang YD, Li QX, Dai P",
-      "doi": "10.1016/j.cell.2026.05.033",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Map of spiking activity underlying change detection in the mouse visual system.",
-      "title_zh": "Map of spiking activity underlying change detection in the mouse visual system.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4775-4791.e13",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42419303/",
-      "date": "2026-07-02",
-      "authors": "Bennett C, Gale SD, Heller G, Ramirez TK, Belski H",
-      "doi": "10.1016/j.cell.2026.06.025",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Whole-cell particle-based digital twin simulations from 4D lattice light-sheet microscopy data.",
-      "title_zh": "Whole-cell particle-based digital twin simulations from 4D lattice light-sheet microscopy data.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4581-4593.e6",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42379169/",
-      "date": "2026-07-02",
-      "authors": "Arkfeld E, Wang Z, Hakozaki H, Schöneberg J",
-      "doi": "10.1016/j.cell.2026.06.010",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Arc mediates intercellular tau transmission via extracellular vesicles.",
-      "title_zh": "Arc mediates intercellular tau transmission via extracellular vesicles.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4706-4723.e13",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42372723/",
-      "date": "2026-07-02",
-      "authors": "Tyagi M, de Hoog E, Grega M, Sullivan KR, Walker AC",
-      "doi": "10.1016/j.cell.2026.06.008",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Multimodal imaging of gene expression, morphology, and activity of the same neuron.",
-      "title_zh": "Multimodal imaging of gene expression, morphology, and activity of the same neuron.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4792-4809.e12",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42314668/",
-      "date": "2026-07-02",
-      "authors": "Zhao Y, Shi Z, Liu X, Cong L, Yu P",
-      "doi": "10.1016/j.cell.2026.05.041",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Two distinct causes contribute to the low efficiency of human pre-implantation development.",
-      "title_zh": "Two distinct causes contribute to the low efficiency of human pre-implantation development.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4685-4705.e10",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42276044/",
-      "date": "2026-07-02",
-      "authors": "Li Z, Leng L, Zhai J, Wang X, Yang W",
-      "doi": "10.1016/j.cell.2026.05.037",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Continuous modeling of primate embryogenesis from totipotency to early organogenesis.",
-      "title_zh": "Continuous modeling of primate embryogenesis from totipotency to early organogenesis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4664-4684.e9",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42269606/",
-      "date": "2026-07-02",
-      "authors": "Zheng W, Peng B, Chen Z, Huang K, Qi Y",
-      "doi": "10.1016/j.cell.2026.05.023",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "mRNA 3' UTRs chaperone intrinsically disordered regions to control protein activity.",
-      "title_zh": "mRNA 3' UTRs chaperone intrinsically disordered regions to control protein activity.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4619-4636.e16",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42259285/",
-      "date": "2026-07-02",
-      "authors": "Luo Y, Zhong Y, Basu S, Wu MC, Mayr C",
-      "doi": "10.1016/j.cell.2026.05.017",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Deep learning of functional perturbations from condensate morphology.",
-      "title_zh": "Deep learning of functional perturbations from condensate morphology.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4562-4580.e10",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42242225/",
-      "date": "2026-07-02",
-      "authors": "Donlic A, Comi TJ, Quinodoz SA, Jaberi-Lashkari N, Antunes Fernandes K",
-      "doi": "10.1016/j.cell.2026.05.010",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Physiological brain clearance architecture revealed by neuronal protein tracing.",
-      "title_zh": "Physiological brain clearance architecture revealed by neuronal protein tracing.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4737-4755.e17",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42214342/",
-      "date": "2026-07-02",
-      "authors": "Chayama Y, Rao NR, Perla D, Zhang Z, Reid M",
-      "doi": "10.1016/j.cell.2026.04.048",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Decoding the spatiotemporal development of human meninges.",
-      "title_zh": "Decoding the spatiotemporal development of human meninges.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4756-4774.e21",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42214341/",
-      "date": "2026-07-02",
-      "authors": "Li Y, Li Z, She Y, He Z, Wang C",
-      "doi": "10.1016/j.cell.2026.04.040",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Uncovering spatially resolved functional genomics with CRISPR screen sequencing.",
-      "title_zh": "Uncovering spatially resolved functional genomics with CRISPR screen sequencing.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4594-4618.e48",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42190664/",
-      "date": "2026-07-02",
-      "authors": "Zhang H, Zhang Z, Wang P, Xu T, Chen X",
-      "doi": "10.1016/j.cell.2026.04.049",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "TPPP/p25 amyloid seeding activity as a specific biomarker for multiple system atrophy.",
-      "title_zh": "TPPP/p25 amyloid seeding activity as a specific biomarker for multiple system atrophy.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4724-4736.e14",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42190663/",
-      "date": "2026-07-02",
-      "authors": "Zeng S, Zhang S, Zhang S, Fan Y, Xia W",
-      "doi": "10.1016/j.cell.2026.04.050",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Harnessing citizen science to contextualize adaptation mechanism discovery.",
-      "title_zh": "Harnessing citizen science to contextualize adaptation mechanism discovery.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4650-4663.e6",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42167250/",
-      "date": "2026-07-02",
-      "authors": "Tibbs-Cortes LE, Han L, Jewell JB, Singh P, Huang H",
-      "doi": "10.1016/j.cell.2026.04.039",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Genome instability triggers intercellular DNA transfer between human cells.",
-      "title_zh": "Genome instability triggers intercellular DNA transfer between human cells.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 23; 189(15):4548-4561.e14",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42161273/",
-      "date": "2026-07-02",
-      "authors": "Maurais EG, Mazzagatti A, Lin YF, Narozna M, Hu Q",
-      "doi": "10.1016/j.cell.2026.04.041",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The intrinsic cardiac nervous system is essential for cardiac function and survival.",
-      "title_zh": "The intrinsic cardiac nervous system is essential for cardiac function and survival.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42486084/",
-      "date": "2026-07-02",
-      "authors": "Xu QJ, Applegate MC, Hsu IY, Kogan RP, Hafez OA",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Condensates of the chromatin regulator ANKRD11 restrict hypertranscribed genes to safeguard development.",
-      "title_zh": "Condensates of the chromatin regulator ANKRD11 restrict hypertranscribed genes to safeguard development.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42486083/",
-      "date": "2026-07-02",
-      "authors": "Zhang T, Li X, Zhou W, Li ZL, Bi J",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.",
-      "title_zh": "Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 21; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42480528/",
-      "date": "2026-07-02",
-      "authors": "Akiyama Y, Zhang Z, Tang O, Kim RS, Mirdita M",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Localized PD-1 CAR T therapy reprograms neuroinflammation.",
-      "title_zh": "Localized PD-1 CAR T therapy reprograms neuroinflammation.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 21; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42480527/",
-      "date": "2026-07-02",
-      "authors": "Shalita R, Ben Yehuda M, Gur C, Frid Y, McGrath S",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "CSF clearance through arachnoid fenestrations to olfactory meningeal lymphatics.",
-      "title_zh": "CSF clearance through arachnoid fenestrations to olfactory meningeal lymphatics.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 21; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42480526/",
-      "date": "2026-07-02",
-      "authors": "Hong SP, Jin C, Yang MJ, Jin H, Yoon JH",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "A domestication-selected enhancer coordinates source-sink balance to improve harvest index and yield in maize.",
-      "title_zh": "A domestication-selected enhancer coordinates source-sink balance to improve harvest index and yield in maize.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 21; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42480525/",
-      "date": "2026-07-02",
-      "authors": "Guo L, Xia J, Tang J, Zhang M, Chen T",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Viral protease-initiated lytic cell death as a universal antiviral mRNA therapy.",
-      "title_zh": "Viral protease-initiated lytic cell death as a universal antiviral mRNA therapy.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 20; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42476130/",
-      "date": "2026-07-02",
-      "authors": "Li L, Yan XL, Wang HY, Zhou HY, Li YY",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "A bivalent molecular glue linking lysine acetyltransferases to oncogene-induced cell death.",
-      "title_zh": "A bivalent molecular glue linking lysine acetyltransferases to oncogene-induced cell death.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 20; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42476129/",
-      "date": "2026-07-02",
-      "authors": "Nix MN, Gourisankar S, Bowman KJ, Nettles SA, Yang H",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Targeting therapeutic nanoparticles to the glioblastoma resection margin by harnessing postoperative blood-brain barrier disruption.",
       "title_zh": "Targeting therapeutic nanoparticles to the glioblastoma resection margin by harnessing postoperative blood-brain barrier disruption.",
       "summary_en": "",
@@ -8611,134 +7603,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Robust regulatory interplay of enhancers, facilitators, and promoters in a native chromatin context.",
-      "title_zh": "Robust regulatory interplay of enhancers, facilitators, and promoters in a native chromatin context.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42468524/",
-      "date": "2026-07-01",
-      "authors": "Zhou Z, Cheng Y, Lieberth J, Zhang J, Jin Y",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Skin-innervating glutamatergic neurons modulate aging.",
-      "title_zh": "Skin-innervating glutamatergic neurons modulate aging.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42468523/",
-      "date": "2026-07-01",
-      "authors": "Wang Z, Jin X, Wu Y, Ding W, Zhang F",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Boron-bridged GIPCs stabilize cell wall anchoring and PIN polar domains.",
-      "title_zh": "Boron-bridged GIPCs stabilize cell wall anchoring and PIN polar domains.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 16; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42462711/",
-      "date": "2026-07-01",
-      "authors": "He M, Zhang C, Li Z, Tang C, Wang Y",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Whole-transcriptome-scale isoform-resolved spatial imaging of single cells in tissues.",
-      "title_zh": "Whole-transcriptome-scale isoform-resolved spatial imaging of single cells in tissues.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 16; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42462710/",
-      "date": "2026-07-01",
-      "authors": "Cohen L, Halpern AR, Blosser TR, Che ZP, Pan X",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Spatial proximity sequencing maps developmental dynamics in the germinal center.",
-      "title_zh": "Spatial proximity sequencing maps developmental dynamics in the germinal center.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 16; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42462709/",
-      "date": "2026-07-01",
-      "authors": "Wang H, Xia J, Rahman PMSM, Keisham B, Padhi A",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Co-option of lysosomal machinery shapes the evolution of the intracellular photosymbiosis supporting coral reefs.",
-      "title_zh": "Co-option of lysosomal machinery shapes the evolution of the intracellular photosymbiosis supporting coral reefs.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 1; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42385704/",
-      "date": "2026-07-01",
-      "authors": "Maruyama S, Henderson CF, Swinhoe N, Kowalewski GP, Meier EK",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders.",
-      "title_zh": "Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 1; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42385702/",
-      "date": "2026-07-01",
-      "authors": "Zhou Z, Luquette LJ, Dong G, Kim J, Ku J",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Four-dimensional molecular mapping from a spatial snapshot reveals the dynamics of hair follicle organogenesis.",
-      "title_zh": "Four-dimensional molecular mapping from a spatial snapshot reveals the dynamics of hair follicle organogenesis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 1; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42385701/",
-      "date": "2026-07-01",
-      "authors": "Asami S, Yin C, Fan J, Garza LA, Kalhor R",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Erratum for the Research Article \"Phase separation-based HTS identifies cobimetinib as a YAP-TEAD inhibitor that suppresses hyperactivated YAP-induced cancer progression\".",
       "title_zh": "Erratum for the Research Article \"Phase separation-based HTS identifies cobimetinib as a YAP-TEAD inhibitor that suppresses hyperactivated YAP-induced cancer progression\".",
       "summary_en": "",
@@ -8867,70 +7731,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "A viral ORFeome library for systems-level genetic dissection of host-pathogen interactions.",
-      "title_zh": "A viral ORFeome library for systems-level genetic dissection of host-pathogen interactions.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42392077/",
-      "date": "2026-06-03",
-      "authors": "Fujimura E, O'Leary CN, Li MZ, Roberts RA, Glassman CR",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Systematic discovery of pathogen effector functions across human pathogens and pathways.",
-      "title_zh": "Systematic discovery of pathogen effector functions across human pathogens and pathways.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42379168/",
-      "date": "2026-06-03",
-      "authors": "Pachano T, Leng H, Dugied G, Tribble T, Loubiere V",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Structural basis for host membrane binding and remodeling by invading malaria parasites.",
-      "title_zh": "Structural basis for host membrane binding and remodeling by invading malaria parasites.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42379167/",
-      "date": "2026-06-03",
-      "authors": "Haile MT, Kaxiras DA, Zhen J, Lee CL, Jiang B",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Multiscale integration of tissue and chromatin context converts cell heterogeneity into stable intestinal patterning.",
-      "title_zh": "Multiscale integration of tissue and chromatin context converts cell heterogeneity into stable intestinal patterning.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42379166/",
-      "date": "2026-06-03",
-      "authors": "Schwayer C, Barbiero S, Brückner DB, Oost KC, Baader C",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Cryptic splicing in synaptic and membrane excitability genes links TDP-43 loss to neuronal dysfunction.",
       "title_zh": "Cryptic splicing in synaptic and membrane excitability genes links TDP-43 loss to neuronal dysfunction.",
       "summary_en": "",
@@ -9037,406 +7837,6 @@
       "date": "2026-06-03",
       "authors": "Wang P, Du S, Wu S, Zhai Y, Bai J",
       "doi": "10.1126/scitranslmed.aea0189",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Geometric constraints on the architecture of mammalian cortical connectomes.",
-      "title_zh": "Geometric constraints on the architecture of mammalian cortical connectomes.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42361798/",
-      "date": "2026-06-02",
-      "authors": "Normand F, Gajwani M, Cao T, Cruddas J, Sangchooli A",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Iron drives protease-independent cleavage of gasdermin D in allergic airway diseases.",
-      "title_zh": "Iron drives protease-independent cleavage of gasdermin D in allergic airway diseases.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42361797/",
-      "date": "2026-06-02",
-      "authors": "Chen S, Deng F, Peng B, Liu L, Wang J",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Excessive epithelial mechanosensation drives nociceptive innervation and chronic bladder pain via the PIEZO1-SLC7A11-glutamate axis.",
-      "title_zh": "Excessive epithelial mechanosensation drives nociceptive innervation and chronic bladder pain via the PIEZO1-SLC7A11-glutamate axis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42361796/",
-      "date": "2026-06-02",
-      "authors": "Kim MJ, Noh JH, Lee HY, Lee B, Park AD",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "A disinhibitory basal forebrain-to-cortex projection supports sustained attention.",
-      "title_zh": "A disinhibitory basal forebrain-to-cortex projection supports sustained attention.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):4140-4158.e9",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42349384/",
-      "date": "2026-06-02",
-      "authors": "Li SJ, Hangya B, Gupta U, Singh H, Fischer KB",
-      "doi": "10.1016/j.cell.2026.05.046",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "AI-driven discovery of GPNMB CAR T cells as a multi-cancer therapy.",
-      "title_zh": "AI-driven discovery of GPNMB CAR T cells as a multi-cancer therapy.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3871-3882.e12",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42349383/",
-      "date": "2026-06-02",
-      "authors": "Baker DJ, Frommer LM, Uslu U, Patel KK, Zhu D",
-      "doi": "10.1016/j.cell.2026.06.002",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The cGAS-STING pathway: Mechanism and medical implications.",
-      "title_zh": "The cGAS-STING pathway: Mechanism and medical implications.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3849-3870",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42349382/",
-      "date": "2026-06-02",
-      "authors": "Hooftman A, Keller A, Ablasser A",
-      "doi": "10.1016/j.cell.2026.06.001",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "CAR T targets: AI takes the wheel.",
-      "title_zh": "CAR T targets: AI takes the wheel.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3847-3848",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42349381/",
-      "date": "2026-06-02",
-      "authors": "Amor C",
-      "doi": "10.1016/j.cell.2026.06.003",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "A new sense for electrical fields.",
-      "title_zh": "A new sense for electrical fields.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3845-3846",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42349380/",
-      "date": "2026-06-02",
-      "authors": "Riedl M, Sixt M",
-      "doi": "10.1016/j.cell.2026.05.038",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Excessive vascular integrity restricts anti-tumor immunity.",
-      "title_zh": "Excessive vascular integrity restricts anti-tumor immunity.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3842-3844",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42349379/",
-      "date": "2026-06-02",
-      "authors": "Trotta R, Ma L, Mazzone M",
-      "doi": "10.1016/j.cell.2026.05.034",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "DNA repair drives cisplatin-induced neuronal death.",
-      "title_zh": "DNA repair drives cisplatin-induced neuronal death.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):4005-4021.e11",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42269607/",
-      "date": "2026-06-02",
-      "authors": "Nathan WJ, Chen C, Sakr R, Siqueira Mietto B, van Batenburg V",
-      "doi": "10.1016/j.cell.2026.05.025",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Plasma signals of lung tumor promotion for molecular cancer prevention.",
-      "title_zh": "Plasma signals of lung tumor promotion for molecular cancer prevention.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3903-3921.e26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42242224/",
-      "date": "2026-06-02",
-      "authors": "Pandya T, Zagorulya M, Leung MM, Augustine M, Liu LY",
-      "doi": "10.1016/j.cell.2026.05.005",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The temporal architecture of the seminiferous epithelial cycle revealed by spatial transcriptomics.",
-      "title_zh": "The temporal architecture of the seminiferous epithelial cycle revealed by spatial transcriptomics.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):4122-4139.e24",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42143021/",
-      "date": "2026-06-02",
-      "authors": "Chakravorty A, Yun J, Amrhein H, Colón KL, Sato T",
-      "doi": "10.1016/j.cell.2026.04.036",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Cell-autonomous control of CAR signaling and receptor shedding via ADAM17-mediated proteolysis.",
-      "title_zh": "Cell-autonomous control of CAR signaling and receptor shedding via ADAM17-mediated proteolysis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3883-3902.e23",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42143019/",
-      "date": "2026-06-02",
-      "authors": "Bjelajac JR, Cañellas-Socias A, Nehra P, Reynolds K, Malipatlolla M",
-      "doi": "10.1016/j.cell.2026.04.037",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Image-based, pooled phenotyping reveals multidimensional, disease-specific variant effects.",
-      "title_zh": "Image-based, pooled phenotyping reveals multidimensional, disease-specific variant effects.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):4040-4058.e31",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42127894/",
-      "date": "2026-06-02",
-      "authors": "Pendyala S, Partington K, Bradley N, McEwen AE, Straub G",
-      "doi": "10.1016/j.cell.2026.04.031",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "D-SPIN constructs regulatory network models from scRNA-seq that reveal organizing principles of perturbation response.",
-      "title_zh": "D-SPIN constructs regulatory network models from scRNA-seq that reveal organizing principles of perturbation response.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):4159-4184.e35",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42127893/",
-      "date": "2026-06-02",
-      "authors": "Jiang J, Chen S, Tsou T, McGinnis CS, Khazaei T",
-      "doi": "10.1016/j.cell.2026.04.028",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Galvanin (TMEM154) is an electric-field sensor for directed cell migration.",
-      "title_zh": "Galvanin (TMEM154) is an electric-field sensor for directed cell migration.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):4107-4121.e22",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42127892/",
-      "date": "2026-06-02",
-      "authors": "Belliveau NM, Footer MJ, Platenkamp A, Rodriguez C, Kim H",
-      "doi": "10.1016/j.cell.2026.04.026",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ferroptosis inhibition enhances liver and lung graft function.",
-      "title_zh": "Ferroptosis inhibition enhances liver and lung graft function.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3991-4004.e26",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42105762/",
-      "date": "2026-06-02",
-      "authors": "Veeckmans G, Devos L, Gilbo N, Van Beersel D, Scarpellini C",
-      "doi": "10.1016/j.cell.2026.04.024",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Genetic basis of phytoalexin-mediated chemical defense in plants.",
-      "title_zh": "Genetic basis of phytoalexin-mediated chemical defense in plants.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):4059-4074.e20",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42105761/",
-      "date": "2026-06-02",
-      "authors": "Wang Z, Han L, Gao L, Zhang L, Xie Y",
-      "doi": "10.1016/j.cell.2026.04.021",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "A blood-brain barrier-like vascular gate limits immunotherapy efficacy in neuroendocrine cancers.",
-      "title_zh": "A blood-brain barrier-like vascular gate limits immunotherapy efficacy in neuroendocrine cancers.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3922-3939.e20",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42102817/",
-      "date": "2026-06-02",
-      "authors": "Wang Y, Zhong A, Wang B, Zhai X, Lei C",
-      "doi": "10.1016/j.cell.2026.04.017",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Virological characteristics of SARS-CoV-2-related coronaviruses dynamically circulating in Southeast Asia.",
-      "title_zh": "Virological characteristics of SARS-CoV-2-related coronaviruses dynamically circulating in Southeast Asia.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):4075-4093.e25",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42097139/",
-      "date": "2026-06-02",
-      "authors": "Wacharapluesadee S, Saikruang W, Lytras S, Matsumoto K, Uriu K",
-      "doi": "10.1016/j.cell.2026.04.019",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Genetic variation reveals a homeotic long noncoding RNA that modulates human hematopoietic stem cells.",
-      "title_zh": "Genetic variation reveals a homeotic long noncoding RNA that modulates human hematopoietic stem cells.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):4022-4039.e21",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42068976/",
-      "date": "2026-06-02",
-      "authors": "Lyu P, Agarwal G, Guo CJ, Sychla A, Bourgeois W",
-      "doi": "10.1016/j.cell.2026.04.014",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "An anaerobic pathogen rewires host metabolism to fuel oxidative growth in the inflamed gut.",
-      "title_zh": "An anaerobic pathogen rewires host metabolism to fuel oxidative growth in the inflamed gut.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3968-3990.e38",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42066751/",
-      "date": "2026-06-02",
-      "authors": "Spiga L, Fansler RT, Wu Y, Grote A, Langford-Butler M",
-      "doi": "10.1016/j.cell.2026.04.012",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Differential inhibition of Morbillivirus and Henipavirus polymerases by ERDRP-0519 and structure-guided inhibitor optimization.",
-      "title_zh": "Differential inhibition of Morbillivirus and Henipavirus polymerases by ERDRP-0519 and structure-guided inhibitor optimization.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):4094-4106.e13",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42061399/",
-      "date": "2026-06-02",
-      "authors": "Xue L, Gui J, Gao S, Gao X, Chang T",
-      "doi": "10.1016/j.cell.2026.04.011",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Engineered commensals for metabolic modulation of the gut-liver-brain axis.",
-      "title_zh": "Engineered commensals for metabolic modulation of the gut-liver-brain axis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3950-3967.e12",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42034052/",
-      "date": "2026-06-02",
-      "authors": "Aggarwal N, Shen H, Lee LT, Zhou L, Zhu MT",
-      "doi": "10.1016/j.cell.2026.03.048",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Gut microbiome is associated with recurrence-free survival in patients with resected high-risk melanoma receiving adjuvant immune checkpoint blockade.",
-      "title_zh": "Gut microbiome is associated with recurrence-free survival in patients with resected high-risk melanoma receiving adjuvant immune checkpoint blockade.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jun 25; 189(13):3940-3949.e14",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/41999744/",
-      "date": "2026-06-02",
-      "authors": "Usyk M, Hayes RB, Knight R, Gonzalez A, Li H",
-      "doi": "10.1016/j.cell.2026.03.041",
       "departments": [
         "綜合"
       ]

@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "articles": [
     {
       "category": "權威期刊",
@@ -525,6 +525,166 @@
       "date": "2026-08-07",
       "authors": "Anderer S",
       "doi": "10.1001/jama.2026.12046",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Fauci: Senators vote to hold former US health chief in contempt for refusing to answer questions.",
+      "title_zh": "Fauci: Senators vote to hold former US health chief in contempt for refusing to answer questions.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 7; 394():e100527",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42567557/",
+      "date": "2026-08-07",
+      "authors": "O'Dowd A",
+      "doi": "10.1136/bmj-2026-100527",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Diabetes advocacy campaigns should focus on living a life, not fighting a battle.",
+      "title_zh": "Diabetes advocacy campaigns should focus on living a life, not fighting a battle.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 7; 394():e100525",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42567556/",
+      "date": "2026-08-07",
+      "authors": "Scibilia R, Cleal B, Dickinson JK, Sethi J, Speight J",
+      "doi": "10.1136/bmj-2026-100525",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "\"Cockroach\" victory: India's education minister resigns over medical exam scandal linked to 12 suicides.",
+      "title_zh": "\"Cockroach\" victory: India's education minister resigns over medical exam scandal linked to 12 suicides.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 7; 394():e100429",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42567555/",
+      "date": "2026-08-07",
+      "authors": "Thiagarajan K",
+      "doi": "10.1136/bmj-2026-100429",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Fauci's Senate hearing riled up the MAGA base-but at the cost of damaging public health.",
+      "title_zh": "Fauci's Senate hearing riled up the MAGA base-but at the cost of damaging public health.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 7; 394():e100529",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42567554/",
+      "date": "2026-08-07",
+      "authors": "Yamey G, Titanji BK",
+      "doi": "10.1136/bmj-2026-100529",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Cosmetic surgery: Keep promise to stop all doctors carrying out procedures, campaigners say.",
+      "title_zh": "Cosmetic surgery: Keep promise to stop all doctors carrying out procedures, campaigners say.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 7; 394():e100528",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42567548/",
+      "date": "2026-08-07",
+      "authors": "O'Dowd A",
+      "doi": "10.1136/bmj-2026-100528",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "When I use a word . . . Alumni of the Edinburgh Medical School 1726-2026: The Darwins.",
+      "title_zh": "When I use a word . . . Alumni of the Edinburgh Medical School 1726-2026: The Darwins.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 7; 394():e100521",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42567546/",
+      "date": "2026-08-07",
+      "authors": "Aronson JK",
+      "doi": "10.1136/bmj-2026-100521",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Population impact matters when evaluating calcium and vitamin D supplementation.",
+      "title_zh": "Population impact matters when evaluating calcium and vitamin D supplementation.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 7; 394():e100495",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42567545/",
+      "date": "2026-08-07",
+      "authors": "Nguyen TV, Tran TS",
+      "doi": "10.1136/bmj-2026-100495",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Retatrutide: Obesity drug opens to \"compassionate use\" in US after speculation Trump took it.",
+      "title_zh": "Retatrutide: Obesity drug opens to \"compassionate use\" in US after speculation Trump took it.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 7; 394():e100530",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42567543/",
+      "date": "2026-08-07",
+      "authors": "Brown C",
+      "doi": "10.1136/bmj-2026-100530",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Large-scale whole-genome sequencing reveals the landscape and health implications of de novo mutations.",
+      "title_zh": "Large-scale whole-genome sequencing reveals the landscape and health implications of de novo mutations.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 7; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42567929/",
+      "date": "2026-08-07",
+      "authors": "Qin N, Dai J, Jiang Y, Xie Y, Lv H",
+      "doi": "10.1038/s41591-026-04585-2",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "A clinically validated framework for auditing AI chatbot behavior in mental health interactions.",
+      "title_zh": "A clinically validated framework for auditing AI chatbot behavior in mental health interactions.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 7; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42567928/",
+      "date": "2026-08-07",
+      "authors": "Weilnhammer V, Hou KY, Luettgau L, Summerfield C, Dolan R",
+      "doi": "10.1038/s41591-026-04577-2",
       "departments": [
         "綜合"
       ]
@@ -7283,134 +7443,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "AI might help the NHS-but we need to build the evidence.",
-      "title_zh": "AI might help the NHS-but we need to build the evidence.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 24; 394():e100390",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42498311/",
-      "date": "2026-07-02",
-      "authors": "Peek N, Dixon J, Ereira E, Dixon-Woods M",
-      "doi": "10.1136/bmj-2026-100390",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Wildfires and health: With the US and Canada blanketed by smoke, what are the risks?",
-      "title_zh": "Wildfires and health: With the US and Canada blanketed by smoke, what are the risks?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 24; 394():e100392",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42498310/",
-      "date": "2026-07-02",
-      "authors": "Brown C",
-      "doi": "10.1136/bmj-2026-100392",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Nottingham attacks: Trust that treated killer faces manslaughter probe.",
-      "title_zh": "Nottingham attacks: Trust that treated killer faces manslaughter probe.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 24; 394():e100382",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42498308/",
-      "date": "2026-07-02",
-      "authors": "Dyer C",
-      "doi": "10.1136/bmj-2026-100382",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "China has banned an unproven Alzheimer's operation and detained its inventor, but international clinical trials of dcLVA are still going ahead-why?",
-      "title_zh": "China has banned an unproven Alzheimer's operation and detained its inventor, but international clinical trials of dcLVA are still going ahead-why?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 24; 394():e100302",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42498307/",
-      "date": "2026-07-02",
-      "authors": "Nelson F",
-      "doi": "10.1136/bmj-2026-100302",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Palantir: NHS England is warned by statistics watchdog over FDP claims.",
-      "title_zh": "Palantir: NHS England is warned by statistics watchdog over FDP claims.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 24; 394():e100402",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42498306/",
-      "date": "2026-07-02",
-      "authors": "Armstong S",
-      "doi": "10.1136/bmj-2026-100402",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Addressing the indirect health burden of covid-19.",
-      "title_zh": "Addressing the indirect health burden of covid-19.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 23; 394():e100376",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42492993/",
-      "date": "2026-07-02",
-      "authors": "",
-      "doi": "10.1136/bmj-2026-100376",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "AI is expanding online sexual abuse against women and girls.",
-      "title_zh": "AI is expanding online sexual abuse against women and girls.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 23; 394():e100373",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42492992/",
-      "date": "2026-07-02",
-      "authors": "Fohring S",
-      "doi": "10.1136/bmj-2026-100373",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "MS: NHS rolls out \"life changing\" pill to help patients walk more freely.",
-      "title_zh": "MS: NHS rolls out \"life changing\" pill to help patients walk more freely.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 23; 394():e100387",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42492983/",
-      "date": "2026-07-02",
-      "authors": "Iacobucci G",
-      "doi": "10.1136/bmj-2026-100387",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Deciphering the role of histidine in cancer.",
       "title_zh": "Deciphering the role of histidine in cancer.",
       "summary_en": "",
@@ -11053,38 +11085,6 @@
       "date": "",
       "authors": "Gorijavolu R, Jaiswal N, Kesselheim AS, Sakran JV, Hernandez-Boussard T",
       "doi": "10.1038/s41591-026-04418-2",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Semaglutide versus placebo in individuals with poor weight loss after bariatric surgery: a double-blinded, randomized, placebo-controlled trial.",
-      "title_zh": "Semaglutide versus placebo in individuals with poor weight loss after bariatric surgery: a double-blinded, randomized, placebo-controlled trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jul; 32(7):2662-2672",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42174253/",
-      "date": "",
-      "authors": "Stanley C, Mallik R, Hamid N, Jassil FC, Reuven V",
-      "doi": "10.1038/s41591-026-04416-4",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "An AI framework for multi-disease detection via retinal imaging.",
-      "title_zh": "An AI framework for multi-disease detection via retinal imaging.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jul; 32(7):2366-2367",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42162372/",
-      "date": "",
-      "authors": "",
-      "doi": "10.1038/s41591-026-04424-4",
       "departments": [
         "綜合"
       ]

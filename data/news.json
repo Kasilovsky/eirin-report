@@ -1,6 +1,70 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "articles": [
+    {
+      "category": "權威期刊",
+      "title_en": "Warthin Tumors.",
+      "title_zh": "Warthin Tumors.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Aug 8; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42573399/",
+      "date": "2026-08-08",
+      "authors": "Pan X, Lin C",
+      "doi": "10.1056/NEJMicm2604482",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Resistance, Strategic Compromise, or Complicity? Physicians' Choices under Ethical Pressure.",
+      "title_zh": "Resistance, Strategic Compromise, or Complicity? Physicians' Choices under Ethical Pressure.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Aug 8; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42573391/",
+      "date": "2026-08-08",
+      "authors": "Wynia MK",
+      "doi": "10.1056/NEJMp2604906",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Rethinking the Role of Pay for Performance in Federal Health Care Quality Programs.",
+      "title_zh": "Rethinking the Role of Pay for Performance in Federal Health Care Quality Programs.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Aug 8; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42573389/",
+      "date": "2026-08-08",
+      "authors": "Chernew M, Schneider EC",
+      "doi": "10.1056/NEJMp2605624",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Last Man Running.",
+      "title_zh": "最后一个跑步的人。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Aug 8; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42573353/",
+      "date": "2026-08-08",
+      "authors": "Rosenbaum JT",
+      "doi": "10.1056/NEJMp2518293",
+      "departments": [
+        "綜合"
+      ]
+    },
     {
       "category": "權威期刊",
       "title_en": "Critical perspectives on GBD 2023 estimates - Authors' reply.",
@@ -420,7 +484,7 @@
     {
       "category": "權威期刊",
       "title_en": "Will New Lyme Disease Approaches Change Patient Care?",
-      "title_zh": "新的莱姆病方法是否会改变患者护理？",
+      "title_zh": "Will New Lyme Disease Approaches Change Patient Care?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -436,7 +500,7 @@
     {
       "category": "權威期刊",
       "title_en": "Problematic Social Media Use Linked to Increased ADHD Symptoms in Adolescents.",
-      "title_zh": "有问题的社交媒体使用与青少年ADHD症状增加有关。",
+      "title_zh": "Problematic Social Media Use Linked to Increased ADHD Symptoms in Adolescents.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -452,7 +516,7 @@
     {
       "category": "權威期刊",
       "title_en": "Global Immunization Coverage Saw Gains in 2025, But Experts Warn of Trouble Ahead.",
-      "title_zh": "全球疫苗接种覆盖率在2025年有所提高，但专家警告称未来会出现问题。",
+      "title_zh": "Global Immunization Coverage Saw Gains in 2025, But Experts Warn of Trouble Ahead.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -468,7 +532,7 @@
     {
       "category": "權威期刊",
       "title_en": "First Once-Weekly Oral HIV Treatment Demonstrates Safety and Efficacy.",
-      "title_zh": "首次每周一次的口服HIV治疗证明了安全性和有效性。",
+      "title_zh": "First Once-Weekly Oral HIV Treatment Demonstrates Safety and Efficacy.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -484,7 +548,7 @@
     {
       "category": "權威期刊",
       "title_en": "Compounded GLP-1 Drugs Remain Prevalent After Drug Shortage.",
-      "title_zh": "复方GLP-1药物在药物短缺后仍然普遍存在。",
+      "title_zh": "Compounded GLP-1 Drugs Remain Prevalent After Drug Shortage.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -500,7 +564,7 @@
     {
       "category": "權威期刊",
       "title_en": "How Common Is Alpha-Gal Syndrome?",
-      "title_zh": "Alpha-Gal综合征有多常见？",
+      "title_zh": "How Common Is Alpha-Gal Syndrome?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1236,7 +1300,7 @@
     {
       "category": "權威期刊",
       "title_en": "Abreast of Titulology.",
-      "title_zh": "与Titulology并驾齐驱。",
+      "title_zh": "Abreast of Titulology.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1268,7 +1332,7 @@
     {
       "category": "權威期刊",
       "title_en": "Peanut Allergen Exposure.",
-      "title_zh": "花生过敏原暴露。",
+      "title_zh": "Peanut Allergen Exposure.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1332,7 +1396,7 @@
     {
       "category": "權威期刊",
       "title_en": "On Losing a Patient.",
-      "title_zh": "失去患者时。",
+      "title_zh": "On Losing a Patient.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1364,7 +1428,7 @@
     {
       "category": "權威期刊",
       "title_en": "Peanut Allergen Exposure-Reply.",
-      "title_zh": "花生过敏原暴露-回复。",
+      "title_zh": "Peanut Allergen Exposure-Reply.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1908,7 +1972,7 @@
     {
       "category": "權威期刊",
       "title_en": "Food Politics, Obesity, and the \"Wicked Mess\" We Are In: A Healthy Dialogue With Marion Nestle.",
-      "title_zh": "《食物政治、肥胖和我们所处的“邪恶混乱” ：与马里昂·雀巢的健康对话》。",
+      "title_zh": "Food Politics, Obesity, and the \"Wicked Mess\" We Are In: A Healthy Dialogue With Marion Nestle.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3997,6 +4061,182 @@
       "date": "2026-08-01",
       "authors": "Nelson NP, Ward JW",
       "doi": "10.1016/S0140-6736(26)00510-6",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Updated Guidance for Author Use of AI in Medical Publication.",
+      "title_zh": "作者在医学出版物中使用人工智能的最新指南。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42574208/",
+      "date": "2026-08-01",
+      "authors": "Flanagin A, Perlis RH, Bibbins-Domingo K",
+      "doi": "10.1001/jama.2026.16613",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Colorectal Cancer and Mortality Among Older Adults With vs Without Adenoma on Prior Colonoscopy-Reply.",
+      "title_zh": "既往结肠镜检查中患有与未患有腺瘤的老年人中的结直肠癌和死亡率-回复。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42574033/",
+      "date": "2026-08-01",
+      "authors": "Gupta S, May FP",
+      "doi": "10.1001/jama.2026.11587",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Liquid Biopsies for Cancer: A Translational Science Review.",
+      "title_zh": "Liquid Biopsies for Cancer: A Translational Science Review.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42574031/",
+      "date": "2026-08-01",
+      "authors": "Mezzanotte-Sharpe J, Piemonte K, Park BH",
+      "doi": "10.1001/jama.2026.13898",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Colorectal Cancer and Mortality Among Older Adults With vs Without Adenoma on Prior Colonoscopy.",
+      "title_zh": "既往结肠镜检查中患有与未患有腺瘤的老年人中的结直肠癌和死亡率。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42574029/",
+      "date": "2026-08-01",
+      "authors": "Mei Z, Wang H, Zheng D",
+      "doi": "10.1001/jama.2026.11578",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Colorectal Cancer and Mortality Among Older Adults With vs Without Adenoma on Prior Colonoscopy.",
+      "title_zh": "既往结肠镜检查中患有与未患有腺瘤的老年人中的结直肠癌和死亡率。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42574027/",
+      "date": "2026-08-01",
+      "authors": "Zhang M, Xue C, Zhu Z",
+      "doi": "10.1001/jama.2026.11584",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Dismantling Independent Science-The Supreme Court and Public Health Regulation.",
+      "title_zh": "Dismantling Independent Science-The Supreme Court and Public Health Regulation.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42574022/",
+      "date": "2026-08-01",
+      "authors": "Gostin LO, Lurie P",
+      "doi": "10.1001/jama.2026.15473",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Colorectal Cancer and Mortality Among Older Adults With vs Without Adenoma on Prior Colonoscopy.",
+      "title_zh": "既往结肠镜检查中患有与未患有腺瘤的老年人中的结直肠癌和死亡率。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42574019/",
+      "date": "2026-08-01",
+      "authors": "Toth E, Koulaouzidis A",
+      "doi": "10.1001/jama.2026.11581",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Osimertinib With or Without Chemotherapy in Advanced Non-Small Cell Lung Cancer With EGFR Variations in Concurrent TP53 Mutations: Research Summary.",
+      "title_zh": "Osimertinib With or Without Chemotherapy in Advanced Non-Small Cell Lung Cancer With EGFR Variations in Concurrent TP53 Mutations: Research Summary.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():e2611328",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42574009/",
+      "date": "2026-08-01",
+      "authors": "",
+      "doi": "10.1001/jama.2026.11328",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Osimertinib With or Without Chemotherapy in Advanced Non-Small Cell Lung Cancer With EGFR and Concurrent TP53 Mutations: A Randomized Clinical Trial.",
+      "title_zh": "Osimertinib With or Without Chemotherapy in Advanced Non-Small Cell Lung Cancer With EGFR and Concurrent TP53 Mutations: A Randomized Clinical Trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42574006/",
+      "date": "2026-08-01",
+      "authors": "Zhou T, Zhou H, Gao F, Feng W, Jiang W",
+      "doi": "10.1001/jama.2026.10599",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Imminent Threats to the US Preventive Services Task Force.",
+      "title_zh": "对美国预防服务工作组的迫在眉睫的威胁。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42573993/",
+      "date": "2026-08-01",
+      "authors": "Wong JB, Davis EM, Silverstein M",
+      "doi": "10.1001/jama.2026.14814",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Is There Still Room for Monotherapy in EGFR-Mutated Non-Small Cell Lung Cancer?",
+      "title_zh": "EGFR突变型非小细胞肺癌是否仍有单药治疗的空间？",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42573987/",
+      "date": "2026-08-01",
+      "authors": "Borgeaud M, Lu S, Addeo A",
+      "doi": "10.1001/jama.2026.13325",
       "departments": [
         "綜合"
       ]
@@ -6755,182 +6995,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Sleep Health and Obesity.",
-      "title_zh": "Sleep Health and Obesity.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42525392/",
-      "date": "2026-07-02",
-      "authors": "Malhotra A, Kumar AJ, Mesarwi OA",
-      "doi": "10.1001/jama.2026.9551",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "WHO Issues Guidelines for Treating Ebola and Marburg Viruses.",
-      "title_zh": "WHO Issues Guidelines for Treating Ebola and Marburg Viruses.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 28; 336(4):277",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42390994/",
-      "date": "2026-07-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.9465",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "FDA Approves Additional Naloxone Nasal Spray for Opioid Overdose.",
-      "title_zh": "FDA Approves Additional Naloxone Nasal Spray for Opioid Overdose.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 28; 336(4):278",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42390990/",
-      "date": "2026-07-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.9470",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "HIV May Hide in More Cells Than Previously Thought-Here's What That Could Mean for a Cure.",
-      "title_zh": "HIV May Hide in More Cells Than Previously Thought-Here's What That Could Mean for a Cure.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 28; 336(4):275-276",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42390980/",
-      "date": "2026-07-02",
-      "authors": "Abbasi J",
-      "doi": "10.1001/jama.2026.12082",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "US Dietary Supplement Use Increasing, Especially in Older Adults.",
-      "title_zh": "US Dietary Supplement Use Increasing, Especially in Older Adults.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 28; 336(4):277",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42390979/",
-      "date": "2026-07-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.9466",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Heat Stress From Climate Change Surges Globally.",
-      "title_zh": "Heat Stress From Climate Change Surges Globally.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 28; 336(4):277-278",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42390978/",
-      "date": "2026-07-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.9469",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Strength Training Linked With Lower Cardiovascular Disease Risk in Women.",
-      "title_zh": "Strength Training Linked With Lower Cardiovascular Disease Risk in Women.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 28; 336(4):277",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42390975/",
-      "date": "2026-07-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.9468",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "First Alzheimer Disease Blood Test May Produce Many False-Positive Results, Study Finds.",
-      "title_zh": "First Alzheimer Disease Blood Test May Produce Many False-Positive Results, Study Finds.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 28; 336(4):273-274",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42390973/",
-      "date": "2026-07-02",
-      "authors": "Rubin R",
-      "doi": "10.1001/jama.2026.12326",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "FDA Adds Kidney Injury Warning to OTC Weight-Loss Drug Orlistat.",
-      "title_zh": "FDA Adds Kidney Injury Warning to OTC Weight-Loss Drug Orlistat.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 28; 336(4):277",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42390971/",
-      "date": "2026-07-02",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.9467",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Deescalation, Discontinuation, and Deimplementation Trials: Evaluating Whether and How to Do Less.",
-      "title_zh": "Deescalation, Discontinuation, and Deimplementation Trials: Evaluating Whether and How to Do Less.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 28; 336(4):293-295",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42384421/",
-      "date": "2026-07-02",
-      "authors": "Huang AJ, Schonberg MA, Grady D",
-      "doi": "10.1001/jama.2026.2467",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "From Silicon Valley to the Vatican-The Expanding Debate on AI Ethics.",
-      "title_zh": "From Silicon Valley to the Vatican-The Expanding Debate on AI Ethics.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Jul 28; 336(4):e2610876",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42384393/",
-      "date": "2026-07-02",
-      "authors": "Perlis R, Hswen Y",
-      "doi": "10.1001/jama.2026.10876",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Antihistamines for atopic dermatitis (eczema): systematic review and network meta-analysis of randomised trials.",
       "title_zh": "Antihistamines for atopic dermatitis (eczema): systematic review and network meta-analysis of randomised trials.",
       "summary_en": "",
@@ -8717,70 +8781,6 @@
       "date": "2026-07-01",
       "authors": "Park KW, Kang J",
       "doi": "10.1056/NEJMe2604885",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Time to Stop? Rethinking the Duration of Maintenance Treatment in Multiple Myeloma.",
-      "title_zh": "停药时间？重新思考多发性骨髓瘤维持治疗的持续时间。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jul 16; 395(3):302-303",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42456141/",
-      "date": "2026-07-01",
-      "authors": "Mian H, Costa LJ",
-      "doi": "10.1056/NEJMe2604761",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Case 20-2026: A 38-Year-Old Man with Abdominal Pain.",
-      "title_zh": "病例20-2026 ：一名患有腹痛的38岁男性。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jul 16; 395(3):291-300",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42456140/",
-      "date": "2026-07-01",
-      "authors": "Ahonkhai AA, Heller HM, Schrader SM",
-      "doi": "10.1056/NEJMcpc2513544",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Lead Lines in Severe Lead Poisoning.",
-      "title_zh": "Lead Lines in Severe Lead Poisoning.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jul 16; 395(3):290",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42456139/",
-      "date": "2026-07-01",
-      "authors": "Haines J, Huynh T",
-      "doi": "10.1056/NEJMicm2603074",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Fibromyalgia.",
-      "title_zh": "纤维肌痛",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Jul 16; 395(3):267-277",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42456138/",
-      "date": "2026-07-01",
-      "authors": "Williams DA, Clauw DJ",
-      "doi": "10.1056/NEJMcp2411656",
       "departments": [
         "綜合"
       ]

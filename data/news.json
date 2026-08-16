@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "articles": [
     {
       "category": "權威期刊",
@@ -4628,7 +4628,7 @@
     {
       "category": "權威期刊",
       "title_en": "Chemistry in America, 1876-1926.",
-      "title_zh": "Chemistry in America, 1876-1926.",
+      "title_zh": "美国的化学， 1876-1926年。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -5459,6 +5459,86 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "RSV vaccination programme may have halved numbers of baby admissions to ICU.",
+      "title_zh": "RSV vaccination programme may have halved numbers of baby admissions to ICU.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 14; 394():e100576",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42601107/",
+      "date": "2026-08-01",
+      "authors": "O'Dowd A",
+      "doi": "10.1136/bmj-2026-100576",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Scaling up malaria vaccines in Africa.",
+      "title_zh": "Scaling up malaria vaccines in Africa.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 14; 394():e100502",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42601091/",
+      "date": "2026-08-01",
+      "authors": "Turner G, Osoro CB, Okello G, Desmond N",
+      "doi": "10.1136/bmj-2026-100502",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Hospitals are dealing with 41°C indoor temperatures.",
+      "title_zh": "Hospitals are dealing with 41°C indoor temperatures.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 14; 394():e100584",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42601090/",
+      "date": "2026-08-01",
+      "authors": "O'Dowd A",
+      "doi": "10.1136/bmj-2026-100584",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Medical schools risk conflating compliance with professionalism.",
+      "title_zh": "Medical schools risk conflating compliance with professionalism.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 14; 394():e100569",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42601089/",
+      "date": "2026-08-01",
+      "authors": "Diss K, Williams C",
+      "doi": "10.1136/bmj-2026-100569",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Organ donation service that tried to take organs from \"thrashing and crying\" patient is decertified.",
+      "title_zh": "Organ donation service that tried to take organs from \"thrashing and crying\" patient is decertified.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 14; 394():e100578",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42601088/",
+      "date": "2026-08-01",
+      "authors": "Tanne JH",
+      "doi": "10.1136/bmj-2026-100578",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "US policies are making a resurgence of vaccine-preventable diseases inevitable.",
       "title_zh": "US policies are making a resurgence of vaccine-preventable diseases inevitable.",
       "summary_en": "",
@@ -5875,6 +5955,54 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Histological aging signatures for monitoring tissue-specific aging and disease.",
+      "title_zh": "Histological aging signatures for monitoring tissue-specific aging and disease.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 14; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42601488/",
+      "date": "2026-08-01",
+      "authors": "Abila E, Buljan I, Zheng Y, Kleissl L, Klotz S",
+      "doi": "10.1038/s41591-026-04566-5",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Reconstructing disease burden data in armed conflict.",
+      "title_zh": "Reconstructing disease burden data in armed conflict.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 14; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42601487/",
+      "date": "2026-08-01",
+      "authors": "ALMasri H, Luo Z, Aldabbour B, Wang J, Lahham H",
+      "doi": "10.1038/s41591-026-04576-3",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "An AI-Health infrastructure for the Nordic region: technical foundations, data assets, and a roadmap for deployment.",
+      "title_zh": "An AI-Health infrastructure for the Nordic region: technical foundations, data assets, and a roadmap for deployment.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 14; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42601486/",
+      "date": "2026-08-01",
+      "authors": "Andreassen OA, Heimer H, Aarsland D, Dale AM, Gudbjartsson D",
+      "doi": "10.1038/s41591-026-04575-4",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "AI decision support is scaling-up fast - can the evidence keep up?",
       "title_zh": "AI decision support is scaling-up fast - can the evidence keep up?",
       "summary_en": "",
@@ -6045,6 +6173,54 @@
       "date": "2026-08-01",
       "authors": "Wu L, Gu L, Fan W, Wei M, Dai T",
       "doi": "10.1038/s41591-026-04583-4",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Brain perivascular macrophages regulate endothelial cell function via a cMAF-dependent transcriptional program in mouse and human.",
+      "title_zh": "Brain perivascular macrophages regulate endothelial cell function via a cMAF-dependent transcriptional program in mouse and human.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Aug 14; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42600613/",
+      "date": "2026-08-01",
+      "authors": "Brioschi S, Belk JA, Storck SE, Wu Y, Wang Z",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Polyamines buffer labile iron to suppress ferroptosis.",
+      "title_zh": "Polyamines buffer labile iron to suppress ferroptosis.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Aug 14; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42600612/",
+      "date": "2026-08-01",
+      "authors": "Sharma P, Keys HR, Mansell RP, Stark J, Girard L",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Ancient genomes reveal distinct human dispersals and social stratification in the settlement history of western Remote Oceania.",
+      "title_zh": "Ancient genomes reveal distinct human dispersals and social stratification in the settlement history of western Remote Oceania.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Aug 14; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42600611/",
+      "date": "2026-08-01",
+      "authors": "Feldman M, Arauna LR, Carlhoff S, Naegle K, Radzeviciute R",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -6317,38 +6493,6 @@
       "date": "2026-08-01",
       "authors": "Song H, Chen X, Xiao S, Wu J, Dai Y",
       "doi": "10.1126/scitranslmed.ads9325",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "KRAS-G12D inhibitor HRS-4642 plus chemotherapy in advanced KRAS(G12D)-mutant pancreatic cancer: a phase 1b/2 trial.",
-      "title_zh": "KRAS-G12D inhibitor HRS-4642 plus chemotherapy in advanced KRAS(G12D)-mutant pancreatic cancer: a phase 1b/2 trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jul 9; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42426224/",
-      "date": "2026-07-09",
-      "authors": "Cui J, Jiang K, Li W, Ni S, Zong H",
-      "doi": "10.1038/s41591-026-04538-9",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Human embryonic stem cell-derived dopaminergic cells for Parkinson's disease: a phase 1/2 open-label trial.",
-      "title_zh": "Human embryonic stem cell-derived dopaminergic cells for Parkinson's disease: a phase 1/2 open-label trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jul 9; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42426223/",
-      "date": "2026-07-09",
-      "authors": "Paul G, Bjartmarz H, Kirkeby A, Nelander J, Smith R",
-      "doi": "10.1038/s41591-026-04525-0",
       "departments": [
         "綜合"
       ]
@@ -6637,54 +6781,6 @@
       "date": "2026-07-09",
       "authors": "Li C, Wang Y, Xiong R, Li Q, Zhou Z",
       "doi": "10.1016/j.cell.2026.04.045",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Nociceptive innervation limits tertiary lymphoid structures to promote lung cancer.",
-      "title_zh": "Nociceptive innervation limits tertiary lymphoid structures to promote lung cancer.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4276-4294.e33",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42161272/",
-      "date": "2026-07-09",
-      "authors": "Ho YH, Bregni G, Stazi M, Peinado P, Chen PH",
-      "doi": "10.1016/j.cell.2026.04.038",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Transplanting light-dependent reactions for mammalian eye photosynthesis.",
-      "title_zh": "Transplanting light-dependent reactions for mammalian eye photosynthesis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4396-4414.e32",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42143020/",
-      "date": "2026-07-09",
-      "authors": "Xing K, Yan Y, Zhu Z, Chen Y, Dadol GC",
-      "doi": "10.1016/j.cell.2026.04.034",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Discovery and heterologous reconstitution of a plant noncanonical quasi-circadian gene regulatory network.",
-      "title_zh": "Discovery and heterologous reconstitution of a plant noncanonical quasi-circadian gene regulatory network.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Jul 9; 189(14):4437-4453.e20",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42127895/",
-      "date": "2026-07-09",
-      "authors": "Wang S, Su Y, Xu Y, Wang Z, Yao L",
-      "doi": "10.1016/j.cell.2026.04.033",
       "departments": [
         "綜合"
       ]
@@ -8019,86 +8115,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Exam failure: Doctors sue royal colleges over marking mistake.",
-      "title_zh": "Exam failure: Doctors sue royal colleges over marking mistake.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 29; 394():e100431",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42526948/",
-      "date": "2026-07-02",
-      "authors": "Rimmer A",
-      "doi": "10.1136/bmj-2026-100431",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Prevention of migraine with antithrombotic agents in people with patent foramen ovale.",
-      "title_zh": "Prevention of migraine with antithrombotic agents in people with patent foramen ovale.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 29; 394():e100359",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42526947/",
-      "date": "2026-07-02",
-      "authors": "Tietjen GE",
-      "doi": "10.1136/bmj-2026-100359",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Antithrombotic treatment for migraine in patients with patent foramen ovale: multicentre, randomised, active controlled, open label trial.",
-      "title_zh": "Antithrombotic treatment for migraine in patients with patent foramen ovale: multicentre, randomised, active controlled, open label trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 29; 394():e100103",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42526943/",
-      "date": "2026-07-02",
-      "authors": "Li Z, Wang C, Tang Y, Dong J, Dong J",
-      "doi": "10.1136/bmj-2026-100103",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Fossil fuel industry has no place at climate COP.",
-      "title_zh": "Fossil fuel industry has no place at climate COP.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 29; 394():e100410",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42526942/",
-      "date": "2026-07-02",
-      "authors": "Dobson J, Cook S, Frumkin H, Haines A, Rao M",
-      "doi": "10.1136/bmj-2026-100410",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "US measles: Cases now surpass last year's total as vaccination rates decline.",
-      "title_zh": "US measles: Cases now surpass last year's total as vaccination rates decline.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Jul 29; 394():e100437",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42526941/",
-      "date": "2026-07-02",
-      "authors": "Logan M",
-      "doi": "10.1136/bmj-2026-100437",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Reducing the diagnostic odyssey in rare disease: why screening is not the only answer.",
       "title_zh": "Reducing the diagnostic odyssey in rare disease: why screening is not the only answer.",
       "summary_en": "",
@@ -9213,22 +9229,6 @@
       "date": "2026-07-01",
       "authors": "Sounderajah V, Guni A, Liu X, Collins GS, Karthikesalingam A",
       "doi": "10.1038/s41591-026-04570-9",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "An anti-PMEL antibody-drug conjugate with a G(q/1)(1) inhibitor payload in GNAQ/GNA11-mutant melanomas: a phase 1 trial.",
-      "title_zh": "An anti-PMEL antibody-drug conjugate with a G(q/1)(1) inhibitor payload in GNAQ/GNA11-mutant melanomas: a phase 1 trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jul 13; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42443515/",
-      "date": "2026-07-01",
-      "authors": "Carlino MS, Kapiteijn E, Piperno-Neumann S, Sullivan RJ, Carvajal R",
-      "doi": "10.1038/s41591-026-04518-z",
       "departments": [
         "綜合"
       ]

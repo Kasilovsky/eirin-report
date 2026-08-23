@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "articles": [
     {
       "category": "權威期刊",
@@ -381,22 +381,6 @@
       "date": "2026-08-08",
       "authors": "Dai T, McDonald KM, Baumgart DC",
       "doi": "10.1016/S0140-6736(26)00693-8",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Plastics, plastic chemicals, and microplastics: multiple harms to health.",
-      "title_zh": "塑料、塑料化学品和微塑料：对健康的多重危害。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 8; 408(10554):500-503",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42001895/",
-      "date": "2026-08-08",
-      "authors": "Rocklöv J, Dunlop S, Chiles TC, Fuller L, Geyer R",
-      "doi": "10.1016/S0140-6736(26)00647-1",
       "departments": [
         "綜合"
       ]
@@ -1075,22 +1059,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "[(177)Lu]Lu-PSMA-617 in metastatic androgen pathway modulator-sensitive prostate cancer.",
-      "title_zh": "[(177) Lu] Lu-PSMA-617在转移性雄激素通路调节剂敏感性前列腺癌中的作用。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 6; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42561995/",
-      "date": "2026-08-06",
-      "authors": "Gebrael G, Agarwal N",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "A girl with a fingertip blister.",
       "title_zh": "A girl with a fingertip blister.",
       "summary_en": "",
@@ -1741,118 +1709,6 @@
       "date": "2026-08-05",
       "authors": "Santos Paulo S",
       "doi": "10.1136/bmj-2026-100436",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Matt Morgan: AI can never replace a doctor's authentic voice.",
-      "title_zh": "Matt Morgan: AI can never replace a doctor's authentic voice.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Aug 5; 394():e100394",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42556865/",
-      "date": "2026-08-05",
-      "authors": "Morgan M",
-      "doi": "10.1136/bmj-2026-100394",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Orthopaedic services must not overlook domestic violence injuries.",
-      "title_zh": "Orthopaedic services must not overlook domestic violence injuries.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Aug 5; 394():e100494",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42556864/",
-      "date": "2026-08-05",
-      "authors": "Hermena S",
-      "doi": "10.1136/bmj-2026-100494",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "GMC does not owe \"duty of care\" to doctors it investigates, court rules.",
-      "title_zh": "GMC does not owe \"duty of care\" to doctors it investigates, court rules.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Aug 5; 394():e100501",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42556862/",
-      "date": "2026-08-05",
-      "authors": "Wise J",
-      "doi": "10.1136/bmj-2026-100501",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "How do I progress in a system that doesn't feel designed for people like me?",
-      "title_zh": "How do I progress in a system that doesn't feel designed for people like me?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Aug 5; 394():e100491",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42556861/",
-      "date": "2026-08-05",
-      "authors": "Rimmer A",
-      "doi": "10.1136/bmj-2026-100491",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Comparative effectiveness of azithromycin versus roflumilast in patients with chronic obstructive pulmonary disease: emulated target trial.",
-      "title_zh": "Comparative effectiveness of azithromycin versus roflumilast in patients with chronic obstructive pulmonary disease: emulated target trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Aug 5; 394():e100111",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42556860/",
-      "date": "2026-08-05",
-      "authors": "Portela GT, Wang SV, Suissa S, Schneeweiss S, Feldman WB",
-      "doi": "10.1136/bmj-2026-100111",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "How will you manage the risk in my procedure?",
-      "title_zh": "How will you manage the risk in my procedure?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Aug 5; 394():e100213",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42556858/",
-      "date": "2026-08-05",
-      "authors": "Brown M",
-      "doi": "10.1136/bmj-2026-100213",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ebola: how soon could a Bundibugyo vaccine be ready?",
-      "title_zh": "Ebola: how soon could a Bundibugyo vaccine be ready?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Aug 5; 394():e100450",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42556857/",
-      "date": "2026-08-05",
-      "authors": "Lang K",
-      "doi": "10.1136/bmj-2026-100450",
       "departments": [
         "綜合"
       ]
@@ -3059,6 +2915,38 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Rezpegaldesleukin treatment of moderate-to-severe atopic dermatitis (REZOLVE-AD): final results from the 16-week induction period of an international, double-blind, placebo-controlled, randomised phase 2b study.",
+      "title_zh": "Rezpegaldesleukin治疗中重度特应性皮炎（ REZOLVE-AD ） ：一项国际性、双盲、安慰剂对照、随机2b期研究的16周诱导期的最终结果。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Aug 21; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42628554/",
+      "date": "2026-08-02",
+      "authors": "Silverberg JI, Rosmarin D, Bieber T, Chovatiya R, Gooderham M",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Expanding regulatory T cells to treat atopic dermatitis.",
+      "title_zh": "扩增调节性T细胞以治疗特应性皮炎。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Aug 21; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42628553/",
+      "date": "2026-08-02",
+      "authors": "Valenzuela F, Munoz MD",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Robotic-arm-assisted versus conventional total knee replacement (RACER-Knee): a pragmatic, multicentre, participant-masked and assessor-masked, superiority, randomised controlled trial.",
       "title_zh": "机器人手臂辅助与常规全膝关节置换（ RACER-Knee ） ：一项实用、多中心、参与者蒙面和评估者蒙面、优越性、随机对照试验。",
       "summary_en": "",
@@ -3188,7 +3076,7 @@
     {
       "category": "權威期刊",
       "title_en": "Are E-Scooters More Dangerous Than Motorcycles and Bicycles?",
-      "title_zh": "电动滑板车比摩托车和自行车更危险吗？",
+      "title_zh": "Are E-Scooters More Dangerous Than Motorcycles and Bicycles?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3204,7 +3092,7 @@
     {
       "category": "權威期刊",
       "title_en": "GLP-1 Drugs Linked to Lower Fracture Risk in People With Type 2 Diabetes.",
-      "title_zh": "与降低2型糖尿病患者骨折风险相关的GLP-1药物",
+      "title_zh": "GLP-1 Drugs Linked to Lower Fracture Risk in People With Type 2 Diabetes.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3220,7 +3108,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA Approves First Freeze-Dried Plasma Product in the US.",
-      "title_zh": "FDA批准美国首款冷冻干燥血浆产品。",
+      "title_zh": "FDA Approves First Freeze-Dried Plasma Product in the US.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3252,7 +3140,7 @@
     {
       "category": "權威期刊",
       "title_en": "AAP, ACOG Speak Out Against Executive Order.",
-      "title_zh": "AAP ， ACOG反对行政命令。",
+      "title_zh": "AAP, ACOG Speak Out Against Executive Order.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3268,7 +3156,7 @@
     {
       "category": "權威期刊",
       "title_en": "A Seismic Shift From Animal to \"Human-Based\" Research Is Underway-Here's What to Know About Organoids.",
-      "title_zh": "从动物到“人为”研究的地震转变正在进行中-以下是关于类器官的知识。",
+      "title_zh": "A Seismic Shift From Animal to \"Human-Based\" Research Is Underway-Here's What to Know About Organoids.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3300,7 +3188,7 @@
     {
       "category": "權威期刊",
       "title_en": "GLP-1s-From Gut Hormone Discovery to a Public Health Revolution: A Healthy Dialogue With Jens Juul Holst and Lotte Bjerre Knudsen.",
-      "title_zh": "GLP-1s-从肠道激素的发现到公共卫生革命：与Jens Juul Holst和Lotte Bjerre Knudsen的健康对话。",
+      "title_zh": "GLP-1s-From Gut Hormone Discovery to a Public Health Revolution: A Healthy Dialogue With Jens Juul Holst and Lotte Bjerre Knudsen.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3332,7 +3220,7 @@
     {
       "category": "權威期刊",
       "title_en": "The Original \"Yes\".",
-      "title_zh": "最初的“是”。",
+      "title_zh": "The Original \"Yes\".",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3348,7 +3236,7 @@
     {
       "category": "權威期刊",
       "title_en": "Intra-Arterial Alteplase After Successful Thrombectomy for Acute Ischemic Stroke.",
-      "title_zh": "血栓切除术成功后动脉内阿替普酶治疗急性缺血性卒中。",
+      "title_zh": "Intra-Arterial Alteplase After Successful Thrombectomy for Acute Ischemic Stroke.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3364,7 +3252,7 @@
     {
       "category": "權威期刊",
       "title_en": "Resurgence of Malaria in Ethiopia.",
-      "title_zh": "疟疾在埃塞俄比亚的复苏。",
+      "title_zh": "Resurgence of Malaria in Ethiopia.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3380,7 +3268,7 @@
     {
       "category": "權威期刊",
       "title_en": "Is Life Worth Saving?",
-      "title_zh": "生命值得拯救吗？",
+      "title_zh": "Is Life Worth Saving?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3389,6 +3277,118 @@
       "date": "2026-08-02",
       "authors": "",
       "doi": "10.1001/jama.2025.16042",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Salmonella: Vulnerable people should avoid runny eggs when dining out, officials say.",
+      "title_zh": "Salmonella: Vulnerable people should avoid runny eggs when dining out, officials say.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 21; 394():e100641",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42629002/",
+      "date": "2026-08-02",
+      "authors": "Baraniuk C",
+      "doi": "10.1136/bmj-2026-100641",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Diagnosis and management of acute hyperkalaemia.",
+      "title_zh": "Diagnosis and management of acute hyperkalaemia.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 21; 394():e100287",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42629001/",
+      "date": "2026-08-02",
+      "authors": "Rech MA, Zimmerman DE, Ray L, Desai D, Hoffman JW",
+      "doi": "10.1136/bmj-2026-100287",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Moderna's new mRNA melanoma jab is making headlines, but experts urge caution.",
+      "title_zh": "Moderna's new mRNA melanoma jab is making headlines, but experts urge caution.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 21; 394():e100640",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42628999/",
+      "date": "2026-08-02",
+      "authors": "Baraniuk C",
+      "doi": "10.1136/bmj-2026-100640",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Weekly type 2 diabetes insulin jab approved by NICE.",
+      "title_zh": "Weekly type 2 diabetes insulin jab approved by NICE.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 21; 394():e100631",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42628998/",
+      "date": "2026-08-02",
+      "authors": "Iacobucci G",
+      "doi": "10.1136/bmj-2026-100631",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Why Trump's order to split MMR vaccine is costly and dangerous.",
+      "title_zh": "Why Trump's order to split MMR vaccine is costly and dangerous.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 21; 394():e100632",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42628997/",
+      "date": "2026-08-02",
+      "authors": "Brown C",
+      "doi": "10.1136/bmj-2026-100632",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Evidence based medicine is surprisingly new-and doesn't have all the answers.",
+      "title_zh": "Evidence based medicine is surprisingly new-and doesn't have all the answers.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 21; 394():e100620",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42628985/",
+      "date": "2026-08-02",
+      "authors": "Looi MK",
+      "doi": "10.1136/bmj-2026-100620",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The Great ADHD Myth: What you need to know about Channel 4's \"most controversial show of the year\".",
+      "title_zh": "The Great ADHD Myth: What you need to know about Channel 4's \"most controversial show of the year\".",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Aug 21; 394():e100637",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42628983/",
+      "date": "2026-08-02",
+      "authors": "Feinmann J",
+      "doi": "10.1136/bmj-2026-100637",
       "departments": [
         "綜合"
       ]
@@ -3549,6 +3549,86 @@
       "date": "2026-08-02",
       "authors": "Mabhaudhi T",
       "doi": "10.1136/bmj-2026-100609",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Dysregulated adult hippocampal neurogenesis in major depressive disorders.",
+      "title_zh": "Dysregulated adult hippocampal neurogenesis in major depressive disorders.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 21; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42629468/",
+      "date": "2026-08-02",
+      "authors": "Peng MS, Jiang J, Polizzi L, Shi T, Ramkumar R",
+      "doi": "10.1038/s41591-026-04571-8",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Putting epigenetic aging clocks on trial.",
+      "title_zh": "Putting epigenetic aging clocks on trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 21; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42629467/",
+      "date": "2026-08-02",
+      "authors": "Horvath S",
+      "doi": "10.1038/s41591-026-04524-1",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Responsiveness of epigenetic aging biomarkers to longevity interventions in humans.",
+      "title_zh": "Responsiveness of epigenetic aging biomarkers to longevity interventions in humans.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 21; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42629466/",
+      "date": "2026-08-02",
+      "authors": "Sehgal R, Borrus D, Armstrong JF, Gonzalez J, Kasamoto J",
+      "doi": "10.1038/s41591-026-04562-9",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Can traditional medicines go mainstream?",
+      "title_zh": "Can traditional medicines go mainstream?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 21; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42629465/",
+      "date": "2026-08-02",
+      "authors": "Deighton B",
+      "doi": "10.1038/s41591-026-04588-z",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The trials of translating psilocybin treatment from research to practice.",
+      "title_zh": "The trials of translating psilocybin treatment from research to practice.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 21; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42629464/",
+      "date": "2026-08-02",
+      "authors": "Galindo L, Ragnhildstveit A, Illingworth BJG",
+      "doi": "10.1038/s41591-026-04597-y",
       "departments": [
         "綜合"
       ]
@@ -5076,7 +5156,7 @@
     {
       "category": "權威期刊",
       "title_en": "Arginine Therapy for Sickle Cell Disease Acute Pain Episodes: The STArT Randomized Clinical Trial.",
-      "title_zh": "精氨酸治疗镰状细胞病急性疼痛发作： STArT随机临床试验。",
+      "title_zh": "Arginine Therapy for Sickle Cell Disease Acute Pain Episodes: The STArT Randomized Clinical Trial.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -5108,7 +5188,7 @@
     {
       "category": "權威期刊",
       "title_en": "Arginine Treatment and Sickle Cell Disease Pain-A Great STArT, but a Hard End Point.",
-      "title_zh": "精氨酸治疗和镰状细胞病疼痛-一个伟大的STArT ，但一个硬终点。",
+      "title_zh": "Arginine Treatment and Sickle Cell Disease Pain-A Great STArT, but a Hard End Point.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -5172,7 +5252,7 @@
     {
       "category": "權威期刊",
       "title_en": "HIV Status Exclusion in Sickle Cell Gene Therapy.",
-      "title_zh": "镰状细胞基因治疗中的HIV状态排除。",
+      "title_zh": "HIV Status Exclusion in Sickle Cell Gene Therapy.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -5188,7 +5268,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA Approves Gene Therapy for Younger Children With Sickle Cell Disease.",
-      "title_zh": "FDA批准对患有镰状细胞病的年轻儿童进行基因治疗。",
+      "title_zh": "FDA Approves Gene Therapy for Younger Children With Sickle Cell Disease.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -8557,86 +8637,6 @@
       "date": "2026-07-02",
       "authors": "Cao Z, Luo Y, Jiao L, Chen W, Prettner K",
       "doi": "10.1038/s41591-026-04548-7",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Toward a test of medical AI superintelligence.",
-      "title_zh": "Toward a test of medical AI superintelligence.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jul 27; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42509372/",
-      "date": "2026-07-02",
-      "authors": "Goh E, Wu D, Walton C, McCoy LG, Perez A",
-      "doi": "10.1038/s41591-026-04539-8",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS.",
-      "title_zh": "Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jul 27; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42509371/",
-      "date": "2026-07-02",
-      "authors": "Ran X, Wuu J, Qin ZS, McDermott MP, Cooper-Knock J",
-      "doi": "10.1038/s41591-026-04528-x",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "AI-based clinician decision support system for diagnosis of inherited retinal diseases: a multicenter, randomized trial.",
-      "title_zh": "AI-based clinician decision support system for diagnosis of inherited retinal diseases: a multicenter, randomized trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jul 24; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42498742/",
-      "date": "2026-07-02",
-      "authors": "Jia H, Qian B, Qu Y, Wang J, Chen J",
-      "doi": "10.1038/s41591-026-04545-w",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Author Correction: Multi-antigen-targeting T cells in pediatric central nervous system tumors: a phase 1 trial.",
-      "title_zh": "Author Correction: Multi-antigen-targeting T cells in pediatric central nervous system tumors: a phase 1 trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jul 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42487062/",
-      "date": "2026-07-02",
-      "authors": "Gomez S, DiCioccio RA, Geiger AE, Grant ML, Reynolds E",
-      "doi": "10.1038/s41591-026-04593-2",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Governing the social production of care: the hidden foundation of health systems.",
-      "title_zh": "Governing the social production of care: the hidden foundation of health systems.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Jul 22; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42487060/",
-      "date": "2026-07-02",
-      "authors": "Occhipinti JA, Prodan A, Buchanan J, Martin M, Khalatbari-Soltani S",
-      "doi": "10.1038/s41591-026-04535-y",
       "departments": [
         "綜合"
       ]

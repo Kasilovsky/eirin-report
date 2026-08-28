@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "articles": [
     {
       "category": "權威期刊",
@@ -564,7 +564,7 @@
     {
       "category": "權威期刊",
       "title_en": "Left Ventricular Unloading in High-Risk PCI.",
-      "title_zh": "高风险PCI中的左心室卸载。",
+      "title_zh": "Left Ventricular Unloading in High-Risk PCI.",
       "summary_en": "",
       "summary_zh": "",
       "source": "N Engl J Med",
@@ -1764,7 +1764,7 @@
     {
       "category": "權威期刊",
       "title_en": "Case 24-2026: A 74-Year-Old Man with Dyspnea, Proximal Muscle Weakness, and Hypoxemia.",
-      "title_zh": "病例24-2026 ：一名74岁的男性，患有呼吸困难、近端肌肉无力和低氧血症。",
+      "title_zh": "Case 24-2026: A 74-Year-Old Man with Dyspnea, Proximal Muscle Weakness, and Hypoxemia.",
       "summary_en": "",
       "summary_zh": "",
       "source": "N Engl J Med",
@@ -2504,11 +2504,11 @@
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 21; ():",
+      "citation": "Lancet. 2026 Aug 29; 408(10557):833-846",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42628554/",
       "date": "2026-08-02",
       "authors": "Silverberg JI, Rosmarin D, Bieber T, Chovatiya R, Gooderham M",
-      "doi": "",
+      "doi": "10.1016/S0140-6736(26)01143-8",
       "departments": [
         "綜合"
       ]
@@ -2520,11 +2520,11 @@
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 21; ():",
+      "citation": "Lancet. 2026 Aug 29; 408(10557):768-770",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42628553/",
       "date": "2026-08-02",
       "authors": "Valenzuela F, Munoz MD",
-      "doi": "",
+      "doi": "10.1016/S0140-6736(26)01242-0",
       "departments": [
         "綜合"
       ]
@@ -2627,6 +2627,166 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Communities and civil society as essential partners in Ebola response.",
+      "title_zh": "社区和民间社会是应对埃博拉的重要合作伙伴。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Aug 29; 408(10557):770-772",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42612659/",
+      "date": "2026-08-02",
+      "authors": "Pellecchia U, Fouqueray E, Verschuere J, Baidjoe A, Métrailler F",
+      "doi": "10.1016/S0140-6736(26)01606-5",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Belzutifan plus lenvatinib versus cabozantinib in patients with previously treated advanced renal cell carcinoma (LITESPARK-011): an open-label, randomised, controlled, phase 3 trial.",
+      "title_zh": "在既往接受过治疗的晚期肾细胞癌患者（ LITESPARK-011 ）中，贝珠替尼加lenvatinib对比cabozantinib ：一项标签开放、随机、对照的3期试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Aug 29; 408(10557):808-820",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42586114/",
+      "date": "2026-08-02",
+      "authors": "Motzer RJ, McDermott R, Park SH, Burotto M, Iacovelli R",
+      "doi": "10.1016/S0140-6736(26)01089-5",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Switch to once-weekly, single-tablet islatravir-lenacapavir from daily standard of care for HIV-1 (ISLEND-2): a multicentre, randomised, open-label, active-controlled, phase 3 non-inferiority trial.",
+      "title_zh": "从HIV-1 （ ISLEND-2 ）的日常标准治疗改为每周一次的单片伊斯拉曲韦-来那卡帕韦：一项多中心、随机、开放标签、活性对照、3期非劣效性试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Aug 29; 408(10557):821-832",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42586113/",
+      "date": "2026-08-02",
+      "authors": "Colson AE, Kumar PN, Ruane PJ, Chetchotisakd P, Ratanasuwan W",
+      "doi": "10.1016/S0140-6736(26)01442-X",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Redefining therapy for previously treated renal cell carcinoma.",
+      "title_zh": "Redefining therapy for previously treated renal cell carcinoma.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Aug 29; 408(10557):764-766",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42586112/",
+      "date": "2026-08-02",
+      "authors": "McKay RR",
+      "doi": "10.1016/S0140-6736(26)01246-8",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Once-weekly oral antiretroviral therapy for HIV.",
+      "title_zh": "每周一次的HIV口服抗逆转录病毒治疗。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Aug 29; 408(10557):766-768",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42586111/",
+      "date": "2026-08-02",
+      "authors": "Del Mar Arcos M, Arribas JR",
+      "doi": "10.1016/S0140-6736(26)01557-6",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "ADVOCATing for Patients With Heart Failure.",
+      "title_zh": "心力衰竭患者的ADVOCATing。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 27; ():e2612837",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42658547/",
+      "date": "2026-08-02",
+      "authors": "Perlis R",
+      "doi": "10.1001/jama.2026.12837",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Parental Support Package for Pregnant and Postpartum Trainees.",
+      "title_zh": "Parental Support Package for Pregnant and Postpartum Trainees.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 27; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42658543/",
+      "date": "2026-08-02",
+      "authors": "Patek K, Windrim C, Leavitt J",
+      "doi": "10.1001/jama.2026.13706",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Nomenclature.",
+      "title_zh": "命名法",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 27; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42658537/",
+      "date": "2026-08-02",
+      "authors": "Burns LP",
+      "doi": "10.1001/jama.2026.14248",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Parental Support Package for Pregnant and Postpartum Trainees-Reply.",
+      "title_zh": "Parental Support Package for Pregnant and Postpartum Trainees-Reply.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 27; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42658535/",
+      "date": "2026-08-02",
+      "authors": "Rangel EL, Shanafelt TD",
+      "doi": "10.1001/jama.2026.13709",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Foreign Letters: London.",
+      "title_zh": "Foreign Letters: London.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 27; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42658509/",
+      "date": "2026-08-02",
+      "authors": "",
+      "doi": "10.1001/jama.2025.16050",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "What Is a Hip Fracture?",
       "title_zh": "什么是髋部骨折？",
       "summary_en": "",
@@ -2717,38 +2877,6 @@
       "date": "2026-08-02",
       "authors": "Huang X, Petito LC, Allen NB, Blankstein R, Blumenthal RS",
       "doi": "10.1001/jama.2026.13233",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The Hole.",
-      "title_zh": "洞。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42646925/",
-      "date": "2026-08-02",
-      "authors": "Murdock A",
-      "doi": "10.1001/jama.2026.8362",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "\"The Hole\": Poetry Like a Gunshot Wound.",
-      "title_zh": "“The Hole” ：像枪伤一样的诗歌。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 26; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42646905/",
-      "date": "2026-08-02",
-      "authors": "Campo R",
-      "doi": "10.1001/jama.2026.8365",
       "departments": [
         "綜合"
       ]
@@ -3060,7 +3188,7 @@
     {
       "category": "權威期刊",
       "title_en": "Evolocumab and Cardiovascular Events in Patients With Diabetes Without Known Significant Atherosclerosis.",
-      "title_zh": "无已知显著动脉粥样硬化的糖尿病患者中的Evolocumab和心血管事件。",
+      "title_zh": "Evolocumab and Cardiovascular Events in Patients With Diabetes Without Known Significant Atherosclerosis.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4483,8 +4611,8 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Dysregulated adult hippocampal neurogenesis in major depressive disorders.",
-      "title_zh": "Dysregulated adult hippocampal neurogenesis in major depressive disorders.",
+      "title_en": "Dysregulated adult hippocampal neurogenesis in major depressive disorder.",
+      "title_zh": "Dysregulated adult hippocampal neurogenesis in major depressive disorder.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Nature Medicine",
@@ -5332,7 +5460,7 @@
     {
       "category": "權威期刊",
       "title_en": "Case 23-2026: A 28-Year-Old Woman with Nausea, Dizziness, and Metabolic Acidosis.",
-      "title_zh": "病例23-2026 ：一名患有恶心、头晕和代谢性酸中毒的28岁女性。",
+      "title_zh": "Case 23-2026: A 28-Year-Old Woman with Nausea, Dizziness, and Metabolic Acidosis.",
       "summary_en": "",
       "summary_zh": "",
       "source": "N Engl J Med",
@@ -5660,22 +5788,6 @@
       "link": "https://pubmed.ncbi.nlm.nih.gov/42612660/",
       "date": "2026-08-01",
       "authors": "Allotey P, Fogstad H, Bunting J, Khosla R, Langlois É",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Communities and civil society as essential partners in Ebola response.",
-      "title_zh": "社区和民间社会是应对埃博拉的重要合作伙伴。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 18; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42612659/",
-      "date": "2026-08-01",
-      "authors": "Pellecchia U, Fouqueray E, Verschuere J, Baidjoe A, Métrailler F",
       "doi": "",
       "departments": [
         "綜合"
@@ -6109,70 +6221,6 @@
       "date": "2026-08-01",
       "authors": "Vaglio A, Peyronel F, Bajema IM, Pegoraro F",
       "doi": "10.1016/S0140-6736(26)00037-1",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Belzutifan plus lenvatinib versus cabozantinib in patients with previously treated advanced renal cell carcinoma (LITESPARK-011): an open-label, randomised, controlled, phase 3 trial.",
-      "title_zh": "在既往接受过治疗的晚期肾细胞癌患者（ LITESPARK-011 ）中，贝珠替尼加lenvatinib对比cabozantinib ：一项标签开放、随机、对照的3期试验。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 12; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42586114/",
-      "date": "2026-08-01",
-      "authors": "Motzer RJ, McDermott R, Park SH, Burotto M, Iacovelli R",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Switch to once-weekly, single-tablet islatravir-lenacapavir from daily standard of care for HIV-1 (ISLEND-2): a multicentre, randomised, open-label, active-controlled, phase 3 non-inferiority trial.",
-      "title_zh": "从HIV-1 （ ISLEND-2 ）的日常标准治疗改为每周一次的单片伊斯拉曲韦-来那卡帕韦：一项多中心、随机、开放标签、活性对照、3期非劣效性试验。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 12; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42586113/",
-      "date": "2026-08-01",
-      "authors": "Colson AE, Kumar PN, Ruane PJ, Chetchotisakd P, Ratanasuwan W",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Redefining therapy for previously treated renal cell carcinoma.",
-      "title_zh": "Redefining therapy for previously treated renal cell carcinoma.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 12; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42586112/",
-      "date": "2026-08-01",
-      "authors": "McKay RR",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Once-weekly oral antiretroviral therapy for HIV.",
-      "title_zh": "每周一次的HIV口服抗逆转录病毒治疗。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 12; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42586111/",
-      "date": "2026-08-01",
-      "authors": "Del Mar Arcos M, Arribas JR",
-      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -6717,54 +6765,6 @@
       "date": "2026-08-01",
       "authors": "Taglienti J",
       "doi": "10.1001/jama.2026.10977",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Lead Exposure and the Coronary Heart Disease Epidemic-Reply.",
-      "title_zh": "Lead Exposure and the Coronary Heart Disease Epidemic-Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):613-614",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42461639/",
-      "date": "2026-08-01",
-      "authors": "Lanphear BP",
-      "doi": "10.1001/jama.2026.9344",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Tumor Debulking Plus Chemotherapy for Multiorgan Metastatic Colorectal Cancer-Reply.",
-      "title_zh": "Tumor Debulking Plus Chemotherapy for Multiorgan Metastatic Colorectal Cancer-Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):612-613",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42455548/",
-      "date": "2026-08-01",
-      "authors": "Adhin AA, Verhoef C, Verheul HMW",
-      "doi": "10.1001/jama.2026.8955",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Tumor Debulking Plus Chemotherapy for Multiorgan Metastatic Colorectal Cancer.",
-      "title_zh": "Tumor Debulking Plus Chemotherapy for Multiorgan Metastatic Colorectal Cancer.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):611",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42455538/",
-      "date": "2026-08-01",
-      "authors": "Adam R, Matsumoto T, Allard MA",
-      "doi": "10.1001/jama.2026.8952",
       "departments": [
         "綜合"
       ]

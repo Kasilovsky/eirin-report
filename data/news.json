@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "articles": [
     {
       "category": "權威期刊",
@@ -1731,6 +1731,22 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Safety and efficacy of the 0/1 h pathway for myocardial infarction in the emergency department: an international, pragmatic, stepped-wedge, cluster-randomised, controlled trial.",
+      "title_zh": "Safety and efficacy of the 0/1 h pathway for myocardial infarction in the emergency department: an international, pragmatic, stepped-wedge, cluster-randomised, controlled trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Aug 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42667934/",
+      "date": "2026-08-02",
+      "authors": "Boeddinghaus J, Bima P, Crisanti L, Keller DI, Slankamenac K",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Systematic reviews and the needs of the adolescent transgender health care field.",
       "title_zh": "Systematic reviews and the needs of the adolescent transgender health care field.",
       "summary_en": "",
@@ -2883,6 +2899,134 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Small Gains but Persistent Gaps in Statin Adherence.",
+      "title_zh": "他汀类药物依从性增益小，但持续存在差距。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42667614/",
+      "date": "2026-08-02",
+      "authors": "Laffin LJ",
+      "doi": "10.1001/jama.2026.16551",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Digital Outreach to Improve Statin Refills in Patients With Low Statin Adherence: The ADHERE-ASCVD Randomized Clinical Trial.",
+      "title_zh": "改善他汀类药物低依从性患者他汀类药物补充的数字外展： ADHERE-ASCVD随机临床试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42667613/",
+      "date": "2026-08-02",
+      "authors": "Bhatt AS, Liu VX, Sun B, Apostol-Largeteau M, Marafino BJ",
+      "doi": "10.1001/jama.2026.16372",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Digital Outreach to Improve Statin Refills in Patients With Low Statin Adherence: Research Summary.",
+      "title_zh": "改善他汀类药物低依从性患者他汀类药物补充的数字外展：研究总结。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 29; ():e2617092",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42667612/",
+      "date": "2026-08-02",
+      "authors": "",
+      "doi": "10.1001/jama.2026.17092",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Pulmonary Vein Isolation Using Pulsed Field Ablation With vs Without Posterior Wall Isolation in Patients With Symptomatic Persistent Atrial Fibrillation: The PIFPAF-PFA Randomized Clinical Trial.",
+      "title_zh": "Pulmonary Vein Isolation Using Pulsed Field Ablation With vs Without Posterior Wall Isolation in Patients With Symptomatic Persistent Atrial Fibrillation: The PIFPAF-PFA Randomized Clinical Trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42667231/",
+      "date": "2026-08-02",
+      "authors": "Roten L, Maurhofer J, Krisai P, Breitenstein A, Koepfli P",
+      "doi": "10.1001/jama.2026.17598",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Pulmonary Vein Isolation Using Pulsed Field Ablation With vs Without Posterior Wall Isolation in Patients With Symptomatic Persistent Atrial Fibrillation: Research Summary.",
+      "title_zh": "Pulmonary Vein Isolation Using Pulsed Field Ablation With vs Without Posterior Wall Isolation in Patients With Symptomatic Persistent Atrial Fibrillation: Research Summary.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 29; ():e2617671",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42667228/",
+      "date": "2026-08-02",
+      "authors": "",
+      "doi": "10.1001/jama.2026.17671",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "LDL Cholesterol Lowering With Evolocumab Before Percutaneous Coronary Intervention for Acute Myocardial Infarction: Research Summary.",
+      "title_zh": "在经皮冠状动脉介入治疗急性心肌梗死之前使用Evolocumab降低LDL胆固醇：研究总结。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 29; ():e2617421",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42666096/",
+      "date": "2026-08-02",
+      "authors": "",
+      "doi": "10.1001/jama.2026.17421",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "LDL Cholesterol Lowering With Evolocumab Before Percutaneous Coronary Intervention for Acute Myocardial Infarction: The AMUNDSEN Randomized Clinical Trial.",
+      "title_zh": "在经皮冠状动脉介入治疗急性心肌梗死之前使用Evolocumab降低LDL胆固醇：阿蒙森随机临床试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42666092/",
+      "date": "2026-08-02",
+      "authors": "Montalescot G, Ferrari E, Souteyrand G, Bouleti C, Range G",
+      "doi": "10.1001/jama.2026.17302",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "A Marathon, Not a Sprint-AMUNDSEN and LDL-C Lowering After Myocardial Infarction.",
+      "title_zh": "心肌梗死后马拉松，而不是冲刺-AMUNDSEN和LDL-C降低。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Aug 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42666085/",
+      "date": "2026-08-02",
+      "authors": "Ray KK, Stevens CAT",
+      "doi": "10.1001/jama.2026.16837",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Measles in the Americas 3 Times Higher Than in All of 2025, PAHO Warns.",
       "title_zh": "泛美卫生组织警告说，美洲的麻疹比2025年全年高出3倍。",
       "summary_en": "",
@@ -2964,7 +3108,7 @@
     {
       "category": "權威期刊",
       "title_en": "Electrocardiogram-Based Deep Learning to Prioritize Testing for Transthyretin Amyloid Cardiomyopathy.",
-      "title_zh": "基于心电图的深度学习，优先考虑甲状腺素蛋白转运蛋白淀粉样心肌病的检测。",
+      "title_zh": "Electrocardiogram-Based Deep Learning to Prioritize Testing for Transthyretin Amyloid Cardiomyopathy.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2980,7 +3124,7 @@
     {
       "category": "權威期刊",
       "title_en": "Cardiovascular Magnetic Resonance to Guide Defibrillator Implantation for LVEF of 36% to 50%: The CMR GUIDE Randomized Clinical Trial.",
-      "title_zh": "36%至50%左心室射血分数的心血管磁共振引导除颤器植入： CMR GUIDE随机临床试验。",
+      "title_zh": "Cardiovascular Magnetic Resonance to Guide Defibrillator Implantation for LVEF of 36% to 50%: The CMR GUIDE Randomized Clinical Trial.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3028,7 +3172,7 @@
     {
       "category": "權威期刊",
       "title_en": "ADVOCATing for Patients With Heart Failure.",
-      "title_zh": "心力衰竭患者的ADVOCATing。",
+      "title_zh": "ADVOCATing for Patients With Heart Failure.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3060,7 +3204,7 @@
     {
       "category": "權威期刊",
       "title_en": "Nomenclature.",
-      "title_zh": "命名法",
+      "title_zh": "Nomenclature.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -5155,6 +5299,38 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "What 5-year-old brain organoids can teach us.",
+      "title_zh": "What 5-year-old brain organoids can teach us.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 28; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42665637/",
+      "date": "2026-08-02",
+      "authors": "O'Leary K",
+      "doi": "10.1038/d41591-026-00044-0",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "London's clean air zone benefits child health.",
+      "title_zh": "London's clean air zone benefits child health.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Aug 28; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42665636/",
+      "date": "2026-08-02",
+      "authors": "O'Leary K",
+      "doi": "10.1038/d41591-026-00043-1",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Scaling rapid whole-genome sequencing for critical pediatric care in the Middle East.",
       "title_zh": "Scaling rapid whole-genome sequencing for critical pediatric care in the Middle East.",
       "summary_en": "",
@@ -6899,22 +7075,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Embracing neurodiversity in medicine: insights from the history of psychiatry.",
-      "title_zh": "Embracing neurodiversity in medicine: insights from the history of psychiatry.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 15; 408(10555):596-597",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42456690/",
-      "date": "2026-08-01",
-      "authors": "Doherty M, Shaw SCK, Chaplin E, Baron-Cohen S",
-      "doi": "10.1016/S0140-6736(26)01422-4",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Review of Prepregnancy Care and Counseling.",
       "title_zh": "Review of Prepregnancy Care and Counseling.",
       "summary_en": "",
@@ -7165,134 +7325,6 @@
       "date": "2026-08-01",
       "authors": "Schweitzer K",
       "doi": "10.1001/jama.2026.13202",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "US Death Rates Reach All-Time Low in 2025.",
-      "title_zh": "US Death Rates Reach All-Time Low in 2025.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):539",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42496984/",
-      "date": "2026-08-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.9485",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Metals Found in Tampons Within Margin of Safety, FDA Study Finds.",
-      "title_zh": "Metals Found in Tampons Within Margin of Safety, FDA Study Finds.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):540",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42496982/",
-      "date": "2026-08-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.9489",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
-      "title_zh": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):539",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42496971/",
-      "date": "2026-08-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.9487",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "How Generative AI Should Transform Clinical Decision Support.",
-      "title_zh": "How Generative AI Should Transform Clinical Decision Support.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):543-546",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42490104/",
-      "date": "2026-08-01",
-      "authors": "Liu S, Peterson JF, Wright A",
-      "doi": "10.1001/jama.2026.13187",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Gastroparesis: A Review.",
-      "title_zh": "Gastroparesis: A Review.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):587-602",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42485161/",
-      "date": "2026-08-01",
-      "authors": "Camilleri M",
-      "doi": "10.1001/jama.2026.12181",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Prevalence of LDL-C Above 2026 Dyslipidemia Guideline Goals Among US Adults.",
-      "title_zh": "Prevalence of LDL-C Above 2026 Dyslipidemia Guideline Goals Among US Adults.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):605-608",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42475109/",
-      "date": "2026-08-01",
-      "authors": "Abohashem S, Martin SS, Hassan I, Mora S, Taub PR",
-      "doi": "10.1001/jama.2026.10529",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "New Dyslipidemia Guidelines Lower the Lipid Treatment Goals and Raise the Bar for Clinical Practice.",
-      "title_zh": "New Dyslipidemia Guidelines Lower the Lipid Treatment Goals and Raise the Bar for Clinical Practice.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):549-550",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42475090/",
-      "date": "2026-08-01",
-      "authors": "Greenland P, Lasser KE",
-      "doi": "10.1001/jama.2026.11091",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Cardiovascular Risk Reclassification With the 2026 Dyslipidemia Guideline.",
-      "title_zh": "Cardiovascular Risk Reclassification With the 2026 Dyslipidemia Guideline.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Aug 18; 336(7):608-611",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42475087/",
-      "date": "2026-08-01",
-      "authors": "Peng AW, Zahid S, Zhang S, Bhatla A, Martin SS",
-      "doi": "10.1001/jama.2026.11152",
       "departments": [
         "綜合"
       ]
@@ -11053,38 +11085,6 @@
       "date": "",
       "authors": "Ngongo N, Fallah MP, Dereje N, Boum Y, Kaseya J",
       "doi": "10.1038/s41591-026-04482-8",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Survodutide in adults with obesity and metabolic dysfunction-associated steatotic liver disease: SYNCHRONIZE-MASLD, a randomized, double-blind, placebo-controlled phase 3 trial.",
-      "title_zh": "Survodutide in adults with obesity and metabolic dysfunction-associated steatotic liver disease: SYNCHRONIZE-MASLD, a randomized, double-blind, placebo-controlled phase 3 trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Aug; 32(8):2948-2958",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42252333/",
-      "date": "",
-      "authors": "Kaplan LM, Startseva E, le Roux CW, Wharton S, Bozkurt B",
-      "doi": "10.1038/s41591-026-04479-3",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Oral small molecule GLP-1 receptor agonist aleniglipron in people with overweight or obesity: a randomized, double-blind, placebo-controlled phase 2b trial.",
-      "title_zh": "Oral small molecule GLP-1 receptor agonist aleniglipron in people with overweight or obesity: a randomized, double-blind, placebo-controlled phase 2b trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Aug; 32(8):2941-2947",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42249138/",
-      "date": "",
-      "authors": "Rosenstock J, Lingvay I, Ryan D, Jastreboff AM, Kushner R",
-      "doi": "10.1038/s41591-026-04476-6",
       "departments": [
         "綜合"
       ]

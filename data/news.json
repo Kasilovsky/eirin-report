@@ -1,6 +1,38 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "articles": [
+    {
+      "category": "權威期刊",
+      "title_en": "Induction and consolidation atezolizumab with stereotactic body radiation therapy versus radiation alone in high-risk, early-stage non-small-cell lung cancer (SWOG/NRG S1914): a multicentre, open-label, superiority, phase 3, randomised controlled trial.",
+      "title_zh": "在高风险、早期非小细胞肺癌（ SWOG/NRG S1914 ）中，诱导和巩固阿特珠单抗联合立体定向全身放疗与单纯放疗（ SWOG/NRG S1914 ） ：一项多中心、标签开放、优越性、3期、随机对照试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Sep 6; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42702214/",
+      "date": "2026-09-06",
+      "authors": "Daly ME, Simone CB 2nd, Redman MW, Hsieh MH, Hesketh PJ",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The changing therapeutic landscape of small-cell lung cancer.",
+      "title_zh": "The changing therapeutic landscape of small-cell lung cancer.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Sep 6; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42702213/",
+      "date": "2026-09-06",
+      "authors": "Ross JS, Hockemeyer KG, Redin E, Rudin CM",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
     {
       "category": "權威期刊",
       "title_en": "Liposuction versus conservative therapy for patients with lipoedema in Germany: a multicentre, randomised controlled clinical trial.",
@@ -1956,7 +1988,7 @@
     {
       "category": "權威期刊",
       "title_en": "Tucidinostat Plus R-CHOP vs R-CHOP Alone in Large B-Cell Lymphoma.",
-      "title_zh": "在大B细胞淋巴瘤中， Tucidinostat Plus R-CHOP vs R-CHOP Alone。",
+      "title_zh": "Tucidinostat Plus R-CHOP vs R-CHOP Alone in Large B-Cell Lymphoma.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1972,7 +2004,7 @@
     {
       "category": "權威期刊",
       "title_en": "COVID-19 Vaccine Effectiveness and Safety for the 2026-2027 Respiratory Season.",
-      "title_zh": "2026-2027年呼吸季节的COVID-19疫苗有效性和安全性。",
+      "title_zh": "COVID-19 Vaccine Effectiveness and Safety for the 2026-2027 Respiratory Season.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -5997,38 +6029,6 @@
       "date": "2026-08-02",
       "authors": "Forner A",
       "doi": "10.1016/S0140-6736(26)01653-3",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Attacks on LGBTQ+ health are a threat to all.",
-      "title_zh": "对LGBTQ +健康的攻击是对所有人的威胁。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 22; 408(10556):667",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42624136/",
-      "date": "2026-08-02",
-      "authors": "The Lancet",
-      "doi": "10.1016/S0140-6736(26)01704-6",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The Lancet Group's new guidance to authors on reporting disability.",
-      "title_zh": "The Lancet Group's new guidance to authors on reporting disability.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 22; 408(10556):679-680",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42607697/",
-      "date": "2026-08-02",
-      "authors": "Wilson C, Banham L, McIntosh K, Lancet Accessibility Taskforce, Mullan Z",
-      "doi": "10.1016/S0140-6736(26)01547-3",
       "departments": [
         "綜合"
       ]

@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "articles": [
     {
       "category": "權威期刊",
@@ -4419,6 +4419,38 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "The US experiments with international reference pricing for prescription drugs.",
+      "title_zh": "The US experiments with international reference pricing for prescription drugs.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Sep 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42732770/",
+      "date": "2026-09-01",
+      "authors": "Ballreich J, Anderson G",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Most-favoured-nation pricing for prescription drugs in US Medicare: a cohort study.",
+      "title_zh": "Most-favoured-nation pricing for prescription drugs in US Medicare: a cohort study.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Sep 13; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42732769/",
+      "date": "2026-09-01",
+      "authors": "Hwang TJ, Hediger S, Krishnan A, Cai CL, Kesselheim AS",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Department of Error.",
       "title_zh": "错误部门。",
       "summary_en": "",
@@ -4964,7 +4996,7 @@
     {
       "category": "權威期刊",
       "title_en": "Loberamisal for Acute Ischemic Stroke: Research Summary.",
-      "title_zh": "Loberamisal治疗急性缺血性卒中：研究总结。",
+      "title_zh": "Loberamisal for Acute Ischemic Stroke: Research Summary.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -8109,38 +8141,6 @@
       "date": "2026-08-02",
       "authors": "McKay RR",
       "doi": "10.1016/S0140-6736(26)01246-8",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Once-weekly oral antiretroviral therapy for HIV.",
-      "title_zh": "每周一次的HIV口服抗逆转录病毒治疗。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 29; 408(10557):766-768",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42586111/",
-      "date": "2026-08-02",
-      "authors": "Del Mar Arcos M, Arribas JR",
-      "doi": "10.1016/S0140-6736(26)01557-6",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "[(177)Lu]Lu-PSMA-617 in metastatic androgen pathway modulator-sensitive prostate cancer.",
-      "title_zh": "[(177) Lu] Lu-PSMA-617在转移性雄激素通路调节剂敏感性前列腺癌中的作用。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 29; 408(10557):762-763",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42561995/",
-      "date": "2026-08-02",
-      "authors": "Gebrael G, Agarwal N",
-      "doi": "10.1016/S0140-6736(26)01231-6",
       "departments": [
         "綜合"
       ]

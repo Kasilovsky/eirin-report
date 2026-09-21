@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "articles": [
     {
       "category": "權威期刊",
@@ -2531,6 +2531,54 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "The NUS-Lancet PRIME Commission: transforming pandemic readiness for equity.",
+      "title_zh": "新加坡国立大学柳叶刀总理委员会（ NUS-Lancet PRIME Commission ） ：改变大流行病对公平的准备",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Sep 20; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42764017/",
+      "date": "2026-09-02",
+      "authors": "Calderón-Larrañaga S, Bakhti R, Etemadi M, Fakih L, Vandeskog HO",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Getting ready for the next pandemic.",
+      "title_zh": "为下一次疫情做好准备。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Sep 20; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42764016/",
+      "date": "2026-09-02",
+      "authors": "The Lancet",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "2026 World Health Summit Academic Alliance Declaration: health and peace in a world in turmoil.",
+      "title_zh": "2026年世界卫生峰会学术联盟宣言：动荡世界中的健康与和平。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Sep 20; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42764015/",
+      "date": "2026-09-02",
+      "authors": "World Health Summit Academic Alliance",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Tabula Sapiens 2.0: A comprehensive transcriptomic atlas of human cell types.",
       "title_zh": "Tabula Sapiens 2.0: A comprehensive transcriptomic atlas of human cell types.",
       "summary_en": "",
@@ -4708,7 +4756,7 @@
     {
       "category": "權威期刊",
       "title_en": "Intrauterine Mepivacaine Instillation vs Placebo for Pain During IUD Placement: A Randomized Clinical Trial.",
-      "title_zh": "Intrauterine Mepivacaine Instillation vs Placebo for Pain During IUD Placement: A Randomized Clinical Trial.",
+      "title_zh": "宫内节育器放置期间宫内注射Mepivacaine vs安慰剂治疗疼痛：一项随机临床试验。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -8467,38 +8515,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Aetiology, management, and outcomes of acute heart failure in 17 African countries (THESUS-HF II): a prospective, multicentre, observational cohort study.",
-      "title_zh": "17个非洲国家急性心力衰竭的病因、治疗和结局（ THESUS-HF II ） ：一项前瞻性、多中心、观察性队列研究。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42669305/",
-      "date": "2026-08-03",
-      "authors": "Sliwa K, Hahnle J, Stewart S, Allie S, Damasceno A",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Acute heart failure in Africa: new causes, unchanged outcomes.",
-      "title_zh": "非洲的急性心力衰竭：新的原因，不变的结果。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42669303/",
-      "date": "2026-08-03",
-      "authors": "Gaye B, Ribeiro ALP, Marijon E",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Short-term effects of combinations of heart failure therapies on blood pressure, kidney function and serum potassium.",
       "title_zh": "Short-term effects of combinations of heart failure therapies on blood pressure, kidney function and serum potassium.",
       "summary_en": "",
@@ -8589,22 +8605,6 @@
       "date": "2026-08-02",
       "authors": "Gibson CM, Steg PG, Bahit MC, Al-Lamee R, Mehta SR",
       "doi": "10.1056/NEJMoa2608717",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Safety and efficacy of the 0/1 h pathway for myocardial infarction in the emergency department: an international, pragmatic, stepped-wedge, cluster-randomised, controlled trial.",
-      "title_zh": "Safety and efficacy of the 0/1 h pathway for myocardial infarction in the emergency department: an international, pragmatic, stepped-wedge, cluster-randomised, controlled trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Aug 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42667934/",
-      "date": "2026-08-02",
-      "authors": "Boeddinghaus J, Bima P, Crisanti L, Keller DI, Slankamenac K",
-      "doi": "",
       "departments": [
         "綜合"
       ]

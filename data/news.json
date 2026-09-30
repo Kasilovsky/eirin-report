@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "articles": [
     {
       "category": "權威期刊",
@@ -13,38 +13,6 @@
       "date": "2026-09-09",
       "authors": "Peyvandi F",
       "doi": "10.1056/NEJMcibr2608873",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "ALIMA: the NGO doing things differently.",
-      "title_zh": "ALIMA ：非政府组织以不同的方式做事。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 9; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42716077/",
-      "date": "2026-09-09",
-      "authors": "Popoviciu A",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The US opioid epidemic at a turning point.",
-      "title_zh": "美国阿片类药物的流行正处于一个转折点。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 9; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42716076/",
-      "date": "2026-09-09",
-      "authors": "Andrews CM, Frank RG",
-      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -1363,6 +1331,54 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "A trembling detour to the diagnosis of encephalitis: a neuroborreliosis case report.",
+      "title_zh": "A trembling detour to the diagnosis of encephalitis: a neuroborreliosis case report.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810373/",
+      "date": "2026-09-02",
+      "authors": "Lindland ES, Frascheri-Verzelli L, Ljøstad U",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Retatrutide in adults with obesity and type 2 diabetes (TRIUMPH-2): a double-blind, parallel-group, randomised, placebo-controlled, phase 3 trial.",
+      "title_zh": "Retatrutide在肥胖和2型糖尿病成人中的应用（ TRIUMPH-2 ） ：一项双盲、平行组、随机、安慰剂对照的3期临床试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810372/",
+      "date": "2026-09-02",
+      "authors": "Bellido V, le Roux CW, Ekinci EI, Bjornstad P, Frias JP",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Declare the climate crisis a Public Health Emergency of International Concern.",
+      "title_zh": "Declare the climate crisis a Public Health Emergency of International Concern.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810371/",
+      "date": "2026-09-02",
+      "authors": "Brink N, Butler R, Machingura F, Chersich M",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "A novel and effective treatment for fibrodysplasia ossificans progressiva.",
       "title_zh": "一种新颖有效的治疗纤维增生异常性骨化进展的治疗方法。",
       "summary_en": "",
@@ -2019,6 +2035,198 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "AI-Powered Clinical Decision Support Tools.",
+      "title_zh": "AI-Powered Clinical Decision Support Tools.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42809303/",
+      "date": "2026-09-02",
+      "authors": "Chi H, Xu J, Deng Y",
+      "doi": "10.1001/jama.2026.15619",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Graduate Medical Education, 2025-2026.",
+      "title_zh": "Graduate Medical Education, 2025-2026.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42809302/",
+      "date": "2026-09-02",
+      "authors": "Andrews JS, Mathews C, Kolli SK",
+      "doi": "10.1001/jama.2026.16570",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "MD-Granting Medical Schools in the US, 2025-2026.",
+      "title_zh": "MD-Granting Medical Schools in the US, 2025-2026.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42809301/",
+      "date": "2026-09-02",
+      "authors": "Barzansky B, Walker F",
+      "doi": "10.1001/jama.2026.16297",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "AI-Powered Clinical Decision Support Tools.",
+      "title_zh": "AI-Powered Clinical Decision Support Tools.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42809300/",
+      "date": "2026-09-02",
+      "authors": "Taitsman JK",
+      "doi": "10.1001/jama.2026.15616",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "AI-Powered Clinical Decision Support Tools-Reply.",
+      "title_zh": "AI-Powered Clinical Decision Support Tools-Reply.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42809299/",
+      "date": "2026-09-02",
+      "authors": "Singh N, Mello MM",
+      "doi": "10.1001/jama.2026.15622",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Undergraduate and Graduate Medical Education in 2025-2026.",
+      "title_zh": "Undergraduate and Graduate Medical Education in 2025-2026.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42809298/",
+      "date": "2026-09-02",
+      "authors": "Brubaker L, Curfman G",
+      "doi": "10.1001/jama.2026.19286",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "AI-Powered Clinical Decision Support Tools.",
+      "title_zh": "AI-Powered Clinical Decision Support Tools.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42809296/",
+      "date": "2026-09-02",
+      "authors": "Ziegelstein RC",
+      "doi": "10.1001/jama.2026.15613",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Errors in Confidence Intervals.",
+      "title_zh": "Errors in Confidence Intervals.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42809295/",
+      "date": "2026-09-02",
+      "authors": "",
+      "doi": "10.1001/jama.2026.20187",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Health Care's Identity Crisis-Is Medicine Still a Profession?",
+      "title_zh": "Health Care's Identity Crisis-Is Medicine Still a Profession?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42809281/",
+      "date": "2026-09-02",
+      "authors": "Sawatsky AP, Leep Hunderfund AN",
+      "doi": "10.1001/jama.2026.17994",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Permissive Blood Pressure Targets in Pediatric Critical Care: Research Summary.",
+      "title_zh": "Permissive Blood Pressure Targets in Pediatric Critical Care: Research Summary.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 28; ():e2620495",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42806507/",
+      "date": "2026-09-02",
+      "authors": "",
+      "doi": "10.1001/jama.2026.20495",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Blood Pressure Targets in Critically Ill Children.",
+      "title_zh": "Blood Pressure Targets in Critically Ill Children.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 28; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42806497/",
+      "date": "2026-09-02",
+      "authors": "Horvat CM, Shaik M, Carcillo J",
+      "doi": "10.1001/jama.2026.20372",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Permissive Blood Pressure Targets in Pediatric Critical Care: The PRESSURE Randomized Clinical Trial.",
+      "title_zh": "Permissive Blood Pressure Targets in Pediatric Critical Care: The PRESSURE Randomized Clinical Trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Sep 28; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42806496/",
+      "date": "2026-09-02",
+      "authors": "Inwald DP, Laing E, Broomhall JM, Viola T, Au C",
+      "doi": "10.1001/jama.2026.19747",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Diagnostic Delays Associated With a Screening Trial of a Multicancer Early Detection Test-Reply.",
       "title_zh": "Diagnostic Delays Associated With a Screening Trial of a Multicancer Early Detection Test-Reply.",
       "summary_en": "",
@@ -2036,7 +2244,7 @@
     {
       "category": "權威期刊",
       "title_en": "Intra-Arterial Tenecteplase After Endovascular Thrombectomy for Acute Stroke: One-Year Outcomes of the ANGEL-TNK Randomized Clinical Trial.",
-      "title_zh": "急性卒中血管内血栓切除术后的动脉内替奈普酶： ANGEL-TNK随机临床试验的一年结局",
+      "title_zh": "Intra-Arterial Tenecteplase After Endovascular Thrombectomy for Acute Stroke: One-Year Outcomes of the ANGEL-TNK Randomized Clinical Trial.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2100,7 +2308,7 @@
     {
       "category": "權威期刊",
       "title_en": "Patents on Small-Molecule Drugs Approved by the US Food and Drug Administration, 1990-2019.",
-      "title_zh": "美国食品药品监督管理局批准的小分子药物专利， 1990-2019年。",
+      "title_zh": "Patents on Small-Molecule Drugs Approved by the US Food and Drug Administration, 1990-2019.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2116,7 +2324,7 @@
     {
       "category": "權威期刊",
       "title_en": "Will Women Physicians Face an AI Gap?",
-      "title_zh": "女性医生是否会面临人工智能差距？",
+      "title_zh": "Will Women Physicians Face an AI Gap?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2164,7 +2372,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA Approves Updated COVID-19 Vaccines for 2026-2027.",
-      "title_zh": "FDA批准2026-2027年更新的COVID-19疫苗。",
+      "title_zh": "FDA Approves Updated COVID-19 Vaccines for 2026-2027.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3203,6 +3411,150 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Researchers with lived experience navigate unique ethical and emotional challenges.",
+      "title_zh": "Researchers with lived experience navigate unique ethical and emotional challenges.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Sep 29; 394():e100983",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810769/",
+      "date": "2026-09-02",
+      "authors": "Beever D, Fong WCG, Clement K, Williams HC",
+      "doi": "10.1136/bmj-2026-100983",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Age bans look decisive but risk weakening better regulation.",
+      "title_zh": "Age bans look decisive but risk weakening better regulation.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Sep 29; 394():e100914",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810768/",
+      "date": "2026-09-02",
+      "authors": "Prakash O",
+      "doi": "10.1136/bmj-2026-100914",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Give adolescents the skills to use social media safely.",
+      "title_zh": "Give adolescents the skills to use social media safely.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Sep 29; 394():e100929",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810766/",
+      "date": "2026-09-02",
+      "authors": "Zhang V, Yuan C",
+      "doi": "10.1136/bmj-2026-100929",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Data centres: Tech companies are putting health and the environment at risk by exploiting regulatory gaps.",
+      "title_zh": "Data centres: Tech companies are putting health and the environment at risk by exploiting regulatory gaps.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Sep 29; 394():e100990",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810765/",
+      "date": "2026-09-02",
+      "authors": "McNamara J",
+      "doi": "10.1136/bmj-2026-100990",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Trump's latest pick for FDA head backs president over vaccines and vapes.",
+      "title_zh": "Trump's latest pick for FDA head backs president over vaccines and vapes.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Sep 29; 394():e100991",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810764/",
+      "date": "2026-09-02",
+      "authors": "Tanne JH",
+      "doi": "10.1136/bmj-2026-100991",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Burnham: New NHS style national care service will be funded by pension reform.",
+      "title_zh": "Burnham: New NHS style national care service will be funded by pension reform.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Sep 29; 394():e100995",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810760/",
+      "date": "2026-09-02",
+      "authors": "Limb M",
+      "doi": "10.1136/bmj-2026-100995",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Recommendations for evaluating a single surrogate endpoint (REASSurE): consensus based, surrogate evaluation framework with explanation and elaboration.",
+      "title_zh": "Recommendations for evaluating a single surrogate endpoint (REASSurE): consensus based, surrogate evaluation framework with explanation and elaboration.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Sep 29; 394():e100618",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810755/",
+      "date": "2026-09-02",
+      "authors": "Lo WP, Baker SG, Bertolaccini L, Bujkiewicz S, Bunce C",
+      "doi": "10.1136/bmj-2026-100618",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "GLP-1s in the media: Dutch news groups fined over positive coverage.",
+      "title_zh": "GLP-1s in the media: Dutch news groups fined over positive coverage.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Sep 29; 394():e100992",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810746/",
+      "date": "2026-09-02",
+      "authors": "Sikkel R",
+      "doi": "10.1136/bmj-2026-100992",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "\"Forever chemicals\"-why do Lancashire village residents have high levels in their blood, and what happens next?",
+      "title_zh": "\"Forever chemicals\"-why do Lancashire village residents have high levels in their blood, and what happens next?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Sep 29; 394():e100986",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810745/",
+      "date": "2026-09-02",
+      "authors": "O'Dowd A",
+      "doi": "10.1136/bmj-2026-100986",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Brain tumours: New rapid genomic test could \"transform\" NHS diagnosis.",
       "title_zh": "Brain tumours: New rapid genomic test could \"transform\" NHS diagnosis.",
       "summary_en": "",
@@ -3501,22 +3853,6 @@
       "date": "2026-09-02",
       "authors": "Dyer C",
       "doi": "10.1136/bmj-2026-100962",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Trump, Mounjaro, and medical misogyny articles win BMJ honours at prestigious awards.",
-      "title_zh": "Trump, Mounjaro, and medical misogyny articles win BMJ honours at prestigious awards.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 24; 394():e100959",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42785797/",
-      "date": "2026-09-02",
-      "authors": "",
-      "doi": "10.1136/bmj-2026-100959",
       "departments": [
         "綜合"
       ]
@@ -4195,6 +4531,54 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "When detecting Ebola is not enough: closing the response interval in DRC.",
+      "title_zh": "When detecting Ebola is not enough: closing the response interval in DRC.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Sep 28; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42806143/",
+      "date": "2026-09-02",
+      "authors": "Kambale Kahingi J, Bebedi Nkamba B, Belanga Bola J, Mbokolo Bolima C, Ilonga Mpeti E",
+      "doi": "10.1038/s41591-026-04698-8",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Prime editing goes large.",
+      "title_zh": "Prime editing goes large.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Sep 28; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42806017/",
+      "date": "2026-09-02",
+      "authors": "O'Leary K",
+      "doi": "10.1038/d41591-026-00049-9",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Biography of an inherited lung cancer risk gene.",
+      "title_zh": "Biography of an inherited lung cancer risk gene.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Sep 28; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42806016/",
+      "date": "2026-09-02",
+      "authors": "O'Leary K",
+      "doi": "10.1038/d41591-026-00048-w",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "The next phase of translational medicine must bridge the gap between innovation to impact.",
       "title_zh": "The next phase of translational medicine must bridge the gap between innovation to impact.",
       "summary_en": "",
@@ -4493,6 +4877,54 @@
       "date": "2026-09-02",
       "authors": "Würstle S, Lieberknecht-Jouy SC, Düchting A, Lößner H, Ceyssens PJ",
       "doi": "10.1038/s41591-026-04654-6",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Spatial evolution of a cachexia-promoting microenvironment in pancreatic cancer.",
+      "title_zh": "Spatial evolution of a cachexia-promoting microenvironment in pancreatic cancer.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810340/",
+      "date": "2026-09-02",
+      "authors": "Hu Y, Lv G, Yuan H, Zhou Z, Zhang S",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Gut microbiota primes stroke severity via the AHR in intestinal dendritic cells.",
+      "title_zh": "Gut microbiota primes stroke severity via the AHR in intestinal dendritic cells.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810339/",
+      "date": "2026-09-02",
+      "authors": "Delgado Jiménez R, Ruggles A, Adedokun MA, Sorbie A, Fink D",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Microbiome signatures linked to cancer and treatment adverse events in a real-world cohort.",
+      "title_zh": "Microbiome signatures linked to cancer and treatment adverse events in a real-world cohort.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Sep 29; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42810338/",
+      "date": "2026-09-02",
+      "authors": "Yang L, Singh V, Gawey BJ, Sinnwell JP, Johnson S",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -6724,7 +7156,7 @@
     {
       "category": "權威期刊",
       "title_en": "Catheter ablation for symptomatic atrial fibrillation (PVI-SHAM-AF): a randomised, double-blind, sham-controlled, multicentre trial.",
-      "title_zh": "症状性房颤导管消融（ PVI-SHAM-AF ） ：一项随机、双盲、假对照、多中心试验。",
+      "title_zh": "Catheter ablation for symptomatic atrial fibrillation (PVI-SHAM-AF): a randomised, double-blind, sham-controlled, multicentre trial.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -6797,22 +7229,6 @@
       "date": "2026-09-01",
       "authors": "White P, Nicholson TR, Stone J, Barrett LF, Zeman A",
       "doi": "10.1016/S0140-6736(26)01498-4",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Immunogenicity of fractional one-fifth and one-half doses of 17DD yellow fever vaccine compared with full dose in children aged 9-23 months in Uganda: a phase 4, single-blind, randomised clinical trial.",
-      "title_zh": "Immunogenicity of fractional one-fifth and one-half doses of 17DD yellow fever vaccine compared with full dose in children aged 9-23 months in Uganda: a phase 4, single-blind, randomised clinical trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 11; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42727590/",
-      "date": "2026-09-01",
-      "authors": "Doshi RH, Lubega I, Muhoza P, Carlock G, Sekiziyivu AB",
-      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -7037,198 +7453,6 @@
       "date": "2026-09-01",
       "authors": "Storey A, Liu JJ, Mehta T, Hwang Y, Fortin J",
       "doi": "10.1001/jama.2026.15294",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Floating.",
-      "title_zh": "Floating.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 17; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42752533/",
-      "date": "2026-09-01",
-      "authors": "Beideck E",
-      "doi": "10.1001/jama.2026.15245",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The Maternal Mental Health Crisis-A Dangerous Blind Spot in US Medicine.",
-      "title_zh": "The Maternal Mental Health Crisis-A Dangerous Blind Spot in US Medicine.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 16; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42747947/",
-      "date": "2026-09-01",
-      "authors": "Almeida M",
-      "doi": "10.1001/jama.2026.20213",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Screening for Early-Stage Type 1 Diabetes in Children-Reply.",
-      "title_zh": "Screening for Early-Stage Type 1 Diabetes in Children-Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 16; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42747850/",
-      "date": "2026-09-01",
-      "authors": "Bonifacio E, Winkler C, Ziegler AG",
-      "doi": "10.1001/jama.2026.14524",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Asymptomatic Carotid Revascularization May Be Justified, But Not to Improve Cognition.",
-      "title_zh": "Asymptomatic Carotid Revascularization May Be Justified, But Not to Improve Cognition.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 16; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42747847/",
-      "date": "2026-09-01",
-      "authors": "Smith EE, Ganesh A",
-      "doi": "10.1001/jama.2026.14839",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Revascularization of Asymptomatic Carotid Artery Stenosis: Cognitive Results of the CREST-2 Randomized Trials.",
-      "title_zh": "Revascularization of Asymptomatic Carotid Artery Stenosis: Cognitive Results of the CREST-2 Randomized Trials.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 16; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42747844/",
-      "date": "2026-09-01",
-      "authors": "Lazar RM, Meschia JF, Edwards LJ, Lal BK, Howard G",
-      "doi": "10.1001/jama.2026.14703",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Revascularization in Asymptomatic Carotid Artery Stenosis With Hemodynamic Impairment and Cognitive Outcomes: The CREST-H Substudy of the CREST-2 Randomized Clinical Trial.",
-      "title_zh": "Revascularization in Asymptomatic Carotid Artery Stenosis With Hemodynamic Impairment and Cognitive Outcomes: The CREST-H Substudy of the CREST-2 Randomized Clinical Trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 16; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42747834/",
-      "date": "2026-09-01",
-      "authors": "Marshall RS, Lazar RM, Meschia JF, Huston J, Edwards LJ",
-      "doi": "10.1001/jama.2026.13384",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Screening for Early-Stage Type 1 Diabetes in Children.",
-      "title_zh": "Screening for Early-Stage Type 1 Diabetes in Children.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 16; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42747829/",
-      "date": "2026-09-01",
-      "authors": "Mital S, Haller MJ, Schatz DA",
-      "doi": "10.1001/jama.2026.14521",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Diagnosis and Treatment of Patients With Primary Aldosteronism.",
-      "title_zh": "Diagnosis and Treatment of Patients With Primary Aldosteronism.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 16; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42747828/",
-      "date": "2026-09-01",
-      "authors": "Rafey MA, Davis AM, Hamrahian AH",
-      "doi": "10.1001/jama.2026.13077",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Revascularization in Asymptomatic Carotid Artery Stenosis With Hemodynamic Impairment and Cognitive Outcomes: Research Summary.",
-      "title_zh": "Revascularization in Asymptomatic Carotid Artery Stenosis With Hemodynamic Impairment and Cognitive Outcomes: Research Summary.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 16; ():e2613508",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42747821/",
-      "date": "2026-09-01",
-      "authors": "",
-      "doi": "10.1001/jama.2026.13508",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Gestational Hypertension Has Increased, Affecting 1 in 10 Pregnancies.",
-      "title_zh": "Gestational Hypertension Has Increased, Affecting 1 in 10 Pregnancies.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 15; 336(11):913",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42627659/",
-      "date": "2026-09-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.12057",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "FDA Approves First Acetaminophen and Naproxen Sodium Combination Drug.",
-      "title_zh": "FDA Approves First Acetaminophen and Naproxen Sodium Combination Drug.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 15; 336(11):913",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42627657/",
-      "date": "2026-09-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.12060",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Are E-Scooters More Dangerous Than Motorcycles and Bicycles?",
-      "title_zh": "Are E-Scooters More Dangerous Than Motorcycles and Bicycles?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 15; 336(11):913-914",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42627653/",
-      "date": "2026-09-01",
-      "authors": "Anderer S",
-      "doi": "10.1001/jama.2026.12064",
       "departments": [
         "綜合"
       ]
@@ -7709,134 +7933,6 @@
       "date": "2026-09-01",
       "authors": "Wise J",
       "doi": "10.1136/bmj-2026-100866",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "New York state resistance to federal regression of sexual and reproductive rights.",
-      "title_zh": "New York state resistance to federal regression of sexual and reproductive rights.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 15; 394():e100550",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42744345/",
-      "date": "2026-09-01",
-      "authors": "Greene D, Romero D, Farkas H",
-      "doi": "10.1136/bmj-2026-100550",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Improving maternity services: we must move away from unhelpful labels.",
-      "title_zh": "Improving maternity services: we must move away from unhelpful labels.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 15; 394():e100821",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42744344/",
-      "date": "2026-09-01",
-      "authors": "Weeks A",
-      "doi": "10.1136/bmj-2026-100821",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Civil society resistance to anti-rights mobilisation.",
-      "title_zh": "Civil society resistance to anti-rights mobilisation.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 15; 394():e100346",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42744341/",
-      "date": "2026-09-01",
-      "authors": "McGovern T, Meng A, O'Rourke M, Athar R",
-      "doi": "10.1136/bmj-2026-100346",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Call for MSF to be banned under terrorism law, but charity says it's target of \"disinformation\".",
-      "title_zh": "Call for MSF to be banned under terrorism law, but charity says it's target of \"disinformation\".",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 15; 394():e100867",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42744340/",
-      "date": "2026-09-01",
-      "authors": "Mahase E",
-      "doi": "10.1136/bmj-2026-100867",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Diagnosis and management of lower limb cellulitis.",
-      "title_zh": "Diagnosis and management of lower limb cellulitis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 15; 394():e100505",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42744339/",
-      "date": "2026-09-01",
-      "authors": "Yadav K, Gottlieb M, Narain S, Rosenberg H",
-      "doi": "10.1136/bmj-2026-100505",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The MSRA is a one-size-fits-all approach to specialty job selection.",
-      "title_zh": "The MSRA is a one-size-fits-all approach to specialty job selection.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 15; 394():e100860",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42744338/",
-      "date": "2026-09-01",
-      "authors": "Afzal A",
-      "doi": "10.1136/bmj-2026-100860",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "United Nations reform must protect sexual and reproductive health and rights.",
-      "title_zh": "United Nations reform must protect sexual and reproductive health and rights.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 15; 394():e100599",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42744337/",
-      "date": "2026-09-01",
-      "authors": "McGovern T",
-      "doi": "10.1136/bmj-2026-100599",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "How patients explain and make sense of their decision for assisted suicide in Switzerland (the Exit Project): qualitative exploratory study.",
-      "title_zh": "How patients explain and make sense of their decision for assisted suicide in Switzerland (the Exit Project): qualitative exploratory study.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 15; 394():e100610",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42744336/",
-      "date": "2026-09-01",
-      "authors": "Blanc S, Heistrüvers L, Savinelli S, Bernard M, Borasio GD",
-      "doi": "10.1136/bmj-2026-100610",
       "departments": [
         "綜合"
       ]
@@ -9373,54 +9469,6 @@
       "date": "2026-08-02",
       "authors": "Wu X, Zhang M",
       "doi": "10.1016/j.cell.2026.07.036",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Trans-regulatory gene mapping prioritizes disease drivers in asthma.",
-      "title_zh": "Trans-regulatory gene mapping prioritizes disease drivers in asthma.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Aug 20; 189(17):5250-5265.e11",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42580338/",
-      "date": "2026-08-02",
-      "authors": "Salamone IM, Tian P, Qi Z, Zhao J, Zhang L",
-      "doi": "10.1016/j.cell.2026.07.034",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Hierarchical and context-dependent encoding of actions in human posterior parietal and motor cortex.",
-      "title_zh": "Hierarchical and context-dependent encoding of actions in human posterior parietal and motor cortex.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Aug 20; 189(17):5304-5317.e7",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42580336/",
-      "date": "2026-08-02",
-      "authors": "Bougou V, Gamez J, Rosario ER, Liu C, Pejsa K",
-      "doi": "10.1016/j.cell.2026.07.032",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Pangenome-guided breeding restores high-altitude adaptation and improves yield in Tartary buckwheat.",
-      "title_zh": "Pangenome-guided breeding restores high-altitude adaptation and improves yield in Tartary buckwheat.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Aug 20; 189(17):5214-5231.e12",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42580335/",
-      "date": "2026-08-02",
-      "authors": "Zhang K, He Y, Lin H, He J, Wang Z",
-      "doi": "10.1016/j.cell.2026.07.035",
       "departments": [
         "綜合"
       ]
@@ -11037,54 +11085,6 @@
       "date": "",
       "authors": "Cao Z, Luo Y, Jiao L, Chen W, Prettner K",
       "doi": "10.1038/s41591-026-04548-7",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Toward a test of medical AI superintelligence.",
-      "title_zh": "Toward a test of medical AI superintelligence.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Sep; 32(9):3128-3130",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42509372/",
-      "date": "",
-      "authors": "Goh E, Wu D, Walton C, McCoy LG, Perez A",
-      "doi": "10.1038/s41591-026-04539-8",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS.",
-      "title_zh": "Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Sep; 32(9):3417-3429",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42509371/",
-      "date": "",
-      "authors": "Ran X, Wuu J, Qin ZS, McDermott MP, Cooper-Knock J",
-      "doi": "10.1038/s41591-026-04528-x",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "AI-based clinician decision support system for diagnosis of inherited retinal diseases: a multicenter, randomized trial.",
-      "title_zh": "AI-based clinician decision support system for diagnosis of inherited retinal diseases: a multicenter, randomized trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Sep; 32(9):3214-3223",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42498742/",
-      "date": "",
-      "authors": "Jia H, Qian B, Qu Y, Wang J, Chen J",
-      "doi": "10.1038/s41591-026-04545-w",
       "departments": [
         "綜合"
       ]

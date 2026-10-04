@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "articles": [
     {
       "category": "權威期刊",
@@ -403,6 +403,22 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Pangenome-guided breeding restores high-altitude adaptation and improves yield in Tartary buckwheat.",
+      "title_zh": "Pangenome-guided breeding restores high-altitude adaptation and improves yield in Tartary buckwheat.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Oct 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42828992/",
+      "date": "2026-10-03",
+      "authors": "Zhang K, He Y, Lin H, He J, Wang Z",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Societies Release Vaccine Recommendations for Respiratory Virus Season.",
       "title_zh": "Societies Release Vaccine Recommendations for Respiratory Virus Season.",
       "summary_en": "",
@@ -621,6 +637,54 @@
       "date": "2026-10-02",
       "authors": "Wise J",
       "doi": "10.1136/bmj-2026-101027",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Urine cell-free RNA for bladder cancer detection and treatment response prediction.",
+      "title_zh": "Urine cell-free RNA for bladder cancer detection and treatment response prediction.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Oct 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42827132/",
+      "date": "2026-10-02",
+      "authors": "Liu KJ, Shi WY, Nesselbush MC, Phillips NA, Mach KE",
+      "doi": "10.1038/s41591-026-04673-3",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Small quantity lipid-based nutritional supplementation and measles vaccination coverage in children aged 6-23 months: a pragmatic cluster-randomized trial.",
+      "title_zh": "Small quantity lipid-based nutritional supplementation and measles vaccination coverage in children aged 6-23 months: a pragmatic cluster-randomized trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Oct 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42827131/",
+      "date": "2026-10-02",
+      "authors": "Cazes C, Goni BW, Gabillard D, Owolabi O, Yapi B",
+      "doi": "10.1038/s41591-026-04675-1",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The missing links in agentic AI autonomy.",
+      "title_zh": "The missing links in agentic AI autonomy.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Oct 2; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42827130/",
+      "date": "2026-10-02",
+      "authors": "Omar M, Abdulnour RE, Nadkarni GN",
+      "doi": "10.1038/s41591-026-04658-2",
       "departments": [
         "綜合"
       ]
@@ -2035,8 +2099,8 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Prediction of maternal and infant outcomes from longitudinal electronic health records with a Mother-Child AI agent.",
-      "title_zh": "Prediction of maternal and infant outcomes from longitudinal electronic health records with a Mother-Child AI agent.",
+      "title_en": "Prediction of maternal and infant outcomes from longitudinal electronic health records with a mother-child AI agent.",
+      "title_zh": "Prediction of maternal and infant outcomes from longitudinal electronic health records with a mother-child AI agent.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Nature Medicine",
@@ -2733,22 +2797,6 @@
       "date": "2026-09-03",
       "authors": "Wang Z, Jin X, Wu Y, Ding W, Zhang F",
       "doi": "10.1016/j.cell.2026.06.032",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Co-option of lysosomal machinery shapes the evolution of the intracellular photosymbiosis supporting coral reefs.",
-      "title_zh": "Co-option of lysosomal machinery shapes the evolution of the intracellular photosymbiosis supporting coral reefs.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Sep 3; 189(18):5640-5652.e12",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42385704/",
-      "date": "2026-09-03",
-      "authors": "Maruyama S, Henderson CF, Swinhoe N, Kowalewski GP, Meier EK",
-      "doi": "10.1016/j.cell.2026.06.015",
       "departments": [
         "綜合"
       ]
@@ -11133,54 +11181,6 @@
       "date": "",
       "authors": "Song L, Segal E, Xing E",
       "doi": "10.1038/s41591-026-04595-0",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Editorial Expression of Concern: Evidence from a genetic fate-mapping study that stem cells refresh adult mammalian cardiomyocytes after injury.",
-      "title_zh": "Editorial Expression of Concern: Evidence from a genetic fate-mapping study that stem cells refresh adult mammalian cardiomyocytes after injury.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Sep; 32(9):3496",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42587054/",
-      "date": "",
-      "authors": "Hsieh PCH, Segers VFM, Davis ME, MacGillivray C, Gannon J",
-      "doi": "10.1038/s41591-026-04619-9",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial.",
-      "title_zh": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Sep; 32(9):3288-3293",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42587052/",
-      "date": "",
-      "authors": "Shao X, Tian C, Chen Z, Huang J, Wang Y",
-      "doi": "10.1038/s41591-026-04564-7",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Editorial Expression of Concern: CDK4 coexpression with Ras generates malignant human epidermal tumorigenesis.",
-      "title_zh": "Editorial Expression of Concern: CDK4 coexpression with Ras generates malignant human epidermal tumorigenesis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Sep; 32(9):3497",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42575989/",
-      "date": "",
-      "authors": "Lazarov M, Kubo Y, Cai T, Dajee M, Tarutani M",
-      "doi": "10.1038/s41591-026-04620-2",
       "departments": [
         "綜合"
       ]

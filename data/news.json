@@ -1,6 +1,326 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "articles": [
+    {
+      "category": "權威期刊",
+      "title_en": "Heat-Related Mortality in Working-Age Adults by Occupation and Industry.",
+      "title_zh": "按职业和行业分列的工作年龄成年人的热相关死亡率。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 5; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42832245/",
+      "date": "2026-10-05",
+      "authors": "Szeto JJ, Khan RF, Hennessy S, Khatana SAM",
+      "doi": "10.1001/jama.2026.18171",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Opportunities and Challenges in Tobacco Treatment.",
+      "title_zh": "Opportunities and Challenges in Tobacco Treatment.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 5; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42832244/",
+      "date": "2026-10-05",
+      "authors": "Kathuria H, Fiore MC, McCarthy DE",
+      "doi": "10.1001/jama.2026.17144",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Medicare and Bureau of Health Workforce and Funded Primary Care Residency Positions-Reply.",
+      "title_zh": "Medicare和Bureau of Health Workforce and Funded Primary Care Residency Positions-回复。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 5; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42832238/",
+      "date": "2026-10-05",
+      "authors": "Ramesh T, Yu H",
+      "doi": "10.1001/jama.2026.17126",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Low-Dose Rivaroxaban, Cardiovascular Events, and Kidney Disease.",
+      "title_zh": "Low-Dose Rivaroxaban, Cardiovascular Events, and Kidney Disease.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 5; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42832227/",
+      "date": "2026-10-05",
+      "authors": "Coppi P",
+      "doi": "10.1001/jama.2026.16110",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Low-Dose Rivaroxaban, Cardiovascular Events, and Kidney Disease-Reply.",
+      "title_zh": "低剂量利伐沙班、心血管事件和肾脏疾病-Reply。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 5; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42832223/",
+      "date": "2026-10-05",
+      "authors": "Badve SV, De Vriese AS, Gallagher M",
+      "doi": "10.1001/jama.2026.16113",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Smoking Cessation Among Underserved Patients Referred for Lung Cancer Screening: A Randomized Clinical Trial.",
+      "title_zh": "Smoking Cessation Among Underserved Patients Referred for Lung Cancer Screening: A Randomized Clinical Trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 5; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42832220/",
+      "date": "2026-10-05",
+      "authors": "Hart JL, Vachani A, Neslund-Dudas CM, Gould MK, Facktor MA",
+      "doi": "10.1001/jama.2026.17192",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Medicare and Bureau of Health Workforce and Funded Primary Care Residency Positions.",
+      "title_zh": "Medicare和Bureau of Health Workforce和Funded Primary Care Residency Positions。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 5; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42832212/",
+      "date": "2026-10-05",
+      "authors": "Hayes RW, Dapkins IP",
+      "doi": "10.1001/jama.2026.17123",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Smoking Cessation Among Underserved Patients Referred for Lung Cancer Screening: Research Summary.",
+      "title_zh": "Smoking Cessation Among Underserved Patients Referred for Lung Cancer Screening: Research Summary.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 5; ():e2617345",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42832211/",
+      "date": "2026-10-05",
+      "authors": "",
+      "doi": "10.1001/jama.2026.17345",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Federal Right to Try 2.0-The Wrong Approach for Investigational Individualized Treatments.",
+      "title_zh": "Federal Right to Try 2.0-The Wrong Approach for Investigational Individualized Treatments.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 5; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42832196/",
+      "date": "2026-10-05",
+      "authors": "Fernandez Lynch H, Joffe S, Ahrens-Nicklas R, Musunuru K",
+      "doi": "10.1001/jama.2026.18028",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Doctor suspended for falsifying 31 death certificates to cut workload.",
+      "title_zh": "Doctor suspended for falsifying 31 death certificates to cut workload.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e101047",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833684/",
+      "date": "2026-10-05",
+      "authors": "Dyer C",
+      "doi": "10.1136/bmj-2026-101047",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Russia plague outbreak after reported death of lab worker: what you need to know.",
+      "title_zh": "Russia plague outbreak after reported death of lab worker: what you need to know.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e101046",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833683/",
+      "date": "2026-10-05",
+      "authors": "Wise J",
+      "doi": "10.1136/bmj-2026-101046",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "UK pandemic procurement reform must address both preparedness and integrity.",
+      "title_zh": "UK pandemic procurement reform must address both preparedness and integrity.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e101010",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833682/",
+      "date": "2026-10-05",
+      "authors": "Hellowell M, Barrington R, Lynch J",
+      "doi": "10.1136/bmj-2026-101010",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Has Taylor Swift defanged the toxic term \"patient zero\"?",
+      "title_zh": "Has Taylor Swift defanged the toxic term \"patient zero\"?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e101044",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833679/",
+      "date": "2026-10-05",
+      "authors": "Yamey G, McKay RA",
+      "doi": "10.1136/bmj-2026-101044",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Palantir protests: Pressure grows on NHS to end links as Tom Watson launches defence of tech giant.",
+      "title_zh": "Palantir protests: Pressure grows on NHS to end links as Tom Watson launches defence of tech giant.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e101030",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833678/",
+      "date": "2026-10-05",
+      "authors": "O'Dowd A",
+      "doi": "10.1136/bmj-2026-101030",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Man admits impersonating medical student to gain access to hospital.",
+      "title_zh": "Man admits impersonating medical student to gain access to hospital.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e101049",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833677/",
+      "date": "2026-10-05",
+      "authors": "O'Dowd A",
+      "doi": "10.1136/bmj-2026-101049",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Meningitis B vaccine: Only a quarter of year 13 school leavers in England get jab.",
+      "title_zh": "Meningitis B vaccine: Only a quarter of year 13 school leavers in England get jab.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e101035",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833676/",
+      "date": "2026-10-05",
+      "authors": "Baraniuk C",
+      "doi": "10.1136/bmj-2026-101035",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Physician assistants: Consultation launched to clarify supervision of controversial role and define \"undifferentiated\" patients.",
+      "title_zh": "Physician assistants: Consultation launched to clarify supervision of controversial role and define \"undifferentiated\" patients.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e101033",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833675/",
+      "date": "2026-10-05",
+      "authors": "O'Dowd A",
+      "doi": "10.1136/bmj-2026-101033",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Polypills for hypertension: a warning about diuretics in a heatwave.",
+      "title_zh": "Polypills for hypertension: a warning about diuretics in a heatwave.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e100993",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833674/",
+      "date": "2026-10-05",
+      "authors": "Jolobe OM",
+      "doi": "10.1136/bmj-2026-100993",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Doctor who \"manhandled\" female students is cleared of sexual harassment.",
+      "title_zh": "Doctor who \"manhandled\" female students is cleared of sexual harassment.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e101045",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833669/",
+      "date": "2026-10-05",
+      "authors": "Dyer C",
+      "doi": "10.1136/bmj-2026-101045",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Dengue: Woman dies in Florida's largest outbreak in years.",
+      "title_zh": "Dengue: Woman dies in Florida's largest outbreak in years.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 5; 395():e101048",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42833668/",
+      "date": "2026-10-05",
+      "authors": "Tanne JH",
+      "doi": "10.1136/bmj-2026-101048",
+      "departments": [
+        "綜合"
+      ]
+    },
     {
       "category": "權威期刊",
       "title_en": "Barbara Prainsack: practical utopianism for healthier societies.",
@@ -93,6 +413,86 @@
       "date": "2026-10-04",
       "authors": "The Lancet",
       "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Hantavirus - Lessons Learned about Security and Solidarity.",
+      "title_zh": "汉坦病毒-关于安全和团结的经验教训。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Oct 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42831592/",
+      "date": "2026-10-03",
+      "authors": "Sánchez P, Ghebreyesus TA",
+      "doi": "10.1056/NEJMp2611801",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Beyond Percentage of Weight Lost - Protecting Participants in Obesity Trials.",
+      "title_zh": "Beyond Percentage of Weight Lost - Protecting Participants in Obesity Trials.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Oct 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42831481/",
+      "date": "2026-10-03",
+      "authors": "Schmitz SH",
+      "doi": "10.1056/NEJMp2609407",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Menkes Disease.",
+      "title_zh": "Menkes病。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Oct 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42831469/",
+      "date": "2026-10-03",
+      "authors": "Chen HY, Chen CN",
+      "doi": "10.1056/NEJMicm2607595",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Grief as a Vector for Disease - Tradition and Public Health in Ebola Outbreaks.",
+      "title_zh": "悲伤作为疾病的媒介-埃博拉疫情中的传统和公共卫生。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Oct 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42831462/",
+      "date": "2026-10-03",
+      "authors": "Mutuyimana C, Killikelly C",
+      "doi": "10.1056/NEJMp2608136",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "A Guide for the Perplexed Physician.",
+      "title_zh": "A Guide for the Perplexed Physician.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Oct 3; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42831461/",
+      "date": "2026-10-03",
+      "authors": "Ariel D",
+      "doi": "10.1056/NEJMp2603758",
       "departments": [
         "綜合"
       ]
@@ -532,7 +932,7 @@
     {
       "category": "權威期刊",
       "title_en": "The Ketogenic Diet Improved Liver Health in Trial, But What Does That Mean in the Real World?",
-      "title_zh": "生酮饮食在试验中改善了肝脏健康，但这在现实世界中意味着什么？",
+      "title_zh": "The Ketogenic Diet Improved Liver Health in Trial, But What Does That Mean in the Real World?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -548,7 +948,7 @@
     {
       "category": "權威期刊",
       "title_en": "CDC Issues Rabies Exposure Alert.",
-      "title_zh": "CDC发布狂犬病暴露警报。",
+      "title_zh": "CDC Issues Rabies Exposure Alert.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -564,7 +964,7 @@
     {
       "category": "權威期刊",
       "title_en": "Autism Incidence Has Remained Stable, Study Finds.",
-      "title_zh": "研究发现，自闭症发病率保持稳定。",
+      "title_zh": "Autism Incidence Has Remained Stable, Study Finds.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -580,7 +980,7 @@
     {
       "category": "權威期刊",
       "title_en": "Addressing Cognitive Decline Among Aging Physicians.",
-      "title_zh": "解决老年医师的认知能力下降问题。",
+      "title_zh": "Addressing Cognitive Decline Among Aging Physicians.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -596,7 +996,7 @@
     {
       "category": "權威期刊",
       "title_en": "Semaglutide Demonstrates Benefits Across Frailty Levels.",
-      "title_zh": "Semaglutide在虚弱水平上显示出益处。",
+      "title_zh": "Semaglutide Demonstrates Benefits Across Frailty Levels.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -612,7 +1012,7 @@
     {
       "category": "權威期刊",
       "title_en": "More Than 1 in 5 Children Report Using AI for Emotional Support-Is It Good News or Bad?",
-      "title_zh": "超过五分之一的儿童报告使用人工智能进行情感支持-这是好消息还是坏消息？",
+      "title_zh": "More Than 1 in 5 Children Report Using AI for Emotional Support-Is It Good News or Bad?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -5091,150 +5491,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Suicide Mortality After Launch of the 988 Lifeline-Reply.",
-      "title_zh": "Suicide Mortality After Launch of the 988 Lifeline-Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 22; 336(12):1069-1070",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42606879/",
-      "date": "2026-09-02",
-      "authors": "Patel VR, Liu M, Jena AB",
-      "doi": "10.1001/jama.2026.12712",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Suicide Mortality After Launch of the 988 Lifeline.",
-      "title_zh": "Suicide Mortality After Launch of the 988 Lifeline.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 22; 336(12):1068",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42606846/",
-      "date": "2026-09-02",
-      "authors": "Herring AA",
-      "doi": "10.1001/jama.2026.12706",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Optimizing the Therapeutic Ratio in Prostate Radiation Therapy.",
-      "title_zh": "Optimizing the Therapeutic Ratio in Prostate Radiation Therapy.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 22; 336(12):1012-1014",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42593810/",
-      "date": "2026-09-02",
-      "authors": "Liauw SL, Lee WR",
-      "doi": "10.1001/jama.2026.12320",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Stereotactic Body Radiotherapy vs Moderately Hypofractionated IMRT for Localized Intermediate-Risk Prostate Cancer: A Randomized Clinical Trial.",
-      "title_zh": "Stereotactic Body Radiotherapy vs Moderately Hypofractionated IMRT for Localized Intermediate-Risk Prostate Cancer: A Randomized Clinical Trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 22; 336(12):1029-1038",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42593775/",
-      "date": "2026-09-02",
-      "authors": "Ellis RJ, Pugh SL, Yu JB, Feng FY, Konski AA",
-      "doi": "10.1001/jama.2026.12627",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Stereotactic Body Radiotherapy vs Moderately Hypofractionated IMRT for Localized Intermediate-Risk Prostate Cancer: Research Summary.",
-      "title_zh": "Stereotactic Body Radiotherapy vs Moderately Hypofractionated IMRT for Localized Intermediate-Risk Prostate Cancer: Research Summary.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 22; 336(12):e2612679",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42593773/",
-      "date": "2026-09-02",
-      "authors": "",
-      "doi": "10.1001/jama.2026.12679",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia for Major Noncardiac Surgery: Research Summary.",
-      "title_zh": "Total Intravenous vs Volatile Inhalational Anesthesia for Major Noncardiac Surgery: Research Summary.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 22; 336(12):e2611184",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42584907/",
-      "date": "2026-09-02",
-      "authors": "",
-      "doi": "10.1001/jama.2026.11184",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia for Major Noncardiac Surgery: A Randomized Clinical Trial.",
-      "title_zh": "Total Intravenous vs Volatile Inhalational Anesthesia for Major Noncardiac Surgery: A Randomized Clinical Trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 22; 336(12):1039-1049",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42584898/",
-      "date": "2026-09-02",
-      "authors": "Jhanji S, Booth K, Hiller L, Braun J, Dunn J",
-      "doi": "10.1001/jama.2026.11065",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "What Are Nicotine Pouches?",
-      "title_zh": "What Are Nicotine Pouches?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 22; 336(12):1078",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42530946/",
-      "date": "2026-09-02",
-      "authors": "Walter KL",
-      "doi": "10.1001/jama.2026.12580",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Nicotine Pouches.",
-      "title_zh": "Nicotine Pouches.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 22; 336(12):1063-1064",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42530908/",
-      "date": "2026-09-02",
-      "authors": "Piasecki TM, Piper ME, Kathuria H",
-      "doi": "10.1001/jama.2026.11806",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Researchers with lived experience navigate unique ethical and emotional challenges.",
       "title_zh": "Researchers with lived experience navigate unique ethical and emotional challenges.",
       "summary_en": "",
@@ -6269,86 +6525,6 @@
       "date": "2026-09-02",
       "authors": "Oteri O",
       "doi": "10.1136/bmj-2026-100838",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Improving transparency of drug regulatory decisions.",
-      "title_zh": "Improving transparency of drug regulatory decisions.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 21; 394():e100749",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42767678/",
-      "date": "2026-09-02",
-      "authors": "Siebert M, Tibau A",
-      "doi": "10.1136/bmj-2026-100749",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Medicine needs critics: Why scepticism is both healthy and important.",
-      "title_zh": "Medicine needs critics: Why scepticism is both healthy and important.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 21; 394():e100746",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42767674/",
-      "date": "2026-09-02",
-      "authors": "Fulchand S",
-      "doi": "10.1136/bmj-2026-100746",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Counterfeit medicines: Major raid uncovers racket, with fears for medical supply contamination.",
-      "title_zh": "Counterfeit medicines: Major raid uncovers racket, with fears for medical supply contamination.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 21; 394():e100916",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42767673/",
-      "date": "2026-09-02",
-      "authors": "Thiagarajan K",
-      "doi": "10.1136/bmj-2026-100916",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Organ donation: \"Sharp decline\" prompts urgent NHS action plan.",
-      "title_zh": "Organ donation: \"Sharp decline\" prompts urgent NHS action plan.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 21; 394():e100927",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42767672/",
-      "date": "2026-09-02",
-      "authors": "Wise J",
-      "doi": "10.1136/bmj-2026-100927",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Dementia: Calls for national target for dementia diagnosis backed by clinicians.",
-      "title_zh": "Dementia: Calls for national target for dementia diagnosis backed by clinicians.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 21; 394():e100919",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42767671/",
-      "date": "2026-09-02",
-      "authors": "Wilkinson E",
-      "doi": "10.1136/bmj-2026-100919",
       "departments": [
         "綜合"
       ]
@@ -7843,86 +8019,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Ultrasound-Facilitated, Catheter-Directed Fibrinolysis for Acute Pulmonary Embolism.",
-      "title_zh": "Ultrasound-Facilitated, Catheter-Directed Fibrinolysis for Acute Pulmonary Embolism.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Sep 10; 395(10):1036-1037",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42715575/",
-      "date": "2026-09-01",
-      "authors": "Martin KA, Bauer KA, Davidson BL",
-      "doi": "10.1056/NEJMc2609133",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ultrasound-Facilitated, Catheter-Directed Fibrinolysis for Acute Pulmonary Embolism.",
-      "title_zh": "Ultrasound-Facilitated, Catheter-Directed Fibrinolysis for Acute Pulmonary Embolism.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Sep 10; 395(10):1036",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42715574/",
-      "date": "2026-09-01",
-      "authors": "Meneses de Aguiar JV, Barcellos LF, Gazzana MB",
-      "doi": "10.1056/NEJMc2609133",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ultrasound-Facilitated, Catheter-Directed Fibrinolysis for Acute Pulmonary Embolism.",
-      "title_zh": "Ultrasound-Facilitated, Catheter-Directed Fibrinolysis for Acute Pulmonary Embolism.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Sep 10; 395(10):1035-1036",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42715573/",
-      "date": "2026-09-01",
-      "authors": "Solis RC, Moreno Hoyos-Abril F, Nañez-Terreros H",
-      "doi": "10.1056/NEJMc2609133",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ultrasound-Facilitated, Catheter-Directed Fibrinolysis for Acute Pulmonary Embolism.",
-      "title_zh": "Ultrasound-Facilitated, Catheter-Directed Fibrinolysis for Acute Pulmonary Embolism.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Sep 10; 395(10):1035",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42715572/",
-      "date": "2026-09-01",
-      "authors": "Sauthoff H",
-      "doi": "10.1056/NEJMc2609133",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Ultrasound-Facilitated, Catheter-Directed Fibrinolysis for Acute Pulmonary Embolism.",
-      "title_zh": "Ultrasound-Facilitated, Catheter-Directed Fibrinolysis for Acute Pulmonary Embolism.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Sep 10; 395(10):1035",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42715571/",
-      "date": "2026-09-01",
-      "authors": "Brass EP",
-      "doi": "10.1056/NEJMc2609133",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Department of Error.",
       "title_zh": "错误部门。",
       "summary_en": "",
@@ -8365,102 +8461,6 @@
       "date": "2026-09-01",
       "authors": "Rebbeck TR",
       "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Kidney transplantation in older adults.",
-      "title_zh": "Kidney transplantation in older adults.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 18; 394():e100831",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42759985/",
-      "date": "2026-09-01",
-      "authors": "Kaewput W, Patel M",
-      "doi": "10.1136/bmj-2026-100831",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Fragmentation of care worsens outcomes in cellulitis management.",
-      "title_zh": "Fragmentation of care worsens outcomes in cellulitis management.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 18; 394():e100811",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42759980/",
-      "date": "2026-09-01",
-      "authors": "Cross E, Williams OM, Carlton E, Hamilton F",
-      "doi": "10.1136/bmj-2026-100811",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "UK maternity inquiries over 25 years-or 100?",
-      "title_zh": "UK maternity inquiries over 25 years-or 100?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 18; 394():e100839",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42759979/",
-      "date": "2026-09-01",
-      "authors": "Dye C",
-      "doi": "10.1136/bmj-2026-100839",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "GPs in England postpone collective action as they seek \"reset\" with government.",
-      "title_zh": "GPs in England postpone collective action as they seek \"reset\" with government.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 18; 394():e100912",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42759978/",
-      "date": "2026-09-01",
-      "authors": "Iacobucci G",
-      "doi": "10.1136/bmj-2026-100912",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "International medical graduates still 50% more likely to face regulator sanctions, data show.",
-      "title_zh": "International medical graduates still 50% more likely to face regulator sanctions, data show.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 18; 394():e100907",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42759977/",
-      "date": "2026-09-01",
-      "authors": "Moore A",
-      "doi": "10.1136/bmj-2026-100907",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Survival benefit of deceased donor kidney transplantation versus continued dialysis: international target trial emulation.",
-      "title_zh": "Survival benefit of deceased donor kidney transplantation versus continued dialysis: international target trial emulation.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 18; 394():e100624",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42759976/",
-      "date": "2026-09-01",
-      "authors": "Hellemans R, Chesnaye NC, Kramer A, Fu EL, Arnol M",
-      "doi": "10.1136/bmj-2026-100624",
       "departments": [
         "綜合"
       ]

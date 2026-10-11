@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "articles": [
     {
       "category": "權威期刊",
@@ -20,7 +20,7 @@
     {
       "category": "權威期刊",
       "title_en": "Whole Grain Intake Tied to Lower Cardiovascular Disease Risk Factors.",
-      "title_zh": "全谷物摄入量与较低的心血管疾病风险因素有关。",
+      "title_zh": "Whole Grain Intake Tied to Lower Cardiovascular Disease Risk Factors.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -52,7 +52,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA Authorizes First Continuous Ketone Monitor for Diabetes.",
-      "title_zh": "美国食品药品监督管理局批准首个糖尿病连续酮类监测仪。",
+      "title_zh": "FDA Authorizes First Continuous Ketone Monitor for Diabetes.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -68,7 +68,7 @@
     {
       "category": "權威期刊",
       "title_en": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
-      "title_zh": "未经批准的GLP-1药物Retatrutide和Zenagamtide在线销售并不划算。",
+      "title_zh": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -84,7 +84,7 @@
     {
       "category": "權威期刊",
       "title_en": "BORG Trend May Promote Alcohol-Related Harms Among College Students.",
-      "title_zh": "博格趋势可能会促进大学生中与酒精有关的伤害。",
+      "title_zh": "BORG Trend May Promote Alcohol-Related Harms Among College Students.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -100,7 +100,7 @@
     {
       "category": "權威期刊",
       "title_en": "Population Living With HIV Projected to Age in Coming Years.",
-      "title_zh": "预计未来几年艾滋病毒感染者人口老龄化。",
+      "title_zh": "Population Living With HIV Projected to Age in Coming Years.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -285,6 +285,38 @@
       "date": "2026-10-09",
       "authors": "Furneaux R",
       "doi": "10.1136/bmj-2026-101112",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Addendum: Aberrant epithelial GREM1 expression initiates colonic tumorigenesis from cells outside the stem cell niche.",
+      "title_zh": "Addendum: Aberrant epithelial GREM1 expression initiates colonic tumorigenesis from cells outside the stem cell niche.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Oct 9; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42855585/",
+      "date": "2026-10-09",
+      "authors": "Davis H, Irshad S, Bansal M, Rafferty H, Boitsova T",
+      "doi": "10.1038/s41591-026-04736-5",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "AI-assisted scoping review of code sharing in clinical prediction model research.",
+      "title_zh": "AI-assisted scoping review of code sharing in clinical prediction model research.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Oct 9; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42855584/",
+      "date": "2026-10-09",
+      "authors": "Sounack T, Giancotti R, Gao CA, Barreñada L, Lee H",
+      "doi": "10.1038/s41591-026-04691-1",
       "departments": [
         "綜合"
       ]
@@ -884,7 +916,7 @@
     {
       "category": "權威期刊",
       "title_en": "The Ethics of Germline Gene Editing, Revisited.",
-      "title_zh": "生殖系基因编辑的伦理学，重新审视。",
+      "title_zh": "The Ethics of Germline Gene Editing, Revisited.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -900,7 +932,7 @@
     {
       "category": "權威期刊",
       "title_en": "Review on Adult Male Hypogonadism.",
-      "title_zh": "成人男性性腺功能减退症综述。",
+      "title_zh": "Review on Adult Male Hypogonadism.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -916,7 +948,7 @@
     {
       "category": "權威期刊",
       "title_en": "Review on Adult Male Hypogonadism-Reply.",
-      "title_zh": "综述成人男性性腺功能减退症-回复。",
+      "title_zh": "Review on Adult Male Hypogonadism-Reply.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -8644,7 +8676,7 @@
     {
       "category": "權威期刊",
       "title_en": "Platinum-resistant ovarian cancers: lessons from KEYNOTE-B96 - Authors' reply.",
-      "title_zh": "耐铂卵巢癌： KEYNOTE-B96的经验教训-作者的回复。",
+      "title_zh": "Platinum-resistant ovarian cancers: lessons from KEYNOTE-B96 - Authors' reply.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -8660,7 +8692,7 @@
     {
       "category": "權威期刊",
       "title_en": "Platinum-resistant ovarian cancers: lessons from KEYNOTE-B96.",
-      "title_zh": "铂耐药卵巢癌： KEYNOTE-B96的经验教训。",
+      "title_zh": "Platinum-resistant ovarian cancers: lessons from KEYNOTE-B96.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -8676,7 +8708,7 @@
     {
       "category": "權威期刊",
       "title_en": "Physical activity and exercise training in patients with HFrEF - Authors' reply.",
-      "title_zh": "HFrEF患者的身体活动和锻炼训练-作者的回复。",
+      "title_zh": "Physical activity and exercise training in patients with HFrEF - Authors' reply.",
       "summary_en": "",
       "summary_zh": "",
       "source": "Lancet",
@@ -11165,38 +11197,6 @@
       "date": "",
       "authors": "Zhang H, Menasche P, Fan J, Gao L, Luo H",
       "doi": "10.1038/s41591-026-04605-1",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Food is medicine: an opportunity to transform nutrition care in oncology.",
-      "title_zh": "Food is medicine: an opportunity to transform nutrition care in oncology.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Sep; 32(9):3112-3113",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42613443/",
-      "date": "",
-      "authors": "Zhang FF",
-      "doi": "10.1038/s41591-026-04591-4",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "County, district and community-level measles transmission in the United States in 2013-2025.",
-      "title_zh": "County, district and community-level measles transmission in the United States in 2013-2025.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Sep; 32(9):3181-3191",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42613442/",
-      "date": "",
-      "authors": "Chen S, Bento AI",
-      "doi": "10.1038/s41591-026-04561-w",
       "departments": [
         "綜合"
       ]

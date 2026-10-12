@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "articles": [
     {
       "category": "權威期刊",
@@ -20,7 +20,7 @@
     {
       "category": "權威期刊",
       "title_en": "Whole Grain Intake Tied to Lower Cardiovascular Disease Risk Factors.",
-      "title_zh": "Whole Grain Intake Tied to Lower Cardiovascular Disease Risk Factors.",
+      "title_zh": "全谷物摄入量与较低的心血管疾病风险因素有关。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -52,7 +52,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA Authorizes First Continuous Ketone Monitor for Diabetes.",
-      "title_zh": "FDA Authorizes First Continuous Ketone Monitor for Diabetes.",
+      "title_zh": "美国食品药品监督管理局批准首个糖尿病连续酮类监测仪。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -68,7 +68,7 @@
     {
       "category": "權威期刊",
       "title_en": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
-      "title_zh": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
+      "title_zh": "未经批准的GLP-1药物Retatrutide和Zenagamtide在线销售并不划算。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -84,7 +84,7 @@
     {
       "category": "權威期刊",
       "title_en": "BORG Trend May Promote Alcohol-Related Harms Among College Students.",
-      "title_zh": "BORG Trend May Promote Alcohol-Related Harms Among College Students.",
+      "title_zh": "博格趋势可能会促进大学生中与酒精有关的伤害。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -100,7 +100,7 @@
     {
       "category": "權威期刊",
       "title_en": "Population Living With HIV Projected to Age in Coming Years.",
-      "title_zh": "Population Living With HIV Projected to Age in Coming Years.",
+      "title_zh": "预计未来几年艾滋病毒感染者人口老龄化。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -916,7 +916,7 @@
     {
       "category": "權威期刊",
       "title_en": "The Ethics of Germline Gene Editing, Revisited.",
-      "title_zh": "The Ethics of Germline Gene Editing, Revisited.",
+      "title_zh": "生殖系基因编辑的伦理学，重新审视。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -932,7 +932,7 @@
     {
       "category": "權威期刊",
       "title_en": "Review on Adult Male Hypogonadism.",
-      "title_zh": "Review on Adult Male Hypogonadism.",
+      "title_zh": "成人男性性腺功能减退症综述。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -948,7 +948,7 @@
     {
       "category": "權威期刊",
       "title_en": "Review on Adult Male Hypogonadism-Reply.",
-      "title_zh": "Review on Adult Male Hypogonadism-Reply.",
+      "title_zh": "综述成人男性性腺功能减退症-回复。",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3956,7 +3956,7 @@
     {
       "category": "權威期刊",
       "title_en": "More on NETs in Lupus.",
-      "title_zh": "有关狼疮中的NET的更多信息。",
+      "title_zh": "More on NETs in Lupus.",
       "summary_en": "",
       "summary_zh": "",
       "source": "N Engl J Med",
@@ -4180,7 +4180,7 @@
     {
       "category": "權威期刊",
       "title_en": "An Echo Unheard.",
-      "title_zh": "前所未闻的回声。",
+      "title_zh": "An Echo Unheard.",
       "summary_en": "",
       "summary_zh": "",
       "source": "N Engl J Med",
@@ -4413,6 +4413,118 @@
       "date": "2026-10-01",
       "authors": "Della-Torre E, Baker MC, Zhang W, Perugino CA, Katz G",
       "doi": "10.1056/NEJMoa2601337",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Strengthening health systems to prioritise, provide care, and prevent osteoarthritis: a roadmap for global health policy.",
+      "title_zh": "Strengthening health systems to prioritise, provide care, and prevent osteoarthritis: a roadmap for global health policy.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 11; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42860133/",
+      "date": "2026-10-01",
+      "authors": "Briggs AM, Bowden JL, Risberg MA, Cross M, Callahan LF",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Rethinking threats to human survival.",
+      "title_zh": "重新思考对人类生存的威胁。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 11; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42860132/",
+      "date": "2026-10-01",
+      "authors": "The Lancet",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The Lancet Commission on 21st century global threats to health.",
+      "title_zh": "The Lancet Commission on 21st century global threats to health.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42858757/",
+      "date": "2026-10-01",
+      "authors": "Murray CJL, Kanem N, Abed S, Abubakar I, Adetifa IM",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Addressing threats to future global health-what is the right timeframe?",
+      "title_zh": "应对未来全球卫生面临的威胁--正确的时间框架是什么？",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42858756/",
+      "date": "2026-10-01",
+      "authors": "Andreou C, Budolfson M, Campbell T, Ferranna M, Herlitz A",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "50 years of Ebola research and response.",
+      "title_zh": "50年的埃博拉研究和应对。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42858755/",
+      "date": "2026-10-01",
+      "authors": "Piot P, Muyembe-Tamfum JJ",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "21st century global threats to health are not what you think.",
+      "title_zh": "21世纪对健康的全球威胁不是你想象的那样。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42858754/",
+      "date": "2026-10-01",
+      "authors": "Morrison JS",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "John Wong: making an impact on population health at scale.",
+      "title_zh": "John Wong ：大规模影响人口健康。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 10; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42858753/",
+      "date": "2026-10-01",
+      "authors": "Samarasekera U",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -7235,38 +7347,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Healthy donor faecal microbiota transplantation in irritable bowel syndrome: interpreting negative findings.",
-      "title_zh": "Healthy donor faecal microbiota transplantation in irritable bowel syndrome: interpreting negative findings.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 24; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42785337/",
-      "date": "2026-09-02",
-      "authors": "Liu J, Shin A",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "2026 World Health Summit Academic Alliance Declaration: health and peace in a world in turmoil.",
-      "title_zh": "2026年世界卫生峰会学术联盟宣言：动荡世界中的健康与和平。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 20; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42764015/",
-      "date": "2026-09-02",
-      "authors": "World Health Summit Academic Alliance",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Researchers with lived experience navigate unique ethical and emotional challenges.",
       "title_zh": "Researchers with lived experience navigate unique ethical and emotional challenges.",
       "summary_en": "",
@@ -8653,86 +8733,6 @@
       "date": "2026-09-01",
       "authors": "Jenmalm MC",
       "doi": "10.1056/NEJMe2610158",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Department of Error.",
-      "title_zh": "错误部门。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 19; 408(10560):1092",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42753763/",
-      "date": "2026-09-01",
-      "authors": "",
-      "doi": "10.1016/S0140-6736(26)01874-X",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Platinum-resistant ovarian cancers: lessons from KEYNOTE-B96 - Authors' reply.",
-      "title_zh": "Platinum-resistant ovarian cancers: lessons from KEYNOTE-B96 - Authors' reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 19; 408(10560):1091-1092",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42753762/",
-      "date": "2026-09-01",
-      "authors": "Colombo N, Zsiros E, Hasegawa K, Coleman RL",
-      "doi": "10.1016/S0140-6736(26)01592-8",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Platinum-resistant ovarian cancers: lessons from KEYNOTE-B96.",
-      "title_zh": "Platinum-resistant ovarian cancers: lessons from KEYNOTE-B96.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 19; 408(10560):1090-1091",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42753761/",
-      "date": "2026-09-01",
-      "authors": "Quesada S, Rodrigues M, Hardy AC, You B, Leary A",
-      "doi": "10.1016/S0140-6736(26)01205-5",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Physical activity and exercise training in patients with HFrEF - Authors' reply.",
-      "title_zh": "Physical activity and exercise training in patients with HFrEF - Authors' reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 19; 408(10560):1090",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42753760/",
-      "date": "2026-09-01",
-      "authors": "Cannata A, Crespo-Leiro MG, Bromage DI, Ruschitzka F, McDonagh TA",
-      "doi": "10.1016/S0140-6736(26)01542-4",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Physical activity and exercise training in patients with HFrEF.",
-      "title_zh": "Physical activity and exercise training in patients with HFrEF.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 19; 408(10560):1089-1090",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42753759/",
-      "date": "2026-09-01",
-      "authors": "Kambič T, Terada T, Taylor RS, Lavie CJ, Eijsvogels TMH",
-      "doi": "10.1016/S0140-6736(26)00696-3",
       "departments": [
         "綜合"
       ]

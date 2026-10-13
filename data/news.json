@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "articles": [
     {
       "category": "權威期刊",
@@ -948,7 +948,7 @@
     {
       "category": "權威期刊",
       "title_en": "Review on Adult Male Hypogonadism-Reply.",
-      "title_zh": "综述成人男性性腺功能减退症-回复。",
+      "title_zh": "Review on Adult Male Hypogonadism-Reply.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3956,7 +3956,7 @@
     {
       "category": "權威期刊",
       "title_en": "More on NETs in Lupus.",
-      "title_zh": "More on NETs in Lupus.",
+      "title_zh": "有关狼疮中的NET的更多信息。",
       "summary_en": "",
       "summary_zh": "",
       "source": "N Engl J Med",
@@ -4180,7 +4180,7 @@
     {
       "category": "權威期刊",
       "title_en": "An Echo Unheard.",
-      "title_zh": "An Echo Unheard.",
+      "title_zh": "前所未闻的回声。",
       "summary_en": "",
       "summary_zh": "",
       "source": "N Engl J Med",
@@ -4413,6 +4413,38 @@
       "date": "2026-10-01",
       "authors": "Della-Torre E, Baker MC, Zhang W, Perugino CA, Katz G",
       "doi": "10.1056/NEJMoa2601337",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Tailoring levels of evidence in trials comparing common treatments.",
+      "title_zh": "Tailoring levels of evidence in trials comparing common treatments.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42863483/",
+      "date": "2026-10-01",
+      "authors": "White IR, Walker AS, Turner R, Choodari-Oskooei B, Sydes MR",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Hepatitis C-is discrimination preventing elimination?",
+      "title_zh": "Hepatitis C-is discrimination preventing elimination?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42863482/",
+      "date": "2026-10-01",
+      "authors": "Foster GR, Dillon J, Halford R",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -4915,6 +4947,102 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Development and Validation of an Adult Medical Urgency Score for US Donor Heart Allocation.",
+      "title_zh": "Development and Validation of an Adult Medical Urgency Score for US Donor Heart Allocation.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42862588/",
+      "date": "2026-10-01",
+      "authors": "Lyden GR, White M, Ahn DJ, Menteer J, Daly RC",
+      "doi": "10.1001/jama.2026.17403",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Gastric Residual Volume Assessment in Children.",
+      "title_zh": "Gastric Residual Volume Assessment in Children.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42862574/",
+      "date": "2026-10-01",
+      "authors": "Verbruggen SCAT, de Jonge RCJ, Joosten KFM",
+      "doi": "10.1001/jama.2026.16385",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Gastric Residual Volume Assessment in Children-Reply.",
+      "title_zh": "Gastric Residual Volume Assessment in Children-Reply.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42862570/",
+      "date": "2026-10-01",
+      "authors": "Tume LN, Peters MJ, Harrison DA",
+      "doi": "10.1001/jama.2026.16388",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Error in Author Name.",
+      "title_zh": "作者姓名出错。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42862567/",
+      "date": "2026-10-01",
+      "authors": "",
+      "doi": "10.1001/jama.2026.21693",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "As Organ Supply Expands, Equity Must Be Reimagined.",
+      "title_zh": "随着器官供应的扩大，必须重新构想公平。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42862562/",
+      "date": "2026-10-01",
+      "authors": "VanWagner LB, Bucuvalas J, Goldberg DS, Zarrinpar A",
+      "doi": "10.1001/jama.2026.19424",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Heart Transplant for Advanced Heart Failure: A Review.",
+      "title_zh": "Heart Transplant for Advanced Heart Failure: A Review.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 12; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42862549/",
+      "date": "2026-10-01",
+      "authors": "Amancherla K, Shah R, Shah AS, Schlendorf KH, Lindenfeld J",
+      "doi": "10.1001/jama.2026.17622",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Building Effective Multimodal Care for Obesity and Comorbidities in the GLP-1 Therapy Era.",
       "title_zh": "Building Effective Multimodal Care for Obesity and Comorbidities in the GLP-1 Therapy Era.",
       "summary_en": "",
@@ -5053,6 +5181,118 @@
       "date": "2026-10-01",
       "authors": "Gelbenegger G, Zilberszac R, Jorda A",
       "doi": "10.1001/jama.2026.16018",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Governments selling patient data are \"betraying\" their people, says AI expert.",
+      "title_zh": "Governments selling patient data are \"betraying\" their people, says AI expert.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 12; 395():e101119",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42863863/",
+      "date": "2026-10-01",
+      "authors": "Mahase E",
+      "doi": "10.1136/bmj-2026-101119",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Doctors must be more open about antimicrobial resistant infections in cancer deaths, says Sally Davies.",
+      "title_zh": "Doctors must be more open about antimicrobial resistant infections in cancer deaths, says Sally Davies.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 12; 395():e101125",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42863861/",
+      "date": "2026-10-01",
+      "authors": "Coombes R",
+      "doi": "10.1136/bmj-2026-101125",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "MAHA Summit platformed controversial celebrities and forgot its political base.",
+      "title_zh": "MAHA Summit platformed controversial celebrities and forgot its political base.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 12; 395():e101106",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42863860/",
+      "date": "2026-10-01",
+      "authors": "Harman S",
+      "doi": "10.1136/bmj-2026-101106",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Attacks on healthcare: World Medical Association issues new declaration on \"medical neutrality\".",
+      "title_zh": "Attacks on healthcare: World Medical Association issues new declaration on \"medical neutrality\".",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 12; 395():e101124",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42863859/",
+      "date": "2026-10-01",
+      "authors": "Furneaux R",
+      "doi": "10.1136/bmj-2026-101124",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Measles death toll exceeds 1100 as Bangladesh struggles with outbreak.",
+      "title_zh": "Measles death toll exceeds 1100 as Bangladesh struggles with outbreak.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 12; 395():e101120",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42863858/",
+      "date": "2026-10-01",
+      "authors": "Mahase E",
+      "doi": "10.1136/bmj-2026-101120",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Reel or perish: the \"social media impact factor\".",
+      "title_zh": "Reel or perish: the \"social media impact factor\".",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 12; 395():e101053",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42863856/",
+      "date": "2026-10-01",
+      "authors": "Ferrara F, Buonsenso D",
+      "doi": "10.1136/bmj-2026-101053",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The BMJ Medics' Revue 2026: sincere silliness.",
+      "title_zh": "The BMJ Medics' Revue 2026: sincere silliness.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 12; 395():e100457",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42863855/",
+      "date": "2026-10-01",
+      "authors": "Banbury E",
+      "doi": "10.1136/bmj-2026-100457",
       "departments": [
         "綜合"
       ]
@@ -5917,102 +6157,6 @@
       "date": "2026-09-03",
       "authors": "de Avila L, AlNaamani KM, Papatheodoridi M, Petta S, Hagström H",
       "doi": "10.1001/jama.2026.18491",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Licensure Framework for Autonomous Clinical Artificial Intelligence.",
-      "title_zh": "Licensure Framework for Autonomous Clinical Artificial Intelligence.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42814437/",
-      "date": "2026-09-03",
-      "authors": "Salmasian H",
-      "doi": "10.1001/jama.2026.15631",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Palmar Lesions and Moth-Eaten Alopecia in a 23-Year-Old Man.",
-      "title_zh": "Palmar Lesions and Moth-Eaten Alopecia in a 23-Year-Old Man.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42814434/",
-      "date": "2026-09-03",
-      "authors": "Zheng C, Ye Y, Yu Q",
-      "doi": "10.1001/jama.2026.13761",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Licensure Framework for Autonomous Clinical Artificial Intelligence-In Reply.",
-      "title_zh": "Licensure Framework for Autonomous Clinical Artificial Intelligence-In Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42814428/",
-      "date": "2026-09-03",
-      "authors": "Bergman A, Wachter RM, Emanuel EJ",
-      "doi": "10.1001/jama.2026.15637",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Lean MASLD and Limits of Body Size in Risk Stratification.",
-      "title_zh": "Lean MASLD and Limits of Body Size in Risk Stratification.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42814421/",
-      "date": "2026-09-03",
-      "authors": "Bugianesi E",
-      "doi": "10.1001/jama.2026.16793",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Prescription Drug Launch Price Trends Before and After the Inflation Reduction Act.",
-      "title_zh": "Prescription Drug Launch Price Trends Before and After the Inflation Reduction Act.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42814417/",
-      "date": "2026-09-03",
-      "authors": "Shanmugam H, Kesselheim AS, McGuire M, Rome BN",
-      "doi": "10.1001/jama.2026.17742",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Licensure Framework for Autonomous Clinical Artificial Intelligence.",
-      "title_zh": "Licensure Framework for Autonomous Clinical Artificial Intelligence.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Sep 30; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42814414/",
-      "date": "2026-09-03",
-      "authors": "Jaiswal N, Acevedo H, Celi LA",
-      "doi": "10.1001/jama.2026.15625",
       "departments": [
         "綜合"
       ]
@@ -7315,38 +7459,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Acute heart failure in Africa: new causes, unchanged outcomes.",
-      "title_zh": "非洲的急性心力衰竭：新的原因，不变的结果。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 26; 408(10561):1152-1154",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42669303/",
-      "date": "2026-09-02",
-      "authors": "Gaye B, Ribeiro ALP, Marijon E",
-      "doi": "10.1016/S0140-6736(26)01754-X",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Faecal microbiota transplantation in irritable bowel syndrome (REFIT2): a randomised, double-blind, placebo-controlled, phase 3 trial.",
-      "title_zh": "肠易激综合征中的粪便微生物群移植（ REFIT2 ） ：一项随机、双盲、安慰剂对照的3期试验",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Sep 24; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42785338/",
-      "date": "2026-09-02",
-      "authors": "Johnsen PH, Juul FE, Hoff DAL, Hillestad ER, Holme Ø",
-      "doi": "",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Researchers with lived experience navigate unique ethical and emotional challenges.",
       "title_zh": "Researchers with lived experience navigate unique ethical and emotional challenges.",
       "summary_en": "",
@@ -7485,118 +7597,6 @@
       "date": "2026-09-02",
       "authors": "O'Dowd A",
       "doi": "10.1136/bmj-2026-100986",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Brain tumours: New rapid genomic test could \"transform\" NHS diagnosis.",
-      "title_zh": "Brain tumours: New rapid genomic test could \"transform\" NHS diagnosis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 28; 394():e100973",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42805690/",
-      "date": "2026-09-02",
-      "authors": "Limb M",
-      "doi": "10.1136/bmj-2026-100973",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Incorporating research integrity into systematic reviews.",
-      "title_zh": "Incorporating research integrity into systematic reviews.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 28; 394():e100671",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42805689/",
-      "date": "2026-09-02",
-      "authors": "Franco JV, Skoetz N",
-      "doi": "10.1136/bmj-2026-100671",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Development and evaluation of a quality assessment tool for equality, diversity, and inclusion (QUALITY-EDI) within healthcare research.",
-      "title_zh": "Development and evaluation of a quality assessment tool for equality, diversity, and inclusion (QUALITY-EDI) within healthcare research.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 28; 394():e100612",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42805687/",
-      "date": "2026-09-02",
-      "authors": "Fadel MG, Kettley-Linsell H, Boshier PR, Barnes R, Newby C",
-      "doi": "10.1136/bmj-2026-100612",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Plans to end rough sleeping must focus on health exclusion and specialist services.",
-      "title_zh": "Plans to end rough sleeping must focus on health exclusion and specialist services.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 28; 394():e100972",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42805685/",
-      "date": "2026-09-02",
-      "authors": "Tottie C",
-      "doi": "10.1136/bmj-2026-100972",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "OpenAI hacked Australian government health website-and only notified authorities three months later.",
-      "title_zh": "OpenAI hacked Australian government health website-and only notified authorities three months later.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 28; 394():e100979",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42805684/",
-      "date": "2026-09-02",
-      "authors": "Nelson F",
-      "doi": "10.1136/bmj-2026-100979",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Social media companies cannot be trusted to apply external restrictions.",
-      "title_zh": "Social media companies cannot be trusted to apply external restrictions.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 28; 394():e100902",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42805682/",
-      "date": "2026-09-02",
-      "authors": "Sadlier MA, Foljambe R, Sehmer EAJ",
-      "doi": "10.1136/bmj-2026-100902",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "How do I gain leadership experience early in my career?",
-      "title_zh": "How do I gain leadership experience early in my career?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Sep 28; 394():e100909",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42805681/",
-      "date": "2026-09-02",
-      "authors": "Rimmer A",
-      "doi": "10.1136/bmj-2026-100909",
       "departments": [
         "綜合"
       ]

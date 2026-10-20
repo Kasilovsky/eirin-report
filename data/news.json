@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "articles": [
     {
       "category": "權威期刊",
@@ -877,150 +877,6 @@
       "date": "2026-10-08",
       "authors": "Jones SI, Federspiel JJ, Kuller JA",
       "doi": "10.1001/jama.2026.16217",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Conversational Consent.",
-      "title_zh": "Conversational Consent.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 8; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42848409/",
-      "date": "2026-10-08",
-      "authors": "Feudtner C",
-      "doi": "10.1001/jama.2026.19578",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "The Ethics of Germline Gene Editing, Revisited.",
-      "title_zh": "The Ethics of Germline Gene Editing, Revisited.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 8; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42848392/",
-      "date": "2026-10-08",
-      "authors": "Dawson EP, Ross LF",
-      "doi": "10.1001/jama.2026.18143",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Review on Adult Male Hypogonadism.",
-      "title_zh": "Review on Adult Male Hypogonadism.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 8; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42848390/",
-      "date": "2026-10-08",
-      "authors": "Vlachadis N, Stavros S, Panagopoulos P",
-      "doi": "10.1001/jama.2026.16494",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Review on Adult Male Hypogonadism-Reply.",
-      "title_zh": "Review on Adult Male Hypogonadism-Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 8; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42848389/",
-      "date": "2026-10-08",
-      "authors": "Anawalt BD, O'Connor KM, Grossmann M",
-      "doi": "10.1001/jama.2026.16506",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Survivors of Cyanotic Congenital Heart Disease-In Reply.",
-      "title_zh": "Survivors of Cyanotic Congenital Heart Disease-In Reply.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 8; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42848384/",
-      "date": "2026-10-08",
-      "authors": "Egidy Assenza G, Brida M, Landzberg MJ",
-      "doi": "10.1001/jama.2026.16220",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Catching Up With the Propaganda for Health.",
-      "title_zh": "Catching Up With the Propaganda for Health.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 8; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42848380/",
-      "date": "2026-10-08",
-      "authors": "",
-      "doi": "10.1001/jama.2025.16090",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: The NOPARK Randomized Clinical Trial.",
-      "title_zh": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: The NOPARK Randomized Clinical Trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 8; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42848371/",
-      "date": "2026-10-08",
-      "authors": "Brakedal B, Skeie GO, Derad C, Alstadhaug KB, Anundskås I",
-      "doi": "10.1001/jama.2026.18828",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Providing Care to the Surprisingly Large Rural Population in the US: A Healthy Dialogue With Julie Donohue and Mark Holmes.",
-      "title_zh": "Providing Care to the Surprisingly Large Rural Population in the US: A Healthy Dialogue With Julie Donohue and Mark Holmes.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 8; ():e2619684",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42848369/",
-      "date": "2026-10-08",
-      "authors": "Angus DC, O'Connor MB",
-      "doi": "10.1001/jama.2026.19684",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Longitudinal Trends and Characteristics of Hospital Closures and Openings.",
-      "title_zh": "Longitudinal Trends and Characteristics of Hospital Closures and Openings.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 8; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42848367/",
-      "date": "2026-10-08",
-      "authors": "Calianos JE, Song JH, Orav EJ, Figueroa JF, Tsai TC",
-      "doi": "10.1001/jama.2026.18260",
       "departments": [
         "綜合"
       ]
@@ -1971,150 +1827,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Doctor suspended for falsifying 31 death certificates to cut workload.",
-      "title_zh": "Doctor suspended for falsifying 31 death certificates to cut workload.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Oct 5; 395():e101047",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42833684/",
-      "date": "2026-10-05",
-      "authors": "Dyer C",
-      "doi": "10.1136/bmj-2026-101047",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Russia plague outbreak after reported death of lab worker: what you need to know.",
-      "title_zh": "Russia plague outbreak after reported death of lab worker: what you need to know.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Oct 5; 395():e101046",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42833683/",
-      "date": "2026-10-05",
-      "authors": "Wise J",
-      "doi": "10.1136/bmj-2026-101046",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "UK pandemic procurement reform must address both preparedness and integrity.",
-      "title_zh": "UK pandemic procurement reform must address both preparedness and integrity.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Oct 5; 395():e101010",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42833682/",
-      "date": "2026-10-05",
-      "authors": "Hellowell M, Barrington R, Lynch J",
-      "doi": "10.1136/bmj-2026-101010",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Has Taylor Swift defanged the toxic term \"patient zero\"?",
-      "title_zh": "Has Taylor Swift defanged the toxic term \"patient zero\"?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Oct 5; 395():e101044",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42833679/",
-      "date": "2026-10-05",
-      "authors": "Yamey G, McKay RA",
-      "doi": "10.1136/bmj-2026-101044",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Palantir protests: Pressure grows on NHS to end links as Tom Watson launches defence of tech giant.",
-      "title_zh": "Palantir protests: Pressure grows on NHS to end links as Tom Watson launches defence of tech giant.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Oct 5; 395():e101030",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42833678/",
-      "date": "2026-10-05",
-      "authors": "O'Dowd A",
-      "doi": "10.1136/bmj-2026-101030",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Man admits impersonating medical student to gain access to hospital.",
-      "title_zh": "Man admits impersonating medical student to gain access to hospital.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Oct 5; 395():e101049",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42833677/",
-      "date": "2026-10-05",
-      "authors": "O'Dowd A",
-      "doi": "10.1136/bmj-2026-101049",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Meningitis B vaccine: Only a quarter of year 13 school leavers in England get jab.",
-      "title_zh": "Meningitis B vaccine: Only a quarter of year 13 school leavers in England get jab.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Oct 5; 395():e101035",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42833676/",
-      "date": "2026-10-05",
-      "authors": "Baraniuk C",
-      "doi": "10.1136/bmj-2026-101035",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Physician assistants: Consultation launched to clarify supervision of controversial role and define \"undifferentiated\" patients.",
-      "title_zh": "Physician assistants: Consultation launched to clarify supervision of controversial role and define \"undifferentiated\" patients.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Oct 5; 395():e101033",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42833675/",
-      "date": "2026-10-05",
-      "authors": "O'Dowd A",
-      "doi": "10.1136/bmj-2026-101033",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Polypills for hypertension: a warning about diuretics in a heatwave.",
-      "title_zh": "Polypills for hypertension: a warning about diuretics in a heatwave.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "BMJ",
-      "citation": "BMJ. 2026 Oct 5; 395():e100993",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42833674/",
-      "date": "2026-10-05",
-      "authors": "Jolobe OM",
-      "doi": "10.1136/bmj-2026-100993",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial.",
       "title_zh": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial.",
       "summary_en": "",
@@ -2653,6 +2365,70 @@
       "date": "2026-10-02",
       "authors": "Liu KJ, Shi WY, Nesselbush MC, Phillips NA, Mach KE",
       "doi": "10.1038/s41591-026-04673-3",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "What I See before Anyone Speaks.",
+      "title_zh": "在任何人说话之前，我所看到的。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Oct 17; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42895222/",
+      "date": "2026-10-01",
+      "authors": "Shpiner RB",
+      "doi": "10.1056/NEJMp2604584",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Community Engagement Requirements in Medicaid - Law as a Determinant of Health.",
+      "title_zh": "医疗补助中的社区参与要求-法律作为健康的决定因素。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Oct 17; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42895221/",
+      "date": "2026-10-01",
+      "authors": "Huberfeld N, Shafer PR",
+      "doi": "10.1056/NEJMp2608810",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Why Shared-Savings ACOs Have Failed to Deliver for Primary Care.",
+      "title_zh": "为什么共享储蓄ACO未能为初级保健提供服务。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Oct 17; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42895219/",
+      "date": "2026-10-01",
+      "authors": "Rotenstein LS, Stine N, Landon B",
+      "doi": "10.1056/NEJMp2605590",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Spinal Tuberculosis.",
+      "title_zh": "Spinal Tuberculosis.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "N Engl J Med",
+      "citation": "N Engl J Med. 2026 Oct 17; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42895218/",
+      "date": "2026-10-01",
+      "authors": "Henriques SP, Mota M",
+      "doi": "10.1056/NEJMicm2607513",
       "departments": [
         "綜合"
       ]
@@ -4643,6 +4419,150 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Incorrect Affiliation.",
+      "title_zh": "不正确的隶属关系。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 19; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896542/",
+      "date": "2026-10-01",
+      "authors": "",
+      "doi": "10.1001/jama.2026.22423",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Individualized Cardiac Index-Guided Hemodynamic Therapy in High-Risk Patients Undergoing Elective Major Abdominal Surgery: The PELICAN Randomized Clinical Trial.",
+      "title_zh": "Individualized Cardiac Index-Guided Hemodynamic Therapy in High-Risk Patients Undergoing Elective Major Abdominal Surgery: The PELICAN Randomized Clinical Trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 19; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896534/",
+      "date": "2026-10-01",
+      "authors": "Saugel B, Meidert AS, Meyhoff CS, Sort R, Aasvang EK",
+      "doi": "10.1001/jama.2026.18574",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Individualized Cardiac Index-Guided Hemodynamic Therapy in High-Risk Patients Undergoing Elective Major Abdominal Surgery: Research Summary.",
+      "title_zh": "Individualized Cardiac Index-Guided Hemodynamic Therapy in High-Risk Patients Undergoing Elective Major Abdominal Surgery: Research Summary.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 19; ():e2618706",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896533/",
+      "date": "2026-10-01",
+      "authors": "",
+      "doi": "10.1001/jama.2026.18706",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Testing for Alzheimer Disease in Asymptomatic Adults.",
+      "title_zh": "Testing for Alzheimer Disease in Asymptomatic Adults.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 19; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42895756/",
+      "date": "2026-10-01",
+      "authors": "Devi G",
+      "doi": "10.1001/jama.2026.18839",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Accessibility of Publicly Posted Kidney Transplant Waitlist Criteria Under IOTA.",
+      "title_zh": "IOTA下公开发布的肾移植等待名单标准的可及性。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 19; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42895740/",
+      "date": "2026-10-01",
+      "authors": "Lee EY, Rentas CM, McElroy LM, Sheetz KH",
+      "doi": "10.1001/jama.2026.18906",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Therapy for Adults With Complicated Urinary Tract Infection.",
+      "title_zh": "Therapy for Adults With Complicated Urinary Tract Infection.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 19; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42895736/",
+      "date": "2026-10-01",
+      "authors": "Nagarajan PV, Davis AM, Bell EF",
+      "doi": "10.1001/jama.2026.17754",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Illicit Injectable Peptides-Reply.",
+      "title_zh": "Illicit Injectable Peptides-Reply.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 19; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42895717/",
+      "date": "2026-10-01",
+      "authors": "Piatkowski T, Ganson KT, Nagata JM",
+      "doi": "10.1001/jama.2026.17242",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "A Common CD36 Variant and the Genetic Landscape of Dilated Cardiomyopathy in Individuals of African Ancestry.",
+      "title_zh": "A Common CD36 Variant and the Genetic Landscape of Dilated Cardiomyopathy in Individuals of African Ancestry.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 19; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42895716/",
+      "date": "2026-10-01",
+      "authors": "Challa SP, Biddinger KJ, Abramowitz SA, Zheng A, Mead JO",
+      "doi": "10.1001/jama.2026.18449",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Illicit Injectable Peptides.",
+      "title_zh": "Illicit Injectable Peptides.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 19; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42895715/",
+      "date": "2026-10-01",
+      "authors": "Janovsky CCPS",
+      "doi": "10.1001/jama.2026.17239",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Inside the Growing Crisis of Primary Care.",
       "title_zh": "在初级保健日益严重的危机中。",
       "summary_en": "",
@@ -4820,7 +4740,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA's Testosterone Label Changes: Implications and Unresolved Issues.",
-      "title_zh": "FDA的睾酮标签变化：影响和未解决的问题。",
+      "title_zh": "FDA's Testosterone Label Changes: Implications and Unresolved Issues.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4884,7 +4804,7 @@
     {
       "category": "權威期刊",
       "title_en": "Lifestyle and Metformin Interventions and Risk of Multimorbidity in Individuals With Prediabetes-In Reply.",
-      "title_zh": "生活方式和二甲双胍干预措施以及糖尿病前期患者的多发病风险-回复。",
+      "title_zh": "Lifestyle and Metformin Interventions and Risk of Multimorbidity in Individuals With Prediabetes-In Reply.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4932,7 +4852,7 @@
     {
       "category": "權威期刊",
       "title_en": "See One.",
-      "title_zh": "请参阅一。",
+      "title_zh": "See One.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -4964,7 +4884,7 @@
     {
       "category": "權威期刊",
       "title_en": "Intravenous Vitamin C and Mortality and Organ Dysfunction in Severe Burn Injury.",
-      "title_zh": "静脉注射维生素C与严重烧伤的死亡率和器官功能障碍",
+      "title_zh": "Intravenous Vitamin C and Mortality and Organ Dysfunction in Severe Burn Injury.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -5939,6 +5859,150 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Africa has nearly a million unemployed health workers despite workforce crisis.",
+      "title_zh": "Africa has nearly a million unemployed health workers despite workforce crisis.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 19; 395():e101179",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896908/",
+      "date": "2026-10-01",
+      "authors": "Coombes R",
+      "doi": "10.1136/bmj-2026-101179",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Is a storm brewing around advanced clinical practitioner and advanced nurse practitioner roles?",
+      "title_zh": "Is a storm brewing around advanced clinical practitioner and advanced nurse practitioner roles?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 19; 395():e101111",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896906/",
+      "date": "2026-10-01",
+      "authors": "Oliver D",
+      "doi": "10.1136/bmj-2026-101111",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Invasive mosquitoes continue global spread in 2026.",
+      "title_zh": "Invasive mosquitoes continue global spread in 2026.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 19; 395():e101183",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896902/",
+      "date": "2026-10-01",
+      "authors": "Milsum M, Ely J",
+      "doi": "10.1136/bmj-2026-101183",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "New NHS guidance on single sex spaces: what will it mean for staff?",
+      "title_zh": "New NHS guidance on single sex spaces: what will it mean for staff?",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 19; 395():e101180",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896901/",
+      "date": "2026-10-01",
+      "authors": "Furneaux R",
+      "doi": "10.1136/bmj-2026-101180",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Sack NHS staff who snooped on tiger victim's records, health secretary says.",
+      "title_zh": "Sack NHS staff who snooped on tiger victim's records, health secretary says.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 19; 395():e101187",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896900/",
+      "date": "2026-10-01",
+      "authors": "Baraniuk C",
+      "doi": "10.1136/bmj-2026-101187",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The UK should invest in healthy lifestyles rather than drugs.",
+      "title_zh": "The UK should invest in healthy lifestyles rather than drugs.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 19; 395():e101097",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896899/",
+      "date": "2026-10-01",
+      "authors": "Szawarski P",
+      "doi": "10.1136/bmj-2026-101097",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Protecting workers from increasing heat.",
+      "title_zh": "Protecting workers from increasing heat.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 19; 395():e101095",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896898/",
+      "date": "2026-10-01",
+      "authors": "Nemer M, Venugopal V, Suraya A, Misha F",
+      "doi": "10.1136/bmj-2026-101095",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "AI prescriptions: App to issue drugs without doctors' oversight in the US.",
+      "title_zh": "AI prescriptions: App to issue drugs without doctors' oversight in the US.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 19; 395():e101186",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896889/",
+      "date": "2026-10-01",
+      "authors": "Taylor L",
+      "doi": "10.1136/bmj-2026-101186",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Doctors' pay: Government recommends below-inflation pay rise, prompting fury from unions.",
+      "title_zh": "Doctors' pay: Government recommends below-inflation pay rise, prompting fury from unions.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "BMJ",
+      "citation": "BMJ. 2026 Oct 19; 395():e101188",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896886/",
+      "date": "2026-10-01",
+      "authors": "Furneaux R",
+      "doi": "10.1136/bmj-2026-101188",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Antidepressants: New safety warnings highlight risk of sexual dysfunction and suicidal thoughts.",
       "title_zh": "Antidepressants: New safety warnings highlight risk of sexual dysfunction and suicidal thoughts.",
       "summary_en": "",
@@ -6861,6 +6925,38 @@
       "date": "2026-10-01",
       "authors": "Tuttle KR, Bjornstad P, Smith C, Pruijm M, McCown PJ",
       "doi": "10.1038/s41591-026-04674-2",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "The pyrin inflammasome senses OCTN2-mediated uptake of extracellular ʟ-carnitine from muscle injury or ingestion.",
+      "title_zh": "The pyrin inflammasome senses OCTN2-mediated uptake of extracellular ʟ-carnitine from muscle injury or ingestion.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Oct 19; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896553/",
+      "date": "2026-10-01",
+      "authors": "Elliott EI, Yoshida TM, Nakandakari SCBR, Pope S, Zhang C",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "A microbiome-bile acid axis mediates protection from chronic liver disease in females.",
+      "title_zh": "A microbiome-bile acid axis mediates protection from chronic liver disease in females.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Cell",
+      "citation": "Cell. 2026 Oct 19; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42896552/",
+      "date": "2026-10-01",
+      "authors": "Li M, Kuang J, Chen T, Ding K, Chen Y",
+      "doi": "",
       "departments": [
         "綜合"
       ]
@@ -8291,70 +8387,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Oya Virus in a Patient with Severe Hepatitis, Enteritis, and Coagulopathy.",
-      "title_zh": "Oya Virus in a Patient with Severe Hepatitis, Enteritis, and Coagulopathy.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Sep 24; 395(12):1244-1246",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42777248/",
-      "date": "2026-09-02",
-      "authors": "Wang Y, Fan L, Zhang Z, Chen X, Chen Y",
-      "doi": "10.1056/NEJMc2602616",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Cumulative Hematologic Morbidity and Outcomes in Shwachman-Diamond Syndrome.",
-      "title_zh": "Shwachman-Diamond综合征的累积血液学发病率和结局",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Sep 24; 395(12):1241-1244",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42777247/",
-      "date": "2026-09-02",
-      "authors": "Myers KC, Donadieu J, Goldberg B, Delafoy M, Zeidler C",
-      "doi": "10.1056/NEJMc2605001",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Anito-cel for Multiple Myeloma.",
-      "title_zh": "多发性骨髓瘤的Anito-cel。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Sep 24; 395(12):1233-1236",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42777246/",
-      "date": "2026-09-02",
-      "authors": "Lin Y",
-      "doi": "10.1056/NEJMe2609181",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Case 27-2026: A 4-Year-Old Boy with Fatigue, Imbalance, and Frequent Falls.",
-      "title_zh": "案例27-2026 ：一个4岁的男孩，疲劳、失衡和频繁跌倒。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "N Engl J Med",
-      "citation": "N Engl J Med. 2026 Sep 24; 395(12):1219-1227",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42777245/",
-      "date": "2026-09-02",
-      "authors": "Arauz Boudreau AD, Yoon HM, Wong BL",
-      "doi": "10.1056/NEJMcpc2603181",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "A trembling detour to the diagnosis of encephalitis: a neuroborreliosis case report.",
       "title_zh": "A trembling detour to the diagnosis of encephalitis: a neuroborreliosis case report.",
       "summary_en": "",
@@ -9389,38 +9421,6 @@
       "date": "2026-09-01",
       "authors": "Naara S, Kochat V, Rao X, Arslan E, Saddawi-Konefka R",
       "doi": "10.1016/j.cell.2026.07.031",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Distinct cellular phenotypes of language and executive decline in amyotrophic lateral sclerosis.",
-      "title_zh": "Distinct cellular phenotypes of language and executive decline in amyotrophic lateral sclerosis.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Sep 17; 189(19):6044-6060.e11",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42551425/",
-      "date": "2026-09-01",
-      "authors": "Petrescu J, Gouveia Roque C, Jackson CA, Daly AC, Butti Z",
-      "doi": "10.1016/j.cell.2026.07.008",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Spatial atlas of the human brain vasculature reveals specialized cell ensembles.",
-      "title_zh": "Spatial atlas of the human brain vasculature reveals specialized cell ensembles.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Cell",
-      "citation": "Cell. 2026 Sep 17; 189(19):6125-6152.e8",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42537647/",
-      "date": "2026-09-01",
-      "authors": "Wang JC, Sanchez D, Arul S, Gülsuyu B, Gopinadhan A",
-      "doi": "10.1016/j.cell.2026.07.007",
       "departments": [
         "綜合"
       ]

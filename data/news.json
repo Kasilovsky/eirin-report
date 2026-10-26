@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "articles": [
     {
       "category": "權威期刊",
@@ -883,38 +883,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Department of Error.",
-      "title_zh": "错误部门。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Oct 3; 408(10562):1312",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42822471/",
-      "date": "2026-10-03",
-      "authors": "",
-      "doi": "10.1016/S0140-6736(26)01955-0",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Advances in primary sclerosing cholangitis care.",
-      "title_zh": "原发性硬化性胆管炎护理的进展。",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Lancet",
-      "citation": "Lancet. 2026 Oct 3; 408(10562):1311",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42822470/",
-      "date": "2026-10-03",
-      "authors": "Qu Z, Schmelzle M",
-      "doi": "10.1016/S0140-6736(26)01372-3",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Ravulizumab in IgA Nephropathy - Interim Analysis of a Phase 3 Trial.",
       "title_zh": "Ravulizumab治疗IgA肾病- 3期临床试验的中期分析。",
       "summary_en": "",
@@ -1507,6 +1475,38 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Optimising late-line treatment administration in metastatic colorectal cancer: an even brighter SUNLIGHT.",
+      "title_zh": "Optimising late-line treatment administration in metastatic colorectal cancer: an even brighter SUNLIGHT.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 24; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42925881/",
+      "date": "2026-10-02",
+      "authors": "Ciracì P, Cremolini C",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "14-day versus 28-day trifluridine-tipiracil plus bevacizumab for refractory metastatic colorectal cancer (PRABITAS): a pragmatic, multicentre, open-label, randomised, phase 3, non-inferiority trial in Japan.",
+      "title_zh": "14天对比28天三氟尿啶-替匹拉西尔联合贝伐单抗治疗难治性转移性结直肠癌（ PRABITAS ） ：日本的一项实用、多中心、标签开放、随机、3期、非劣效性试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Lancet",
+      "citation": "Lancet. 2026 Oct 24; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42925880/",
+      "date": "2026-10-02",
+      "authors": "Sakakida T, Taniguchi H, Asayama M, Suwa Y, Shimura T",
+      "doi": "",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "Efficacy and safety of mitapivat in patients with sickle cell disease (RISE UP): a phase 3, double-blind, global, randomised, placebo-controlled trial.",
       "title_zh": "Mitapivat在镰状细胞病（ RISE UP ）患者中的有效性和安全性：一项3期、双盲、全局、随机、安慰剂对照试验。",
       "summary_en": "",
@@ -2067,6 +2067,86 @@
     },
     {
       "category": "權威期刊",
+      "title_en": "Sodium-Glucose Cotransporter 2 Inhibitor Use and Levels of Hemoglobin, Markers of Iron Metabolism, and Erythropoiesis: A Systematic Review and Meta-Analysis of Randomized Clinical Trials.",
+      "title_zh": "Sodium-Glucose Cotransporter 2 Inhibitor Use and Levels of Hemoglobin, Markers of Iron Metabolism, and Erythropoiesis: A Systematic Review and Meta-Analysis of Randomized Clinical Trials.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 24; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42925557/",
+      "date": "2026-10-02",
+      "authors": "Yang Y, Yang C, Wang Y, Rawee P, Cases A",
+      "doi": "10.1001/jama.2026.19921",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Increased Hemoglobin With Sodium-Glucose Transporter 2 Inhibitors-A Consistent Extra Benefit?",
+      "title_zh": "使用钠葡萄糖转运蛋白2抑制剂增加血红蛋白-持续的额外益处？",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 24; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42925555/",
+      "date": "2026-10-02",
+      "authors": "Eckardt KU, Koury MJ",
+      "doi": "10.1001/jama.2026.22329",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Trastuzumab Rezetecan in ERBB2-Low Advanced Breast Cancer: The HORIZON-Breast06 Randomized Clinical Trial.",
+      "title_zh": "曲妥珠单抗Rezetecan治疗ERBB2-低度晚期乳腺癌： HORIZON-Breast06随机临床试验。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 23; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42925007/",
+      "date": "2026-10-02",
+      "authors": "Fan Y, Liu Y, Wang Y, Ouyang Q, Zhang Q",
+      "doi": "10.1001/jama.2026.21372",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Trastuzumab Rezetecan in ERBB2-Low Advanced Breast Cancer: Research Summary.",
+      "title_zh": "曲妥珠单抗Rezetecan治疗ERBB2-低度晚期乳腺癌：研究总结。",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 23; ():e2621700",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42925005/",
+      "date": "2026-10-02",
+      "authors": "",
+      "doi": "10.1001/jama.2026.21700",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Trastuzumab Rezetecan in EBBR2-Low Metastatic Breast Cancer: One More ADC or a New Opportunity?",
+      "title_zh": "曲妥珠单抗Rezetecan治疗EBBR2-低转移性乳腺癌：多一个ADC还是新的机会？",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "JAMA",
+      "citation": "JAMA. 2026 Oct 23; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42924935/",
+      "date": "2026-10-02",
+      "authors": "Mosele MF, André F",
+      "doi": "10.1001/jama.2026.22295",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
       "title_en": "JAMA Editors' Summary Podcast: October 23, 2026.",
       "title_zh": "JAMA编辑摘要播客： 2026年10月23日。",
       "summary_en": "",
@@ -2276,7 +2356,7 @@
     {
       "category": "權威期刊",
       "title_en": "Reforming Risk Adjustment in Medicare Advantage-A View From Congress.",
-      "title_zh": "改革Medicare Advantage中的风险调整-国会的观点。",
+      "title_zh": "Reforming Risk Adjustment in Medicare Advantage-A View From Congress.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2292,7 +2372,7 @@
     {
       "category": "權威期刊",
       "title_en": "Visitors Must Check In.",
-      "title_zh": "访客必须入住。",
+      "title_zh": "Visitors Must Check In.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2308,7 +2388,7 @@
     {
       "category": "權威期刊",
       "title_en": "Rituximab vs Azathioprine for Eosinophilic Granulomatosis With Polyangiitis Maintenance Therapy: Research Summary.",
-      "title_zh": "利妥昔单抗与硫唑嘌呤治疗嗜酸性肉芽肿病合并多血管炎维持治疗：研究总结。",
+      "title_zh": "Rituximab vs Azathioprine for Eosinophilic Granulomatosis With Polyangiitis Maintenance Therapy: Research Summary.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2340,7 +2420,7 @@
     {
       "category": "權威期刊",
       "title_en": "Rituximab Maintenance in Eosinophilic Granulomatosis With Polyangiitis.",
-      "title_zh": "利妥昔单抗维持治疗伴多血管炎的嗜酸性肉芽肿病。",
+      "title_zh": "Rituximab Maintenance in Eosinophilic Granulomatosis With Polyangiitis.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2356,7 +2436,7 @@
     {
       "category": "權威期刊",
       "title_en": "A Technology Journalist Looks at AI and Health: A Conversation With Kevin Roose.",
-      "title_zh": "一位科技记者着眼于人工智能与健康：与Kevin Roose的对话。",
+      "title_zh": "A Technology Journalist Looks at AI and Health: A Conversation With Kevin Roose.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2388,7 +2468,7 @@
     {
       "category": "權威期刊",
       "title_en": "Rituximab vs Azathioprine for Eosinophilic Granulomatosis With Polyangiitis Maintenance Therapy: A Randomized Clinical Trial.",
-      "title_zh": "利妥昔单抗与硫唑嘌呤治疗嗜酸性肉芽肿病合并多血管炎维持治疗：一项随机临床试验。",
+      "title_zh": "Rituximab vs Azathioprine for Eosinophilic Granulomatosis With Polyangiitis Maintenance Therapy: A Randomized Clinical Trial.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -2404,7 +2484,7 @@
     {
       "category": "權威期刊",
       "title_en": "Nonfatal Drug Overdoses and Naloxone Use.",
-      "title_zh": "非致命药物过量和纳洛酮使用。",
+      "title_zh": "Nonfatal Drug Overdoses and Naloxone Use.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -3933,6 +4013,38 @@
       "date": "2026-10-02",
       "authors": "Fisher N, Frith U",
       "doi": "10.1136/bmj-2026-101196",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Neoadjuvant nivolumab with or without visugromab in muscle-invasive bladder cancer: the phase 2a GDFATHER-NEO trial.",
+      "title_zh": "Neoadjuvant nivolumab with or without visugromab in muscle-invasive bladder cancer: the phase 2a GDFATHER-NEO trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Oct 24; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42926233/",
+      "date": "2026-10-02",
+      "authors": "Necchi A, Mercinelli C, Maiorano BA, Piacentini M, Cigliola A",
+      "doi": "10.1038/s41591-026-04740-9",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Relatlimab plus nivolumab versus nivolumab for advanced melanoma: 5-year survival and biomarker analyses of the phase 3 RELATIVITY-047 trial.",
+      "title_zh": "Relatlimab plus nivolumab versus nivolumab for advanced melanoma: 5-year survival and biomarker analyses of the phase 3 RELATIVITY-047 trial.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Oct 24; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42926136/",
+      "date": "2026-10-02",
+      "authors": "Long GV, Dolfi S, Hodi FS, Lipson EJ, Schadendorf D",
+      "doi": "10.1038/s41591-026-04756-1",
       "departments": [
         "綜合"
       ]
@@ -6435,86 +6547,6 @@
     },
     {
       "category": "權威期刊",
-      "title_en": "Testosterone Screening Thresholds in Active-Duty US Male Service Members.",
-      "title_zh": "Testosterone Screening Thresholds in Active-Duty US Male Service Members.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 15; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42879141/",
-      "date": "2026-10-01",
-      "authors": "Hennigar SR, Heymsfield SB, Bukhari AS, Lieberman HR, Berryman CE",
-      "doi": "10.1001/jama.2026.19794",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "See One.",
-      "title_zh": "See One.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 15; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42879139/",
-      "date": "2026-10-01",
-      "authors": "McClintock AH",
-      "doi": "10.1001/jama.2026.20732",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Lifestyle and Metformin Interventions and Risk of Multimorbidity in Individuals With Prediabetes.",
-      "title_zh": "Lifestyle and Metformin Interventions and Risk of Multimorbidity in Individuals With Prediabetes.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 15; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42879129/",
-      "date": "2026-10-01",
-      "authors": "McCarthy WJ, Ferguson F, Gelberg L",
-      "doi": "10.1001/jama.2026.16751",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Intravenous Vitamin C and Mortality and Organ Dysfunction in Severe Burn Injury.",
-      "title_zh": "Intravenous Vitamin C and Mortality and Organ Dysfunction in Severe Burn Injury.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 14; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42873534/",
-      "date": "2026-10-01",
-      "authors": "Hemilä H, Chalker E",
-      "doi": "10.1001/jama.2026.16509",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "What Is an Autopsy?",
-      "title_zh": "What Is an Autopsy?",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "JAMA",
-      "citation": "JAMA. 2026 Oct 14; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42873533/",
-      "date": "2026-10-01",
-      "authors": "Walter KL",
-      "doi": "10.1001/jama.2026.19248",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
       "title_en": "Africa has nearly a million unemployed health workers despite workforce crisis.",
       "title_zh": "Africa has nearly a million unemployed health workers despite workforce crisis.",
       "summary_en": "",
@@ -8973,38 +9005,6 @@
       "date": "2026-09-03",
       "authors": "Kanazawa N, Martens CP, Makino S, Heruye SH, Zollman A",
       "doi": "10.1126/scitranslmed.aed4200",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Werner helicase inhibitor for advanced microsatellite instability solid tumors: a phase 1 trial.",
-      "title_zh": "Werner helicase inhibitor for advanced microsatellite instability solid tumors: a phase 1 trial.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Sep 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42811189/",
-      "date": "2026-09-02",
-      "authors": "Yap TA, Fontana E, Cook N, Fakih M, Bechter O",
-      "doi": "10.1038/s41591-026-04657-3",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "A synthetic lethal drug for microsatellite instability cancers.",
-      "title_zh": "A synthetic lethal drug for microsatellite instability cancers.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Sep 29; ():",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42811188/",
-      "date": "2026-09-02",
-      "authors": "Liu J",
-      "doi": "10.1038/s41591-026-04693-z",
       "departments": [
         "綜合"
       ]

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "articles": [
     {
       "category": "權威期刊",
@@ -740,7 +740,7 @@
     {
       "category": "權威期刊",
       "title_en": "JAMA Editors' Summary Podcast: October 30, 2026.",
-      "title_zh": "JAMA编辑摘要播客： 2026年10月30日。",
+      "title_zh": "JAMA Editors' Summary Podcast: October 30, 2026.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -756,7 +756,7 @@
     {
       "category": "權威期刊",
       "title_en": "Survey Suggests GLP-1 Drugs May Curb Alcohol Use for Many Patients.",
-      "title_zh": "调查表明， GLP-1药物可能会抑制许多患者的酒精使用。",
+      "title_zh": "Survey Suggests GLP-1 Drugs May Curb Alcohol Use for Many Patients.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -788,7 +788,7 @@
     {
       "category": "權威期刊",
       "title_en": "Annual Dementia Incidence May Reach 25 Million by 2050.",
-      "title_zh": "到2050年，痴呆症年发病率可能达到2500万。",
+      "title_zh": "Annual Dementia Incidence May Reach 25 Million by 2050.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -804,7 +804,7 @@
     {
       "category": "權威期刊",
       "title_en": "FDA Approves New Drug to Treat Herpes Simplex Virus Lesions.",
-      "title_zh": "FDA批准用于治疗单纯疱疹病毒病变的新药。",
+      "title_zh": "FDA Approves New Drug to Treat Herpes Simplex Virus Lesions.",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -836,7 +836,7 @@
     {
       "category": "權威期刊",
       "title_en": "Is the Pennsylvania Measles Outbreak the New Normal?",
-      "title_zh": "宾夕法尼亚州麻疹爆发是新常态吗？",
+      "title_zh": "Is the Pennsylvania Measles Outbreak the New Normal?",
       "summary_en": "",
       "summary_zh": "",
       "source": "JAMA",
@@ -1005,6 +1005,22 @@
       "date": "2026-10-03",
       "authors": "Rimmer A",
       "doi": "10.1136/bmj-2026-101301",
+      "departments": [
+        "綜合"
+      ]
+    },
+    {
+      "category": "權威期刊",
+      "title_en": "Climate change threatens malaria elimination in the Asia Pacific.",
+      "title_zh": "Climate change threatens malaria elimination in the Asia Pacific.",
+      "summary_en": "",
+      "summary_zh": "",
+      "source": "Nature Medicine",
+      "citation": "Nat Med. 2026 Oct 30; ():",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42963406/",
+      "date": "2026-10-03",
+      "authors": "Fornace K, Hein PS, Djaafara B, Ashad-Uz-Zaman MN, Chang CC",
+      "doi": "10.1038/s41591-026-04722-x",
       "departments": [
         "綜合"
       ]
@@ -11181,22 +11197,6 @@
       "date": "",
       "authors": "Hanson C, Akuze J, Annerstedt KS, Alvesson HM, Sun S",
       "doi": "10.1038/s41591-026-04599-w",
-      "departments": [
-        "綜合"
-      ]
-    },
-    {
-      "category": "權威期刊",
-      "title_en": "Recombinant shingles vaccination and the risk of cardiovascular events.",
-      "title_zh": "Recombinant shingles vaccination and the risk of cardiovascular events.",
-      "summary_en": "",
-      "summary_zh": "",
-      "source": "Nature Medicine",
-      "citation": "Nat Med. 2026 Oct; 32(10):3612-3616",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42649256/",
-      "date": "",
-      "authors": "Corsi-Zuelli F, Li F, Upthegrove R, Todd JA, Raman B",
-      "doi": "10.1038/s41591-026-04606-0",
       "departments": [
         "綜合"
       ]

@@ -53,12 +53,29 @@ async function cacheFirst(request) {
   return response;
 }
 
+/* 导航请求带查询参数（?q=…&page=…）时缓存匹配不到，离线回退到首页 */
+async function navigateFirst(request) {
+  const cache = await caches.open(VERSION);
+  try {
+    return await fetch(request);
+  } catch {
+    const cached = (await cache.match(request)) || (await cache.match("./index.html"));
+    if (cached) return cached;
+    throw new Error("offline");
+  }
+}
+
 self.addEventListener("fetch", (event) => {
   const request = event.request;
   if (request.method !== "GET") return;
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
+
+  if (request.mode === "navigate") {
+    event.respondWith(navigateFirst(request));
+    return;
+  }
 
   if (url.pathname.endsWith("/data/news.json") || url.pathname.endsWith("/feed.xml")) {
     event.respondWith(networkFirst(request));

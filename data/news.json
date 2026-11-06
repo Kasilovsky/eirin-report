@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-07T02:31:39+08:00",
+ "generated_at": "2026-11-07T03:14:25+08:00",
  "window_days": 180,
  "count": 700,
  "journals": [
@@ -42,7 +42,7 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 300,
+  "translate_used": 0,
   "cache_size": 209,
   "translate_fails": 0
  },
@@ -62,6 +62,11 @@
    "author_count": 30,
    "doi": "10.1016/S0140-6736(26)01767-8",
    "study_type": "Meta 分析",
+   "pubtypes": [
+    "Journal Article",
+    "Systematic Review",
+    "Meta-Analysis"
+   ],
    "mesh": [
     "Humans",
     "Myocardial Infarction",
@@ -88,6 +93,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)02097-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -108,6 +116,10 @@
    "author_count": 146,
    "doi": "10.1016/S0140-6736(26)01779-4",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Climate Change",
@@ -132,6 +144,9 @@
    "author_count": 6,
    "doi": "10.1016/S0140-6736(26)02156-2",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "公共卫生"
@@ -152,6 +167,12 @@
    "author_count": 38,
    "doi": "10.1016/S0140-6736(26)01899-4",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Humans",
     "ErbB Receptors",
@@ -184,6 +205,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01951-3",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -205,6 +229,9 @@
    "author_count": 8,
    "doi": "10.1016/S0140-6736(26)01753-8",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "公共卫生"
@@ -225,6 +252,12 @@
    "author_count": 33,
    "doi": "10.1016/S0140-6736(26)01654-5",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Pragmatic Clinical Trial",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Humans",
     "Myocardial Infarction",
@@ -255,6 +288,10 @@
    "author_count": 4,
    "doi": "10.1016/S0140-6736(26)01386-3",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Male",
@@ -283,6 +320,9 @@
    "author_count": 21,
    "doi": "10.1038/s41591-026-04744-5",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -303,6 +343,9 @@
    "author_count": 2,
    "doi": "10.1136/bmj-2026-100755",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -323,6 +366,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101365",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -343,6 +389,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101369",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -363,6 +412,9 @@
    "author_count": 4,
    "doi": "10.1136/bmj-2026-101304",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -383,6 +435,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101370",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -403,6 +458,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101296",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "外科"
@@ -423,6 +481,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101351",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -443,6 +504,12 @@
    "author_count": 25,
    "doi": "10.1136/bmj-2026-101114",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Equivalence Trial",
+    "Randomized Controlled Trial"
+   ],
    "mesh": [
     "Humans",
     "Thoracotomy",
@@ -474,6 +541,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101361",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染"
@@ -494,6 +564,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101364",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染"
@@ -514,6 +587,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101343",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -534,6 +610,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101356",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -554,6 +633,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101306",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -574,6 +656,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101235",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -594,6 +679,9 @@
    "author_count": 5,
    "doi": "10.1038/s41591-026-04800-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -614,6 +702,10 @@
    "author_count": 5,
    "doi": "10.1016/S0140-6736(26)01326-7",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -634,6 +726,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.23146",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -654,6 +749,9 @@
    "author_count": 13,
    "doi": "10.1001/jama.2026.21764",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -674,6 +772,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.19907",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢"
@@ -694,6 +795,10 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.22447",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Video-Audio Media"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -714,6 +819,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.19117",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "神经",
@@ -735,6 +843,9 @@
    "author_count": 0,
    "doi": "10.1001/jama.2025.16122",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "老年医学"
@@ -755,6 +866,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.19120",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "神经",
@@ -776,6 +890,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.21781",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -796,6 +913,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20176",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -816,6 +936,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2610113",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -836,6 +960,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2610113",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -856,6 +984,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2611171",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -877,6 +1009,10 @@
    "author_count": 1,
    "doi": "10.1056/NEJMc2611171",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -898,6 +1034,10 @@
    "author_count": 1,
    "doi": "10.1056/NEJMc2611171",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -919,6 +1059,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMc2611171",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -940,6 +1084,9 @@
    "author_count": 20,
    "doi": "10.1056/NEJMc2603129",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -960,6 +1107,9 @@
    "author_count": 12,
    "doi": "10.1056/NEJMc2606815",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -980,6 +1130,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMclde2600746",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1000,6 +1154,9 @@
    "author_count": 2,
    "doi": "10.1056/NEJMe2612403",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -1020,6 +1177,9 @@
    "author_count": 2,
    "doi": "10.1056/NEJMe2612237",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -1040,6 +1200,9 @@
    "author_count": 2,
    "doi": "10.1056/NEJMe2613108",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢",
@@ -1061,6 +1224,10 @@
    "author_count": 5,
    "doi": "10.1056/NEJMcps2606356",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1081,6 +1248,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMicm2603743",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1101,6 +1272,10 @@
    "author_count": 1,
    "doi": "10.1056/NEJMra2519017",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Thrombolytic Therapy",
@@ -1133,6 +1308,12 @@
    "author_count": 23,
    "doi": "10.1056/NEJMoa2610014",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Clinical Trial, Phase III",
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial"
+   ],
    "mesh": [
     "Adult",
     "Female",
@@ -1165,6 +1346,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMp2606011",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1185,6 +1369,9 @@
    "author_count": 2,
    "doi": "10.1056/NEJMp2611270",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1205,6 +1392,9 @@
    "author_count": 3,
    "doi": "10.1056/NEJMp2610734",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1225,6 +1415,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMicm2605371",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1245,6 +1439,12 @@
    "author_count": 19,
    "doi": "10.1056/NEJMoa2608682",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Adult",
     "Female",
@@ -1276,6 +1476,12 @@
    "author_count": 12,
    "doi": "10.1056/NEJMoa2604169",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Adult",
     "Aged",
@@ -1307,6 +1513,11 @@
    "author_count": 30,
    "doi": "10.1056/NEJMoa2608903",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial"
+   ],
    "mesh": [
     "Aged",
     "Female",
@@ -1338,6 +1549,11 @@
    "author_count": 37,
    "doi": "10.1056/NEJMoa2609059",
    "study_type": "观察性研究",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Observational Study"
+   ],
    "mesh": [
     "Adolescent",
     "Adult",
@@ -1369,6 +1585,9 @@
    "author_count": 0,
    "doi": "10.1038/s41591-026-04771-2",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -1390,6 +1609,9 @@
    "author_count": 31,
    "doi": "10.1038/s41591-026-04745-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -1411,6 +1633,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101240",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1431,6 +1656,9 @@
    "author_count": 4,
    "doi": "10.1136/bmj-2026-101326",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1451,6 +1679,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-100824",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1471,6 +1702,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101332",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1491,6 +1725,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101309",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1511,6 +1748,12 @@
    "author_count": 28,
    "doi": "10.1136/bmj-2026-101019",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Multicenter Study",
+    "Comparative Study"
+   ],
    "mesh": [
     "Humans",
     "Adenoidectomy",
@@ -1543,6 +1786,9 @@
    "author_count": 4,
    "doi": "10.1136/bmj-2026-101280",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "公共卫生"
@@ -1563,6 +1809,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101274",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -1583,6 +1832,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101177",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1603,6 +1855,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101325",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1623,6 +1878,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101349",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1643,6 +1901,11 @@
    "author_count": 34,
    "doi": "10.1136/bmj-2026-101057",
    "study_type": "系统综述",
+   "pubtypes": [
+    "Journal Article",
+    "Systematic Review",
+    "Network Meta-Analysis"
+   ],
    "mesh": [
     "Humans",
     "Bursitis",
@@ -1670,6 +1933,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101355",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1690,6 +1956,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101342",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1710,6 +1979,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101354",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1730,6 +2002,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101288",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1750,6 +2025,9 @@
    "author_count": 3,
    "doi": "10.1136/bmj-2026-101189",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "儿科"
@@ -1770,6 +2048,9 @@
    "author_count": 8,
    "doi": "10.1038/s41591-026-04793-w",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1790,6 +2071,9 @@
    "author_count": 25,
    "doi": "10.1016/S0140-6736(26)02057-X",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1810,6 +2094,10 @@
    "author_count": 10,
    "doi": "10.1016/S0140-6736(26)01382-6",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -1830,6 +2118,9 @@
    "author_count": 34,
    "doi": "10.1016/S0140-6736(26)01818-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肾脏/泌尿"
@@ -1850,6 +2141,9 @@
    "author_count": 3,
    "doi": "10.1016/S0140-6736(26)02155-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "妇产",
@@ -1871,6 +2165,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02200-2",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -1891,6 +2188,9 @@
    "author_count": 20,
    "doi": "10.1016/j.cell.2026.10.002",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -1911,6 +2211,10 @@
    "author_count": 0,
    "doi": "10.1126/scitranslmed.aen4309",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢",
@@ -1932,6 +2236,10 @@
    "author_count": 50,
    "doi": "10.1126/scitranslmed.aec3480",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
    "mesh": [
     "Humans",
     "HIV-1",
@@ -1963,6 +2271,9 @@
    "author_count": 10,
    "doi": "10.1126/scitranslmed.aeg0408",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Thrombocytopenia",
@@ -1994,6 +2305,9 @@
    "author_count": 54,
    "doi": "10.1126/scitranslmed.aea2816",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Alzheimer Disease",
@@ -2025,6 +2339,9 @@
    "author_count": 28,
    "doi": "10.1126/scitranslmed.aeh8192",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Genomics",
@@ -2051,6 +2368,11 @@
    "author_count": 21,
    "doi": "10.1126/scitranslmed.aec7235",
    "study_type": "II 期临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase II",
+    "Clinical Trial, Phase I"
+   ],
    "mesh": [
     "Humans",
     "Tumor Microenvironment",
@@ -2082,6 +2404,9 @@
    "author_count": 20,
    "doi": "10.1126/scitranslmed.aeb7924",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Dermatitis, Atopic",
@@ -2113,6 +2438,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.19193",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2133,6 +2461,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.18898",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -2155,6 +2486,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.19190",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2175,6 +2509,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.18895",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -2197,6 +2534,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.18233",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2217,6 +2557,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.18901",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -2239,6 +2582,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.16370",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -2259,6 +2605,9 @@
    "author_count": 4,
    "doi": "10.1001/jama.2026.19675",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2279,6 +2628,9 @@
    "author_count": 23,
    "doi": "10.1038/s41591-026-04792-x",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2299,6 +2651,9 @@
    "author_count": 16,
    "doi": "10.1038/s41591-026-04786-9",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢",
@@ -2320,6 +2675,9 @@
    "author_count": 24,
    "doi": "10.1038/s41591-026-04686-y",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "移植"
@@ -2340,6 +2698,9 @@
    "author_count": 28,
    "doi": "10.1038/s41591-026-04737-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2360,6 +2721,9 @@
    "author_count": 18,
    "doi": "10.1038/s41591-026-04743-6",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "免疫/风湿"
@@ -2380,6 +2744,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101314",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染"
@@ -2400,6 +2767,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101323",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "儿科"
@@ -2420,6 +2790,9 @@
    "author_count": 3,
    "doi": "10.1136/bmj-2026-101285",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2440,6 +2813,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101305",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2460,6 +2836,9 @@
    "author_count": 2,
    "doi": "10.1136/bmj-2026-101303",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2480,6 +2859,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101131",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2500,6 +2882,9 @@
    "author_count": 3,
    "doi": "10.1136/bmj-2026-101263",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2520,6 +2905,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101324",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2540,6 +2928,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101322",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染"
@@ -2560,6 +2951,9 @@
    "author_count": 2,
    "doi": "10.1136/bmj-2026-101307",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2580,6 +2974,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101337",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染"
@@ -2600,6 +2997,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101272",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2620,6 +3020,9 @@
    "author_count": 35,
    "doi": "10.1016/S0140-6736(26)02104-5",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -2640,6 +3043,9 @@
    "author_count": 3,
    "doi": "10.1016/S0140-6736(26)02048-9",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2660,6 +3066,9 @@
    "author_count": 0,
    "doi": "10.1001/jama.2025.16089",
    "study_type": "",
+   "pubtypes": [
+    "Webcast"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2680,6 +3089,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.16385",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "儿科"
@@ -2700,6 +3112,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.16388",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "儿科"
@@ -2720,6 +3135,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20713",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2740,6 +3158,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20014",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -2760,6 +3181,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20015",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2780,6 +3204,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20013",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢"
@@ -2800,6 +3227,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20514",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2820,6 +3250,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20017",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2840,6 +3273,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20016",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2860,6 +3296,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20018",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "神经"
@@ -2880,6 +3319,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.16217",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -2900,6 +3342,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.19578",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2920,6 +3365,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.16494",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2940,6 +3388,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.16506",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -2960,6 +3411,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.16220",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -2980,6 +3434,9 @@
    "author_count": 0,
    "doi": "10.1001/jama.2025.16090",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3000,6 +3457,10 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.19684",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Video-Audio Media"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3020,6 +3481,9 @@
    "author_count": 5,
    "doi": "10.1001/jama.2026.18260",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3040,6 +3504,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.19205",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3060,6 +3527,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.13891",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3080,6 +3550,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.15436",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3100,6 +3573,9 @@
    "author_count": 4,
    "doi": "10.1001/jama.2026.18171",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3120,6 +3596,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.16110",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器",
@@ -3141,6 +3620,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.16113",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器",
@@ -3162,6 +3644,9 @@
    "author_count": 4,
    "doi": "10.1001/jama.2026.18028",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3182,6 +3667,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.16021",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -3202,6 +3690,10 @@
    "author_count": 0,
    "doi": "10.1001/jama.2026.20718",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3222,6 +3714,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.16018",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -3242,6 +3737,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.17994",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3262,6 +3760,10 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.16535",
    "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3282,6 +3784,9 @@
    "author_count": 7,
    "doi": "10.1001/jama.2026.16139",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Bulk Drugs",
     "Drug Approval",
@@ -3313,6 +3818,11 @@
    "author_count": 64,
    "doi": "10.1001/jama.2026.15496",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Aged",
     "Female",
@@ -3344,6 +3854,9 @@
    "author_count": 0,
    "doi": "10.1001/jama.2026.15601",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "血液"
@@ -3364,6 +3877,10 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.16532",
    "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -3384,6 +3901,11 @@
    "author_count": 6,
    "doi": "10.1001/jama.2026.15010",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Comparative Study",
+    "Journal Article",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Adult",
     "Female",
@@ -3417,6 +3939,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.14394",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -3437,6 +3962,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.9970",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "神经"
@@ -3457,6 +3985,10 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.16551",
    "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3477,6 +4009,11 @@
    "author_count": 26,
    "doi": "10.1001/jama.2026.16372",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Pragmatic Clinical Trial"
+   ],
    "mesh": [
     "Aged",
     "Female",
@@ -3508,6 +4045,9 @@
    "author_count": 0,
    "doi": "10.1001/jama.2026.17092",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3528,6 +4068,9 @@
    "author_count": 18,
    "doi": "10.1038/s41591-026-04739-2",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "精神"
@@ -3548,6 +4091,9 @@
    "author_count": 54,
    "doi": "10.1038/s41591-026-04710-1",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -3568,6 +4114,9 @@
    "author_count": 1,
    "doi": "10.1038/s41591-026-04729-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -3588,6 +4137,9 @@
    "author_count": 4,
    "doi": "10.1136/bmj-2026-101278",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3608,6 +4160,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101315",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "儿科"
@@ -3628,6 +4183,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101300",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3648,6 +4206,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101311",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3668,6 +4229,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101313",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢"
@@ -3688,6 +4252,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101253",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3708,6 +4275,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101310",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3728,6 +4298,9 @@
    "author_count": 34,
    "doi": "10.1016/j.cell.2026.10.010",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3748,6 +4321,9 @@
    "author_count": 30,
    "doi": "10.1016/j.cell.2026.10.014",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3768,6 +4344,9 @@
    "author_count": 10,
    "doi": "10.1016/j.cell.2026.10.011",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -3788,6 +4367,9 @@
    "author_count": 66,
    "doi": "10.1016/j.cell.2026.10.016",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3808,6 +4390,9 @@
    "author_count": 33,
    "doi": "10.1016/j.cell.2026.09.036",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3828,6 +4413,9 @@
    "author_count": 38,
    "doi": "10.1056/NEJMoa2607326",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3848,6 +4436,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMe2613400",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3868,6 +4459,9 @@
    "author_count": 33,
    "doi": "10.1001/jama.2026.21361",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "血液"
@@ -3888,6 +4482,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.22275",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "血液"
@@ -3908,6 +4505,9 @@
    "author_count": 0,
    "doi": "10.1001/jama.2026.22088",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "血液"
@@ -3928,6 +4528,9 @@
    "author_count": 10,
    "doi": "10.1001/jama.2026.20796",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "儿科"
@@ -3948,6 +4551,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.22316",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -3968,6 +4574,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.18872",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -3988,6 +4597,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.22318",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4008,6 +4620,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.19267",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -4028,6 +4643,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.18869",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -4048,6 +4666,9 @@
    "author_count": 37,
    "doi": "10.1056/NEJMoa2610771",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -4068,6 +4689,9 @@
    "author_count": 51,
    "doi": "10.1056/NEJMc2612608",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4088,6 +4712,10 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)02027-1",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Female",
     "Humans",
@@ -4118,6 +4746,10 @@
    "author_count": 18,
    "doi": "10.1016/S0140-6736(26)01488-1",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Men's Health",
@@ -4145,6 +4777,10 @@
    "author_count": 18,
    "doi": "10.1016/S0140-6736(26)01490-X",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Male",
@@ -4178,6 +4814,10 @@
    "author_count": 17,
    "doi": "10.1016/S0140-6736(26)01489-3",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Men's Health",
@@ -4205,6 +4845,11 @@
    "author_count": 61,
    "doi": "10.1016/S0140-6736(26)01145-1",
    "study_type": "观察性研究",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Observational Study"
+   ],
    "mesh": [
     "Adult",
     "Female",
@@ -4236,6 +4881,12 @@
    "author_count": 23,
    "doi": "10.1016/S0140-6736(26)01949-5",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Child",
     "Child, Preschool",
@@ -4268,6 +4919,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02092-1",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4288,6 +4942,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02091-X",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4308,6 +4965,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02093-3",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "公共卫生"
@@ -4328,6 +4988,9 @@
    "author_count": 3,
    "doi": "10.1016/S0140-6736(26)02090-8",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4348,6 +5011,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02087-8",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4368,6 +5034,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02154-9",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4388,6 +5057,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02141-0",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4408,6 +5080,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)02098-2",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4428,6 +5103,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01144-X",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4448,6 +5126,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)02054-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4468,6 +5149,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02190-2",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4488,6 +5172,12 @@
    "author_count": 11,
    "doi": "10.1016/S0140-6736(26)01536-9",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Equivalence Trial"
+   ],
    "mesh": [
     "Humans",
     "Female",
@@ -4519,6 +5209,11 @@
    "author_count": 23,
    "doi": "10.1016/S0140-6736(26)01602-8",
    "study_type": "II 期临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Clinical Trial, Phase II"
+   ],
    "mesh": [
     "Aged",
     "Female",
@@ -4551,6 +5246,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01612-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -4571,6 +5269,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01715-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4591,6 +5292,9 @@
    "author_count": 0,
    "doi": "10.1016/S0140-6736(26)02105-7",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4611,6 +5315,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02031-3",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4631,6 +5338,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02080-5",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4651,6 +5361,10 @@
    "author_count": 26,
    "doi": "10.1038/s41591-026-04722-x",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4671,6 +5385,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101287",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4691,6 +5408,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101292",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "公共卫生"
@@ -4711,6 +5431,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101298",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4731,6 +5454,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101247",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4751,6 +5477,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101281",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4771,6 +5500,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101297",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染"
@@ -4791,6 +5523,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101299",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4811,6 +5546,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101301",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4831,6 +5569,9 @@
    "author_count": 12,
    "doi": "10.1016/S0140-6736(26)02159-8",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4851,6 +5592,9 @@
    "author_count": 15,
    "doi": "10.1016/j.cell.2026.10.009",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4871,6 +5615,9 @@
    "author_count": 0,
    "doi": "10.1001/jama.2025.16113",
    "study_type": "",
+   "pubtypes": [
+    "Webcast"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4891,6 +5638,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20035",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -4911,6 +5661,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20036",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "妇产"
@@ -4931,6 +5684,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20037",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "精神"
@@ -4951,6 +5707,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20034",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染"
@@ -4971,6 +5730,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20038",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -4991,6 +5753,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.22533",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5011,6 +5776,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20039",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -5031,6 +5799,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.22482",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5051,6 +5822,9 @@
    "author_count": 34,
    "doi": "10.1038/s41591-026-04723-w",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -5071,6 +5845,9 @@
    "author_count": 49,
    "doi": "10.1038/s41591-026-04655-5",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5091,6 +5868,9 @@
    "author_count": 23,
    "doi": "10.1038/s41591-026-04721-y",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -5112,6 +5892,9 @@
    "author_count": 1,
    "doi": "10.1038/d41591-026-00056-w",
    "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5132,6 +5915,9 @@
    "author_count": 1,
    "doi": "10.1038/d41591-026-00055-x",
    "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
    "mesh": [],
    "departments": [
     "神经"
@@ -5152,6 +5938,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101237",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5172,6 +5961,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101286",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5192,6 +5984,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101276",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -5212,6 +6007,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101222",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5232,6 +6030,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101282",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5252,6 +6053,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101279",
    "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5272,6 +6076,10 @@
    "author_count": 33,
    "doi": "10.1016/S0140-6736(26)01196-7",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5292,6 +6100,10 @@
    "author_count": 6,
    "doi": "10.1016/S0140-6736(26)01500-X",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [],
    "departments": [
     "神经"
@@ -5312,6 +6124,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02186-0",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5332,6 +6147,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)02049-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "公共卫生"
@@ -5352,6 +6170,9 @@
    "author_count": 28,
    "doi": "10.1016/j.cell.2026.10.005",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -5372,6 +6193,9 @@
    "author_count": 27,
    "doi": "10.1016/j.cell.2026.10.004",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染"
@@ -5392,6 +6216,10 @@
    "author_count": 8,
    "doi": "10.1016/j.cell.2026.09.019",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Systems Biology",
     "Earth, Planet",
@@ -5418,6 +6246,10 @@
    "author_count": 2,
    "doi": "10.1016/j.cell.2026.09.056",
    "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
    "mesh": [
     "Humans",
     "Animals",
@@ -5446,6 +6278,10 @@
    "author_count": 1,
    "doi": "10.1016/j.cell.2026.09.038",
    "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
    "mesh": [
     "Caloric Restriction",
     "Longevity",
@@ -5475,6 +6311,9 @@
    "author_count": 2,
    "doi": "10.1016/j.cell.2026.09.018",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Crops, Agricultural",
     "Gene Editing",
@@ -5501,6 +6340,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.18629",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5521,6 +6363,9 @@
    "author_count": 4,
    "doi": "10.1001/jama.2026.19361",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5541,6 +6386,9 @@
    "author_count": 5,
    "doi": "10.1001/jama.2026.19941",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5561,6 +6409,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.21582",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5581,6 +6432,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.18684",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5601,6 +6455,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.18681",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5621,6 +6478,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.18678",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5641,6 +6501,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.18626",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5661,6 +6524,9 @@
    "author_count": 0,
    "doi": "10.1001/jama.2025.16114",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5681,6 +6547,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.18623",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5701,6 +6570,10 @@
    "author_count": 1,
    "doi": "10.1056/NEJMc2611462",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5721,6 +6594,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2611462",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5741,6 +6618,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2609764",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -5761,6 +6642,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2609764",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -5781,6 +6666,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2609764",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -5801,6 +6690,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMc2609764",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -5821,6 +6714,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2610348",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -5842,6 +6739,10 @@
    "author_count": 1,
    "doi": "10.1056/NEJMc2610348",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -5863,6 +6764,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2611610",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5883,6 +6788,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2611610",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5903,6 +6812,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMc2611610",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5923,6 +6836,9 @@
    "author_count": 20,
    "doi": "10.1056/NEJMc2518656",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -5943,6 +6859,9 @@
    "author_count": 14,
    "doi": "10.1056/NEJMc2514812",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -5963,6 +6882,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMe2612346",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -5983,6 +6905,10 @@
    "author_count": 4,
    "doi": "10.1056/NEJMcpc2603185",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "妇产"
@@ -6003,6 +6929,10 @@
    "author_count": 6,
    "doi": "10.1056/NEJMimc2600356",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6023,6 +6953,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMicm2609770",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6043,6 +6977,10 @@
    "author_count": 1,
    "doi": "10.1056/NEJMra2506114",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Anti-Bacterial Agents",
@@ -6074,6 +7012,9 @@
    "author_count": 3,
    "doi": "10.1056/NEJMp2607323",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6094,6 +7035,9 @@
    "author_count": 2,
    "doi": "10.1056/NEJMp2609972",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6114,6 +7058,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMicm2609683",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6134,6 +7082,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMp2605919",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6154,6 +7105,9 @@
    "author_count": 33,
    "doi": "10.1016/j.cell.2026.10.006",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6174,6 +7128,12 @@
    "author_count": 29,
    "doi": "10.1056/NEJMoa2608571",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Equivalence Trial",
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial"
+   ],
    "mesh": [
     "Adult",
     "Aged",
@@ -6205,6 +7165,9 @@
    "author_count": 17,
    "doi": "10.1016/j.cell.2026.09.065",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6225,6 +7188,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMe2612910",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "肾脏/泌尿"
@@ -6245,6 +7211,12 @@
    "author_count": 46,
    "doi": "10.1056/NEJMoa2608397",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Equivalence Trial"
+   ],
    "mesh": [
     "Aged",
     "Female",
@@ -6276,6 +7248,9 @@
    "author_count": 17,
    "doi": "10.1016/j.cell.2026.09.057",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Mice",
@@ -6307,6 +7282,9 @@
    "author_count": 19,
    "doi": "10.1016/j.cell.2026.09.050",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Cell Lineage",
@@ -6338,6 +7316,9 @@
    "author_count": 5,
    "doi": "10.1016/j.cell.2026.09.047",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6358,6 +7339,9 @@
    "author_count": 57,
    "doi": "10.1016/j.cell.2026.09.004",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Animals",
@@ -6389,6 +7373,9 @@
    "author_count": 18,
    "doi": "10.1016/j.cell.2026.08.030",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Cuproptosis",
     "Copper",
@@ -6417,6 +7404,10 @@
    "author_count": 18,
    "doi": "10.1016/j.cell.2026.08.017",
    "study_type": "临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial"
+   ],
    "mesh": [
     "Humans",
     "Female",
@@ -6448,6 +7439,9 @@
    "author_count": 3,
    "doi": "10.1016/j.cell.2026.08.024",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Metagenome",
     "Microbiota",
@@ -6474,6 +7468,9 @@
    "author_count": 9,
    "doi": "10.1016/j.cell.2026.08.013",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Caloric Restriction",
@@ -6507,6 +7504,9 @@
    "author_count": 8,
    "doi": "10.1016/j.cell.2026.08.020",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Nucleosomes",
     "Cryoelectron Microscopy",
@@ -6538,6 +7538,12 @@
    "author_count": 30,
    "doi": "10.1056/NEJMoa2606998",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Adult",
     "Aged",
@@ -6569,6 +7575,9 @@
    "author_count": 36,
    "doi": "10.1016/j.cell.2026.08.018",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -6600,6 +7609,9 @@
    "author_count": 2,
    "doi": "10.1016/j.cell.2026.08.010",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Transcriptome",
@@ -6630,6 +7642,9 @@
    "author_count": 19,
    "doi": "10.1016/j.cell.2026.08.007",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Rhodamines",
     "Microscopy, Fluorescence",
@@ -6657,6 +7672,12 @@
    "author_count": 18,
    "doi": "10.1056/NEJMoa2605812",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Equivalence Trial",
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial"
+   ],
    "mesh": [
     "Aged",
     "Female",
@@ -6688,6 +7709,9 @@
    "author_count": 13,
    "doi": "10.1016/j.cell.2026.08.002",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "CD4-Positive T-Lymphocytes",
@@ -6716,6 +7740,9 @@
    "author_count": 10,
    "doi": "10.1016/j.cell.2026.07.039",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -6748,6 +7775,9 @@
    "author_count": 20,
    "doi": "10.1016/j.cell.2026.07.055",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -6779,6 +7809,9 @@
    "author_count": 5,
    "doi": "10.1016/j.cell.2026.07.051",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Norovirus",
     "Animals",
@@ -6809,6 +7842,9 @@
    "author_count": 79,
    "doi": "10.1016/j.cell.2026.07.045",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Female",
@@ -6840,6 +7876,9 @@
    "author_count": 42,
    "doi": "10.1016/j.cell.2026.07.043",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -6872,6 +7911,9 @@
    "author_count": 6,
    "doi": "10.1016/j.cell.2026.07.038",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "RNA, Viral",
     "Animals",
@@ -6902,6 +7944,9 @@
    "author_count": 22,
    "doi": "10.1038/s41591-026-04748-1",
    "study_type": "",
+   "pubtypes": [
+    "Expression of Concern"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -6922,6 +7967,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101204",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6942,6 +7990,9 @@
    "author_count": 16,
    "doi": "10.1136/bmj-2026-101123",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Measles",
@@ -6974,6 +8025,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101271",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -6994,6 +8048,10 @@
    "author_count": 0,
    "doi": "10.1136/bmj-2026-101229",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7014,6 +8072,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101269",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7034,6 +8095,10 @@
    "author_count": 0,
    "doi": "10.1136/bmj-2026-101233",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "公共卫生"
@@ -7054,6 +8119,10 @@
    "author_count": 11,
    "doi": "10.1136/bmj-2026-100807",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
    "mesh": [
     "Humans",
     "Tendinopathy",
@@ -7085,6 +8154,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101054",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7105,6 +8177,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101206",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7125,6 +8200,9 @@
    "author_count": 3,
    "doi": "10.1136/bmj-2026-101256",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7145,6 +8223,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101195",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7165,6 +8246,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101265",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7185,6 +8269,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101267",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7205,6 +8292,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101156",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7225,6 +8315,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101264",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7245,6 +8338,9 @@
    "author_count": 13,
    "doi": "10.1016/j.cell.2026.09.064",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7265,6 +8361,9 @@
    "author_count": 13,
    "doi": "10.1016/j.cell.2026.10.001",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7285,6 +8384,9 @@
    "author_count": 5,
    "doi": "10.1016/j.cell.2026.10.003",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7305,6 +8407,11 @@
    "author_count": 34,
    "doi": "10.1126/scitranslmed.adv7928",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase II"
+   ],
    "mesh": [
     "Humans",
     "Immune Checkpoint Inhibitors",
@@ -7337,6 +8444,9 @@
    "author_count": 29,
    "doi": "10.1126/scitranslmed.aea7127",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "T-Lymphocytes, Regulatory",
@@ -7368,6 +8478,10 @@
    "author_count": 27,
    "doi": "10.1126/scitranslmed.aei5117",
    "study_type": "I 期临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase I"
+   ],
    "mesh": [
     "Humans",
     "Dengue Virus",
@@ -7399,6 +8513,9 @@
    "author_count": 17,
    "doi": "10.1126/scitranslmed.aed9994",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Glioma",
@@ -7431,6 +8548,9 @@
    "author_count": 15,
    "doi": "10.1126/scitranslmed.adz4081",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Osteoarthritis",
@@ -7462,6 +8582,10 @@
    "author_count": 6,
    "doi": "10.1126/scitranslmed.aeh0442",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Acute Kidney Injury",
@@ -7488,6 +8612,9 @@
    "author_count": 21,
    "doi": "10.1126/scitranslmed.aef3967",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Psoriasis",
     "Keratinocytes",
@@ -7519,6 +8646,9 @@
    "author_count": 4,
    "doi": "10.1001/jama.2026.19114",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7539,6 +8669,9 @@
    "author_count": 30,
    "doi": "10.1001/jama.2026.18146",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7559,6 +8692,9 @@
    "author_count": 2,
    "doi": "10.1001/jama.2026.16552",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7579,6 +8715,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.18617",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -7600,6 +8739,9 @@
    "author_count": 3,
    "doi": "10.1001/jama.2026.18620",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -7621,6 +8763,9 @@
    "author_count": 0,
    "doi": "10.1001/jama.2026.19090",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7641,6 +8786,9 @@
    "author_count": 10,
    "doi": "10.1056/NEJMoa2602728",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7661,6 +8809,9 @@
    "author_count": 37,
    "doi": "10.1038/s41591-026-04751-6",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -7681,6 +8832,10 @@
    "author_count": 4,
    "doi": "10.1038/s41591-026-04718-7",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢"
@@ -7701,6 +8856,9 @@
    "author_count": 14,
    "doi": "10.1038/s41591-026-04728-5",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "精神"
@@ -7721,6 +8879,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101255",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7741,6 +8902,9 @@
    "author_count": 3,
    "doi": "10.1136/bmj-2026-101041",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "精神"
@@ -7761,6 +8925,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101245",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7781,6 +8948,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101250",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染",
@@ -7802,6 +8972,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101257",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7822,6 +8995,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101244",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7842,6 +9018,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101220",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7862,6 +9041,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101252",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢"
@@ -7882,6 +9064,12 @@
    "author_count": 20,
    "doi": "10.1136/bmj-2026-100953",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Comparative Study",
+    "Multicenter Study",
+    "Equivalence Trial"
+   ],
    "mesh": [
     "Humans",
     "Splints",
@@ -7913,6 +9101,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101002",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7933,6 +9124,9 @@
    "author_count": 2,
    "doi": "10.1136/bmj-2026-101190",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7953,6 +9147,9 @@
    "author_count": 34,
    "doi": "10.1016/j.cell.2026.09.063",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -7973,6 +9170,9 @@
    "author_count": 0,
    "doi": "10.1001/jama.2025.16081",
    "study_type": "",
+   "pubtypes": [
+    "Webcast"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -7993,6 +9193,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20006",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染",
@@ -8015,6 +9218,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.18718",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -8035,6 +9241,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20010",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8055,6 +9264,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20009",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8075,6 +9287,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20011",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "老年医学"
@@ -8095,6 +9310,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.20008",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8115,6 +9333,9 @@
    "author_count": 1,
    "doi": "10.1001/jama.2026.19502",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "儿科"
@@ -8135,6 +9356,9 @@
    "author_count": 7,
    "doi": "10.1038/s41591-026-04774-z",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8155,6 +9379,9 @@
    "author_count": 33,
    "doi": "10.1038/s41591-026-04775-y",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -8176,6 +9403,9 @@
    "author_count": 20,
    "doi": "10.1038/s41591-026-04776-x",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "老年医学"
@@ -8196,6 +9426,9 @@
    "author_count": 24,
    "doi": "10.1038/s41591-026-04742-7",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -8217,6 +9450,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101198",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8237,6 +9473,9 @@
    "author_count": 3,
    "doi": "10.1136/bmj-2026-101226",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8257,6 +9496,10 @@
    "author_count": 6,
    "doi": "10.1136/bmj-2026-100785",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Carcinoma, Renal Cell",
@@ -8287,6 +9530,9 @@
    "author_count": 2,
    "doi": "10.1136/bmj-2026-101241",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8307,6 +9553,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101191",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8327,6 +9576,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101246",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "儿科"
@@ -8347,6 +9599,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101242",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8367,6 +9622,9 @@
    "author_count": 46,
    "doi": "10.1016/S0140-6736(26)02026-X",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -8388,6 +9646,9 @@
    "author_count": 33,
    "doi": "10.1016/S0140-6736(26)02099-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -8408,6 +9669,9 @@
    "author_count": 44,
    "doi": "10.1016/S0140-6736(26)02096-9",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -8428,6 +9692,9 @@
    "author_count": 29,
    "doi": "10.1016/S0140-6736(26)02095-7",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -8448,6 +9715,9 @@
    "author_count": 22,
    "doi": "10.1016/j.cell.2026.09.059",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -8468,6 +9738,9 @@
    "author_count": 39,
    "doi": "10.1056/NEJMoa2611280",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8488,6 +9761,9 @@
    "author_count": 34,
    "doi": "10.1056/NEJMoa2611335",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8508,6 +9784,9 @@
    "author_count": 34,
    "doi": "10.1056/NEJMoa2605703",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8528,6 +9807,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMe2611466",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8548,6 +9830,9 @@
    "author_count": 24,
    "doi": "10.1056/NEJMoa2609482",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -8569,6 +9854,9 @@
    "author_count": 26,
    "doi": "10.1056/NEJMoa2608323",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -8590,6 +9878,9 @@
    "author_count": 42,
    "doi": "10.1056/NEJMoa2610345",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -8610,6 +9901,9 @@
    "author_count": 30,
    "doi": "10.1038/s41591-026-04740-9",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -8631,6 +9925,9 @@
    "author_count": 26,
    "doi": "10.1038/s41591-026-04756-1",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8651,6 +9948,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)02034-9",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -8672,6 +9972,9 @@
    "author_count": 41,
    "doi": "10.1016/S0140-6736(26)01782-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -8693,6 +9996,12 @@
    "author_count": 30,
    "doi": "10.1016/S0140-6736(26)01480-7",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Adult",
     "Female",
@@ -8724,6 +10033,9 @@
    "author_count": 0,
    "doi": "10.1016/S0140-6736(26)02107-0",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8744,6 +10056,9 @@
    "author_count": 0,
    "doi": "10.1016/S0140-6736(26)02109-4",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8764,6 +10079,9 @@
    "author_count": 0,
    "doi": "10.1016/S0140-6736(26)02108-2",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8784,6 +10102,9 @@
    "author_count": 0,
    "doi": "10.1016/S0140-6736(26)02106-9",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8804,6 +10125,9 @@
    "author_count": 3,
    "doi": "10.1016/S0140-6736(26)01942-2",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8824,6 +10148,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)01643-0",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8844,6 +10171,9 @@
    "author_count": 7,
    "doi": "10.1016/S0140-6736(26)01903-3",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "神经",
@@ -8866,6 +10196,9 @@
    "author_count": 4,
    "doi": "10.1016/S0140-6736(26)01642-9",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "神经",
@@ -8888,6 +10221,9 @@
    "author_count": 5,
    "doi": "10.1016/S0140-6736(26)01902-1",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "肾脏/泌尿"
@@ -8908,6 +10244,9 @@
    "author_count": 7,
    "doi": "10.1016/S0140-6736(26)01050-0",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "肾脏/泌尿"
@@ -8928,6 +10267,9 @@
    "author_count": 5,
    "doi": "10.1016/S0140-6736(26)02030-1",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8948,6 +10290,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02113-6",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8968,6 +10313,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02112-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -8988,6 +10336,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02116-1",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9008,6 +10359,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)02046-5",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9028,6 +10382,9 @@
    "author_count": 3,
    "doi": "10.1016/S0140-6736(26)02033-7",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9048,6 +10405,9 @@
    "author_count": 5,
    "doi": "10.1016/S0140-6736(26)02032-5",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9068,6 +10428,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02086-6",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9088,6 +10451,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01763-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9108,6 +10474,10 @@
    "author_count": 48,
    "doi": "10.1016/S0140-6736(26)01535-7",
    "study_type": "观察性研究",
+   "pubtypes": [
+    "Journal Article",
+    "Observational Study"
+   ],
    "mesh": [
     "Adult",
     "Aged",
@@ -9139,6 +10509,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01855-6",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9159,6 +10532,12 @@
    "author_count": 68,
    "doi": "10.1016/S0140-6736(26)01296-1",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase III",
+    "Randomized Controlled Trial",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Adult",
     "Female",
@@ -9190,6 +10569,10 @@
    "author_count": 7,
    "doi": "10.1016/S0140-6736(26)01611-9",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Digital Media",
@@ -9221,6 +10604,10 @@
    "author_count": 3,
    "doi": "10.1016/S0140-6736(26)01293-6",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Digital Health",
@@ -9252,6 +10639,10 @@
    "author_count": 7,
    "doi": "10.1016/S0140-6736(26)01292-4",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Digital Health",
@@ -9279,6 +10670,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)01986-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9299,6 +10693,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)01991-4",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9319,6 +10716,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01610-7",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9339,6 +10739,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)01090-1",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9359,6 +10762,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMe2612692",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "神经",
@@ -9380,6 +10786,9 @@
    "author_count": 35,
    "doi": "10.1056/NEJMoa2609149",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器",
@@ -9401,6 +10810,9 @@
    "author_count": 64,
    "doi": "10.1056/NEJMoa2609362",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "神经",
@@ -9422,6 +10834,9 @@
    "author_count": 36,
    "doi": "10.1038/s41591-026-04734-7",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -9444,6 +10859,9 @@
    "author_count": 13,
    "doi": "10.1038/s41591-026-04730-x",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "公共卫生"
@@ -9464,6 +10882,9 @@
    "author_count": 18,
    "doi": "10.1038/s41591-026-04707-w",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -9484,6 +10905,9 @@
    "author_count": 30,
    "doi": "10.1038/s41591-026-04711-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -9504,6 +10928,9 @@
    "author_count": 1,
    "doi": "10.1038/d41591-026-00054-y",
    "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9524,6 +10951,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101230",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "疫苗"
@@ -9544,6 +10974,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101210",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9564,6 +10997,9 @@
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101231",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -9585,6 +11021,9 @@
    "author_count": 18,
    "doi": "10.1016/S0140-6736(26)02058-1",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9605,6 +11044,9 @@
    "author_count": 30,
    "doi": "10.1016/j.cell.2026.09.062",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -9625,6 +11067,9 @@
    "author_count": 23,
    "doi": "10.1016/j.cell.2026.09.061",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "老年医学"
@@ -9645,6 +11090,9 @@
    "author_count": 33,
    "doi": "10.1016/j.cell.2026.09.045",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -9667,6 +11115,9 @@
    "author_count": 25,
    "doi": "10.1056/NEJMoa2607544",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9687,6 +11138,9 @@
    "author_count": 20,
    "doi": "10.1038/s41591-026-04750-7",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -9707,6 +11161,9 @@
    "author_count": 1,
    "doi": "10.1038/d41591-026-00053-z",
    "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
    "mesh": [],
    "departments": [
     "儿科"
@@ -9727,6 +11184,9 @@
    "author_count": 18,
    "doi": "10.1016/j.cell.2026.09.055",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "免疫/风湿"
@@ -9747,6 +11207,9 @@
    "author_count": 3,
    "doi": "10.1016/j.cell.2026.09.060",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9767,6 +11230,9 @@
    "author_count": 24,
    "doi": "10.1016/j.cell.2026.09.058",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -9787,6 +11253,9 @@
    "author_count": 26,
    "doi": "10.1056/NEJMoa2609127",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9807,6 +11276,9 @@
    "author_count": 25,
    "doi": "10.1056/NEJMoa2610103",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9827,6 +11299,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2611023",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9847,6 +11323,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2611023",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9867,6 +11347,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2611023",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -9887,6 +11371,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMc2610073",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -9907,6 +11395,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMc2610073",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -9927,6 +11419,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMc2610073",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -9947,6 +11443,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2609433",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -9967,6 +11467,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2609433",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -9987,6 +11491,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMc2609433",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -10007,6 +11515,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMc2609433",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -10027,6 +11539,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2609433",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -10047,6 +11563,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMc2611022",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -10068,6 +11588,10 @@
    "author_count": 1,
    "doi": "10.1056/NEJMc2611022",
    "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -10089,6 +11613,9 @@
    "author_count": 4,
    "doi": "10.1056/NEJMc2604891",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10109,6 +11636,9 @@
    "author_count": 3,
    "doi": "10.1056/NEJMms2608116",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10129,6 +11659,9 @@
    "author_count": 2,
    "doi": "10.1056/NEJMe2612352",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10149,6 +11682,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMe2610330",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10169,6 +11705,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMe2612343",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "循环器"
@@ -10189,6 +11728,10 @@
    "author_count": 5,
    "doi": "10.1056/NEJMcpc2603184",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10209,6 +11752,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMicm2517156",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10229,6 +11776,10 @@
    "author_count": 3,
    "doi": "10.1056/NEJMra2414530",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Anti-Bacterial Agents",
@@ -10261,6 +11812,12 @@
    "author_count": 34,
    "doi": "10.1056/NEJMoa2601088",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Multicenter Study",
+    "Clinical Trial, Phase III"
+   ],
    "mesh": [
     "Adult",
     "Female",
@@ -10292,6 +11849,9 @@
    "author_count": 6,
    "doi": "10.1056/NEJMp2612470",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10312,6 +11872,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMp2604584",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10332,6 +11895,9 @@
    "author_count": 2,
    "doi": "10.1056/NEJMp2608810",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10352,6 +11918,9 @@
    "author_count": 3,
    "doi": "10.1056/NEJMp2605590",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -10372,6 +11941,10 @@
    "author_count": 2,
    "doi": "10.1056/NEJMicm2607513",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染"
@@ -10392,6 +11965,9 @@
    "author_count": 3,
    "doi": "10.1056/NEJMp2610547",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10412,6 +11988,12 @@
    "author_count": 33,
    "doi": "10.1056/NEJMoa2610229",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Clinical Trial, Phase III",
+    "Comparative Study",
+    "Equivalence Trial",
+    "Journal Article"
+   ],
    "mesh": [
     "Aged",
     "Female",
@@ -10444,6 +12026,9 @@
    "author_count": 1,
    "doi": "10.1056/NEJMcibr2608873",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "血液"
@@ -10464,6 +12049,12 @@
    "author_count": 72,
    "doi": "10.1056/NEJMoa2608717",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Aged",
     "Female",
@@ -10496,6 +12087,9 @@
    "author_count": 21,
    "doi": "10.1038/s41591-026-04749-0",
    "study_type": "",
+   "pubtypes": [
+    "Expression of Concern"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -10516,6 +12110,9 @@
    "author_count": 23,
    "doi": "10.1038/s41591-026-04747-2",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10536,6 +12133,9 @@
    "author_count": 1,
    "doi": "10.1038/s41591-026-04661-7",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "儿科",
@@ -10557,6 +12157,9 @@
    "author_count": 2,
    "doi": "10.1038/s41591-026-04690-2",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "疫苗"
@@ -10577,6 +12180,9 @@
    "author_count": 3,
    "doi": "10.1038/s41591-026-04660-8",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10597,6 +12203,9 @@
    "author_count": 42,
    "doi": "10.1016/j.cell.2026.09.054",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10617,6 +12226,9 @@
    "author_count": 36,
    "doi": "10.1016/j.cell.2026.09.053",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -10637,6 +12249,9 @@
    "author_count": 18,
    "doi": "10.1016/j.cell.2026.10.015",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -10657,6 +12272,9 @@
    "author_count": 22,
    "doi": "10.1016/j.cell.2026.09.051",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10677,6 +12295,9 @@
    "author_count": 60,
    "doi": "10.1016/j.cell.2026.09.052",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10697,6 +12318,10 @@
    "author_count": 0,
    "doi": "10.1126/scitranslmed.aen0201",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "神经"
@@ -10717,6 +12342,9 @@
    "author_count": 16,
    "doi": "10.1126/scitranslmed.adr0448",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Oximes",
@@ -10748,6 +12376,9 @@
    "author_count": 19,
    "doi": "10.1126/scitranslmed.aee0680",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -10780,6 +12411,9 @@
    "author_count": 59,
    "doi": "10.1126/scitranslmed.aef7406",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Graft vs Host Disease",
@@ -10812,6 +12446,9 @@
    "author_count": 10,
    "doi": "10.1126/scitranslmed.aei5968",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Ergosterol",
     "Animals",
@@ -10843,6 +12480,9 @@
    "author_count": 20,
    "doi": "10.1126/scitranslmed.adz2140",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Machado-Joseph Disease",
     "Humans",
@@ -10874,6 +12514,9 @@
    "author_count": 16,
    "doi": "10.1126/scitranslmed.aea4947",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Dogs",
@@ -10907,6 +12550,9 @@
    "author_count": 25,
    "doi": "10.1126/scitranslmed.aef9466",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Huntington Disease",
@@ -10938,6 +12584,9 @@
    "author_count": 24,
    "doi": "10.1038/s41591-026-04757-0",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10958,6 +12607,9 @@
    "author_count": 8,
    "doi": "10.1016/j.cell.2026.10.013",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10978,6 +12630,9 @@
    "author_count": 23,
    "doi": "10.1038/s41591-026-04692-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -10998,6 +12653,9 @@
    "author_count": 1,
    "doi": "10.1038/s41591-026-04701-2",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11018,6 +12676,9 @@
    "author_count": 13,
    "doi": "10.1016/j.cell.2026.09.015",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11038,6 +12699,9 @@
    "author_count": 36,
    "doi": "10.1016/j.cell.2026.09.048",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -11058,6 +12722,9 @@
    "author_count": 5,
    "doi": "10.1016/S0140-6736(26)01851-9",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -11079,6 +12746,9 @@
    "author_count": 0,
    "doi": "10.1016/S0140-6736(26)02055-6",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11099,6 +12769,9 @@
    "author_count": 0,
    "doi": "10.1016/S0140-6736(26)02056-8",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11119,6 +12792,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01672-7",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -11140,6 +12816,9 @@
    "author_count": 3,
    "doi": "10.1016/S0140-6736(26)01850-7",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "精神"
@@ -11160,6 +12839,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)01666-1",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "精神"
@@ -11180,6 +12862,9 @@
    "author_count": 5,
    "doi": "10.1016/S0140-6736(26)01900-8",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "精神"
@@ -11200,6 +12885,9 @@
    "author_count": 9,
    "doi": "10.1016/S0140-6736(26)01423-6",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "精神"
@@ -11220,6 +12908,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)01716-2",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11240,6 +12931,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01901-X",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11260,6 +12954,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01852-0",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -11280,6 +12977,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)01641-7",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -11300,6 +13000,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02053-2",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11320,6 +13023,9 @@
    "author_count": 1,
    "doi": "10.1016/S0140-6736(26)02083-0",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11340,6 +13046,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01613-2",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "感染",
@@ -11361,6 +13070,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)01863-5",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "疫苗"
@@ -11381,6 +13093,9 @@
    "author_count": 2,
    "doi": "10.1016/S0140-6736(26)02045-3",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "循环器",
@@ -11402,6 +13117,9 @@
    "author_count": 1,
    "doi": "10.1038/d41591-026-00052-0",
    "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
    "mesh": [],
    "departments": [
     "免疫/风湿"
@@ -11422,6 +13140,9 @@
    "author_count": 2,
    "doi": "10.1038/s41591-026-04719-6",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "神经"
@@ -11442,6 +13163,9 @@
    "author_count": 9,
    "doi": "10.1038/s41591-026-04687-x",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "消化器"
@@ -11462,6 +13186,9 @@
    "author_count": 1,
    "doi": "10.1038/s41591-026-04699-7",
    "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11482,6 +13209,9 @@
    "author_count": 22,
    "doi": "10.1038/s41591-026-04715-w",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11502,6 +13232,9 @@
    "author_count": 1,
    "doi": "10.1038/d41591-026-00051-1",
    "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -11522,6 +13255,9 @@
    "author_count": 1,
    "doi": "10.1038/d41591-026-00050-2",
    "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -11542,6 +13278,9 @@
    "author_count": 22,
    "doi": "10.1016/j.cell.2026.09.035",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -11562,6 +13301,9 @@
    "author_count": 25,
    "doi": "10.1016/j.cell.2026.09.040",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -11582,6 +13324,9 @@
    "author_count": 32,
    "doi": "10.1016/j.cell.2026.09.044",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11602,6 +13347,9 @@
    "author_count": 22,
    "doi": "10.1016/j.cell.2026.09.042",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11622,6 +13370,9 @@
    "author_count": 17,
    "doi": "10.1016/j.cell.2026.09.043",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11642,6 +13393,9 @@
    "author_count": 5,
    "doi": "10.1016/j.cell.2026.09.039",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -11662,6 +13416,9 @@
    "author_count": 33,
    "doi": "10.1016/j.cell.2026.07.033",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Nitrogen Fixation",
     "Symbiosis",
@@ -11693,6 +13450,9 @@
    "author_count": 45,
    "doi": "10.1016/j.cell.2026.09.033",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Telomere",
@@ -11721,6 +13481,9 @@
    "author_count": 28,
    "doi": "10.1016/j.cell.2026.09.034",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Chromatin",
@@ -11752,6 +13515,9 @@
    "author_count": 2,
    "doi": "10.1016/j.cell.2026.09.037",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Mosaicism",
@@ -11781,6 +13547,9 @@
    "author_count": 2,
    "doi": "10.1016/j.cell.2026.09.046",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Mutation",
@@ -11807,6 +13576,10 @@
    "author_count": 2,
    "doi": "10.1016/j.cell.2026.08.044",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Animals",
     "Brain",
@@ -11835,6 +13608,10 @@
    "author_count": 2,
    "doi": "10.1016/j.cell.2026.09.010",
    "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
    "mesh": [
     "Animals",
     "Hematopoiesis",
@@ -11863,6 +13640,9 @@
    "author_count": 35,
    "doi": "10.1016/j.cell.2026.09.032",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Atherosclerosis",
@@ -11894,6 +13674,9 @@
    "author_count": 15,
    "doi": "10.1016/j.cell.2026.09.030",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Arabidopsis",
     "Iron",
@@ -11923,6 +13706,9 @@
    "author_count": 19,
    "doi": "10.1016/j.cell.2026.09.031",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Female",
@@ -11954,6 +13740,9 @@
    "author_count": 37,
    "doi": "10.1016/j.cell.2026.09.049",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -11974,6 +13763,9 @@
    "author_count": 29,
    "doi": "10.1016/j.cell.2026.09.001",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Ferroptosis",
     "Humans",
@@ -12006,6 +13798,9 @@
    "author_count": 22,
    "doi": "10.1016/j.cell.2026.08.049",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Interferon Regulatory Factor-2",
@@ -12037,6 +13832,10 @@
    "author_count": 6,
    "doi": "10.1016/j.cell.2026.08.052",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Artificial Intelligence",
     "Humans",
@@ -12061,6 +13860,9 @@
    "author_count": 15,
    "doi": "10.1016/j.cell.2026.08.009",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Proteolysis",
     "Transcriptional Activation",
@@ -12086,6 +13888,9 @@
    "author_count": 33,
    "doi": "10.1016/j.cell.2026.07.053",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Ribonucleotides",
@@ -12117,6 +13922,10 @@
    "author_count": 30,
    "doi": "10.1016/j.cell.2026.07.044",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Historical Article"
+   ],
    "mesh": [
     "Humans",
     "Genome, Human",
@@ -12148,6 +13957,9 @@
    "author_count": 27,
    "doi": "10.1016/j.cell.2026.07.023",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Pentose Phosphate Pathway",
@@ -12179,6 +13991,9 @@
    "author_count": 12,
    "doi": "10.1016/j.cell.2026.07.021",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Mice",
@@ -12210,6 +14025,9 @@
    "author_count": 27,
    "doi": "10.1016/j.cell.2026.07.022",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Osteopontin",
@@ -12241,6 +14059,9 @@
    "author_count": 22,
    "doi": "10.1016/j.cell.2026.07.016",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -12273,6 +14094,9 @@
    "author_count": 27,
    "doi": "10.1016/j.cell.2026.07.005",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Oryza",
     "Drought Resistance",
@@ -12303,6 +14127,9 @@
    "author_count": 22,
    "doi": "10.1038/s41591-026-04733-8",
    "study_type": "",
+   "pubtypes": [
+    "Expression of Concern"
+   ],
    "mesh": [],
    "departments": [
     "呼吸器",
@@ -12324,6 +14151,9 @@
    "author_count": 38,
    "doi": "10.1038/s41591-026-04671-5",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -12345,6 +14175,9 @@
    "author_count": 42,
    "doi": "10.1038/s41591-026-04717-8",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -12366,6 +14199,9 @@
    "author_count": 28,
    "doi": "10.1016/j.cell.2026.09.016",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢"
@@ -12386,6 +14222,10 @@
    "author_count": 2,
    "doi": "10.1126/scitranslmed.aem5154",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Retraction Notice"
+   ],
    "mesh": [],
    "departments": [
     "疫苗"
@@ -12406,6 +14246,10 @@
    "author_count": 2,
    "doi": "10.1126/scitranslmed.aem8786",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Expression of Concern"
+   ],
    "mesh": [],
    "departments": [
     "骨科",
@@ -12427,6 +14271,10 @@
    "author_count": 4,
    "doi": "10.1126/scitranslmed.aee4629",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Anti-Bacterial Agents",
     "Drug Discovery",
@@ -12453,6 +14301,9 @@
    "author_count": 20,
    "doi": "10.1126/scitranslmed.aeh1292",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -12484,6 +14335,9 @@
    "author_count": 1,
    "doi": "10.1126/scitranslmed.adw9354",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [
     "Humans",
     "Bacterial Infections"
@@ -12507,6 +14361,9 @@
    "author_count": 33,
    "doi": "10.1126/scitranslmed.ady4852",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Protein Phosphatase 2",
     "Female",
@@ -12537,6 +14394,10 @@
    "author_count": 27,
    "doi": "10.1126/scitranslmed.aef8416",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Drug Resistance, Microbial",
@@ -12562,6 +14423,9 @@
    "author_count": 10,
    "doi": "10.1126/scitranslmed.adz4815",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Aging",
@@ -12594,6 +14458,11 @@
    "author_count": 22,
    "doi": "10.1126/scitranslmed.aec5740",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Clinical Trial, Phase I",
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
    "mesh": [
     "Animals",
     "Female",
@@ -12625,6 +14494,9 @@
    "author_count": 17,
    "doi": "10.1126/scitranslmed.aec9689",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Acute Kidney Injury",
@@ -12656,6 +14528,9 @@
    "author_count": 3,
    "doi": "10.1126/scitranslmed.aeg5988",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [
     "Rifampin",
     "Humans",
@@ -12683,6 +14558,9 @@
    "author_count": 0,
    "doi": "10.1038/s41591-026-04720-z",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -12703,6 +14581,9 @@
    "author_count": 2,
    "doi": "10.1038/s41591-026-04714-x",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -12723,6 +14604,9 @@
    "author_count": 17,
    "doi": "10.1038/s41591-026-04680-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "老年医学"
@@ -12743,6 +14627,9 @@
    "author_count": 5,
    "doi": "10.1016/j.cell.2026.09.029",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -12763,6 +14650,9 @@
    "author_count": 17,
    "doi": "10.1016/j.cell.2026.09.026",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "神经"
@@ -12783,6 +14673,9 @@
    "author_count": 5,
    "doi": "10.1016/j.cell.2026.09.028",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -12803,6 +14696,9 @@
    "author_count": 29,
    "doi": "10.1016/j.cell.2026.08.053",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -12823,6 +14719,9 @@
    "author_count": 22,
    "doi": "10.1038/s41591-026-04689-9",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -12843,6 +14742,9 @@
    "author_count": 26,
    "doi": "10.1038/s41591-026-04736-5",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -12863,6 +14765,9 @@
    "author_count": 11,
    "doi": "10.1038/s41591-026-04691-1",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -12883,6 +14788,9 @@
    "author_count": 8,
    "doi": "10.1016/j.cell.2026.09.017",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -12903,6 +14811,9 @@
    "author_count": 7,
    "doi": "10.1038/s41591-026-04709-8",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -12923,6 +14834,10 @@
    "author_count": 0,
    "doi": "10.1126/scitranslmed.aem3393",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "疫苗"
@@ -12943,6 +14858,9 @@
    "author_count": 10,
    "doi": "10.1126/scitranslmed.adz9258",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Microglia",
@@ -12974,6 +14892,9 @@
    "author_count": 25,
    "doi": "10.1126/scitranslmed.adt0044",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Janus Kinase 2",
     "Animals",
@@ -13005,6 +14926,9 @@
    "author_count": 1,
    "doi": "10.1126/scitranslmed.aei6916",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Neoplasms",
@@ -13031,6 +14955,9 @@
    "author_count": 25,
    "doi": "10.1126/scitranslmed.aed8353",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Transient Receptor Potential Channels",
@@ -13061,6 +14988,9 @@
    "author_count": 15,
    "doi": "10.1126/scitranslmed.aei5938",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Genetic Therapy",
@@ -13093,6 +15023,9 @@
    "author_count": 16,
    "doi": "10.1126/scitranslmed.aea7960",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Lymph Nodes",
@@ -13125,6 +15058,9 @@
    "author_count": 13,
    "doi": "10.1126/scitranslmed.adx6147",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Animals, Newborn",
@@ -13156,6 +15092,9 @@
    "author_count": 17,
    "doi": "10.1126/scitranslmed.aee9049",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Female",
     "Humans",
@@ -13187,6 +15126,9 @@
    "author_count": 15,
    "doi": "10.1038/s41591-026-04704-z",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -13207,6 +15149,9 @@
    "author_count": 66,
    "doi": "10.1038/s41591-026-04706-x",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "公共卫生"
@@ -13227,6 +15172,9 @@
    "author_count": 20,
    "doi": "10.1016/j.cell.2026.09.024",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -13247,6 +15195,9 @@
    "author_count": 61,
    "doi": "10.1016/j.cell.2026.09.023",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -13267,6 +15218,9 @@
    "author_count": 13,
    "doi": "10.1016/j.cell.2026.09.021",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "遗传/基因"
@@ -13287,6 +15241,9 @@
    "author_count": 12,
    "doi": "10.1016/j.cell.2026.09.020",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -13308,6 +15265,9 @@
    "author_count": 17,
    "doi": "10.1038/s41591-026-04713-y",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢"
@@ -13328,6 +15288,9 @@
    "author_count": 94,
    "doi": "10.1038/s41591-026-04696-w",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -13348,6 +15311,9 @@
    "author_count": 42,
    "doi": "10.1038/s41591-026-04673-3",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -13369,6 +15335,9 @@
    "author_count": 0,
    "doi": "10.1038/s41591-026-04726-7",
    "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -13389,6 +15358,9 @@
    "author_count": 7,
    "doi": "10.1038/s41591-026-04614-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Female",
@@ -13417,6 +15389,9 @@
    "author_count": 88,
    "doi": "10.1038/s41591-026-04626-w",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Artificial Intelligence",
@@ -13441,6 +15416,11 @@
    "author_count": 26,
    "doi": "10.1038/s41591-026-04675-1",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Pragmatic Clinical Trial"
+   ],
    "mesh": [
     "Humans",
     "Infant",
@@ -13473,6 +15453,9 @@
    "author_count": 3,
    "doi": "10.1038/s41591-026-04658-2",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -13493,6 +15476,9 @@
    "author_count": 53,
    "doi": "10.1038/s41591-026-04677-z",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -13513,6 +15499,9 @@
    "author_count": 15,
    "doi": "10.1038/s41591-026-04674-2",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "内分泌/代谢",
@@ -13534,6 +15523,9 @@
    "author_count": 11,
    "doi": "10.1016/j.cell.2026.08.057",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Oxidative Phosphorylation",
     "Citric Acid Cycle",
@@ -13564,6 +15556,10 @@
    "author_count": 6,
    "doi": "10.1016/j.cell.2026.08.029",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Comparative Study"
+   ],
    "mesh": [
     "Proteome",
     "Mitochondrial Proteins",
@@ -13593,6 +15589,9 @@
    "author_count": 7,
    "doi": "10.1016/j.cell.2026.08.027",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Arabidopsis",
     "Mitochondrial Proteins",
@@ -13620,6 +15619,9 @@
    "author_count": 20,
    "doi": "10.1016/j.cell.2026.08.056",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Mitochondria",
     "Oxygen",
@@ -13651,6 +15653,9 @@
    "author_count": 2,
    "doi": "10.1016/j.cell.2026.09.007",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -13679,6 +15684,10 @@
    "author_count": 2,
    "doi": "10.1016/j.cell.2026.09.003",
    "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
    "mesh": [
     "Mitochondria",
     "Animals",
@@ -13707,6 +15716,10 @@
    "author_count": 3,
    "doi": "10.1016/j.cell.2026.09.006",
    "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
    "mesh": [
     "Hot Temperature",
     "Animals",
@@ -13731,6 +15744,10 @@
    "author_count": 1,
    "doi": "10.1016/j.cell.2026.09.002",
    "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
    "mesh": [
     "Glioma",
     "Humans",
@@ -13761,6 +15778,10 @@
    "author_count": 7,
    "doi": "10.1038/s41591-026-04667-1",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Biomedical Research",
     "Humans",
@@ -13785,6 +15806,10 @@
    "author_count": 7,
    "doi": "10.1038/s41591-026-04659-1",
    "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
    "mesh": [
     "Humans",
     "Female",
@@ -13813,6 +15838,9 @@
    "author_count": 21,
    "doi": "10.1038/s41591-026-04643-9",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -13833,6 +15861,9 @@
    "author_count": 1,
    "doi": "10.1038/s41591-026-04672-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -13853,6 +15884,9 @@
    "author_count": 16,
    "doi": "10.1038/s41591-025-04128-1",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Alzheimer Disease",
     "Humans",
@@ -13884,6 +15918,10 @@
    "author_count": 44,
    "doi": "10.1038/s41591-026-04656-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Humans",
     "Esophageal Neoplasms",
@@ -13915,6 +15953,10 @@
    "author_count": 13,
    "doi": "10.1038/s41591-026-04652-8",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
    "mesh": [
     "Humans",
     "Early Detection of Cancer",
@@ -13944,6 +15986,9 @@
    "author_count": 3,
    "doi": "10.1038/s41591-026-04688-w",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -13964,6 +16009,11 @@
    "author_count": 20,
    "doi": "10.1038/s41591-026-04618-w",
    "study_type": "临床试验",
+   "pubtypes": [
+    "Clinical Trial",
+    "Journal Article",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Aged",
     "Female",
@@ -13995,6 +16045,9 @@
    "author_count": 22,
    "doi": "10.1016/j.cell.2026.08.043",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Amoeba",
     "Hot Temperature",
@@ -14020,6 +16073,11 @@
    "author_count": 40,
    "doi": "10.1038/s41591-026-04654-6",
    "study_type": "临床指南",
+   "pubtypes": [
+    "Consensus Statement",
+    "Journal Article",
+    "Practice Guideline"
+   ],
    "mesh": [
     "Humans",
     "Bacterial Infections",
@@ -14047,6 +16105,9 @@
    "author_count": 32,
    "doi": "10.1038/s41591-026-04646-6",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Levetiracetam",
     "Humans",
@@ -14080,6 +16141,11 @@
    "author_count": 23,
    "doi": "10.1038/s41591-026-04636-8",
    "study_type": "I 期临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase I",
+    "Multicenter Study"
+   ],
    "mesh": [
     "Humans",
     "Hemophilia B",
@@ -14113,6 +16179,11 @@
    "author_count": 33,
    "doi": "10.1038/s41591-026-04625-x",
    "study_type": "观察性研究",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Observational Study"
+   ],
    "mesh": [
     "Aged",
     "Female",
@@ -14145,6 +16216,9 @@
    "author_count": 14,
    "doi": "10.1038/s41591-026-04609-x",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Artificial Intelligence",
@@ -14171,6 +16245,9 @@
    "author_count": 35,
    "doi": "10.1038/s41591-026-04664-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Post-Exposure Prophylaxis",
@@ -14203,6 +16280,10 @@
    "author_count": 37,
    "doi": "10.1038/s41591-026-04663-5",
    "study_type": "病例报告",
+   "pubtypes": [
+    "Journal Article",
+    "Case Reports"
+   ],
    "mesh": [
     "Humans",
     "Alanine",
@@ -14233,6 +16314,9 @@
    "author_count": 56,
    "doi": "10.1038/s41591-026-04628-8",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Democratic Republic of the Congo",
     "Humans",
@@ -14264,6 +16348,9 @@
    "author_count": 0,
    "doi": "10.1038/s41591-026-04676-0",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -14284,6 +16371,9 @@
    "author_count": 14,
    "doi": "10.1038/s41591-026-04639-5",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -14304,6 +16394,9 @@
    "author_count": 21,
    "doi": "10.1038/s41591-026-04621-1",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -14324,6 +16417,11 @@
    "author_count": 32,
    "doi": "10.1038/s41591-026-04642-w",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase II"
+   ],
    "mesh": [
     "Humans",
     "Lenalidomide",
@@ -14355,6 +16453,9 @@
    "author_count": 11,
    "doi": "10.1038/s41591-026-04702-1",
    "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤",
@@ -14376,6 +16477,9 @@
    "author_count": 22,
    "doi": "10.1038/s41591-026-04631-z",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -14396,6 +16500,9 @@
    "author_count": 3,
    "doi": "10.1038/s41591-026-04634-w",
    "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
    "mesh": [],
    "departments": [
     "肿瘤"
@@ -14416,6 +16523,9 @@
    "author_count": 6,
    "doi": "10.1038/s41591-026-04640-y",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Female",
@@ -14449,6 +16559,9 @@
    "author_count": 2,
    "doi": "10.1038/s41591-026-04596-z",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [],
    "departments": [
     "综合"
@@ -14469,6 +16582,9 @@
    "author_count": 7,
    "doi": "10.1038/s41591-026-04602-4",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Female",
@@ -14500,6 +16616,9 @@
    "author_count": 7,
    "doi": "10.1126/scitranslmed.aeg5917",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Scabies",
@@ -14531,6 +16650,9 @@
    "author_count": 14,
    "doi": "10.1126/scitranslmed.aec7031",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Hematopoietic Stem Cells",
@@ -14561,6 +16683,9 @@
    "author_count": 17,
    "doi": "10.1126/scitranslmed.aef5898",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Brain Injuries, Traumatic",
@@ -14592,6 +16717,9 @@
    "author_count": 5,
    "doi": "10.1126/scitranslmed.adw3644",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Stroke",
@@ -14623,6 +16751,9 @@
    "author_count": 14,
    "doi": "10.1126/scitranslmed.aea4608",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Female",
@@ -14655,6 +16786,9 @@
    "author_count": 26,
    "doi": "10.1126/scitranslmed.aed4200",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Methicillin-Resistant Staphylococcus aureus",
     "Animals",
@@ -14686,6 +16820,9 @@
    "author_count": 28,
    "doi": "10.1126/scitranslmed.aed1866",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Animals",
@@ -14717,6 +16854,9 @@
    "author_count": 17,
    "doi": "10.1126/scitranslmed.adw1914",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Lupus Erythematosus, Systemic",
@@ -14749,6 +16889,9 @@
    "author_count": 21,
    "doi": "10.1126/scitranslmed.aeb2020",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Female",
     "Humans",
@@ -14780,6 +16923,9 @@
    "author_count": 11,
    "doi": "10.1126/scitranslmed.aea5653",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Cisplatin",
     "Humans",
@@ -14812,6 +16958,10 @@
    "author_count": 10,
    "doi": "10.1126/scitranslmed.aed8692",
    "study_type": "I 期临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase I"
+   ],
    "mesh": [
     "Diabetic Retinopathy",
     "Humans",
@@ -14845,6 +16995,9 @@
    "author_count": 22,
    "doi": "10.1126/scitranslmed.aeh7968",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Chemokine CXCL1",
     "Animals",
@@ -14876,6 +17029,9 @@
    "author_count": 39,
    "doi": "10.1126/scitranslmed.aei2870",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Disease Models, Animal",
@@ -14908,6 +17064,9 @@
    "author_count": 22,
    "doi": "10.1126/scitranslmed.aea3879",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Killer Cells, Natural",
@@ -14940,6 +17099,9 @@
    "author_count": 53,
    "doi": "10.1126/scitranslmed.aea2747",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Cardiomyopathy, Hypertrophic",
@@ -14971,6 +17133,9 @@
    "author_count": 10,
    "doi": "10.1126/scitranslmed.ady2289",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Immunotherapy",
@@ -15002,6 +17167,9 @@
    "author_count": 31,
    "doi": "10.1126/scitranslmed.adz4471",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Pneumocystis carinii",
     "Humans",
@@ -15031,6 +17199,9 @@
    "author_count": 13,
    "doi": "10.1126/scitranslmed.adv9538",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Animals",
@@ -15059,6 +17230,9 @@
    "author_count": 24,
    "doi": "10.1126/scitranslmed.aef2648",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Mycobacterium",
@@ -15088,6 +17262,11 @@
    "author_count": 5,
    "doi": "10.1126/scitranslmed.aea5469",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
    "mesh": [
     "Humans",
     "Acoustic Stimulation",
@@ -15119,6 +17298,11 @@
    "author_count": 17,
    "doi": "10.1126/scitranslmed.aeh2517",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
    "mesh": [
     "Humans",
     "Spleen",
@@ -15152,6 +17336,11 @@
    "author_count": 17,
    "doi": "10.1126/scitranslmed.adx2447",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, N.I.H., Extramural"
+   ],
    "mesh": [
     "Animals",
     "Genetic Therapy",
@@ -15184,6 +17373,10 @@
    "author_count": 13,
    "doi": "10.1126/scitranslmed.aed4290",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
    "mesh": [
     "Animals",
     "Antivenins",
@@ -15215,6 +17408,12 @@
    "author_count": 34,
    "doi": "10.1126/scitranslmed.aea8773",
    "study_type": "II 期临床试验",
+   "pubtypes": [
+    "Clinical Trial, Phase I",
+    "Clinical Trial, Phase II",
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
    "mesh": [
     "Animals",
     "Female",
@@ -15247,6 +17446,9 @@
    "author_count": 21,
    "doi": "10.1126/scitranslmed.aeb1331",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Proteomics",
@@ -15276,6 +17478,9 @@
    "author_count": 15,
    "doi": "10.1126/scitranslmed.adw3558",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Antibodies, Monoclonal",
@@ -15308,6 +17513,9 @@
    "author_count": 26,
    "doi": "10.1126/scitranslmed.aed8729",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Receptors, GABA",
@@ -15340,6 +17548,9 @@
    "author_count": 10,
    "doi": "10.1126/scitranslmed.aea8738",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Spinal Cord",
@@ -15371,6 +17582,9 @@
    "author_count": 19,
    "doi": "10.1126/scitranslmed.aef6676",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "MicroRNAs",
     "Animals",
@@ -15404,6 +17618,9 @@
    "author_count": 16,
    "doi": "10.1126/scitranslmed.aeg7776",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Macaca mulatta",
@@ -15435,6 +17652,9 @@
    "author_count": 16,
    "doi": "10.1126/scitranslmed.ady2234",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Pancreatic Ducts",
@@ -15468,6 +17688,9 @@
    "author_count": 25,
    "doi": "10.1126/scitranslmed.adx9869",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -15499,6 +17722,9 @@
    "author_count": 20,
    "doi": "10.1126/scitranslmed.aef7084",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Shigella Vaccines",
@@ -15531,6 +17757,9 @@
    "author_count": 14,
    "doi": "10.1126/scitranslmed.aea1228",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Female",
     "Animals",
@@ -15563,6 +17792,9 @@
    "author_count": 31,
    "doi": "10.1126/scitranslmed.aee1083",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "CD36 Antigens",
     "Humans",
@@ -15595,6 +17827,9 @@
    "author_count": 23,
    "doi": "10.1126/scitranslmed.ady7616",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Retinal Pigment Epithelium",
@@ -15626,6 +17861,9 @@
    "author_count": 21,
    "doi": "10.1126/scitranslmed.aee4776",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Monocytes",
     "Animals",
@@ -15657,6 +17895,9 @@
    "author_count": 21,
    "doi": "10.1126/scitranslmed.aeb2189",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Latent TGF-beta Binding Proteins",
     "Animals",
@@ -15689,6 +17930,9 @@
    "author_count": 26,
    "doi": "10.1126/scitranslmed.ady0403",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -15720,6 +17964,9 @@
    "author_count": 20,
    "doi": "10.1126/scitranslmed.adv0221",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Macrophages",
@@ -15751,6 +17998,9 @@
    "author_count": 25,
    "doi": "10.1126/scitranslmed.aeb7517",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Hyperaldosteronism",
@@ -15782,6 +18032,10 @@
    "author_count": 2,
    "doi": "10.1126/scitranslmed.aeh8792",
    "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
    "mesh": [
     "Humans",
     "Pregnancy",
@@ -15808,6 +18062,9 @@
    "author_count": 13,
    "doi": "10.1126/scitranslmed.adz8846",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Female",
@@ -15838,6 +18095,9 @@
    "author_count": 15,
    "doi": "10.1126/scitranslmed.adr9158",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Sortilin",
@@ -15870,6 +18130,9 @@
    "author_count": 19,
    "doi": "10.1126/scitranslmed.aed4678",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Urea Transporters",
@@ -15901,6 +18164,9 @@
    "author_count": 15,
    "doi": "10.1126/scitranslmed.adv6871",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Neoplasm Metastasis",
@@ -15934,6 +18200,9 @@
    "author_count": 45,
    "doi": "10.1126/scitranslmed.aec0512",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Humans",
     "Lupus Nephritis",
@@ -15966,6 +18235,10 @@
    "author_count": 21,
    "doi": "10.1126/scitranslmed.aei0875",
    "study_type": "I 期临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase I"
+   ],
    "mesh": [
     "Humans",
     "Leukemia, Myeloid, Acute",
@@ -15997,6 +18270,9 @@
    "author_count": 29,
    "doi": "10.1126/scitranslmed.ady6759",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Humans",
@@ -16028,6 +18304,9 @@
    "author_count": 15,
    "doi": "10.1126/scitranslmed.aee5273",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Antibody Affinity",
@@ -16059,6 +18338,9 @@
    "author_count": 24,
    "doi": "10.1126/scitranslmed.ads8464",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Viral Envelope Proteins",
@@ -16088,6 +18370,9 @@
    "author_count": 11,
    "doi": "10.1126/scitranslmed.aea8468",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Arthritis, Rheumatoid",
     "Receptors, G-Protein-Coupled",
@@ -16119,6 +18404,9 @@
    "author_count": 15,
    "doi": "10.1126/scitranslmed.aee5425",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "B-Lymphocytes",
@@ -16150,6 +18438,10 @@
    "author_count": 30,
    "doi": "10.1126/scitranslmed.aeb4113",
    "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
    "mesh": [
     "Humans",
     "Pneumococcal Vaccines",
@@ -16181,6 +18473,9 @@
    "author_count": 23,
    "doi": "10.1126/scitranslmed.adv1289",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Angiopoietin-1",
@@ -16212,6 +18507,9 @@
    "author_count": 27,
    "doi": "10.1126/scitranslmed.aea3104",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Huntington Disease",
@@ -16243,6 +18541,10 @@
    "author_count": 20,
    "doi": "10.1126/scitranslmed.ads9325",
    "study_type": "I 期临床试验",
+   "pubtypes": [
+    "Clinical Trial, Phase I",
+    "Journal Article"
+   ],
    "mesh": [
     "Animals",
     "Female",
@@ -16274,6 +18576,10 @@
    "author_count": 0,
    "doi": "10.1126/scitranslmed.aek4223",
    "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Published Erratum"
+   ],
    "mesh": [],
    "departments": [
     "消化器"

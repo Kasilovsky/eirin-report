@@ -40,6 +40,7 @@
     days: 7,
     sort: "date-desc",
     page: 1,
+    digest: null,
   };
 
   const el = (id) => document.getElementById(id);
@@ -416,8 +417,8 @@
     toast("已匯出本頁 Markdown");
   }
 
-  /* 群聊速報：纯文本，直接粘到聊天窗口 */
-  async function copyDigest() {
+  /* 複製本頁索引速報（純文字，直接貼到聊天窗口） */
+  async function copyPageDigest() {
     const articles = currentPageArticles();
     if (!articles.length) { toast("本頁沒有可複製的條目"); return; }
 
@@ -521,18 +522,22 @@
     });
 
     el("exportBtn").addEventListener("click", exportMarkdown);
-    el("copyBtn").addEventListener("click", copyDigest);
+    el("copyBtn").addEventListener("click", copyPageDigest);
+    el("copyDigestBtn").addEventListener("click", copyDigest);
 
     el("topBtn").addEventListener("click", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
 
     document.addEventListener("keydown", (event) => {
-      if (event.key === "/" && document.activeElement !== el("q")) {
+      const active = document.activeElement;
+      const tag = active ? active.tagName : "";
+      const typing = tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || (active && active.isContentEditable);
+      if (event.key === "/" && !typing) {
         event.preventDefault();
         el("q").focus();
         el("q").select();
-      } else if (event.key === "Escape" && document.activeElement === el("q")) {
+      } else if (event.key === "Escape" && active === el("q")) {
         el("q").value = "";
         state.q = "";
         state.page = 1;
@@ -562,8 +567,116 @@
     renderChips("deptChips", depts, state.depts, (item) => item, 12);
   }
 
+  /* ------------------------------------------------------------ 本期要目 --- */
+
+  const DIGEST_URL = "data/digest/latest.json";
+  const CONF_LABEL = { high: "高", medium: "中", low: "低" };
+
+  async function loadDigest() {
+    try {
+      const response = await fetch(`${DIGEST_URL}?t=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) return null;
+      const data = await response.json();
+      return Array.isArray(data.items) && data.items.length ? data : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function digestItemHtml(item, index) {
+    const confidence = CONF_LABEL[item.confidence] || "中";
+    const tags = (item.tags || []).map((tag) => `<span>#${esc(tag)}</span>`).join("");
+    const pro = [
+      item.clinical_note ? `<p class="digest-row digest-pro"><b>臨床備註</b>${esc(item.clinical_note)}</p>` : "",
+      item.title_en ? `<p class="digest-row digest-pro"><b>原題</b>${esc(item.title_en)}</p>` : "",
+    ].join("");
+
+    return `
+      <li class="digest-item">
+        <div class="digest-index" aria-hidden="true">${String(index).padStart(2, "0")}</div>
+        <div>
+          <div class="digest-kicker">
+            <span class="j">${esc(item.journal || "")}</span>
+            ${item.study_type ? `<span class="t">${esc(item.study_type)}</span>` : ""}
+            <span>${esc(item.date || "")}</span>
+            <span class="conf" data-level="${esc(item.confidence || "medium")}">證據等級：${confidence}</span>
+          </div>
+          <h3 class="digest-title">${esc(item.title_zh || item.title_en || "")}</h3>
+          ${item.one_liner ? `<p class="digest-oneliner">${esc(item.one_liner)}</p>` : ""}
+          ${item.key_finding ? `<p class="digest-row"><b>關鍵結果</b>${esc(item.key_finding)}</p>` : ""}
+          ${item.why_it_matters ? `<p class="digest-row"><b>意義</b>${esc(item.why_it_matters)}</p>` : ""}
+          ${pro}
+          <div class="digest-foot">
+            ${item.evidence ? `<span>證據：${esc(item.evidence)}</span>` : ""}
+            ${item.link ? `<a href="${esc(item.link)}" target="_blank" rel="noopener">PubMed 原文 ↗</a>` : ""}
+            ${tags}
+          </div>
+        </div>
+      </li>`;
+  }
+
+  function renderDigest(digest) {
+    state.digest = digest;
+    const section = el("digestSection");
+    section.hidden = false;
+
+    const note = el("digestNote");
+    if (digest.degraded) {
+      note.className = "digest-degraded";
+      note.textContent = "本期未启用模型解读（缺少密钥或调用失败），以下仅为题录；摘要与原文请点开 PubMed 查看。";
+    } else {
+      note.className = "digest-note";
+      note.textContent = `${digest.count} 條 · 由 ${digest.provider || "模型"} 依 PubMed 摘要整理，數字均取自原文；標記「證據等級：低」者表示摘要未給出結論。`;
+    }
+
+    el("digestList").innerHTML = (digest.items || [])
+      .map((item, index) => digestItemHtml(item, index + 1))
+      .join("");
+  }
+
+  function digestText() {
+    const digest = state.digest;
+    if (!digest) return "";
+    const today = new Date();
+    const lines = [`【永遠亭 医療報告】${issueNumber(today)} · ${formatIssueDate(today)}`, ""];
+    (digest.items || []).forEach((item, index) => {
+      lines.push(`${String(index + 1).padStart(2, "0")}｜${item.journal || ""}｜${item.study_type || "研究"}`);
+      if (item.title_zh) lines.push(item.title_zh);
+      if (item.one_liner) lines.push(item.one_liner);
+      if (item.key_finding) lines.push(item.key_finding);
+      if (item.why_it_matters) lines.push(item.why_it_matters);
+      lines.push(item.link || "", "");
+    });
+    lines.push("—— 永遠亭 医療部 · 八意永琳");
+    return lines.join("\n");
+  }
+
+  async function copyDigest() {
+    if (!state.digest) { toast("本期尚無要目"); return; }
+    const ok = await copyText(digestText());
+    toast(ok ? "要目已複製，可直接貼到群裡" : "複製失敗，請手動選取");
+  }
+
+  function initReaderMode() {
+    const saved = localStorage.getItem("eirin-reader");
+    const mode = saved === "pro" ? "pro" : "plain";
+    document.body.dataset.reader = mode;
+    const button = el("readerModeBtn");
+    if (!button) return;
+    button.setAttribute("aria-pressed", String(mode === "pro"));
+    button.textContent = mode === "pro" ? "普通模式" : "專業模式";
+    button.addEventListener("click", () => {
+      const next = document.body.dataset.reader === "pro" ? "plain" : "pro";
+      document.body.dataset.reader = next;
+      localStorage.setItem("eirin-reader", next);
+      button.setAttribute("aria-pressed", String(next === "pro"));
+      button.textContent = next === "pro" ? "普通模式" : "專業模式";
+    });
+  }
+
   async function boot() {
     initTheme();
+    initReaderMode();
     readUrl();
     wireControls();
 
@@ -590,6 +703,9 @@
     bootChips();
     render();
     syncUrl();
+
+    const digest = await loadDigest();
+    if (digest) renderDigest(digest);
 
     if (state.data.failures && state.data.failures.length) {
       const note = document.createElement("div");

@@ -586,6 +586,9 @@ def load_existing_articles() -> list[dict[str, Any]]:
     except json.JSONDecodeError:
         log.warning("现有 news.json 损坏，忽略")
         return []
+    if not isinstance(payload, dict):
+        log.warning("现有 news.json 顶层结构异常，忽略并重建")
+        return []
     if payload.get("schema_version", 1) < SCHEMA_VERSION:
         log.info("检测到旧版数据结构，本次全量重建")
         return []
@@ -741,11 +744,12 @@ def enrich(articles: list[dict[str, Any]], budget: int, skip_translate: bool = F
     if state["budget"] < budget:
         save_cache(cache)
 
+    used = 0 if skip_translate else budget - state["budget"]
     log.info(
         "翻译配额使用 %s/%s，连续失败 %s 次，缓存条目 %s，耗时 %.0fs",
-        budget - state["budget"], budget, state["fails"], len(cache), time.time() - started,
+        used, budget, state["fails"], len(cache), time.time() - started,
     )
-    return {"translate_used": budget - state["budget"], "cache_size": len(cache), "translate_fails": state["fails"]}
+    return {"translate_used": used, "cache_size": len(cache), "translate_fails": state["fails"]}
 
 
 def main() -> int:
@@ -773,7 +777,6 @@ def main() -> int:
     # 仅内部使用、不进入静态数据的字段
     for article in merged:
         article.pop("conclusion_en", None)
-        article.pop("pubtypes", None)
 
     counts: dict[str, int] = {}
     for article in merged:

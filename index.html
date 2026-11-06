@@ -1,453 +1,147 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-Hant" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=2.0">
-    <title>永遠亭 医療報告 · 八意永琳</title>
-    <style>
-        :root {
-            --bg: #ffffff; --text: #1e293b; --card-bg: #fdfdfd; --border: #cbd5e1;
-            --accent: #1e3a5f; --highlight: #b91c1c; --subtle: #64748b;
-            --shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        body.spring { --bg: #fffbf5; --accent: #b85c5c; --highlight: #e07b7b; }
-        body.summer { --bg: #f0f7e8; --accent: #2d6a4f; --highlight: #40916c; }
-        body.autumn { --bg: #fdf6e8; --accent: #b8860b; --highlight: #d4a017; }
-        body.winter { --bg: #f0f4f8; --accent: #1e3a5f; --highlight: #3b82f6; }
-        body.dark {
-            --bg: #0f172a !important; --text: #e2e8f0 !important; --card-bg: #1e293b !important; --border: #334155 !important;
-            --accent: #38bdf8 !important; --highlight: #f87171 !important; --subtle: #94a3b8 !important;
-            --shadow: 0 2px 12px rgba(0,0,0,0.4) !important;
-        }
-        body.dark .bamboo-bg { display: none; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>永遠亭 医療報告 · 八意永琳 編</title>
+  <meta name="description" content="永遠亭医療部編纂的權威醫學期刊速報：每日自 PubMed 採集 NEJM、The Lancet、JAMA、BMJ、Nature Medicine、Cell、Science Translational Medicine 的近期文獻，附中英對照與科別分類。">
+  <meta name="author" content="八意永琳 / 永遠亭医療部">
+  <meta name="theme-color" content="#f7f4ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121719" media="(prefers-color-scheme: dark)">
 
-        * { margin:0; padding:0; box-sizing:border-box; }
-        body {
-            font-family: 'Segoe UI', 'Noto Sans SC', 'PingFang SC', sans-serif;
-            background: var(--bg); color: var(--text); min-height: 100vh; transition: background 0.5s;
-            overflow-x: hidden;
-        }
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="永遠亭 医療報告 · 八意永琳 編">
+  <meta property="og:description" content="權威醫學期刊速報。每日自 PubMed 採集七種頂級期刊的近期文獻，附中英對照、科別分類與原文出處。">
+  <meta property="og:site_name" content="永遠亭 医療報告">
 
-        .bamboo-bg { position: fixed; top:0; left:0; width:100%; height:100%; pointer-events: none; z-index:0; }
-        .leaf { position: absolute; top:-10%; opacity:0.7; animation: fall linear infinite; }
-        @keyframes fall {
-            0% { transform: translateY(0) rotate(0deg); opacity:0.8; }
-            100% { transform: translateY(110vh) rotate(360deg); opacity:0; }
-        }
-        .firefly { position: absolute; width:6px; height:6px; background:#ffd700; border-radius:50%; box-shadow: 0 0 8px #ffd700; animation: fly 4s ease-in-out infinite; }
-        @keyframes fly {
-            0%,100% { transform: translate(0,0); opacity:0.3; }
-            50% { transform: translate(20px,-20px); opacity:0.8; }
-        }
-        .toggle-anim {
-            position: fixed; bottom: 16px; right: 16px; background: var(--card-bg);
-            border:1px solid var(--border); padding: 6px 12px; border-radius:20px;
-            font-size: 0.8em; cursor: pointer; z-index: 100; box-shadow: var(--shadow); color: var(--text);
-        }
-
-        .sidebar {
-            position: fixed; top: 0; left: -280px; width: 280px; height: 100%;
-            background: var(--card-bg); border-right: 1px solid var(--border);
-            box-shadow: 2px 0 12px rgba(0,0,0,0.1); z-index: 1000; transition: left 0.3s ease;
-            display: flex; flex-direction: column; padding: 24px 16px; overflow-y: auto;
-        }
-        .sidebar.open { left: 0; }
-        .sidebar-backdrop { position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.35); z-index: 999; display: none; }
-        .sidebar-backdrop.show { display: block; }
-        .sidebar h3 { color: var(--accent); margin-bottom: 12px; font-size: 1em; }
-        .sidebar-section { margin-bottom: 24px; }
-        .sidebar-section .label { font-size: 0.8em; color: var(--subtle); margin-bottom: 8px; }
-        .filter-group { display: flex; flex-wrap: wrap; gap: 6px; }
-        .filter-group button, .filter-group .tag {
-            background: none; border: 1px solid var(--border); color: var(--text);
-            padding: 4px 12px; border-radius: 20px; cursor: pointer; font-size: 0.8em; transition: 0.2s;
-        }
-        .filter-group button.active, .filter-group .tag.active { background: var(--accent); color: #fff; border-color: var(--accent); }
-        .setting-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); }
-        .switch { position: relative; display: inline-block; width: 42px; height: 22px; }
-        .switch input { display: none; }
-        .slider { position: absolute; cursor: pointer; top:0; left:0; right:0; bottom:0; background: #ccc; border-radius: 22px; transition: 0.3s; }
-        .slider:before { position: absolute; content:""; height: 16px; width: 16px; left: 3px; bottom: 3px; background: white; border-radius: 50%; transition: 0.3s; }
-        input:checked + .slider { background: var(--accent); }
-        input:checked + .slider:before { transform: translateX(20px); }
-
-        .container { max-width: 600px; margin: 0 auto; padding: 16px 12px 32px; position: relative; z-index:1; }
-        .menu-btn {
-            position: absolute; top: 12px; left: 12px;
-            background: var(--card-bg); border: 1px solid var(--border); border-radius: 50%;
-            width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
-            cursor: pointer; font-size: 1.3em; color: var(--text); z-index: 10; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-        .header { text-align: center; border-bottom: 2px solid var(--accent); padding-bottom: 12px; margin-top: 40px; margin-bottom: 20px; }
-        .header h1 { font-size: 1.8em; color: var(--accent); letter-spacing: 2px; }
-        .subtitle { font-size: 0.85em; color: var(--subtle); margin-bottom: 8px; }
-        .date-badge { display: inline-block; background: var(--highlight); color: #fff; padding: 4px 16px; border-radius: 20px; font-size: 0.8em; font-weight: bold; }
-        .pagination { display: flex; justify-content: center; gap: 8px; margin: 16px 0; align-items: center; }
-        .pagination button { background: var(--accent); color: #fff; border: none; padding: 6px 12px; border-radius: 20px; font-size: 0.8em; cursor: pointer; }
-        .pagination button:disabled { opacity: 0.5; cursor: default; }
-        .page-info { font-size: 0.85em; color: var(--subtle); }
-        .news-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 14px; margin-bottom: 14px; box-shadow: var(--shadow); word-break: break-word; }
-        .news-source-tag { font-weight: 700; font-size: 0.75em; color: var(--highlight); }
-        .news-title { font-weight: 700; font-size: 1.05em; margin: 6px 0; line-height: 1.4; cursor: pointer; }
-        .news-citation { font-size: 0.8em; color: var(--subtle); margin-bottom: 6px; }
-        .departments { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0; }
-        .dept-tag { background: var(--accent); color: #fff; padding: 2px 10px; border-radius: 14px; font-size: 0.7em; opacity: 0.8; }
-        .news-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-        .btn-sm { background: var(--accent); color: #fff; border: none; padding: 4px 12px; border-radius: 16px; font-size: 0.75em; cursor: pointer; text-decoration: none; display: inline-block; }
-        .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
-        .actions-bar { margin-top: 20px; text-align: center; }
-        .btn { background: var(--accent); color: #fff; border: none; padding: 10px 24px; border-radius: 24px; font-size: 0.9em; cursor: pointer; }
-        .resources { margin-top: 24px; padding: 14px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; text-align: center; }
-        .resources h3 { color: var(--accent); font-size: 0.95em; }
-        .resource-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
-        .resource-links a { color: var(--accent); text-decoration: none; border: 1px solid var(--border); padding: 4px 12px; border-radius: 16px; font-size: 0.8em; }
-        .footer { text-align: center; margin-top: 16px; font-size: 0.7em; color: var(--subtle); }
-        .error-box { background: #fff3cd; border: 1px solid #ffc107; padding: 12px; border-radius: 8px; margin: 10px 0; color: #856404; }
-    </style>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="alternate" type="application/rss+xml" title="永遠亭 医療報告 RSS" href="feed.xml">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-<body class="spring">
-<div class="bamboo-bg" id="bambooBg"></div>
-<button class="toggle-anim" id="toggleAnimBtn">🎋 竹林開</button>
+<body>
 
-<div class="sidebar-backdrop" id="sidebarBackdrop"></div>
-<div class="sidebar" id="sidebar">
-    <h3>🔬 篩選與設定</h3>
-    <div class="sidebar-section">
-        <div class="label">📰 期刊選擇</div>
-        <div class="filter-group" id="journalFilter"></div>
+<div class="wrap">
+
+  <header class="masthead">
+    <span class="crest">永遠亭</span>
+    <h1>永遠亭 医療報告</h1>
+    <p class="masthead-en">Eirin Medical Bulletin</p>
+
+    <div class="masthead-rule"><span>八意永琳 編 · 權威期刊彙編</span></div>
+
+    <dl class="meta-strip">
+      <div>
+        <dt>期號</dt>
+        <dd id="issueNo">——</dd>
+      </div>
+      <div>
+        <dt>發行</dt>
+        <dd id="issueDate">——</dd>
+      </div>
+      <div>
+        <dt>收錄</dt>
+        <dd id="issueCount">——</dd>
+      </div>
+      <div>
+        <dt>來源</dt>
+        <dd id="issueSources">PubMed</dd>
+      </div>
+    </dl>
+  </header>
+
+  <section class="foreword" aria-label="刊首語">
+    <div>
+      <p id="forewordText">今日的藥材已備齊，請諸位自行取用。</p>
+      <cite>—— 八意永琳</cite>
     </div>
-    <div class="sidebar-section">
-        <div class="label">🏥 科室分類</div>
-        <div class="filter-group" id="deptFilter"></div>
+  </section>
+
+  <section class="controls" aria-label="檢索與篩選">
+    <div class="search-row">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path>
+        </svg>
+        <label class="sr-only" for="q">搜尋標題、作者、PMID 或 DOI</label>
+        <input id="q" type="search" placeholder="搜尋標題、作者、PMID、DOI…" autocomplete="off" spellcheck="false">
+      </div>
+      <button class="tool-btn" id="resetBtn" type="button">重設</button>
     </div>
-    <div class="sidebar-section">
-        <div class="label">⏳ 時間範圍</div>
-        <div class="filter-group" id="timeFilter">
-            <button data-range="7" class="active">一週</button>
-            <button data-range="30">一月</button>
-            <button data-range="90">三月</button>
-            <button data-range="180">六月</button>
-        </div>
+
+    <div class="filter-row">
+      <span class="filter-label">期刊</span>
+      <div id="journalChips" class="filter-row" style="margin:0;gap:6px;"></div>
     </div>
-    <div class="sidebar-section">
-        <div class="label">⚙️ 設定</div>
-        <div class="setting-row">
-            <span>🇨🇳 漢化顯示</span>
-            <label class="switch"><input type="checkbox" id="chineseToggle" checked><span class="slider"></span></label>
-        </div>
-        <div class="setting-row">
-            <span>🌙 暗色模式</span>
-            <label class="switch"><input type="checkbox" id="darkToggle"><span class="slider"></span></label>
-        </div>
-        <div class="setting-row">
-            <span>🍂 四季主題</span>
-            <label class="switch"><input type="checkbox" id="seasonToggle" checked><span class="slider"></span></label>
-        </div>
+
+    <div class="filter-row">
+      <span class="filter-label">科別</span>
+      <div id="deptChips" class="filter-row" style="margin:0;gap:6px;"></div>
     </div>
-    <div class="sidebar-section">
-        <button class="btn" id="discussBtn" style="width:100%;">💬 竹林茶會</button>
+
+    <div class="filter-row">
+      <span class="filter-label">時間</span>
+      <div id="rangeChips" class="filter-row" style="margin:0;gap:6px;">
+        <button class="chip" type="button" data-days="7" aria-pressed="true">一週</button>
+        <button class="chip" type="button" data-days="30" aria-pressed="false">一月</button>
+        <button class="chip" type="button" data-days="90" aria-pressed="false">三月</button>
+        <button class="chip" type="button" data-days="180" aria-pressed="false">半年</button>
+        <button class="chip" type="button" data-days="0" aria-pressed="false">全部</button>
+      </div>
     </div>
+  </section>
+
+  <div class="result-bar">
+    <span id="resultSummary">檢索中…</span>
+    <label>
+      <span class="sr-only">排序方式</span>
+      <select class="sort-select" id="sortSelect">
+        <option value="date-desc">最新優先</option>
+        <option value="date-asc">最早優先</option>
+        <option value="journal">依期刊</option>
+      </select>
+    </label>
+  </div>
+
+  <main>
+    <ul class="entries" id="entries" aria-live="polite">
+      <li class="loading">正在自 PubMed 調閱文獻…</li>
+    </ul>
+    <nav class="pager" id="pager" aria-label="分頁"></nav>
+  </main>
+
+  <footer class="colophon" id="colophon">
+    <div class="row">
+      <span>資料來源：<a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">PubMed / NLM</a> ·
+        收錄 New England Journal of Medicine、The Lancet、JAMA、BMJ、Nature Medicine、Cell、Science Translational Medicine</span>
+      <span>更新于 <span id="updatedAt">——</span></span>
+    </div>
+    <div class="row">
+      <span>本報告僅供學術資訊參考，不構成診療建議。臨床決策請以原文與現行指引為準。部分條目保留原文標題。</span>
+      <span><a href="feed.xml">RSS 訂閱</a> · <a href="discuss.html">竹林茶會</a></span>
+    </div>
+    <div class="seal">永遠亭 医療部 · 八意永琳</div>
+  </footer>
+
 </div>
 
-<div class="container">
-    <div class="menu-btn" id="menuBtn">☰</div>
-    <div class="header">
-        <h1>永遠亭 医療報告</h1>
-        <div class="subtitle">八意永琳 · 權威期刊彙編</div>
-        <div class="date-badge" id="dateDisplay"></div>
-    </div>
-    <div id="newsContainer"><p style="text-align:center; opacity:0.7;">🌸 讀取中...</p></div>
-    <div class="pagination" id="pagination">
-        <button id="prevPage">◀ 上一頁</button>
-        <span class="page-info" id="pageInfo"></span>
-        <button id="nextPage">下一頁 ▶</button>
-    </div>
-    <div class="actions-bar">
-        <button class="btn" id="copyAllBtn">📋 複製當前頁速報</button>
-    </div>
-    <div class="resources">
-        <h3>📚 醫學資源</h3>
-        <div class="resource-links">
-            <a href="https://www.nejm.org/" target="_blank">NEJM</a>
-            <a href="https://www.thelancet.com/" target="_blank">Lancet</a>
-            <a href="https://jamanetwork.com/" target="_blank">JAMA</a>
-            <a href="https://www.bmj.com/" target="_blank">BMJ</a>
-            <a href="https://www.nature.com/nm/" target="_blank">Nature Medicine</a>
-            <a href="https://www.cell.com/" target="_blank">Cell</a>
-            <a href="https://stm.sciencemag.org/" target="_blank">Science TM</a>
-            <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a>
-            <a href="https://www.who.int/" target="_blank">WHO</a>
-        </div>
-    </div>
-    <div class="footer">© 永遠亭 令和時代醫療速報 · 每日自動更新</div>
+<div class="toolbar-float">
+  <button class="fab" id="themeToggle" type="button" title="切換明暗" aria-label="切換明暗">
+    <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg>
+  </button>
+  <button class="fab" id="copyBtn" type="button" title="複製本頁速報（純文字）" aria-label="複製本頁速報">
+    <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round"><rect x="9" y="9" width="11" height="11" rx="2"></rect><path d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"></path></svg>
+  </button>
+  <button class="fab" id="exportBtn" type="button" title="匯出本頁摘要（Markdown）" aria-label="匯出本頁摘要">
+    <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round"><path d="M12 3v11"></path><path d="M8 10l4 4 4-4"></path><path d="M4 19h16"></path></svg>
+  </button>
+  <button class="fab" id="topBtn" type="button" title="回到頂部" aria-label="回到頂部">
+    <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round"><path d="M12 20V6"></path><path d="M6 11l6-6 6 6"></path></svg>
+  </button>
 </div>
 
-<script>
-    // ---------- 竹林動畫 ----------
-    const animBg = document.getElementById('bambooBg');
-    const animToggleBtn = document.getElementById('toggleAnimBtn');
-    let animEnabled = false;
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-    function createLeaves() {
-        animBg.innerHTML = '';
-        for (let i=0; i<12; i++) {
-            const leaf = document.createElement('div');
-            leaf.className = 'leaf';
-            leaf.innerHTML = '🍃';
-            leaf.style.left = Math.random()*100+'%';
-            leaf.style.fontSize = (14 + Math.random()*16)+'px';
-            leaf.style.animationDuration = (8 + Math.random()*10)+'s';
-            leaf.style.animationDelay = Math.random()*8+'s';
-            animBg.appendChild(leaf);
-        }
-        for (let i=0; i<5; i++) {
-            const firefly = document.createElement('div');
-            firefly.className = 'firefly';
-            firefly.style.left = Math.random()*100+'%';
-            firefly.style.top = Math.random()*100+'%';
-            firefly.style.animationDelay = Math.random()*4+'s';
-            animBg.appendChild(firefly);
-        }
-    }
-
-    function clearAnimation() { animBg.innerHTML = ''; }
-
-    function updateAnimUI() {
-        if (animEnabled) {
-            if (animBg.innerHTML === '') createLeaves();
-            animToggleBtn.textContent = '🎋 竹林開';
-            animToggleBtn.style.display = 'block';
-        } else {
-            clearAnimation();
-            animToggleBtn.textContent = '🎋 竹林關';
-            const seasonOn = document.getElementById('seasonToggle').checked;
-            if (!seasonOn) animToggleBtn.style.display = 'none';
-            else animToggleBtn.style.display = 'block';
-        }
-    }
-
-    animToggleBtn.addEventListener('click', () => {
-        if (!document.getElementById('seasonToggle').checked) return;
-        animEnabled = !animEnabled;
-        updateAnimUI();
-    });
-
-    // 四季主題控制動效
-    function applySeason() {
-        const month = new Date().getMonth() + 1;
-        let seasonClass = '';
-        if (month >= 3 && month <= 5) seasonClass = 'spring';
-        else if (month >= 6 && month <= 8) seasonClass = 'summer';
-        else if (month >= 9 && month <= 11) seasonClass = 'autumn';
-        else seasonClass = 'winter';
-        document.body.className = document.body.className.replace(/spring|summer|autumn|winter/g, '') + ' ' + seasonClass;
-        if (document.body.classList.contains('dark')) document.body.classList.add('dark');
-    }
-
-    const seasonToggle = document.getElementById('seasonToggle');
-    seasonToggle.checked = true;
-    seasonToggle.addEventListener('change', function() {
-        const isOn = this.checked;
-        if (isOn) { applySeason(); animEnabled = true; }
-        else { document.body.className = document.body.className.replace(/spring|summer|autumn|winter/g, ''); animEnabled = false; }
-        updateAnimUI();
-        localStorage.setItem('season', isOn);
-    });
-
-    if (localStorage.getItem('season') === 'false') { seasonToggle.checked = false; animEnabled = false; }
-    else { applySeason(); animEnabled = true; }
-
-    function syncDarkAnim() {
-        if (document.body.classList.contains('dark')) {
-            clearAnimation();
-            animToggleBtn.style.display = 'none';
-        } else {
-            if (seasonToggle.checked) updateAnimUI();
-            else { animToggleBtn.style.display = 'none'; clearAnimation(); }
-        }
-    }
-
-    if (localStorage.getItem('dark') === 'true') {
-        document.body.classList.add('dark');
-        syncDarkAnim();
-    } else { updateAnimUI(); }
-
-    // ---------- 資料處理 ----------
-    let allArticles = [];
-    let filteredArticles = [];
-    let currentRange = 7, currentPage = 1;
-    const pageSize = 10;
-    let useChinese = true;
-    let selectedJournals = new Set();
-    let selectedDepts = new Set();
-    let filtersInitialized = false;
-
-    const today = new Date();
-    document.getElementById('dateDisplay').textContent =
-        `令和${today.getFullYear()-2018}年（${today.getFullYear()}）${String(today.getMonth()+1).padStart(2,'0')}月${String(today.getDate()).padStart(2,'0')}日`;
-
-    function escapeHtml(text) { return String(text).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>').replace(/"/g,'"'); }
-
-    async function loadNews() {
-        const container = document.getElementById('newsContainer');
-        container.innerHTML = '<p style="text-align:center;">⏳ 讀取中...</p>';
-        try {
-            const ts = Date.now();
-            const res = await fetch(`https://kasilovsky.github.io/eirin-report/data/news.json?t=${ts}`, { cache: 'no-store' });
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            const data = await res.json();
-            if (!data.articles || !Array.isArray(data.articles)) throw new Error('格式錯誤');
-            allArticles = data.articles;
-            updateJournalTags();
-            updateDeptTags();
-            applyFilters();
-        } catch (err) {
-            container.innerHTML = `<div class="error-box">❌ 無法載入：${escapeHtml(err.message)}</div>`;
-        }
-    }
-
-    function updateJournalTags() {
-        const journals = new Set();
-        allArticles.forEach(a => { if (a.source) journals.add(a.source); });
-        const container = document.getElementById('journalFilter');
-        container.innerHTML = '';
-        if (!filtersInitialized && selectedJournals.size === 0) {
-            journals.forEach(j => selectedJournals.add(j));
-            filtersInitialized = true;
-        }
-        journals.forEach(j => {
-            const tag = document.createElement('span');
-            tag.className = 'tag' + (selectedJournals.has(j) ? ' active' : '');
-            tag.textContent = j;
-            tag.addEventListener('click', () => {
-                if (selectedJournals.has(j)) { selectedJournals.delete(j); tag.classList.remove('active'); }
-                else { selectedJournals.add(j); tag.classList.add('active'); }
-                applyFilters();
-            });
-            container.appendChild(tag);
-        });
-    }
-
-    function updateDeptTags() {
-        const depts = new Set();
-        allArticles.forEach(a => { if (a.departments && Array.isArray(a.departments)) a.departments.forEach(d => depts.add(d)); });
-        const container = document.getElementById('deptFilter');
-        container.innerHTML = '';
-        if (!filtersInitialized && selectedDepts.size === 0) depts.forEach(d => selectedDepts.add(d));
-        depts.forEach(d => {
-            const tag = document.createElement('span');
-            tag.className = 'tag' + (selectedDepts.has(d) ? ' active' : '');
-            tag.textContent = d;
-            tag.addEventListener('click', () => {
-                if (selectedDepts.has(d)) { selectedDepts.delete(d); tag.classList.remove('active'); }
-                else { selectedDepts.add(d); tag.classList.add('active'); }
-                applyFilters();
-            });
-            container.appendChild(tag);
-        });
-    }
-
-    function applyFilters() {
-        const cutoff = new Date(today);
-        cutoff.setDate(cutoff.getDate() - currentRange);
-        const cutoffStr = cutoff.toISOString().split('T')[0];
-        filteredArticles = allArticles.filter(a => {
-            if (!a.date || a.date < cutoffStr) return false;
-            if (selectedJournals.size > 0 && !selectedJournals.has(a.source)) return false;
-            if (selectedDepts.size > 0) {
-                const deps = a.departments || [];
-                if (!deps.some(d => selectedDepts.has(d))) return false;
-            }
-            return true;
-        });
-        currentPage = 1;
-        renderPage();
-    }
-
-    function renderPage() {
-        const start = (currentPage-1)*pageSize;
-        const pageArticles = filteredArticles.slice(start, start+pageSize);
-        const container = document.getElementById('newsContainer');
-        if (pageArticles.length === 0) {
-            container.innerHTML = '<p style="text-align:center;">🔍 無符合條件的新聞</p>';
-        } else {
-            let html = '';
-            pageArticles.forEach(a => {
-                const title = useChinese ? (a.title_zh || a.title_en) : a.title_en;
-                const deptTags = (a.departments||[]).map(d => `<span class="dept-tag">${d}</span>`).join('');
-                html += `
-                    <div class="news-card">
-                        <div class="news-source-tag">■ ${escapeHtml(a.source)}</div>
-                        <div class="news-title">${escapeHtml(title)}</div>
-                        <div class="departments">${deptTags}</div>
-                        ${a.citation ? `<div class="news-citation">${escapeHtml(a.citation)}</div>` : ''}
-                        <div class="news-actions">
-                            ${a.link ? `<a class="btn-sm" href="${escapeHtml(a.link)}" target="_blank">📎 原文</a>` : ''}
-                            <button class="btn-sm btn-outline" onclick="copySingle('${escapeHtml(title)}', '${escapeHtml(a.citation||'')}', '${escapeHtml(a.link||'')}')">📋 複製</button>
-                        </div>
-                    </div>`;
-            });
-            container.innerHTML = html;
-        }
-        const total = Math.ceil(filteredArticles.length/pageSize)||1;
-        document.getElementById('pageInfo').textContent = `${currentPage}/${total}`;
-        document.getElementById('prevPage').disabled = currentPage <= 1;
-        document.getElementById('nextPage').disabled = currentPage >= total;
-    }
-
-    function copySingle(title, citation, link) {
-        navigator.clipboard.writeText(`${title}\n${citation}\n${link}`).then(() => alert('已複製'));
-    }
-
-    document.getElementById('menuBtn').onclick = () => {
-        document.getElementById('sidebar').classList.add('open');
-        document.getElementById('sidebarBackdrop').classList.add('show');
-    };
-    document.getElementById('sidebarBackdrop').onclick = () => {
-        document.getElementById('sidebar').classList.remove('open');
-        document.getElementById('sidebarBackdrop').classList.remove('show');
-    };
-    document.getElementById('timeFilter').addEventListener('click', e => {
-        if (e.target.tagName==='BUTTON') {
-            [...document.querySelectorAll('#timeFilter button')].forEach(b=>b.classList.remove('active'));
-            e.target.classList.add('active');
-            currentRange = parseInt(e.target.dataset.range);
-            applyFilters();
-        }
-    });
-    document.getElementById('prevPage').onclick = () => { if(currentPage>1){ currentPage--; renderPage(); } };
-    document.getElementById('nextPage').onclick = () => { if(currentPage<Math.ceil(filteredArticles.length/pageSize)){ currentPage++; renderPage(); } };
-    document.getElementById('copyAllBtn').onclick = () => {
-        const arts = filteredArticles.slice((currentPage-1)*pageSize, currentPage*pageSize);
-        if (!arts.length) return;
-        let text = `【永遠亭 医療速報】${document.getElementById('dateDisplay').textContent}\n`;
-        arts.forEach((a,i) => {
-            text += `\n${i+1}. [${a.source}] ${useChinese?(a.title_zh||a.title_en):a.title_en}`;
-            if (a.citation) text += `\n   ${a.citation}`;
-        });
-        text += '\n—— 八意永琳';
-        navigator.clipboard.writeText(text).then(()=>alert('已複製'));
-    };
-    document.getElementById('discussBtn').onclick = () => window.open('discuss.html', '_blank');
-
-    document.getElementById('chineseToggle').checked = useChinese;
-    document.getElementById('chineseToggle').onchange = function() { useChinese = this.checked; renderPage(); };
-    const darkToggle = document.getElementById('darkToggle');
-    darkToggle.checked = document.body.classList.contains('dark');
-    darkToggle.onchange = function() {
-        document.body.classList.toggle('dark', this.checked);
-        localStorage.setItem('dark', this.checked);
-        syncDarkAnim();
-    };
-    if (localStorage.getItem('dark')==='true') { document.body.classList.add('dark'); darkToggle.checked = true; syncDarkAnim(); }
-
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/sw.js').then(reg => console.log('SW ready'));
-        });
-    }
-
-    loadNews();
-</script>
+<script src="assets/app.js" defer></script>
 </body>
 </html>

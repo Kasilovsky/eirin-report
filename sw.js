@@ -1,29 +1,68 @@
-const CACHE_NAME = 'eirin-report-v3';
-self.addEventListener('install', event => {
-  self.skipWaiting();
+/* ==========================================================================
+   永遠亭 医療報告 — 離線緩存
+   站點部署於子路徑（/eirin-report/），所有地址一律使用相對路徑。
+   ========================================================================== */
+
+const VERSION = "eirin-v2";
+const CORE = [
+  "./",
+  "./index.html",
+  "./discuss.html",
+  "./assets/style.css",
+  "./assets/app.js",
+  "./assets/icon.svg",
+  "./manifest.json",
+];
+
+self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(['/','/index.html','/data/news.json']))
+    caches.open(VERSION)
+      .then((cache) => cache.addAll(CORE))
+      .catch(() => undefined)
+      .then(() => self.skipWaiting())
   );
 });
-self.addEventListener('activate', event => {
+
+self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches.keys().then(keys => Promise.all(
-      keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))
-    ))
+    caches.keys()
+      .then((keys) => Promise.all(keys.filter((key) => key !== VERSION).map((key) => caches.delete(key))))
+      .then(() => self.clients.claim())
   );
 });
-self.addEventListener('fetch', event => {
-  if (event.request.url.includes('/data/news.json')) {
-    event.respondWith(
-      fetch(event.request).then(response => {
-        const clone = response.clone();
-        caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
-        return response;
-      }).catch(() => caches.match(event.request))
-    );
+
+async function networkFirst(request) {
+  const cache = await caches.open(VERSION);
+  try {
+    const response = await fetch(request);
+    if (response.ok) cache.put(request, response.clone());
+    return response;
+  } catch {
+    const cached = await cache.match(request);
+    if (cached) return cached;
+    throw new Error("offline");
+  }
+}
+
+async function cacheFirst(request) {
+  const cache = await caches.open(VERSION);
+  const cached = await cache.match(request);
+  if (cached) return cached;
+  const response = await fetch(request);
+  if (response.ok) cache.put(request, response.clone());
+  return response;
+}
+
+self.addEventListener("fetch", (event) => {
+  const request = event.request;
+  if (request.method !== "GET") return;
+
+  const url = new URL(request.url);
+  if (url.origin !== self.location.origin) return;
+
+  if (url.pathname.endsWith("/data/news.json") || url.pathname.endsWith("/feed.xml")) {
+    event.respondWith(networkFirst(request));
   } else {
-    event.respondWith(
-      caches.match(event.request).then(resp => resp || fetch(event.request))
-    );
+    event.respondWith(cacheFirst(request));
   }
 });

@@ -1,26 +1,53 @@
-name: Daily Medical News
+name: 每日文獻採集
 
 on:
   schedule:
-    - cron: '0 1 * * *'   # 每天 UTC 1:00 (北京时间早上9点) 运行
-  workflow_dispatch:       # 允许手动触发
+    - cron: "0 1 * * *" # 每日 UTC 01:00（北京时间 09:00）
+  workflow_dispatch: # 支持手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-crawl
+  cancel-in-progress: false
 
 jobs:
-  build:
+  crawl:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-      - name: Install dependencies
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: 安装依赖
         run: pip install -r requirements.txt
-      - name: Run crawler
+
+      - name: 采集并生成索引
+        env:
+          EIRIN_TRANSLATE_BUDGET: "160"
         run: python crawler.py
-      - name: Commit and push if changed
+
+      - name: 提交变更
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'actions@github.com'
-          git add data/news.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update news [skip ci]" && git push)
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data feed.xml
+          if git diff --cached --quiet; then
+            echo "本次无数据变化，跳过提交"
+          else
+            git commit -m "chore: 更新文献索引 $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: 失败提示
+        if: failure()
+        run: echo "::error::文献采集失败，站点将沿用上一次的数据，请检查上方日志。"

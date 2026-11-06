@@ -1,0 +1,522 @@
+{
+ "schema_version": 2,
+ "month": "2026-09",
+ "count": 33,
+ "articles": [
+  {
+   "pmid": "42814804",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "A single-dose topical therapy cures scabies in a human-relevant porcine model.",
+   "citation": "Sci Transl Med. 2026; 18(869): eaeg5917",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42814804/",
+   "date": "2026-09-30",
+   "authors": "Fernando DD, Taylor S, Samarawickrama GR, Nammunige NA, Hartel G, Bowles V",
+   "doi": "10.1126/scitranslmed.aeg5917",
+   "study_type": "研究论文",
+   "departments": [
+    "皮肤"
+   ]
+  },
+  {
+   "pmid": "42814803",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Prime editing of human hematopoietic stem cells for correction of GATA2 deficiency.",
+   "citation": "Sci Transl Med. 2026; 18(869): eaec7031",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42814803/",
+   "date": "2026-09-30",
+   "authors": "Wolff JH, Skov TW, Dorset SR, Sjelborg J, Ravendran S, Revenfeld ALS",
+   "doi": "10.1126/scitranslmed.aec7031",
+   "study_type": "研究论文",
+   "departments": [
+    "移植"
+   ]
+  },
+  {
+   "pmid": "42814802",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Cranial bone marrow-derived monocytes promote neuroinflammation in chronic traumatic brain injury.",
+   "citation": "Sci Transl Med. 2026; 18(869): eaef5898",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42814802/",
+   "date": "2026-09-30",
+   "authors": "Lu Z, Wang C, Gong P, Liu Q, Zhu X, Yang B",
+   "doi": "10.1126/scitranslmed.aef5898",
+   "study_type": "研究论文",
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42814801",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Assessment of upper-limb motor recovery after stroke using a wrist-worn accelerometer digital biomarker.",
+   "citation": "Sci Transl Med. 2026; 18(869): eadw3644",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42814801/",
+   "date": "2026-09-30",
+   "authors": "Wang R, Lang CE, Stoykov ME, Bonato P, Lee SI",
+   "doi": "10.1126/scitranslmed.adw3644",
+   "study_type": "研究论文",
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42814800",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "FAK inhibitor and RAF/MEK clamp avutometinib enhance KRAS G12C inhibitor efficacy in preclinical models of non-small cell lung cancer.",
+   "citation": "Sci Transl Med. 2026; 18(869): eaea4608",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42814800/",
+   "date": "2026-09-30",
+   "authors": "Coma S, Musteanu M, Malvezzi CC, Jamieson RR, Patrucco E, Mira A",
+   "doi": "10.1126/scitranslmed.aea4608",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "42814799",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Hyperosmotic niche adaptation and tissue polyamines underlie MRSA persistence in the kidney.",
+   "citation": "Sci Transl Med. 2026; 18(869): eaed4200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42814799/",
+   "date": "2026-09-30",
+   "authors": "Kanazawa N, Martens CP, Makino S, Heruye SH, Zollman A, Myslinski J",
+   "doi": "10.1126/scitranslmed.aed4200",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "42777087",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "The guanine nucleotide exchange factor Rin-like is a repressor for renal uric acid excretion in human and mouse.",
+   "citation": "Sci Transl Med. 2026; 18(868): eaed1866",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42777087/",
+   "date": "2026-09-23",
+   "authors": "Han C, He C, Hu W, Chen Z, Ding X, Ye L",
+   "doi": "10.1126/scitranslmed.aed1866",
+   "study_type": "研究论文",
+   "departments": [
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "42777086",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Myeloid infiltration and epidermal dysregulation characterize cutaneous photosensitivity in systemic lupus erythematosus.",
+   "citation": "Sci Transl Med. 2026; 18(868): eadw1914",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42777086/",
+   "date": "2026-09-23",
+   "authors": "Maz MP, Zhang L, Ma F, Gharaee-Kermani M, Klein B, Moallemian R",
+   "doi": "10.1126/scitranslmed.adw1914",
+   "study_type": "研究论文",
+   "departments": [
+    "免疫/风湿",
+    "皮肤"
+   ]
+  },
+  {
+   "pmid": "42777085",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Drug repurposing identifies candidate uterus-selective tocolytics for preterm labor.",
+   "citation": "Sci Transl Med. 2026; 18(868): eaeb2020",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42777085/",
+   "date": "2026-09-23",
+   "authors": "Siricilla S, Hansen CJ, Staub J, Walker J, Brown AJ, Cole SE",
+   "doi": "10.1126/scitranslmed.aeb2020",
+   "study_type": "研究论文",
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42777084",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "SCRMP-mediated SUMOylation of CSNK2B facilitates DNA damage repair to promote cisplatin resistance in small cell lung cancer.",
+   "citation": "Sci Transl Med. 2026; 18(868): eaea5653",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42777084/",
+   "date": "2026-09-23",
+   "authors": "Chen Y, Chen Q, Guo J, Li Z, Yu S, Huang P",
+   "doi": "10.1126/scitranslmed.aea5653",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "42777083",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Preclinical and clinical evaluation of systemic danegaptide for the treatment of nonproliferative diabetic retinopathy.",
+   "citation": "Sci Transl Med. 2026; 18(868): eaed8692",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42777083/",
+   "date": "2026-09-23",
+   "authors": "Hudson N, Porkoláb G, O'Callaghan J, Hanley N, Baccouche B, Varró M",
+   "doi": "10.1126/scitranslmed.aed8692",
+   "study_type": "I 期临床试验",
+   "departments": [
+    "循环器",
+    "内分泌/代谢",
+    "眼科"
+   ]
+  },
+  {
+   "pmid": "42777082",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "CXCL1-CXCR2 signaling mediates cancer cell growth and response to radiation therapy in leptomeningeal metastasis.",
+   "citation": "Sci Transl Med. 2026; 18(868): eaeh7968",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42777082/",
+   "date": "2026-09-23",
+   "authors": "Osman AM, He FY, Remsik J, Snyder J, Son S, Toomey S",
+   "doi": "10.1126/scitranslmed.aeh7968",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42777081",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "The nucleoside analog kamuvudine-9 shows protective and therapeutic efficacy in a mouse model of multiple sclerosis.",
+   "citation": "Sci Transl Med. 2026; 18(868): eaei2870",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42777081/",
+   "date": "2026-09-23",
+   "authors": "Yerramothu P, Ambati K, Magagnoli J, Ambati M, Velmurugan T, Yu D",
+   "doi": "10.1126/scitranslmed.aei2870",
+   "study_type": "研究论文",
+   "departments": [
+    "免疫/风湿",
+    "精神"
+   ]
+  },
+  {
+   "pmid": "42748220",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Antibodies against HLA-E-VL9 enhance NK cell and CD8+ T cell cytotoxicity against tumor cells and HIV-infected CD4+ T cells.",
+   "citation": "Sci Transl Med. 2026; 18(867): eaea3879",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42748220/",
+   "date": "2026-09-16",
+   "authors": "Hwang JK, Tuyishime M, Marston DJ, Yang H, Wrapp D, Li D",
+   "doi": "10.1126/scitranslmed.aea3879",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "感染"
+   ]
+  },
+  {
+   "pmid": "42748219",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "The molecular landscape of hypertrophic cardiomyopathy across disease stages and genotypes.",
+   "citation": "Sci Transl Med. 2026; 18(867): eaea2747",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42748219/",
+   "date": "2026-09-16",
+   "authors": "Adami E, Kim Y, Zheng SL, Shvetsov N, Losert C, Maatz H",
+   "doi": "10.1126/scitranslmed.aea2747",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42748218",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Engineered probiotics for tumor-targeted combination chemoimmunotherapy.",
+   "citation": "Sci Transl Med. 2026; 18(867): eady2289",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42748218/",
+   "date": "2026-09-16",
+   "authors": "Yang Z, Im J, Chen N, Mariuzza DL, de Los Santos-Alexis K, Li F",
+   "doi": "10.1126/scitranslmed.ady2289",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42748217",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Unanticipated global emergence and evolution of Pneumocystis jirovecii mutations and resistance driven by a human-targeted drug.",
+   "citation": "Sci Transl Med. 2026; 18(867): eadz4471",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42748217/",
+   "date": "2026-09-16",
+   "authors": "Ma L, Hao M, Chang W, Khanal A, Ewell SM, Deng X",
+   "doi": "10.1126/scitranslmed.adz4471",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42748216",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Serotonin measurement by lab-on-a-contact lens in porcine and human tears.",
+   "citation": "Sci Transl Med. 2026; 18(867): eadv9538",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42748216/",
+   "date": "2026-09-16",
+   "authors": "Kim M, Lee SW, Zhang C, Zeng W, Liu L, Garrett AD",
+   "doi": "10.1126/scitranslmed.adv9538",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42748215",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "A rapid CRISPR-based nanodroplet assay enables direct clinical identification of mycobacteria species.",
+   "citation": "Sci Transl Med. 2026; 18(867): eaef2648",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42748215/",
+   "date": "2026-09-16",
+   "authors": "Gou H, Chen L, Eick KL, Bao D, Miner TA, Tran D",
+   "doi": "10.1126/scitranslmed.aef2648",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "42715349",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Closed-loop auditory stimulation in phase with slow waves during sleep enhances cerebrospinal fluid flow in humans.",
+   "citation": "Sci Transl Med. 2026; 18(866): eaea5469",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42715349/",
+   "date": "2026-09-09",
+   "authors": "Levitt J, Zeng X, Yang Z, Jacob LPL, Lewis LD",
+   "doi": "10.1126/scitranslmed.aea5469",
+   "study_type": "研究论文",
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42715348",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Machine learning-driven spleen imaging and genomics uncover a splenic connection to coronary artery disease.",
+   "citation": "Sci Transl Med. 2026; 18(866): eaeh2517",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42715348/",
+   "date": "2026-09-09",
+   "authors": "Kamineni M, Raghu V, Hua Z, Tian H, Truong B, Alaa A",
+   "doi": "10.1126/scitranslmed.aeh2517",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "老年医学",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "42715347",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Intravenous gene therapy improves life span and clinical outcomes in a feline model of Sandhoff disease.",
+   "citation": "Sci Transl Med. 2026; 18(866): eadx2447",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42715347/",
+   "date": "2026-09-09",
+   "authors": "Maguire AS, Ta NL, Gross AL, Garrett CJ, Zimmerman AD, Diffie EB",
+   "doi": "10.1126/scitranslmed.adx2447",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "42715346",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Oligoclonal nanobody-based recombinant antivenom protects mice challenged with venom from cobras and king cobras from India.",
+   "citation": "Sci Transl Med. 2026; 18(866): eaed4290",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42715346/",
+   "date": "2026-09-09",
+   "authors": "Samanta A, Rudresha GV, Ahmadi S, Thumtecho S, Boyens-Thiele L, Ebersole TW",
+   "doi": "10.1126/scitranslmed.aed4290",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42715345",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Reprogramming engineered autologous T cells to overcome resistance in patients with Merkel cell carcinoma.",
+   "citation": "Sci Transl Med. 2026; 18(866): eaea8773",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42715345/",
+   "date": "2026-09-09",
+   "authors": "Asano Y, Veatch JR, Sung CJ, Tang TH, Mazziotta F, Natsuki S",
+   "doi": "10.1126/scitranslmed.aea8773",
+   "study_type": "II 期临床试验",
+   "departments": [
+    "肿瘤",
+    "感染"
+   ]
+  },
+  {
+   "pmid": "42715344",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Proteomics identify disease-associated variants in patients with rare diseases undiagnosed after genome sequencing.",
+   "citation": "Sci Transl Med. 2026; 18(866): eaeb1331",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42715344/",
+   "date": "2026-09-09",
+   "authors": "Carrasco-Zanini J, Andrade J, Pietzner M, Kousathanas A, Jacobsen JOB, Lord J",
+   "doi": "10.1126/scitranslmed.aeb1331",
+   "study_type": "研究论文",
+   "departments": [
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "42715343",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Monoclonal antibodies inhibiting MMP-9 activity alleviate peripheral neuropathy in diabetic mice.",
+   "citation": "Sci Transl Med. 2026; 18(866): eadw3558",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42715343/",
+   "date": "2026-09-09",
+   "authors": "Lee KB, He W, Matsuoka Y, Bang S, Krishnan S, Xu J",
+   "doi": "10.1126/scitranslmed.adw3558",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢",
+    "精神"
+   ]
+  },
+  {
+   "pmid": "42685155",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Elevated translocator protein in skull bone marrow is linked to human chronic pain.",
+   "citation": "Sci Transl Med. 2026; 18(865): eaed8729",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42685155/",
+   "date": "2026-09-02",
+   "authors": "Mohammadian M, Efthimiou N, Gabriel K, Brusaferri L, Cooper-Hohn J, Kim M",
+   "doi": "10.1126/scitranslmed.aed8729",
+   "study_type": "研究论文",
+   "departments": [
+    "骨科",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42685154",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Metabolic reallocation in spinal cord oligodendrocytes drives chronic pain in mice through neuronal Aβ42 production.",
+   "citation": "Sci Transl Med. 2026; 18(865): eaea8738",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42685154/",
+   "date": "2026-09-02",
+   "authors": "Fotio Y, Al Masri S, Shi Z, Le J, Das S, Rubtsova VI",
+   "doi": "10.1126/scitranslmed.aea8738",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42685153",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "MicroRNA-224 orchestrates BMP and TGFβ signaling and is a therapeutic target in preclinical pulmonary arterial hypertension.",
+   "citation": "Sci Transl Med. 2026; 18(865): eaef6676",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42685153/",
+   "date": "2026-09-02",
+   "authors": "Bikou O, Halouani A, Sun Y, Bisserier M, Eisenacher C, Antar SA",
+   "doi": "10.1126/scitranslmed.aef6676",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "呼吸器",
+    "骨科"
+   ]
+  },
+  {
+   "pmid": "42685152",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Tissue origins and immune correlates of viral rebound in SIV-infected rhesus macaques after ART discontinuation.",
+   "citation": "Sci Transl Med. 2026; 18(865): eaeg7776",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42685152/",
+   "date": "2026-09-02",
+   "authors": "King IV, Aid M, Kose E, Immonen TT, Goodman CA, Fennessey CM",
+   "doi": "10.1126/scitranslmed.aeg7776",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "42685151",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Loss of function of ALDH3B2 transdifferentiates human pancreatic duct cells into β-like cells.",
+   "citation": "Sci Transl Med. 2026; 18(865): eady2234",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42685151/",
+   "date": "2026-09-02",
+   "authors": "Li J, Bode K, Lee YC, Morrow N, Ma A, He M",
+   "doi": "10.1126/scitranslmed.ady2234",
+   "study_type": "研究论文",
+   "departments": [
+    "消化器",
+    "内分泌/代谢",
+    "精神"
+   ]
+  },
+  {
+   "pmid": "42685150",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Sustained neutrophil extracellular traps cause fracture nonunion.",
+   "citation": "Sci Transl Med. 2026; 18(865): eadx9869",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42685150/",
+   "date": "2026-09-02",
+   "authors": "Xie W, Albertsen LC, Eis-Janzyk G, Kühlwein C, Jiang S, Schlickewei C",
+   "doi": "10.1126/scitranslmed.adx9869",
+   "study_type": "研究论文",
+   "departments": [
+    "骨科"
+   ]
+  },
+  {
+   "pmid": "42685149",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Multifunctional antibody responses from a primate Shigella outbreak inform vaccine design.",
+   "citation": "Sci Transl Med. 2026; 18(865): eaef7084",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42685149/",
+   "date": "2026-09-02",
+   "authors": "Gallant RM, Savarino P, Pulido S, Gilman MSA, Lu T, Hayes J",
+   "doi": "10.1126/scitranslmed.aef7084",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "疫苗"
+   ]
+  }
+ ]
+}

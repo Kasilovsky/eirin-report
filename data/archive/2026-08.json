@@ -1,0 +1,389 @@
+{
+ "schema_version": 2,
+ "month": "2026-08",
+ "count": 25,
+ "articles": [
+  {
+   "pmid": "42647600",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Urogenital immune signatures are associated with birth outcomes after maternal urinary tract infection.",
+   "citation": "Sci Transl Med. 2026; 18(864): eaea1228",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42647600/",
+   "date": "2026-08-26",
+   "authors": "Ottinger S, Larson AB, Mercado-Evans V, Branthoover H, Zulk JJ, Serchejian C",
+   "doi": "10.1126/scitranslmed.aea1228",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42647599",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "FUS inactivation promotes leptomeningeal metastasis of lung cancer through the up-regulation of CD36.",
+   "citation": "Sci Transl Med. 2026; 18(864): eaee1083",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42647599/",
+   "date": "2026-08-26",
+   "authors": "Lin S, Yin K, Zheng MM, Tu HY, Li W, Wu Z",
+   "doi": "10.1126/scitranslmed.aee1083",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "42647598",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "A 3D human retina model reveals a non-cell-autonomous and non-neuronal mechanism of photoreceptor loss in a lysosomal storage disorder.",
+   "citation": "Sci Transl Med. 2026; 18(864): eady7616",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42647598/",
+   "date": "2026-08-26",
+   "authors": "Han J, Foley N, Dalvi S, Tang JAH, Emira Dogrul F, Chatterjee A",
+   "doi": "10.1126/scitranslmed.ady7616",
+   "study_type": "研究论文",
+   "departments": [
+    "眼科"
+   ]
+  },
+  {
+   "pmid": "42647597",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Baseline interferon signaling in monocytes and antibody-mediated innate activation are associated with reactogenicity to mRNA vaccines.",
+   "citation": "Sci Transl Med. 2026; 18(864): eaee4776",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42647597/",
+   "date": "2026-08-26",
+   "authors": "Madelon N, Ruiz Buendía GA, Torres Rodriguez P, Donati YR, Fontannaz P, Ciancaglini M",
+   "doi": "10.1126/scitranslmed.aee4776",
+   "study_type": "研究论文",
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42647596",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "LTBP4 deficiency induces MRC1+/CD44+ macrophages to drive cancer progression in preclinical colorectal cancer models.",
+   "citation": "Sci Transl Med. 2026; 18(864): eaeb2189",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42647596/",
+   "date": "2026-08-26",
+   "authors": "Ji S, Du S, Miao G, Yang X, Wang H, Li X",
+   "doi": "10.1126/scitranslmed.aeb2189",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "42647595",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Antibodies against MLC1 found in patients with NMOSD-like disease mediate astrocytopathy in rodent models.",
+   "citation": "Sci Transl Med. 2026; 18(864): eady0403",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42647595/",
+   "date": "2026-08-26",
+   "authors": "Wong HK, Ho S, Yu Q, Given KS, Shqau D, Baier S",
+   "doi": "10.1126/scitranslmed.ady0403",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42647594",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Aberrant alternative splicing memorized in adipose tissue macrophages impedes efferocytosis during postobesity weight loss.",
+   "citation": "Sci Transl Med. 2026; 18(864): eadv0221",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42647594/",
+   "date": "2026-08-26",
+   "authors": "Miyazaki T, Shiraishi A, Sugiura Y, Shiozawa E, Mizuno S, Yamaguchi M",
+   "doi": "10.1126/scitranslmed.adv0221",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42647593",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Tissue corticosteroid rhythms are dysregulated predominantly during sleep in primary aldosteronism.",
+   "citation": "Sci Transl Med. 2026; 18(864): eaeb7517",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42647593/",
+   "date": "2026-08-26",
+   "authors": "Grytaas MA, Upton T, Marinelli I, Methlie P, Øksnes M, Vassiliadi DA",
+   "doi": "10.1126/scitranslmed.aeb7517",
+   "study_type": "研究论文",
+   "departments": [
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "42616844",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Piecing together pregnancy's early warning system.",
+   "citation": "Sci Transl Med. 2026; 18(863): eaeh8792",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42616844/",
+   "date": "2026-08-19",
+   "authors": "Sadeghi MA, Aghaeepour N",
+   "doi": "10.1126/scitranslmed.aeh8792",
+   "study_type": "评论",
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42616843",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Cell-free DNA fragmentome analysis informs pregnancy outcome in patients with immune-mediated disease.",
+   "citation": "Sci Transl Med. 2026; 18(863): eadz8846",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42616843/",
+   "date": "2026-08-19",
+   "authors": "Stanley KE, Lannoo L, Souche E, Salden I, Parijs I, Vancoillie L",
+   "doi": "10.1126/scitranslmed.adz8846",
+   "study_type": "研究论文",
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42616842",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Carboxyl-terminal blockade of sortilin binding enhances progranulin gene therapy in a mouse model of frontotemporal dementia.",
+   "citation": "Sci Transl Med. 2026; 18(863): eadr9158",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42616842/",
+   "date": "2026-08-19",
+   "authors": "Kashyap SN, Fox SN, DeNittis VR, Wilson KI, Boyle NR, Bullock M",
+   "doi": "10.1126/scitranslmed.adr9158",
+   "study_type": "研究论文",
+   "departments": [
+    "精神",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "42616841",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Urea transporter B-mediated urea uptake-induced protein carbamylation in platelets underlies bleeding in chronic kidney disease.",
+   "citation": "Sci Transl Med. 2026; 18(863): eaed4678",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42616841/",
+   "date": "2026-08-19",
+   "authors": "Qiu Z, Xiong F, Wang Z, Zhao Y, Gao S, Zhang X",
+   "doi": "10.1126/scitranslmed.aed4678",
+   "study_type": "研究论文",
+   "departments": [
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "42616840",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Organ-specific colonization and niche remodeling in a human tissue model of metastasis.",
+   "citation": "Sci Transl Med. 2026; 18(863): eadv6871",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42616840/",
+   "date": "2026-08-19",
+   "authors": "Chramiec AG, Baldassarri I, Öztürk E, Tavakol DN, Wang MC, Summers M",
+   "doi": "10.1126/scitranslmed.adv6871",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "呼吸器",
+    "骨科"
+   ]
+  },
+  {
+   "pmid": "42616839",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "A population-scale transcriptional atlas of blood and tissue in lupus nephritis.",
+   "citation": "Sci Transl Med. 2026; 18(863): eaec0512",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42616839/",
+   "date": "2026-08-19",
+   "authors": "Sugiarto NW, Gurajala S, Curtis M, Eisenhaure TM, Arazi A, Fava A",
+   "doi": "10.1126/scitranslmed.aec0512",
+   "study_type": "研究论文",
+   "departments": [
+    "免疫/风湿",
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "42616838",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "A phase 1 feasibility trial of BE-CAR33, an \"off-the-shelf\" base-edited CAR33 T cell therapy for acute myeloid leukemia.",
+   "citation": "Sci Transl Med. 2026; 18(863): eaei0875",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42616838/",
+   "date": "2026-08-19",
+   "authors": "Georgiadis C, Chiesa R, Rashed H, Hughes BK, Preece R, Gough O",
+   "doi": "10.1126/scitranslmed.aei0875",
+   "study_type": "I 期临床试验",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42616837",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "MAPT splicing modulators reduce 4R tau and rescue tauopathy phenotypes in human neurons and in a mouse model.",
+   "citation": "Sci Transl Med. 2026; 18(863): eady6759",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42616837/",
+   "date": "2026-08-19",
+   "authors": "Silva MC, Lindmeier H, Pigini P, Laughlin J, Yu Y, Morrill C",
+   "doi": "10.1126/scitranslmed.ady6759",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42585296",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Antigen avidity potentiates the durability of the vaccine immune response.",
+   "citation": "Sci Transl Med. 2026; 18(862): eaee5273",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42585296/",
+   "date": "2026-08-12",
+   "authors": "Weidner NG, Padilla MV, Pruitt L, Cottrell CA, Gonzales K, Kalyuzhniy O",
+   "doi": "10.1126/scitranslmed.aee5273",
+   "study_type": "研究论文",
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42585295",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Full-length premembrane protein is not required for mature Zika virus particle assembly.",
+   "citation": "Sci Transl Med. 2026; 18(862): eads8464",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42585295/",
+   "date": "2026-08-12",
+   "authors": "Dowd KA, Schroeder M, Sanchez E, Brumbaugh B, Foreman BM, Burgomaster KE",
+   "doi": "10.1126/scitranslmed.ads8464",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "42585294",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Succinate drives macrophage inflammation by promoting GPR91 mitochondrial signaling in rheumatoid arthritis.",
+   "citation": "Sci Transl Med. 2026; 18(862): eaea8468",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42585294/",
+   "date": "2026-08-12",
+   "authors": "Zhang W, Wang L, Zhao Y, Mu Y, Qiu L, Feng X",
+   "doi": "10.1126/scitranslmed.aea8468",
+   "study_type": "研究论文",
+   "departments": [
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "42585293",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Immunization with mosaic nanoparticles reveals that antigen avidity shapes the clonal hierarchy of the B cell response.",
+   "citation": "Sci Transl Med. 2026; 18(862): eaee5425",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42585293/",
+   "date": "2026-08-12",
+   "authors": "Padilla MV, Weidner NG, Pruitt L, Cottrell CA, Gonzales K, Kalyuzhniy O",
+   "doi": "10.1126/scitranslmed.aee5425",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42585292",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "A randomized, placebo-controlled trial of 13-valent pneumococcal conjugate vaccination to accelerate immune recovery after sepsis.",
+   "citation": "Sci Transl Med. 2026; 18(862): eaeb4113",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42585292/",
+   "date": "2026-08-12",
+   "authors": "Shankar-Hari M, Smith P, Szakmany T, Summers C, McGuigan PJ, Brealey D",
+   "doi": "10.1126/scitranslmed.aeb4113",
+   "study_type": "随机对照试验",
+   "departments": [
+    "感染",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42585291",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Ultrasound-guided renal artery administration of angiopoietin-1 RNA therapy slows the progression of preclinical WT1 glomerular disease.",
+   "citation": "Sci Transl Med. 2026; 18(862): eadv1289",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42585291/",
+   "date": "2026-08-12",
+   "authors": "Malik SN, Chandler JC, Maeshima R, Kolatsi-Joannou M, Mason WJ, Russell LG",
+   "doi": "10.1126/scitranslmed.adv1289",
+   "study_type": "研究论文",
+   "departments": [
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "42585290",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Blocking somatic repeat expansion and lowering huntingtin by RNAi synergize to attenuate Huntington's disease pathogenesis in mice.",
+   "citation": "Sci Transl Med. 2026; 18(862): eaea3104",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42585290/",
+   "date": "2026-08-12",
+   "authors": "Belgrad J, Summers A, Landles C, Greene JR, Hildebrand S, Knox E",
+   "doi": "10.1126/scitranslmed.aea3104",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42585289",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Mutant p53 reactivation and DNA demethylation in the treatment of AML/MDS.",
+   "citation": "Sci Transl Med. 2026; 18(862): eads9325",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42585289/",
+   "date": "2026-08-12",
+   "authors": "Song H, Chen X, Xiao S, Wu J, Dai Y, Wu W",
+   "doi": "10.1126/scitranslmed.ads9325",
+   "study_type": "I 期临床试验",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42555759",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Erratum for the Research Article \"Follistatin gene delivery enhances muscle growth and strength in nonhuman primates\".",
+   "citation": "Sci Transl Med. 2026; 18(861): eaek4223",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42555759/",
+   "date": "2026-08-05",
+   "doi": "10.1126/scitranslmed.aek4223",
+   "study_type": "研究论文",
+   "departments": [
+    "消化器"
+   ]
+  }
+ ]
+}

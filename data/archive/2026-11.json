@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
  "month": "2026-11",
- "count": 187,
+ "count": 207,
  "articles": [
   {
    "pmid": "42956796",
@@ -147,6 +147,326 @@
    "study_type": "病例报告",
    "departments": [
     "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42987881",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "citation": "Lancet. 2026; 408(10567): 1940",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987881/",
+   "date": "2026-11-07",
+   "doi": "10.1016/S0140-6736(26)02203-8",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987880",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Women with obstetric fistula in Somalia deserve better - Author's reply.",
+   "title_zh": "索马里患有产科瘘管病的妇女应该得到更好的待遇--作者的回复。",
+   "citation": "Lancet. 2026; 408(10567): 1940",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987880/",
+   "date": "2026-11-07",
+   "authors": "Bigot C",
+   "doi": "10.1016/S0140-6736(26)02029-5",
+   "study_type": "通信",
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42987879",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Women with obstetric fistula in Somalia deserve better.",
+   "title_zh": "索马里患有产科瘘管病的妇女应该得到更好的待遇。",
+   "citation": "Lancet. 2026; 408(10567): 1939-1940",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987879/",
+   "date": "2026-11-07",
+   "authors": "Ngongo CJ, Artan A, Majinge P, Raassen TJIP, Pope R",
+   "doi": "10.1016/S0140-6736(26)02028-3",
+   "study_type": "通信",
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42987878",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Global health: dying from failure or fulfilment?",
+   "title_zh": "全球健康：死于失败还是成就？",
+   "citation": "Lancet. 2026; 408(10567): 1938-1939",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987878/",
+   "date": "2026-11-07",
+   "authors": "Jimba M",
+   "doi": "10.1016/S0140-6736(26)02119-7",
+   "study_type": "通信",
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "42987877",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "North Korea's health revolution in its 2026 medical journals.",
+   "title_zh": "朝鲜的健康革命在其2026年的医学期刊上。",
+   "citation": "Lancet. 2026; 408(10567): 1938",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987877/",
+   "date": "2026-11-07",
+   "authors": "Lee YH, Choi HK, Kim YH, Kim SG",
+   "doi": "10.1016/S0140-6736(26)01482-0",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987876",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Anita Belman.",
+   "title_zh": "Anita Belman。",
+   "citation": "Lancet. 2026; 408(10567): 1936",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987876/",
+   "date": "2026-11-07",
+   "authors": "Thornton J",
+   "doi": "10.1016/S0140-6736(26)02206-3",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987875",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Tobacco exposure: online exhibitions at CSTS.",
+   "title_zh": "烟草暴露： CST的在线展览。",
+   "citation": "Lancet. 2026; 408(10567): 1935",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987875/",
+   "date": "2026-11-07",
+   "authors": "Podolsky SH",
+   "doi": "10.1016/S0140-6736(26)02205-1",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987874",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Jemilah Mahmood: Malaysian leadership in planetary health.",
+   "title_zh": "Jemilah Mahmood ：马来西亚在地球健康领域的领导地位。",
+   "citation": "Lancet. 2026; 408(10567): 1932",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987874/",
+   "date": "2026-11-07",
+   "authors": "Lucas T",
+   "doi": "10.1016/S0140-6736(26)02081-7",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987873",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Offline: China bids to lead in global health.",
+   "title_zh": "线下：中国力争在全球健康领域处于领先地位。",
+   "citation": "Lancet. 2026; 408(10567): 1927",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987873/",
+   "date": "2026-11-07",
+   "authors": "Horton R",
+   "doi": "10.1016/S0140-6736(26)02236-1",
+   "study_type": "述评",
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "42987872",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Beyond the models: addressing the catastrophic health threats facing humanity requires a holistic approach.",
+   "title_zh": "超越模式：解决人类面临的灾难性健康威胁需要一种全面的方法。",
+   "citation": "Lancet. 2026; 408(10567): 1922-1924",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987872/",
+   "date": "2026-11-07",
+   "authors": "Romanello M, Clark H",
+   "doi": "10.1016/S0140-6736(26)02201-4",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987871",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Climate change and health: 10 years on, what next?",
+   "title_zh": "气候变化与健康： 10年后，接下来会发生什么？",
+   "citation": "Lancet. 2026; 408(10567): 1917",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987871/",
+   "date": "2026-11-07",
+   "authors": "The Lancet",
+   "doi": "10.1016/S0140-6736(26)02241-5",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42993610",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "JAMA Editors' Summary Podcast: November 6, 2026.",
+   "title_zh": "JAMA编辑摘要播客： 2026年11月6日。",
+   "citation": "JAMA. 2026: e2516121",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993610/",
+   "date": "2026-11-06",
+   "doi": "10.1001/jama.2025.16121",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42993554",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Ultraprocessed Foods Linked With Vascular Brain Injury in Midlife.",
+   "title_zh": "与中年血管性脑损伤有关的超加工食品。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993554/",
+   "date": "2026-11-06",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.20042",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42993543",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Worldwide Acne Burden Projected to Rise Through 2050.",
+   "title_zh": "预计到2050年，全球痤疮负担将上升。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993543/",
+   "date": "2026-11-06",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.20044",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42993542",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Bariatric Surgery Tied to Lower Obesity-Related Cancer Risk.",
+   "title_zh": "与降低肥胖相关癌症风险相关的减肥手术",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993542/",
+   "date": "2026-11-06",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.20040",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "内分泌/代谢",
+    "外科"
+   ]
+  },
+  {
+   "pmid": "42993533",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "FDA Approves New Over-the-Counter Eye Drops for Minor Irritation.",
+   "title_zh": "FDA批准用于轻微刺激的新型非处方眼药水。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993533/",
+   "date": "2026-11-06",
+   "authors": "Anderer S",
+   "doi": "10.1001/jama.2026.20041",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42993532",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Exercise Prescriptions Recommended for Cardiovascular Health.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993532/",
+   "date": "2026-11-06",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.20045",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42993530",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "HHS Announces New Women's Health Division Within NIH.",
+   "title_zh": "HHS宣布在NIH内设立新的妇女健康部门。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993530/",
+   "date": "2026-11-06",
+   "authors": "Anderer S",
+   "doi": "10.1001/jama.2026.20043",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42993529",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "SGLT2 Inhibitors, Potassium Binders, Pregnancy After Kidney Donation, and More From Kidney Week.",
+   "title_zh": "来自肾脏周的SGLT2抑制剂、钾结合剂、肾脏捐赠后的妊娠等。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993529/",
+   "date": "2026-11-06",
+   "authors": "Abbasi J",
+   "doi": "10.1001/jama.2026.19959",
+   "study_type": "研究论文",
+   "departments": [
+    "肾脏/泌尿",
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42993528",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Waist Circumference Adds to BMI, but Will Clinicians Adopt It?",
+   "title_zh": "腰围增加了BMI ，但临床医生会采用吗？",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993528/",
+   "date": "2026-11-06",
+   "authors": "Schweitzer K",
+   "doi": "10.1001/jama.2026.18249",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
    ]
   },
   {
@@ -808,6 +1128,7 @@
    "doi": "10.1056/NEJMra2519017",
    "study_type": "综述",
    "departments": [
+    "循环器",
     "神经",
     "血液"
    ]

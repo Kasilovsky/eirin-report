@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-07T03:14:25+08:00",
+ "generated_at": "2026-11-07T04:17:52+00:00",
  "window_days": 180,
- "count": 700,
+ "count": 720,
  "journals": [
   {
    "abbr": "N Engl J Med",
@@ -12,12 +12,12 @@
   {
    "abbr": "Lancet",
    "name": "The Lancet",
-   "count": 100
+   "count": 111
   },
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 100
+   "count": 109
   },
   {
    "abbr": "BMJ",
@@ -42,11 +42,264 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 0,
-  "cache_size": 209,
-  "translate_fails": 0
+  "translate_used": 71,
+  "cache_size": 271,
+  "translate_fails": 5
  },
  "articles": [
+  {
+   "pmid": "42987881",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1940",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987881/",
+   "date": "2026-11-07",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1016/S0140-6736(26)02203-8",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987880",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Women with obstetric fistula in Somalia deserve better - Author's reply.",
+   "title_zh": "索马里患有产科瘘管病的妇女应该得到更好的待遇--作者的回复。",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1940",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987880/",
+   "date": "2026-11-07",
+   "authors": "Bigot C",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02029-5",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42987879",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Women with obstetric fistula in Somalia deserve better.",
+   "title_zh": "索马里患有产科瘘管病的妇女应该得到更好的待遇。",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1939-1940",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987879/",
+   "date": "2026-11-07",
+   "authors": "Ngongo CJ, Artan A, Majinge P, Raassen TJIP, Pope R",
+   "author_count": 5,
+   "doi": "10.1016/S0140-6736(26)02028-3",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42987878",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Global health: dying from failure or fulfilment?",
+   "title_zh": "全球健康：死于失败还是成就？",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1938-1939",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987878/",
+   "date": "2026-11-07",
+   "authors": "Jimba M",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02119-7",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "42987877",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "North Korea's health revolution in its 2026 medical journals.",
+   "title_zh": "朝鲜的健康革命在其2026年的医学期刊上。",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1938",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987877/",
+   "date": "2026-11-07",
+   "authors": "Lee YH, Choi HK, Kim YH, Kim SG",
+   "author_count": 4,
+   "doi": "10.1016/S0140-6736(26)01482-0",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987876",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Anita Belman.",
+   "title_zh": "Anita Belman。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1936",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987876/",
+   "date": "2026-11-07",
+   "authors": "Thornton J",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02206-3",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987875",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Tobacco exposure: online exhibitions at CSTS.",
+   "title_zh": "烟草暴露： CST的在线展览。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1935",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987875/",
+   "date": "2026-11-07",
+   "authors": "Podolsky SH",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02205-1",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987874",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Jemilah Mahmood: Malaysian leadership in planetary health.",
+   "title_zh": "Jemilah Mahmood ：马来西亚在地球健康领域的领导地位。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1932",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987874/",
+   "date": "2026-11-07",
+   "authors": "Lucas T",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02081-7",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987873",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Offline: China bids to lead in global health.",
+   "title_zh": "线下：中国力争在全球健康领域处于领先地位。",
+   "summary_en": "",
+   "summary_zh": "【述评】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1927",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987873/",
+   "date": "2026-11-07",
+   "authors": "Horton R",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02236-1",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "42987872",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Beyond the models: addressing the catastrophic health threats facing humanity requires a holistic approach.",
+   "title_zh": "超越模式：解决人类面临的灾难性健康威胁需要一种全面的方法。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1922-1924",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987872/",
+   "date": "2026-11-07",
+   "authors": "Romanello M, Clark H",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)02201-4",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42987871",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Climate change and health: 10 years on, what next?",
+   "title_zh": "气候变化与健康： 10年后，接下来会发生什么？",
+   "summary_en": "",
+   "summary_zh": "【述评】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10567): 1917",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42987871/",
+   "date": "2026-11-07",
+   "authors": "The Lancet",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02241-5",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
   {
    "pmid": "42956796",
    "journal": "The Lancet",
@@ -71,8 +324,9 @@
     "Humans",
     "Myocardial Infarction",
     "Randomized Controlled Trials as Topic",
+    "Risk Assessment",
     "Time Factors",
-    "Risk Assessment"
+    "Phlebotomy"
    ],
    "departments": [
     "循环器"
@@ -174,16 +428,16 @@
     "Multicenter Study"
    ],
    "mesh": [
-    "Humans",
-    "ErbB Receptors",
-    "Carcinoma, Non-Small-Cell Lung",
-    "Middle Aged",
-    "Lung Neoplasms",
-    "Female",
-    "China",
-    "Male",
+    "Adult",
     "Aged",
-    "Mutation"
+    "Female",
+    "Humans",
+    "Male",
+    "Middle Aged",
+    "Young Adult",
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "Carcinoma, Non-Small-Cell Lung",
+    "China"
    ],
    "departments": [
     "肿瘤",
@@ -303,6 +557,217 @@
    ],
    "departments": [
     "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42993610",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "JAMA Editors' Summary Podcast: November 6, 2026.",
+   "title_zh": "JAMA编辑摘要播客： 2026年11月6日。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2516121",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993610/",
+   "date": "2026-11-06",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2025.16121",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42993554",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Ultraprocessed Foods Linked With Vascular Brain Injury in Midlife.",
+   "title_zh": "与中年血管性脑损伤有关的超加工食品。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993554/",
+   "date": "2026-11-06",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20042",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器",
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42993543",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Worldwide Acne Burden Projected to Rise Through 2050.",
+   "title_zh": "预计到2050年，全球痤疮负担将上升。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993543/",
+   "date": "2026-11-06",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20044",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42993542",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Bariatric Surgery Tied to Lower Obesity-Related Cancer Risk.",
+   "title_zh": "与降低肥胖相关癌症风险相关的减肥手术",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993542/",
+   "date": "2026-11-06",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20040",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "内分泌/代谢",
+    "外科"
+   ]
+  },
+  {
+   "pmid": "42993533",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "FDA Approves New Over-the-Counter Eye Drops for Minor Irritation.",
+   "title_zh": "FDA批准用于轻微刺激的新型非处方眼药水。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993533/",
+   "date": "2026-11-06",
+   "authors": "Anderer S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20041",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42993532",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Exercise Prescriptions Recommended for Cardiovascular Health.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993532/",
+   "date": "2026-11-06",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20045",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42993530",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "HHS Announces New Women's Health Division Within NIH.",
+   "title_zh": "HHS宣布在NIH内设立新的妇女健康部门。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993530/",
+   "date": "2026-11-06",
+   "authors": "Anderer S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20043",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42993529",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "SGLT2 Inhibitors, Potassium Binders, Pregnancy After Kidney Donation, and More From Kidney Week.",
+   "title_zh": "来自肾脏周的SGLT2抑制剂、钾结合剂、肾脏捐赠后的妊娠等。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993529/",
+   "date": "2026-11-06",
+   "authors": "Abbasi J",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.19959",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肾脏/泌尿",
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42993528",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Waist Circumference Adds to BMI, but Will Clinicians Adopt It?",
+   "title_zh": "腰围增加了BMI ，但临床医生会采用吗？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42993528/",
+   "date": "2026-11-06",
+   "authors": "Schweitzer K",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.18249",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
    ]
   },
   {
@@ -1278,17 +1743,18 @@
    ],
    "mesh": [
     "Humans",
-    "Thrombolytic Therapy",
-    "Fibrinolytic Agents",
-    "Tissue Plasminogen Activator",
-    "Ischemic Stroke",
-    "Thrombectomy",
-    "Tenecteplase",
-    "Stroke",
+    "Administration, Intravenous",
     "Brain Ischemia",
-    "Administration, Intravenous"
+    "Fibrinolytic Agents",
+    "Ischemic Stroke",
+    "Tenecteplase",
+    "Thrombectomy",
+    "Thrombolytic Therapy",
+    "Tissue Plasminogen Activator",
+    "Endovascular Procedures"
    ],
    "departments": [
+    "循环器",
     "神经",
     "血液"
    ]
@@ -5351,7 +5817,7 @@
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
    "title_en": "Climate change threatens malaria elimination in the Asia Pacific.",
-   "title_zh": "",
+   "title_zh": "气候变化威胁着亚太地区的疟疾根除。",
    "summary_en": "Climate change threatens decades of progress toward malaria elimination across the Asia Pacific. In recent years, reported cases have increased sharply in several regions, including Pakistan following the 2022 floods. However, current research and adaptation strategies have largely focused on gradual warming and shifting transmission seasons and may not fully capture acute operational disruptions in endemic settings. Here we examine how climate change influences malaria through cascading disruptions to health systems, population displacement and ecological change. As a multidisciplinary group of policymakers and researchers, we identify priority actions: integrating malaria control into disaster response, deploying adaptive vector control for displaced populations, strengthening cross-bord",
    "summary_zh": "【综述】Nat Med 刊载。结论要点见下方原文摘要。",
    "citation": "Nat Med. 2026",
@@ -5375,7 +5841,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Healthwatch: Plans to abolish patient watchdog are scrapped in government U turn.",
-   "title_zh": "",
+   "title_zh": "Healthwatch ：废除患者监管机构的计划在政府U回合中被取消。",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101287",
@@ -5398,7 +5864,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Climate change: Experts call on WHO to formally declare global health emergency.",
-   "title_zh": "",
+   "title_zh": "气候变化：专家呼吁世卫组织正式宣布全球卫生紧急状态。",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101292",
@@ -5421,7 +5887,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Social media ban: Ofcom sets out age verification methods.",
-   "title_zh": "",
+   "title_zh": "社交媒体禁令： Ofcom规定了年龄验证方法。",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101298",
@@ -5444,7 +5910,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Rapid expansion of data centres is massively increasing production of \"forever chemicals\".",
-   "title_zh": "",
+   "title_zh": "数据中心的快速扩张正在大幅增加“永久化学品”的产量。",
    "summary_en": "",
    "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101247",
@@ -5467,7 +5933,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "The optimum medical policy is a moving goalpost.",
-   "title_zh": "",
+   "title_zh": "最佳的医疗政策是一个不断变化的目标。",
    "summary_en": "",
    "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101281",
@@ -5490,7 +5956,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Doctor dies from Ebola in DRC as cases exceed 10 000.",
-   "title_zh": "",
+   "title_zh": "在刚果民主共和国，由于病例超过1万，医生死于埃博拉病毒。",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101297",
@@ -5513,7 +5979,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "BMJ contributor wins award for investigating India's gender discrimination in organ donation.",
-   "title_zh": "",
+   "title_zh": "BMJ的贡献者因调查印度器官捐赠中的性别歧视而获奖。",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101299",
@@ -5536,7 +6002,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Thousands of patients automatically deleted from electronic referral service, watchdog warns.",
-   "title_zh": "",
+   "title_zh": "WATCHDOG警告说，成千上万的患者从电子转诊服务中自动删除。",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101301",
@@ -5559,7 +6025,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "Governing artificial intelligence for reliable research.",
-   "title_zh": "",
+   "title_zh": "管理人工智能以进行可靠的研究。",
    "summary_en": "",
    "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026",
@@ -5582,7 +6048,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Age-dependent structural evolution of a functional amyloid contributes to memory impairment in Drosophila.",
-   "title_zh": "",
+   "title_zh": "功能性淀粉样蛋白的年龄依赖性结构进化导致果蝇记忆障碍。",
    "summary_en": "Cryogenic electron microscopy has revealed endpoint structures of ex vivo amyloid filaments, but how amyloids assemble and evolve in living organisms-and how these transitions affect physiology-remains poorly understood. Here, we map the age-dependent structural landscape of Orb2 amyloid, a synaptic translation regulator required for long-term memory, across the adult lifespan of Drosophila melanogaster. By determining multiple Orb2 amyloid structures, we uncover a dynamic, age-linked progression of amyloid states. Translation-promoting assemblies predominate early in life, whereas aging shifts the Orb2 amyloid ensemble toward structurally distinct, destabilization-resistant assemblies with reduced translational activity, coinciding with memory impairment. Manipulating memory-related chape",
    "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
    "citation": "Cell. 2026",
@@ -5605,7 +6071,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "JAMA Editors' Summary Podcast: October 30, 2026.",
-   "title_zh": "",
+   "title_zh": "JAMA编辑摘要播客： 2026年10月30日。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026: e2516113",
@@ -5628,7 +6094,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Survey Suggests GLP-1 Drugs May Curb Alcohol Use for Many Patients.",
-   "title_zh": "",
+   "title_zh": "调查表明， GLP-1药物可能会抑制许多患者的酒精使用。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -5651,7 +6117,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Hypertensive Disorders During Pregnancy Increased 74% in the US.",
-   "title_zh": "",
+   "title_zh": "在美国，妊娠期高血压疾病增加了74%。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -5674,7 +6140,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Annual Dementia Incidence May Reach 25 Million by 2050.",
-   "title_zh": "",
+   "title_zh": "到2050年，痴呆症年发病率可能达到2500万。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -5697,7 +6163,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "FDA Approves New Drug to Treat Herpes Simplex Virus Lesions.",
-   "title_zh": "",
+   "title_zh": "FDA批准用于治疗单纯疱疹病毒病变的新药。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -5720,7 +6186,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Long-Term Steroid Use Tied to Adverse Cardiovascular Effects.",
-   "title_zh": "",
+   "title_zh": "长期使用类固醇与心血管不良反应有关。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -5743,7 +6209,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Is the Pennsylvania Measles Outbreak the New Normal?",
-   "title_zh": "",
+   "title_zh": "宾夕法尼亚州麻疹爆发是新常态吗？",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -5766,7 +6232,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Intensive BP Lowering Reduces Cardiovascular Risk in Adults With CKD.",
-   "title_zh": "",
+   "title_zh": "强化降压可降低慢性肾脏病成人的心血管风险。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -5789,7 +6255,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Analysis Asks: Are GLP-1 Drugs Safe in People With Frailty?",
-   "title_zh": "",
+   "title_zh": "分析提问： GLP-1药物在虚弱患者中是否安全？",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -5812,7 +6278,7 @@
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
    "title_en": "5-year outcomes of chemotherapy de-escalation in HER2-positive early breast cancer and exploratory circulating tumor DNA analyses from the randomized phase 2 PHERGain trial.",
-   "title_zh": "",
+   "title_zh": "来自随机2期PHERGain试验的HER2阳性早期乳腺癌化疗降级和探索性循环肿瘤DNA分析的5年结局。",
    "summary_en": "PHERGain was a randomized, non-comparative phase 2 trial evaluating a positron 18F-fluorodeoxyglucose-positron emission tomography (18F-FDG-PET)-guided, pathological complete response (pCR)-adapted strategy to omit chemotherapy in HER2-positive early breast cancer. Female patients with HER2-positive stages I-IIIA operable breast cancer (tumor size ≥ 1.5 cm) were randomized to receive chemotherapy plus trastuzumab and pertuzumab (HP; group A) or HP ± endocrine therapy (group B). In group B, treatment was adapted according to 18F-FDG-PET response after two cycles and pCR, with chemotherapy administered to nonresponders or patients without pCR. We previously reported that this de-escalation approach revealed a 3-year invasive disease-free survival (iDFS) of 94.3% (95% confidence interval (CI)",
    "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
    "citation": "Nat Med. 2026",
@@ -5835,7 +6301,7 @@
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
    "title_en": "A clinical multimodal vision language foundation model with fine-grain explainability.",
-   "title_zh": "",
+   "title_zh": "一种具有细粒度可解释性的临床多模态视觉语言基础模型。",
    "summary_en": "Despite their considerable promise, many current medical foundation models remain modality specific and lack transparent reasoning, limiting clinical adoption. To address this gap, we introduce Explainable Vision Language Foundation Model for Medicine (EVLF-FM), a multimodal vision language foundation model that combines broad diagnostic capabilities with fine-grained explainability. The development and testing of EVLF-FM encompassed more than 1.3 million total samples from 18 global datasets across 10 imaging modalities related to six clinical specialties: dermatology, hepatology, ophthalmology, pathology, pulmonology and radiology. External validation employed 13,443 independent test samples from 17 additional datasets across 10 imaging modalities. EVLF-FM supports disease diagnosis, vis",
    "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
    "citation": "Nat Med. 2026",
@@ -5858,7 +6324,7 @@
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
    "title_en": "Insights into early-onset colorectal cancer from a single-nucleus RNA-seq atlas of colorectal cancer across the age continuum.",
-   "title_zh": "",
+   "title_zh": "从跨年龄连续体的结直肠癌单核RNA-seq图谱中了解早发性结直肠癌。",
    "summary_en": "The incidence of early-onset colorectal cancer (EO-CRC; diagnosed before age 50 years) is increasing worldwide. Although current data indicate that EO-CRC may be biologically distinct from average-onset CRC (AO-CRC; diagnosed at age ≥50 years), molecular differences remain poorly defined. To address this knowledge gap, we generated a single-nucleus RNA sequencing (snRNA-seq) atlas from 189 primary CRC tumors (54 EO-CRC, 135 AO-CRC) spanning eight decades of life, with at least 20 tumors in most age decades. Our analyses stratified tumors by microsatellite status and accounted for tumor sidedness, stage, patient sex and neoadjuvant treatment history, modeling age continuously or categorically (EO-CRC versus AO-CRC). Among microsatellite-stable (MSS) tumors, those from younger patients were ",
    "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
    "citation": "Nat Med. 2026",
@@ -5882,7 +6348,7 @@
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
    "title_en": "Applying digital twins to prevent preterm births.",
-   "title_zh": "",
+   "title_zh": "应用数字双胞胎来预防早产。",
    "summary_en": "",
    "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026",
@@ -5905,7 +6371,7 @@
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
    "title_en": "A small-molecule TREM2 agonist for Alzheimer's disease.",
-   "title_zh": "",
+   "title_zh": "一种用于阿尔茨海默病的小分子TREM2激动剂。",
    "summary_en": "",
    "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026",
@@ -5928,7 +6394,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Endometriosis: earlier diagnosis without meaningful access to treatment is only half the solution.",
-   "title_zh": "",
+   "title_zh": "子宫内膜异位症：早期诊断无法获得有意义的治疗只是解决方案的一半。",
    "summary_en": "",
    "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101237",
@@ -5951,7 +6417,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Hundreds of GP websites crash after online provider enters administration.",
-   "title_zh": "",
+   "title_zh": "在线提供商进入管理后，数百个GP网站崩溃。",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101286",
@@ -5974,7 +6440,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "India caps mark-ups on 137 cancer drugs after court highlights 900% price difference.",
-   "title_zh": "",
+   "title_zh": "在法院强调900%的价格差异后，印度限制了137种抗癌药物的加价。",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101276",
@@ -5997,7 +6463,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Stop rewarding audits and start rewarding the solution of important problems.",
-   "title_zh": "",
+   "title_zh": "停止奖励审计，开始奖励重要问题的解决方案。",
    "summary_en": "",
    "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101222",
@@ -6020,7 +6486,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "RCGP does U turn on policy that put assisted dying on par with arms dealers.",
-   "title_zh": "",
+   "title_zh": "RCGP确实开启了将协助死亡与军火商相提并论的政策。",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101282",
@@ -6043,7 +6509,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Budget 2026: NHS gets AI productivity review and winter pressure fund-but little else for health and social care.",
-   "title_zh": "",
+   "title_zh": "2026年预算： NHS获得人工智能生产力审查和冬季压力基金，但几乎没有其他用于健康和社会护理的资金。",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101279",
@@ -6090,7 +6556,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "Irritable bowel syndrome and related disorders of gut-brain interaction.",
-   "title_zh": "",
+   "title_zh": "肠易激综合征和肠-脑相互作用的相关疾病。",
    "summary_en": "Irritable bowel syndrome, chronic constipation, and functional diarrhoea are disorders of gut-brain interaction, the symptoms of which include abnormal stool consistency or frequency accompanied by varying degrees of abdominal pain, discomfort, bloating, or distension. These conditions affect 20% of the global population with a relapsing and remitting course. Risk factors include female sex, younger age, a history of common mental disorders, and acute enteric infection. The pathophysiology of irritable bowel syndrome, chronic constipation, and functional diarrhoea remain incompletely understood, but are thought to be secondary to aberrant interactions throughout the gut-brain axis, resulting in disordered gut motility and visceral hypersensitivity. These conditions are diagnosed with a com",
    "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
    "citation": "Lancet. 2026",
@@ -6114,7 +6580,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "Health and poverty: lessons from China.",
-   "title_zh": "",
+   "title_zh": "健康与贫困：中国的教训。",
    "summary_en": "",
    "summary_zh": "【述评】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026",
@@ -6160,7 +6626,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Genetic coupling of floral rewards and signals underlies pollinator attraction.",
-   "title_zh": "",
+   "title_zh": "花朵奖励和信号的遗传耦合是授粉者吸引力的基础。",
    "summary_en": "Animal pollinators underpin biodiversity and global agriculture, yet the molecular mechanisms that coordinate floral rewards and signals to attract pollinators remain poorly understood. Through phenotyping melon genetic diversity, we identified nectarless1 (nls1), encoding the YABBY-family transcription factor YABBY5 (YAB5), as a central integrator of pollinator-attracting traits. YAB5 interacts with CRABS CLAW (CRC) during nectary initiation to specify nectary identity by repressing alternative floral organ fates. As flowers mature, YAB5 directly activates 4-α-glucanotransferase 2 (DPE2) to promote starch remobilization required for nectar secretion and promotes petal growth and flower opening. In petals, YAB5 directly engages an MYB111-dependent flavonoid pathway that generates UV nectar",
    "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
    "citation": "Cell. 2026",
@@ -6183,7 +6649,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Innate sensor responses set a supra-unitary threshold for viral replication.",
-   "title_zh": "",
+   "title_zh": "先天传感器响应为病毒复制设定了超单位阈值。",
    "summary_en": "Cells resist viral infection by triggering rapid and sensitive innate immune responses, initiated by cytoplasmic viral sensor proteins (CyVSP), retinoic acid-inducible gene I (RIG-I), melanoma differentiation-associated protein 5 (MDA-5), and protein kinase R (PKR). Our single-cell analysis reveals that viral replication requires a supra-unitary viral genome input, significantly more than one, which we define as the virion input threshold for replication (VITREP). This threshold varies depending on viruses and cell types, independently of viral protein synthesis. Through mathematical modeling and experimental testing, we uncover that supra-unitary viral genome quantities activate negative feedback regulators (NFR) of CyVSP, including death-associated protein kinase 1 (DAPK1), Rio kinase 3 ",
    "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
    "citation": "Cell. 2026",
@@ -6206,7 +6672,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Toward planetary microbial systems biology.",
-   "title_zh": "",
+   "title_zh": "迈向行星微生物系统生物学。",
    "summary_en": "Microorganisms underpin Earth's biosphere, sustaining life, shaping biogeochemical cycles, and maintaining ecosystem stability. In an era of scientific and geopolitical fragmentation, we advocate for a \"planetary microbial systems biology\" (PMSB) framework to uncover the mechanisms and organizational principles governing Earth's interconnected microbial systems across scales of matter, space, and time and in relation to underlying natural and anthropogenic drivers. PMSB combines molecular and cellular technologies, multi-omics data, artificial intelligence (AI), and integrated transdisciplinary research across ecosystems. By federating open data and combining field observations, experimentation, and modeling, PMSB enables predictive understanding of microbiome dynamics across planetary sca",
    "summary_zh": "【综述】Cell 刊载。结论要点见下方原文摘要。",
    "citation": "Cell. 2026; 189(22): 6907-6921",
@@ -6236,7 +6702,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Guardians at the gate: cMAF keeps the brain's vasculature in check.",
-   "title_zh": "",
+   "title_zh": "守门人： cMAF可以控制大脑的血管系统。",
    "summary_en": "In this issue of Cell, Brioschi et al. identify cellular musculoaponeurotic fibrosarcoma (cMAF) as a key regulator of brain perivascular macrophages that supports cerebrovascular function through insulin-like growth factor 1 (IGF1) production. This cMAF-IGF1 program is enhanced in Alzheimer's disease (AD), potentially reflecting a protective response that is lost in APOE4 carriers.",
    "summary_zh": "【评论】Cell 刊载。结论要点见下方原文摘要。",
    "citation": "Cell. 2026; 189(22): 6904-6906",
@@ -6268,7 +6734,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Calorie restriction uncouples mutation rate from lifespan.",
-   "title_zh": "",
+   "title_zh": "卡路里限制使突变率与寿命脱钩。",
    "summary_en": "In this issue of Cell, Grońska-Pęski et al. examine how calorie restriction (CR) affects DNA mutation rates. While CR lowers the accumulation of mutations, this effect does not scale with the degree of lifespan extension. Their work raises important new questions about how CR impacts the causal mechanisms of aging.",
    "summary_zh": "【评论】Cell 刊载。结论要点见下方原文摘要。",
    "citation": "Cell. 2026; 189(22): 6902-6903",
@@ -6301,7 +6767,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Roads not taken: The mismatch between safety and regulation of plant breeding innovation.",
-   "title_zh": "",
+   "title_zh": "未采取的道路：植物育种创新的安全性和监管之间的不匹配。",
    "summary_en": "Meeting global food security goals while reducing agriculture's environmental impact requires continued crop improvement and innovation. Advances in transgenesis, cisgenesis, and genome editing now enable increasingly precise genetic modification with risks comparable to those of conventional breeding, yet regulatory frameworks remain focused on the method used rather than the product. We highlight recent examples, including immune receptor transfer, cisgenesis-based disease resistance stacking, photosynthesis engineering, and AI-guided protein design, that illustrate innovations constrained by current regulatory approaches. A decisive shift toward science-based, proportionate, and product-focused regulation is needed so that improved crops are evaluated on the basis of their properties, n",
    "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
    "citation": "Cell. 2026; 189(22): 6899-6901",
@@ -6330,7 +6796,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "A Review of Low Back Pain-Reply.",
-   "title_zh": "",
+   "title_zh": "腰背部疼痛复发综述。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -6353,7 +6819,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Wagering on Unfinished Experiments-Prediction Markets and Clinical Trial Integrity.",
-   "title_zh": "",
+   "title_zh": "投注未完成的实验-预测市场和临床试验完整性。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -6399,7 +6865,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Horses With Stripes: Reframing Rare Disease Care.",
-   "title_zh": "",
+   "title_zh": "条纹马：重新构建罕见疾病护理。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -6422,7 +6888,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "US Deaths Caused by Law Enforcement-Reply.",
-   "title_zh": "",
+   "title_zh": "美国执法部门造成的死亡--回复。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -6445,7 +6911,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "US Deaths Caused by Law Enforcement.",
-   "title_zh": "",
+   "title_zh": "美国因执法造成的死亡。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -6468,7 +6934,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "US Deaths Caused by Law Enforcement.",
-   "title_zh": "",
+   "title_zh": "美国因执法造成的死亡。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",

@@ -206,7 +206,8 @@ def main() -> int:
         NEWS_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
 
     log.info("完成：翻译 %s 条，失败批次 %s，缓存条目 %s", len(translated), failed_batches, len(cache))
-    return 0 if translated or not pending else 1
+    # 翻译失败只意味着标题保留英文/旧译文，数据本身仍可发布，不应让 CI 失败
+    return 0
 
 
 if __name__ == "__main__":

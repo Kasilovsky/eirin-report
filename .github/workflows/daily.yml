@@ -37,6 +37,7 @@ jobs:
         run: python crawler.py
 
       - name: 索引标题 LLM 翻译
+        continue-on-error: true
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           EIRIN_LLM_MODE: auto
@@ -44,6 +45,7 @@ jobs:
         run: python translate_llm.py --limit 200
 
       - name: 生成每日要目
+        continue-on-error: true
         env:
           # 暗门：仓库 Settings → Secrets and variables → Actions 中配置 DEEPSEEK_API_KEY
           # 未配置时为空字符串，digest.py 自动降级为题录模式，不会失败

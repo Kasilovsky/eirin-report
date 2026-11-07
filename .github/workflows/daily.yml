@@ -36,6 +36,13 @@ jobs:
           EIRIN_TRANSLATE_BUDGET: "160"
         run: python crawler.py
 
+      - name: 索引标题 LLM 翻译
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          EIRIN_LLM_MODE: auto
+          LLM_MODEL: deepseek-chat
+        run: python translate_llm.py --limit 200
+
       - name: 生成每日要目
         env:
           # 暗门：仓库 Settings → Secrets and variables → Actions 中配置 DEEPSEEK_API_KEY

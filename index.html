@@ -57,9 +57,14 @@
     </div>
   </section>
 
-  <section class="digest" id="digestSection" hidden aria-labelledby="digestTitle">
+  <nav class="view-tabs" role="tablist" aria-label="檢視">
+    <button role="tab" id="tabDigest" type="button" aria-controls="digestSection" aria-selected="true">本期要目</button>
+    <button role="tab" id="tabIndex" type="button" aria-controls="indexView" aria-selected="false">全部文獻</button>
+  </nav>
+
+  <section class="digest view-panel" id="digestSection" role="tabpanel" aria-labelledby="digestTitle">
     <header class="digest-head">
-      <h2 id="digestTitle">本期要目</h2>
+      <h2 id="digestTitle">今日要目</h2>
       <div class="digest-tools">
         <button class="tool-btn" id="copyDigestBtn" type="button">複製要目</button>
         <button class="tool-btn" id="readerModeBtn" type="button" aria-pressed="false">專業模式</button>
@@ -68,6 +73,8 @@
     <p class="digest-note" id="digestNote"></p>
     <ol class="digest-list" id="digestList"></ol>
   </section>
+
+  <section class="view-panel" id="indexView" role="tabpanel" aria-label="全部文獻" hidden>
 
   <section class="controls" aria-label="檢索與篩選">
     <div class="search-row">
@@ -101,6 +108,14 @@
         <button class="chip" type="button" data-days="0" aria-pressed="false">全部</button>
       </div>
     </div>
+
+    <div class="filter-row">
+      <span class="filter-label">過濾</span>
+      <label class="chip-toggle">
+        <input type="checkbox" id="hideNoise" checked>
+        <span>隱藏勘誤、通信與評論</span>
+      </label>
+    </div>
   </section>
 
   <div class="result-bar">
@@ -122,6 +137,8 @@
     <nav class="pager" id="pager" aria-label="分頁"></nav>
   </main>
 
+  </section><!-- /indexView -->
+
   <footer class="colophon" id="colophon">
     <div class="row">
       <span>資料來源：<a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">PubMed / NLM</a> ·
@@ -130,7 +147,7 @@
     </div>
     <div class="row">
       <span>本報告僅供學術資訊參考，不構成診療建議。臨床決策請以原文與現行指引為準。部分條目保留原文標題。</span>
-      <span><a href="feed.xml">RSS 訂閱</a> · <a href="discuss.html">竹林茶會</a></span>
+      <span><a href="feed.xml" title="訂閱每日要目，建議使用 RSS 閱讀器">RSS 訂閱要目</a> · <a href="discuss.html" title="讀者討論，議題寄存於 GitHub Issues">竹林茶會</a></span>
     </div>
     <div class="seal">永遠亭 医療部 · 八意永琳</div>
   </footer>

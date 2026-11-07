@@ -41,7 +41,22 @@
     sort: "date-desc",
     page: 1,
     digest: null,
+    view: "digest",
+    hideNoise: true,
   };
+
+  /* 索引视图默认隐藏的低价值题录类型 */
+  const NOISE_PUBTYPES = new Set([
+    "Published Erratum",
+    "Retraction of Publication",
+    "Letter",
+    "Comment",
+    "Editorial",
+    "Biography",
+    "Historical Article",
+    "News",
+    "Obituary",
+  ]);
 
   const el = (id) => document.getElementById(id);
   const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (ch) => ({
@@ -139,6 +154,7 @@
     const keyword = state.q.trim().toLowerCase();
     const matched = articles.filter((article) => {
       if (cutoff && (!article.date || article.date < cutoff)) return false;
+      if (state.hideNoise && (article.pubtypes || []).some((type) => NOISE_PUBTYPES.has(type))) return false;
       if (state.journals.size && !state.journals.has(article.journal_abbr)) return false;
       if (state.depts.size && !(article.departments || []).some((d) => state.depts.has(d))) return false;
       if (keyword) {
@@ -450,6 +466,7 @@
     if (state.days !== 7) params.set("range", String(state.days));
     if (state.sort !== "date-desc") params.set("sort", state.sort);
     if (state.page > 1) params.set("page", String(state.page));
+    if (state.view === "index") params.set("view", "index");
     const query = params.toString();
     history.replaceState(null, "", query ? `?${query}` : location.pathname);
   }
@@ -462,6 +479,23 @@
     if (params.get("range") !== null && params.get("range") !== "") state.days = Number(params.get("range")) || 0;
     if (params.get("sort")) state.sort = params.get("sort");
     if (params.get("page")) state.page = Math.max(1, Number(params.get("page")) || 1);
+    if (params.get("view") === "index") state.view = "index";
+  }
+
+  /* 要目 / 文献索引 两个视图互斥显示，避免要目把检索区挤到下方 */
+  function setView(view, { silent = false } = {}) {
+    state.view = view === "index" ? "index" : "digest";
+    const digestPanel = el("digestSection");
+    const indexPanel = el("indexView");
+    if (!digestPanel || !indexPanel) return;
+
+    const isDigest = state.view === "digest";
+    digestPanel.hidden = !isDigest;
+    indexPanel.hidden = isDigest;
+    el("tabDigest").setAttribute("aria-selected", String(isDigest));
+    el("tabIndex").setAttribute("aria-selected", String(!isDigest));
+    localStorage.setItem("eirin-view", state.view);
+    if (!silent) syncUrl();
   }
 
   /* --------------------------------------------------------------- 初始化 --- */
@@ -475,6 +509,21 @@
   }
 
   function wireControls() {
+    el("tabDigest").addEventListener("click", () => setView("digest"));
+    el("tabIndex").addEventListener("click", () => setView("index"));
+
+    const hideNoise = el("hideNoise");
+    if (hideNoise) {
+      hideNoise.checked = state.hideNoise;
+      hideNoise.addEventListener("change", () => {
+        state.hideNoise = hideNoise.checked;
+        localStorage.setItem("eirin-hide-noise", String(state.hideNoise));
+        state.page = 1;
+        syncUrl();
+        render();
+      });
+    }
+
     el("q").addEventListener("input", (event) => {
       state.q = event.target.value;
       state.page = 1;
@@ -617,8 +666,6 @@
 
   function renderDigest(digest) {
     state.digest = digest;
-    const section = el("digestSection");
-    section.hidden = false;
 
     const note = el("digestNote");
     if (digest.degraded) {
@@ -677,8 +724,16 @@
   async function boot() {
     initTheme();
     initReaderMode();
+    state.hideNoise = localStorage.getItem("eirin-hide-noise") !== "false";
     readUrl();
     wireControls();
+
+    // 首屏视图：URL 参数优先，其次沿用上次选择
+    const hasViewParam = new URLSearchParams(location.search).has("view");
+    if (!hasViewParam && localStorage.getItem("eirin-view") === "index") {
+      state.view = "index";
+    }
+    setView(state.view, { silent: true });
 
     try {
       state.data = await loadData();
@@ -705,7 +760,12 @@
     syncUrl();
 
     const digest = await loadDigest();
-    if (digest) renderDigest(digest);
+    if (digest) {
+      renderDigest(digest);
+    } else if (state.view === "digest") {
+      /* 没有要目数据时直接落到检索视图，避免空白 */
+      setView("index", { silent: true });
+    }
 
     if (state.data.failures && state.data.failures.length) {
       const note = document.createElement("div");

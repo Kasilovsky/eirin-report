@@ -1,360 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>永遠亭 医療報告</title>
+    <title>永遠亭 医療報告 · 每日要目</title>
     <link>https://kasilovsky.github.io/eirin-report/</link>
-    <description>八意永琳编制的权威医学期刊速报</description>
+    <description>八意永琳编制的权威医学期刊要目：每条含一句话结论、关键数据与意义</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 07 Nov 2026 04:17:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 08:00:16 +0000</lastBuildDate>
     <item>
-      <title>勘误。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987881/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987881/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>索马里患有产科瘘管病的妇女应该得到更好的待遇--作者的回复。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987880/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987880/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【通信】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>索马里患有产科瘘管病的妇女应该得到更好的待遇。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987879/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987879/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【通信】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>全球健康：死于失败还是成就？</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987878/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987878/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【通信】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>朝鲜的健康革命在其2026年的医学期刊上。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987877/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987877/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【通信】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>Anita Belman。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987876/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987876/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>烟草暴露： CST的在线展览。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987875/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987875/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>Jemilah Mahmood ：马来西亚在地球健康领域的领导地位。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987874/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987874/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>线下：中国力争在全球健康领域处于领先地位。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987873/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987873/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【述评】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>超越模式：解决人类面临的灾难性健康威胁需要一种全面的方法。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987872/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987872/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>气候变化与健康： 10年后，接下来会发生什么？</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987871/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987871/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【述评】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>疑似心肌梗死患者0/1小时与0/3小时通路的表现：随机对照试验的系统评价和个体参与者数据荟萃分析。</title>
+      <title>疑似心肌梗死患者0/1 h与0/3 h路径比较：随机对照试验的系统综述与个体参与者数据Meta分析</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42956796/</link>
       <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42956796/</guid>
       <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【Meta 分析】Lancet 刊载。结论要点见下方原文摘要。</description>
+      <description>0/1 h与0/3 h路径30天不良事件率均低，但合并安全性估计不精确。 纳入5项RCT共110 933例次就诊；30天全因死亡或新发1型心肌梗死0/1 h组446例（0.8%）vs 0/3 h组562例（1.0%），OR 0.83（95% CI 0.45-1.53）。</description>
     </item>
     <item>
-      <title>更快的肌钙蛋白，同时在急诊科：急性冠状动脉综合征评估的下一步是什么？</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42956795/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42956795/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>《柳叶刀》2026年健康与气候变化倒计时报告：健康危害不断升级的十年和所有人的决定性时刻。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42950876/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42950876/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【综述】Lancet 刊载。结论要点见下方原文摘要。</description>
-    </item>
-    <item>
-      <title>超级厄尔尼诺现象威胁到非洲的公共卫生紧急情况。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42945984/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42945984/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【通信】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>Ruzaltatug rezetecan与EGFR酪氨酸激酶抑制剂治疗后进展的EGFR突变晚期非小细胞肺癌的化疗（ HERON-Lung01 ） ：中国一项随机、开放标签、3期临床试验的中期分析。</title>
+      <title>Ruzaltatug rezetecan对比化疗治疗EGFR突变晚期NSCLC（HERON-Lung01）：中国3期试验中期分析</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42933457/</link>
       <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42933457/</guid>
       <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。</description>
+      <description>EGFR-TKI耐药后，新型HER3抗体偶联药物较化疗显著延长无进展生存。 498例随机；BICR评估中位PFS 8.3个月 vs 5.4个月，HR 0.47（95% CI 0.36-0.60），单侧p&lt;0.0001；≥3级TRAE 41% vs 39%。</description>
     </item>
     <item>
-      <title>EGFR-TKI治疗后非小细胞肺癌的多种护理标准：进展、碎片化还是必然性？</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42933456/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42933456/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>全球卫生改革缺少一代人。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42710518/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42710518/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】Lancet 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>急诊科0/1小时心肌梗死通路的安全性和有效性：一项国际性、实用性、阶梯楔形、集群随机、对照试验。</title>
+      <title>急诊疑似心肌梗死0/1 h路径的安全性与有效性：国际实用性阶梯楔形整群随机对照试验</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42667934/</link>
       <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42667934/</guid>
       <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。</description>
+      <description>0/1 h路径30天安全性不劣于0/3 h，但未缩短急诊停留时间。 67 624例次就诊；30天死亡或新发1型心肌梗死1.1% vs 1.2%，调整OR 0.93（95% CI 0.77-1.13），非劣效p=0.0004；中位急诊停留309 min vs 309 min。</description>
     </item>
     <item>
-      <title>既往弥漫性大B细胞淋巴瘤患者中模拟淋巴瘤复发的全身性疹状组织细胞增多症。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42660159/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42660159/</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【病例报告】Lancet 刊载。结论要点见下方原文摘要。</description>
-    </item>
-    <item>
-      <title>JAMA编辑摘要播客： 2026年11月6日。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42993610/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42993610/</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>与中年血管性脑损伤有关的超加工食品。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42993554/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42993554/</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>预计到2050年，全球痤疮负担将上升。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42993543/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42993543/</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>与降低肥胖相关癌症风险相关的减肥手术</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42993542/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42993542/</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>FDA批准用于轻微刺激的新型非处方眼药水。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42993533/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42993533/</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>Exercise Prescriptions Recommended for Cardiovascular Health.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42993532/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42993532/</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>HHS宣布在NIH内设立新的妇女健康部门。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42993530/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42993530/</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>来自肾脏周的SGLT2抑制剂、钾结合剂、肾脏捐赠后的妊娠等。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42993529/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42993529/</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>腰围增加了BMI ，但临床医生会采用吗？</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42993528/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42993528/</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>相反的微生物组介导的轴将可改变的生活方式与健康和慢性疾病联系起来。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988934/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988934/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】Nat Med 刊载。结论要点见下方原文摘要。</description>
-    </item>
-    <item>
-      <title>进行性双侧眼睑下垂和呼吸困难。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988422/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988422/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】BMJ 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>揭露饮用水铅污染问题的科学家获颁捍卫科学奖。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988420/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988420/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】BMJ 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>联合国报告发现，以色列在约旦河西岸犯下战争罪。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988418/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988418/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】BMJ 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>大烟草正在转向大瘾，必须加以遏制。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988417/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988417/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【述评】BMJ 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>与毒品相关的死亡：可卡因在英格兰和威尔士首次超过海洛因。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988409/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988409/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】BMJ 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>超出开胸术后慢性疼痛的阻滞。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988408/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988408/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【述评】BMJ 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>政府在兑现对国民保健署（NHS）的承诺方面偏离正轨。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988390/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988390/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【述评】BMJ 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>用于减轻开胸术后慢性疼痛的硬膜外阻滞与椎旁阻滞（ TOPIC-2 ） ：开放标签、平行组、优效性、多中心、随机对照试验。</title>
+      <title>胸段硬膜外与椎旁阻滞减少开胸术后慢性疼痛（TOPIC-2）：多中心随机对照优效性试验</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42988384/</link>
       <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988384/</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【随机对照试验】BMJ 刊载。结论要点见下方原文摘要。</description>
+      <description>椎旁阻滞未减少开胸术后6个月慢性疼痛，两种技术均可继续使用。 6个月慢性开胸术后疼痛22% vs 16%，调整RR 1.32（95% CI 0.93-1.86），P=0.12；椎旁组低血压、瘙痒更少，尿潴留更多。</description>
     </item>
     <item>
-      <title>英国埃博拉病毒：在刚果民主共和国疫情中感染的英国人将被疏散回家。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988383/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988383/</guid>
+      <title>Plozasiran 治疗重度高甘油三酯血症与胰腺炎风险</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42981569/</link>
+      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42981569/</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】BMJ 刊载。原文未附结构化摘要。</description>
+      <description>Plozasiran 显著降低甘油三酯，并减少急性胰腺炎发生。 12个月甘油三酯中位降幅79%和81%，安慰剂校正差-45和-47个百分点；胰腺炎发生率1 vs 5/100人年（率比0.22，P=0.008）。</description>
     </item>
     <item>
-      <title>禽流感：华盛顿州居民于2026年在美国首次死亡。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988382/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988382/</guid>
+      <title>Povetacicept 治疗 IgA 肾病的 3 期试验中期分析</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42912669/</link>
+      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42912669/</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】BMJ 刊载。原文未附结构化摘要。</description>
+      <description>Povetacicept 显著降低 IgA 肾病患者尿蛋白。 36周尿蛋白/肌酐比降52.0% vs 4.3%（校正差-49.8个百分点，P&lt;0.001）；血尿缓解85% vs 23%。</description>
     </item>
     <item>
-      <title>临床研究中的替代结果。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988381/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988381/</guid>
+      <title>三重激素受体激动剂 Retatrutide 治疗肥胖</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42814954/</link>
+      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42814954/</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【述评】BMJ 刊载。原文未附结构化摘要。</description>
+      <description>Retatrutide 大幅减重，并改善膝骨关节炎疼痛和睡眠呼吸暂停。 体重降幅-17.6%、-23.7%、-25.0% vs 安慰剂-3.9%；膝痛评分和呼吸暂停指数均显著改善（P&lt;0.001）。</description>
     </item>
     <item>
-      <title>多癌症血液检测将在英格兰的全科医生手术中进行试验。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988378/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988378/</guid>
+      <title>急性胸痛中靶向使用 CT 冠状动脉造影</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42670980/</link>
+      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42670980/</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】BMJ 刊载。原文未附结构化摘要。</description>
+      <description>常规 CT 冠状动脉造影未降低后续心梗或心源性死亡。 中位3.0年主要终点7.1% vs 7.3%（校正HR 0.95，95%CI 0.73-1.23，P=0.71）。</description>
     </item>
     <item>
-      <title>我们需要将风险管理纳入培训课程。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988377/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988377/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【通信】BMJ 刊载。原文未附结构化摘要。</description>
+      <title>儿童腺样体扁桃体切除术中喉罩与气管插管通气的围术期呼吸不良事件：多中心随机对照试验</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42982504/</link>
+      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42982504/</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>用喉罩通气的儿童围术期呼吸不良事件明显少于气管插管。 喉罩组PRAE 22.5%（45/200），气管插管组57.5%（115/200），绝对风险差-35.0个百分点（95% CI -43.5至-25.7，P&lt;0.001）。</description>
     </item>
     <item>
-      <title>医生寻找什么……和其他研究。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988376/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988376/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】BMJ 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>在心脏病学劳动力有限的美国高负担社区进行心血管护理的数字化准备。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42988365/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42988365/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】Nat Med 刊载。结论要点见下方原文摘要。</description>
-    </item>
-    <item>
-      <title>进食障碍。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42987891/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42987891/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【综述】Lancet 刊载。结论要点见下方原文摘要。</description>
-    </item>
-    <item>
-      <title>在美国传达肌内维生素K缺乏症的风险。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42986724/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42986724/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>不接受新生儿维生素K和出血风险。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42986716/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42986716/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。结论要点见下方原文摘要。</description>
-    </item>
-    <item>
-      <title>什么是家族性高胆固醇血症？</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42986657/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42986657/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
-    </item>
-    <item>
-      <title>更年期医学差距：与Rebecca C. Thurston的健康对话。</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42986656/</link>
-      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42986656/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <description>【研究论文】JAMA 刊载。原文未附结构化摘要。</description>
+      <title>VRC01 HIV-1预防的体内活性延长：初始保护效力与后续突破感染</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42981432/</link>
+      <guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42981432/</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description>VRC01能阻断敏感HIV毒株，但抗体浓度下降后出现突破感染。 对IC80&lt;1微克/毫升的高敏感病毒，累计预防效力66.3%（95% CI 32.4至83.2）；第80周后VRC01组突破感染及耐药更多。</description>
     </item>
   </channel>
 </rss>

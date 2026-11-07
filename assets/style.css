@@ -907,3 +907,53 @@ body[data-reader="pro"] .digest-pro { display: block; }
   .digest-index { font-size: 1rem; }
   .digest-oneliner { font-size: 0.9rem; }
 }
+
+/* ------------------------------------------------------------ 視圖切換 --- */
+
+.view-tabs {
+  display: flex;
+  margin: 26px 0 0;
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.view-tabs button {
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  letter-spacing: 0.16em;
+  color: var(--ink-3);
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  padding: 10px 24px 9px;
+  margin-bottom: -1px;
+  cursor: pointer;
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
+.view-tabs button:hover { color: var(--ink-2); }
+.view-tabs button[aria-selected="true"] {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+.view-tabs button:focus-visible { outline: 2px solid var(--deep); outline-offset: -2px; }
+
+.view-panel { margin-top: 22px; }
+
+@media (max-width: 620px) {
+  .view-tabs button { padding: 9px 16px 8px; font-size: 0.88rem; }
+}
+
+.chip-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  color: var(--ink-2);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 3px 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.chip-toggle:hover { border-color: var(--rule-strong); }
+.chip-toggle input { margin: 0; accent-color: var(--deep); }

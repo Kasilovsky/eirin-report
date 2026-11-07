@@ -325,6 +325,53 @@ def build_digest(candidates: list[dict[str, Any]], settings: dict[str, Any]) -> 
 # 输出
 # --------------------------------------------------------------------------- #
 
+FEED_FILE = Path("feed.xml")
+SITE_URL = "https://kasilovsky.github.io/eirin-report/"
+
+
+def write_feed(digest: dict[str, Any]) -> None:
+    """RSS 以「每日要目」为准：订阅者收到的是 10 条解读，而不是题录前 50 条。"""
+    from email.utils import format_datetime
+    from xml.sax.saxutils import escape
+
+    def rfc822(date_str: str) -> str:
+        try:
+            dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            return format_datetime(dt)
+        except (TypeError, ValueError):
+            return format_datetime(utc_now())
+
+    items = []
+    for item in digest.get("items", []):
+        title = escape(item.get("title_zh") or item.get("title_en") or "")
+        summary = " ".join(part for part in (item.get("one_liner"), item.get("key_finding")) if part)
+        description = escape(summary[:500])
+        link = escape(item.get("link") or SITE_URL)
+        items.append(
+            "    <item>\n"
+            f"      <title>{title}</title>\n"
+            f"      <link>{link}</link>\n"
+            f"      <guid isPermaLink=\"true\">{link}</guid>\n"
+            f"      <pubDate>{rfc822(item.get('date') or '')}</pubDate>\n"
+            f"      <description>{description}</description>\n"
+            "    </item>"
+        )
+
+    feed = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0">\n'
+        "  <channel>\n"
+        "    <title>永遠亭 医療報告 · 每日要目</title>\n"
+        f"    <link>{escape(SITE_URL)}</link>\n"
+        "    <description>八意永琳编制的权威医学期刊要目：每条含一句话结论、关键数据与意义</description>\n"
+        "    <language>zh-TW</language>\n"
+        f"    <lastBuildDate>{format_datetime(utc_now())}</lastBuildDate>\n"
+        + "\n".join(items)
+        + "\n  </channel>\n</rss>\n"
+    )
+    FEED_FILE.write_text(feed, encoding="utf-8")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="永遠亭 医療報告 每日要目生成")
     parser.add_argument("--days", type=int, default=DEFAULT_DAYS, help="候选时间窗口（天）")
@@ -415,6 +462,8 @@ def main() -> int:
 
     latest = DIGEST_DIR / "latest.json"
     latest.write_text(json.dumps(digest, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    write_feed(digest)
 
     log.info("已写入 %s 条要目 -> %s（degraded=%s）", len(items), target, digest["degraded"])
     return 0

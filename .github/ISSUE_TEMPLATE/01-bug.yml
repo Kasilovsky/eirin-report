@@ -1,0 +1,45 @@
+name: 报告错误
+description: 翻译错误、数据错误或页面显示问题
+title: "[纠错] "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 问题类型
+      options:
+        - 翻译错误（标题/术语）
+        - 数据错误（日期、期刊、科室、作者）
+        - 页面显示或交互问题
+        - 链接失效
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: pmid
+    attributes:
+      label: 涉及条目
+      description: 填 PMID 或标题即可，便于定位
+      placeholder: 例：42956796，或「疑似心肌梗死患者0/1 h…」
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体说明
+      description: 原文是什么、当前显示是什么、你认为正确的应该是什么
+      placeholder: |
+        原文：…
+        当前显示：…
+        建议改为：…
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: 依据（可选）
+      description: 期刊原文链接、指南或术语表出处
+    validations:
+      required: false

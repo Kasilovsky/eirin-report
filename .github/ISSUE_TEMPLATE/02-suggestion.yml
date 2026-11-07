@@ -1,0 +1,30 @@
+name: 选题建议
+description: 希望下期关注的方向、期刊或主题
+title: "[建议] "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 建议类型
+      options:
+        - 希望增加的主题/科室
+        - 希望关注的期刊
+        - 希望增加的功能
+        - 内容编排建议
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体建议
+      placeholder: 说明你希望看到什么、为什么
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        > 说明：本站只收录 PubMed 上已发表的文献题录，不做诊疗建议。
+        若建议涉及具体患者情况，请勿在公开议题中填写个人健康信息。

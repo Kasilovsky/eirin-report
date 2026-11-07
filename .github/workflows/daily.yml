@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: daily-crawl
@@ -65,6 +66,12 @@ jobs:
             git commit -m "chore: 更新文献索引 $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      - name: 开放讨论帖
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python discuss_post.py
 
       - name: 失败提示
         if: failure()

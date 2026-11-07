@@ -1,175 +1,176 @@
-# 永远亭医疗报告 · 自动采集与发布
+# 永遠亭 医療報告
 
-每天从 [PubMed](https://pubmed.ncbi.nlm.nih.gov/) 采集七种权威医学期刊的近期文献，
-生成静态站点所需的索引数据、按月归档与 RSS 订阅源；并用大模型把一手研究改写成
-面向普通读者的「每日要目」。
+每天从 [PubMed](https://pubmed.ncbi.nlm.nih.gov/) 采集七种权威医学期刊的近期文献，生成「每日要目」与可检索的文献索引，发布为静态站点。
 
 线上站点：<https://kasilovsky.github.io/eirin-report/>
 
-## 两层产物
+---
 
-| 层 | 内容 | 面向 |
-| --- | --- | --- |
-| 每日要目 `data/digest/` | 3–10 条一手研究的结论、关键数字、意义 | 没有医学训练但想读懂进展的人 |
-| 全量索引 `data/news.json` | 700 条题录，可检索、筛选、导出 | 需要查阅原文的读者 |
+## 一、快速上手
 
-## 收录期刊
+### 改刊首语（八意永琳的台词）
 
-| 缩写 | 期刊 |
-| --- | --- |
-| N Engl J Med | New England Journal of Medicine |
-| Lancet | The Lancet |
-| JAMA | JAMA |
-| BMJ | BMJ |
-| Nat Med | Nature Medicine |
-| Cell | Cell |
-| Sci Transl Med | Science Translational Medicine |
+1. 双击桌面上的 **「刊首語編輯器」**（或运行 `python edit_server.py`）
+2. 浏览器打开 <http://127.0.0.1:8766/>
+3. 改文字 → 点 **「保存」**（只改本地，可反复预览）
+4. 满意后点 **「保存並發布」** → 自动 commit + push → 约 1 分钟后线上生效
 
-## 项目结构
+编辑器底部状态栏会显示同步状态：
 
-```
-.
-├── index.html                 报告主页面（检索、筛选、导出）
-├── discuss.html               竹林茶会（GitHub Issues 索引，不含任何凭据）
-├── assets/
-│   ├── style.css              排版样式（纸本期刊风格，明暗双主题）
-│   ├── app.js                 主页面逻辑（无框架、无依赖）
-│   ├── discuss.js             讨论页逻辑
-│   ├── icon.svg               站点图标
-│   ├── icon-192.png           PWA 图标
-│   └── icon-512.png           PWA 图标
-├── crawler.py                 采集器：PubMed → 分类 → 翻译 → JSON/RSS
-├── digest.py                  要目生成器：筛选一手研究 → 大模型解读 → data/digest/
-├── data/
-│   ├── news.json              当前窗口（180 天）的文献索引，前端唯一数据源
-│   ├── digest/                每日要目（latest.json + 按日期归档）
-│   ├── i18n_cache.json        标题翻译缓存（跨天复用，需提交）
-│   └── archive/YYYY-MM.json   按月归档，便于回溯
-├── feed.xml                   RSS 2.0 订阅源
-├── sw.js                      Service Worker（离线缓存，相对路径）
-├── manifest.json              PWA 清单
-└── .github/workflows/daily.yml 每日自动采集
-```
+| 显示 | 含义 |
+|---|---|
+| `已同步` | 本地与 GitHub 一致 |
+| `本地有未保存改动` | 改了还没保存/发布 |
+| `未推送 N 个提交` | 已提交，但还没推到 GitHub |
+| `远端新 N 个提交` | GitHub 上有新提交，先别发布，需要先合并 |
 
-## 数据流
-
-```
-PubMed esearch  →  按刊检索近 180 天，每刊至多 100 条
-      ↓
-PubMed efetch   →  一次取回标题、摘要、作者、DOI、MeSH、卷期页
-      ↓
-解析与分类      →  MeSH 主题词映射科室，PubDate 决定出版日期
-      ↓
-翻译与增量合并  →  标题翻译走缓存 + MyMemory，以 PMID 为主键 upsert
-      ↓
-写出            →  data/news.json、data/archive、feed.xml
-```
-
-## 本地运行
+### 手动跑一次数据
 
 ```bash
-pip install -r requirements.txt
-python crawler.py              # 增量更新
-python crawler.py --full       # 忽略本地数据，全量重建
-python crawler.py --days 30    # 只采集最近 30 天
-python crawler.py --no-translate  # 跳过在线翻译，仅复用缓存
+python crawler.py        # 采集 PubMed → data/news.json + feed.xml
+python translate_llm.py  # 用大模型翻译标题
+python digest.py         # 生成每日要目 → data/digest/
 ```
 
-页面需要 HTTP 环境（`fetch` 无法读取 `file://`）：
+### 本地预览站点
 
 ```bash
-python -m http.server 8000
-# 打开 http://localhost:8000/
+python -m http.server 8765
+# 打开 http://127.0.0.1:8765/
 ```
 
-## 翻译策略
+---
 
-标题翻译按以下优先级处理，任何一步失败都不会清空已有译文：
+## 二、文件说明
 
-1. 命中 `data/i18n_cache.json` → 直接使用（跨天复用，日常几乎零请求）；
-2. 未命中 → MyMemory 免费接口，按预算（默认 300 条/次）与 0.6 秒间隔逐步补齐；
-3. 连续失败 5 次即熔断，保留英文标题，等待下次运行继续。
+### 页面（静态，部署到 GitHub Pages）
 
-因此首次部署时中文标题较少，随着缓存累积会逐日覆盖。页面同时展示中英标题，
-未译条目显示原文，不做占位替换。
+| 文件 | 作用 |
+|---|---|
+| `index.html` | 首页：刊首语、要目入口、文献检索（搜索/期刊/科室/时间筛选） |
+| `digest.html` | 本期要目页：十则研究的一句话结论、关键数据、意义 |
+| `discuss.html` | 竹林茶会：公告区（读 GitHub Issues）+ 留言板（暂未开放） |
+| `rss.html` | RSS 订阅说明页：订阅地址、阅读器用法 |
+| `assets/style.css` | 全站样式（纸本期刊风格，明暗双主题） |
+| `assets/app.js` | 首页逻辑：检索、筛选、分页、复制、导出 |
+| `assets/digest.js` | 要目页逻辑：读取 `data/digest/latest.json` 并渲染 |
+| `assets/discuss.js` | 茶会页逻辑：读取 GitHub Issues 里作者为 Kasilovsky 的公告 |
+| `assets/icon.svg` | 站点图标（月牙 + 竹） |
+| `assets/icon-192.png` / `icon-512.png` | PWA 图标 |
+| `assets/editor.ico` | 编辑器桌面快捷方式图标（月牙 + 笔） |
+| `manifest.json` | PWA 清单（可安装到桌面） |
+| `sw.js` | Service Worker，离线缓存（相对路径，适配子目录） |
 
-## 每日要目与模型注入（暗门）
+### 数据（`data/`）
 
-`digest.py` 从索引里筛出最近 3 天的一手研究（RCT / Meta / 三期 / 指南），
-排除社论、通信、勘误、病例报告，补抓**完整摘要**后交给大模型，
-输出结论、关键数字、意义与证据等级，写入 `data/digest/`。
+| 文件 | 作用 |
+|---|---|
+| `data/news.json` | 文献索引（当前窗口 180 天，约 720 条），前端唯一数据源 |
+| `data/digest/latest.json` | 最新一期要目（10 条解读） |
+| `data/digest/YYYY-MM-DD.json` | 按期归档的要目 |
+| `data/forewords.json` | 刊首语配置：`index` 首页轮换 20 条、`discuss` 茶会页那句 |
+| `data/i18n_cache.json` | 标题翻译缓存（跨天复用，避免重复请求） |
+| `data/archive/YYYY-MM.json` | 按月归档的题录（只留核心字段） |
+| `feed.xml` | RSS 订阅源（由 digest.py 生成，10 条要目） |
+| `feed.xsl` | RSS 的浏览器渲染样式（Chrome 将弃用 XSLT，仅作兼容） |
 
-模型接口走 OpenAI 兼容协议，默认 DeepSeek。**密钥只从环境变量读取，从不写进仓库文件。**
+### 脚本（Python）
 
-三种注入方式，任选其一：
+| 文件 | 作用 |
+|---|---|
+| `crawler.py` | 采集器：PubMed 检索 → 解析 → 分类 → 翻译 → 写 news.json / archive / feed |
+| `translate_llm.py` | 索引层标题的 LLM 翻译（比 MyMemory 准，覆盖 99%） |
+| `digest.py` | 要目生成：筛选一手研究 → 补抓完整摘要 → LLM 写解读 → 写 digest + feed |
+| `discuss_post.py` | 每天用 GITHUB_TOKEN 自动开讨论帖（按日期去重） |
+| `edit_server.py` | **本地刊首语编辑器**（见下方详解） |
+| `start-editor.bat` | 双击启动编辑器（已在运行则只打开浏览器） |
 
-| 场景 | 做法 |
-| --- | --- |
-| 本地 | 在项目根目录放 `.env`（已被 `.gitignore` 忽略），写 `DEEPSEEK_API_KEY=...` |
-| 本地临时 | `$env:DEEPSEEK_API_KEY="..."` 后运行 `python digest.py` |
-| CI | 仓库 Settings → Secrets and variables → Actions 添加 `DEEPSEEK_API_KEY` |
+### CI / 配置
 
-三个开关（`EIRIN_LLM_MODE`）：
+| 文件 | 作用 |
+|---|---|
+| `.github/workflows/daily.yml` | 每日 UTC 01:00 自动采集、翻译、生成要目、提交、开帖 |
+| `.github/ISSUE_TEMPLATE/01-bug.yml` | 「报告错误」反馈表单 |
+| `.github/ISSUE_TEMPLATE/02-suggestion.yml` | 「选题建议」表单 |
+| `.gitignore` | 忽略 `.tmp/`、`.env`、`worker/.wrangler/` 等 |
+| `requirements.txt` | Python 依赖（仅 `requests`） |
+| `worker/` | 预留的 Cloudflare Worker 留言板后端（国内不可达，未启用） |
 
-| 值 | 行为 |
-| --- | --- |
-| `auto`（默认） | 有密钥就调用模型；没有则降级为题录模式 |
-| `off` | 强制题录模式，不产生任何网络请求 |
-| `force` | 要求必须有密钥，缺失时直接报错退出 |
+---
 
-其他可覆盖项：`LLM_BASE_URL`（默认 `https://api.deepseek.com/v1`）、`LLM_MODEL`（默认 `deepseek-chat`）、
-`--days` / `--limit` / `--no-llm`。
+## 三、刊首语编辑器（`edit_server.py`）
 
-**降级不打折**：无密钥或调用失败时，产物标记 `degraded: true`，页面明确写出
-「本期未启用模型解读，以下仅为题录」，不会把机翻伪装成解读。
+本地小工具，只监听 `127.0.0.1`，不对外。
 
-**不编造**：提示词限定模型只能依据摘要原文，数字必须与原文一致；摘要没给结论时，
-该条标为「证据等级：低」并写明「摘要未给出结果」。
-
-成本参考：每天 10 条候选约 2–3 万 token，按 DeepSeek 价格折算约几分钱。
-
-## 数据结构（schema_version: 2）
-
-```jsonc
-{
-  "schema_version": 2,
-  "generated_at": "2026-11-07T03:00:00+08:00",
-  "window_days": 180,
-  "count": 700,
-  "journals": [{ "abbr": "Lancet", "name": "The Lancet", "count": 100 }],
-  "failures": [],
-  "stats": { "translate_used": 120, "cache_size": 120, "translate_fails": 0 },
-  "articles": [
-    {
-      "pmid": "42956796",
-      "journal": "The Lancet",
-      "journal_abbr": "Lancet",
-      "title_en": "…",
-      "title_zh": "…",
-      "summary_en": "…",
-      "summary_zh": "【Meta 分析】Lancet 刊载。…",
-      "citation": "Lancet. 2026; 408(10567): 1953-1968",
-      "link": "https://pubmed.ncbi.nlm.nih.gov/42956796/",
-      "date": "2026-11-07",
-      "authors": "…",
-      "author_count": 9,
-      "doi": "10.1016/…",
-      "study_type": "Meta 分析",
-      "mesh": ["Myocardial Infarction", "…"],
-      "departments": ["循环器"]
-    }
-  ]
-}
+```
+双击 start-editor.bat
+  ↓
+启动 edit_server.py（8766 端口）
+  ↓
+浏览器打开 http://127.0.0.1:8766/
 ```
 
-## 部署
+提供的操作：
 
-推送到 `main` 后由 GitHub Pages 自动发布。每日 UTC 01:00（北京时间 09:00）
-由 Actions 运行采集并提交变更；也可在 Actions 页面手动触发。
+- 编辑 `index` 的每一条（文本框直接改）
+- `↑ ↓` 调整顺序、`删` 删除、`＋ 新增一條` 添加
+- 编辑 `discuss` 字段（茶会页那句）
+- **保存**：写回 `data/forewords.json`，站点刷新即生效
+- **保存並發布**：写回 + `git commit` + `git push`（推送失败自动重试 3 次）
+- 状态栏显示同步状态（见上方表格）
 
-采集失败时不会覆盖既有数据：脚本以 PMID 为键做合并，抓不到就直接保留上一次的内容。
+只改 `data/forewords.json` 这一个文件，不会动其他内容。
 
-## 免责声明
+---
 
-本站仅汇总公开文献的题录信息，供医学信息检索与交流参考，不构成诊疗建议。
-临床决策请以期刊原文与现行临床指南为准。
+## 四、数据流
+
+```
+PubMed esearch ──▶ 按刊检索近 180 天（每刊至多 100 条）
+      ↓
+PubMed efetch  ──▶ 标题、摘要、作者、DOI、MeSH、卷期页
+      ↓
+crawler.py     ──▶ 解析、MeSH 分类、PubDate 定日期、增量合并（以 PMID 为主键）
+      ↓
+translate_llm.py ─▶ LLM 翻译标题（失败保留原文，不影响流程）
+      ↓
+digest.py      ──▶ 筛选一手研究 → 完整摘要 → LLM 写解读 → data/digest/
+      ↓
+GitHub Actions ──▶ commit + push → Pages 部署
+```
+
+---
+
+## 五、部署
+
+推送到 `main` 后由 GitHub Pages 自动发布。每日 UTC 01:00（北京时间 09:00）由 Actions 执行采集，也可在 Actions 页面手动触发。
+
+需要的仓库 Secret：
+
+| 名称 | 用途 |
+|---|---|
+| `DEEPSEEK_API_KEY` | 要目解读 + 标题翻译（未配置时自动降级为题录模式） |
+
+`GITHUB_TOKEN` 是 Actions 内置的，用于提交数据与开讨论帖。
+
+---
+
+## 六、常见问题
+
+**页面停在「正在調閱」？**
+多半是浏览器缓存了旧 JS。资源引用带 `?v=` 版本号，硬刷新（Ctrl+F5）即可。
+
+**编辑器打不开？**
+确认 `python edit_server.py` 在运行，且 8766 端口没被占用。
+
+**发布时提示推送失败？**
+网络对 GitHub 的连接不稳定，重试即可；编辑器会自动重试 3 次。
+
+**留言板？**
+预留了 `worker/`（Cloudflare）后端，但 `workers.dev` 在国内被 DNS 污染无法访问，暂未启用。
+
+---
+
+## 七、免责声明
+
+本站仅汇总公开文献的题录与摘要信息，供医学信息检索与交流参考，不构成诊疗建议。临床决策请以期刊原文与现行临床指南为准。

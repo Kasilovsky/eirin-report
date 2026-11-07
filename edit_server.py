@@ -17,7 +17,9 @@
 from __future__ import annotations
 
 import json
+import subprocess
 import sys
+import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse
@@ -84,6 +86,7 @@ textarea:focus { border-color:var(--deep); }
 
 <div class="bar">
   <button class="btn" id="save">保存</button>
+  <button class="btn" id="publish" style="background:var(--accent);border-color:var(--accent)">保存並發布</button>
   <button class="btn ghost" id="reload">重新載入</button>
   <span class="status" id="status">就緒</span>
 </div>
@@ -165,6 +168,19 @@ document.getElementById("add").addEventListener("click", () => {
   setStatus("已新增一條空白（記得填寫後保存）");
 });
 document.getElementById("save").addEventListener("click", save);
+
+async function publish() {
+  await save();
+  setStatus("正在推送…");
+  try {
+    const res = await fetch("/api/publish", { method: "POST" });
+    const out = await res.json();
+    setStatus(out.message, out.ok ? "ok" : "err");
+  } catch (e) {
+    setStatus("發布失敗：" + e.message, "err");
+  }
+}
+document.getElementById("publish").addEventListener("click", publish);
 document.getElementById("reload").addEventListener("click", load);
 discussEl.addEventListener("input", () => { data.discuss = discussEl.value; });
 
@@ -173,6 +189,42 @@ load();
 </body>
 </html>
 """
+
+
+def git(*args: str) -> subprocess.CompletedProcess:
+    return subprocess.run(
+        ["git", *args],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+
+
+def publish_forewords() -> tuple[bool, str]:
+    """把 data/forewords.json 提交並推送到 GitHub，失敗時重試。"""
+    staged = git("add", "data/forewords.json")
+    if staged.returncode != 0:
+        return False, staged.stderr.strip() or "git add 失敗"
+
+    status = git("status", "--porcelain", "data/forewords.json")
+    if status.returncode == 0 and not status.stdout.strip():
+        return True, "文件沒有變更，無需提交"
+
+    commit = git("commit", "-m", "content: 更新刊首語")
+    if commit.returncode != 0:
+        return False, (commit.stderr or commit.stdout).strip()[-300:]
+
+    last_error = ""
+    for _ in range(3):
+        push = git("-c", "http.version=HTTP/1.1", "push", "origin", "main")
+        if push.returncode == 0:
+            return True, "已推送，Pages 約 1 分鐘後生效"
+        last_error = (push.stderr or push.stdout).strip()[-300:]
+        time.sleep(3)
+
+    return False, f"推送失敗（已提交本地）：{last_error}"
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -199,7 +251,18 @@ class Handler(BaseHTTPRequestHandler):
             self._send(404, b"Not Found", "text/plain")
 
     def do_POST(self) -> None:  # noqa: N802
-        if urlparse(self.path).path != "/api/forewords":
+        path = urlparse(self.path).path
+
+        if path == "/api/publish":
+            ok, message = publish_forewords()
+            self._send(
+                200 if ok else 500,
+                json.dumps({"ok": ok, "message": message}, ensure_ascii=False).encode("utf-8"),
+                "application/json",
+            )
+            return
+
+        if path != "/api/forewords":
             self._send(404, b"Not Found", "text/plain")
             return
         try:

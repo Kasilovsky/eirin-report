@@ -32,6 +32,21 @@
     "把不確定說成確定，是醫者最常見的過失。"
   ];
 
+  /* 刊首語可在 data/forewords.json 中調整；載入失敗時退回內建文案 */
+  let forewords = FOREWORDS;
+
+  async function loadForewords() {
+    try {
+      const response = await fetch(`data/forewords.json?t=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) return;
+      const data = await response.json();
+      const list = Array.isArray(data) ? data : data?.index;
+      if (Array.isArray(list) && list.length) forewords = list.filter((t) => typeof t === "string" && t.trim());
+    } catch {
+      /* 保持內建兜底 */
+    }
+  }
+
   const state = {
     data: null,
     q: "",
@@ -221,8 +236,12 @@
     el("issueSources").textContent = journals.length ? `${journals.length} 種期刊` : "PubMed";
     el("updatedAt").textContent = formatStamp(data.generated_at);
 
-    const dayIndex = Math.floor(today / 86400000) % FOREWORDS.length;
-    el("forewordText").textContent = FOREWORDS[dayIndex];
+    const list = forewords.length ? forewords : FOREWORDS;
+    const fwParam = new URLSearchParams(location.search).get("fw");
+    const index = fwParam !== null && Number.isInteger(Number(fwParam))
+      ? Math.abs(Number(fwParam)) % list.length
+      : Math.floor(today / 86400000) % list.length;
+    el("forewordText").textContent = list[index];
   }
 
   function renderPager(totalPages) {
@@ -617,6 +636,7 @@
       b.setAttribute("aria-pressed", String(Number(b.dataset.days) === state.days));
     });
 
+    await loadForewords();
     renderMeta();
     bootChips();
     render();

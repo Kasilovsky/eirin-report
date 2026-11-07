@@ -63,8 +63,25 @@
     }
   }
 
+  /* 討論頁刊首語可在 data/forewords.json 的 discuss 欄位調整 */
+  async function loadForeword() {
+    const node = el("forewordText");
+    if (!node) return;
+    try {
+      const response = await fetch(`data/forewords.json?t=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) return;
+      const data = await response.json();
+      if (data && typeof data.discuss === "string" && data.discuss.trim()) {
+        node.textContent = data.discuss;
+      }
+    } catch {
+      /* 保留頁面內靜態文案 */
+    }
+  }
+
   function boot() {
     applyTheme();
+    loadForeword();
     loadNotices();
   }
 

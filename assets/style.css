@@ -1222,3 +1222,14 @@ body[data-reader="pro"] .digest-pro { display: block; }
   .auth-row { flex-direction: column; }
   .auth-row input { flex: 1 1 auto; }
 }
+
+/* 留言板佔位 */
+.board-todo {
+  margin: 8px 0 0;
+  padding: 26px 12px;
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-3);
+}

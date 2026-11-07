@@ -7,9 +7,9 @@
   <meta name="description" content="永遠亭医療報告的讀者討論區：公告與匿名留言板。">
   <meta name="theme-color" content="#f7f4ec" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#121719" media="(prefers-color-scheme: dark)">
-  <link rel="icon" href="assets/icon.svg?v=20261107c" type="image/svg+xml">
+  <link rel="icon" href="assets/icon.svg?v=20261107d" type="image/svg+xml">
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="assets/style.css?v=20261107c">
+  <link rel="stylesheet" href="assets/style.css?v=20261107d">
 </head>
 <body>
 
@@ -42,45 +42,14 @@
   <section class="board-chat" aria-labelledby="chatTitle">
     <header class="board-head">
       <h2 id="chatTitle">留言板</h2>
-      <button class="tool-btn" id="chatToggle" type="button" aria-expanded="false" aria-controls="chatBody">展開</button>
     </header>
-
-    <div class="chat-body" id="chatBody" hidden>
-      <div class="chat-auth" id="chatAuth">
-        <div class="auth-tabs">
-          <button type="button" data-auth="login" aria-pressed="true">登入</button>
-          <button type="button" data-auth="register" aria-pressed="false">註冊</button>
-        </div>
-        <div class="auth-row">
-          <input id="authName" type="text" placeholder="名字（2–24 字）" autocomplete="username" spellcheck="false">
-          <input id="authSecret" type="password" placeholder="密碼（至少 8 位）" autocomplete="current-password">
-        </div>
-        <button class="tool-btn" id="authSubmit" type="button">登入</button>
-        <p class="auth-hint" id="authHint">首次使用請先切到「註冊」。名字與密碼只保存在本機瀏覽器，不上傳伺服器；清快取或換裝置會遺失。</p>
-      </div>
-
-      <div class="chat-compose" id="chatCompose" hidden>
-        <div class="compose-top">
-          <span>以 <strong id="chatWho">——</strong> 的身份發言</span>
-          <button class="link-btn" id="chatLogout" type="button">登出</button>
-        </div>
-        <textarea id="chatInput" maxlength="500" placeholder="說點什麼…（500 字以內）"></textarea>
-        <div class="compose-bottom">
-          <span id="chatCount">0 / 500</span>
-          <button class="tool-btn" id="chatSend" type="button">發送</button>
-        </div>
-      </div>
-
-      <ul class="chat-list" id="chatList">
-        <li class="loading">正在調閱留言…</li>
-      </ul>
-    </div>
+    <p class="board-todo">該功能還未完善，敬請期待。</p>
   </section>
 
   <footer class="colophon">
     <div class="row">
       <span><a href="./">← 返回医療報告</a> · <a href="digest.html">本期要目</a></span>
-      <span>公告寄存於 GitHub Issues；留言保存在本機瀏覽器（localStorage），不上傳。</span>
+      <span>公告寄存於 GitHub Issues；留言板暫未開放。</span>
     </div>
     <div class="seal">永遠亭 医療部 · 八意永琳</div>
   </footer>
@@ -89,6 +58,6 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="assets/discuss.js?v=20261107c" defer></script>
+<script src="assets/discuss.js?v=20261107d" defer></script>
 </body>
 </html>

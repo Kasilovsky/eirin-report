@@ -157,6 +157,7 @@ async function save() {
     if (!res.ok) throw new Error("HTTP " + res.status);
     const out = await res.json();
     setStatus("已保存（" + out.count + " 條）", "ok");
+    loadStatus();
   } catch (e) {
     setStatus("保存失敗：" + e.message, "err");
   }
@@ -176,6 +177,7 @@ async function publish() {
     const res = await fetch("/api/publish", { method: "POST" });
     const out = await res.json();
     setStatus(out.message, out.ok ? "ok" : "err");
+    loadStatus();
   } catch (e) {
     setStatus("發布失敗：" + e.message, "err");
   }
@@ -184,6 +186,19 @@ document.getElementById("publish").addEventListener("click", publish);
 document.getElementById("reload").addEventListener("click", load);
 discussEl.addEventListener("input", () => { data.discuss = discussEl.value; });
 
+async function loadStatus() {
+  try {
+    const res = await fetch("/api/status", { cache: "no-store" });
+    const s = await res.json();
+    const parts = [];
+    if (s.dirty) parts.push("本地有未保存改动");
+    if (s.ahead > 0) parts.push("未推送 " + s.ahead + " 个提交");
+    if (s.behind > 0) parts.push("远端新 " + s.behind + " 个提交");
+    setStatus(parts.length ? parts.join(" · ") : "已同步", parts.length ? "" : "ok");
+  } catch (e) { /* 忽略 */ }
+}
+
+loadStatus();
 load();
 </script>
 </body>
@@ -227,6 +242,18 @@ def publish_forewords() -> tuple[bool, str]:
     return False, f"推送失敗（已提交本地）：{last_error}"
 
 
+def git_status() -> dict:
+    """本地文件是否有改动、本地与远端各差多少提交。"""
+    dirty = git("status", "--porcelain", "data/forewords.json")
+    ahead = git("rev-list", "--count", "origin/main..HEAD")
+    behind = git("rev-list", "--count", "HEAD..origin/main")
+    return {
+        "dirty": bool(dirty.stdout.strip()),
+        "ahead": int(ahead.stdout.strip() or 0) if ahead.returncode == 0 else -1,
+        "behind": int(behind.stdout.strip() or 0) if behind.returncode == 0 else -1,
+    }
+
+
 class Handler(BaseHTTPRequestHandler):
     def _send(self, code: int, body: bytes, content_type: str) -> None:
         self.send_response(code)
@@ -247,6 +274,8 @@ class Handler(BaseHTTPRequestHandler):
                 self._send(500, json.dumps({"error": str(exc)}).encode("utf-8"), "application/json")
                 return
             self._send(200, json.dumps(data, ensure_ascii=False).encode("utf-8"), "application/json")
+        elif path == "/api/status":
+            self._send(200, json.dumps(git_status(), ensure_ascii=False).encode("utf-8"), "application/json")
         else:
             self._send(404, b"Not Found", "text/plain")
 

@@ -40,8 +40,6 @@
     days: 7,
     sort: "date-desc",
     page: 1,
-    digest: null,
-    view: "digest",
     hideNoise: true,
   };
 
@@ -466,7 +464,6 @@
     if (state.days !== 7) params.set("range", String(state.days));
     if (state.sort !== "date-desc") params.set("sort", state.sort);
     if (state.page > 1) params.set("page", String(state.page));
-    if (state.view === "index") params.set("view", "index");
     const query = params.toString();
     history.replaceState(null, "", query ? `?${query}` : location.pathname);
   }
@@ -479,23 +476,6 @@
     if (params.get("range") !== null && params.get("range") !== "") state.days = Number(params.get("range")) || 0;
     if (params.get("sort")) state.sort = params.get("sort");
     if (params.get("page")) state.page = Math.max(1, Number(params.get("page")) || 1);
-    if (params.get("view") === "index") state.view = "index";
-  }
-
-  /* 要目 / 文献索引 两个视图互斥显示，避免要目把检索区挤到下方 */
-  function setView(view, { silent = false } = {}) {
-    state.view = view === "index" ? "index" : "digest";
-    const digestPanel = el("digestSection");
-    const indexPanel = el("indexView");
-    if (!digestPanel || !indexPanel) return;
-
-    const isDigest = state.view === "digest";
-    digestPanel.hidden = !isDigest;
-    indexPanel.hidden = isDigest;
-    el("tabDigest").setAttribute("aria-selected", String(isDigest));
-    el("tabIndex").setAttribute("aria-selected", String(!isDigest));
-    localStorage.setItem("eirin-view", state.view);
-    if (!silent) syncUrl();
   }
 
   /* --------------------------------------------------------------- 初始化 --- */
@@ -509,9 +489,6 @@
   }
 
   function wireControls() {
-    el("tabDigest").addEventListener("click", () => setView("digest"));
-    el("tabIndex").addEventListener("click", () => setView("index"));
-
     const hideNoise = el("hideNoise");
     if (hideNoise) {
       hideNoise.checked = state.hideNoise;
@@ -572,7 +549,6 @@
 
     el("exportBtn").addEventListener("click", exportMarkdown);
     el("copyBtn").addEventListener("click", copyPageDigest);
-    el("copyDigestBtn").addEventListener("click", copyDigest);
 
     el("topBtn").addEventListener("click", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -616,124 +592,11 @@
     renderChips("deptChips", depts, state.depts, (item) => item, 12);
   }
 
-  /* ------------------------------------------------------------ 本期要目 --- */
-
-  const DIGEST_URL = "data/digest/latest.json";
-  const CONF_LABEL = { high: "高", medium: "中", low: "低" };
-
-  async function loadDigest() {
-    try {
-      const response = await fetch(`${DIGEST_URL}?t=${Date.now()}`, { cache: "no-store" });
-      if (!response.ok) return null;
-      const data = await response.json();
-      return Array.isArray(data.items) && data.items.length ? data : null;
-    } catch {
-      return null;
-    }
-  }
-
-  function digestItemHtml(item, index) {
-    const confidence = CONF_LABEL[item.confidence] || "中";
-    const tags = (item.tags || []).map((tag) => `<span>#${esc(tag)}</span>`).join("");
-    const pro = [
-      item.clinical_note ? `<p class="digest-row digest-pro"><b>臨床備註</b>${esc(item.clinical_note)}</p>` : "",
-      item.title_en ? `<p class="digest-row digest-pro"><b>原題</b>${esc(item.title_en)}</p>` : "",
-    ].join("");
-
-    return `
-      <li class="digest-item">
-        <div class="digest-index" aria-hidden="true">${String(index).padStart(2, "0")}</div>
-        <div>
-          <div class="digest-kicker">
-            <span class="j">${esc(item.journal || "")}</span>
-            ${item.study_type ? `<span class="t">${esc(item.study_type)}</span>` : ""}
-            <span>${esc(item.date || "")}</span>
-            <span class="conf" data-level="${esc(item.confidence || "medium")}">證據等級：${confidence}</span>
-          </div>
-          <h3 class="digest-title">${esc(item.title_zh || item.title_en || "")}</h3>
-          ${item.one_liner ? `<p class="digest-oneliner">${esc(item.one_liner)}</p>` : ""}
-          ${item.key_finding ? `<p class="digest-row"><b>關鍵結果</b>${esc(item.key_finding)}</p>` : ""}
-          ${item.why_it_matters ? `<p class="digest-row"><b>意義</b>${esc(item.why_it_matters)}</p>` : ""}
-          ${pro}
-          <div class="digest-foot">
-            ${item.evidence ? `<span>證據：${esc(item.evidence)}</span>` : ""}
-            ${item.link ? `<a href="${esc(item.link)}" target="_blank" rel="noopener">PubMed 原文 ↗</a>` : ""}
-            ${tags}
-          </div>
-        </div>
-      </li>`;
-  }
-
-  function renderDigest(digest) {
-    state.digest = digest;
-
-    const note = el("digestNote");
-    if (digest.degraded) {
-      note.className = "digest-degraded";
-      note.textContent = "本期未启用模型解读（缺少密钥或调用失败），以下仅为题录；摘要与原文请点开 PubMed 查看。";
-    } else {
-      note.className = "digest-note";
-      note.textContent = `${digest.count} 條 · 由 ${digest.provider || "模型"} 依 PubMed 摘要整理，數字均取自原文；標記「證據等級：低」者表示摘要未給出結論。`;
-    }
-
-    el("digestList").innerHTML = (digest.items || [])
-      .map((item, index) => digestItemHtml(item, index + 1))
-      .join("");
-  }
-
-  function digestText() {
-    const digest = state.digest;
-    if (!digest) return "";
-    const today = new Date();
-    const lines = [`【永遠亭 医療報告】${issueNumber(today)} · ${formatIssueDate(today)}`, ""];
-    (digest.items || []).forEach((item, index) => {
-      lines.push(`${String(index + 1).padStart(2, "0")}｜${item.journal || ""}｜${item.study_type || "研究"}`);
-      if (item.title_zh) lines.push(item.title_zh);
-      if (item.one_liner) lines.push(item.one_liner);
-      if (item.key_finding) lines.push(item.key_finding);
-      if (item.why_it_matters) lines.push(item.why_it_matters);
-      lines.push(item.link || "", "");
-    });
-    lines.push("—— 永遠亭 医療部 · 八意永琳");
-    return lines.join("\n");
-  }
-
-  async function copyDigest() {
-    if (!state.digest) { toast("本期尚無要目"); return; }
-    const ok = await copyText(digestText());
-    toast(ok ? "要目已複製，可直接貼到群裡" : "複製失敗，請手動選取");
-  }
-
-  function initReaderMode() {
-    const saved = localStorage.getItem("eirin-reader");
-    const mode = saved === "pro" ? "pro" : "plain";
-    document.body.dataset.reader = mode;
-    const button = el("readerModeBtn");
-    if (!button) return;
-    button.setAttribute("aria-pressed", String(mode === "pro"));
-    button.textContent = mode === "pro" ? "普通模式" : "專業模式";
-    button.addEventListener("click", () => {
-      const next = document.body.dataset.reader === "pro" ? "plain" : "pro";
-      document.body.dataset.reader = next;
-      localStorage.setItem("eirin-reader", next);
-      button.setAttribute("aria-pressed", String(next === "pro"));
-      button.textContent = next === "pro" ? "普通模式" : "專業模式";
-    });
-  }
-
   async function boot() {
     initTheme();
-    initReaderMode();
     state.hideNoise = localStorage.getItem("eirin-hide-noise") !== "false";
     readUrl();
     wireControls();
-
-    // 首屏视图：URL 参数优先，其次沿用上次选择
-    const hasViewParam = new URLSearchParams(location.search).has("view");
-    if (!hasViewParam && localStorage.getItem("eirin-view") === "index") {
-      state.view = "index";
-    }
-    setView(state.view, { silent: true });
 
     try {
       state.data = await loadData();
@@ -758,14 +621,6 @@
     bootChips();
     render();
     syncUrl();
-
-    const digest = await loadDigest();
-    if (digest) {
-      renderDigest(digest);
-    } else if (state.view === "digest") {
-      /* 没有要目数据时直接落到检索视图，避免空白 */
-      setView("index", { silent: true });
-    }
 
     if (state.data.failures && state.data.failures.length) {
       const note = document.createElement("div");

@@ -359,6 +359,7 @@ def write_feed(digest: dict[str, Any]) -> None:
 
     feed = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<?xml-stylesheet type="text/xsl" href="feed.xsl"?>\n'
         '<rss version="2.0">\n'
         "  <channel>\n"
         "    <title>永遠亭 医療報告 · 每日要目</title>\n"

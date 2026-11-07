@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>本期要目 · 永遠亭 医療報告</title>
+  <meta name="description" content="永遠亭医療報告的每日要目：十則一手研究的一句话结论、关键数据与意义，面向没有医学训练的读者。">
+  <meta name="author" content="八意永琳 / 永遠亭医療部">
+  <meta name="theme-color" content="#f7f4ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121719" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="本期要目 · 永遠亭 医療報告">
+  <meta property="og:description" content="十則醫學要目：一句話結論、關鍵數據與意義">
+  <meta property="og:site_name" content="永遠亭 医療報告">
+
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="wrap wrap-narrow">
+
+  <header class="masthead">
+    <span class="crest">永遠亭</span>
+    <h1>本期要目</h1>
+    <p class="masthead-en">Daily Digest</p>
+    <div class="masthead-rule"><span id="digestDate">——</span></div>
+  </header>
+
+  <section class="digest">
+    <header class="digest-head">
+      <h2>十則要目</h2>
+      <div class="digest-tools">
+        <button class="tool-btn" id="copyDigestBtn" type="button">複製要目</button>
+        <button class="tool-btn" id="readerModeBtn" type="button" aria-pressed="false">專業模式</button>
+      </div>
+    </header>
+    <p class="digest-note" id="digestNote">讀取中…</p>
+    <ol class="digest-list" id="digestList">
+      <li class="loading">正在調閱要目…</li>
+    </ol>
+  </section>
+
+  <footer class="colophon">
+    <div class="row">
+      <span><a href="./">← 返回医療報告（全部文獻）</a></span>
+      <span><a href="rss.html">RSS 訂閱要目</a></span>
+    </div>
+    <div class="row">
+      <span>每條結論均取自 PubMed 摘要原文，數字未經改寫；不構成診療建議。</span>
+    </div>
+    <div class="seal">永遠亭 医療部 · 八意永琳</div>
+  </footer>
+
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/digest.js" defer></script>
+</body>
+</html>

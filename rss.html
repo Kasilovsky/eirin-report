@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>訂閱要目 · 永遠亭 医療報告</title>
+  <meta name="description" content="用 RSS 閱讀器訂閱永遠亭医療報告的每日要目。">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="wrap wrap-narrow">
+
+  <header class="masthead">
+    <span class="crest">永遠亭</span>
+    <h1>訂閱要目</h1>
+    <p class="masthead-en">Subscribe</p>
+    <div class="masthead-rule"><span>每日 09:00 更新</span></div>
+  </header>
+
+  <section class="foreword">
+    <div>
+      <p>不必每天來看，讓它自己送到你面前。</p>
+      <cite>—— 八意永琳</cite>
+    </div>
+  </section>
+
+  <section class="subscribe-card">
+    <h2>RSS 訂閱地址</h2>
+    <div class="subscribe-url">
+      <code id="feedUrl">https://kasilovsky.github.io/eirin-report/feed.xml</code>
+      <button class="tool-btn" id="copyFeed" type="button">複製</button>
+    </div>
+    <p class="subscribe-hint">
+      把這個地址加入任意 RSS 閱讀器即可每天收到十則要目。Chrome 直接打開會顯示原始 XML，
+      那是給閱讀器吃的格式，不是給人看的——所以有了這一頁。
+    </p>
+  </section>
+
+  <section class="subscribe-card">
+    <h2>怎麼用</h2>
+    <ol class="subscribe-steps">
+      <li>在手機或電腦裝一個 RSS 閱讀器（Feedly、Inoreader、NetNewsWire、Reeder 都可以）</li>
+      <li>選「新增訂閱源」，貼上上面的地址</li>
+      <li>之後每期要目會自動送到你的閱讀器裡，不需要再開這個網站</li>
+    </ol>
+  </section>
+
+  <section class="subscribe-card">
+    <h2>不想用閱讀器？</h2>
+    <p class="subscribe-hint">
+      直接看 <a href="digest.html">本期要目</a>，或用 <a href="./">全部文獻</a> 自行檢索。
+      要目頁右上角有「複製要目」，複製後可以直接貼到群裡。
+    </p>
+  </section>
+
+  <footer class="colophon">
+    <div class="row">
+      <span><a href="./">← 返回医療報告</a> · <a href="digest.html">本期要目</a></span>
+    </div>
+    <div class="seal">永遠亭 医療部 · 八意永琳</div>
+  </footer>
+
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+  (function () {
+    "use strict";
+    var url = "https://kasilovsky.github.io/eirin-report/feed.xml";
+
+    function toast(msg) {
+      var node = document.getElementById("toast");
+      node.textContent = msg;
+      node.classList.add("show");
+      setTimeout(function () { node.classList.remove("show"); }, 1800);
+    }
+
+    document.getElementById("copyFeed").addEventListener("click", async function () {
+      try {
+        await navigator.clipboard.writeText(url);
+        toast("訂閱地址已複製");
+      } catch (e) {
+        toast("複製失敗，請手動選取");
+      }
+    });
+
+    var saved = localStorage.getItem("eirin-theme");
+    var dark = saved ? saved === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.dataset.theme = dark ? "dark" : "light";
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+name = "eirin-discuss"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+# KV 命名空间：部署前先执行
+#   npx wrangler kv namespace create EIRIN_KV
+# 把输出的 id 填到下面
+[[kv_namespaces]]
+binding = "EIRIN_KV"
+id = "REPLACE_WITH_YOUR_KV_ID"
+
+[vars]
+# 前端站点地址，用于 CORS。部署到 GitHub Pages 后不需要改
+ALLOWED_ORIGIN = "https://kasilovsky.github.io"

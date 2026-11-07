@@ -1053,3 +1053,172 @@ body[data-reader="pro"] .digest-pro { display: block; }
   .subscribe-url { flex-wrap: wrap; }
   .subscribe-url .tool-btn { margin-left: auto; }
 }
+
+/* ------------------------------------------------------- 竹林茶會 · 新結構 --- */
+
+.board-notices,
+.board-chat {
+  margin: 26px 0 0;
+  padding: 20px 22px;
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--accent);
+}
+
+.board-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.board-head h2 {
+  margin: 0;
+  font-size: 1.05rem;
+  letter-spacing: 0.16em;
+  color: var(--ink);
+}
+.board-head .tool-btn { padding: 5px 12px; font-size: 0.7rem; text-decoration: none; }
+
+/* 公告 */
+.notice-list { list-style: none; margin: 0; padding: 0; }
+.notice-item { padding: 12px 0; border-top: 1px dashed var(--rule); }
+.notice-item:first-child { border-top: 0; padding-top: 2px; }
+.notice-title {
+  display: block;
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.notice-title:hover { color: var(--deep); text-decoration: none; }
+.notice-meta {
+  display: flex;
+  gap: 14px;
+  margin-top: 4px;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  color: var(--ink-3);
+}
+
+/* 留言板 */
+.chat-body { margin-top: 4px; }
+.chat-body[hidden],
+.chat-auth[hidden],
+.chat-compose[hidden] { display: none; }
+
+.chat-auth {
+  padding: 16px;
+  border: 1px dashed var(--rule-strong);
+  background: var(--paper);
+  margin-bottom: 16px;
+}
+
+.auth-tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+.auth-tabs button {
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  color: var(--ink-3);
+  background: none;
+  border: 1px solid var(--rule);
+  padding: 4px 14px;
+  cursor: pointer;
+}
+.auth-tabs button[aria-pressed="true"] {
+  color: var(--paper);
+  background: var(--deep);
+  border-color: var(--deep);
+}
+
+.auth-row { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+.auth-row input {
+  flex: 1 1 180px;
+  padding: 8px 11px;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--ink);
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  outline: none;
+}
+.auth-row input:focus { border-color: var(--deep); box-shadow: 0 0 0 3px var(--deep-soft); }
+
+.auth-hint {
+  margin: 10px 0 0;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  line-height: 1.7;
+  color: var(--ink-3);
+}
+
+.chat-compose {
+  padding: 14px 16px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  margin-bottom: 18px;
+}
+.compose-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  color: var(--ink-3);
+  margin-bottom: 10px;
+}
+.compose-top strong { color: var(--deep); }
+
+.chat-compose textarea {
+  width: 100%;
+  min-height: 88px;
+  padding: 10px 12px;
+  font-family: var(--serif);
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  resize: vertical;
+  outline: none;
+}
+.chat-compose textarea:focus { border-color: var(--deep); box-shadow: 0 0 0 3px var(--deep-soft); }
+
+.compose-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  color: var(--ink-3);
+}
+
+.chat-list { list-style: none; margin: 0; padding: 0; }
+.chat-item { padding: 12px 0; border-top: 1px dashed var(--rule); }
+.chat-item:first-child { border-top: 0; }
+.chat-meta {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  color: var(--ink-3);
+  margin-bottom: 4px;
+}
+.chat-meta strong { color: var(--deep); font-weight: 600; }
+.chat-text {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.75;
+  color: var(--ink-2);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 620px) {
+  .board-notices, .board-chat { padding: 16px 14px; }
+  .auth-row { flex-direction: column; }
+  .auth-row input { flex: 1 1 auto; }
+}

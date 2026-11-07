@@ -1,5 +1,7 @@
 /* ==========================================================================
-   竹林茶會 — 公告（GitHub Issues）+ 匿名留言板（Cloudflare Worker）
+   竹林茶會
+   - 公告：讀取 GitHub Issues（只顯示作者為 Kasilovsky 的）
+   - 留言：純瀏覽器本地（localStorage），不上傳、不聯網
    ========================================================================== */
 (() => {
   "use strict";
@@ -7,8 +9,9 @@
   const REPO = "Kasilovsky/eirin-report";
   const OWNER = "Kasilovsky";
 
-  /* 部署 Worker 后把地址填在这里；留空则留言板显示「尚未開通」，公告不受影响 */
-  const API_BASE = "";
+  const STORE_USERS = "eirin-board-users";
+  const STORE_MESSAGES = "eirin-board-messages";
+  const STORE_SESSION = "eirin-board-session";
 
   const el = (id) => document.getElementById(id);
   const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (ch) => ({
@@ -75,105 +78,109 @@
     }
   }
 
+  /* -------------------------------------------------------------- 本地存儲 --- */
+
+  function readJson(key, fallback) {
+    try {
+      const raw = localStorage.getItem(key);
+      return raw ? JSON.parse(raw) : fallback;
+    } catch {
+      return fallback;
+    }
+  }
+
+  function writeJson(key, value) {
+    localStorage.setItem(key, JSON.stringify(value));
+  }
+
+  function randomHex(bytes = 16) {
+    const buf = new Uint8Array(bytes);
+    crypto.getRandomValues(buf);
+    return [...buf].map((b) => b.toString(16).padStart(2, "0")).join("");
+  }
+
+  async function hashPassword(name, password, salt) {
+    const data = new TextEncoder().encode(`${salt}:${name}:${password}`);
+    const digest = await crypto.subtle.digest("SHA-256", data);
+    return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, "0")).join("");
+  }
+
   /* -------------------------------------------------------------- 留言板 --- */
 
   const state = {
-    token: localStorage.getItem("eirin-token") || "",
-    name: localStorage.getItem("eirin-name") || "",
+    session: localStorage.getItem(STORE_SESSION) || "",
     mode: "login",
   };
 
-  function apiReady() {
-    return Boolean(API_BASE);
-  }
-
-  function saveSession(token, name) {
-    state.token = token;
-    state.name = name;
-    localStorage.setItem("eirin-token", token);
-    localStorage.setItem("eirin-name", name);
-  }
-
-  function clearSession() {
-    state.token = "";
-    state.name = "";
-    localStorage.removeItem("eirin-token");
-    localStorage.removeItem("eirin-name");
-  }
-
   function renderAuthState() {
-    const authed = Boolean(state.token && state.name);
+    const authed = Boolean(state.session);
     el("chatAuth").hidden = authed;
     el("chatCompose").hidden = !authed;
-    if (authed) el("chatWho").textContent = state.name;
+    if (authed) el("chatWho").textContent = state.session;
   }
 
-  async function loadMessages() {
+  function renderMessages() {
     const list = el("chatList");
-    if (!apiReady()) {
-      list.innerHTML = `<li class="empty"><strong>留言板尚未開通</strong>後端還沒部署，公告區不受影響。</li>`;
+    const messages = readJson(STORE_MESSAGES, []);
+
+    if (!messages.length) {
+      list.innerHTML = `<li class="empty"><strong>還沒有留言</strong>登入後寫下第一句；留言只保存在你這台裝置的瀏覽器裡。</li>`;
       return;
     }
-    try {
-      const response = await fetch(`${API_BASE}/api/messages?limit=50`, {
-        headers: { Accept: "application/json" },
-        cache: "no-store",
-      });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const data = await response.json();
-      const messages = data.messages || [];
 
-      if (!messages.length) {
-        list.innerHTML = `<li class="empty"><strong>還沒有留言</strong>展開後登入或註冊，寫第一句。</li>`;
-        return;
-      }
-
-      list.innerHTML = messages.map((item) => `
-        <li class="chat-item">
-          <div class="chat-meta">
-            <strong>${esc(item.name)}</strong>
-            <time>${esc(formatDateTime(item.createdAt))}</time>
-          </div>
-          <p class="chat-text">${esc(item.content)}</p>
-        </li>`).join("");
-    } catch (error) {
-      list.innerHTML = `<li class="empty"><strong>留言未能載入</strong>${esc(error.message)}</li>`;
-    }
+    const sorted = messages.slice().sort((a, b) => (a.id || 0) - (b.id || 0));
+    list.innerHTML = sorted.map((item) => `
+      <li class="chat-item">
+        <div class="chat-meta">
+          <strong>${esc(item.name)}</strong>
+          <time>${esc(formatDateTime(item.createdAt))}</time>
+          <span>#${esc(item.id)}</span>
+        </div>
+        <p class="chat-text">${esc(item.content)}</p>
+      </li>`).join("");
   }
 
   async function doAuth() {
-    if (!apiReady()) { toast("留言板尚未開通"); return; }
-
     const name = el("authName").value.trim();
     const secret = el("authSecret").value;
-    if (!name || !secret) { toast("請填名字和密碼"); return; }
 
+    if (!/^[\u4e00-\u9fa5A-Za-z0-9_-]{2,24}$/.test(name)) {
+      toast("名字需 2–24 個字（中文、字母、數字、_ 或 -）");
+      return;
+    }
+    if (secret.length < 8) {
+      toast("密碼至少 8 位");
+      return;
+    }
+
+    const users = readJson(STORE_USERS, {});
     el("authSubmit").disabled = true;
+
     try {
       if (state.mode === "register") {
-        const response = await fetch(`${API_BASE}/api/register`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ name, password: secret }),
-        });
-        const data = await response.json();
-        if (!response.ok) throw new Error(data.error || `HTTP ${response.status}`);
-        saveSession(data.token, data.name);
-        toast("註冊成功，token 已保存在本機");
+        if (users[name]) throw new Error("這個名字已被註冊");
+        const salt = randomHex(16);
+        users[name] = {
+          salt,
+          hash: await hashPassword(name, secret, salt),
+          createdAt: new Date().toISOString(),
+        };
+        writeJson(STORE_USERS, users);
+        state.session = name;
+        localStorage.setItem(STORE_SESSION, name);
+        toast("註冊成功，已登入");
       } else {
-        const response = await fetch(`${API_BASE}/api/login`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ name, password: secret }),
-        });
-        const data = await response.json();
-        if (!response.ok) throw new Error(data.error || `HTTP ${response.status}`);
-        saveSession(data.token, data.name);
+        const user = users[name];
+        if (!user) throw new Error("用戶不存在");
+        const hash = await hashPassword(name, secret, user.salt);
+        if (hash !== user.hash) throw new Error("密碼錯誤");
+        state.session = name;
+        localStorage.setItem(STORE_SESSION, name);
         toast("登入成功");
       }
       el("authSecret").value = "";
       renderAuthState();
-      loadMessages();
+      renderMessages();
     } catch (error) {
       toast(error.message);
     } finally {
@@ -181,31 +188,25 @@
     }
   }
 
-  async function doPost() {
-    if (!apiReady()) { toast("留言板尚未開通"); return; }
+  function doPost() {
+    if (!state.session) { toast("請先登入"); return; }
     const content = el("chatInput").value.trim();
     if (!content) { toast("先寫點什麼"); return; }
+    if (content.length > 500) { toast("最多 500 字"); return; }
 
-    el("chatSend").disabled = true;
-    try {
-      const response = await fetch(`${API_BASE}/api/messages`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${state.token}`,
-        },
-        body: JSON.stringify({ content }),
-      });
-      const data = await response.json();
-      if (!response.ok) throw new Error(data.error || `HTTP ${response.status}`);
-      el("chatInput").value = "";
-      el("chatCount").textContent = "0 / 500";
-      await loadMessages();
-    } catch (error) {
-      toast(error.message);
-    } finally {
-      el("chatSend").disabled = false;
-    }
+    const messages = readJson(STORE_MESSAGES, []);
+    const nextId = messages.reduce((max, item) => Math.max(max, Number(item.id) || 0), 0) + 1;
+    messages.push({
+      id: nextId,
+      name: state.session,
+      content,
+      createdAt: new Date().toISOString(),
+    });
+    writeJson(STORE_MESSAGES, messages);
+
+    el("chatInput").value = "";
+    el("chatCount").textContent = "0 / 500";
+    renderMessages();
   }
 
   function wireChat() {
@@ -215,7 +216,7 @@
       body.hidden = !open;
       el("chatToggle").setAttribute("aria-expanded", String(open));
       el("chatToggle").textContent = open ? "收起" : "展開";
-      if (open) loadMessages();
+      if (open) renderMessages();
     });
 
     el("chatAuth").querySelectorAll("[data-auth]").forEach((button) => {
@@ -226,8 +227,8 @@
         });
         el("authSubmit").textContent = state.mode === "register" ? "註冊" : "登入";
         el("authHint").textContent = state.mode === "register"
-          ? "註冊後會得到一組 token 並保存在本機；密碼只以雜湊形式保存，不會收集郵箱或手機。"
-          : "用名字和密碼登入；忘記密碼只能重新註冊。";
+          ? "名字與密碼只保存在本機瀏覽器（localStorage），不上傳、不聯網；清快取或換裝置會遺失。"
+          : "用註冊時原樣輸入的名字和密碼登入；忘了只能重新註冊。";
       });
     });
 
@@ -235,7 +236,8 @@
     el("chatSend").addEventListener("click", doPost);
 
     el("chatLogout").addEventListener("click", () => {
-      clearSession();
+      state.session = "";
+      localStorage.removeItem(STORE_SESSION);
       renderAuthState();
       toast("已登出");
     });
@@ -249,6 +251,7 @@
     applyTheme();
     wireChat();
     renderAuthState();
+    renderMessages();
     loadNotices();
   }
 

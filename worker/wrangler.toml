@@ -7,7 +7,7 @@ compatibility_date = "2026-11-01"
 # 把输出的 id 填到下面
 [[kv_namespaces]]
 binding = "EIRIN_KV"
-id = "REPLACE_WITH_YOUR_KV_ID"
+id = "94ba6a41a4cb4fa3b17123ef77f99363"
 
 [vars]
 # 前端站点地址，用于 CORS。部署到 GitHub Pages 后不需要改

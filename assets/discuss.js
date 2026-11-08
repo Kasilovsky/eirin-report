@@ -73,6 +73,7 @@
       const data = await response.json();
       if (data && typeof data.discuss === "string" && data.discuss.trim()) {
         node.textContent = data.discuss;
+        if (window.EirinLang) window.EirinLang.apply();
       }
     } catch {
       /* 保留頁面內靜態文案 */

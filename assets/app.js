@@ -360,12 +360,14 @@
 
     if (!pageItems.length) {
       renderEmpty();
+    if (window.EirinLang) window.EirinLang.apply();
       return;
     }
 
     el("entries").innerHTML = pageItems.map((article, i) => articleHtml(article, start + i + 1)).join("");
     bindEntries();
     renderPager(totalPages);
+    if (window.EirinLang) window.EirinLang.apply();
   }
 
   function bindEntries() {

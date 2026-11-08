@@ -1233,3 +1233,29 @@ body[data-reader="pro"] .digest-pro { display: block; }
   letter-spacing: 0.12em;
   color: var(--ink-3);
 }
+
+/* ------------------------------------------------------------ 語言切換 --- */
+
+.lang-toggle {
+  position: fixed;
+  left: 18px;
+  bottom: 18px;
+  z-index: 40;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-2);
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 6px 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+.lang-toggle:hover { border-color: var(--rule-strong); color: var(--ink); }
+.lang-toggle:focus-visible { outline: 2px solid var(--deep); outline-offset: 2px; }
+
+@media (max-width: 620px) {
+  .lang-toggle { left: 10px; bottom: 10px; padding: 5px 11px; font-size: 0.68rem; }
+}

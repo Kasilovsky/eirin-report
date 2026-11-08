@@ -97,6 +97,7 @@
     }
 
     el("digestList").innerHTML = (data.items || []).map((item, i) => itemHtml(item, i + 1)).join("");
+    if (window.EirinLang) window.EirinLang.apply();
     document.title = `本期要目 · 永遠亭 医療報告`;
   }
 

@@ -47,7 +47,7 @@
     "Read the methods as you would read a pulse.",
   ];
 
-  let forewords = EN ? FOREWORDS_EN : FOREWORDS;
+  let forewords = [];  /* 由 loadForewords 填充；为空时 renderMeta 按语言回退 */
 
   async function loadForewords() {
     try {

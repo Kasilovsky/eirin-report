@@ -9,6 +9,34 @@
   const REPO = "Kasilovsky/eirin-report";
   const OWNER = "Kasilovsky";
 
+  const BASE = document.documentElement.dataset.base || "";
+  const LANG = document.documentElement.lang === "en" ? "en" : "zh";
+  const EN = LANG === "en";
+
+  const T = EN ? {
+    loading: "Loading announcements…",
+    rateLimited: "GitHub API is rate-limited — please try again later, or open GitHub directly.",
+    empty: "No announcements yet. New ones appear here once published on GitHub.",
+    loadFail: "Failed to load announcements",
+    metaComments: (n) => `${n} replies`,
+    foreword: "Words wanted, words spoken. Announcements are mine to make; suggestions are yours to send.",
+    todo: "This feature is not ready yet. Thanks for your patience.",
+    footerNote: "Announcements are hosted on GitHub Issues; the message board is not open yet.",
+    back: "← Back to the bulletin · Daily Digest",
+    pageTitle: "Bamboo Grove Salon · Eirin Medical Bulletin",
+  } : {
+    loading: "正在調閱公告…",
+    rateLimited: "GitHub 介面暫時限流",
+    empty: "暫無公告",
+    loadFail: "公告未能載入",
+    metaComments: (n) => `${n} 則回覆`,
+    foreword: "有話想說，便去說。公告由我發，建議由你提。",
+    todo: "該功能還未完善，敬請期待。",
+    footerNote: "公告寄存於 GitHub Issues；留言板暫未開放。",
+    back: "← 返回医療報告 · 本期要目",
+    pageTitle: "竹林茶會 · 永遠亭 医療報告",
+  };
+
   const el = (id) => document.getElementById(id);
   const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (ch) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
@@ -37,7 +65,7 @@
         { headers: { Accept: "application/vnd.github+json" }, cache: "no-store" },
       );
       if (response.status === 403 || response.status === 429) {
-        list.innerHTML = `<li class="empty"><strong>GitHub 介面暫時限流</strong>請稍後再試，或直接到 GitHub 查看。</li>`;
+        list.innerHTML = `<li class="empty"><strong>${esc(T.rateLimited)}</strong></li>`;
         return;
       }
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -46,7 +74,7 @@
       const notices = issues.filter((issue) => !issue.pull_request && issue.user?.login === OWNER);
 
       if (!notices.length) {
-        list.innerHTML = `<li class="empty"><strong>暫無公告</strong>新的公告會在 GitHub 上發布後出現在這裡。</li>`;
+        list.innerHTML = `<li class="empty"><strong>${esc(T.empty)}</strong></li>`;
         return;
       }
 
@@ -55,11 +83,11 @@
           <a class="notice-title" href="${esc(issue.html_url)}" target="_blank" rel="noopener">${esc(issue.title)}</a>
           <div class="notice-meta">
             <span>${esc(formatDateTime(issue.created_at))}</span>
-            <span>${esc(issue.comments)} 則回覆</span>
+            <span>${esc(T.metaComments(issue.comments))}</span>
           </div>
         </li>`).join("");
     } catch (error) {
-      list.innerHTML = `<li class="empty"><strong>公告未能載入</strong>${esc(error.message)}</li>`;
+      list.innerHTML = `<li class="empty"><strong>${esc(T.loadFail)}</strong>${esc(error.message)}</li>`;
     }
   }
 
@@ -82,6 +110,17 @@
 
   function boot() {
     applyTheme();
+    document.title = T.pageTitle;
+
+    const todo = document.querySelector(".board-todo");
+    if (todo) todo.textContent = T.todo;
+
+    const footerNote = document.querySelector("[data-footer-note]");
+    if (footerNote) footerNote.textContent = T.footerNote;
+
+    const backLink = document.querySelector("[data-back-link]");
+    if (backLink) backLink.textContent = T.back;
+
     loadForeword();
     loadNotices();
   }

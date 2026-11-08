@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-base="../">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Subscribe · Eirin Medical Bulletin</title>
+  <meta name="description" content="Subscribe to the daily digest of the Eirin Medical Bulletin via RSS.">
+  <link rel="icon" href="../assets/icon.svg?v=20261107g" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css?v=20261107g">
+</head>
+<body>
+
+<div class="wrap wrap-narrow">
+
+  <header class="masthead">
+    <span class="crest">EIRIN</span>
+    <h1>Subscribe</h1>
+    <p class="masthead-en">訂閱要目</p>
+    <div class="masthead-rule"><span>Updated daily at 09:00 (UTC+8)</span></div>
+  </header>
+
+  <section class="foreword">
+    <div>
+      <p>No need to come here daily — let it come to you.</p>
+      <cite>— Eirin Yagokoro</cite>
+    </div>
+  </section>
+
+  <section class="subscribe-card">
+    <h2>RSS feed URL</h2>
+    <div class="subscribe-url">
+      <code id="feedUrl">https://kasilovsky.github.io/eirin-report/feed.xml</code>
+      <button class="tool-btn" id="copyFeed" type="button">Copy</button>
+    </div>
+    <p class="subscribe-hint">
+      Add this URL to any RSS reader and you will receive the ten-item digest each day.
+      Opening it directly in a browser shows raw XML — that format is for readers, not for people, which is why this page exists.
+    </p>
+  </section>
+
+  <section class="subscribe-card">
+    <h2>How to use it</h2>
+    <ol class="subscribe-steps">
+      <li>Install an RSS reader on your phone or computer (Feedly, Inoreader, NetNewsWire, Reeder — any will do)</li>
+      <li>Choose “Add feed” and paste the URL above</li>
+      <li>Each day’s digest will arrive in your reader; no need to open this site</li>
+    </ol>
+  </section>
+
+  <section class="subscribe-card">
+    <h2>Rather not use a reader?</h2>
+    <p class="subscribe-hint">
+      Open the <a href="digest.html">Daily Digest</a> directly, or use the <a href="./">full index</a> to search.
+      The digest page has a “Copy digest” button — paste it straight into your chat.
+    </p>
+  </section>
+
+  <footer class="colophon">
+    <div class="row">
+      <span><a href="./">← Back to the bulletin</a> · <a href="digest.html">Daily Digest</a></span>
+    </div>
+    <div class="seal">Eirin Medical Division · Eirin Yagokoro</div>
+  </footer>
+
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+  (function () {
+    "use strict";
+    var url = "https://kasilovsky.github.io/eirin-report/feed.xml";
+
+    function toast(msg) {
+      var node = document.getElementById("toast");
+      node.textContent = msg;
+      node.classList.add("show");
+      setTimeout(function () { node.classList.remove("show"); }, 1800);
+    }
+
+    document.getElementById("copyFeed").addEventListener("click", async function () {
+      try {
+        await navigator.clipboard.writeText(url);
+        toast("Feed URL copied");
+      } catch (e) {
+        toast("Copy failed — please select manually");
+      }
+    });
+
+    var saved = localStorage.getItem("eirin-theme");
+    var dark = saved ? saved === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.dataset.theme = dark ? "dark" : "light";
+  })();
+</script>
+</body>
+</html>

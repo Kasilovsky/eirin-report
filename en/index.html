@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-base="../">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Eirin Medical Bulletin · Edited by Eirin Yagokoro</title>
+  <meta name="description" content="A daily digest of recent literature from leading medical journals — NEJM, The Lancet, JAMA, BMJ, Nature Medicine, Cell and Science Translational Medicine — collected from PubMed.">
+  <meta name="author" content="Eirin Yagokoro / Eirin Medical Division">
+  <meta name="theme-color" content="#f7f4ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121719" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Eirin Medical Bulletin">
+  <meta property="og:description" content="Daily briefing on recent literature from seven leading medical journals, with abstracts and specialty classification.">
+  <meta property="og:site_name" content="Eirin Medical Bulletin">
+
+  <link rel="icon" href="../assets/icon.svg?v=20261107g" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="Eirin Medical Bulletin RSS" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/style.css?v=20261107g">
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <span class="crest">EIRIN</span>
+    <h1>Medical Bulletin</h1>
+    <p class="masthead-en">永遠亭 医療報告</p>
+
+    <div class="masthead-rule"><span>Edited by Eirin Yagokoro · Curated from leading journals</span></div>
+
+    <dl class="meta-strip">
+      <div>
+        <dt>Issue</dt>
+        <dd id="issueNo">——</dd>
+      </div>
+      <div>
+        <dt>Date</dt>
+        <dd id="issueDate">——</dd>
+      </div>
+      <div>
+        <dt>Articles</dt>
+        <dd id="issueCount">——</dd>
+      </div>
+      <div>
+        <dt>Sources</dt>
+        <dd id="issueSources">PubMed</dd>
+      </div>
+    </dl>
+  </header>
+
+  <section class="foreword" aria-label="Foreword">
+    <div>
+      <p id="forewordText">The latest evidence, gathered and indexed. Read what matters, then go to the source.</p>
+      <cite>— Eirin Yagokoro</cite>
+    </div>
+  </section>
+
+  <a class="digest-entry" href="digest.html">
+    <span class="digest-entry-label">Daily Digest</span>
+    <span class="digest-entry-desc">Ten primary studies: one-line conclusions, key numbers, and why they matter</span>
+    <span class="digest-entry-arrow" aria-hidden="true">→</span>
+  </a>
+
+  <section class="controls" aria-label="Search and filters">
+    <div class="search-row">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path>
+        </svg>
+        <label class="sr-only" for="q">Search title, author, PMID or DOI</label>
+        <input id="q" type="search" placeholder="Search title, author, PMID, DOI…" autocomplete="off" spellcheck="false">
+      </div>
+      <button class="tool-btn" id="resetBtn" type="button">Reset</button>
+    </div>
+
+    <div class="filter-row">
+      <span class="filter-label">Journal</span>
+      <div id="journalChips" class="filter-row" style="margin:0;gap:6px;"></div>
+    </div>
+
+    <div class="filter-row">
+      <span class="filter-label">Specialty</span>
+      <div id="deptChips" class="filter-row" style="margin:0;gap:6px;"></div>
+    </div>
+
+    <div class="filter-row">
+      <span class="filter-label">Period</span>
+      <div id="rangeChips" class="filter-row" style="margin:0;gap:6px;">
+        <button class="chip" type="button" data-days="7" aria-pressed="true">Week</button>
+        <button class="chip" type="button" data-days="30" aria-pressed="false">Month</button>
+        <button class="chip" type="button" data-days="90" aria-pressed="false">3 Months</button>
+        <button class="chip" type="button" data-days="180" aria-pressed="false">6 Months</button>
+        <button class="chip" type="button" data-days="0" aria-pressed="false">All</button>
+      </div>
+    </div>
+
+    <div class="filter-row">
+      <span class="filter-label">Filter</span>
+      <label class="chip-toggle">
+        <input type="checkbox" id="hideNoise" checked>
+        <span>Hide errata, letters &amp; comments</span>
+      </label>
+    </div>
+  </section>
+
+  <div class="result-bar">
+    <span id="resultSummary">Searching…</span>
+    <label>
+      <span class="sr-only">Sort order</span>
+      <select class="sort-select" id="sortSelect">
+        <option value="date-desc">Newest first</option>
+        <option value="date-asc">Oldest first</option>
+        <option value="journal">By journal</option>
+      </select>
+    </label>
+  </div>
+
+  <main>
+    <ul class="entries" id="entries" aria-live="polite">
+      <li class="loading">Retrieving articles from PubMed…</li>
+    </ul>
+    <nav class="pager" id="pager" aria-label="Pagination"></nav>
+  </main>
+
+  <footer class="colophon" id="colophon">
+    <div class="row">
+      <span>Source: <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">PubMed / NLM</a> ·
+        Journals: New England Journal of Medicine, The Lancet, JAMA, BMJ, Nature Medicine, Cell, Science Translational Medicine</span>
+      <span>Updated <span id="updatedAt">——</span></span>
+    </div>
+    <div class="row">
+      <span>For informational purposes only; not medical advice. Consult the original articles and current guidelines for clinical decisions.</span>
+      <span><a href="../rss.html" title="Subscribe to the daily digest via RSS">RSS</a> · <a href="discuss.html" title="Reader discussion">Salon</a> · <a href="../index.html" title="中文版">中文</a></span>
+    </div>
+    <div class="seal">Eirin Medical Division · Eirin Yagokoro</div>
+  </footer>
+
+</div>
+
+<div class="toolbar-float">
+  <button class="fab" id="themeToggle" type="button" title="Toggle theme" aria-label="Toggle theme">
+    <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg>
+  </button>
+  <button class="fab" id="copyBtn" type="button" title="Copy this page as text" aria-label="Copy this page">
+    <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round"><rect x="9" y="9" width="11" height="11" rx="2"></rect><path d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"></path></svg>
+  </button>
+  <button class="fab" id="exportBtn" type="button" title="Export this page as Markdown" aria-label="Export this page">
+    <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round"><path d="M12 3v11"></path><path d="M8 10l4 4 4-4"></path><path d="M4 19h16"></path></svg>
+  </button>
+  <button class="fab" id="topBtn" type="button" title="Back to top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" stroke-width="1.6" stroke-linecap="round"><path d="M12 20V6"></path><path d="M6 11l6-6 6 6"></path></svg>
+  </button>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="../assets/app.js?v=20261107g" defer></script>
+</body>
+</html>

@@ -5,7 +5,8 @@
 (() => {
   "use strict";
 
-  const DATA_URL = "data/news.json";
+  const BASE = document.documentElement.dataset.base || "";
+  const DATA_URL = `${BASE}data/news.json`;
   const PAGE_SIZE = 20;
   const ISSUE_EPOCH = new Date(2026, 4, 26); // 第 1 號：令和八年五月二十六日
 
@@ -33,19 +34,127 @@
   ];
 
   /* 刊首語可在 data/forewords.json 中調整；載入失敗時退回內建文案 */
-  let forewords = FOREWORDS;
+  const FOREWORDS_EN = [
+    "The latest evidence, gathered and indexed. Read what matters, then go to the source.",
+    "A conclusion is only as good as the data behind it.",
+    "I keep watch beyond the bamboo grove; you read what holds up.",
+    "Sample size and confidence intervals first — the title can wait.",
+    "Numbers speak, and sometimes lie. Read them together with their intervals.",
+    "The moon waxes and wanes; so does evidence.",
+    "When in doubt, let the source decide.",
+    "Nothing here replaces the original article.",
+    "Ten papers, one question: what actually changed?",
+    "Read the methods as you would read a pulse.",
+  ];
+
+  let forewords = EN ? FOREWORDS_EN : FOREWORDS;
 
   async function loadForewords() {
     try {
-      const response = await fetch(`data/forewords.json?t=${Date.now()}`, { cache: "no-store" });
+      const response = await fetch(`${BASE}data/forewords.json?t=${Date.now()}`, { cache: "no-store" });
       if (!response.ok) return;
       const data = await response.json();
-      const list = Array.isArray(data) ? data : data?.index;
+      const list = EN
+        ? (Array.isArray(data) ? null : data?.index_en)
+        : (Array.isArray(data) ? data : data?.index);
       if (Array.isArray(list) && list.length) forewords = list.filter((t) => typeof t === "string" && t.trim());
     } catch {
       /* 保持內建兜底 */
     }
   }
+
+  /* ======================================================================
+     語言：頁面 <html lang="en"> 時為英文模式（/en/ 站點），否則中文
+     ====================================================================== */
+  const LANG = document.documentElement.lang === "en" ? "en" : "zh";
+  const EN = LANG === "en";
+
+  const T = EN ? {
+    issue: "Issue",
+    articles: "articles",
+    journals: "journals",
+    updated: "Updated",
+    expand: "Abstract",
+    collapse: "Collapse",
+    cite: "Copy citation",
+    pubMed: "PubMed ↗",
+    emptyTitle: "No matching articles in this range",
+    emptyHint: "Try a wider date range, fewer filters, or clear the search keyword.",
+    result: (n, page, pages) => `${n} articles · page ${page}/${pages}`,
+    resultZero: "0 articles",
+    loadedFail: "Failed to load index",
+    loadedFailHint: (msg) => `Could not fetch data/news.json (${msg}). Please retry, or use the RSS feed.`,
+    copied: (n) => `Copied ${n} entries`,
+    copyFail: "Copy failed — please select manually",
+    citeCopied: "Citation copied",
+    citeFail: "Copy failed — please select manually",
+    exportEmpty: "Nothing on this page to export",
+    exportDone: "Exported this page as Markdown",
+    noAbstract: "No structured abstract for this entry — see the original article.",
+    abstract: "Abstract",
+    lead: "Summary",
+    authors: "Authors",
+    journal: "Journal",
+    citation: "Citation",
+    mesh: "MeSH",
+    metaHeading: "Metadata",
+    dateUnknown: "date unknown",
+    seal: "Eirin Medical Division · Eirin Yagokoro",
+  } : {
+    issue: "第",
+    articles: "篇",
+    journals: "種期刊",
+    updated: "更新於",
+    expand: "展開摘要",
+    collapse: "收起摘要",
+    cite: "複製引文",
+    pubMed: "PubMed 原文 ↗",
+    emptyTitle: "此範圍內沒有符合條件的文獻",
+    emptyHint: "請放寬時間範圍、取消部分篩選，或清除搜尋關鍵字。",
+    result: (n, page, pages) => `共 <strong>${n}</strong> 篇 · 第 ${page}／${pages} 頁`,
+    resultZero: "共 <strong>0</strong> 篇",
+    loadedFail: "文獻索引未能載入",
+    loadedFailHint: (msg) => `無法取得 data/news.json（${msg}）。請稍後重試，或參閱 <a href="feed.xml">RSS 訂閱源</a>。`,
+    copied: (n) => `已複製 ${n} 條速報`,
+    copyFail: "複製失敗，請手動選取",
+    citeCopied: "引文已複製",
+    citeFail: "複製失敗，請手動選取",
+    exportEmpty: "本頁沒有可匯出的條目",
+    exportDone: "已匯出本頁 Markdown",
+    noAbstract: "該條目未附結構化摘要，請參閱原文。",
+    abstract: "原文摘要",
+    lead: "提要",
+    authors: "作者",
+    journal: "期刊",
+    citation: "引文",
+    mesh: "主題詞",
+    metaHeading: "著錄",
+    dateUnknown: "日期未詳",
+    seal: "永遠亭 医療部 · 八意永琳",
+  };
+
+  /* 科別與研究類型：資料層是中文，英文模式需要映射 */
+  const DEPT_EN = {
+    "循环器": "Cardiology", "综合": "General", "妇产": "Obstetrics & Gynecology",
+    "公共卫生": "Public Health", "肿瘤": "Oncology", "呼吸器": "Pulmonology",
+    "神经": "Neurology", "皮肤": "Dermatology", "内分泌/代谢": "Endocrinology",
+    "外科": "Surgery", "肾脏/泌尿": "Nephrology & Urology", "消化器": "Gastroenterology",
+    "感染": "Infectious Disease", "血液": "Hematology", "老年医学": "Geriatrics",
+    "遗传/基因": "Genetics", "免疫/风湿": "Immunology & Rheumatology", "儿科": "Pediatrics",
+    "麻醉/重症": "Anesthesia & Critical Care", "疫苗": "Vaccines", "移植": "Transplantation",
+    "精神": "Psychiatry", "骨科": "Orthopedics", "药学": "Pharmacology", "眼科": "Ophthalmology",
+  };
+
+  const STUDY_TYPE_EN = {
+    "研究论文": "Research Article", "通信": "Correspondence", "述评": "Commentary",
+    "Meta 分析": "Meta-analysis", "综述": "Review", "随机对照试验": "RCT",
+    "病例报告": "Case Report", "评论": "Editorial", "观察性研究": "Observational Study",
+    "系统综述": "Systematic Review", "II 期临床试验": "Phase II Trial",
+    "临床试验": "Clinical Trial", "I 期临床试验": "Phase I Trial", "临床指南": "Guideline",
+  };
+
+  const deptLabel = (name) => (EN ? (DEPT_EN[name] || name) : name);
+  const typeLabel = (name) => (EN ? (STUDY_TYPE_EN[name] || name) : name);
 
   const state = {
     data: null,
@@ -85,12 +194,17 @@
   }
 
   function formatIssueDate(date) {
+    if (EN) {
+      const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      return `${months[date.getMonth()]} ${pad(date.getDate())}, ${date.getFullYear()}`;
+    }
     return `${reiwaLabel(date)}（${date.getFullYear()}）${pad(date.getMonth() + 1)}月${pad(date.getDate())}日`;
   }
 
   function issueNumber(date) {
     const days = Math.floor((date - ISSUE_EPOCH) / 86400000);
-    return `第 ${String(Math.max(days + 1, 1)).padStart(3, "0")} 號`;
+    const n = String(Math.max(days + 1, 1)).padStart(3, "0");
+    return EN ? `No. ${n}` : `第 ${n} 號`;
   }
 
   function isoToday() {
@@ -231,12 +345,16 @@
     const today = new Date();
     el("issueNo").textContent = issueNumber(today);
     el("issueDate").textContent = formatIssueDate(today);
-    el("issueCount").textContent = `${data.count || (data.articles || []).length} 篇`;
+    const totalCount = data.count || (data.articles || []).length;
+    el("issueCount").textContent = EN ? `${totalCount} articles` : `${totalCount} 篇`;
     const journals = (data.journals || []).filter((j) => j.count > 0);
-    el("issueSources").textContent = journals.length ? `${journals.length} 種期刊` : "PubMed";
+    el("issueSources").textContent = journals.length
+      ? (EN ? `${journals.length} journals` : `${journals.length} 種期刊`)
+      : "PubMed";
     el("updatedAt").textContent = formatStamp(data.generated_at);
 
-    const list = forewords.length ? forewords : FOREWORDS;
+    const fallback = EN ? FOREWORDS_EN : FOREWORDS;
+    const list = forewords.length ? forewords : fallback;
     const fwParam = new URLSearchParams(location.search).get("fw");
     const index = fwParam !== null && Number.isInteger(Number(fwParam))
       ? Math.abs(Number(fwParam)) % list.length
@@ -285,31 +403,42 @@
 
   function detailHtml(article) {
     const meta = [];
-    if (article.authors) meta.push(["作者", esc(article.authors)]);
-    if (article.journal) meta.push(["期刊", esc(article.journal)]);
-    if (article.citation) meta.push(["引文", esc(article.citation)]);
+    if (article.authors) meta.push([T.authors, esc(article.authors)]);
+    if (article.journal) meta.push([T.journal, esc(article.journal)]);
+    if (article.citation) meta.push([T.citation, esc(article.citation)]);
     if (article.doi) meta.push(["DOI", `<code>${esc(article.doi)}</code>`]);
     meta.push(["PMID", `<code>${esc(article.pmid)}</code>`]);
-    if (article.mesh && article.mesh.length) meta.push(["主題詞", esc(article.mesh.slice(0, 6).join(" / "))]);
+    if (article.mesh && article.mesh.length) meta.push([T.mesh, esc(article.mesh.slice(0, 6).join(" / "))]);
+
+    if (EN) {
+      const abstract = article.summary_en
+        ? `<h4>${T.abstract}</h4><p class="detail-abstract">${esc(article.summary_en)}</p>`
+        : `<h4>${T.abstract}</h4><p class="detail-abstract">${T.noAbstract}</p>`;
+      return `
+        ${abstract}
+        <h4>${T.metaHeading}</h4>
+        <dl class="detail-meta">${meta.map(([key, value]) => `<div><dt>${esc(key)}</dt><dd>${value}</dd></div>`).join("")}</dl>
+      `;
+    }
 
     const summary = article.summary_en
-      ? `<h4>原文摘要</h4><p class="detail-abstract">${esc(article.summary_en)}</p>`
-      : `<h4>原文摘要</h4><p class="detail-abstract">該條目未附結構化摘要，請參閱原文。</p>`;
+      ? `<h4>${T.abstract}</h4><p class="detail-abstract">${esc(article.summary_en)}</p>`
+      : `<h4>${T.abstract}</h4><p class="detail-abstract">${T.noAbstract}</p>`;
 
     return `
-      <h4>提要</h4>
+      <h4>${T.lead}</h4>
       <p class="detail-lead">${esc(article.summary_zh || "（暫無中文提要）")}</p>
       ${summary}
-      <h4>著錄</h4>
+      <h4>${T.metaHeading}</h4>
       <dl class="detail-meta">${meta.map(([key, value]) => `<div><dt>${esc(key)}</dt><dd>${value}</dd></div>`).join("")}</dl>
     `;
   }
 
   function articleHtml(article, index) {
     const hasZh = Boolean(article.title_zh);
-    const mainTitle = hasZh ? article.title_zh : article.title_en;
-    const subTitle = hasZh ? article.title_en : "";
-    const depts = (article.departments || []).join(" · ");
+    const mainTitle = EN ? article.title_en : (hasZh ? article.title_zh : article.title_en);
+    const subTitle = EN ? (hasZh ? article.title_zh : "") : (hasZh ? article.title_en : "");
+    const depts = (article.departments || []).map(deptLabel).join(" · ");
 
     return `
       <li class="entry" data-pmid="${esc(article.pmid)}" data-lang="${hasZh ? "zh" : "en"}">
@@ -317,8 +446,8 @@
         <div class="entry-body">
           <div class="entry-kicker">
             <span class="entry-journal">${esc(article.journal || article.journal_abbr || "")}</span>
-            ${article.study_type ? `<span class="entry-type">${esc(article.study_type)}</span>` : ""}
-            <span class="entry-date">${esc(article.date || "日期未詳")}</span>
+            ${article.study_type ? `<span class="entry-type">${esc(typeLabel(article.study_type))}</span>` : ""}
+            <span class="entry-date">${esc(article.date || T.dateUnknown)}</span>
             ${depts ? `<span>· ${esc(depts)}</span>` : ""}
           </div>
           <h3 class="entry-title" tabindex="0" role="button" aria-expanded="false">
@@ -327,9 +456,9 @@
           </h3>
           <div class="entry-citation">${esc(article.citation || "")}</div>
           <div class="entry-actions">
-            <button class="link-btn" type="button" data-act="toggle">展開摘要</button>
-            <button class="link-btn" type="button" data-act="cite">複製引文</button>
-            ${article.link ? `<a class="link-btn" href="${esc(article.link)}" target="_blank" rel="noopener">PubMed 原文 ↗</a>` : ""}
+            <button class="link-btn" type="button" data-act="toggle">${T.expand}</button>
+            <button class="link-btn" type="button" data-act="cite">${T.cite}</button>
+            ${article.link ? `<a class="link-btn" href="${esc(article.link)}" target="_blank" rel="noopener">${T.pubMed}</a>` : ""}
           </div>
           <div class="entry-detail">${detailHtml(article)}</div>
         </div>
@@ -339,8 +468,8 @@
   function renderEmpty() {
     el("entries").innerHTML = `
       <li class="empty">
-        <strong>此範圍內沒有符合條件的文獻</strong>
-        請放寬時間範圍、取消部分篩選，或清除搜尋關鍵字。
+        <strong>${T.emptyTitle}</strong>
+        ${T.emptyHint}
       </li>`;
     el("pager").innerHTML = "";
   }
@@ -355,8 +484,8 @@
     const pageItems = matched.slice(start, start + PAGE_SIZE);
 
     el("resultSummary").innerHTML = matched.length
-      ? `共 <strong>${matched.length}</strong> 篇 · 第 ${state.page}／${totalPages} 頁`
-      : `共 <strong>0</strong> 篇`;
+      ? T.result(matched.length, state.page, totalPages)
+      : T.resultZero;
 
     if (!pageItems.length) {
       renderEmpty();
@@ -381,7 +510,7 @@
         const open = entry.dataset.open !== "true";
         entry.dataset.open = String(open);
         title.setAttribute("aria-expanded", String(open));
-        toggleBtn.textContent = open ? "收起摘要" : "展開摘要";
+        toggleBtn.textContent = open ? T.collapse : T.expand;
       };
 
       title.addEventListener("click", toggle);
@@ -398,14 +527,14 @@
         if (!article) return;
         const citation = buildCitation(article);
         const ok = await copyText(citation);
-        toast(ok ? "引文已複製" : "複製失敗，請手動選取");
+        toast(ok ? T.citeCopied : T.citeFail);
       });
     });
   }
 
   function buildCitation(article) {
     const authors = article.authors || "";
-    const title = article.title_zh || article.title_en || "";
+    const title = EN ? (article.title_en || article.title_zh || "") : (article.title_zh || article.title_en || "");
     const source = article.citation || article.journal || "";
     const doi = article.doi ? ` DOI: ${article.doi}.` : "";
     return `${authors}. ${title}[J]. ${source}.${doi} PMID: ${article.pmid}.`;
@@ -416,16 +545,24 @@
   function markdownOf(articles, title) {
     const lines = [`# ${title}`, ""];
     articles.forEach((article, index) => {
-      lines.push(`## ${String(index + 1).padStart(2, "0")}　${article.journal_abbr || article.journal || ""}　${article.study_type || ""}`);
+      lines.push(`## ${String(index + 1).padStart(2, "0")}　${article.journal_abbr || article.journal || ""}　${typeLabel(article.study_type || "")}`);
       lines.push("");
-      if (article.title_zh) lines.push(`**${article.title_zh}**`, "");
-      lines.push(article.title_en || "", "");
-      if (article.summary_zh) lines.push(`> ${article.summary_zh}`, "");
-      lines.push(`- 引文：${article.citation || "——"}`);
-      lines.push(`- PMID：${article.pmid}${article.doi ? `　DOI：${article.doi}` : ""}`);
-      lines.push(`- 科別：${(article.departments || []).join("、") || "綜合"}`, "");
+      if (EN) {
+        lines.push(`**${article.title_en || article.title_zh || ""}**`, "");
+        if (article.summary_en) lines.push(`> ${article.summary_en}`, "");
+        lines.push(`- Citation: ${article.citation || "——"}`);
+        lines.push(`- PMID: ${article.pmid}${article.doi ? `  DOI: ${article.doi}` : ""}`);
+        lines.push(`- Specialty: ${(article.departments || []).map(deptLabel).join(", ") || "General"}`, "");
+      } else {
+        if (article.title_zh) lines.push(`**${article.title_zh}**`, "");
+        lines.push(article.title_en || "", "");
+        if (article.summary_zh) lines.push(`> ${article.summary_zh}`, "");
+        lines.push(`- 引文：${article.citation || "——"}`);
+        lines.push(`- PMID：${article.pmid}${article.doi ? `　DOI：${article.doi}` : ""}`);
+        lines.push(`- 科別：${(article.departments || []).join("、") || "綜合"}`, "");
+      }
     });
-    lines.push("—— 永遠亭 医療部 · 八意永琳");
+    lines.push(`—— ${T.seal}`);
     return lines.join("\n");
   }
 
@@ -437,9 +574,12 @@
 
   async function exportMarkdown() {
     const articles = currentPageArticles();
-    if (!articles.length) { toast("本頁沒有可匯出的條目"); return; }
+    if (!articles.length) { toast(T.exportEmpty); return; }
     const today = new Date();
-    const md = markdownOf(articles, `永遠亭 医療報告 · ${issueNumber(today)}（${formatIssueDate(today)}）`);
+    const digestTitle = EN
+      ? `Eirin Medical Bulletin · ${issueNumber(today)} (${formatIssueDate(today)})`
+      : `永遠亭 医療報告 · ${issueNumber(today)}（${formatIssueDate(today)}）`;
+    const md = markdownOf(articles, digestTitle);
     const blob = new Blob([md], { type: "text/markdown;charset=utf-8" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
@@ -449,30 +589,34 @@
     link.click();
     document.body.removeChild(link);
     URL.revokeObjectURL(url);
-    toast("已匯出本頁 Markdown");
+    toast(T.exportDone);
   }
 
   /* 複製本頁索引速報（純文字，直接貼到聊天窗口） */
   async function copyPageDigest() {
     const articles = currentPageArticles();
-    if (!articles.length) { toast("本頁沒有可複製的條目"); return; }
+    if (!articles.length) { toast(T.exportEmpty); return; }
 
     const today = new Date();
-    const lines = [
-      `【永遠亭 医療報告】${issueNumber(today)} · ${formatIssueDate(today)}`,
-      "",
-    ];
+    const header = EN
+      ? `[Eirin Medical Bulletin] ${issueNumber(today)} · ${formatIssueDate(today)}`
+      : `【永遠亭 医療報告】${issueNumber(today)} · ${formatIssueDate(today)}`;
+    const lines = [header, ""];
     articles.forEach((article, index) => {
-      lines.push(`${String(index + 1).padStart(2, "0")}｜${article.journal_abbr || article.journal || ""}｜${article.study_type || "研究"}`);
-      lines.push(article.title_zh || article.title_en || "");
-      if (article.title_zh) lines.push(article.title_en || "");
+      lines.push(`${String(index + 1).padStart(2, "0")} | ${article.journal_abbr || article.journal || ""} | ${typeLabel(article.study_type || "研究论文")}`);
+      lines.push(EN ? (article.title_en || article.title_zh || "") : (article.title_zh || article.title_en || ""));
+      if (EN) {
+        if (article.title_zh) lines.push(article.title_zh);
+      } else if (article.title_zh) {
+        lines.push(article.title_en || "");
+      }
       lines.push(`　${article.citation || ""}`);
       lines.push(`　${article.link || ""}`, "");
     });
-    lines.push("—— 永遠亭 医療部 · 八意永琳");
+    lines.push(`—— ${T.seal}`);
 
     const ok = await copyText(lines.join("\n"));
-    toast(ok ? `已複製 ${articles.length} 條速報` : "複製失敗，請手動選取");
+    toast(ok ? T.copied(articles.length) : T.copyFail);
   }
 
   /* --------------------------------------------------------- URL 状态同步 --- */
@@ -610,7 +754,7 @@
     const depts = [...deptCount.entries()]
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-Hant"))
       .map(([name]) => name);
-    renderChips("deptChips", depts, state.depts, (item) => item, 12);
+    renderChips("deptChips", depts, state.depts, (item) => deptLabel(item), 12);
   }
 
   async function boot() {
@@ -624,10 +768,10 @@
     } catch (error) {
       el("entries").innerHTML = `
         <li class="empty">
-          <strong>文獻索引未能載入</strong>
-          無法取得 data/news.json（${esc(error.message)}）。請稍後重試，或參閱 <a href="feed.xml">RSS 訂閱源</a>。
+          <strong>${T.loadedFail}</strong>
+          ${T.loadedFailHint(esc(error.message))}
         </li>`;
-      el("resultSummary").textContent = "載入失敗";
+      el("resultSummary").textContent = EN ? "Failed" : "載入失敗";
       document.querySelector(".loading")?.remove();
       return;
     }
@@ -647,7 +791,9 @@
     if (state.data.failures && state.data.failures.length) {
       const note = document.createElement("div");
       note.className = "result-bar";
-      note.innerHTML = `<span>本期部分期刊採集失敗：${esc(state.data.failures.join("；"))}</span><span>已保留既有數據</span>`;
+      note.innerHTML = EN
+        ? `<span>Some journals failed this run: ${esc(state.data.failures.join("; "))}</span><span>Previous data kept</span>`
+        : `<span>本期部分期刊採集失敗：${esc(state.data.failures.join("；"))}</span><span>已保留既有數據</span>`;
       el("colophon")?.parentNode?.insertBefore(note, el("colophon"));
     }
 

@@ -320,7 +320,7 @@
     }).join("");
 
     container.innerHTML = buttonHtml
-      + (hidden > 0 ? `<button class="chip chip-more" type="button" data-more="1">＋ 其他 ${hidden} 項</button>` : "");
+      + (hidden > 0 ? `<button class="chip chip-more" type="button" data-more="1">${EN ? `+ ${hidden} more` : `＋ 其他 ${hidden} 項`}</button>` : "");
 
     container.querySelectorAll("button[data-value]").forEach((button) => {
       button.addEventListener("click", () => {
@@ -437,7 +437,7 @@
   function articleHtml(article, index) {
     const hasZh = Boolean(article.title_zh);
     const mainTitle = EN ? article.title_en : (hasZh ? article.title_zh : article.title_en);
-    const subTitle = EN ? (hasZh ? article.title_zh : "") : (hasZh ? article.title_en : "");
+    const subTitle = EN ? "" : (hasZh ? article.title_en : "");
     const depts = (article.departments || []).map(deptLabel).join(" · ");
 
     return `

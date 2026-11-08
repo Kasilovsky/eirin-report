@@ -1,0 +1,203 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-08",
+ "generated_at": "2026-11-08T07:01:47+00:00",
+ "provider": "none",
+ "degraded": true,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "42956796",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956796/",
+   "title_en": "Performance of 0/1 h versus 0/3 h pathways in patients with suspected myocardial infarction: a systematic review and individual participant data meta-analysis of randomised controlled trials.",
+   "study_type": "Meta 分析",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "疑似心肌梗死患者0/1 h与0/3 h路径的性能比较：随机对照试验的系统评价与个体参与者数据荟萃分析。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42933457",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933457/",
+   "title_en": "Ruzaltatug rezetecan versus chemotherapy for EGFR-mutated advanced non-small-cell lung cancer progressing after EGFR tyrosine kinase inhibitor therapy (HERON-Lung01): interim analysis of a randomised, open-label, phase 3 trial in China.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ],
+   "title_zh": "Ruzaltatug rezetecan对比化疗用于EGFR突变晚期非小细胞肺癌经EGFR酪氨酸激酶抑制剂治疗后进展（HERON-Lung01）：中国随机、开放标签、3期试验的中期分析。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42667934",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42667934/",
+   "title_en": "Safety and efficacy of the 0/1 h pathway for myocardial infarction in the emergency department: an international, pragmatic, stepped-wedge, cluster-randomised, controlled trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "急诊科心肌梗死0/1 h路径的安全性与有效性：一项国际、实用性、阶梯楔形、整群随机对照试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42988384",
+   "journal": "BMJ",
+   "date": "2026-11-05",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42988384/",
+   "title_en": "Thoracic epidural versus paravertebral blockade for reducing chronic post-thoracotomy pain (TOPIC-2): open label, parallel group, superiority, multicentre, randomised controlled trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "外科"
+   ],
+   "title_zh": "胸段硬膜外阻滞与椎旁阻滞减少慢性开胸术后疼痛的比较（TOPIC-2）：开放标签、平行组、优效性、多中心、随机对照试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42981569",
+   "journal": "N Engl J Med",
+   "date": "2026-11-05",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42981569/",
+   "title_en": "Plozasiran for Severe Hypertriglyceridemia and Risk of Pancreatitis.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "消化器",
+    "内分泌/代谢"
+   ],
+   "title_zh": "Plozasiran治疗重度高甘油三酯血症及胰腺炎风险",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42912669",
+   "journal": "N Engl J Med",
+   "date": "2026-11-05",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912669/",
+   "title_en": "Interim Analysis of a Phase 3 Trial of Povetacicept in IgA Nephropathy.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Povetacicept治疗IgA肾病3期试验的中期分析",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42814954",
+   "journal": "N Engl J Med",
+   "date": "2026-11-05",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42814954/",
+   "title_en": "Retatrutide, a Triple Hormone Receptor Agonist, for Treatment of Obesity.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "内分泌/代谢"
+   ],
+   "title_zh": "Retatrutide——三重激素受体激动剂治疗肥胖",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42670980",
+   "journal": "N Engl J Med",
+   "date": "2026-11-05",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42670980/",
+   "title_en": "Targeted Use of Computed Tomographic Coronary Angiography in Acute Chest Pain.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "急性胸痛中冠状动脉CT血管成像的靶向应用",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42998670",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42998670/",
+   "title_en": "Cangrelor versus crushed ticagrelor in acute myocardial infarction complicated by cardiogenic shock (DAPT-SHOCK-AMI): a randomised, double-blind trial.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "急性心肌梗死并发心源性休克（ DAPT-SHOCK-AMI ）的Cangrelor与破碎的替格瑞洛：一项随机、双盲试验",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42998244",
+   "journal": "JAMA",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42998244/",
+   "title_en": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "ISCHEMIA-EXTEND中稳定冠状动脉疾病的初始侵袭性或保守性治疗后的长期生存率。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  }
+ ]
+}

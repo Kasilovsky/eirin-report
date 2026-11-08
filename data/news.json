@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-07T04:17:52+00:00",
+ "generated_at": "2026-11-08T07:01:12+00:00",
  "window_days": 180,
- "count": 720,
+ "count": 728,
  "journals": [
   {
    "abbr": "N Engl J Med",
@@ -12,12 +12,12 @@
   {
    "abbr": "Lancet",
    "name": "The Lancet",
-   "count": 111
+   "count": 114
   },
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 109
+   "count": 113
   },
   {
    "abbr": "BMJ",
@@ -27,7 +27,7 @@
   {
    "abbr": "Nat Med",
    "name": "Nature Medicine",
-   "count": 100
+   "count": 101
   },
   {
    "abbr": "Cell",
@@ -42,11 +42,126 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 71,
-  "cache_size": 271,
-  "translate_fails": 5
+  "translate_used": 10,
+  "cache_size": 704,
+  "translate_fails": 2
  },
  "articles": [
+  {
+   "pmid": "42998670",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Cangrelor versus crushed ticagrelor in acute myocardial infarction complicated by cardiogenic shock (DAPT-SHOCK-AMI): a randomised, double-blind trial.",
+   "title_zh": "急性心肌梗死并发心源性休克（ DAPT-SHOCK-AMI ）的Cangrelor与破碎的替格瑞洛：一项随机、双盲试验",
+   "summary_en": "BACKGROUND: Acute myocardial infarction complicated by cardiogenic shock (AMI-CS) can compromise the administration and absorption of oral P2Y12 inhibitors and carries high ischaemic and mortality risks. This trial assessed whether intravenous cangrelor was non-inferior to crushed oral ticagrelor for short-term clinical outcomes and whether it provided faster and more consistent platelet inhibition in patients with AMI-CS. METHODS: DAPT-SHOCK-AMI was a double-blind trial conducted at 29 hospitals across five European countries (Czech Republic, France, Germany, Poland, and Slovakia). Patients older than 18 years with AMI-CS were randomly assigned (1:1 ratio, stratified by centre, age, sex, presence or absence of ST-segment elevation, and mechanical ventilation) to cangrelor (30 μg/kg bolus ",
+   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42998670/",
+   "date": "2026-11-07",
+   "authors": "Motovska Z, Hlinomaz O, Mrozek J, Akin I, Kala P, Montalescot G",
+   "author_count": 40,
+   "doi": "10.1016/S0140-6736(26)00976-1",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42998244",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND.",
+   "title_zh": "ISCHEMIA-EXTEND中稳定冠状动脉疾病的初始侵袭性或保守性治疗后的长期生存率。",
+   "summary_en": "IMPORTANCE: It is unknown whether routine invasive management of chronic coronary disease improves long-term survival when added to guideline-directed medical therapy. OBJECTIVE: To compare the effects of initial invasive and conservative strategies on long-term mortality in patients with chronic coronary disease. DESIGN, SETTING, AND PARTICIPANTS: In this long-term follow-up study of the International Study of Comparative Health Effectiveness with Medical and Invasive Approaches (ISCHEMIA), an international trial of patients with chronic coronary disease, moderate or severe ischemia, left ventricular ejection fraction of 35% or more, and no left main coronary artery disease, unacceptable angina, or recent acute coronary syndrome, participants were randomized at 320 sites in 37 countries b",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42998244/",
+   "date": "2026-11-07",
+   "authors": "Hochman JS, Anthopolos R, Reynolds HR, Bangalore S, Xu Y, O'Brien SM",
+   "author_count": 29,
+   "doi": "10.1001/jama.2026.20375",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42998243",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND: Research Summary.",
+   "title_zh": "ISCHEMIA-EXTEND中稳定冠状动脉疾病的初始侵袭性或保守性治疗后的长期生存率：研究总结。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2621188",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42998243/",
+   "date": "2026-11-07",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.21188",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42998241",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "The ISCHEMIA Trial a Decade Later-What Have We Learned?",
+   "title_zh": "十年后的缺血试验--我们学到了什么？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42998241/",
+   "date": "2026-11-07",
+   "authors": "Cutlip DE, Yeh RW",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.23003",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42998239",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Percutaneous Coronary Intervention and Long-Term Outcomes in Stable Coronary Artery Disease: Extended Follow-Up of the COURAGE Randomized Trial.",
+   "title_zh": "稳定冠状动脉疾病的经皮冠状动脉介入治疗和长期预后：勇气随机试验的延长随访。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42998239/",
+   "date": "2026-11-07",
+   "authors": "Butala NM, Murali N, Rahman N, Cave S, Ayandeh S, Plomondon ME",
+   "author_count": 11,
+   "doi": "10.1001/jama.2026.23488",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
   {
    "pmid": "42987881",
    "journal": "The Lancet",
@@ -557,6 +672,77 @@
    ],
    "departments": [
     "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42995231",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motion.",
+   "title_zh": "一种从三维骨骼运动预测多系统健康表型的步态基础模型。",
+   "summary_en": "Gait is increasingly recognized as a vital sign, yet current approaches treat it as a symptom of specific pathologies rather than a systemic biomarker. Here we developed a gait foundation model for three-dimensional skeletal motion, which was recorded via a single-depth camera during 5 motor tasks, from 3,328 deeply phenotyped adults. Our purpose was to capture the full pattern of a person's movement and use it to predict health phenotypes such as grip strength and sleep quality across 18 body systems. Gait is conventionally described by engineered features (for example, calculated measurements such as cadence and stride length), which may fail to capture the fine detail of how a person moves. Our model instead translates movement into learned embeddings: sets of numbers that describe how ",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42995231/",
+   "date": "2026-11-06",
+   "authors": "Gabet A, Kohn S, Lutsker G, Gelman S, Godneva A, Sasson G",
+   "author_count": 14,
+   "doi": "10.1038/s41591-026-04724-9",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42994448",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Vertigo, multifocal brain lesions, and a diagnostic clue on the skin.",
+   "title_zh": "眩晕、多灶性脑部病变和皮肤上的诊断线索。",
+   "summary_en": "",
+   "summary_zh": "【病例报告】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42994448/",
+   "date": "2026-11-06",
+   "authors": "López OQ, Rodríguez SS, Gómez-Muga JJ, Santos-Morales E, García-Moncó JC",
+   "author_count": 5,
+   "doi": "10.1016/S0140-6736(26)00695-1",
+   "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "神经",
+    "皮肤"
+   ]
+  },
+  {
+   "pmid": "42994447",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Preparing for dialysis when dialysis might never begin?",
+   "title_zh": "准备在透析可能永远不会开始时进行透析？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42994447/",
+   "date": "2026-11-06",
+   "authors": "Strippoli GFM",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02004-0",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
    ]
   },
   {
@@ -2221,20 +2407,20 @@
     "Comparative Study"
    ],
    "mesh": [
-    "Humans",
-    "Adenoidectomy",
-    "Laryngeal Masks",
-    "Tonsillectomy",
+    "Child",
     "Child, Preschool",
     "Female",
+    "Humans",
     "Male",
+    "Adenoidectomy",
+    "Anesthesia, General",
+    "China",
     "Intubation, Intratracheal",
-    "Postoperative Complications",
-    "Child"
+    "Laryngeal Masks"
    ],
    "departments": [
     "儿科",
-    "外科"
+    "麻醉/重症"
    ]
   },
   {
@@ -9127,7 +9313,7 @@
    "title_en": "Left Bundle-Branch Area Pacing vs Right Ventricular Pacing for Atrioventricular Block and Preserved Left Ventricular Function: The LEAP-Block Randomized Clinical Trial.",
    "title_zh": "左束支区域起搏与右心室起搏治疗房室传导阻滞且左心室功能保留：LEAP-Block随机临床试验。",
    "summary_en": "IMPORTANCE: For patients with atrioventricular block requiring high-burden ventricular pacing, the optimal pacing strategy to reduce heart failure (HF) and all-cause mortality remains uncertain. Robust comparative evidence on the clinical outcomes of left bundle-branch area pacing (LBBAP) vs right ventricular pacing (RVP) in this population is needed. OBJECTIVE: To compare 24-month clinical outcomes of LBBAP vs RVP in patients with atrioventricular block and preserved left ventricular ejection fraction (LVEF; ≥50%). DESIGN, SETTING, AND PARTICIPANTS: The LEAP-Block study was a prospective, multicenter, randomized, controlled, superiority trial conducted across 14 Chinese hospitals from January 2021 to August 2025, with last follow-up on June 3, 2025. Of 551 patients with LVEF 50% or greate",
-   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42949742/",
    "date": "2026-10-28",
@@ -17040,7 +17226,7 @@
    "title_en": "Phenomic profiles and disease patterns of 1.9 million participants from Our Future Health.",
    "title_zh": "Our Future Health中190万参与者的表型组特征与疾病模式",
    "summary_en": "Our Future Health is a prospective study aiming to recruit 5 million UK-resident adults to enable discovery and translation of disease prevention, detection and treatment approaches. So far, more than 2.5 million have enrolled, and baseline phenotypic data are available for >1.9 million participants. Here we provide an assessment of phenotypes-self-reported health-related behaviors, geolocation, diagnoses and medication, in- and outpatient visits, cancer registry and cause of death-and comparison of disease patterns against national estimates and the UK Biobank cohort. Sociodemographic, lifestyle and health-related characteristics reflected UK population patterns; all but one minority ethnic group and the most socioeconomically deprived groups were underrepresented. The prevalence of sever",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3899-3910",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42722883/",
    "date": "2026-10-01",

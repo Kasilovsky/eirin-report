@@ -99,7 +99,7 @@
     mesh: "MeSH",
     metaHeading: "Metadata",
     dateUnknown: "date unknown",
-    seal: "Eirin Medical Division · Eirin Yagokoro",
+    seal: "Eientei Central Design Bureau",
   } : {
     issue: "第",
     articles: "篇",
@@ -130,7 +130,7 @@
     mesh: "主題詞",
     metaHeading: "著錄",
     dateUnknown: "日期未詳",
-    seal: "永遠亭 医療部 · 八意永琳",
+    seal: "E.C.D.B.",
   };
 
   /* 科別與研究類型：資料層是中文，英文模式需要映射 */

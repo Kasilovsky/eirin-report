@@ -186,7 +186,7 @@
       if (item.why_it_matters) lines.push(item.why_it_matters);
       lines.push(item.link || "", "");
     });
-    lines.push(EN ? "— Eirin Medical Division · Eirin Yagokoro" : "—— 永遠亭 医療部 · 八意永琳");
+    lines.push(EN ? "— Eientei Central Design Bureau" : "—— E.C.D.B.");
     return lines.join("\n");
   }
 

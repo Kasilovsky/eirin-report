@@ -70,7 +70,7 @@ def build_body(date: str, items: list[dict]) -> str:
             lines.append("")
     lines.append("---")
     lines.append("")
-    lines.append("—— 永遠亭 医療部 · 八意永琳")
+    lines.append("—— E.C.D.B.")
     return "\n".join(lines)
 
 

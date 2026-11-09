@@ -1,0 +1,203 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09T07:46:27+00:00",
+ "provider": "none",
+ "degraded": true,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "42956796",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956796/",
+   "title_en": "Performance of 0/1 h versus 0/3 h pathways in patients with suspected myocardial infarction: a systematic review and individual participant data meta-analysis of randomised controlled trials.",
+   "study_type": "Meta 分析",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "疑似心肌梗死患者0/1 h与0/3 h路径的性能比较：随机对照试验的系统评价与个体参与者数据荟萃分析。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42933457",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933457/",
+   "title_en": "Ruzaltatug rezetecan versus chemotherapy for EGFR-mutated advanced non-small-cell lung cancer progressing after EGFR tyrosine kinase inhibitor therapy (HERON-Lung01): interim analysis of a randomised, open-label, phase 3 trial in China.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ],
+   "title_zh": "Ruzaltatug rezetecan对比化疗用于EGFR突变晚期非小细胞肺癌经EGFR酪氨酸激酶抑制剂治疗后进展（HERON-Lung01）：中国随机、开放标签、3期试验的中期分析。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42667934",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42667934/",
+   "title_en": "Safety and efficacy of the 0/1 h pathway for myocardial infarction in the emergency department: an international, pragmatic, stepped-wedge, cluster-randomised, controlled trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "急诊科心肌梗死0/1 h路径的安全性与有效性：一项国际、实用性、阶梯楔形、整群随机对照试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43000112",
+   "journal": "Nat Med",
+   "date": "2026-11-08",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43000112/",
+   "title_en": "Effects of semaglutide on cardiac structure and function in heart failure with preserved ejection fraction and obesity: a pre-specified cardiac magnetic resonance substudy of the CAMEO-SEMA trial.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "内分泌/代谢"
+   ],
+   "title_zh": "Semaglutide对射血分数保留和肥胖心力衰竭患者心脏结构和功能的影响： CAMEO-SEMA试验的一项预先规定的心脏磁共振亚研究。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43000001",
+   "journal": "JAMA",
+   "date": "2026-11-08",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43000001/",
+   "title_en": "Implementation of Single-Pill Combination Therapy Through Team-Based Care for Hypertension Control in Resource-Constrained Settings: A Cluster Randomized Clinical Trial.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "在资源受限的环境中通过基于团队的护理实施单药联合治疗以控制高血压：一项集群随机临床试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43000000",
+   "journal": "JAMA",
+   "date": "2026-11-08",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43000000/",
+   "title_en": "Implementation of Single-Pill Combination Therapy Through Team-Based Care for Hypertension Control in Resource-Constrained Settings: Research Summary.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "在资源受限的环境中通过基于团队的护理实施单药联合治疗来控制高血压：研究总结。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42999999",
+   "journal": "JAMA",
+   "date": "2026-11-08",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42999999/",
+   "title_en": "Low-Voltage Area Ablation for Persistent Atrial Fibrillation: Research Summary.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "持续性心房颤动的低压区域消融：研究总结。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42999998",
+   "journal": "JAMA",
+   "date": "2026-11-08",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42999998/",
+   "title_en": "Low-Voltage Area Ablation for Persistent Atrial Fibrillation: The COAST-AF Randomized Clinical Trial.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "持续性心房颤动的低压区域消融： COAST-AF随机临床试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42998670",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42998670/",
+   "title_en": "Cangrelor versus crushed ticagrelor in acute myocardial infarction complicated by cardiogenic shock (DAPT-SHOCK-AMI): a randomised, double-blind trial.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "急性心肌梗死并发心源性休克（ DAPT-SHOCK-AMI ）的Cangrelor与破碎的替格瑞洛：一项随机、双盲试验",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42998244",
+   "journal": "JAMA",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42998244/",
+   "title_en": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "ISCHEMIA-EXTEND中稳定冠状动脉疾病的初始侵袭性或保守性治疗后的长期生存率。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  }
+ ]
+}

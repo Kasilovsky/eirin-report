@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-08T07:01:12+00:00",
+ "generated_at": "2026-11-09T07:45:51+00:00",
  "window_days": 180,
- "count": 728,
+ "count": 733,
  "journals": [
   {
    "abbr": "N Engl J Med",
@@ -17,7 +17,7 @@
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 113
+   "count": 117
   },
   {
    "abbr": "BMJ",
@@ -27,7 +27,7 @@
   {
    "abbr": "Nat Med",
    "name": "Nature Medicine",
-   "count": 101
+   "count": 102
   },
   {
    "abbr": "Cell",
@@ -42,11 +42,127 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 10,
-  "cache_size": 704,
+  "translate_used": 7,
+  "cache_size": 709,
   "translate_fails": 2
  },
  "articles": [
+  {
+   "pmid": "43000112",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Effects of semaglutide on cardiac structure and function in heart failure with preserved ejection fraction and obesity: a pre-specified cardiac magnetic resonance substudy of the CAMEO-SEMA trial.",
+   "title_zh": "Semaglutide对射血分数保留和肥胖心力衰竭患者心脏结构和功能的影响： CAMEO-SEMA试验的一项预先规定的心脏磁共振亚研究。",
+   "summary_en": "Glucagon-like peptide-1 receptor agonists improve symptoms in patients with obesity and heart failure with preserved ejection fraction (HFpEF). We recently demonstrated that semaglutide reduces exertional pulmonary artery wedge pressure (PAWP) in obesity-related HFpEF, but potential effects of semaglutide on cardiac structure and function that may underlie these hemodynamic improvements remain unclear. In this prespecified cardiovascular magnetic resonance (CMR) substudy of the randomized CAMEO-SEMA trial, 49 participants (33 semaglutide, 16 placebo, 28 female) underwent CMR at baseline and 52 weeks, within 1 day of invasive exercise hemodynamic assessment. The prespecified primary CMR endpoint was change in left atrial (LA) reservoir strain; other prespecified CMR endpoints included LV fi",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43000112/",
+   "date": "2026-11-08",
+   "authors": "Ghanbari F, Reddy YNV, Packer M, Ng A, Carter R, Jensen MD",
+   "author_count": 8,
+   "doi": "10.1038/s41591-026-04787-8",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43000001",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Implementation of Single-Pill Combination Therapy Through Team-Based Care for Hypertension Control in Resource-Constrained Settings: A Cluster Randomized Clinical Trial.",
+   "title_zh": "在资源受限的环境中通过基于团队的护理实施单药联合治疗以控制高血压：一项集群随机临床试验。",
+   "summary_en": "IMPORTANCE: Single-pill combination therapy improves medication adherence and hypertension control. However, limited evidence is available on its implementation in routine clinical practice. OBJECTIVE: To assess the long-term effectiveness, implementation, and sustainability of single-pill combination therapy through team-based care for blood pressure reduction among patients with uncontrolled hypertension in primary care settings in Colombia and Jamaica. DESIGN, SETTING, AND PARTICIPANTS: Multicountry, unblinded, pragmatic, cluster randomized clinical trial. Twenty primary care clinics in Jamaica and 20 in Colombia were randomly assigned to either the single-pill combination therapy group or the standard care group. A total of 1706 adults with uncontrolled hypertension were enrolled betwe",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43000001/",
+   "date": "2026-11-08",
+   "authors": "Lopez-Lopez JP, Duncan J, Chen J, Mills KT, Ferguson T, Reyes M",
+   "author_count": 26,
+   "doi": "10.1001/jama.2026.24169",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43000000",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Implementation of Single-Pill Combination Therapy Through Team-Based Care for Hypertension Control in Resource-Constrained Settings: Research Summary.",
+   "title_zh": "在资源受限的环境中通过基于团队的护理实施单药联合治疗来控制高血压：研究总结。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2624330",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43000000/",
+   "date": "2026-11-08",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.24330",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42999999",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Low-Voltage Area Ablation for Persistent Atrial Fibrillation: Research Summary.",
+   "title_zh": "持续性心房颤动的低压区域消融：研究总结。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2624384",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42999999/",
+   "date": "2026-11-08",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.24384",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42999998",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Low-Voltage Area Ablation for Persistent Atrial Fibrillation: The COAST-AF Randomized Clinical Trial.",
+   "title_zh": "持续性心房颤动的低压区域消融： COAST-AF随机临床试验。",
+   "summary_en": "IMPORTANCE: Pulmonary vein isolation (PVI) for persistent atrial fibrillation (AF) has demonstrated modest success rates. Ablation of atrial low-voltage areas (LVA) has shown potential results, but more data are required. OBJECTIVE: To determine whether PVI plus LVA ablation is superior to PVI alone in reducing atrial arrhythmia recurrence in patients with AF. DESIGN, SETTING, AND PARTICIPANTS: Single-blind randomized clinical trial in 14 AF ablation centers in Canada. Adults with persistent AF of more than 3 months were enrolled between August 2018 and September 2024 and followed up for 18 to 36 months through April 2026. INTERVENTION: Patients were randomized to PVI plus LVA ablation or PVI alone. MAIN OUTCOMES AND MEASURES: The primary outcome was atrial arrhythmia recurrence beyond 90 ",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42999998/",
+   "date": "2026-11-08",
+   "authors": "Nery PB, Wells GA, Nair GM, Essebag V, Joza J, Wong JA",
+   "author_count": 26,
+   "doi": "10.1001/jama.2026.24331",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
   {
    "pmid": "42998670",
    "journal": "The Lancet",

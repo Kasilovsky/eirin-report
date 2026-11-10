@@ -1,38 +1,38 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-09T07:45:51+00:00",
+ "generated_at": "2026-11-10T08:06:44+00:00",
  "window_days": 180,
- "count": 733,
+ "count": 770,
  "journals": [
   {
    "abbr": "N Engl J Med",
    "name": "New England Journal of Medicine",
-   "count": 100
+   "count": 117
   },
   {
    "abbr": "Lancet",
    "name": "The Lancet",
-   "count": 114
+   "count": 117
   },
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 117
+   "count": 125
   },
   {
    "abbr": "BMJ",
    "name": "BMJ",
-   "count": 100
+   "count": 107
   },
   {
    "abbr": "Nat Med",
    "name": "Nature Medicine",
-   "count": 102
+   "count": 103
   },
   {
    "abbr": "Cell",
    "name": "Cell",
-   "count": 100
+   "count": 101
   },
   {
    "abbr": "Sci Transl Med",
@@ -42,11 +42,592 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 7,
-  "cache_size": 709,
-  "translate_fails": 2
+  "translate_used": 39,
+  "cache_size": 734,
+  "translate_fails": 3
  },
  "articles": [
+  {
+   "pmid": "43003442",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "NHS data breaches: Attack victims' families demand tougher rules for staff.",
+   "title_zh": "NHS数据泄露：攻击受害者家属要求对员工制定更严格的规则。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101389",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003442/",
+   "date": "2026-11-09",
+   "authors": "Armstrong S",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101389",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003440",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "US midterm elections: Doctors win critical races in rebuke of Trump, so what does it mean for health?",
+   "title_zh": "美国中期选举：医生在批评特朗普的过程中赢得了关键比赛，那么这对健康意味着什么？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101397",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003440/",
+   "date": "2026-11-09",
+   "authors": "Liang L",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101397",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003438",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Practice Pointer: Community management of delirium.",
+   "title_zh": "练习指针：谵妄的社区管理。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e100817",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003438/",
+   "date": "2026-11-09",
+   "authors": "Burton JK, Barron K, McGlen S, Jewson H, George P, Lasserson D",
+   "author_count": 6,
+   "doi": "10.1136/bmj-2026-100817",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003437",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "India vows \"immediate\" action against substandard medicines.",
+   "title_zh": "印度誓言对低于标准的药物采取“立即”行动。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101392",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003437/",
+   "date": "2026-11-09",
+   "authors": "Mudur G",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101392",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003436",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "What we can learn from two pioneering female surgeons.",
+   "title_zh": "我们可以从两位开拓性的女性外科医生身上学到什么。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101283",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003436/",
+   "date": "2026-11-09",
+   "authors": "Shah S",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101283",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003435",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "\"Reallocated\" £40m for winter support will further strain GP budgets, doctors warn.",
+   "title_zh": "医生警告说， “重新分配” 4000万£用于冬季支持将进一步加大全科医生预算的压力。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101398",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003435/",
+   "date": "2026-11-09",
+   "authors": "Furneaux R",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101398",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003434",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Navigating uncertainty should be a core training milestone.",
+   "title_zh": "应对不确定性应该是培训的核心里程碑。",
+   "summary_en": "",
+   "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101353",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003434/",
+   "date": "2026-11-09",
+   "authors": "Begin AS",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101353",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003106",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Cardiovascular outcomes with survodutide in adults with obesity at increased cardiovascular risk (SYNCHRONIZE-CVOT): a double-blind, randomised, placebo-controlled, phase 3 trial.",
+   "title_zh": "成年肥胖者心血管风险增加时使用survodutide的心血管结局（ SYNCHRONIZE-CVOT ） ：一项双盲、随机、安慰剂对照的3期临床试验。",
+   "summary_en": "BACKGROUND: Survodutide, a glucagon receptor and GLP-1 receptor dual agonist, improved markers of cardiometabolic health in people with obesity, but cardiovascular safety for this new class remains to be established. METHODS: SYNCHRONIZE-CVOT was a global, phase 3, randomised, double-blind, parallel-group, placebo-controlled, multicentre, event-driven, cardiovascular safety trial conducted at 524 clinical sites in 34 countries. We included participants aged 18 years or older with a BMI of 27 kg/m2 or greater and established cardiovascular disease or at least two obesity complications or risk factors for cardiovascular disease; participants with chronic kidney disease were eligible if they also had a BMI of 30 kg/m2 or greater. Participants were randomly assigned by interactive response tec",
+   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003106/",
+   "date": "2026-11-09",
+   "authors": "Bozkurt B, le Roux CW, Wharton S, Butt JH, Startseva E, Sumin M",
+   "author_count": 40,
+   "doi": "10.1016/S0140-6736(26)02140-9",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43003105",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Efficacy and safety of efinopegdutide in adults with metabolic dysfunction-associated steatohepatitis and stage 2-3 fibrosis: a phase 2b, randomised, placebo-controlled study.",
+   "title_zh": "Efinopegdutide在代谢功能障碍相关性脂肪性肝炎和2-3期纤维化成人患者中的有效性和安全性：一项2b期、随机、安慰剂对照研究。",
+   "summary_en": "BACKGROUND: Efinopegdutide is a pharmacologically distinct once-weekly GLP-1-glucagon receptor co-agonist with a relative receptor potency balance of approximately 2:1 under development for metabolic dysfunction-associated steatohepatitis (MASH). We aimed to investigate the efficacy and safety of efinopegdutide in adults with non-cirrhotic MASH. METHODS: We did a phase 2b, randomised, placebo-controlled, double-blind study conducted at 176 academic and community centres in 26 countries. We included adults (aged ≥18 years) with biopsy-confirmed MASH and stage 2 or stage 3 fibrosis. Eligible participants were randomly assigned (1:1:1:1:1) to receive either efinopegdutide (4 mg, 7 mg, or 10 mg), placebo, or open-label semaglutide 2·4 mg, all administered subcutaneously once weekly. Randomisat",
+   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003105/",
+   "date": "2026-11-09",
+   "authors": "Lawitz E, Wong VW, Shankar RR, Francque S, Patel K, Miele L",
+   "author_count": 16,
+   "doi": "10.1016/S0140-6736(26)02043-X",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染",
+    "消化器",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43003104",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Efinopegdutide: a step towards precision in MASH therapy?",
+   "title_zh": "Efinopegdutide ：迈向MASH疗法精准度的一步？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003104/",
+   "date": "2026-11-09",
+   "authors": "Sookoian S, Pirola CJ",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)02193-8",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003088",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Reconstructing developmental and disease progression with sample-level embeddings.",
+   "title_zh": "",
+   "summary_en": "Single-cell genomics is transformative for characterizing cellular heterogeneity, but many biological questions require comparing samples rather than individual cells. Typical analyses compare \"case\" and \"control\" groups, ignoring sample-level variation within them. Here, we present scSLIDE (single-cell sample-level inference using density estimation), a framework that transforms each sample's single-cell data into a compact profile describing where its cells are distributed in high-dimensional space. By comparing these density profiles, scSLIDE calculates embeddings to characterize variation across samples. We implement scSLIDE in version 6 of our Seurat package and apply it to COVID-19 infection, Alzheimer's disease, and zebrafish embryogenesis. scSLIDE reveals patient subgroups, reconst",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003088/",
+   "date": "2026-11-09",
+   "authors": "Jiang L, Tan ZC, Grabski IN, Hao Y, Nakatsuka N, Sarkar S",
+   "author_count": 8,
+   "doi": "10.1016/j.cell.2026.10.018",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "精神"
+   ]
+  },
+  {
+   "pmid": "43002432",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Review of Gastroparesis.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002432/",
+   "date": "2026-11-09",
+   "authors": "Zhang H",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.19140",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43002426",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Review of Gastroparesis-Reply.",
+   "title_zh": "胃轻瘫复查-回复。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002426/",
+   "date": "2026-11-09",
+   "authors": "Camilleri M",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.19143",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43002417",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Review of Gastroparesis.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002417/",
+   "date": "2026-11-09",
+   "authors": "Matheussen H, Vanuytsel T, Tack J",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.19137",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43002414",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Think Outside the Box With Intravenous Iron-The New Ferric Carboxymaltose FDA Boxed Warning.",
+   "title_zh": "开箱即用静脉注射铁-新的铁羧麦芽糖FDA盒装警告。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002414/",
+   "date": "2026-11-09",
+   "authors": "Al-Samkari H, Olitsky S, Auerbach M",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.21147",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43002172",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "ANGPTL4 Inhibition in Adults with Elevated Triglyceride Levels.",
+   "title_zh": "甘油三酯水平升高的成人中的ANGPTL4抑制。",
+   "summary_en": "BACKGROUND: Angiopoietin-like protein 4 (ANGPTL4) inhibits lipoprotein lipase and regulates triglyceride-rich lipoprotein metabolism. MAR001 is a monoclonal antibody against ANGPTL4 that is being evaluated for lowering triglyceride levels. METHODS: We conducted a two-part, phase 2b, double-blind, randomized, placebo-controlled trial. In part A, the focus of this report, we enrolled adults who had a nonfasting triglyceride level of at least 175 mg per deciliter and a remnant cholesterol level of at least 35 mg per deciliter at initial screening, followed by a fasting triglyceride level of at least 150 mg per deciliter and a remnant cholesterol level of at least 30 mg per deciliter on confirmatory screening. Participants were randomly assigned in a 1:1:1:1 ratio to receive MAR001 at a dose o",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002172/",
+   "date": "2026-11-09",
+   "authors": "O'Donoghue ML, Juliano RA, Yi BA, Chung B, Hughes M, Gaudet D",
+   "author_count": 15,
+   "doi": "10.1056/NEJMoa2612463",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43002165",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Error in Author Byline.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002165/",
+   "date": "2026-11-09",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.24617",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43002163",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Orforglipron for Obstructive Sleep Apnea: Research Summary.",
+   "title_zh": "Orforglipron治疗阻塞性睡眠呼吸暂停：研究总结。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2624226",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002163/",
+   "date": "2026-11-09",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.24226",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43002161",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Orforglipron for Obstructive Sleep Apnea: Results From 2 Randomized Clinical Trials (ATTAIN-OSA).",
+   "title_zh": "Orforglipron治疗阻塞性睡眠呼吸暂停：来自2项随机临床试验（ ATTAIN-OSA ）的结果。",
+   "summary_en": "IMPORTANCE: Obstructive sleep apnea (OSA) is a common disorder characterized by repeated upper airway collapse during sleep that is associated with reduced quality of life and increased incidence of cardiometabolic disease. OBJECTIVE: To assess the effects of orforglipron on moderate to severe OSA in adults with obesity or overweight, compared with placebo. DESIGN, SETTING, AND PARTICIPANTS: Two 52-week, phase 3, multicenter, double-blind, placebo-controlled randomized clinical trials were conducted at 66 sites in the US, Argentina, Brazil, China, Czech Republic, Germany, Japan, Mexico, and Taiwan. Adults with moderate to severe OSA and body mass index (BMI; calculated as weight in kilograms divided by height in meters squared) of 27 or higher were enrolled between November 11, 2024, and J",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002161/",
+   "date": "2026-11-09",
+   "authors": "Malhotra A, Gottlieb DJ, Woehrle H, Dennehy EB, Calamai G, Liu Z",
+   "author_count": 11,
+   "doi": "10.1001/jama.2026.24080",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43002156",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "An Oral Incretin for OSA.",
+   "title_zh": "OSA的口服降钙素。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002156/",
+   "date": "2026-11-09",
+   "authors": "Mazzotti DR, Stevens DR",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.23386",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43001763",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Left Bundle-Branch Pacing versus Right Ventricular Pacing for Atrioventricular Block.",
+   "title_zh": "",
+   "summary_en": "BACKGROUND: Right ventricular pacing is associated with cardiac dyssynchrony and left ventricular systolic dysfunction. Left bundle-branch pacing preserves left ventricular electrical and mechanical synchrony, but its clinical benefits relative to right ventricular pacing in patients with atrioventricular block remain unclear. METHODS: In this investigator-initiated, international, open-label, randomized, controlled trial, we assigned patients with atrioventricular block in a 1:1 ratio to receive left bundle-branch pacing or right ventricular pacing. The primary outcome was a composite of death from any cause, hospitalization for heart failure, or pacing-induced cardiomyopathy. RESULTS: A total of 702 patients underwent randomization, with 348 assigned to receive left bundle-branch pacing ",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001763/",
+   "date": "2026-11-08",
+   "authors": "Qian Z, Jiang L, Hou X, Xue X, Shen M, Su Y",
+   "author_count": 29,
+   "doi": "10.1056/NEJMoa2612972",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43001761",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "A Liver-Targeted CIDEB siRNA in Adults with MASLD.",
+   "title_zh": "MASLD成人中的一种肝靶向CIDEB siRNA。",
+   "summary_en": "",
+   "summary_zh": "【通信】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001761/",
+   "date": "2026-11-08",
+   "authors": "Norton TD, Taubel J, Imperato GH, Aziz-Zaman S, Witkin J, Miller J",
+   "author_count": 43,
+   "doi": "10.1056/NEJMc2612905",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43001758",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Community and EMS Interventions to Improve Survival in Cardiac Arrest.",
+   "title_zh": "提高心脏骤停生存率的社区和EMS干预措施。",
+   "summary_en": "BACKGROUND: Early cardiopulmonary resuscitation (CPR) and defibrillation improve survival after out-of-hospital cardiac arrest, but evidence from randomized trials about whether community-based implementation strategies improve outcomes is lacking. METHODS: We conducted a registry-based, cluster-randomized trial involving adults with out-of-hospital cardiac arrest treated by emergency medical services (EMS) in North Carolina counties. The counties were grouped into clusters, which were then randomly assigned in a 1:1 ratio to implement a multifaceted intervention or administer usual care. The intervention included four components: training of 911 telecommunicators to improve rapid recognition of cardiac arrest, training of 911 telecommunicators to improve delivery of CPR instructions from ",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001758/",
+   "date": "2026-11-08",
+   "authors": "Malta Hansen C, Krychtiuk KA, Starks MA, Al-Khalidi HR, Mark DB, Monk L",
+   "author_count": 22,
+   "doi": "10.1056/NEJMoa2612757",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001755",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Retatrutide Once Weekly in Adults with Knee Osteoarthritis Pain and Obesity.",
+   "title_zh": "Retatrutide每周一次用于患有膝关节骨性关节炎疼痛和肥胖的成年人。",
+   "summary_en": "BACKGROUND: Retatrutide, an investigational triple agonist of GIP, GLP-1, and glucagon receptors, may be useful for the treatment of painful knee osteoarthritis in persons with obesity. METHODS: In two phase 3 trials, adults without diabetes who had painful knee osteoarthritis and a body-mass index of at least 27 were randomly assigned to receive once-weekly subcutaneous retatrutide (9 or 12 mg in TRIUMPH-4 and 4, 9, or 12 mg in TRIUMPH-1-OA) or placebo. In TRIUMPH-4, the primary end points were the change in the WOMAC pain score (range, 0 to 10, with higher scores indicating worse pain) and the percent change in body weight at week 68. In TRIUMPH-1-OA, the primary end point was the change in the WOMAC pain score at week 80. For non-pain-related end points, intercurrent events were handled",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001755/",
+   "date": "2026-11-08",
+   "authors": "Schnitzer TJ, Hunter DJ, Conaghan PG, Sharma AM, Pedersen SD, Chen K",
+   "author_count": 11,
+   "doi": "10.1056/NEJMoa2610676",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢",
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "43000472",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Hemodynamic effects of semaglutide in individuals with heart failure with preserved ejection fraction and obesity: a placebo-controlled randomized clinical trial.",
+   "title_zh": "射血分数保留和肥胖的心力衰竭患者中semaglutide的血流动力学效应：一项安慰剂对照随机临床试验。",
+   "summary_en": "The glucagon-like peptide-1 receptor agonist semaglutide improves symptoms in heart failure with preserved ejection fraction (HFpEF) through unclear mechanisms. Here, in this double-blind, placebo-controlled trial, we randomly assigned 81 patients (47 women) with HFpEF and obesity to semaglutide (2.4 mg weekly) or placebo for 52 weeks. The primary outcome was the change in invasively measured pulmonary artery wedge pressure (PAWP), a direct measure of cardiac congestion, during low-intensity exercise. Additional mechanistic outcomes included other hemodynamic measures and hemodynamic HFpEF remission (defined as normal PAWP under conditions of both rest and exercise at 52 weeks). At baseline, PAWP was 17.5 ± 4.3 mmHg at rest and 31.7 ± 5.2 mmHg during exercise. After 52 weeks, the mean chan",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43000472/",
+   "date": "2026-11-08",
+   "authors": "Borlaug BA, Jensen MD, Packer M, Reddy YNV, Harada T, Ghanbari F",
+   "author_count": 8,
+   "doi": "10.1038/s41591-026-04762-3",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器",
+    "内分泌/代谢"
+   ]
+  },
   {
    "pmid": "43000112",
    "journal": "Nature Medicine",
@@ -161,6 +742,283 @@
    "mesh": [],
    "departments": [
     "循环器"
+   ]
+  },
+  {
+   "pmid": "43001754",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Mass Surveillance with Artificial Intelligence - A New Determinant of Health?",
+   "title_zh": "使用人工智能的大规模监控-健康的新决定因素？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001754/",
+   "date": "2026-11-07",
+   "authors": "Peoples N, Hoops K, Fleegler EW",
+   "author_count": 3,
+   "doi": "10.1056/NEJMp2611224",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43001751",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease.",
+   "title_zh": "Ziltivekimab对动脉粥样硬化性疾病的白细胞介素-6抑制作用。",
+   "summary_en": "BACKGROUND: The inflammatory cytokine interleukin-6 is hypothesized to be a therapeutic target for patients with atherosclerotic cardiovascular disease and chronic kidney disease. Whether neutralizing interleukin-6 levels with ziltivekimab, a monoclonal antibody, reduces the risk of adverse cardiovascular events remains unknown. METHODS: We conducted a multinational, double-blind, randomized, placebo-controlled trial involving adults with established atherosclerotic cardiovascular disease, chronic kidney disease, and cardiovascular inflammation (defined by a high-sensitivity C-reactive protein [CRP] level of ≥2 mg per liter). Patients were randomly assigned in a 1:1 ratio to receive subcutaneous ziltivekimab (15 mg once monthly) or placebo. The primary efficacy end point was a 3-point majo",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001751/",
+   "date": "2026-11-07",
+   "authors": "Ridker PM, Lincoff AM, Marx N, Navar AM, Sattar N, Tuttle KR",
+   "author_count": 34,
+   "doi": "10.1056/NEJMoa2612126",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001750",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Early Days, Late Nights.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001750/",
+   "date": "2026-11-07",
+   "authors": "Einterz EM",
+   "author_count": 1,
+   "doi": "10.1056/NEJMp2607215",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43001747",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Bringing Rapid Reperfusion to More Patients with Out-of-Hospital Cardiac Arrest.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【述评】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001747/",
+   "date": "2026-11-07",
+   "authors": "Yannopoulos D",
+   "author_count": 1,
+   "doi": "10.1056/NEJMe2612650",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001746",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Intensive Blood-Pressure Lowering in Patients with Type 2 Diabetes.",
+   "title_zh": "",
+   "summary_en": "BACKGROUND: Uncertainty persists regarding the effects of intensive blood-pressure lowering in patients with type 2 diabetes. METHODS: In this multicenter, open-label, randomized trial conducted in Brazil, patients with elevated blood pressure, type 2 diabetes, and high cardiovascular risk received intensive therapy targeting a systolic blood pressure of less than 120 mm Hg or standard therapy targeting a systolic blood pressure of less than 140 mm Hg. The primary end point was a composite of death from cardiovascular causes, nonfatal myocardial infarction, nonfatal stroke, or hospitalization for unstable angina or heart failure. RESULTS: Of the 9476 ethnically diverse patients who were enrolled, 4745 were assigned to receive intensive therapy and 4731 to receive standard therapy. The mean",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001746/",
+   "date": "2026-11-07",
+   "authors": "Santo K, Martins E, Silva GS, Guimarães PO, Tavares CAM, Andrade JB",
+   "author_count": 42,
+   "doi": "10.1056/NEJMoa2612922",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43001743",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Lung Hernia with a Chest-Wall Hematoma.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【病例报告】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001743/",
+   "date": "2026-11-07",
+   "authors": "Landry TC, Gienapp T",
+   "author_count": 2,
+   "doi": "10.1056/NEJMicm2607065",
+   "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "43001742",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Discontinuing Statins in Older Adults without Cardiovascular Disease.",
+   "title_zh": "在没有心血管疾病的老年人中停用他汀类药物。",
+   "summary_en": "BACKGROUND: Whether discontinuing statin therapy in older adults with at least two chronic conditions but no known cardiovascular disease affects the time to a first cardiovascular event is not well characterized. METHODS: We conducted an international, open-label, randomized, controlled trial that enrolled adults at least 70 years of age who were taking statins for primary prevention. Participants were randomly assigned in a 1:1 ratio to either discontinue or continue statin therapy and other lipid-lowering therapies. The primary outcome was a composite of nonfatal myocardial infarction, nonfatal ischemic stroke, or death from any cause, whichever occurred first. The primary analysis assessed noninferiority on the basis of the between-group difference in restricted mean event-free surviva",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001742/",
+   "date": "2026-11-07",
+   "authors": "Rodondi N, Haller ML, Bardoczi JB, Adam L, Blum MR, Gencer B",
+   "author_count": 34,
+   "doi": "10.1056/NEJMoa2606634",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001741",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Intensive Blood-Pressure Control in Patients with Previous Ischemic Stroke.",
+   "title_zh": "",
+   "summary_en": "BACKGROUND: Whether intensive blood-pressure control reduces cardiovascular risk after cerebrovascular events remains uncertain. METHODS: In this multicenter, open-label, randomized trial conducted at 30 sites in Brazil, we assigned participants with elevated blood pressure and previous ischemic stroke or transient ischemic attack to receive intensive treatment targeting a systolic blood pressure of less than 120 mm Hg or to receive standard treatment targeting a systolic blood pressure of less than 140 mm Hg. The primary outcome was a composite of death from cardiovascular causes, nonfatal myocardial infarction, nonfatal stroke, or hospitalization for unstable angina or heart failure. RESULTS: A total of 4368 participants were enrolled, with 2172 assigned to intensive treatment and 2196 t",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001741/",
+   "date": "2026-11-07",
+   "authors": "Sampaio Silva G, Machline-Carrion MJ, Santo K, Brainer Clares de Andrade J, Martins E, Guimarães PO",
+   "author_count": 41,
+   "doi": "10.1056/NEJMoa2612924",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "43001740",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Prehospital Extracorporeal Life Support in Refractory Out-of-Hospital Cardiac Arrest.",
+   "title_zh": "",
+   "summary_en": "BACKGROUND: In patients with refractory out-of-hospital cardiac arrest, extracorporeal cardiopulmonary resuscitation (ECPR) with the use of venoarterial extracorporeal membrane oxygenation can be performed to establish reperfusion. Data comparing prehospital ECPR with conventional care regarding survival until hospital discharge among patients who are 50 years of age or younger with refractory out-of-hospital cardiac arrest are limited. METHODS: In a nationwide, nonrandomized study conducted in the Netherlands, we evaluated the outcomes in young adults who were attended by Helicopter Emergency Medical Services (HEMS) that were equipped to deliver prehospital ECPR (intervention group) as compared with those attended by HEMS without ECPR capability (conventional group). The primary outcome w",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001740/",
+   "date": "2026-11-07",
+   "authors": "Reis Miranda D, Moors X, Ali S, Maissan IM, van Schuppen HL, Mommers L",
+   "author_count": 57,
+   "doi": "10.1056/NEJMoa2602919",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001735",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Equity in Maternal-Fetal Medicine - Technological Advances and a Potential Path Forward.",
+   "title_zh": "母胎医学中的公平-技术进步和潜在的前进道路。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001735/",
+   "date": "2026-11-07",
+   "authors": "Mallampati D, Binion C, Vora NL",
+   "author_count": 3,
+   "doi": "10.1056/NEJMp2607107",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43001734",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Pelacarsen and Cardiovascular Outcomes in Patients with High Lipoprotein(a).",
+   "title_zh": "高脂蛋白患者的Pelacarsen和心血管结局（ a ）。",
+   "summary_en": "BACKGROUND: Pelacarsen, an antisense oligonucleotide, reduces serum levels of lipoprotein(a). However, the effect of pelacarsen on cardiovascular outcomes remains uncertain. METHODS: We conducted an international, randomized, placebo-controlled trial involving patients with preexisting cardiovascular disease and a lipoprotein(a) level of at least 70 mg per deciliter. Patients were randomly assigned in a 1:1 ratio to receive subcutaneous pelacarsen (80 mg) administered monthly or matching placebo. The primary end point was a major adverse cardiovascular event, defined as a composite of death from cardiovascular causes, nonfatal myocardial infarction, nonfatal stroke, or urgent coronary revascularization. RESULTS: A total of 8350 patients underwent randomization, with 8322 included in the ef",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001734/",
+   "date": "2026-11-07",
+   "authors": "Cho L, Nicholls SJ, Frndak S, Wolski K, Nordestgaard BG, Manning B",
+   "author_count": 22,
+   "doi": "10.1056/NEJMoa2610159",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001732",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Hyperaldosteronism Remission after Extended Aldosterone Synthase Inhibition.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【通信】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001732/",
+   "date": "2026-11-07",
+   "authors": "Brown MJ, Turcu AF, Sam R, Kirschner LS, Hamidi O, Eren A",
+   "author_count": 11,
+   "doi": "10.1056/NEJMc2611265",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
    ]
   },
   {
@@ -875,9 +1733,9 @@
    "authors": "",
    "author_count": 0,
    "doi": "10.1001/jama.2025.16121",
-   "study_type": "研究论文",
+   "study_type": "",
    "pubtypes": [
-    "Journal Article"
+    "Webcast"
    ],
    "mesh": [],
    "departments": [
@@ -10549,7 +11407,7 @@
    "link": "https://pubmed.ncbi.nlm.nih.gov/42929675/",
    "date": "2026-10-25",
    "authors": "Skoulidis F, Ahn MJ, Gadgeel S, Popat S, Reinmuth N, van Veggel B",
-   "author_count": 34,
+   "author_count": 35,
    "doi": "10.1056/NEJMoa2605703",
    "study_type": "研究论文",
    "pubtypes": [
@@ -12536,7 +13394,7 @@
    "title_en": "Helicobacter pylori Infection - Advances, Challenges, and the Road Ahead.",
    "title_zh": "幽门螺杆菌感染——进展、挑战与未来之路",
    "summary_en": "The discovery of Helicobacter pylori has revolutionized the prevention and treatment of gastritis, peptic ulcers, and, most important, gastric cancer. In the past 40 years, enormous progress has been achieved in the clinical and basic research on H. pylori infection. However, challenges in preventing and treating H. pylori infection exist owing to the lack of an H. pylori vaccine and the ever-increasing resistance to antibiotics worldwide. This review summarizes the history of and key milestones in H. pylori research, provides an update on the understanding of the pathogenesis and global burden of H. pylori infection and the screening strategy for the primary prevention of gastric cancer, and focuses on the emerging trends in the management of H. pylori infection.",
-   "summary_zh": "【综述】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026; 395(16): 1621-1633",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42906088/",
    "date": "2026-10-22",
@@ -12572,7 +13430,7 @@
    "title_en": "Ianalumab for the Treatment of Patients with Sjögren's Disease.",
    "title_zh": "Ianalumab用于治疗干燥病患者",
    "summary_en": "BACKGROUND: Sjögren's disease is a complex, systemic autoimmune disease with no approved targeted therapies. Ianalumab is an IgG1 monoclonal antibody with a dual mechanism of action, depleting B cells through antibody-dependent cellular cytotoxicity and inhibiting B-cell activation and survival through blockade of B-cell activating factor receptor. METHODS: We conducted two 52-week, double-blind, randomized, placebo-controlled trials involving patients with active Sjögren's disease. Patients in the NEPTUNUS-1 trial were assigned in a 1:1 ratio to receive subcutaneous ianalumab (300 mg monthly) or placebo; patients in the NEPTUNUS-2 trial were assigned in a 1:1:1 ratio to receive 300 mg of ianalumab monthly or every 3 months or placebo. The primary end point was the change from baseline in ",
-   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026; 395(16): 1585-1599",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42906087/",
    "date": "2026-10-22",
@@ -12748,7 +13606,7 @@
    "title_en": "Tambotatug Pelitecan in Small-Cell Lung Cancer after Platinum-Based Therapy.",
    "title_zh": "Tambotatug Pelitecan用于铂类治疗后的小细胞肺癌",
    "summary_en": "BACKGROUND: Tambotatug pelitecan (known as Tam-Peli, a new antibody-drug conjugate that targets the immune-checkpoint molecule B7-H3) showed promising clinical efficacy in patients with relapsed extensive-stage small-cell lung cancer in early-phase trials. METHODS: In this phase 3, multicenter, open-label, randomized trial, we assigned eligible patients with small-cell lung cancer that had progressed after first-line platinum-based therapy in a 1:1 ratio to receive tambotatug pelitecan or topotecan. The primary end point was overall survival. The key secondary end points were progression-free survival and objective response as assessed by investigators. Here, we report the results from the prespecified interim analysis. RESULTS: A total of 451 patients underwent randomization: 225 were ass",
-   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026; 395(16): 1610-1620",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42734213/",
    "date": "2026-10-22",
@@ -12809,7 +13667,7 @@
    "title_en": "Milvexian with Antiplatelet Therapy after Acute Coronary Syndrome Event.",
    "title_zh": "Milvexian联合抗血小板治疗用于急性冠脉综合征事件后",
    "summary_en": "BACKGROUND: Patients are at increased risk for recurrent ischemic events after an acute coronary syndrome event. Milvexian, an oral factor XIa inhibitor, may reduce the risk of major adverse clinical events with minimal bleeding risk. METHODS: In this phase 3, randomized, placebo-controlled trial, we evaluated the efficacy and safety of milvexian when added to standard antiplatelet therapy within 7 days after an acute coronary syndrome event. Patients were assigned in a 1:1 ratio to receive oral milvexian (25 mg twice daily) or matched placebo. The primary efficacy outcome was a composite of cardiovascular death, myocardial infarction, or ischemic stroke as evaluated in a time-to-event analysis. The principal safety outcome was Bleeding Academic Research Consortium (BARC) type 3c or 5 blee",
-   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026; 395(16): 1575-1584",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42670965/",
    "date": "2026-10-22",
@@ -16805,7 +17663,7 @@
    "title_en": "A geothermal amoeba sets a new upper temperature limit for eukaryotes.",
    "title_zh": "一种地热阿米巴为真核生物设定了新的温度上限",
    "summary_en": "The study of temperature limits has transformed our understanding of life's boundaries but has focused on bacteria and archaea. For decades after their discovery, no eukaryote was shown to replicate above 60°C. We isolated a geothermal amoeba, Incendiamoeba cascadensis, that divides at 63°C and is motile up to 64°C. We identified an enrichment of genes related to proteostasis and environmental sensing relative to mesophilic amoebae. Comparative RNA sequencing of I. cascadensis revealed upregulation of pathways related to proteostasis, DNA repair, and membrane trafficking at high temperatures. Predicted proteins of I. cascadensis have distinct biophysical properties, including enrichment of positively charged surface residues similar to bacterial and archaeal hyperthermophiles, which sugges",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(20): 6325-6337.e7",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42772279/",
    "date": "2026-10-01",
@@ -17283,7 +18141,7 @@
    "title_en": "COVID-19 vaccination around immune checkpoint inhibitor start and survival in a nationwide cohort of patients with cancer.",
    "title_zh": "免疫检查点抑制剂启动前后的COVID-19疫苗接种与全国癌症患者队列中的生存",
    "summary_en": "Experimental data suggest that COVID-19 vaccination could modulate immune checkpoint inhibitor (ICI) effects, but population evidence is limited. Using the French health data system (Système National des Données de Santé), we identified 95,015 adults initiating ICI therapy between December 2020 and March 2023. We assessed mRNA vaccination within 100 days before ICI initiation using inverse probability of treatment weighting and within 100 days after ICI initiation among previously unvaccinated patients using a cloning-censoring-weighting target-trial emulation. The primary outcome was all-cause mortality; secondary outcomes were cancer-specific and non-COVID-19 mortality. Follow-up extended to 31 December 2024 for all-cause mortality and to 31 December 2023 for cause-specific deaths. Pre-I",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3633-3643",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42722885/",
    "date": "2026-10-01",

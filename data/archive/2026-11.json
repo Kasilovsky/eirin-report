@@ -1,8 +1,325 @@
 {
  "schema_version": 2,
  "month": "2026-11",
- "count": 220,
+ "count": 257,
  "articles": [
+  {
+   "pmid": "43003442",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "NHS data breaches: Attack victims' families demand tougher rules for staff.",
+   "title_zh": "NHS数据泄露：攻击受害者家属要求对员工制定更严格的规则。",
+   "citation": "BMJ. 2026; 395: e101389",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003442/",
+   "date": "2026-11-09",
+   "authors": "Armstrong S",
+   "doi": "10.1136/bmj-2026-101389",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003440",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "US midterm elections: Doctors win critical races in rebuke of Trump, so what does it mean for health?",
+   "title_zh": "美国中期选举：医生在批评特朗普的过程中赢得了关键比赛，那么这对健康意味着什么？",
+   "citation": "BMJ. 2026; 395: e101397",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003440/",
+   "date": "2026-11-09",
+   "authors": "Liang L",
+   "doi": "10.1136/bmj-2026-101397",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003438",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Practice Pointer: Community management of delirium.",
+   "title_zh": "练习指针：谵妄的社区管理。",
+   "citation": "BMJ. 2026; 395: e100817",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003438/",
+   "date": "2026-11-09",
+   "authors": "Burton JK, Barron K, McGlen S, Jewson H, George P, Lasserson D",
+   "doi": "10.1136/bmj-2026-100817",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003437",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "India vows \"immediate\" action against substandard medicines.",
+   "title_zh": "印度誓言对低于标准的药物采取“立即”行动。",
+   "citation": "BMJ. 2026; 395: e101392",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003437/",
+   "date": "2026-11-09",
+   "authors": "Mudur G",
+   "doi": "10.1136/bmj-2026-101392",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003436",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "What we can learn from two pioneering female surgeons.",
+   "title_zh": "我们可以从两位开拓性的女性外科医生身上学到什么。",
+   "citation": "BMJ. 2026; 395: e101283",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003436/",
+   "date": "2026-11-09",
+   "authors": "Shah S",
+   "doi": "10.1136/bmj-2026-101283",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003435",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "\"Reallocated\" £40m for winter support will further strain GP budgets, doctors warn.",
+   "title_zh": "医生警告说， “重新分配” 4000万£用于冬季支持将进一步加大全科医生预算的压力。",
+   "citation": "BMJ. 2026; 395: e101398",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003435/",
+   "date": "2026-11-09",
+   "authors": "Furneaux R",
+   "doi": "10.1136/bmj-2026-101398",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003434",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Navigating uncertainty should be a core training milestone.",
+   "title_zh": "应对不确定性应该是培训的核心里程碑。",
+   "citation": "BMJ. 2026; 395: e101353",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003434/",
+   "date": "2026-11-09",
+   "authors": "Begin AS",
+   "doi": "10.1136/bmj-2026-101353",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003106",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Cardiovascular outcomes with survodutide in adults with obesity at increased cardiovascular risk (SYNCHRONIZE-CVOT): a double-blind, randomised, placebo-controlled, phase 3 trial.",
+   "title_zh": "成年肥胖者心血管风险增加时使用survodutide的心血管结局（ SYNCHRONIZE-CVOT ） ：一项双盲、随机、安慰剂对照的3期临床试验。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003106/",
+   "date": "2026-11-09",
+   "authors": "Bozkurt B, le Roux CW, Wharton S, Butt JH, Startseva E, Sumin M",
+   "doi": "10.1016/S0140-6736(26)02140-9",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43003105",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Efficacy and safety of efinopegdutide in adults with metabolic dysfunction-associated steatohepatitis and stage 2-3 fibrosis: a phase 2b, randomised, placebo-controlled study.",
+   "title_zh": "Efinopegdutide在代谢功能障碍相关性脂肪性肝炎和2-3期纤维化成人患者中的有效性和安全性：一项2b期、随机、安慰剂对照研究。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003105/",
+   "date": "2026-11-09",
+   "authors": "Lawitz E, Wong VW, Shankar RR, Francque S, Patel K, Miele L",
+   "doi": "10.1016/S0140-6736(26)02043-X",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "消化器",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43003104",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Efinopegdutide: a step towards precision in MASH therapy?",
+   "title_zh": "Efinopegdutide ：迈向MASH疗法精准度的一步？",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003104/",
+   "date": "2026-11-09",
+   "authors": "Sookoian S, Pirola CJ",
+   "doi": "10.1016/S0140-6736(26)02193-8",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003088",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Reconstructing developmental and disease progression with sample-level embeddings.",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003088/",
+   "date": "2026-11-09",
+   "authors": "Jiang L, Tan ZC, Grabski IN, Hao Y, Nakatsuka N, Sarkar S",
+   "doi": "10.1016/j.cell.2026.10.018",
+   "study_type": "研究论文",
+   "departments": [
+    "精神"
+   ]
+  },
+  {
+   "pmid": "43002432",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Review of Gastroparesis.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002432/",
+   "date": "2026-11-09",
+   "authors": "Zhang H",
+   "doi": "10.1001/jama.2026.19140",
+   "study_type": "研究论文",
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43002426",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Review of Gastroparesis-Reply.",
+   "title_zh": "胃轻瘫复查-回复。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002426/",
+   "date": "2026-11-09",
+   "authors": "Camilleri M",
+   "doi": "10.1001/jama.2026.19143",
+   "study_type": "研究论文",
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43002417",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Review of Gastroparesis.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002417/",
+   "date": "2026-11-09",
+   "authors": "Matheussen H, Vanuytsel T, Tack J",
+   "doi": "10.1001/jama.2026.19137",
+   "study_type": "研究论文",
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43002414",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Think Outside the Box With Intravenous Iron-The New Ferric Carboxymaltose FDA Boxed Warning.",
+   "title_zh": "开箱即用静脉注射铁-新的铁羧麦芽糖FDA盒装警告。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002414/",
+   "date": "2026-11-09",
+   "authors": "Al-Samkari H, Olitsky S, Auerbach M",
+   "doi": "10.1001/jama.2026.21147",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43002172",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "ANGPTL4 Inhibition in Adults with Elevated Triglyceride Levels.",
+   "title_zh": "甘油三酯水平升高的成人中的ANGPTL4抑制。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002172/",
+   "date": "2026-11-09",
+   "authors": "O'Donoghue ML, Juliano RA, Yi BA, Chung B, Hughes M, Gaudet D",
+   "doi": "10.1056/NEJMoa2612463",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43002165",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Error in Author Byline.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002165/",
+   "date": "2026-11-09",
+   "doi": "10.1001/jama.2026.24617",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43002163",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Orforglipron for Obstructive Sleep Apnea: Research Summary.",
+   "title_zh": "Orforglipron治疗阻塞性睡眠呼吸暂停：研究总结。",
+   "citation": "JAMA. 2026: e2624226",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002163/",
+   "date": "2026-11-09",
+   "doi": "10.1001/jama.2026.24226",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43002161",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Orforglipron for Obstructive Sleep Apnea: Results From 2 Randomized Clinical Trials (ATTAIN-OSA).",
+   "title_zh": "Orforglipron治疗阻塞性睡眠呼吸暂停：来自2项随机临床试验（ ATTAIN-OSA ）的结果。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002161/",
+   "date": "2026-11-09",
+   "authors": "Malhotra A, Gottlieb DJ, Woehrle H, Dennehy EB, Calamai G, Liu Z",
+   "doi": "10.1001/jama.2026.24080",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43002156",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "An Oral Incretin for OSA.",
+   "title_zh": "OSA的口服降钙素。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43002156/",
+   "date": "2026-11-09",
+   "authors": "Mazzotti DR, Stevens DR",
+   "doi": "10.1001/jama.2026.23386",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
   {
    "pmid": "43000112",
    "journal": "Nature Medicine",
@@ -80,6 +397,87 @@
    "study_type": "研究论文",
    "departments": [
     "循环器"
+   ]
+  },
+  {
+   "pmid": "43001763",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Left Bundle-Branch Pacing versus Right Ventricular Pacing for Atrioventricular Block.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001763/",
+   "date": "2026-11-08",
+   "authors": "Qian Z, Jiang L, Hou X, Xue X, Shen M, Su Y",
+   "doi": "10.1056/NEJMoa2612972",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43001761",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "A Liver-Targeted CIDEB siRNA in Adults with MASLD.",
+   "title_zh": "MASLD成人中的一种肝靶向CIDEB siRNA。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001761/",
+   "date": "2026-11-08",
+   "authors": "Norton TD, Taubel J, Imperato GH, Aziz-Zaman S, Witkin J, Miller J",
+   "doi": "10.1056/NEJMc2612905",
+   "study_type": "通信",
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43001758",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Community and EMS Interventions to Improve Survival in Cardiac Arrest.",
+   "title_zh": "提高心脏骤停生存率的社区和EMS干预措施。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001758/",
+   "date": "2026-11-08",
+   "authors": "Malta Hansen C, Krychtiuk KA, Starks MA, Al-Khalidi HR, Mark DB, Monk L",
+   "doi": "10.1056/NEJMoa2612757",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001755",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Retatrutide Once Weekly in Adults with Knee Osteoarthritis Pain and Obesity.",
+   "title_zh": "Retatrutide每周一次用于患有膝关节骨性关节炎疼痛和肥胖的成年人。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001755/",
+   "date": "2026-11-08",
+   "authors": "Schnitzer TJ, Hunter DJ, Conaghan PG, Sharma AM, Pedersen SD, Chen K",
+   "doi": "10.1056/NEJMoa2610676",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢",
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "43000472",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Hemodynamic effects of semaglutide in individuals with heart failure with preserved ejection fraction and obesity: a placebo-controlled randomized clinical trial.",
+   "title_zh": "射血分数保留和肥胖的心力衰竭患者中semaglutide的血流动力学效应：一项安慰剂对照随机临床试验。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43000472/",
+   "date": "2026-11-08",
+   "authors": "Borlaug BA, Jensen MD, Packer M, Reddy YNV, Harada T, Ghanbari F",
+   "doi": "10.1038/s41591-026-04762-3",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "内分泌/代谢"
    ]
   },
   {
@@ -482,6 +880,191 @@
    ]
   },
   {
+   "pmid": "43001754",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Mass Surveillance with Artificial Intelligence - A New Determinant of Health?",
+   "title_zh": "使用人工智能的大规模监控-健康的新决定因素？",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001754/",
+   "date": "2026-11-07",
+   "authors": "Peoples N, Hoops K, Fleegler EW",
+   "doi": "10.1056/NEJMp2611224",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43001751",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease.",
+   "title_zh": "Ziltivekimab对动脉粥样硬化性疾病的白细胞介素-6抑制作用。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001751/",
+   "date": "2026-11-07",
+   "authors": "Ridker PM, Lincoff AM, Marx N, Navar AM, Sattar N, Tuttle KR",
+   "doi": "10.1056/NEJMoa2612126",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001750",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Early Days, Late Nights.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001750/",
+   "date": "2026-11-07",
+   "authors": "Einterz EM",
+   "doi": "10.1056/NEJMp2607215",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43001747",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Bringing Rapid Reperfusion to More Patients with Out-of-Hospital Cardiac Arrest.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001747/",
+   "date": "2026-11-07",
+   "authors": "Yannopoulos D",
+   "doi": "10.1056/NEJMe2612650",
+   "study_type": "述评",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001746",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Intensive Blood-Pressure Lowering in Patients with Type 2 Diabetes.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001746/",
+   "date": "2026-11-07",
+   "authors": "Santo K, Martins E, Silva GS, Guimarães PO, Tavares CAM, Andrade JB",
+   "doi": "10.1056/NEJMoa2612922",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43001743",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Lung Hernia with a Chest-Wall Hematoma.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001743/",
+   "date": "2026-11-07",
+   "authors": "Landry TC, Gienapp T",
+   "doi": "10.1056/NEJMicm2607065",
+   "study_type": "病例报告",
+   "departments": [
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "43001742",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Discontinuing Statins in Older Adults without Cardiovascular Disease.",
+   "title_zh": "在没有心血管疾病的老年人中停用他汀类药物。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001742/",
+   "date": "2026-11-07",
+   "authors": "Rodondi N, Haller ML, Bardoczi JB, Adam L, Blum MR, Gencer B",
+   "doi": "10.1056/NEJMoa2606634",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001741",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Intensive Blood-Pressure Control in Patients with Previous Ischemic Stroke.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001741/",
+   "date": "2026-11-07",
+   "authors": "Sampaio Silva G, Machline-Carrion MJ, Santo K, Brainer Clares de Andrade J, Martins E, Guimarães PO",
+   "doi": "10.1056/NEJMoa2612924",
+   "study_type": "研究论文",
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "43001740",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Prehospital Extracorporeal Life Support in Refractory Out-of-Hospital Cardiac Arrest.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001740/",
+   "date": "2026-11-07",
+   "authors": "Reis Miranda D, Moors X, Ali S, Maissan IM, van Schuppen HL, Mommers L",
+   "doi": "10.1056/NEJMoa2602919",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001735",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Equity in Maternal-Fetal Medicine - Technological Advances and a Potential Path Forward.",
+   "title_zh": "母胎医学中的公平-技术进步和潜在的前进道路。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001735/",
+   "date": "2026-11-07",
+   "authors": "Mallampati D, Binion C, Vora NL",
+   "doi": "10.1056/NEJMp2607107",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43001734",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Pelacarsen and Cardiovascular Outcomes in Patients with High Lipoprotein(a).",
+   "title_zh": "高脂蛋白患者的Pelacarsen和心血管结局（ a ）。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001734/",
+   "date": "2026-11-07",
+   "authors": "Cho L, Nicholls SJ, Frndak S, Wolski K, Nordestgaard BG, Manning B",
+   "doi": "10.1056/NEJMoa2610159",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43001732",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Hyperaldosteronism Remission after Extended Aldosterone Synthase Inhibition.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001732/",
+   "date": "2026-11-07",
+   "authors": "Brown MJ, Turcu AF, Sam R, Kirschner LS, Hamidi O, Eren A",
+   "doi": "10.1056/NEJMc2611265",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
    "pmid": "42993610",
    "journal": "JAMA",
    "journal_abbr": "JAMA",
@@ -491,7 +1074,6 @@
    "link": "https://pubmed.ncbi.nlm.nih.gov/42993610/",
    "date": "2026-11-06",
    "doi": "10.1001/jama.2025.16121",
-   "study_type": "研究论文",
    "departments": [
     "综合"
    ]

@@ -1,0 +1,203 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10T08:07:18+00:00",
+ "provider": "none",
+ "degraded": true,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "42956796",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956796/",
+   "title_en": "Performance of 0/1 h versus 0/3 h pathways in patients with suspected myocardial infarction: a systematic review and individual participant data meta-analysis of randomised controlled trials.",
+   "study_type": "Meta 分析",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "疑似心肌梗死患者0/1 h与0/3 h路径的性能比较：随机对照试验的系统评价与个体参与者数据荟萃分析。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42933457",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933457/",
+   "title_en": "Ruzaltatug rezetecan versus chemotherapy for EGFR-mutated advanced non-small-cell lung cancer progressing after EGFR tyrosine kinase inhibitor therapy (HERON-Lung01): interim analysis of a randomised, open-label, phase 3 trial in China.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ],
+   "title_zh": "Ruzaltatug rezetecan对比化疗用于EGFR突变晚期非小细胞肺癌经EGFR酪氨酸激酶抑制剂治疗后进展（HERON-Lung01）：中国随机、开放标签、3期试验的中期分析。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42667934",
+   "journal": "Lancet",
+   "date": "2026-11-07",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42667934/",
+   "title_en": "Safety and efficacy of the 0/1 h pathway for myocardial infarction in the emergency department: an international, pragmatic, stepped-wedge, cluster-randomised, controlled trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "急诊科心肌梗死0/1 h路径的安全性与有效性：一项国际、实用性、阶梯楔形、整群随机对照试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003442",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003442/",
+   "title_en": "NHS data breaches: Attack victims' families demand tougher rules for staff.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "NHS数据泄露：攻击受害者家属要求对员工制定更严格的规则。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003440",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003440/",
+   "title_en": "US midterm elections: Doctors win critical races in rebuke of Trump, so what does it mean for health?",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "美国中期选举：医生在批评特朗普的过程中赢得了关键比赛，那么这对健康意味着什么？",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003438",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003438/",
+   "title_en": "Practice Pointer: Community management of delirium.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "练习指针：谵妄的社区管理。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003437",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003437/",
+   "title_en": "India vows \"immediate\" action against substandard medicines.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "印度誓言对低于标准的药物采取“立即”行动。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003436",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003436/",
+   "title_en": "What we can learn from two pioneering female surgeons.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "我们可以从两位开拓性的女性外科医生身上学到什么。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003435",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003435/",
+   "title_en": "\"Reallocated\" £40m for winter support will further strain GP budgets, doctors warn.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "医生警告说， “重新分配” 4000万£用于冬季支持将进一步加大全科医生预算的压力。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003106",
+   "journal": "Lancet",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003106/",
+   "title_en": "Cardiovascular outcomes with survodutide in adults with obesity at increased cardiovascular risk (SYNCHRONIZE-CVOT): a double-blind, randomised, placebo-controlled, phase 3 trial.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "内分泌/代谢"
+   ],
+   "title_zh": "成年肥胖者心血管风险增加时使用survodutide的心血管结局（ SYNCHRONIZE-CVOT ） ：一项双盲、随机、安慰剂对照的3期临床试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  }
+ ]
+}

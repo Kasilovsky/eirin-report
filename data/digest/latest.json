@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "date": "2026-11-09",
- "generated_at": "2026-11-09T07:46:27+00:00",
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10T08:07:18+00:00",
  "provider": "none",
  "degraded": true,
  "window_days": 3,
@@ -66,131 +66,131 @@
    "confidence": "low"
   },
   {
-   "pmid": "43000112",
-   "journal": "Nat Med",
-   "date": "2026-11-08",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43000112/",
-   "title_en": "Effects of semaglutide on cardiac structure and function in heart failure with preserved ejection fraction and obesity: a pre-specified cardiac magnetic resonance substudy of the CAMEO-SEMA trial.",
+   "pmid": "43003442",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003442/",
+   "title_en": "NHS data breaches: Attack victims' families demand tougher rules for staff.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "NHS数据泄露：攻击受害者家属要求对员工制定更严格的规则。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003440",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003440/",
+   "title_en": "US midterm elections: Doctors win critical races in rebuke of Trump, so what does it mean for health?",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "美国中期选举：医生在批评特朗普的过程中赢得了关键比赛，那么这对健康意味着什么？",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003438",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003438/",
+   "title_en": "Practice Pointer: Community management of delirium.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "练习指针：谵妄的社区管理。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003437",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003437/",
+   "title_en": "India vows \"immediate\" action against substandard medicines.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "印度誓言对低于标准的药物采取“立即”行动。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003436",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003436/",
+   "title_en": "What we can learn from two pioneering female surgeons.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "我们可以从两位开拓性的女性外科医生身上学到什么。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003435",
+   "journal": "BMJ",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003435/",
+   "title_en": "\"Reallocated\" £40m for winter support will further strain GP budgets, doctors warn.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "医生警告说， “重新分配” 4000万£用于冬季支持将进一步加大全科医生预算的压力。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43003106",
+   "journal": "Lancet",
+   "date": "2026-11-09",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003106/",
+   "title_en": "Cardiovascular outcomes with survodutide in adults with obesity at increased cardiovascular risk (SYNCHRONIZE-CVOT): a double-blind, randomised, placebo-controlled, phase 3 trial.",
    "study_type": "研究论文",
    "departments": [
     "循环器",
     "内分泌/代谢"
    ],
-   "title_zh": "Semaglutide对射血分数保留和肥胖心力衰竭患者心脏结构和功能的影响： CAMEO-SEMA试验的一项预先规定的心脏磁共振亚研究。",
-   "one_liner": "",
-   "key_finding": "",
-   "why_it_matters": "",
-   "clinical_note": "",
-   "evidence": "",
-   "tags": [],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43000001",
-   "journal": "JAMA",
-   "date": "2026-11-08",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43000001/",
-   "title_en": "Implementation of Single-Pill Combination Therapy Through Team-Based Care for Hypertension Control in Resource-Constrained Settings: A Cluster Randomized Clinical Trial.",
-   "study_type": "研究论文",
-   "departments": [
-    "循环器"
-   ],
-   "title_zh": "在资源受限的环境中通过基于团队的护理实施单药联合治疗以控制高血压：一项集群随机临床试验。",
-   "one_liner": "",
-   "key_finding": "",
-   "why_it_matters": "",
-   "clinical_note": "",
-   "evidence": "",
-   "tags": [],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43000000",
-   "journal": "JAMA",
-   "date": "2026-11-08",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43000000/",
-   "title_en": "Implementation of Single-Pill Combination Therapy Through Team-Based Care for Hypertension Control in Resource-Constrained Settings: Research Summary.",
-   "study_type": "研究论文",
-   "departments": [
-    "循环器"
-   ],
-   "title_zh": "在资源受限的环境中通过基于团队的护理实施单药联合治疗来控制高血压：研究总结。",
-   "one_liner": "",
-   "key_finding": "",
-   "why_it_matters": "",
-   "clinical_note": "",
-   "evidence": "",
-   "tags": [],
-   "confidence": "low"
-  },
-  {
-   "pmid": "42999999",
-   "journal": "JAMA",
-   "date": "2026-11-08",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42999999/",
-   "title_en": "Low-Voltage Area Ablation for Persistent Atrial Fibrillation: Research Summary.",
-   "study_type": "研究论文",
-   "departments": [
-    "循环器"
-   ],
-   "title_zh": "持续性心房颤动的低压区域消融：研究总结。",
-   "one_liner": "",
-   "key_finding": "",
-   "why_it_matters": "",
-   "clinical_note": "",
-   "evidence": "",
-   "tags": [],
-   "confidence": "low"
-  },
-  {
-   "pmid": "42999998",
-   "journal": "JAMA",
-   "date": "2026-11-08",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42999998/",
-   "title_en": "Low-Voltage Area Ablation for Persistent Atrial Fibrillation: The COAST-AF Randomized Clinical Trial.",
-   "study_type": "研究论文",
-   "departments": [
-    "循环器"
-   ],
-   "title_zh": "持续性心房颤动的低压区域消融： COAST-AF随机临床试验。",
-   "one_liner": "",
-   "key_finding": "",
-   "why_it_matters": "",
-   "clinical_note": "",
-   "evidence": "",
-   "tags": [],
-   "confidence": "low"
-  },
-  {
-   "pmid": "42998670",
-   "journal": "Lancet",
-   "date": "2026-11-07",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42998670/",
-   "title_en": "Cangrelor versus crushed ticagrelor in acute myocardial infarction complicated by cardiogenic shock (DAPT-SHOCK-AMI): a randomised, double-blind trial.",
-   "study_type": "研究论文",
-   "departments": [
-    "循环器"
-   ],
-   "title_zh": "急性心肌梗死并发心源性休克（ DAPT-SHOCK-AMI ）的Cangrelor与破碎的替格瑞洛：一项随机、双盲试验",
-   "one_liner": "",
-   "key_finding": "",
-   "why_it_matters": "",
-   "clinical_note": "",
-   "evidence": "",
-   "tags": [],
-   "confidence": "low"
-  },
-  {
-   "pmid": "42998244",
-   "journal": "JAMA",
-   "date": "2026-11-07",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42998244/",
-   "title_en": "Long-Term Survival After Initial Invasive or Conservative Management of Stable Coronary Disease in ISCHEMIA-EXTEND.",
-   "study_type": "研究论文",
-   "departments": [
-    "循环器"
-   ],
-   "title_zh": "ISCHEMIA-EXTEND中稳定冠状动脉疾病的初始侵袭性或保守性治疗后的长期生存率。",
+   "title_zh": "成年肥胖者心血管风险增加时使用survodutide的心血管结局（ SYNCHRONIZE-CVOT ） ：一项双盲、随机、安慰剂对照的3期临床试验。",
    "one_liner": "",
    "key_finding": "",
    "why_it_matters": "",

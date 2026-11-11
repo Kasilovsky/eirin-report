@@ -1,0 +1,202 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T07:38:05+00:00",
+ "provider": "none",
+ "degraded": true,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "42721021",
+   "journal": "JAMA",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42721021/",
+   "title_en": "Loberamisal for Acute Ischemic Stroke: The LAIS Randomized Clinical Trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "神经"
+   ],
+   "title_zh": "Loberamisal治疗急性缺血性卒中： LAIS随机临床试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43009176",
+   "journal": "BMJ",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43009176/",
+   "title_en": "Stopping GLP-1 treatment could double risk of heart attack, stroke, or death, study finds.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "神经"
+   ],
+   "title_zh": "研究发现，停止GLP-1治疗可能会使心脏病发作、中风或死亡的风险增加一倍。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43009173",
+   "journal": "BMJ",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43009173/",
+   "title_en": "Cancer care: Scrap formal MDT meetings for routine patients, says major review.",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "癌症护理：主要审查称，取消常规患者的正式MDT会议。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43009161",
+   "journal": "BMJ",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43009161/",
+   "title_en": "I'm going through perimenopause. What support can I get?",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "我正在经历围绝经期。我可以获得哪些支持？",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43009160",
+   "journal": "BMJ",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43009160/",
+   "title_en": "Abdul El-Sayed: Who is America's first epidemiologist senator?",
+   "study_type": "研究论文",
+   "departments": [
+    "公共卫生"
+   ],
+   "title_zh": "阿卜杜勒·赛义德：谁是美国第一位流行病学家参议员？",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43009158",
+   "journal": "BMJ",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43009158/",
+   "title_en": "Autism advert crackdown: UK watchdog bans ads for \"misleading\" stem cell treatment.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "自闭症广告打击：英国监管机构禁止“误导性”干细胞治疗广告。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43009157",
+   "journal": "BMJ",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43009157/",
+   "title_en": "Flu: NHS staff urged to get vaccinated as cases and hospital admissions rise.",
+   "study_type": "研究论文",
+   "departments": [
+    "疫苗"
+   ],
+   "title_zh": "流感：随着病例和住院人数的增加， NHS工作人员敦促接种疫苗。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43009156",
+   "journal": "BMJ",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43009156/",
+   "title_en": "How academic medicine can confront commercial determinants of health.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "学术医学如何应对健康的商业决定因素。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43009155",
+   "journal": "BMJ",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43009155/",
+   "title_en": "Private and NHS hospitals still failing to cooperate to catch rogue doctors, report warns.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "报告警告说，私立医院和NHS医院仍然未能合作抓捕流氓医生。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43008768",
+   "journal": "Lancet",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43008768/",
+   "title_en": "A blended digital parenting intervention for the prevention of sexual violence, exploitative sex, and maltreatment of children at scale in Tanzania: a cluster-randomised, controlled trial.",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科"
+   ],
+   "title_zh": "在坦桑尼亚大规模预防性暴力、剥削性性行为和虐待儿童的混合数字育儿干预措施：一项集群随机对照试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  }
+ ]
+}

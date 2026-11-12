@@ -1,0 +1,202 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T08:05:29+00:00",
+ "provider": "none",
+ "degraded": true,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "43013818",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43013818/",
+   "title_en": "Prevention of Venous Thromboembolism after Total Hip or Knee Replacement.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "血液"
+   ],
+   "title_zh": "全髋关节或全膝关节置换术后静脉血栓栓塞的预防。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42912700",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912700/",
+   "title_en": "Ravulizumab in IgA Nephropathy - Interim Analysis of a Phase 3 Trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "ravulizumab治疗IgA肾病：一项3期试验的中期分析",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42670968",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42670968/",
+   "title_en": "Prasugrel versus Ticagrelor in Acute Coronary Syndromes.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "普拉格雷与替卡格雷在急性冠脉综合征中的比较。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42437501",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42437501/",
+   "title_en": "Rivaroxaban Then Aspirin vs. Aspirin Alone after Total Hip or Knee Arthroplasty.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "血液"
+   ],
+   "title_zh": "全髋关节或全膝关节置换术后利伐沙班继以阿司匹林与单用阿司匹林的比较。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43014822",
+   "journal": "BMJ",
+   "date": "2026-11-11",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43014822/",
+   "title_en": "Effect of discontinuing antihypertensives on perioperative hypotension in older patients before non-cardiac surgery: multicentre, randomised, double blind, controlled trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "外科"
+   ],
+   "title_zh": "停用降压药对非心脏手术前老年患者围手术期低血压的影响：一项多中心、随机、双盲、对照试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "42721021",
+   "journal": "JAMA",
+   "date": "2026-11-10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42721021/",
+   "title_en": "Loberamisal for Acute Ischemic Stroke: The LAIS Randomized Clinical Trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "神经"
+   ],
+   "title_zh": "Loberamisal治疗急性缺血性卒中： LAIS随机临床试验。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43013820",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43013820/",
+   "title_en": "High-Flow Oxygen Therapy with Nasal Cannula.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "使用鼻导管的高流量氧疗。",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43013819",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43013819/",
+   "title_en": "Preventing Malaria Infections and Moving toward Malaria Elimination.",
+   "study_type": "综述",
+   "departments": [
+    "疫苗"
+   ],
+   "title_zh": "",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43001754",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001754/",
+   "title_en": "Mass Surveillance with Artificial Intelligence - A New Determinant of Health?",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "使用人工智能的大规模监控-健康的新决定因素？",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43001750",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43001750/",
+   "title_en": "Early Days, Late Nights.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "",
+   "one_liner": "",
+   "key_finding": "",
+   "why_it_matters": "",
+   "clinical_note": "",
+   "evidence": "",
+   "tags": [],
+   "confidence": "low"
+  }
+ ]
+}

@@ -1,8 +1,155 @@
 {
  "schema_version": 2,
  "month": "2026-11",
- "count": 383,
+ "count": 442,
  "articles": [
+  {
+   "pmid": "42962694",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Governing artificial intelligence for reliable research.",
+   "title_zh": "规范人工智能以实现可靠研究",
+   "citation": "Lancet. 2026; 408(10568): 2048-2050",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42962694/",
+   "date": "2026-11-14",
+   "authors": "Priess Buchheit J, Pazik-Aybar A, Miller K, Baker M, Errington TM, Marušić A",
+   "doi": "10.1016/S0140-6736(26)02159-8",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42956797",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "A Lancet Commission on the Health and Poverty Alleviation Initiative in China.",
+   "title_zh": "《柳叶刀》中国健康与扶贫倡议委员会。",
+   "citation": "Lancet. 2026; 408(10568): 2125-2168",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956797/",
+   "date": "2026-11-14",
+   "authors": "Liang W, Tang K, Li Z, Zhu J, Atun R, Yip W",
+   "doi": "10.1016/S0140-6736(26)01196-7",
+   "study_type": "综述",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42956793",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Health and poverty: lessons from China.",
+   "title_zh": "健康与贫困：中国的经验教训。",
+   "citation": "Lancet. 2026; 408(10568): 2037",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956793/",
+   "date": "2026-11-14",
+   "authors": "The Lancet",
+   "doi": "10.1016/S0140-6736(26)02186-0",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42956792",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Beyond poverty eradication: what China's health and poverty alleviation experience means for global health.",
+   "title_zh": "超越消除贫困：中国健康与扶贫经验对全球健康的意义。",
+   "citation": "Lancet. 2026; 408(10568): 2046-2048",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956792/",
+   "date": "2026-11-14",
+   "authors": "Mao W, Watkins D",
+   "doi": "10.1016/S0140-6736(26)02049-0",
+   "study_type": "研究论文",
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "42933458",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "First-line pembrolizumab versus carboplatin plus paclitaxel in participants with mismatch repair-deficient advanced or recurrent endometrial cancer (KEYNOTE-C93/GOG-3064/ENGOT-en15): interim analysis of a multicentre, open-label, randomised, active-comparator controlled, phase 3 trial.",
+   "title_zh": "一线pembrolizumab对比卡铂联合紫杉醇治疗错配修复缺陷晚期或复发性子宫内膜癌（KEYNOTE-C93/GOG-3064/ENGOT-en15）：一项多中心、开放标签、随机、活性对照、3期试验的中期分析。",
+   "citation": "Lancet. 2026; 408(10568): 2081-2096",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933458/",
+   "date": "2026-11-14",
+   "authors": "Slomovitz BM, Zhu J, Yin R, Backes F, Bidziński M, Gilbert L",
+   "doi": "10.1016/S0140-6736(26)02095-7",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42925881",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Optimising late-line treatment administration in metastatic colorectal cancer: an even brighter SUNLIGHT.",
+   "title_zh": "优化转移性结直肠癌后线治疗给药：更加明亮的SUNLIGHT。",
+   "citation": "Lancet. 2026; 408(10568): 2038-2039",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42925881/",
+   "date": "2026-11-14",
+   "authors": "Ciracì P, Cremolini C",
+   "doi": "10.1016/S0140-6736(26)02034-9",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "42925880",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "14-day versus 28-day trifluridine-tipiracil plus bevacizumab for refractory metastatic colorectal cancer (PRABITAS): a pragmatic, multicentre, open-label, randomised, phase 3, non-inferiority trial in Japan.",
+   "title_zh": "14天对比28天trifluridine-tipiracil联合bevacizumab治疗难治性转移性结直肠癌（PRABITAS）：一项在日本开展的实用性、多中心、开放标签、随机、3期、非劣效性试验。",
+   "citation": "Lancet. 2026; 408(10568): 2069-2080",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42925880/",
+   "date": "2026-11-14",
+   "authors": "Sakakida T, Taniguchi H, Asayama M, Suwa Y, Shimura T, Mitani S",
+   "doi": "10.1016/S0140-6736(26)01782-4",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "42612661",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Ambient scribes as narrative technologies.",
+   "title_zh": "环境记录作为叙事技术。",
+   "citation": "Lancet. 2026; 408(10568): 2169-2172",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42612661/",
+   "date": "2026-11-14",
+   "authors": "Ostherr K, Engebretsen E, Woods A",
+   "doi": "10.1016/S0140-6736(26)01381-4",
+   "study_type": "综述",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42468541",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Empirical treatment with valganciclovir in infants living with HIV and hospitalised with severe pneumonia in Africa: a multicentre, open-label, factorial, randomised, controlled, superiority trial.",
+   "title_zh": "在非洲感染艾滋病毒并因重症肺炎住院的婴幼儿中进行缬更昔洛韦的经验性治疗：一项多中心、开放标签、析因、随机、对照、优效性试验。",
+   "citation": "Lancet. 2026; 408(10568): 2097-2108",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42468541/",
+   "date": "2026-11-14",
+   "authors": "Moraleda C, Tagarro A, Domínguez-Rodríguez S, Musiime V, Mujuru H, Chabala C",
+   "doi": "10.1016/S0140-6736(26)00754-3",
+   "study_type": "随机对照试验",
+   "departments": [
+    "感染",
+    "儿科"
+   ]
+  },
   {
    "pmid": "43001754",
    "journal": "New England Journal of Medicine",
@@ -437,7 +584,760 @@
    "doi": "10.1056/NEJMoa2603649",
    "study_type": "随机对照试验",
    "departments": [
-    "血液"
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020520",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Effect of intensive blood pressure control on cognitive outcomes and brain structures in adults with type 2 diabetes: prespecified analysis of secondary outcomes of BPROAD randomised controlled trial.",
+   "title_zh": "强化血压控制对2型糖尿病成年患者认知结局和脑结构的影响：BPROAD随机对照试验次要结局的预先设定分析。",
+   "citation": "BMJ. 2026; 395: e101209",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020520/",
+   "date": "2026-11-12",
+   "authors": "Wang W, Xu Y, Xu F, Pan H, Geng X, Li Y",
+   "doi": "10.1136/bmj-2026-101209",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "神经",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43020519",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Diagnosis and need in ADHD and autism care.",
+   "title_zh": "多动症和自闭症护理的诊断与需求。",
+   "citation": "BMJ. 2026; 395: e101390",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020519/",
+   "date": "2026-11-12",
+   "authors": "Robaey P, Szatmari P, Courtney K",
+   "doi": "10.1136/bmj-2026-101390",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020518",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "When no one has a duty of care, who protects the individual?",
+   "title_zh": "当没有人负有谨慎义务时，谁来保护个人？",
+   "citation": "BMJ. 2026; 395: e101414",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020518/",
+   "date": "2026-11-12",
+   "authors": "Murphy TJ",
+   "doi": "10.1136/bmj-2026-101414",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020517",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "AMR: Over 400 antibiotic resistant infections were reported every week in England last year.",
+   "title_zh": "AMR：去年，英国每周报告的耐药性感染超过400例。",
+   "citation": "BMJ. 2026; 395: e101446",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020517/",
+   "date": "2026-11-12",
+   "authors": "Furneaux R",
+   "doi": "10.1136/bmj-2026-101446",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43020485",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Heatwaves: Ambulances hit hardest as many delayed seeking care, analysis finds.",
+   "title_zh": "热浪：分析发现，救护车受到的影响最大，因为许多人延迟就医。",
+   "citation": "BMJ. 2026; 395: e101444",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020485/",
+   "date": "2026-11-12",
+   "authors": "Iacobucci G",
+   "doi": "10.1136/bmj-2026-101444",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020484",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Changes to Prevent guidance on radicalisation: what you need to know.",
+   "title_zh": "《防止激进化指南》的变更：您需要了解的内容。",
+   "citation": "BMJ. 2026; 395: e101435",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020484/",
+   "date": "2026-11-12",
+   "authors": "Rimmer A",
+   "doi": "10.1136/bmj-2026-101435",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020483",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "The NHS doesn't routinely collect data on LGBTQ+ health, even though meaningful improvements can't happen without it.",
+   "title_zh": "尽管没有这些数据，就无法实现有意义的改善，但英国国民保健服务（NHS）并不常规收集有关LGBTQ+群体健康的数据。",
+   "citation": "BMJ. 2026; 395: e101428",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020483/",
+   "date": "2026-11-12",
+   "authors": "Bates J",
+   "doi": "10.1136/bmj-2026-101428",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020480",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "What Brazil's leftist win means for the world's biggest universal health system.",
+   "title_zh": "巴西左翼的胜利对世界上最大的全民医疗体系意味着什么。",
+   "citation": "BMJ. 2026; 395: e101419",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020480/",
+   "date": "2026-11-12",
+   "authors": "Taylor L",
+   "doi": "10.1136/bmj-2026-101419",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020098",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Lynch syndrome.",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020098/",
+   "date": "2026-11-12",
+   "authors": "Ryan NAJ, Gallon R, McVeigh T, Monahan KJ, Moeslein G, Church DN",
+   "doi": "10.1016/S0140-6736(26)01600-4",
+   "study_type": "综述",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020034",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Harmonized brain ontology and 3D atlases for human, macaque, and marmoset basal ganglia.",
+   "title_zh": "针对人脑、猕猴脑和狨猴脑基底神经节的统一脑本体论和3D图谱。",
+   "citation": "Cell. 2026; 189(23): 7616-7633.e7",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020034/",
+   "date": "2026-11-12",
+   "authors": "Ding SL, Bhandiwad AA, Rosen BQ, Seeman SC, Long B, Johansen NJ",
+   "doi": "10.1016/j.cell.2026.10.033",
+   "study_type": "研究论文",
+   "departments": [
+    "神经",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43020033",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "An integrative single-cell epigenomic atlas annotates the regulatory genome of the adult mouse brain.",
+   "title_zh": "一个综合性单细胞表观基因组图谱对成年小鼠大脑的调控基因组进行了注释。",
+   "citation": "Cell. 2026; 189(23): 7593-7615.e13",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020033/",
+   "date": "2026-11-12",
+   "authors": "Wang Z, Zu S, Armand EJ, Loe TH, Rink JA, Wu W",
+   "doi": "10.1016/j.cell.2026.10.022",
+   "study_type": "研究论文",
+   "departments": [
+    "神经",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020032",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Single-cell, multi-region profiling of the macaque brain across the lifespan.",
+   "title_zh": "猕猴大脑在整个生命周期内的单细胞、多区域谱分析。",
+   "citation": "Cell. 2026; 189(23): 7571-7592.e7",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020032/",
+   "date": "2026-11-12",
+   "authors": "Yang W, Watkins KL, DeCasien AR, O'Neill MB, Bohlen MO, O'Day DR",
+   "doi": "10.1016/j.cell.2026.09.014",
+   "study_type": "研究论文",
+   "departments": [
+    "神经",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43020031",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "A single-cell and spatial 3D multi-omic atlas of developing human basal ganglia.",
+   "title_zh": "发育中人基底神经节的单细胞和空间3D多组学图谱。",
+   "citation": "Cell. 2026; 189(23): 7550-7570.e11",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020031/",
+   "date": "2026-11-12",
+   "authors": "Heffel MG, Xu H, Pastor-Alonso O, Li X, Baig MS, Ghoor RI",
+   "doi": "10.1016/j.cell.2026.10.008",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020030",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Disruption of cell-type-specific molecular programs of striatal spiny projection neurons in autism.",
+   "title_zh": "自闭症中纹状体棘突投射神经元细胞类型特异性分子程序的紊乱。",
+   "citation": "Cell. 2026; 189(23): 7528-7549.e14",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020030/",
+   "date": "2026-11-12",
+   "authors": "Yuan G, Suresh V, Wigdor EM, Hao Y, Sun FY, Evans C",
+   "doi": "10.1016/j.cell.2026.10.027",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020029",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Circuit-aligned specialization of human basal ganglia astrocytes.",
+   "title_zh": "人基底神经节星形胶质细胞的环路特异性分化。",
+   "citation": "Cell. 2026; 189(23): 7512-7527.e6",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020029/",
+   "date": "2026-11-12",
+   "authors": "Fu Y, Kempynck N, Ding W, Turner MA, Garcia AD, Schmitz MT",
+   "doi": "10.1016/j.cell.2026.09.041",
+   "study_type": "研究论文",
+   "departments": [
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020028",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Morphoelectric diversity and specialization of primate striatal neuron types.",
+   "title_zh": "灵长类动物纹状体神经元类型的形态电多样性和特化。",
+   "citation": "Cell. 2026; 189(23): 7492-7511.e8",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020028/",
+   "date": "2026-11-12",
+   "authors": "Liu XP, Dalley R, Johansen N, Budzillo A, Thijssen J, Miller JA",
+   "doi": "10.1016/j.cell.2026.10.028",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020027",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Spatial and regulatory organization of cell identity across the primate subcortex.",
+   "title_zh": "灵长类动物皮质下细胞身份的空间和调控组织。",
+   "citation": "Cell. 2026; 189(23): 7471-7491.e10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020027/",
+   "date": "2026-11-12",
+   "authors": "Dan S, Turner MA, DeBerardine M, Caceres L, Nieto-Caballero VE, Schembri J",
+   "doi": "10.1016/j.cell.2026.10.007",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020026",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Single-cell multimodal atlas reveals regulatory programs in the human brain.",
+   "title_zh": "单细胞多模态图谱揭示了人脑的调控程序。",
+   "citation": "Cell. 2026; 189(23): 7447-7470.e18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020026/",
+   "date": "2026-11-12",
+   "authors": "Xie Y, Chang L, Zhong G, Rink JA, Báez-Becerra CT, Armand E",
+   "doi": "10.1016/j.cell.2026.08.012",
+   "study_type": "研究论文",
+   "departments": [
+    "神经",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020025",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Multiscale spatial atlas of human basal ganglia cell types and communities.",
+   "title_zh": "人基底神经节细胞类型和群体的多尺度空间图谱。",
+   "citation": "Cell. 2026; 189(23): 7428-7446.e11",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020025/",
+   "date": "2026-11-12",
+   "authors": "Berackey BT, Tan Z, Wu G, Das SC, Li R, Esser B",
+   "doi": "10.1016/j.cell.2026.09.027",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020024",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Single-cell analysis of chromatin state and transcriptome in the human basal ganglia.",
+   "title_zh": "人基底神经节染色质状态和转录组的单细胞分析。",
+   "citation": "Cell. 2026; 189(23): 7406-7427.e13",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020024/",
+   "date": "2026-11-12",
+   "authors": "Chang L, Li K, Xie Y, Zhong G, Rink JA, Báez-Becerra CT",
+   "doi": "10.1016/j.cell.2026.09.008",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020023",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Multimodal single-cell epigenomic and 3D genome atlas of the human basal ganglia.",
+   "title_zh": "人基底神经节的多模态单细胞表观基因组和3D基因组图谱。",
+   "citation": "Cell. 2026; 189(23): 7386-7405.e15",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020023/",
+   "date": "2026-11-12",
+   "authors": "Ding W, Klein A, Báez-Becerra CT, Rink JA, Bartlett A, Wang R",
+   "doi": "10.1016/j.cell.2026.10.019",
+   "study_type": "研究论文",
+   "departments": [
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020022",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Common variation of cell abundances and gene expression in the human striatum.",
+   "title_zh": "人纹状体中细胞丰度和基因表达的常见变异。",
+   "citation": "Cell. 2026; 189(23): 7369-7385.e18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020022/",
+   "date": "2026-11-12",
+   "authors": "Burger SC, Nemesh J, Yoo O, Muratoglu E, Vanderburg C, Yuan J",
+   "doi": "10.1016/j.cell.2026.10.026",
+   "study_type": "研究论文",
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43020021",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Mesoscale molecular architecture of the striatum across cell types and adult aging.",
+   "title_zh": "跨细胞类型和成年衰老的纹状体中尺度分子结构。",
+   "citation": "Cell. 2026; 189(23): 7350-7368.e13",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020021/",
+   "date": "2026-11-12",
+   "authors": "Kraft AW, Lee M, Gao H, Mohsin A, Rayan NA, Lawler AJ",
+   "doi": "10.1016/j.cell.2026.10.029",
+   "study_type": "研究论文",
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43020020",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Spatial transcriptomics reveals molecular organization of human and nonhuman primate basal ganglia.",
+   "title_zh": "空间转录组学揭示了人类和非人灵长类动物基底神经节的分子结构。",
+   "citation": "Cell. 2026; 189(23): 7330-7349.e9",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020020/",
+   "date": "2026-11-12",
+   "authors": "Hewitt MN, Turner MA, Johansen N, McMillen DA, Dan S, DeBerardine M",
+   "doi": "10.1016/j.cell.2026.10.023",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020019",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Cross-species multiomic atlas of the primate basal ganglia.",
+   "title_zh": "灵长类动物基底神经节的跨物种多组学图谱。",
+   "citation": "Cell. 2026; 189(23): 7309-7329.e13",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020019/",
+   "date": "2026-11-12",
+   "authors": "Johansen NJ, Fu Y, Schmitz M, Dubuc A, Kempynck N, Wirthlin M",
+   "doi": "10.1016/j.cell.2026.10.012",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020018",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Toward an integrated framework for a human and mammalian brain cell atlas.",
+   "title_zh": "迈向人类和哺乳动物脑细胞图谱的综合框架。",
+   "citation": "Cell. 2026; 189(23): 7289-7308.e6",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020018/",
+   "date": "2026-11-12",
+   "authors": "BRAIN Initiative Cell Atlas Network (BICAN). Electronic address: ecker@salk.edu, BRAIN Initiative Cell Atlas Network (BICAN)",
+   "doi": "10.1016/j.cell.2026.10.031",
+   "study_type": "研究论文",
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "43020017",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Conserved striatal mechanisms underlying ASD.",
+   "title_zh": "自闭症谱系障碍（ASD）背后的保守纹状体机制。",
+   "citation": "Cell. 2026; 189(23): 7287-7288",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020017/",
+   "date": "2026-11-12",
+   "authors": "Phillips RA, Martinowich K",
+   "doi": "10.1016/j.cell.2026.10.025",
+   "study_type": "评论",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020016",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Stepping (hi)stones: Charting a single-cell multiomic path toward understanding the human brain.",
+   "title_zh": "垫脚石：绘制一条通往人类大脑理解的单细胞多组学路径。",
+   "citation": "Cell. 2026; 189(23): 7284-7286",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020016/",
+   "date": "2026-11-12",
+   "authors": "Zaghi M, Dang Y, Castelo-Branco G",
+   "doi": "10.1016/j.cell.2026.10.020",
+   "study_type": "研究论文",
+   "departments": [
+    "神经",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020015",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "From the human genome to the human brain cell atlas.",
+   "title_zh": "从人类基因组到人类脑细胞图谱。",
+   "citation": "Cell. 2026; 189(23): 7279-7283",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020015/",
+   "date": "2026-11-12",
+   "authors": "Ecker J, Ghosh S, Hawrylycz M, Ichihara K, Kriegstein A, Lein E",
+   "doi": "10.1016/j.cell.2026.10.034",
+   "study_type": "研究论文",
+   "departments": [
+    "神经",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020014",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Deploying liquid intelligence in cancer: Finding answers in our blood.",
+   "title_zh": "在癌症中部署液体智能：在我们的血液中寻找答案。",
+   "citation": "Cell. 2026; 189(23): 7259-7278",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020014/",
+   "date": "2026-11-12",
+   "authors": "George JM, Wielenga AJ, Iyer MK, Chinnaiyan AM",
+   "doi": "10.1016/j.cell.2026.10.024",
+   "study_type": "综述",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43020013",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Mapping primate brain aging across cell types, regions, and sexes.",
+   "title_zh": "跨细胞类型、区域和性别绘制灵长类动物大脑衰老图谱。",
+   "citation": "Cell. 2026; 189(23): 7256-7258",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020013/",
+   "date": "2026-11-12",
+   "authors": "Zhou J, Wang Y, Li M, Ma S",
+   "doi": "10.1016/j.cell.2026.10.021",
+   "study_type": "评论",
+   "departments": [
+    "神经",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43020012",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Collaboration across scales: More than the sum of its parts.",
+   "title_zh": "跨规模协作：大于其各部分的总和。",
+   "citation": "Cell. 2026; 189(23): 7255",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020012/",
+   "date": "2026-11-12",
+   "authors": "Cell Editorial Team",
+   "doi": "10.1016/j.cell.2026.10.032",
+   "study_type": "述评",
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "43018989",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Finerenone and CKD Due to Glomerular Diseases-Reply.",
+   "title_zh": "非奈明酮和由肾小球疾病引起的CKD——答复。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018989/",
+   "date": "2026-11-12",
+   "authors": "Neuen BL, Heerspink HJL, Perkovic V",
+   "doi": "10.1001/jama.2026.19534",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018987",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Review of Hip Fractures.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018987/",
+   "date": "2026-11-12",
+   "authors": "Gottlieb M",
+   "doi": "10.1001/jama.2026.19487",
+   "study_type": "研究论文",
+   "departments": [
+    "骨科"
+   ]
+  },
+  {
+   "pmid": "43018985",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Review of Hip Fractures.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018985/",
+   "date": "2026-11-12",
+   "authors": "Miller PD",
+   "doi": "10.1001/jama.2026.19490",
+   "study_type": "研究论文",
+   "departments": [
+    "骨科"
+   ]
+  },
+  {
+   "pmid": "43018982",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Beyond the Rogue Agent-Preparing Health Systems for AI Failure.",
+   "title_zh": "超越“失控的代理人”——为人工智能的失灵做好卫生系统的准备。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018982/",
+   "date": "2026-11-12",
+   "authors": "Hertelendy AJ, Miri A, Dameff C",
+   "doi": "10.1001/jama.2026.24040",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018981",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Preference Signaling for Interview Selection: The Residency Match's Unsettled Front End.",
+   "title_zh": "面试选拔的偏好信号：住院医师配对的未决前端。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018981/",
+   "date": "2026-11-12",
+   "authors": "Paltiel AD, Walensky RP",
+   "doi": "10.1001/jama.2026.22125",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018964",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Finerenone and CKD Due to Glomerular Diseases.",
+   "title_zh": "非奈明酮和由肾小球疾病引起的CKD。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018964/",
+   "date": "2026-11-12",
+   "authors": "Xiao L, Zhang Z, Sun L",
+   "doi": "10.1001/jama.2026.19531",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018963",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Treatment of Acute Ischemic Stroke: A Review.",
+   "title_zh": "急性缺血性卒中的治疗：综述。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018963/",
+   "date": "2026-11-12",
+   "authors": "Albers GW, Heit JJ",
+   "doi": "10.1001/jama.2026.19482",
+   "study_type": "研究论文",
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "43018960",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Izalontamab Brengitecan in Recurrent or Metastatic Esophageal Squamous Cell Carcinoma: Research Summary.",
+   "title_zh": "伊扎仑单抗联合布伦吉替康治疗复发性或转移性食管鳞状细胞癌：研究综述。",
+   "citation": "JAMA. 2026: e2623165",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018960/",
+   "date": "2026-11-12",
+   "doi": "10.1001/jama.2026.23165",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43018955",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Too Tall.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018955/",
+   "date": "2026-11-12",
+   "authors": "Bohler F",
+   "doi": "10.1001/jama.2026.22625",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018953",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Approved Form of Notice.",
+   "title_zh": "经批准的通知书格式。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018953/",
+   "date": "2026-11-12",
+   "doi": "10.1001/jama.2026.24928",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018949",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Izalontamab Brengitecan in Recurrent or Metastatic Esophageal Squamous Cell Carcinoma: The PANKU-Esophagus01 Randomized Clinical Trial.",
+   "title_zh": "伊扎仑单抗联合布伦吉替康治疗复发性或转移性食管鳞状细胞癌：PANKU-Esophagus01随机临床试验。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018949/",
+   "date": "2026-11-12",
+   "authors": "Lu Z, Huang Z, Meng X, Fan Y, Wu T, Pang Q",
+   "doi": "10.1001/jama.2026.20250",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43018946",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Review of Hip Fractures-Reply.",
+   "title_zh": "髋部骨折综述——答复。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018946/",
+   "date": "2026-11-12",
+   "authors": "Kiel DP, Tsai JN",
+   "doi": "10.1001/jama.2026.19493",
+   "study_type": "研究论文",
+   "departments": [
+    "骨科"
+   ]
+  },
+  {
+   "pmid": "43018944",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Report of Committee on Otorhinologic Hygiene of Swimming.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018944/",
+   "date": "2026-11-12",
+   "doi": "10.1001/jama.2026.24927",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018940",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "What Is Postural Orthostatic Tachycardia Syndrome?",
+   "title_zh": "什么是体位性直立性心动过速综合征？",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018940/",
+   "date": "2026-11-12",
+   "authors": "Walter KL",
+   "doi": "10.1001/jama.2026.18692",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42945956",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Deep sequencing of 3,367 maize genomes uncovers substantial contribution of rare variants to agronomic traits.",
+   "title_zh": "3,367份玉米基因组深度测序揭示罕见变异对农艺性状的重要贡献",
+   "citation": "Cell. 2026; 189(23): 7634-7651.e6",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42945956/",
+   "date": "2026-11-12",
+   "authors": "Huang L, Bian C, Xin B, Zhang X, Lu Q, Yue Y",
+   "doi": "10.1016/j.cell.2026.09.063",
+   "study_type": "研究论文",
+   "departments": [
+    "遗传/基因"
    ]
   },
   {
@@ -906,6 +1806,55 @@
    ]
   },
   {
+   "pmid": "43020052",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Sub-second dopamine reinforcement shapes juvenile social play.",
+   "title_zh": "亚秒级多巴胺强化塑造青少年社交游戏。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020052/",
+   "date": "2026-11-11",
+   "authors": "Chen X, Tao X, Zhong Z, Zhu F, Zhang Y, Wang Y",
+   "doi": "10.1016/j.cell.2026.10.040",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43015401",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Lessons from recent investigator-initiated trials of gene-editing therapies in China.",
+   "title_zh": "从中国近期由研究者发起的基因编辑疗法试验中汲取的经验教训。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43015401/",
+   "date": "2026-11-11",
+   "authors": "Du L, Kamenova K, Wang Z, Wang M, Li Y, Lei R",
+   "doi": "10.1038/s41591-026-04768-x",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43015400",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Normalized membrane ratio of TROP2 as a predictor of clinical outcomes with datopotamab deruxtecan in non-small-cell lung cancer.",
+   "title_zh": "TROP2 的标准化膜比作为达伐单抗在非小细胞肺癌中临床结局的预测指标。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43015400/",
+   "date": "2026-11-11",
+   "authors": "Garassino MC, Ahn MJ, Schick M, Kapil A, Paz-Ares L, Lisberg A",
+   "doi": "10.1038/s41591-026-04716-9",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ]
+  },
+  {
    "pmid": "43009180",
    "journal": "BMJ",
    "journal_abbr": "BMJ",
@@ -1204,7 +2153,6 @@
    "link": "https://pubmed.ncbi.nlm.nih.gov/43007341/",
    "date": "2026-11-10",
    "doi": "10.1001/jama.2025.16097",
-   "study_type": "研究论文",
    "departments": [
     "综合"
    ]
@@ -1786,7 +2734,7 @@
    "date": "2026-11-10",
    "authors": "Saver JL",
    "doi": "10.1001/jama.2026.17400",
-   "study_type": "研究论文",
+   "study_type": "评论",
    "departments": [
     "神经"
    ]
@@ -1879,6 +2827,7 @@
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43009611/",
    "date": "2026-11-10",
+   "authors": "Harjes U",
    "doi": "10.1038/d41591-026-00057-9",
    "departments": [
     "肿瘤",

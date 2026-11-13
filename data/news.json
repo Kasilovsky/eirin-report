@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-12T08:04:46+00:00",
+ "generated_at": "2026-11-13T07:43:12+00:00",
  "window_days": 180,
- "count": 895,
+ "count": 946,
  "journals": [
   {
    "abbr": "N Engl J Med",
@@ -12,27 +12,27 @@
   {
    "abbr": "Lancet",
    "name": "The Lancet",
-   "count": 121
+   "count": 124
   },
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 176
+   "count": 190
   },
   {
    "abbr": "BMJ",
    "name": "BMJ",
-   "count": 136
+   "count": 144
   },
   {
    "abbr": "Nat Med",
    "name": "Nature Medicine",
-   "count": 110
+   "count": 112
   },
   {
    "abbr": "Cell",
    "name": "Cell",
-   "count": 104
+   "count": 128
   },
   {
    "abbr": "Sci Transl Med",
@@ -42,11 +42,1584 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 57,
-  "cache_size": 832,
+  "translate_used": 58,
+  "cache_size": 878,
   "translate_fails": 5
  },
  "articles": [
+  {
+   "pmid": "42962694",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Governing artificial intelligence for reliable research.",
+   "title_zh": "规范人工智能以实现可靠研究",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10568): 2048-2050",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42962694/",
+   "date": "2026-11-14",
+   "authors": "Priess Buchheit J, Pazik-Aybar A, Miller K, Baker M, Errington TM, Marušić A",
+   "author_count": 12,
+   "doi": "10.1016/S0140-6736(26)02159-8",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42956797",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "A Lancet Commission on the Health and Poverty Alleviation Initiative in China.",
+   "title_zh": "《柳叶刀》中国健康与扶贫倡议委员会。",
+   "summary_en": "",
+   "summary_zh": "【综述】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10568): 2125-2168",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956797/",
+   "date": "2026-11-14",
+   "authors": "Liang W, Tang K, Li Z, Zhu J, Atun R, Yip W",
+   "author_count": 33,
+   "doi": "10.1016/S0140-6736(26)01196-7",
+   "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42956793",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Health and poverty: lessons from China.",
+   "title_zh": "健康与贫困：中国的经验教训。",
+   "summary_en": "",
+   "summary_zh": "【述评】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10568): 2037",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956793/",
+   "date": "2026-11-14",
+   "authors": "The Lancet",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02186-0",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42956792",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Beyond poverty eradication: what China's health and poverty alleviation experience means for global health.",
+   "title_zh": "超越消除贫困：中国健康与扶贫经验对全球健康的意义。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10568): 2046-2048",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956792/",
+   "date": "2026-11-14",
+   "authors": "Mao W, Watkins D",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)02049-0",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "42933458",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "First-line pembrolizumab versus carboplatin plus paclitaxel in participants with mismatch repair-deficient advanced or recurrent endometrial cancer (KEYNOTE-C93/GOG-3064/ENGOT-en15): interim analysis of a multicentre, open-label, randomised, active-comparator controlled, phase 3 trial.",
+   "title_zh": "一线pembrolizumab对比卡铂联合紫杉醇治疗错配修复缺陷晚期或复发性子宫内膜癌（KEYNOTE-C93/GOG-3064/ENGOT-en15）：一项多中心、开放标签、随机、活性对照、3期试验的中期分析。",
+   "summary_en": "BACKGROUND: A need exists for first-line chemotherapy-free options in advanced or recurrent endometrial cancer. We therefore assessed the efficacy, quality of life, and safety of first-line pembrolizumab versus carboplatin plus paclitaxel in mismatch repair-deficient (dMMR) advanced or recurrent endometrial cancer. METHODS: The KEYNOTE-C93/GOG-3064/ENGOT-en15 multicentre, open-label, randomised, active-comparator controlled, phase 3 trial was conducted at 122 centres in 24 countries in the Americas, Asia, Europe, and Oceania. Adult participants (≥18 years) with inoperable, stage III or IV, persistent, advanced, or recurrent dMMR endometrial cancer were randomly assigned 1:1 to intravenous pembrolizumab 400 mg every 6 weeks for up to 18 cycles or intravenous carboplatin area under the curve",
+   "summary_zh": "【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026; 408(10568): 2081-2096",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933458/",
+   "date": "2026-11-14",
+   "authors": "Slomovitz BM, Zhu J, Yin R, Backes F, Bidziński M, Gilbert L",
+   "author_count": 29,
+   "doi": "10.1016/S0140-6736(26)02095-7",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Clinical Trial, Phase III",
+    "Randomized Controlled Trial"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Carboplatin",
+    "Antibodies, Monoclonal, Humanized",
+    "Paclitaxel",
+    "Endometrial Neoplasms",
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "Neoplasm Recurrence, Local",
+    "Middle Aged",
+    "Aged"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42925881",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Optimising late-line treatment administration in metastatic colorectal cancer: an even brighter SUNLIGHT.",
+   "title_zh": "优化转移性结直肠癌后线治疗给药：更加明亮的SUNLIGHT。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10568): 2038-2039",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42925881/",
+   "date": "2026-11-14",
+   "authors": "Ciracì P, Cremolini C",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)02034-9",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "42925880",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "14-day versus 28-day trifluridine-tipiracil plus bevacizumab for refractory metastatic colorectal cancer (PRABITAS): a pragmatic, multicentre, open-label, randomised, phase 3, non-inferiority trial in Japan.",
+   "title_zh": "14天对比28天trifluridine-tipiracil联合bevacizumab治疗难治性转移性结直肠癌（PRABITAS）：一项在日本开展的实用性、多中心、开放标签、随机、3期、非劣效性试验。",
+   "summary_en": "BACKGROUND: Trifluridine-tipiracil (FTD-TPI) plus bevacizumab is the standard treatment for refractory metastatic colorectal cancer. However, the conventional schedule is frequently associated with haematological and gastrointestinal toxicity, which is clinically significant and relevant to patients. A simplified 14-day schedule has been proposed to reduce toxicity, but whether this treatment preserves survival has not been established in a randomised trial. We therefore aimed to assess whether the 14-day schedule is non-inferior to the conventional schedule for overall survival. METHODS: PRABITAS was a pragmatic, multicentre, open-label, randomised, phase 3, non-inferiority trial conducted in 178 hospitals in Japan. Patients with refractory metastatic colorectal cancer were randomly assig",
+   "summary_zh": "【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026; 408(10568): 2069-2080",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42925880/",
+   "date": "2026-11-14",
+   "authors": "Sakakida T, Taniguchi H, Asayama M, Suwa Y, Shimura T, Mitani S",
+   "author_count": 41,
+   "doi": "10.1016/S0140-6736(26)01782-4",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Clinical Trial, Phase III",
+    "Equivalence Trial"
+   ],
+   "mesh": [
+    "Humans",
+    "Bevacizumab",
+    "Colorectal Neoplasms",
+    "Thymine",
+    "Japan",
+    "Female",
+    "Male",
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "Aged",
+    "Drug Combinations"
+   ],
+   "departments": [
+    "肿瘤",
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "42612661",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Ambient scribes as narrative technologies.",
+   "title_zh": "环境记录作为叙事技术。",
+   "summary_en": "Ambient scribes, also known as artificial intelligence-powered voice-to-text technology, are widely cited as time-saving tools that reduce administrative burden for clinicians. Yet, in their current use, these tools pose substantial, often unacknowledged risks that threaten to undermine patient-centred care. We argue that ambient scribes are inherently narrative technologies whose risks-and potential benefits-cannot be fully understood without careful attention to the ways that patients tell their stories and the broader context in which those stories are told. Drawing on medical humanities scholarship, we show that current approaches to ambient scribes take a superficial approach to narrative interpretation that omits the clinically relevant aspects of patient experience. We propose three",
+   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026; 408(10568): 2169-2172",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42612661/",
+   "date": "2026-11-14",
+   "authors": "Ostherr K, Engebretsen E, Woods A",
+   "author_count": 3,
+   "doi": "10.1016/S0140-6736(26)01381-4",
+   "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [
+    "Humans",
+    "Narration",
+    "Artificial Intelligence",
+    "Patient-Centered Care",
+    "Documentation"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42468541",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Empirical treatment with valganciclovir in infants living with HIV and hospitalised with severe pneumonia in Africa: a multicentre, open-label, factorial, randomised, controlled, superiority trial.",
+   "title_zh": "在非洲感染艾滋病毒并因重症肺炎住院的婴幼儿中进行缬更昔洛韦的经验性治疗：一项多中心、开放标签、析因、随机、对照、优效性试验。",
+   "summary_en": "BACKGROUND: Mortality among infants with severe HIV-associated pneumonia remains high. This trial (EMPIRICAL) tested whether empirical valganciclovir treatment for cytomegalovirus improves survival in infants in Africa. METHODS: This multicentre, open-label, group-sequential designed, 2 × 2 factorial, randomised, controlled, superiority trial was conducted in 19 hospitals across Côte d'Ivoire, Malawi, Mozambique, Uganda, Zambia, and Zimbabwe. Infants aged 28-365 days admitted with severe HIV-associated pneumonia were centrally and individually randomly assigned (1:1:1:1) using a secure web-based system stratified by site and severity to receive standard of care (SOC) comprising treatment for bacterial (WHO-recommended antibiotics) and Pneumocystis jirovecii (cotrimoxazole and steroids) pne",
+   "summary_zh": "【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026; 408(10568): 2097-2108",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42468541/",
+   "date": "2026-11-14",
+   "authors": "Moraleda C, Tagarro A, Domínguez-Rodríguez S, Musiime V, Mujuru H, Chabala C",
+   "author_count": 43,
+   "doi": "10.1016/S0140-6736(26)00754-3",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Equivalence Trial"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Infant",
+    "Valganciclovir",
+    "Male",
+    "HIV Infections",
+    "Antitubercular Agents",
+    "Antiviral Agents",
+    "Pneumonia",
+    "Isoniazid"
+   ],
+   "departments": [
+    "感染",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43020520",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Effect of intensive blood pressure control on cognitive outcomes and brain structures in adults with type 2 diabetes: prespecified analysis of secondary outcomes of BPROAD randomised controlled trial.",
+   "title_zh": "强化血压控制对2型糖尿病成年患者认知结局和脑结构的影响：BPROAD随机对照试验次要结局的预先设定分析。",
+   "summary_en": "OBJECTIVE: To evaluate the effect of intensive compared with standard treatment of systolic blood pressure (SBP) on cognitive outcomes and brain structures in adults with type 2 diabetes. DESIGN: Multicentre, open label, outcome assessor masked, randomised controlled trial. SETTING: 145 clinical centres across seven geographical regions in China. PARTICIPANTS: 12 821 adults aged ≥50 years with type 2 diabetes, raised SBP, and increased cardiovascular risk, of whom 12 434 without probable dementia at baseline were included in this cognitive ancillary study. Further assessments were performed annually and at the end of study. INTERVENTIONS: Participants were randomly assigned to receive intensive treatment targeting SBP <120 mm Hg or standard treatment targeting SBP <140 mm Hg for up to five",
+   "summary_zh": "【随机对照试验】BMJ 刊载。结论要点见下方原文摘要。",
+   "citation": "BMJ. 2026; 395: e101209",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020520/",
+   "date": "2026-11-12",
+   "authors": "Wang W, Xu Y, Xu F, Pan H, Geng X, Li Y",
+   "author_count": 59,
+   "doi": "10.1136/bmj-2026-101209",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Multicenter Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Diabetes Mellitus, Type 2",
+    "Female",
+    "Middle Aged",
+    "Antihypertensive Agents",
+    "Magnetic Resonance Imaging",
+    "Hypertension",
+    "Male",
+    "Brain",
+    "Aged"
+   ],
+   "departments": [
+    "循环器",
+    "神经",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43020519",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Diagnosis and need in ADHD and autism care.",
+   "title_zh": "多动症和自闭症护理的诊断与需求。",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101390",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020519/",
+   "date": "2026-11-12",
+   "authors": "Robaey P, Szatmari P, Courtney K",
+   "author_count": 3,
+   "doi": "10.1136/bmj-2026-101390",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020518",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "When no one has a duty of care, who protects the individual?",
+   "title_zh": "当没有人负有谨慎义务时，谁来保护个人？",
+   "summary_en": "",
+   "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101414",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020518/",
+   "date": "2026-11-12",
+   "authors": "Murphy TJ",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101414",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020517",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "AMR: Over 400 antibiotic resistant infections were reported every week in England last year.",
+   "title_zh": "AMR：去年，英国每周报告的耐药性感染超过400例。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101446",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020517/",
+   "date": "2026-11-12",
+   "authors": "Furneaux R",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101446",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43020485",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Heatwaves: Ambulances hit hardest as many delayed seeking care, analysis finds.",
+   "title_zh": "热浪：分析发现，救护车受到的影响最大，因为许多人延迟就医。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101444",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020485/",
+   "date": "2026-11-12",
+   "authors": "Iacobucci G",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101444",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020484",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Changes to Prevent guidance on radicalisation: what you need to know.",
+   "title_zh": "《防止激进化指南》的变更：您需要了解的内容。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101435",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020484/",
+   "date": "2026-11-12",
+   "authors": "Rimmer A",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101435",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020483",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "The NHS doesn't routinely collect data on LGBTQ+ health, even though meaningful improvements can't happen without it.",
+   "title_zh": "尽管没有这些数据，就无法实现有意义的改善，但英国国民保健服务（NHS）并不常规收集有关LGBTQ+群体健康的数据。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101428",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020483/",
+   "date": "2026-11-12",
+   "authors": "Bates J",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101428",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020480",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "What Brazil's leftist win means for the world's biggest universal health system.",
+   "title_zh": "巴西左翼的胜利对世界上最大的全民医疗体系意味着什么。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101419",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020480/",
+   "date": "2026-11-12",
+   "authors": "Taylor L",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101419",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020098",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Lynch syndrome.",
+   "title_zh": "Lynch综合征",
+   "summary_en": "Lynch syndrome is the most common inherited cancer predisposition syndrome, affecting approximately one in 350-450 individuals, yet the majority of carriers remain undiagnosed, representing a substantial and preventable public health burden. Caused by germline pathogenic variants in DNA mismatch repair (MMR) genes, Lynch syndrome confers markedly elevated and heterogeneous risks of colorectal, endometrial, and multiple extracolonic cancers. Advances in molecular diagnostics, particularly universal tumour testing for MMR deficiency, have transformed case identification and enabled targeted germline testing and cascade screening of relatives at risk. Despite these advances, implementation remains inconsistent, with substantial attrition across diagnostic pathways and inequities in access to ",
+   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020098/",
+   "date": "2026-11-12",
+   "authors": "Ryan NAJ, Gallon R, McVeigh T, Monahan KJ, Moeslein G, Church DN",
+   "author_count": 8,
+   "doi": "10.1016/S0140-6736(26)01600-4",
+   "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020034",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Harmonized brain ontology and 3D atlases for human, macaque, and marmoset basal ganglia.",
+   "title_zh": "针对人脑、猕猴脑和狨猴脑基底神经节的统一脑本体论和3D图谱。",
+   "summary_en": "A major goal of the BRAIN Initiative Cell Atlas Network (BICAN) is to create a suite of foundational reference cell atlases and associated standards for human and nonhuman primate brains. Central to this goal is the creation of cross-species-harmonized cellular taxonomies and structural parcellations with formal ontologies that can be mapped onto 3D reference frameworks, bridging neuroimaging and cellular and histological resolutions. We describe an iterative approach, focused initially on the basal ganglia, to co-create structural and cellular ontologies for human, macaque, and marmoset brains and to map and refine structural parcellations into neuroimaging-based common coordinate frameworks. We create a Harmonized Ontology of Mammalian Brain Anatomy (HOMBA) to meet these needs. These ref",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7616-7633.e7",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020034/",
+   "date": "2026-11-12",
+   "authors": "Ding SL, Bhandiwad AA, Rosen BQ, Seeman SC, Long B, Johansen NJ",
+   "author_count": 39,
+   "doi": "10.1016/j.cell.2026.10.033",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Callithrix",
+    "Humans",
+    "Basal Ganglia",
+    "Macaca",
+    "Imaging, Three-Dimensional",
+    "Brain",
+    "Neuroimaging",
+    "Atlases as Topic",
+    "Biological Ontologies"
+   ],
+   "departments": [
+    "神经",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43020033",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "An integrative single-cell epigenomic atlas annotates the regulatory genome of the adult mouse brain.",
+   "title_zh": "一个综合性单细胞表观基因组图谱对成年小鼠大脑的调控基因组进行了注释。",
+   "summary_en": "Histone modifications underpin the cell-type-specific gene regulatory programs that drive the remarkable cellular diversity of the mammalian brain. Here, we jointly profiled four histone modifications and the transcriptome in 2.5 million nuclei from the adult mouse brain. By integrating these data with chromatin accessibility, DNA methylation, and three-dimensional genome organization, we constructed a unified epigenomic atlas spanning over 100 brain cell subclasses and assigned active, primed, and repressive chromatin states across 81% of the genome. Active chromatin states marked by combinatorial histone modifications better nominate candidate enhancers with functional support than chromatin accessibility alone, while H3K27me3- and H3K9me3-marked chromatin states delineate distinct modes",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7593-7615.e13",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020033/",
+   "date": "2026-11-12",
+   "authors": "Wang Z, Zu S, Armand EJ, Loe TH, Rink JA, Wu W",
+   "author_count": 29,
+   "doi": "10.1016/j.cell.2026.10.022",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Brain",
+    "Mice",
+    "Chromatin",
+    "Epigenomics",
+    "Histones",
+    "Enhancer Elements, Genetic",
+    "Genome",
+    "DNA Methylation",
+    "Single-Cell Analysis"
+   ],
+   "departments": [
+    "神经",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020032",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Single-cell, multi-region profiling of the macaque brain across the lifespan.",
+   "title_zh": "猕猴大脑在整个生命周期内的单细胞、多区域谱分析。",
+   "summary_en": "Brain aging is a complex process with profound health and societal consequences. However, the molecular and cellular pathways that govern its progression, and inter- and intra-individual variation, remain poorly defined. We present a transcriptomic atlas of 5.3 million cells from 582 samples spanning 11 brain regions of 55 rhesus macaques (aged 0.5-21 years). We identify age-depleted and vulnerable neuronal populations and subtle, age-associated compositional differences in glia-detectable only at single-cell resolution. We chart convergent and divergent age-associated molecular signatures across regions and cell types, which include sex-specific signatures that could underlie biases in neurological disorders. These signatures overlap those of Alzheimer's disease (AD), which suggests that ",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7571-7592.e7",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020032/",
+   "date": "2026-11-12",
+   "authors": "Yang W, Watkins KL, DeCasien AR, O'Neill MB, Bohlen MO, O'Day DR",
+   "author_count": 24,
+   "doi": "10.1016/j.cell.2026.09.014",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Brain",
+    "Male",
+    "Aging",
+    "Female",
+    "Single-Cell Analysis",
+    "Macaca mulatta",
+    "Transcriptome",
+    "Neurons",
+    "Neuroglia"
+   ],
+   "departments": [
+    "神经",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43020031",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "A single-cell and spatial 3D multi-omic atlas of developing human basal ganglia.",
+   "title_zh": "发育中人基底神经节的单细胞和空间3D多组学图谱。",
+   "summary_en": "Human basal ganglia (BG) neurons and inhibitory interneurons originate in the ganglionic eminences (GEs), transient structures in the ventral prenatal brain. This study delineates the specification and maturation of GEs and GE-derived neurons using single-nucleus methyl-3C sequencing (snm3C-seq), spatial transcriptomics, and single-molecule chromatin + RNA imaging, and we found heterogeneous temporal progression across GE subregions. Spiny projection neurons (SPNs), the principal cells of the BG, acquire distinct subtypes through synchronized 3D-epigenomic remodeling, in contrast to the asynchronous maturation of other neuron types. Oligodendrocyte differentiation involves a transient short-range chromatin state during infancy, showing that the short-range and long-range chromatin conforma",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7550-7570.e11",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020031/",
+   "date": "2026-11-12",
+   "authors": "Heffel MG, Xu H, Pastor-Alonso O, Li X, Baig MS, Ghoor RI",
+   "author_count": 40,
+   "doi": "10.1016/j.cell.2026.10.008",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Basal Ganglia",
+    "Ganglionic Eminence",
+    "Neurons",
+    "Single-Cell Analysis",
+    "Chromatin",
+    "Multiomics",
+    "Neurodevelopment",
+    "Female",
+    "Spatial Transcriptomics"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020030",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Disruption of cell-type-specific molecular programs of striatal spiny projection neurons in autism.",
+   "title_zh": "自闭症中纹状体棘突投射神经元细胞类型特异性分子程序的紊乱。",
+   "summary_en": "Rare genetic variants contribute substantially to autism spectrum disorder (ASD), yet the regulatory logic of vulnerable subcortical cells is poorly understood. In a 16p11.2 deletion mouse model, lineage tracing across five brain regions revealed prominent striatal changes. In the human putamen from ASD and neurotypical donors, single-nucleus multi-omics showed transcriptional alterations concentrated in D1 striosome spiny projection neurons (SPNs), affecting synaptic and energy metabolism genes, with altered synapse-supporting programs in astrocytes. Gene regulatory network analysis integrating chromatin accessibility and expression identified EGR1 and EGR3 as key regulators of these programs, with reduced activity in D1 striosome SPNs. Deleting EGR1 or EGR3 in human striatal organoids pr",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7528-7549.e14",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020030/",
+   "date": "2026-11-12",
+   "authors": "Yuan G, Suresh V, Wigdor EM, Hao Y, Sun FY, Evans C",
+   "author_count": 19,
+   "doi": "10.1016/j.cell.2026.10.027",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Humans",
+    "Mice",
+    "Medium Spiny Neurons",
+    "Neurons",
+    "Autistic Disorder",
+    "Autism Spectrum Disorder",
+    "Early Growth Response Protein 1",
+    "Corpus Striatum",
+    "Early Growth Response Protein 3"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020029",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Circuit-aligned specialization of human basal ganglia astrocytes.",
+   "title_zh": "人基底神经节星形胶质细胞的环路特异性分化。",
+   "summary_en": "Astrocytes shape synapses and circuits, yet their diversity within the human basal ganglia remains poorly defined. Integrating single-nucleus transcriptomic and epigenomic profiling with spatial transcriptomics, we identify three anatomically organized astrocyte subgroups-striatal gray matter (GM), extra-striatal GM, and white matter (WM)-distinguished by neurotransmitter transporter expression and synapse-associated programs that reflect afferent input. These molecular distinctions generalize brain-wide, separating telencephalic from non-telencephalic astrocytes, with LHX2 marking telencephalic astrocyte identity across species. Within the striatum (STR), dorsal and ventral populations align with distinct microcircuits; a ventral population maps to the nucleus accumbens mediodorsal shell ",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7512-7527.e6",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020029/",
+   "date": "2026-11-12",
+   "authors": "Fu Y, Kempynck N, Ding W, Turner MA, Garcia AD, Schmitz MT",
+   "author_count": 24,
+   "doi": "10.1016/j.cell.2026.09.041",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Astrocytes",
+    "Animals",
+    "Basal Ganglia",
+    "Enhancer Elements, Genetic",
+    "Synapses",
+    "Neurons",
+    "Transcription Factors",
+    "Male"
+   ],
+   "departments": [
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020028",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Morphoelectric diversity and specialization of primate striatal neuron types.",
+   "title_zh": "灵长类动物纹状体神经元类型的形态电多样性和特化。",
+   "summary_en": "The basal ganglia are evolutionarily ancient subcortical nuclei that form interconnected loops with the neocortex and limbic system to regulate movement, learning, habit formation, emotion, and motivation. Their dysfunction contributes to major neurological and psychiatric disorders, yet most cellular-level insights derive from rodent studies, leaving knowledge gaps in humans and translationally relevant primate species. To address this, we generated multimodal Patch-seq data linking transcriptomic identity with morphological and electrophysiological properties in the macaque striatum-the input nucleus of the basal ganglia. We found underappreciated diversity among spiny projection neurons (SPNs), including non-canonical types, and variation aligned with functional gradients. Interneurons ",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7492-7511.e8",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020028/",
+   "date": "2026-11-12",
+   "authors": "Liu XP, Dalley R, Johansen N, Budzillo A, Thijssen J, Miller JA",
+   "author_count": 94,
+   "doi": "10.1016/j.cell.2026.10.028",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Neurons",
+    "Corpus Striatum",
+    "Medium Spiny Neurons",
+    "Interneurons",
+    "Male",
+    "Transcriptome",
+    "Basal Ganglia"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020027",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Spatial and regulatory organization of cell identity across the primate subcortex.",
+   "title_zh": "灵长类动物皮质下细胞身份的空间和调控组织。",
+   "summary_en": "Mammalian brain cell identity is shaped by intrinsic factors and external context. We present a spatially resolved transcriptomic and gene regulatory atlas of cell types across all subcortical regions in a primate, the common marmoset. Dense sampling and cross-species integration revealed spatially precise neuronal assemblies, including ones in complex midbrain and diencephalic structures. Chromatin accessibility and transcriptional identity are spatially tuned within and across subcortical structures; spatial gradients within hippocampal subfields are orchestrated by graded transcription factors acting through graded enhancers. The primate-expanded thalamic γ-aminobutyric acid (GABAergic) population shares transcriptional and regulatory syntax with conserved midbrain populations, reflecti",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7471-7491.e10",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020027/",
+   "date": "2026-11-12",
+   "authors": "Dan S, Turner MA, DeBerardine M, Caceres L, Nieto-Caballero VE, Schembri J",
+   "author_count": 38,
+   "doi": "10.1016/j.cell.2026.10.007",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Neurons",
+    "Callithrix",
+    "GABAergic Neurons",
+    "Transcriptome",
+    "gamma-Aminobutyric Acid",
+    "Hippocampus",
+    "Gene Regulatory Networks",
+    "Astrocytes",
+    "Male"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020026",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Single-cell multimodal atlas reveals regulatory programs in the human brain.",
+   "title_zh": "单细胞多模态图谱揭示了人脑的调控程序。",
+   "summary_en": "Direct measurement of chromatin states together with transcription is essential for understanding how cell-type-specific regulatory programs are established and maintained in the adult human brain. Here, we present a large-scale single-cell multimodal atlas by jointly profiling the transcriptome with active (H3K27ac) or repressive (H3K27me3) histone modifications across 18 adult brain regions. We targeted over 750,000 nuclei spanning 160 cell types and integrated these data with chromatin accessibility, DNA methylation, 3D genome architecture, and spatial transcriptomes. This framework resolved chromatin states for over 500,000 candidate regulatory elements, identified enhancer-gene links and regulatory programs, revealed Polycomb-associated ultra-long-range contacts, and uncovered brainwi",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7447-7470.e18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020026/",
+   "date": "2026-11-12",
+   "authors": "Xie Y, Chang L, Zhong G, Rink JA, Báez-Becerra CT, Armand E",
+   "author_count": 57,
+   "doi": "10.1016/j.cell.2026.08.012",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Brain",
+    "Single-Cell Analysis",
+    "Chromatin",
+    "Transcriptome",
+    "Animals",
+    "Histones",
+    "DNA Methylation",
+    "Epigenesis, Genetic",
+    "Epigenomics"
+   ],
+   "departments": [
+    "神经",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020025",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Multiscale spatial atlas of human basal ganglia cell types and communities.",
+   "title_zh": "人基底神经节细胞类型和群体的多尺度空间图谱。",
+   "summary_en": "The human basal ganglia comprise functionally varied nuclei, but their cell-type composition and spatial organization have not been comprehensively resolved. We generated a multi-region, subcellular-resolution spatial transcriptomic atlas by integrating multiplexed error-robust fluorescence in situ hybridization (MERFISH)+ and spatiotemporal enhanced-resolution omics sequencing (Stereo-seq) across four neurotypical donors. The datasets profiled ∼7.9 million cells across the caudate, putamen, nucleus accumbens, and globus pallidus, resolving 60 transcriptionally distinct cell types. We identify region-selective molecular and spatial diversification of spiny projection neurons and non-neuronal populations. Subcellular RNA localization captures somatic size and projection-inferred signatures,",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7428-7446.e11",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020025/",
+   "date": "2026-11-12",
+   "authors": "Berackey BT, Tan Z, Wu G, Das SC, Li R, Esser B",
+   "author_count": 21,
+   "doi": "10.1016/j.cell.2026.09.027",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Basal Ganglia",
+    "Animals",
+    "In Situ Hybridization, Fluorescence",
+    "Neurons",
+    "Transcriptome",
+    "Spatial Transcriptomics",
+    "Oligodendroglia",
+    "Astrocytes",
+    "Male"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020024",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Single-cell analysis of chromatin state and transcriptome in the human basal ganglia.",
+   "title_zh": "人基底神经节染色质状态和转录组的单细胞分析。",
+   "summary_en": "The basal ganglia are central to motor control, learning, emotion, and reward processing, and their dysfunction contributes to many neurological and psychiatric disorders. Here, we generated a single-cell multi-omic atlas of histone modifications and transcriptomes across eight basal ganglia regions from neurotypical human donors. This atlas resolved cell-type- and region-specific landscapes of active and repressive candidate cis-regulatory elements and delineated gene regulatory networks underlying cell identity. We found that the combinatorial expression of homeobox transcription factors provides distinctive molecular descriptors of neuronal cell identities in the basal ganglia. Integration with matched MERFISH spatial transcriptomics further uncovered regional heterogeneity in epigenomi",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7406-7427.e13",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020024/",
+   "date": "2026-11-12",
+   "authors": "Chang L, Li K, Xie Y, Zhong G, Rink JA, Báez-Becerra CT",
+   "author_count": 60,
+   "doi": "10.1016/j.cell.2026.09.008",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Basal Ganglia",
+    "Chromatin",
+    "Transcriptome",
+    "Single-Cell Analysis",
+    "Histones",
+    "Neurons",
+    "Histone Code",
+    "Transcription Factors",
+    "Gene Regulatory Networks"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020023",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Multimodal single-cell epigenomic and 3D genome atlas of the human basal ganglia.",
+   "title_zh": "人基底神经节的多模态单细胞表观基因组和3D基因组图谱。",
+   "summary_en": "The basal ganglia (BG) underlie motor control, reward processing, and many neurological and psychiatric disorders, yet cell-type-resolved epigenomic and 3D genome maps of the human BG remain limited. Here, we present a multimodal single-cell atlas of DNA methylation (261,331 nuclei) and 3D chromatin conformation (229,286 nuclei) from eight subregions, harmonized under the BG consensus taxonomy and integrated with matched data across multiple regulatory layers. We identify millions of differentially methylated regions across cell types, enriched for distinct transcription factor motifs, and link them to disease-associated heritability. We characterize the POU6F2+ STR D2 SMYD2-HTR7 spiny projection neuron (SPN) subtype, with concordant signatures across multiple modalities, and reveal region",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7386-7405.e15",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020023/",
+   "date": "2026-11-12",
+   "authors": "Ding W, Klein A, Báez-Becerra CT, Rink JA, Bartlett A, Wang R",
+   "author_count": 71,
+   "doi": "10.1016/j.cell.2026.10.019",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Basal Ganglia",
+    "Epigenomics",
+    "DNA Methylation",
+    "Single-Cell Analysis",
+    "Gene Regulatory Networks",
+    "Chromatin",
+    "Parkinson Disease",
+    "Medium Spiny Neurons",
+    "Animals"
+   ],
+   "departments": [
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020022",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Common variation of cell abundances and gene expression in the human striatum.",
+   "title_zh": "人纹状体中细胞丰度和基因表达的常见变异。",
+   "summary_en": "The cellular and molecular bases of inter-individual variation in the human brain are not yet understood, particularly beyond the neocortex. Here, we describe cellular and gene-expression variation in the striatum and prefrontal cortex from single-nucleus RNA sequencing (snRNA-seq) analysis of 3.9 million nuclei from 178 adult brain donors. People with more astrocytes, microglia, or oligodendrocyte precursor cells (OPCs) in any one brain region tended to have this property in all gray-matter regions sampled. OPC proportions declined by 40% across ages 30-80 in the cortex and striatum. Age-associated gene-expression changes differed substantially across cell types. Donor age was predicted from RNA-expression patterns with a median absolute error of 6.6 years across cell types. Common geneti",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7369-7385.e18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020022/",
+   "date": "2026-11-12",
+   "authors": "Burger SC, Nemesh J, Yoo O, Muratoglu E, Vanderburg C, Yuan J",
+   "author_count": 39,
+   "doi": "10.1016/j.cell.2026.10.026",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Aged",
+    "Corpus Striatum",
+    "Adult",
+    "Aged, 80 and over",
+    "Female",
+    "Middle Aged",
+    "Male",
+    "Aging",
+    "Prefrontal Cortex"
+   ],
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43020021",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Mesoscale molecular architecture of the striatum across cell types and adult aging.",
+   "title_zh": "跨细胞类型和成年衰老的纹状体中尺度分子结构。",
+   "summary_en": "The human striatum governs diverse motor, cognitive, and affective behaviors yet lacks the obvious cytoarchitectural boundaries defining functional territories elsewhere in the brain. Using Slide-tags single-nucleus spatial transcriptomics, we profiled 1.1 million cells across 19 postmortem donors to uncover the striatum's spatial organization. These data revealed a consistent subdivision of the striatum into six zones, each defined by molecularly distinct populations of spiny projection neurons (SPNs) and featuring spatially coordinated neuron-astrocyte interaction networks. To determine their structural relevance, we generated a companion mouse spatial atlas that identified four homologous zones that aligned with territories defined by brain-wide afferent projections. Finally, imputing z",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7350-7368.e13",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020021/",
+   "date": "2026-11-12",
+   "authors": "Kraft AW, Lee M, Gao H, Mohsin A, Rayan NA, Lawler AJ",
+   "author_count": 28,
+   "doi": "10.1016/j.cell.2026.10.029",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Aging",
+    "Humans",
+    "Corpus Striatum",
+    "Mice",
+    "Neurons",
+    "Medium Spiny Neurons",
+    "Spatial Transcriptomics",
+    "Male",
+    "Female"
+   ],
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43020020",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Spatial transcriptomics reveals molecular organization of human and nonhuman primate basal ganglia.",
+   "title_zh": "空间转录组学揭示了人类和非人灵长类动物基底神经节的分子结构。",
+   "summary_en": "The basal ganglia (BG) are interconnected subcortical nuclei with a complex topographical organization that orchestrate goal-directed behaviors and are implicated in neurodegenerative movement disorders. We generated a cellular-resolution spatial transcriptomics atlas of the BG in human, rhesus macaque, and common marmoset, sampling over one million cells in each species. By integrating spatial data with a cross-species consensus single-nucleus RNA sequencing (snRNA-seq) cell-type taxonomy, this atlas reveals principles of molecular organization within and across structures. Extensive spatial sampling across the rostral-caudal axis illuminates complex, yet highly stereotyped, multi-axis gene expression gradients superimposed onto discrete compartments of the striatum. Additionally, we iden",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7330-7349.e9",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020020/",
+   "date": "2026-11-12",
+   "authors": "Hewitt MN, Turner MA, Johansen N, McMillen DA, Dan S, DeBerardine M",
+   "author_count": 54,
+   "doi": "10.1016/j.cell.2026.10.023",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Humans",
+    "Spatial Transcriptomics",
+    "Basal Ganglia",
+    "Macaca mulatta",
+    "Callithrix",
+    "Transcriptome"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020019",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Cross-species multiomic atlas of the primate basal ganglia.",
+   "title_zh": "灵长类动物基底神经节的跨物种多组学图谱。",
+   "summary_en": "The basal ganglia (BG) are conserved brain regions essential for motor control, learning, emotion, and cognition and are implicated in neurological and psychiatric disease, yet a unified cross-species taxonomy of BG cell types is lacking. We present a multiomic consensus atlas of 1.8 million nuclei from humans, macaques, and marmosets spanning eight BG structures, integrating gene expression, open chromatin, and spatial profiling. Alignment across species and to mouse and human whole-brain atlases identifies 61 homologous cell types conserved over 76 million years. Dorsal-ventral spatial identity is more conserved than D1/D2 receptor or striosome/matrix identity, and striatum (STR) D2 SMYD2-HTR7 spiny projection neurons have distinct molecular, electrophysiological, and morphological featu",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7309-7329.e13",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020019/",
+   "date": "2026-11-12",
+   "authors": "Johansen NJ, Fu Y, Schmitz M, Dubuc A, Kempynck N, Wirthlin M",
+   "author_count": 102,
+   "doi": "10.1016/j.cell.2026.10.012",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Basal Ganglia",
+    "Humans",
+    "Multiomics",
+    "Neurons",
+    "Mice",
+    "Primates",
+    "Medium Spiny Neurons",
+    "Callithrix",
+    "Species Specificity"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020018",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Toward an integrated framework for a human and mammalian brain cell atlas.",
+   "title_zh": "迈向人类和哺乳动物脑细胞图谱的综合框架。",
+   "summary_en": "The NIH BRAIN Initiative Cell Atlas Network (BICAN) is developing a standardized, integrated reference framework for classifying and studying brain cell types across human, macaque, marmoset, and mouse. We present a cross-species, multimodal atlas of the basal ganglia, a group of subcortical nuclei central to motor control, adaptive behavior, and neurological disease. Built from large-scale single-cell transcriptomic classification and integrated with epigenomic, spatial genomic, multiomic, and developmental datasets, the atlas provides a curated, data-driven taxonomy with standardized nomenclature, extensive phenotypic characterization, and community-informed annotation. Cell types are mapped into species-specific anatomical reference frameworks and linked across species through structura",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7289-7308.e6",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020018/",
+   "date": "2026-11-12",
+   "authors": "BRAIN Initiative Cell Atlas Network (BICAN). Electronic address: ecker@salk.edu, BRAIN Initiative Cell Atlas Network (BICAN)",
+   "author_count": 2,
+   "doi": "10.1016/j.cell.2026.10.031",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Animals",
+    "Brain",
+    "Callithrix",
+    "Mice",
+    "Basal Ganglia",
+    "Atlases as Topic",
+    "Macaca",
+    "Biocuration",
+    "Transcriptome"
+   ],
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "43020017",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Conserved striatal mechanisms underlying ASD.",
+   "title_zh": "自闭症谱系障碍（ASD）背后的保守纹状体机制。",
+   "summary_en": "Autism spectrum disorder (ASD) involves changes in social and stereotypic behaviors regulated by striatal circuitry. Using an innovative cross-species approach, in this issue of Cell, Yuan et al. identify alterations in specific striatal neurons and astrocytes, opening new avenues for investigating cellular and molecular mechanisms underlying striatal dysfunction in ASD.",
+   "summary_zh": "【评论】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7287-7288",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020017/",
+   "date": "2026-11-12",
+   "authors": "Phillips RA, Martinowich K",
+   "author_count": 2,
+   "doi": "10.1016/j.cell.2026.10.025",
+   "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
+   "mesh": [
+    "Humans",
+    "Animals",
+    "Corpus Striatum",
+    "Autism Spectrum Disorder",
+    "Neurons",
+    "Astrocytes"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020016",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Stepping (hi)stones: Charting a single-cell multiomic path toward understanding the human brain.",
+   "title_zh": "垫脚石：绘制一条通往人类大脑理解的单细胞多组学路径。",
+   "summary_en": "In this issue of Cell, two single-cell multiomic atlases jointly profile transcription and histone modifications across different regions of the adult human brain, revealing cell-type-specific regulatory landscapes, developmental epigenetic memory, and improved interpretation of neurological variants. These studies establish a framework for understanding human brain cell identity, evolution, and pathology.",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7284-7286",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020016/",
+   "date": "2026-11-12",
+   "authors": "Zaghi M, Dang Y, Castelo-Branco G",
+   "author_count": 3,
+   "doi": "10.1016/j.cell.2026.10.020",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Brain",
+    "Multiomics",
+    "Single-Cell Analysis",
+    "Epigenesis, Genetic",
+    "Single-Cell Gene Expression Analysis",
+    "Animals",
+    "Histones"
+   ],
+   "departments": [
+    "神经",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020015",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "From the human genome to the human brain cell atlas.",
+   "title_zh": "从人类基因组到人类脑细胞图谱。",
+   "summary_en": "The BRAIN Initiative Cell Atlas Network (BICAN) is establishing an evolving reference for neuroscience by integrating cell identities, anatomy, and multimodal evidence across species. In analogy with the Human Genome Project, the BICAN basal ganglia atlas is a model for a federated reference to advance understanding of brain organization, function, variation, and disease.",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7279-7283",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020015/",
+   "date": "2026-11-12",
+   "authors": "Ecker J, Ghosh S, Hawrylycz M, Ichihara K, Kriegstein A, Lein E",
+   "author_count": 18,
+   "doi": "10.1016/j.cell.2026.10.034",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Brain",
+    "Genome, Human",
+    "Atlases as Topic",
+    "Animals",
+    "Neurons"
+   ],
+   "departments": [
+    "神经",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020014",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Deploying liquid intelligence in cancer: Finding answers in our blood.",
+   "title_zh": "在癌症中部署液体智能：在我们的血液中寻找答案。",
+   "summary_en": "Liquid biopsies are one of the few noninvasive procedures for probing disease at the molecular level. They represent a scalable solution to cancer detection and monitoring by capturing tumor-derived signals from circulating biomolecules such as proteins, DNA, RNA, and metabolites. However, these signals are often sparse, heterogeneous, and shaped by genetics, demographics, and comorbidities. Recent advances in artificial intelligence, especially with multimodal foundation models, have proven capable of extracting signals from noisy, high-dimensional data. Pretraining on large cohorts and integrating complementary modalities may improve sensitivity for tumor signals in blood, though significant clinical and infrastructural barriers remain. This review synthesizes advances in liquid biopsy t",
+   "summary_zh": "【综述】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7259-7278",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020014/",
+   "date": "2026-11-12",
+   "authors": "George JM, Wielenga AJ, Iyer MK, Chinnaiyan AM",
+   "author_count": 4,
+   "doi": "10.1016/j.cell.2026.10.024",
+   "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [
+    "Humans",
+    "Neoplasms",
+    "Artificial Intelligence",
+    "Liquid Biopsy",
+    "Biomarkers, Tumor",
+    "Animals"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43020013",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Mapping primate brain aging across cell types, regions, and sexes.",
+   "title_zh": "跨细胞类型、区域和性别绘制灵长类动物大脑衰老图谱。",
+   "summary_en": "Aging is the major risk factor for neurodegenerative disease, yet how it affects different cells in the primate brain remains unclear. In this issue of Cell, Yang et al. present a single-nucleus atlas of the aging macaque brain that, together with recent work by Zhang et al., reveals context-dependent aging programs, sex-biased transcriptional aging, and molecular links to Alzheimer's disease.",
+   "summary_zh": "【评论】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7256-7258",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020013/",
+   "date": "2026-11-12",
+   "authors": "Zhou J, Wang Y, Li M, Ma S",
+   "author_count": 4,
+   "doi": "10.1016/j.cell.2026.10.021",
+   "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
+   "mesh": [
+    "Animals",
+    "Brain",
+    "Aging",
+    "Female",
+    "Male",
+    "Humans",
+    "Brain Mapping",
+    "Alzheimer Disease",
+    "Macaca"
+   ],
+   "departments": [
+    "神经",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43020012",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Collaboration across scales: More than the sum of its parts.",
+   "title_zh": "跨规模协作：大于其各部分的总和。",
+   "summary_en": "Science is collaborative by nature, but some questions require coordination on an exceptional scale. Among them is the challenge of creating a comprehensive reference framework for the human brain. In this issue of Cell, together with papers published in Cell Genomics, Cell Reports, Cell Reports Methods, Cell Systems, and Neuron, we present the first publication package from the NIH BRAIN Initiative Cell Atlas Network (BICAN).",
+   "summary_zh": "【述评】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7255",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020012/",
+   "date": "2026-11-12",
+   "authors": "Cell Editorial Team",
+   "author_count": 1,
+   "doi": "10.1016/j.cell.2026.10.032",
+   "study_type": "述评",
+   "pubtypes": [
+    "Journal Article",
+    "Editorial",
+    "Introductory Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Brain",
+    "United States",
+    "Animals",
+    "Neurons"
+   ],
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "43018989",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Finerenone and CKD Due to Glomerular Diseases-Reply.",
+   "title_zh": "非奈明酮和由肾小球疾病引起的CKD——答复。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018989/",
+   "date": "2026-11-12",
+   "authors": "Neuen BL, Heerspink HJL, Perkovic V",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.19534",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018987",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Review of Hip Fractures.",
+   "title_zh": "髋部骨折综述",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018987/",
+   "date": "2026-11-12",
+   "authors": "Gottlieb M",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.19487",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "骨科"
+   ]
+  },
+  {
+   "pmid": "43018985",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Review of Hip Fractures.",
+   "title_zh": "髋部骨折综述",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018985/",
+   "date": "2026-11-12",
+   "authors": "Miller PD",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.19490",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "骨科"
+   ]
+  },
+  {
+   "pmid": "43018982",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Beyond the Rogue Agent-Preparing Health Systems for AI Failure.",
+   "title_zh": "超越“失控的代理人”——为人工智能的失灵做好卫生系统的准备。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018982/",
+   "date": "2026-11-12",
+   "authors": "Hertelendy AJ, Miri A, Dameff C",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.24040",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018981",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Preference Signaling for Interview Selection: The Residency Match's Unsettled Front End.",
+   "title_zh": "面试选拔的偏好信号：住院医师配对的未决前端。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018981/",
+   "date": "2026-11-12",
+   "authors": "Paltiel AD, Walensky RP",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.22125",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018964",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Finerenone and CKD Due to Glomerular Diseases.",
+   "title_zh": "非奈明酮和由肾小球疾病引起的CKD。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018964/",
+   "date": "2026-11-12",
+   "authors": "Xiao L, Zhang Z, Sun L",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.19531",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018963",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Treatment of Acute Ischemic Stroke: A Review.",
+   "title_zh": "急性缺血性卒中的治疗：综述。",
+   "summary_en": "IMPORTANCE: Acute ischemic stroke, caused by thrombotic or embolic occlusion of a cervical or cerebral artery, leads to neurologic injury due to sudden disruption of blood flow to the brain. Ischemic stroke is a leading cause of disability and death and accounts for about 85% of strokes in the US. OBSERVATIONS: Symptoms of acute ischemic stroke vary based on the area of the affected brain. Common presentations include sudden arm or leg weakness, aphasia or slurred speech, sudden loss of balance or coordination, sudden visual difficulties, and/or facial drooping. Patients with suspected stroke should be transported to the nearest emergency department for urgent brain imaging, typically noncontrast computed tomography (CT). Based on 2026 American Heart Association/American Stroke Association",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018963/",
+   "date": "2026-11-12",
+   "authors": "Albers GW, Heit JJ",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.19482",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "43018960",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Izalontamab Brengitecan in Recurrent or Metastatic Esophageal Squamous Cell Carcinoma: Research Summary.",
+   "title_zh": "伊扎仑单抗联合布伦吉替康治疗复发性或转移性食管鳞状细胞癌：研究综述。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2623165",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018960/",
+   "date": "2026-11-12",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.23165",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43018955",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Too Tall.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018955/",
+   "date": "2026-11-12",
+   "authors": "Bohler F",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.22625",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018953",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Approved Form of Notice.",
+   "title_zh": "经批准的通知书格式。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018953/",
+   "date": "2026-11-12",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.24928",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018949",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Izalontamab Brengitecan in Recurrent or Metastatic Esophageal Squamous Cell Carcinoma: The PANKU-Esophagus01 Randomized Clinical Trial.",
+   "title_zh": "伊扎仑单抗联合布伦吉替康治疗复发性或转移性食管鳞状细胞癌：PANKU-Esophagus01随机临床试验。",
+   "summary_en": "IMPORTANCE: Effective therapy remains lacking for patients with advanced esophageal squamous cell carcinoma (ESCC) whose disease progressed after standard treatment. Izalontamab brengitecan, an epidermal growth factor receptor and human epidermal growth factor receptor 3 bispecific antibody-drug conjugate with a topoisomerase I inhibitor, Ed-04, has shown clinical activity in ESCC in a phase 1b study. OBJECTIVE: To evaluate the efficacy and safety of izalontamab brengitecan compared with chemotherapy in patients with advanced ESCC who progressed after first-line programmed cell death 1 protein (PD-1)/programmed cell death 1 ligand 1 (PD-L1) inhibitor plus platinum-containing chemotherapy. DESIGN, SETTING, AND PARTICIPANTS: This phase 3, open-label, randomized clinical trial was conducted a",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018949/",
+   "date": "2026-11-12",
+   "authors": "Lu Z, Huang Z, Meng X, Fan Y, Wu T, Pang Q",
+   "author_count": 48,
+   "doi": "10.1001/jama.2026.20250",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43018946",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Review of Hip Fractures-Reply.",
+   "title_zh": "髋部骨折综述——答复。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018946/",
+   "date": "2026-11-12",
+   "authors": "Kiel DP, Tsai JN",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.19493",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "骨科"
+   ]
+  },
+  {
+   "pmid": "43018944",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Report of Committee on Otorhinologic Hygiene of Swimming.",
+   "title_zh": "游泳耳鼻喉卫生委员会报告",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018944/",
+   "date": "2026-11-12",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.24927",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43018940",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "What Is Postural Orthostatic Tachycardia Syndrome?",
+   "title_zh": "什么是体位性直立性心动过速综合征？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43018940/",
+   "date": "2026-11-12",
+   "authors": "Walter KL",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.18692",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
   {
    "pmid": "43013836",
    "journal": "New England Journal of Medicine",
@@ -464,7 +2037,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Preventing Malaria Infections and Moving toward Malaria Elimination.",
-   "title_zh": "",
+   "title_zh": "预防疟疾感染并迈向疟疾消除",
    "summary_en": "Malaria continues to be a major health challenge worldwide, causing an estimated 282 million cases of illness and 610,000 deaths in 2024, predominantly among African children. Despite recent stagnation in the progress of malaria prevention, the landscape is undergoing rapid transformation. This review examines current and emerging approaches to preventing malaria infection and supporting malaria elimination, including vector control, transmission-blocking interventions, chemoprevention, monoclonal antibodies, and vaccines. Next-generation insecticide-treated nets, expanded use of seasonal malaria chemoprevention, and the introduction of RTS,S/AS01 and R21/Matrix-M vaccines are already reshaping control strategies. Looking ahead, long-acting injectable chemoprevention, transmission-blocking",
    "summary_zh": "【综述】N Engl J Med 刊载。结论要点见下方原文摘要。",
    "citation": "N Engl J Med. 2026; 395(19): 1932-1943",
@@ -479,16 +2052,16 @@
     "Review"
    ],
    "mesh": [
+    "Animals",
     "Humans",
+    "Antibodies, Monoclonal",
+    "Antimalarials",
+    "Chemoprevention",
+    "Disease Eradication",
+    "Insecticide-Treated Bednets",
     "Malaria",
     "Malaria Vaccines",
-    "Antimalarials",
-    "Mosquito Control",
-    "Animals",
-    "Disease Eradication",
-    "Chemoprevention",
-    "Insecticide-Treated Bednets",
-    "Antibodies, Monoclonal"
+    "Mosquito Control"
    ],
    "departments": [
     "疫苗"
@@ -516,16 +2089,16 @@
     "Equivalence Trial"
    ],
    "mesh": [
-    "Humans",
-    "Arthroplasty, Replacement, Knee",
-    "Venous Thromboembolism",
-    "Rivaroxaban",
-    "Warfarin",
-    "Arthroplasty, Replacement, Hip",
-    "Aspirin",
-    "Female",
     "Aged",
-    "Anticoagulants"
+    "Female",
+    "Humans",
+    "Male",
+    "Middle Aged",
+    "Anticoagulants",
+    "Arthroplasty, Replacement, Hip",
+    "Arthroplasty, Replacement, Knee",
+    "Aspirin",
+    "Cause of Death"
    ],
    "departments": [
     "血液"
@@ -559,7 +2132,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Early Days, Late Nights.",
-   "title_zh": "",
+   "title_zh": "早年时光，深夜长班",
    "summary_en": "",
    "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026; 395(19): 1882-1883",
@@ -625,6 +2198,40 @@
    ]
   },
   {
+   "pmid": "42945956",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Deep sequencing of 3,367 maize genomes uncovers substantial contribution of rare variants to agronomic traits.",
+   "title_zh": "3,367份玉米基因组深度测序揭示罕见变异对农艺性状的重要贡献",
+   "summary_en": "Rare variants are highly abundant, yet their genome-wide contributions to agronomic traits remain elusive in plants. Here, we performed deep whole-genome sequencing of 3,367 diverse elite maize inbred lines, uncovering 75.3 million variants, of which 79.2% were rare. Overall, we identified 411 independent association signals for 10 agronomic traits, including 359 attributable to globally rare variants, with rare variants showing effect sizes approximately 2.4 times those of common variants. Frequency-stratified genome-based restricted maximum likelihood (GREML) analyses indicated that rare variants captured a substantial proportion of phenotypic variance for traits under strong adaptive selection, consistent with the allele frequencies of trait-associated variants shifting from common in t",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026; 189(23): 7634-7651.e6",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42945956/",
+   "date": "2026-11-12",
+   "authors": "Huang L, Bian C, Xin B, Zhang X, Lu Q, Yue Y",
+   "author_count": 34,
+   "doi": "10.1016/j.cell.2026.09.063",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Zea mays",
+    "Genome, Plant",
+    "Genome-Wide Association Study",
+    "High-Throughput Nucleotide Sequencing",
+    "Quantitative Trait Loci",
+    "Phenotype",
+    "Genetic Variation",
+    "Polymorphism, Single Nucleotide",
+    "Gene Frequency",
+    "Selection, Genetic"
+   ],
+   "departments": [
+    "遗传/基因"
+   ]
+  },
+  {
    "pmid": "42912700",
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
@@ -646,15 +2253,15 @@
     "Multicenter Study"
    ],
    "mesh": [
-    "Humans",
-    "Glomerulonephritis, IGA",
-    "Female",
     "Adult",
+    "Female",
+    "Humans",
     "Male",
     "Middle Aged",
-    "Double-Blind Method",
-    "Proteinuria",
+    "Antibodies, Monoclonal, Humanized",
+    "Complement Inactivating Agents",
     "Creatinine",
+    "Double-Blind Method",
     "Glomerular Filtration Rate"
    ],
    "departments": [
@@ -683,16 +2290,16 @@
     "Multicenter Study"
    ],
    "mesh": [
-    "Humans",
-    "Ticagrelor",
-    "Prasugrel Hydrochloride",
-    "Acute Coronary Syndrome",
-    "Female",
-    "Purinergic P2Y Receptor Antagonists",
     "Aged",
-    "Percutaneous Coronary Intervention",
+    "Female",
+    "Humans",
     "Male",
-    "Middle Aged"
+    "Middle Aged",
+    "Acute Coronary Syndrome",
+    "Drug Substitution",
+    "Hemorrhage",
+    "Intention to Treat Analysis",
+    "Myocardial Infarction"
    ],
    "departments": [
     "循环器"
@@ -743,19 +2350,89 @@
     "Comparative Study"
    ],
    "mesh": [
-    "Humans",
-    "Rivaroxaban",
-    "Aspirin",
-    "Arthroplasty, Replacement, Knee",
-    "Arthroplasty, Replacement, Hip",
-    "Venous Thromboembolism",
-    "Female",
-    "Double-Blind Method",
     "Aged",
-    "Hemorrhage"
+    "Female",
+    "Humans",
+    "Male",
+    "Middle Aged",
+    "Administration, Oral",
+    "Arthroplasty, Replacement, Hip",
+    "Arthroplasty, Replacement, Knee",
+    "Aspirin",
+    "Double-Blind Method"
    ],
    "departments": [
-    "血液"
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020052",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Sub-second dopamine reinforcement shapes juvenile social play.",
+   "title_zh": "亚秒级多巴胺强化塑造青少年社交游戏。",
+   "summary_en": "Juvenile social play is critical for neurodevelopment, yet the neural mechanisms organizing moment-to-moment interactions remain elusive. Using social behavior sequencing (Social-seq)-an occlusion-robust 3D pose estimation and unsupervised clustering pipeline-we found that nucleus accumbens (NAc) dopamine was tightly coupled to sub-second social syllables during naturalistic interactions. In wild-type juveniles, males exhibited a sharper dopaminergic contrast between proactive play and forced submission than females did, consistent with sex-divergent play strategies. In Shank3-deficient autism models, this process was fundamentally corrupted: proactive play-evoked dopamine responses were abolished in males and significantly sign-inverted in females, with male-specific enhancements during n",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020052/",
+   "date": "2026-11-11",
+   "authors": "Chen X, Tao X, Zhong Z, Zhu F, Zhang Y, Wang Y",
+   "author_count": 18,
+   "doi": "10.1016/j.cell.2026.10.040",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43015401",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Lessons from recent investigator-initiated trials of gene-editing therapies in China.",
+   "title_zh": "从中国近期由研究者发起的基因编辑疗法试验中汲取的经验教训。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43015401/",
+   "date": "2026-11-11",
+   "authors": "Du L, Kamenova K, Wang Z, Wang M, Li Y, Lei R",
+   "author_count": 7,
+   "doi": "10.1038/s41591-026-04768-x",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43015400",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Normalized membrane ratio of TROP2 as a predictor of clinical outcomes with datopotamab deruxtecan in non-small-cell lung cancer.",
+   "title_zh": "TROP2 的标准化膜比作为达伐单抗在非小细胞肺癌中临床结局的预测指标。",
+   "summary_en": "Datopotamab deruxtecan (Dato-DXd)-a trophoblast cell surface antigen 2 (TROP2)-directed antibody-drug conjugate-has demonstrated efficacy in patients with advanced nonsquamous non-small-cell lung cancer (NSCLC) ± actionable genomic alterations. However, TROP2 expression by pathologist assessment using conventional immunohistochemistry with visual scoring does not predict response to TROP2-directed antibody-drug conjugates in NSCLC. We developed TROP2 quantitative continuous scoring (QCS)-a fully supervised computational pathology approach that quantifies TROP2 expression in individual NSCLC cells and subcellular components from immunohistochemistry-stained slides. Using QCS to determine TROP2 expression at the tumor cell membrane and cytoplasm, normalized membrane ratio (NMR) was developed",
+   "summary_zh": "【研究论文】Nat Med 刊载。关键数据：95%、P = 0.0098。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43015400/",
+   "date": "2026-11-11",
+   "authors": "Garassino MC, Ahn MJ, Schick M, Kapil A, Paz-Ares L, Lisberg A",
+   "author_count": 25,
+   "doi": "10.1038/s41591-026-04716-9",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "呼吸器"
    ]
   },
   {
@@ -1478,7 +3155,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "The Art of Staying.",
-   "title_zh": "",
+   "title_zh": "坚守的艺术",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -1501,7 +3178,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Medical Countermeasures for Radionuclide Internal Contamination.",
-   "title_zh": "",
+   "title_zh": "放射性核素体内污染的医学应对措施",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -1599,8 +3276,8 @@
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43009611/",
    "date": "2026-11-10",
-   "authors": "",
-   "author_count": 0,
+   "authors": "Harjes U",
+   "author_count": 1,
    "doi": "10.1038/d41591-026-00057-9",
    "study_type": "",
    "pubtypes": [
@@ -2043,9 +3720,9 @@
    "authors": "",
    "author_count": 0,
    "doi": "10.1001/jama.2025.16097",
-   "study_type": "研究论文",
+   "study_type": "",
    "pubtypes": [
-    "Journal Article"
+    "Webcast"
    ],
    "mesh": [],
    "departments": [
@@ -2312,7 +3989,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Treatment Discontinuation of Blood Pressure-Lowering Drugs.",
-   "title_zh": "",
+   "title_zh": "降压药物的治疗中断",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(18): 1652-1653",
@@ -2335,7 +4012,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Treatment Discontinuation of Blood Pressure-Lowering Drugs-Reply.",
-   "title_zh": "",
+   "title_zh": "降压药物的治疗中断——回复",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(18): 1653",
@@ -2404,7 +4081,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Testosterone Screening Thresholds in Active-Duty US Male Service Members.",
-   "title_zh": "",
+   "title_zh": "美国现役男性军人睾酮筛查阈值",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(18): 1644-1646",
@@ -2649,7 +4326,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Error in Author Name.",
-   "title_zh": "",
+   "title_zh": "作者姓名错误",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(18): 1655",
@@ -2732,7 +4409,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "End-of-Life Care for People Who Are Incarcerated-Reply.",
-   "title_zh": "",
+   "title_zh": "被监禁者的临终关怀——回复",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(18): 1647",
@@ -2755,7 +4432,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "End-of-Life Care for People Who Are Incarcerated.",
-   "title_zh": "",
+   "title_zh": "被监禁者的临终关怀",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(18): 1646-1647",
@@ -2847,7 +4524,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Incomplete Additional Contributions Section.",
-   "title_zh": "",
+   "title_zh": "附加贡献部分不完整",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(18): 1655",
@@ -2933,16 +4610,17 @@
    "title_en": "Neuroprotective Therapy for Acute Ischemic Stroke: A Tantalizing Prospect.",
    "title_zh": "急性缺血性中风的神经保护治疗：诱人的前景。",
    "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "summary_zh": "【评论】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(18): 1608-1609",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42721018/",
    "date": "2026-11-10",
    "authors": "Saver JL",
    "author_count": 1,
    "doi": "10.1001/jama.2026.17400",
-   "study_type": "研究论文",
+   "study_type": "评论",
    "pubtypes": [
-    "Journal Article"
+    "Journal Article",
+    "Comment"
    ],
    "mesh": [],
    "departments": [
@@ -3302,7 +4980,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Reconstructing developmental and disease progression with sample-level embeddings.",
-   "title_zh": "",
+   "title_zh": "利用样本水平嵌入重建发育与疾病进展",
    "summary_en": "Single-cell genomics is transformative for characterizing cellular heterogeneity, but many biological questions require comparing samples rather than individual cells. Typical analyses compare \"case\" and \"control\" groups, ignoring sample-level variation within them. Here, we present scSLIDE (single-cell sample-level inference using density estimation), a framework that transforms each sample's single-cell data into a compact profile describing where its cells are distributed in high-dimensional space. By comparing these density profiles, scSLIDE calculates embeddings to characterize variation across samples. We implement scSLIDE in version 6 of our Seurat package and apply it to COVID-19 infection, Alzheimer's disease, and zebrafish embryogenesis. scSLIDE reveals patient subgroups, reconst",
    "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
    "citation": "Cell. 2026",
@@ -3325,7 +5003,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Review of Gastroparesis.",
-   "title_zh": "",
+   "title_zh": "胃轻瘫综述",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -3371,7 +5049,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Review of Gastroparesis.",
-   "title_zh": "",
+   "title_zh": "胃轻瘫综述",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -3440,7 +5118,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Error in Author Byline.",
-   "title_zh": "",
+   "title_zh": "作者署名信息勘误",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -3533,7 +5211,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Left Bundle-Branch Pacing versus Right Ventricular Pacing for Atrioventricular Block.",
-   "title_zh": "",
+   "title_zh": "左束支起搏与右心室起搏治疗房室传导阻滞的比较",
    "summary_en": "BACKGROUND: Right ventricular pacing is associated with cardiac dyssynchrony and left ventricular systolic dysfunction. Left bundle-branch pacing preserves left ventricular electrical and mechanical synchrony, but its clinical benefits relative to right ventricular pacing in patients with atrioventricular block remain unclear. METHODS: In this investigator-initiated, international, open-label, randomized, controlled trial, we assigned patients with atrioventricular block in a 1:1 ratio to receive left bundle-branch pacing or right ventricular pacing. The primary outcome was a composite of death from any cause, hospitalization for heart failure, or pacing-induced cardiomyopathy. RESULTS: A total of 702 patients underwent randomization, with 348 assigned to receive left bundle-branch pacing ",
    "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
    "citation": "N Engl J Med. 2026",
@@ -3789,7 +5467,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Bringing Rapid Reperfusion to More Patients with Out-of-Hospital Cardiac Arrest.",
-   "title_zh": "",
+   "title_zh": "让更多院外心脏骤停患者获得快速再灌注",
    "summary_en": "",
    "summary_zh": "【述评】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026",
@@ -3812,7 +5490,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Intensive Blood-Pressure Lowering in Patients with Type 2 Diabetes.",
-   "title_zh": "",
+   "title_zh": "2型糖尿病患者的强化降压治疗",
    "summary_en": "BACKGROUND: Uncertainty persists regarding the effects of intensive blood-pressure lowering in patients with type 2 diabetes. METHODS: In this multicenter, open-label, randomized trial conducted in Brazil, patients with elevated blood pressure, type 2 diabetes, and high cardiovascular risk received intensive therapy targeting a systolic blood pressure of less than 120 mm Hg or standard therapy targeting a systolic blood pressure of less than 140 mm Hg. The primary end point was a composite of death from cardiovascular causes, nonfatal myocardial infarction, nonfatal stroke, or hospitalization for unstable angina or heart failure. RESULTS: Of the 9476 ethnically diverse patients who were enrolled, 4745 were assigned to receive intensive therapy and 4731 to receive standard therapy. The mean",
    "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
    "citation": "N Engl J Med. 2026",
@@ -3858,7 +5536,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Intensive Blood-Pressure Control in Patients with Previous Ischemic Stroke.",
-   "title_zh": "",
+   "title_zh": "既往缺血性卒中患者的强化血压控制",
    "summary_en": "BACKGROUND: Whether intensive blood-pressure control reduces cardiovascular risk after cerebrovascular events remains uncertain. METHODS: In this multicenter, open-label, randomized trial conducted at 30 sites in Brazil, we assigned participants with elevated blood pressure and previous ischemic stroke or transient ischemic attack to receive intensive treatment targeting a systolic blood pressure of less than 120 mm Hg or to receive standard treatment targeting a systolic blood pressure of less than 140 mm Hg. The primary outcome was a composite of death from cardiovascular causes, nonfatal myocardial infarction, nonfatal stroke, or hospitalization for unstable angina or heart failure. RESULTS: A total of 4368 participants were enrolled, with 2172 assigned to intensive treatment and 2196 t",
    "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
    "citation": "N Engl J Med. 2026",
@@ -3881,7 +5559,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Prehospital Extracorporeal Life Support in Refractory Out-of-Hospital Cardiac Arrest.",
-   "title_zh": "",
+   "title_zh": "难治性院外心脏骤停的院前体外生命支持",
    "summary_en": "BACKGROUND: In patients with refractory out-of-hospital cardiac arrest, extracorporeal cardiopulmonary resuscitation (ECPR) with the use of venoarterial extracorporeal membrane oxygenation can be performed to establish reperfusion. Data comparing prehospital ECPR with conventional care regarding survival until hospital discharge among patients who are 50 years of age or younger with refractory out-of-hospital cardiac arrest are limited. METHODS: In a nationwide, nonrandomized study conducted in the Netherlands, we evaluated the outcomes in young adults who were attended by Helicopter Emergency Medical Services (HEMS) that were equipped to deliver prehospital ECPR (intervention group) as compared with those attended by HEMS without ECPR capability (conventional group). The primary outcome w",
    "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
    "citation": "N Engl J Med. 2026",
@@ -3927,7 +5605,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Hyperaldosteronism Remission after Extended Aldosterone Synthase Inhibition.",
-   "title_zh": "",
+   "title_zh": "延长醛固酮合酶抑制后醛固酮增多症缓解",
    "summary_en": "",
    "summary_zh": "【通信】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026",
@@ -4577,7 +6255,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Physical activity: One in four teens worldwide reported no exercise in past week, WHO figures show.",
-   "title_zh": "",
+   "title_zh": "身体活动：WHO数据显示全球四分之一青少年过去一周未锻炼",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101377",
@@ -4600,7 +6278,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Science Media Centre \"legitimises\" industries that harm health, study claims.",
-   "title_zh": "",
+   "title_zh": "研究称科学媒体中心“ legitimises”危害健康的行业",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101380",
@@ -4623,7 +6301,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Doctor who faked CV to secure NHS hospital job is struck off.",
-   "title_zh": "",
+   "title_zh": "伪造简历获取NHS医院职位的医生被除名",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101374",
@@ -4646,7 +6324,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "French blood service is targeted in wave of refrigeration cyberattacks across Europe.",
-   "title_zh": "",
+   "title_zh": "法国血液服务机构成为欧洲制冷系统网络攻击浪潮目标",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101383",
@@ -4669,7 +6347,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Forever chemicals are an insidious challenge for public health.",
-   "title_zh": "",
+   "title_zh": "永久化学品是公共卫生面临的隐蔽挑战",
    "summary_en": "",
    "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101371",
@@ -4692,7 +6370,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Lab leak disease outbreaks: the long, murky history.",
-   "title_zh": "",
+   "title_zh": "实验室泄漏导致疾病暴发：漫长而模糊的历史",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101295",
@@ -4715,7 +6393,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Managing risk and uncertainty includes ambiguity.",
-   "title_zh": "",
+   "title_zh": "风险管理与不确定性包括模糊性",
    "summary_en": "",
    "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101341",
@@ -4738,7 +6416,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Meet the doctors taking propranolol to combat stressful exams and shifts amid rising concern over the risks.",
-   "title_zh": "",
+   "title_zh": "面对风险担忧加剧，服用普萘洛尔应对压力性考试和轮班的医生们",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101372",
@@ -4761,7 +6439,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Palantir's NHS contract: Government prepares to put deal out to open tender.",
-   "title_zh": "",
+   "title_zh": "Palantir的NHS合同：政府准备公开招标",
    "summary_en": "",
    "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101381",
@@ -10312,29 +11990,6 @@
    ]
   },
   {
-   "pmid": "42962694",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Governing artificial intelligence for reliable research.",
-   "title_zh": "规范人工智能以实现可靠研究",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42962694/",
-   "date": "2026-10-30",
-   "authors": "Priess Buchheit J, Pazik-Aybar A, Miller K, Baker M, Errington TM, Marušić A",
-   "author_count": 12,
-   "doi": "10.1016/S0140-6736(26)02159-8",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "42962658",
    "journal": "Cell",
    "journal_abbr": "Cell",
@@ -10819,30 +12474,6 @@
    ]
   },
   {
-   "pmid": "42956797",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "A Lancet Commission on the Health and Poverty Alleviation Initiative in China.",
-   "title_zh": "《柳叶刀》中国健康与扶贫倡议委员会。",
-   "summary_en": "",
-   "summary_zh": "【综述】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42956797/",
-   "date": "2026-10-29",
-   "authors": "Liang W, Tang K, Li Z, Zhu J, Atun R, Yip W",
-   "author_count": 33,
-   "doi": "10.1016/S0140-6736(26)01196-7",
-   "study_type": "综述",
-   "pubtypes": [
-    "Journal Article",
-    "Review"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "42956794",
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
@@ -10864,52 +12495,6 @@
    "mesh": [],
    "departments": [
     "神经"
-   ]
-  },
-  {
-   "pmid": "42956793",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Health and poverty: lessons from China.",
-   "title_zh": "健康与贫困：中国的经验教训。",
-   "summary_en": "",
-   "summary_zh": "【述评】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42956793/",
-   "date": "2026-10-29",
-   "authors": "The Lancet",
-   "author_count": 1,
-   "doi": "10.1016/S0140-6736(26)02186-0",
-   "study_type": "述评",
-   "pubtypes": [
-    "Editorial"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42956792",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Beyond poverty eradication: what China's health and poverty alleviation experience means for global health.",
-   "title_zh": "超越消除贫困：中国健康与扶贫经验对全球健康的意义。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42956792/",
-   "date": "2026-10-29",
-   "authors": "Mao W, Watkins D",
-   "author_count": 2,
-   "doi": "10.1016/S0140-6736(26)02049-0",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "公共卫生"
    ]
   },
   {
@@ -13890,29 +15475,6 @@
    ]
   },
   {
-   "pmid": "42945956",
-   "journal": "Cell",
-   "journal_abbr": "Cell",
-   "title_en": "Deep sequencing of 3,367 maize genomes uncovers substantial contribution of rare variants to agronomic traits.",
-   "title_zh": "3,367份玉米基因组深度测序揭示罕见变异对农艺性状的重要贡献",
-   "summary_en": "Rare variants are highly abundant, yet their genome-wide contributions to agronomic traits remain elusive in plants. Here, we performed deep whole-genome sequencing of 3,367 diverse elite maize inbred lines, uncovering 75.3 million variants, of which 79.2% were rare. Overall, we identified 411 independent association signals for 10 agronomic traits, including 359 attributable to globally rare variants, with rare variants showing effect sizes approximately 2.4 times those of common variants. Frequency-stratified genome-based restricted maximum likelihood (GREML) analyses indicated that rare variants captured a substantial proportion of phenotypic variance for traits under strong adaptive selection, consistent with the allele frequencies of trait-associated variants shifting from common in t",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
-   "citation": "Cell. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42945956/",
-   "date": "2026-10-27",
-   "authors": "Huang L, Bian C, Xin B, Zhang X, Lu Q, Yue Y",
-   "author_count": 34,
-   "doi": "10.1016/j.cell.2026.09.063",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "遗传/基因"
-   ]
-  },
-  {
    "pmid": "42944595",
    "journal": "JAMA",
    "journal_abbr": "JAMA",
@@ -14435,29 +15997,6 @@
    ]
   },
   {
-   "pmid": "42933458",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "First-line pembrolizumab versus carboplatin plus paclitaxel in participants with mismatch repair-deficient advanced or recurrent endometrial cancer (KEYNOTE-C93/GOG-3064/ENGOT-en15): interim analysis of a multicentre, open-label, randomised, active-comparator controlled, phase 3 trial.",
-   "title_zh": "一线pembrolizumab对比卡铂联合紫杉醇治疗错配修复缺陷晚期或复发性子宫内膜癌（KEYNOTE-C93/GOG-3064/ENGOT-en15）：一项多中心、开放标签、随机、活性对照、3期试验的中期分析。",
-   "summary_en": "BACKGROUND: A need exists for first-line chemotherapy-free options in advanced or recurrent endometrial cancer. We therefore assessed the efficacy, quality of life, and safety of first-line pembrolizumab versus carboplatin plus paclitaxel in mismatch repair-deficient (dMMR) advanced or recurrent endometrial cancer. METHODS: The KEYNOTE-C93/GOG-3064/ENGOT-en15 multicentre, open-label, randomised, active-comparator controlled, phase 3 trial was conducted at 122 centres in 24 countries in the Americas, Asia, Europe, and Oceania. Adult participants (≥18 years) with inoperable, stage III or IV, persistent, advanced, or recurrent dMMR endometrial cancer were randomly assigned 1:1 to intravenous pembrolizumab 400 mg every 6 weeks for up to 18 cycles or intravenous carboplatin area under the curve",
-   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42933458/",
-   "date": "2026-10-26",
-   "authors": "Slomovitz BM, Zhu J, Yin R, Backes F, Bidziński M, Gilbert L",
-   "author_count": 29,
-   "doi": "10.1016/S0140-6736(26)02095-7",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤"
-   ]
-  },
-  {
    "pmid": "42933389",
    "journal": "Cell",
    "journal_abbr": "Cell",
@@ -14688,54 +16227,6 @@
    "mesh": [],
    "departments": [
     "综合"
-   ]
-  },
-  {
-   "pmid": "42925881",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Optimising late-line treatment administration in metastatic colorectal cancer: an even brighter SUNLIGHT.",
-   "title_zh": "优化转移性结直肠癌后线治疗给药：更加明亮的SUNLIGHT。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42925881/",
-   "date": "2026-10-24",
-   "authors": "Ciracì P, Cremolini C",
-   "author_count": 2,
-   "doi": "10.1016/S0140-6736(26)02034-9",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤",
-    "消化器"
-   ]
-  },
-  {
-   "pmid": "42925880",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "14-day versus 28-day trifluridine-tipiracil plus bevacizumab for refractory metastatic colorectal cancer (PRABITAS): a pragmatic, multicentre, open-label, randomised, phase 3, non-inferiority trial in Japan.",
-   "title_zh": "14天对比28天trifluridine-tipiracil联合bevacizumab治疗难治性转移性结直肠癌（PRABITAS）：一项在日本开展的实用性、多中心、开放标签、随机、3期、非劣效性试验。",
-   "summary_en": "BACKGROUND: Trifluridine-tipiracil (FTD-TPI) plus bevacizumab is the standard treatment for refractory metastatic colorectal cancer. However, the conventional schedule is frequently associated with haematological and gastrointestinal toxicity, which is clinically significant and relevant to patients. A simplified 14-day schedule has been proposed to reduce toxicity, but whether this treatment preserves survival has not been established in a randomised trial. We therefore aimed to assess whether the 14-day schedule is non-inferior to the conventional schedule for overall survival. METHODS: PRABITAS was a pragmatic, multicentre, open-label, randomised, phase 3, non-inferiority trial conducted in 178 hospitals in Japan. Patients with refractory metastatic colorectal cancer were randomly assig",
-   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42925880/",
-   "date": "2026-10-24",
-   "authors": "Sakakida T, Taniguchi H, Asayama M, Suwa Y, Shimura T, Mitani S",
-   "author_count": 41,
-   "doi": "10.1016/S0140-6736(26)01782-4",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤",
-    "消化器"
    ]
   },
   {
@@ -15353,7 +16844,7 @@
    "title_en": "Governing the digital determinants of health for children and young people: a global public health imperative.",
    "title_zh": "治理儿童和青少年健康的数字决定因素：全球公共卫生的紧迫任务",
    "summary_en": "The digital determinants of health are the structural conditions through which digital infrastructures, business models, and design choices shape health outcomes. Yet these determinants remain largely outside public health policy and remain fragmented across regulatory sectors. Rather than regulating individual technologies in isolation, governance should ensure that digital systems and environments advance population health and reduce inequities. A public health approach shifts attention from individual responsibility-and the tendency to blame users-towards the governance of the structural features that produce health risks and inequities. We identify four governance domains for the digital determinants of health: infrastructure and access, platform design and commercial practices, data g",
-   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10565): 1774-1786",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42830094/",
    "date": "2026-10-24",
@@ -15388,7 +16879,7 @@
    "title_en": "The digital determinants of health: a new era for global public health.",
    "title_zh": "健康的数字决定因素：全球公共卫生的新时代",
    "summary_en": "Digital transformations exert increasing influence over the lives of the global population, shaping opportunities and generating harms for health and wellbeing across the spectrum of digital access and engagement. The scale of influence of digital transformations on human and planetary health marks the urgency of attention to the digital determinants of health (DDoH). In this Series paper, we describe a prevailing digital sociotechnological order (DSTO) as the structural source of the DDoH. The DSTO is composed of a set of dominant assumptions that motivate digital practices operating through four features (political norms, economic logics, infrastructures, and personal and social practices) to affect human and planetary health. We describe the implications of the DSTO for understanding, s",
-   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10565): 1745-1757",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42830093/",
    "date": "2026-10-24",
@@ -18558,7 +20049,7 @@
    "title_en": "Toward autonomous science with agentic artificial intelligence.",
    "title_zh": "迈向具有自主能动性人工智能的自主科学",
    "summary_en": "Artificial intelligence (AI) in biomedicine has evolved from pattern-recognition for medical image analysis to generative models like AlphaFold that predict protein structures. Tools such as Elicit, GPT-Rosalind, and Claude Science now bridge prediction and reasoning through literature synthesis, domain-tuned models, and agentic workbenches. Three recent systems (Co-Scientist, Robin, and Biomni) demonstrated agentic AI capable of generating hypotheses, designing experiments, computational analysis, and refining reasoning through experimental feedback. This perspective traces the emergence of agentic scientific reasoning, discusses scaling laws and autonomous laboratories, and argues that AI's transformative potential is inseparable from challenges in hallucination, bias, irreproducibility,",
-   "summary_zh": "【综述】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6574-6588",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42753735/",
    "date": "2026-10-15",
@@ -18586,7 +20077,7 @@
    "title_en": "Ratiometric transcriptional activation by protein degradation.",
    "title_zh": "通过蛋白质降解实现比率型转录激活",
    "summary_en": "Cells can respond to alterations in the abundances of specific proteins through transcriptional outputs. Synthetic approaches inspired by native post-transcriptional circuits that convert protein abundance changes into programmable gene expression would be transformative. Here, we discover and describe design principles that effectively convert protein degradation into transcriptional outputs in live cells. We define ratiometric transcriptional activation, where control over the ratio between a transcription factor and a protein of interest fused to its inhibitor enables detection of abundance changes with high sensitivity at scale. We show that ratiometric transcriptional activation can be implemented in single cells using triply orthogonal circuits or in multicellular pools, operating in",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6666-6683.e9",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42679820/",
    "date": "2026-10-15",
@@ -18614,7 +20105,7 @@
    "title_en": "Human nuclear ribomes reveal DNA-embedded ribonucleotides as epigenetic modulators of transcription-associated DNA supercoiling.",
    "title_zh": "人类核糖体揭示DNA嵌入核糖核苷酸作为转录相关DNA超螺旋的表观遗传调控因子",
    "summary_en": "Ribonucleoside monophosphates (rNMPs) are the most abundant non-canonical nucleotides in DNA, yet their distribution and function in the human nuclear genome remain unclear. We present high-resolution maps of ∼1 million rNMPs per genome across diverse human cells, revealing a non-random nuclear \"ribome,\" the genome-wide landscape of embedded rNMPs, enriched in GC-rich regions, regulatory elements, and telomeres. Ribonucleotide-enriched zones (REZs) cluster near transcription start sites (TSSs), coincide with C-phosphate-G (CpG) islands, R-loops, and G4 structures, and scale with gene expression. Ribonuclease (RNase) H2 deficiency increases rGMP levels and is associated with topoisomerase 1 (Top1)-dependent, strand-biased rNMP enrichment near TSSs, while Top1 depletion further enhances rGMP",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6648-6665.e11",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42664971/",
    "date": "2026-10-15",
@@ -18648,7 +20139,7 @@
    "title_en": "Ancient genomes reveal distinct human dispersals and social stratification in the settlement history of western Remote Oceania.",
    "title_zh": "古基因组揭示远大洋洲西部定居史中不同人群扩散与社会分层",
    "summary_en": "The settlement of western Remote Oceania involved interactions among deeply divergent populations. Initial settlement ∼3,000 years ago by Lapita-associated, Southeast Asian-related groups was followed by Papuan-related expansions and later sea voyages from Polynesia. We present genome-wide data spanning the past three millennia from the eastern Solomon Islands, Vanuatu, Fiji, and Tonga. We find that the Papuan-related expansion proceeded at a slower pace than the earlier Lapita-associated expansion and reached Fiji through at least two distinct human dispersals, centuries earlier than previously suggested. We provide direct evidence of Polynesian-related gene flow at around 1,000 years ago, giving rise to Polynesian Outlier communities in southern Vanuatu. Finally, we examine an early Fiji",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6882-6897.e10",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42600611/",
    "date": "2026-10-15",
@@ -18683,7 +20174,7 @@
    "title_en": "Metabolic atlas of early human cortex reveals glycolytic remodeling and pentose phosphate pathway control of cell fate transitions.",
    "title_zh": "早期人类皮层代谢图谱揭示糖酵解重塑及磷酸戊糖途径对细胞命运转换的调控",
    "summary_en": "Cortical development involves rapid progenitor expansion and cell diversification supported by tightly regulated metabolic programs, yet these programs remain largely uncharacterized in human development. Here, we generated a metabolic atlas of the early human cortex using primary tissue and stem cell-derived cortical organoids. We observed dynamic changes in core metabolic functions, including an unexpected increase in glycolysis and pentose phosphate pathway (PPP) activity during late neurogenesis. Manipulation of glucose availability in cortical organoids altered cell-type composition, increasing outer radial glia (oRG) and inhibitory neuron populations. Pharmacological and genetic inhibition of PPP enzymes recapitulated these cell fate changes. Ribose was sufficient to rescue radial gl",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6810-6828.e15",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42551423/",
    "date": "2026-10-15",
@@ -18717,7 +20208,7 @@
    "title_en": "Co-option of retrotransposons promotes antibody diversification.",
    "title_zh": "逆转录转座子的共选促进抗体多样化",
    "summary_en": "Activation-induced cytidine deaminase (AID) accomplishes somatic hypermutation (SHM) of VH(D)JH genes in germinal center B cells for antibody diversification and affinity maturation. How AID specifically targets VH(D)JH remains unclear. We report the discovery of LINE-1 (L1) retrotransposons upstream to many VH genes in the immunoglobulin locus. These L1s are evolutionarily old, truncated, and retrotransposition dead. Recombined VH promoters generate long, strong antisense RNAs encoding upstream L1s, triggering the human silencing hub (HUSH) complex and AID recruitment, which we term L1-driven SHM. We show that L1-driven SHM occurs in vivo using HUSH conditional knockout mice and engineered mice with VH genes devoid of upstream L1s. Insertion of transcriptionally active L1s at non-immunogl",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6684-6704.e9",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42546688/",
    "date": "2026-10-15",
@@ -18751,7 +20242,7 @@
    "title_en": "Milk osteopontin alters the infant microbiome to drive DC hematopoiesis and disease tolerance.",
    "title_zh": "母乳骨桥蛋白改变婴儿微生物组以驱动DC造血和疾病耐受",
    "summary_en": "Breastfeeding reduces the risk of severe lower respiratory infections (sLRIs), a leading cause of infant mortality; however, the protective mechanisms remain elusive. Here, we demonstrated that the absence of milk-derived osteopontin (OPN), highly expressed in colostrum, predisposes neonatal mice to viral and bacterial sLRI, consequent to disrupted dendritic cell (DC) hematopoiesis in the developing liver and lung. Amelioration of disease severity by oral OPN supplementation was associated with increased enteric abundance of Lactobacillaceae and elevated levels of serum 3-phenyllactic acid (PLA), a peroxisome proliferator-activated receptor gamma (PPARγ) agonist. Supplementation with PLA or the PPARγ agonist rosiglitazone restored lung DC hematopoiesis via airway epithelium-derived chemoki",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6771-6791.e14",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42546687/",
    "date": "2026-10-15",
@@ -18785,7 +20276,7 @@
    "title_en": "CRISPR screens identify targets to rescue age-related T cell dysfunction in cancer.",
    "title_zh": "CRISPR筛选鉴定挽救癌症中年龄相关T细胞功能障碍的靶点",
    "summary_en": "Immune aging impairs T cell-mediated tumor control as well as cancer immunotherapy outcomes. The most important drivers of T cell dysfunction in aged tumors remain unknown. We performed single-cell CRISPR screens to identify Dusp5 and Zfp219 as key regulators of CD8+ T cell persistence and effector differentiation within aged tumors. Loss of Dusp5 increased extracellular signal-regulated kinase (ERK) phosphorylation and globally enhanced T cell proliferation. Conversely, Zfp219 deletion induced epigenetic reprogramming and increased expression of cytotoxic molecules, enhancing antitumor immunity specifically in aging. Levels of the human ortholog ZNF219 were higher within intratumoral CD8+ T cells from older cancer patients, which correlates with worse survival following immunotherapy. Zfp",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6738-6751.e7",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42526438/",
    "date": "2026-10-15",
@@ -18820,7 +20311,7 @@
    "title_en": "An Oryza orphan gene confers trans-species drought tolerance.",
    "title_zh": "一个水稻孤儿基因赋予跨物种耐旱性",
    "summary_en": "Drought threatens crop productivity, yet enhancing tolerance often compromises yield. Abscisic acid (ABA) signaling is central to drought response, but its deep conservation can constrain adaptive flexibility. Here, we identify ROAD1 (rice orphan gene adapted for drought 1), an Oryza-specific orphan gene that confers robust drought tolerance without obvious growth defects under normal conditions. ROAD1 originated from Oryza meridionalis, and its functional allele, ROAD1C, was selected during japonica domestication. In field trials, elite rice lines carrying ROAD1C exhibited up to 34.75% higher grain yield than corresponding controls under drought. Mechanistically, ROAD1 bypasses the canonical ABA receptor-ligand complex by binding the phosphatase OsPP2C68, preventing sucrose non-fermenting",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6865-6881.e8",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42492508/",
    "date": "2026-10-15",
@@ -18925,7 +20416,7 @@
    "title_en": "A pseudoenzyme sensor of trehalose-6-phosphate directly represses the metabolic integrator SnRK1 in plants.",
    "title_zh": "海藻糖-6-磷酸的伪酶传感器直接抑制植物代谢整合因子SnRK1",
    "summary_en": "Trehalose-6-phosphate (T6P) is a central metabolic signal linking sugar availability to plant growth, carbon utilization, and productivity, yet its sensing and signaling mechanisms remain elusive. Using chemical biology and functional approaches, we identify the noncatalytic pseudoenzyme Class-II T6P synthase (TPS-II) as a T6P sensor in Arabidopsis. In the apo state, TPS-II dimerizes to form an autoinhibitory inter-subunit interaction. T6P binding to the N-terminal TPS-like domain triggers a conformational change that releases the C-terminal domain, enabling interaction with the central metabolic integrator SNF1-related protein kinase 1 (SnRK1) to repress its kinase activity. Loss of TPS-II genes activates catabolic and stress-responsive programs while suppressing anabolic gene expression,",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42874590/",
    "date": "2026-10-14",
@@ -19353,7 +20844,7 @@
    "title_en": "A high-dimensional population code in the bat motor cortex during natural dexterous flight.",
    "title_zh": "蝙蝠运动皮层在自然灵巧飞行中的高维群体编码",
    "summary_en": "Elucidating the neural computations underlying natural, complex movement remains a fundamental challenge in neuroscience. Bat flight presents a formidable motor control challenge, requiring hand-like wings whose many degrees of freedom must be precisely coordinated to enable rapid three-dimensional (3D) maneuvers. Here, we performed large-scale wireless recordings from the wing motor cortex of freely flying bats, combined with 3D tracking of wing kinematics. Despite the complexity of flight control, bats repeatedly executed accurate flights through precise adjustments of individual wingbeats. Surprisingly, motor cortical activity was not dominated by the wingbeat cycle. Instead, neurons were sparsely active, exhibiting mixed selectivity for flight kinematics and variable entrainment to the",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42869023/",
    "date": "2026-10-13",
@@ -19376,7 +20867,7 @@
    "title_en": "PTPRS mediates invasion of tetanus neurotoxin into the central nervous system.",
    "title_zh": "PTPRS介导破伤风神经毒素侵入中枢神经系统",
    "summary_en": "Tetanus neurotoxin (TeNT) invades the central nervous system (CNS) via retrograde transport through motoneurons. Whether a host factor is needed to mediate TeNT trafficking has remained unknown. Here, using pull-down and mass spectrometry analysis, and by developing a luciferase-based in vivo transport assay, we identify receptor protein tyrosine phosphatase sigma (PTPRS; PTPσ) as the retrograde transport receptor for TeNT. Global or motoneuron-specific PTPRS knockout (KO) abolishes TeNT entry into the CNS in mouse models. PTPRS-TeNT interactions occur in endosomes, prevent toxin translocation, and direct TeNT trafficking in neurons. Structural studies establish that the TeNT light chain and belt region bind to the immunoglobulin domain of PTPRS. Disrupting TeNT-PTPRS interactions blocks T",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42869022/",
    "date": "2026-10-13",
@@ -19399,7 +20890,7 @@
    "title_en": "Mechanisms of transcription control by distal enhancers from single-gene nanoscopy.",
    "title_zh": "单基因纳米显微术揭示远端增强子调控转录的机制",
    "summary_en": "Distal enhancers activate genes over vast genomic distances, but how this communication occurs and what signals are transmitted are poorly understood. Using real-time single-gene nanoscopy and targeted perturbations, we define physical parameters and mechanisms of enhancer-promoter communication. We find that productive interactions are dynamic, occur at a proximity of ≲100 nm, and are coordinated with transcriptional bursts. Enhancers and promoters find one another not only through passive diffusion; we often directly observe them being actively brought together by cohesin-mediated loop extrusion, which is a key determinant of transcriptional burst frequency. We also discover that specific general transcription factors (GTFs) of RNA polymerase II machinery are key to initiating transcript",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42869021/",
    "date": "2026-10-13",
@@ -19422,7 +20913,7 @@
    "title_en": "Rare k-mers reveal centromere haplogroups underlying human diversity and cancer translocations.",
    "title_zh": "罕见k-mer揭示构成人类多样性和癌症易位的着丝粒单倍群",
    "summary_en": "Human centromeres are highly variable but remain among the least characterized regions of the genome because their repetitive structure has hindered conventional analysis of population diversity and disease relevance. Here, we show that rare k-mers in centromeric regions capture lineage-specific variation, defining discrete haplogroups with distinct structural features. We developed ascairn to infer these haplogroups from short-read whole-genome sequencing (WGS) data. Applying this framework to >3,300 genomes reveals extensive global diversity in centromere haplogroups and signatures of population history. Analyzing short-read WGS data from 142 oligodendroglioma cases with 1p/19q co-deletion, we mapped breakpoints to the centromere regions of chromosomes 1 and 19, revealing a clear positio",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42869020/",
    "date": "2026-10-13",
@@ -19514,7 +21005,7 @@
    "title_en": "Mapping transcriptional responses to cellular perturbations with RNA fingerprinting.",
    "title_zh": "利用RNA指纹图谱绘制细胞扰动转录反应图谱",
    "summary_en": "Single-cell perturbation dictionaries measure how cells respond to genetic and chemical perturbations, creating the opportunity to assign causal interpretations to observational data. We introduce RNA fingerprinting, a statistical framework that maps transcriptional responses from new experiments onto reference perturbation dictionaries. RNA fingerprinting learns perturbation representations, or \"fingerprints,\" from single-cell data, then probabilistically assigns query cells to one or more candidate perturbations. We benchmark on ground-truth datasets, demonstrating accurate assignments at single-cell resolution, scalability to genome-wide screens, and the ability to resolve combinatorial perturbations. We demonstrate broad utility across diverse biological settings: identifying context-s",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42854686/",
    "date": "2026-10-09",
@@ -19898,7 +21389,7 @@
    "title_en": "A non-canonical function of glutathione to suppress ferroptosis via FSP1.",
    "title_zh": "谷胱甘肽通过FSP1抑制铁死亡的非经典功能。",
    "summary_en": "It is well established that glutathione (GSH) is mainly utilized by glutathione peroxidase 4 (GPX4) to diminish peroxidized phospholipids and defend against ferroptosis. However, we found that GSH robustly protects a variety of GPX4 knockout (KO) cells from ferroptosis, thus indicating that there is an alternative pathway for GSH to suppress ferroptosis. By carrying out genome-wide CRISPR-Cas9 screening, we identified that ferroptosis suppressor protein 1 (FSP1) is the key factor mediating the GPX4-independent protective effect of GSH. Mechanistically, FSP1 uses GSH to generate reduced ubiquinone, which scavenges oxidized lipids and suppresses ferroptosis. Inhibition of FSP1 abolishes this GSH-dependent ferroptosis protection both in vitro and in vivo. Distinct from NAD(P)H-mediated ubiqui",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42838049/",
    "date": "2026-10-06",
@@ -19921,7 +21412,7 @@
    "title_en": "A spatiotemporal lifecycle atlas decodes spatial coordination in rice.",
    "title_zh": "时空生命周期图谱解码水稻的空间协调。",
    "summary_en": "How gene expression programs are coordinated across space and time to build a complete plant remains poorly understood. Here, we combine high-resolution spatial transcriptomics, single-nucleus RNA sequencing, and a gap-free reference genome to build a 3D spatiotemporal atlas of rice, spanning 10 organs and 61 stages from seed to seed. Our datasets profile 851,725 nuclei and 347,640 spatial bins, defining 119 cell types and 133 subtypes across the rice lifecycle. Through multimodal integration, we reconstruct an inferred developmental trajectory graph that links cell states from the proembryo to mature organs and identifies trajectory-associated regulators. We further implicate the pleiotropic regulator OsARF1 in distinct spatial gene programs across developmental contexts. We also uncover ",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42838048/",
    "date": "2026-10-06",
@@ -19944,7 +21435,7 @@
    "title_en": "SPARCS enables scalable recovery of complex image-based phenotypes for genetic screening.",
    "title_zh": "SPARCS实现用于遗传筛选的复杂图像表型的可扩展恢复。",
    "summary_en": "Forward genetic screening links genotype to phenotype by introducing random genetic perturbations and identifying phenotype-altering mutations. Although genome-scale screens are routine for simple phenotypes in cultured cells, extending them to complex image-based phenotypes remains challenging. Here, we present spatially resolved CRISPR screening (SPARCS), a microscopy-based platform for forward genetic screening on single-cell images. SPARCS physically isolates mutants in situ by automated laser microdissection, enabling image-based screening at unprecedented scale with multimodal hit phenotyping. We demonstrate SPARCS in genome-wide CRISPR knockout screens of autophagosome formation and activation of the immune sensor STING across 70 million cells. Via machine learning-based image analy",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42838047/",
    "date": "2026-10-06",
@@ -19967,7 +21458,7 @@
    "title_en": "Cancer competition for vitamin B2 creates metabolic checkpoint for T cell ferroptosis.",
    "title_zh": "肿瘤竞争维生素B2为T细胞铁死亡创造代谢检查点。",
    "summary_en": "Metabolic competition between tumors and T cells drives immune evasion, but the transporters and mechanisms remain largely elusive. Here, we establish the CareSLCs platform and identify that SLC52A3-mediated vitamin B2 (VB2) uptake is indispensable for T cell antitumor immunity. Mechanistically, VB2 deficiency impairs mitochondrial respiration and glutathione regeneration, leading to mitophagy, labile iron accumulation, and lipid peroxidation that trigger T cell ferroptosis. Unexpectedly, tumors preferentially employ SLC52A2, not SLC52A3, to scavenge VB2 and outcompete T cells. Tumor SLC52A2 ablation enhances T cell function in immunocompetent hosts without appreciably affecting intrinsic tumor growth. Clinically, high tumoral SLC52A2 correlates with T cell dysfunction and poor survival, w",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42838046/",
    "date": "2026-10-06",
@@ -20249,7 +21740,7 @@
    "title_en": "Acanthamoeba ATP synthase structure reveals the TCA cycle is tethered to OXPHOS.",
    "title_zh": "Acanthamoeba ATP合酶结构揭示TCA循环与OXPHOS偶联",
    "summary_en": "Oxidative phosphorylation (OXPHOS) is a key metabolic process that couples redox energy to ATP production. While some core OXPHOS complex subunits are found across all domains of life, many have diverged or expanded across evolution-as seen in the protozoan pathogen Acanthamoeba castellanii. By integrating cryo-electron microscopy of unenriched mitochondrial lysate with mass spectrometry proteomics, we resolved the structures of endogenous mitochondrial ATP synthase (complex V), Hsp60, and respiratory complex III from Acanthamoeba. We capture Acanthamoeba ATP synthase in an IF1-inhibited state and reveal how Acanthamoeba-specific subunits and extensions stabilize the molecular machine, which includes a β subunit extension that interfaces with the peripheral stalk. Additionally, we characte",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(20): 6307-6324.e7",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42822427/",
    "date": "2026-10-01",
@@ -20282,7 +21773,7 @@
    "title_en": "Comparative analysis of mitochondrial proteomes across the tree of life.",
    "title_zh": "生命之树范围内线粒体蛋白质组的比较分析",
    "summary_en": "Mitochondria arose from the endosymbiosis of a bacterium with an archaea-related host cell about 2 billion years ago. To understand their origins and evolution, we compared experimentally defined mitoproteomes from the MitoCarta Tree of Life project. Across eight organisms, we identified 8,619 distinct mitochondrial proteins within 3,199 families, of which 43% lack Pfam domains. We report 33 protein families conserved in eukaryotic pathogens yet absent in humans, representing promising candidate targets for protozoan infectious diseases. Leveraging our experimentally defined mitoproteomes, we retrained a classifier based on a protein language model to predict mitoproteomes of ∼200 eukaryotes. From this expanded set, we detail the evolutionary trajectories of mitochondria, ranging from clad",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(20): 6285-6306.e13",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42822426/",
    "date": "2026-10-01",
@@ -20315,7 +21806,7 @@
    "title_en": "A high-confidence plant mitochondrial proteome via protein correlation profiling.",
    "title_zh": "通过蛋白质相关性分析获得高置信度植物线粒体蛋白质组",
    "summary_en": "Plant mitochondria share many features with animal mitochondria but also possess unique traits, including presence of both circular and linear mitochondrial DNA, RNA editing, a branched electron transport chain, and metabolic pathways supporting photosynthesis. An accurate mitochondrial proteome is crucial for studying these conserved and lineage-specific functions. Here, we introduce a novel approach to defining plant mitoproteomes that combines serial mitochondrial enrichment, mass spectrometry, and protein correlation profiling. This approach allows us to experimentally define a mitochondrial protein inventory of 1,462 proteins with high sensitivity and specificity. Integration of our experimental inventory with literature and microscopy validation yields the Arabidopsisthaliana MitoCar",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(20): 6267-6284.e9",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42822425/",
    "date": "2026-10-01",
@@ -20345,7 +21836,7 @@
    "title_en": "Mitochondrial proteome of Acanthamoeba delineates aerobic and anaerobic pathways dynamically regulated by oxygen.",
    "title_zh": "Acanthamoeba线粒体蛋白质组勾勒出受氧动态调控的有氧与无氧通路",
    "summary_en": "Acanthamoeba castellanii causes infectious blindness and resides in a key evolutionary outgroup to humans and fungi. Its divergent mitochondria are of outstanding interest due to their predicted aerobic and anaerobic functions with potential for drug targeting. However, a detailed delineation of its bioenergetic machinery, its activities, and their regulation remains lacking. Here, we integrate mitochondrial immunoprecipitation, density gradient purification, mass spectrometry, protein correlation profiling, and microscopy to generate a high-confidence inventory of the Acanthamoeba mitoproteome. The resulting AcMitoCarta contains 1,122 proteins, including 381 lacking readily identifiable homologs in human and yeast mitochondria. Complexome analysis highlights 20 macromolecular assemblies. ",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(20): 6246-6266.e19",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42822424/",
    "date": "2026-10-01",
@@ -20379,7 +21870,7 @@
    "title_en": "Decoding mitochondrial proteomes of diverse eukaryotes.",
    "title_zh": "解码多种真核生物的线粒体蛋白质组",
    "summary_en": "Our textbook view of mitochondria, which has been shaped by studies in animals and yeast, fails to do justice to the organelle's broader eukaryotic diversity. While most mitochondria retain a tiny genome, the overwhelming majority of their proteins are nuclear-encoded and vary extensively across lineages. To map this diversity, the MitoCarta Tree of Life Consortium developed experimental and computational workflows to generate high-accuracy mitochondrial proteomes across diverse eukaryotes-helping to lay a foundation for comparative mitochondrial biology with broad implications for physiology, evolution, and disease.",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(20): 6243-6245",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42822423/",
    "date": "2026-10-01",
@@ -21006,7 +22497,7 @@
    "title_en": "A case of Bundibugyo virus disease treated with monoclonal antibodies and remdesivir.",
    "title_zh": "一例接受单克隆抗体和瑞德西韦治疗的Bundibugyo病毒病病例",
    "summary_en": "Clinical data on Bundibugyo virus (BDBV) infection are limited, and no approved virus-specific treatment exists. Here we describe the case of a previously healthy 39-year-old healthcare worker who acquired BDBV infection while working in Ituri Province, Democratic Republic of the Congo, and was medically evacuated to Germany. He received MBP134, an investigational combination of two monoclonal antibodies, under a US Food and Drug Administration (FDA) Emergency Investigational New Drug (eIND) authorization, together with remdesivir and supportive care. Viral RNA concentrations were highest in oropharyngeal swabs and plasma and became undetectable in blood, throat swabs, urine and stool by day 13 after symptom onset and in semen by day 25. The patient's serum demonstrated neutralizing activi",
-   "summary_zh": "【病例报告】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【病例报告】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3600-3605",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42742180/",
    "date": "2026-10-01",
@@ -21040,7 +22531,7 @@
    "title_en": "Emergence of a Bundibugyo virus variant in the 2026 outbreak in the Democratic Republic of the Congo and Uganda.",
    "title_zh": "2026年刚果民主共和国和乌干达疫情中Bundibugyo病毒变异株的出现",
    "summary_en": "In May 2026, an outbreak of Ebola disease caused by Bundibugyo virus (BDBV, species Orthoebolavirus bundibugyoense) was declared in the Democratic Republic of the Congo (DRC), with cases originating from the DRC and locally transmitted cases reported in Uganda. Bundibugyo virus disease (BVD) outbreaks were previously recorded in 2007-2008 in Bundibugyo District, Uganda, and in 2012 in Isiro, DRC. Here we generated 22 genomes from samples obtained from individuals with BVD in the DRC and Uganda. These genomes form a well-supported phylogenetic cluster separate from BDBV variants associated with the 2007 and 2012 outbreaks, together with evidence for sustained human transmission. This is consistent with the emergence of a new zoonotic spillover event rather than resurgence of previously repo",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3617-3621",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42742179/",
    "date": "2026-10-01",

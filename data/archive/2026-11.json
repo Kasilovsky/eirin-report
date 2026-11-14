@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
  "month": "2026-11",
- "count": 442,
+ "count": 485,
  "articles": [
   {
    "pmid": "42962694",
@@ -151,6 +151,663 @@
    ]
   },
   {
+   "pmid": "43020097",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Empirical tuberculosis treatment in infants living with HIV hospitalised with severe pneumonia in Africa (EMPIRICAL): a multicentre, randomised, open-label, 2 × 2 factorial, controlled superiority trial.",
+   "title_zh": "在非洲因重症肺炎住院的HIV感染婴幼儿中开展的经验性结核病治疗（EMPIRICAL）：一项多中心、随机、开放标签、2 × 2析因设计、对照优效性试验。",
+   "citation": "Lancet. 2026; 408(10568): 2109-2124",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020097/",
+   "date": "2026-11-14",
+   "authors": "Domínguez-Rodríguez S, Tagarro A, Moraleda C, Buck WC, Mujuru H, Chabala C",
+   "doi": "10.1016/S0140-6736(26)01418-2",
+   "study_type": "随机对照试验",
+   "departments": [
+    "感染",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43020096",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "citation": "Lancet. 2026; 408(10568): 2068",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020096/",
+   "date": "2026-11-14",
+   "doi": "10.1016/S0140-6736(26)02294-4",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020095",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "citation": "Lancet. 2026; 408(10568): 2068",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020095/",
+   "date": "2026-11-14",
+   "doi": "10.1016/S0140-6736(26)02202-6",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020094",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Evidence and gaps for preventing postpartum haemorrhage - Authors' reply.",
+   "title_zh": "预防产后出血的证据和不足之处 - 作者的回复。",
+   "citation": "Lancet. 2026; 408(10568): 2067-2068",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020094/",
+   "date": "2026-11-14",
+   "authors": "Devall AJ, Sindhu KN, Coomarasamy A",
+   "doi": "10.1016/S0140-6736(26)01981-1",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020093",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Evidence and gaps for preventing postpartum haemorrhage.",
+   "citation": "Lancet. 2026; 408(10568): 2067",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020093/",
+   "date": "2026-11-14",
+   "authors": "Saccone G, Adewale V, Berghella V",
+   "doi": "10.1016/S0140-6736(26)01821-0",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020092",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Evidence and gaps for preventing postpartum haemorrhage.",
+   "title_zh": "预防产后出血的证据和不足之处。",
+   "citation": "Lancet. 2026; 408(10568): 2066-2067",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020092/",
+   "date": "2026-11-14",
+   "authors": "Lieber J, Ker K, Roberts I",
+   "doi": "10.1016/S0140-6736(26)01820-9",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020091",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "WHO's operational role in emergencies: a view from Gaza.",
+   "title_zh": "世卫组织在紧急情况下的业务职能：加沙的视角。",
+   "citation": "Lancet. 2026; 408(10568): 2065-2066",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020091/",
+   "date": "2026-11-14",
+   "authors": "Seita A, Albeik S",
+   "doi": "10.1016/S0140-6736(26)02146-X",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020090",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "The Perth Declaration to eliminate rheumatic fever and rheumatic heart disease.",
+   "citation": "Lancet. 2026; 408(10568): 2065",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020090/",
+   "date": "2026-11-14",
+   "authors": "Narula J, Jennings G, Chew DP",
+   "doi": "10.1016/S0140-6736(26)02142-2",
+   "study_type": "通信",
+   "departments": [
+    "循环器",
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "43020089",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Ron McCoy.",
+   "title_zh": "Ron McCoy。",
+   "citation": "Lancet. 2026; 408(10568): 2064",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020089/",
+   "date": "2026-11-14",
+   "authors": "Thornton J",
+   "doi": "10.1016/S0140-6736(26)02245-2",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020088",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Silencing: a medical intern in the Gaza Strip.",
+   "title_zh": "噤声：加沙地带的实习医生。",
+   "citation": "Lancet. 2026; 408(10568): 2062-2063",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020088/",
+   "date": "2026-11-14",
+   "authors": "Hammoudeh W, Wispelwey B, Asi Y, Tanous O, Mills D, AlNajjar O",
+   "doi": "10.1016/S0140-6736(26)02244-0",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020087",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Lalitha Regi and Regi George: strengthening community health.",
+   "title_zh": "Lalitha Regi和Regi George：加强社区卫生。",
+   "citation": "Lancet. 2026; 408(10568): 2060",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020087/",
+   "date": "2026-11-14",
+   "authors": "Samarasekera U",
+   "doi": "10.1016/S0140-6736(26)02242-7",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020086",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Offline: Anthony Fauci comes to London.",
+   "title_zh": "线下：安东尼·福奇来伦敦了。",
+   "citation": "Lancet. 2026; 408(10568): 2051",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020086/",
+   "date": "2026-11-14",
+   "authors": "Horton R",
+   "doi": "10.1016/S0140-6736(26)02284-1",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020085",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Empirical tuberculosis treatment in infants living with HIV: missed opportunities and ways to improve outcomes.",
+   "title_zh": "感染艾滋病毒的婴幼儿的经验性结核病治疗：错失的机会和改善结局的方法。",
+   "citation": "Lancet. 2026; 408(10568): 2044-2046",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020085/",
+   "date": "2026-11-14",
+   "authors": "van der Zalm MM, Barday MA",
+   "doi": "10.1016/S0140-6736(26)01918-5",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43020084",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "The overlooked role of CMV in pneumonia in infants with HIV.",
+   "title_zh": "巨细胞病毒在感染艾滋病毒的婴儿肺炎中被忽视的作用。",
+   "citation": "Lancet. 2026; 408(10568): 2042-2043",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020084/",
+   "date": "2026-11-14",
+   "authors": "Gianella S, Hunt PW",
+   "doi": "10.1016/S0140-6736(26)01546-1",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43020083",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Is chemotherapy still needed in all patients with mismatch repair-deficient advanced or recurrent endometrial cancer?",
+   "title_zh": "所有错配修复缺陷型晚期或复发性子宫内膜癌患者是否仍需要化疗？",
+   "citation": "Lancet. 2026; 408(10568): 2040-2041",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020083/",
+   "date": "2026-11-14",
+   "authors": "Choi CH, Kim BG",
+   "doi": "10.1016/S0140-6736(26)02199-9",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43025884",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "AI prescribing: clinical oversight must not be removed without robust evidence.",
+   "title_zh": "人工智能开具处方：在没有确凿证据的情况下，不得取消临床监督。",
+   "citation": "BMJ. 2026; 395: e101445",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025884/",
+   "date": "2026-11-13",
+   "authors": "Ashar P, Abbasi M, Illamperuma I, Nguyen D, Lowder E",
+   "doi": "10.1136/bmj-2026-101445",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43025882",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "\"I'm not like other medics:\" deconstructing the medical student stereotype.",
+   "title_zh": "“我不像其他医务人员那样”：打破医学生的刻板印象。",
+   "citation": "BMJ. 2026; 395: e100996",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025882/",
+   "date": "2026-11-13",
+   "authors": "Khan Z",
+   "doi": "10.1136/bmj-2026-100996",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43025881",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Act now to stop staff snooping on UK medical records, says data regulator.",
+   "title_zh": "数据监管机构表示，应立即采取行动，阻止工作人员窥探英国的医疗记录。",
+   "citation": "BMJ. 2026; 395: e101451",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025881/",
+   "date": "2026-11-13",
+   "authors": "Furneaux R",
+   "doi": "10.1136/bmj-2026-101451",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43025880",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Microsoft IT outage: NHS cancels operations as many services affected.",
+   "title_zh": "微软IT系统宕机：受多项服务影响，英国国民保健服务局（NHS）取消手术。",
+   "citation": "BMJ. 2026; 395: e101456",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025880/",
+   "date": "2026-11-13",
+   "authors": "Stokel-Walker C",
+   "doi": "10.1136/bmj-2026-101456",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43025878",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Gaza: US doctor condemns \"shocking murder\" of fellow surgeon in Israeli attack on hospital.",
+   "title_zh": "加沙：美国医生谴责以色列袭击医院造成其外科医生同事“令人震惊的遇害”。",
+   "citation": "BMJ. 2026; 395: e101452",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025878/",
+   "date": "2026-11-13",
+   "authors": "Mahase E",
+   "doi": "10.1136/bmj-2026-101452",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43025877",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Palantir: doctors urge medical leaders to oppose extension of NHS deal.",
+   "title_zh": "Palantir：医生敦促医疗领导层反对延长NHS合同。",
+   "citation": "BMJ. 2026; 395: e101453",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025877/",
+   "date": "2026-11-13",
+   "authors": "Iacobucci G",
+   "doi": "10.1136/bmj-2026-101453",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43025876",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Effects of plastic exposure on human health.",
+   "title_zh": "塑料接触对人类健康的影响。",
+   "citation": "BMJ. 2026; 395: e100388",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025876/",
+   "date": "2026-11-13",
+   "authors": "Albergamo V, Stapleton P, Yan B, Campen M, Trasande L",
+   "doi": "10.1136/bmj-2026-100388",
+   "study_type": "综述",
+   "departments": [
+    "内分泌/代谢",
+    "精神",
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "43025874",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Paperless is not the same as less paperwork.",
+   "title_zh": "无纸化与减少文书工作并不相同。",
+   "citation": "BMJ. 2026; 395: e101427",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025874/",
+   "date": "2026-11-13",
+   "authors": "Liu B",
+   "doi": "10.1136/bmj-2026-101427",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43025871",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "GPs condemn move to install sensors in practices to track unused space.",
+   "title_zh": "全科医生谴责在诊所安装传感器以跟踪未用空间的做法。",
+   "citation": "BMJ. 2026; 395: e101454",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025871/",
+   "date": "2026-11-13",
+   "authors": "Furneaux R",
+   "doi": "10.1136/bmj-2026-101454",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43025870",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Bird flu: Fear of ICE may discourage dairy workers from seeking testing, US union warns.",
+   "title_zh": "禽流感：美国工会警告称，对移民和海关执法局（ICE）的恐惧可能使奶制品工人不敢接受检测。",
+   "citation": "BMJ. 2026; 395: e101447",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025870/",
+   "date": "2026-11-13",
+   "authors": "Taylor L",
+   "doi": "10.1136/bmj-2026-101447",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43025430",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Emerging Shamonda virus: a new threat to pregnancy?",
+   "title_zh": "新出现的沙蒙达病毒：对妊娠的新威胁？",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025430/",
+   "date": "2026-11-13",
+   "authors": "Baud D, Alves MP, Pomar L, Musso D, Vouga M",
+   "doi": "10.1016/S0140-6736(26)02232-4",
+   "study_type": "通信",
+   "departments": [
+    "感染",
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "43025429",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Cangrelor for myocardial infarction-related cardiogenic shock.",
+   "title_zh": "坎格雷洛用于治疗心肌梗死相关的心源性休克。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025429/",
+   "date": "2026-11-13",
+   "authors": "Baldetti L, Scandroglio AM",
+   "doi": "10.1016/S0140-6736(26)01152-9",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43025428",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Lula's new term-safeguarding science, health, and the Amazon.",
+   "title_zh": "卢拉的新任期——捍卫科学、健康和亚马逊雨林。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025428/",
+   "date": "2026-11-13",
+   "authors": "Noll M, Sousa MM, Nogueira SM, Cardoso FMCB, E Silva PR",
+   "doi": "10.1016/S0140-6736(26)02234-8",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43024503",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "JAMA Editors' Summary Podcast: November 13, 2026.",
+   "title_zh": "《JAMA》编辑摘要播客：2026年11月13日。",
+   "citation": "JAMA. 2026: e2516129",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024503/",
+   "date": "2026-11-13",
+   "doi": "10.1001/jama.2025.16129",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43024345",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "FDA Approves First Generic Hormone Therapy Patch for Women.",
+   "title_zh": "FDA批准首款用于女性的仿制激素疗法贴片。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024345/",
+   "date": "2026-11-13",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.20051",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43024343",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "CDC Report Highlights Growing Threat From Drug-Resistant Germs.",
+   "title_zh": "美国疾控中心报告强调耐药细菌的威胁日益加剧。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024343/",
+   "date": "2026-11-13",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.20050",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43024341",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "FDA Approves Novel Treatment for Chronic Hepatitis B.",
+   "title_zh": "FDA批准了一种新型慢性乙型肝炎治疗药物。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024341/",
+   "date": "2026-11-13",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.20049",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43024340",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "After COVID-19 Vaccination, Why Do Some People Run a Fever?",
+   "title_zh": "接种新冠疫苗后，为什么有些人会发烧？",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024340/",
+   "date": "2026-11-13",
+   "authors": "Rubin R",
+   "doi": "10.1001/jama.2026.22638",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43024259",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "ACOG Releases Guidance on GLP-1 Use in Pregnancy and Lactation.",
+   "title_zh": "美国妇产科医师学会（ACOG）发布了关于在妊娠和哺乳期使用GLP-1的指南。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024259/",
+   "date": "2026-11-13",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.22659",
+   "study_type": "研究论文",
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "43024257",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Personalized mRNA Cancer Vaccine Reduces Melanoma Recurrence Risk.",
+   "title_zh": "个性化mRNA癌症疫苗降低黑色素瘤复发风险。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024257/",
+   "date": "2026-11-13",
+   "authors": "Anderer S",
+   "doi": "10.1001/jama.2026.20047",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43024256",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "US Health Insurance Coverage Declines.",
+   "title_zh": "美国健康保险覆盖率下降。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024256/",
+   "date": "2026-11-13",
+   "authors": "Anderer S",
+   "doi": "10.1001/jama.2026.20046",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43024255",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Study Finds Nearly 75% of Deceased Former NFL Players Had CTE.",
+   "title_zh": "研究发现，近75%的已故前NFL球员患有CTE。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024255/",
+   "date": "2026-11-13",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.22660",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43024253",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Nicotine Vaping Linked to Reduced Vascular Function in Young Adults.",
+   "title_zh": "尼古丁电子烟与年轻成年人血管功能下降相关。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024253/",
+   "date": "2026-11-13",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.22661",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43024245",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "In an Effort to Reduce Hypertension, Salt Substitutes Come to the Table.",
+   "title_zh": "为了降低高血压，食盐替代品登上了餐桌。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024245/",
+   "date": "2026-11-13",
+   "authors": "Rodgers L",
+   "doi": "10.1001/jama.2026.23873",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43024232",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Updated Guidance Released for Type 2 Diabetes Care.",
+   "title_zh": "发布了2型糖尿病护理的最新指南。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43024232/",
+   "date": "2026-11-13",
+   "authors": "Anderer S",
+   "doi": "10.1001/jama.2026.20048",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43020902",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Gut and urogenital microbiomes influence menopausal hormone therapy outcomes.",
+   "title_zh": "肠道和泌尿生殖道微生物组影响绝经激素治疗的结果。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020902/",
+   "date": "2026-11-13",
+   "doi": "10.1038/s41591-026-04789-6",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
    "pmid": "43001754",
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
@@ -171,6 +828,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Early Days, Late Nights.",
+   "title_zh": "早年时光，深夜长班",
    "citation": "N Engl J Med. 2026; 395(19): 1882-1883",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43001750/",
    "date": "2026-11-12",
@@ -497,6 +1155,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Preventing Malaria Infections and Moving toward Malaria Elimination.",
+   "title_zh": "预防疟疾感染并迈向疟疾消除",
    "citation": "N Engl J Med. 2026; 395(19): 1932-1943",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43013819/",
    "date": "2026-11-12",
@@ -722,6 +1381,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "Lynch syndrome.",
+   "title_zh": "Lynch综合征",
    "citation": "Lancet. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43020098/",
    "date": "2026-11-12",
@@ -1128,6 +1788,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "A Review of Hip Fractures.",
+   "title_zh": "髋部骨折综述",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43018987/",
    "date": "2026-11-12",
@@ -1143,6 +1804,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "A Review of Hip Fractures.",
+   "title_zh": "髋部骨折综述",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43018985/",
    "date": "2026-11-12",
@@ -1299,6 +1961,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Report of Committee on Otorhinologic Hygiene of Swimming.",
+   "title_zh": "游泳耳鼻喉卫生委员会报告",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43018944/",
    "date": "2026-11-12",
@@ -1338,6 +2001,37 @@
    "study_type": "研究论文",
    "departments": [
     "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43020901",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Effect of two common GVHD prophylaxis regimens on the gut microbiome in a randomized phase 3 trial.",
+   "title_zh": "一项随机 3 期试验中两种常见 GVHD 预防方案对肠道微生物群的影响。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020901/",
+   "date": "2026-11-12",
+   "authors": "Wirbel J, Saber W, Martens MJ, Peled JU, Andermann TM, Fei T",
+   "doi": "10.1038/s41591-026-04712-z",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43020900",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Young people with obesity deserve better care.",
+   "title_zh": "肥胖的年轻人理应得到更好的护理。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020900/",
+   "date": "2026-11-12",
+   "doi": "10.1038/s41591-026-04784-x",
+   "study_type": "述评",
+   "departments": [
+    "内分泌/代谢"
    ]
   },
   {
@@ -1780,6 +2474,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "The Art of Staying.",
+   "title_zh": "坚守的艺术",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43013279/",
    "date": "2026-11-11",
@@ -1795,6 +2490,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Medical Countermeasures for Radionuclide Internal Contamination.",
+   "title_zh": "放射性核素体内污染的医学应对措施",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43013278/",
    "date": "2026-11-11",
@@ -2338,6 +3034,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Treatment Discontinuation of Blood Pressure-Lowering Drugs.",
+   "title_zh": "降压药物的治疗中断",
    "citation": "JAMA. 2026; 336(18): 1652-1653",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42879161/",
    "date": "2026-11-10",
@@ -2353,6 +3050,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Treatment Discontinuation of Blood Pressure-Lowering Drugs-Reply.",
+   "title_zh": "降压药物的治疗中断——回复",
    "citation": "JAMA. 2026; 336(18): 1653",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42879150/",
    "date": "2026-11-10",
@@ -2399,6 +3097,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Testosterone Screening Thresholds in Active-Duty US Male Service Members.",
+   "title_zh": "美国现役男性军人睾酮筛查阈值",
    "citation": "JAMA. 2026; 336(18): 1644-1646",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42879141/",
    "date": "2026-11-10",
@@ -2558,6 +3257,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Error in Author Name.",
+   "title_zh": "作者姓名错误",
    "citation": "JAMA. 2026; 336(18): 1655",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42862567/",
    "date": "2026-11-10",
@@ -2605,6 +3305,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "End-of-Life Care for People Who Are Incarcerated-Reply.",
+   "title_zh": "被监禁者的临终关怀——回复",
    "citation": "JAMA. 2026; 336(18): 1647",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42821290/",
    "date": "2026-11-10",
@@ -2620,6 +3321,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "End-of-Life Care for People Who Are Incarcerated.",
+   "title_zh": "被监禁者的临终关怀",
    "citation": "JAMA. 2026; 336(18): 1646-1647",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42821258/",
    "date": "2026-11-10",
@@ -2683,6 +3385,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Incomplete Additional Contributions Section.",
+   "title_zh": "附加贡献部分不完整",
    "citation": "JAMA. 2026; 336(18): 1655",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42721025/",
    "date": "2026-11-10",
@@ -3002,6 +3705,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Reconstructing developmental and disease progression with sample-level embeddings.",
+   "title_zh": "利用样本水平嵌入重建发育与疾病进展",
    "citation": "Cell. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43003088/",
    "date": "2026-11-09",
@@ -3017,6 +3721,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Review of Gastroparesis.",
+   "title_zh": "胃轻瘫综述",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43002432/",
    "date": "2026-11-09",
@@ -3048,6 +3753,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Review of Gastroparesis.",
+   "title_zh": "胃轻瘫综述",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43002417/",
    "date": "2026-11-09",
@@ -3095,6 +3801,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Error in Author Byline.",
+   "title_zh": "作者署名信息勘误",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43002165/",
    "date": "2026-11-09",
@@ -3282,6 +3989,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Left Bundle-Branch Pacing versus Right Ventricular Pacing for Atrioventricular Block.",
+   "title_zh": "左束支起搏与右心室起搏治疗房室传导阻滞的比较",
    "citation": "N Engl J Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43001763/",
    "date": "2026-11-08",
@@ -3778,6 +4486,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Bringing Rapid Reperfusion to More Patients with Out-of-Hospital Cardiac Arrest.",
+   "title_zh": "让更多院外心脏骤停患者获得快速再灌注",
    "citation": "N Engl J Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43001747/",
    "date": "2026-11-07",
@@ -3793,6 +4502,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Intensive Blood-Pressure Lowering in Patients with Type 2 Diabetes.",
+   "title_zh": "2型糖尿病患者的强化降压治疗",
    "citation": "N Engl J Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43001746/",
    "date": "2026-11-07",
@@ -3824,6 +4534,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Intensive Blood-Pressure Control in Patients with Previous Ischemic Stroke.",
+   "title_zh": "既往缺血性卒中患者的强化血压控制",
    "citation": "N Engl J Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43001741/",
    "date": "2026-11-07",
@@ -3839,6 +4550,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Prehospital Extracorporeal Life Support in Refractory Out-of-Hospital Cardiac Arrest.",
+   "title_zh": "难治性院外心脏骤停的院前体外生命支持",
    "citation": "N Engl J Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43001740/",
    "date": "2026-11-07",
@@ -3870,6 +4582,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Hyperaldosteronism Remission after Extended Aldosterone Synthase Inhibition.",
+   "title_zh": "延长醛固酮合酶抑制后醛固酮增多症缓解",
    "citation": "N Engl J Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43001732/",
    "date": "2026-11-07",
@@ -4080,6 +4793,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Physical activity: One in four teens worldwide reported no exercise in past week, WHO figures show.",
+   "title_zh": "身体活动：WHO数据显示全球四分之一青少年过去一周未锻炼",
    "citation": "BMJ. 2026; 395: e101377",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43006980/",
    "date": "2026-11-06",
@@ -4095,6 +4809,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Science Media Centre \"legitimises\" industries that harm health, study claims.",
+   "title_zh": "研究称科学媒体中心“ legitimises”危害健康的行业",
    "citation": "BMJ. 2026; 395: e101380",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43006979/",
    "date": "2026-11-06",
@@ -4110,6 +4825,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Doctor who faked CV to secure NHS hospital job is struck off.",
+   "title_zh": "伪造简历获取NHS医院职位的医生被除名",
    "citation": "BMJ. 2026; 395: e101374",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43006934/",
    "date": "2026-11-06",
@@ -4125,6 +4841,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "French blood service is targeted in wave of refrigeration cyberattacks across Europe.",
+   "title_zh": "法国血液服务机构成为欧洲制冷系统网络攻击浪潮目标",
    "citation": "BMJ. 2026; 395: e101383",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43006931/",
    "date": "2026-11-06",
@@ -4140,6 +4857,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Forever chemicals are an insidious challenge for public health.",
+   "title_zh": "永久化学品是公共卫生面临的隐蔽挑战",
    "citation": "BMJ. 2026; 395: e101371",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43006930/",
    "date": "2026-11-06",
@@ -4155,6 +4873,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Lab leak disease outbreaks: the long, murky history.",
+   "title_zh": "实验室泄漏导致疾病暴发：漫长而模糊的历史",
    "citation": "BMJ. 2026; 395: e101295",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43006929/",
    "date": "2026-11-06",
@@ -4170,6 +4889,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Managing risk and uncertainty includes ambiguity.",
+   "title_zh": "风险管理与不确定性包括模糊性",
    "citation": "BMJ. 2026; 395: e101341",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43006928/",
    "date": "2026-11-06",
@@ -4185,6 +4905,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Meet the doctors taking propranolol to combat stressful exams and shifts amid rising concern over the risks.",
+   "title_zh": "面对风险担忧加剧，服用普萘洛尔应对压力性考试和轮班的医生们",
    "citation": "BMJ. 2026; 395: e101372",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43006923/",
    "date": "2026-11-06",
@@ -4200,6 +4921,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Palantir's NHS contract: Government prepares to put deal out to open tender.",
+   "title_zh": "Palantir的NHS合同：政府准备公开招标",
    "citation": "BMJ. 2026; 395: e101381",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43006922/",
    "date": "2026-11-06",

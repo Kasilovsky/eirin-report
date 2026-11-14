@@ -1,0 +1,247 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-14",
+ "generated_at": "2026-11-14T07:29:28+00:00",
+ "provider": "deepseek-chat",
+ "degraded": false,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "43020097",
+   "journal": "Lancet",
+   "date": "2026-11-14",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020097/",
+   "title_en": "Empirical tuberculosis treatment in infants living with HIV hospitalised with severe pneumonia in Africa (EMPIRICAL): a multicentre, randomised, open-label, 2 × 2 factorial, controlled superiority trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "感染",
+    "儿科"
+   ],
+   "title_zh": "非洲HIV感染婴儿重症肺炎的经验性结核治疗（EMPIRICAL）：多中心、随机、开放标签、2×2析因、优效性对照试验",
+   "one_liner": "经验性结核治疗未能降低HIV感染重症肺炎婴儿的死亡风险。",
+   "key_finding": "12个月时eTB-T组死亡132/276（48%），非eTB-T组121/282（43%），校正HR 1.12（95% CI 0.87-1.43；p=0.3868）；15天OR 1.24（0.83-1.84）。",
+   "why_it_matters": "对无结核证据的HIV感染重症肺炎婴儿，常规经验性抗结核治疗不改善生存，支持现行按微生物学和临床指征指导治疗的策略。",
+   "clinical_note": "纳入28-365天、无现症结核诊断或接触史的婴儿；非eTB-T组46%后续仍启动抗结核治疗。",
+   "evidence": "随机对照优效性试验，558例，非洲6国19家医院",
+   "tags": [
+    "儿科",
+    "感染科",
+    "结核病"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42933458",
+   "journal": "Lancet",
+   "date": "2026-11-14",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933458/",
+   "title_en": "First-line pembrolizumab versus carboplatin plus paclitaxel in participants with mismatch repair-deficient advanced or recurrent endometrial cancer (KEYNOTE-C93/GOG-3064/ENGOT-en15): interim analysis of a multicentre, open-label, randomised, active-comparator controlled, phase 3 trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "一线pembrolizumab对比卡铂联合紫杉醇治疗错配修复缺陷晚期或复发子宫内膜癌（KEYNOTE-C93/GOG-3064/ENGOT-en15）：多中心、开放标签、随机、阳性对照3期试验中期分析",
+   "one_liner": "一线pembrolizumab较化疗显著延长dMMR子宫内膜癌无进展生存。",
+   "key_finding": "中位PFS 38.2个月 vs 8.4个月（HR 0.57，95% CI 0.42-0.79；p=0.0002）；总生存未达预设显著性（HR 0.77，0.52-1.15；p=0.10）。",
+   "why_it_matters": "为dMMR晚期或复发子宫内膜癌提供免化疗的一线选择，且3级及以上治疗相关不良事件更少（18% vs 51%）。",
+   "clinical_note": "中期分析，总生存未达统计学显著；未与当前标准（免疫联合化疗）直接比较。",
+   "evidence": "3期随机对照试验，299例，24国122中心",
+   "tags": [
+    "肿瘤科",
+    "妇科肿瘤",
+    "免疫治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42925880",
+   "journal": "Lancet",
+   "date": "2026-11-14",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42925880/",
+   "title_en": "14-day versus 28-day trifluridine-tipiracil plus bevacizumab for refractory metastatic colorectal cancer (PRABITAS): a pragmatic, multicentre, open-label, randomised, phase 3, non-inferiority trial in Japan.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "消化器"
+   ],
+   "title_zh": "14天对比28天trifluridine-tipiracil联合bevacizumab治疗难治性转移性结直肠癌（PRABITAS）：日本务实性、多中心、开放标签、随机、3期非劣效性试验",
+   "one_liner": "14天方案生存不劣于28天方案，且毒性更低。",
+   "key_finding": "中位OS 11.3个月 vs 10.3个月（分层HR 0.93，95% CI 0.80-1.08）；3级及以上中性粒细胞减少13% vs 39%（绝对差25个百分点，95% CI 20-31）。",
+   "why_it_matters": "简化14天方案在保持生存的同时显著减少血液学和胃肠道毒性，可成为FTD-TPI联合bevacizumab的新标准。",
+   "clinical_note": "非劣效界值1.25；14天组有2例治疗相关死亡，28天组无。",
+   "evidence": "3期非劣效随机试验，970例，日本178家医院",
+   "tags": [
+    "肿瘤科",
+    "消化系统肿瘤",
+    "化疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42468541",
+   "journal": "Lancet",
+   "date": "2026-11-14",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42468541/",
+   "title_en": "Empirical treatment with valganciclovir in infants living with HIV and hospitalised with severe pneumonia in Africa: a multicentre, open-label, factorial, randomised, controlled, superiority trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "感染",
+    "儿科"
+   ],
+   "title_zh": "非洲HIV感染婴儿重症肺炎经验性valganciclovir治疗：多中心、开放标签、析因、随机、对照、优效性试验",
+   "one_liner": "经验性valganciclovir或与重症HIV相关肺炎婴儿死亡风险降低相关。",
+   "key_finding": "15天死亡64/276（23%）vs 76/282（27%），率比0.81（95% CI 0.61-1.08，p=0.15）；时变模型15天校正HR 0.60（0.41-0.87，p=0.0063）。",
+   "why_it_matters": "提示对非洲HIV感染重症肺炎婴儿经验性抗巨细胞病毒治疗可能改善早期生存，且未见明显额外伤害。",
+   "clinical_note": "主要终点未达统计学显著，早期获益信号来自时变模型；12个月HR 0.79（0.62-1.01）。",
+   "evidence": "2×2析因随机对照优效性试验，558例，非洲6国19家医院",
+   "tags": [
+    "儿科",
+    "感染科",
+    "抗病毒治疗"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "pmid": "43020520",
+   "journal": "BMJ",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020520/",
+   "title_en": "Effect of intensive blood pressure control on cognitive outcomes and brain structures in adults with type 2 diabetes: prespecified analysis of secondary outcomes of BPROAD randomised controlled trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "神经",
+    "内分泌/代谢"
+   ],
+   "title_zh": "强化降压对2型糖尿病患者认知结局与脑结构的影响：BPROAD随机对照试验预设次要结局分析",
+   "one_liner": "强化降压未显著降低痴呆或轻度认知障碍风险，但或减缓脑白质病变进展。",
+   "key_finding": "主要认知结局：强化组747例（3.69/100人年）vs 标准组783例（3.89/100人年），HR 0.96（95%CI 0.86-1.06；P=0.38）；MRI亚组强化组白质病变体积增幅更小（组间差-0.09 asinh转换cm³，95%CI -0.15至-0.02；P=0.01）。",
+   "why_it_matters": "提示以SBP<120 mmHg为目标的强化降压在约4年内未带来认知获益，但可能与脑白质病变积累减少相关，为糖尿病患者的血压管理提供认知安全性参考。",
+   "clinical_note": "纳入≥50岁、血压升高且心血管风险增高的2型糖尿病患者；认知亚组排除基线可能痴呆者，随访中位3.8年。",
+   "evidence": "多中心开放标签、结局评估盲法RCT；12 434例；中国145个中心",
+   "tags": [
+    "内分泌科",
+    "神经内科",
+    "高血压"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43013818",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43013818/",
+   "title_en": "Prevention of Venous Thromboembolism after Total Hip or Knee Replacement.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "血液"
+   ],
+   "title_zh": "全髋或全膝关节置换术后静脉血栓栓塞的预防：阿司匹林、华法林与利伐沙班比较",
+   "one_liner": "关节置换术后阿司匹林预防血栓不劣于利伐沙班或华法林的假设未获证实。",
+   "key_finding": "主要有效性结局：阿司匹林1.26%、华法林1.23%、利伐沙班0.94%；阿司匹林vs利伐沙班差0.30个百分点（95%CI -0.20至0.81），阿司匹林vs华法林差0.23个百分点（95%CI -0.34至0.81），均未达非劣效。",
+   "why_it_matters": "提示关节置换术后不宜简单以阿司匹林替代抗凝药；同时华法林和利伐沙班在安全性上也不优于阿司匹林，用药选择需权衡血栓与出血风险。",
+   "clinical_note": "择期髋或膝关节置换患者，用药30天，随访6个月；符合方案分析15 317例。",
+   "evidence": "比较有效性非劣效RCT；18 883例随机；多中心",
+   "tags": [
+    "骨科",
+    "血液科",
+    "抗凝"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42912700",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912700/",
+   "title_en": "Ravulizumab in IgA Nephropathy - Interim Analysis of a Phase 3 Trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Ravulizumab治疗IgA肾病：3期试验中期分析",
+   "one_liner": "Ravulizumab在第34周显著降低IgA肾病患者的尿蛋白水平。",
+   "key_finding": "第34周24小时尿蛋白/肌酐比值几何均值：ravulizumab组由1.56降至0.83（-46.6%），安慰剂组由1.60降至1.48（-5.6%）；校正后ravulizumab组比安慰剂组低43.4%（99%CI 30.1-54.2；P<0.001）。",
+   "why_it_matters": "为补体通路抑制治疗IgA肾病提供了中期证据，蛋白尿下降是肾脏预后相关指标，但需更长期随访确认对肾功能的影响。",
+   "clinical_note": "成人IgA肾病，eGFR≥30 ml/min/1.73 m²且蛋白尿达标；中期分析仅352例，为预设 interim 结果。",
+   "evidence": "3期随机双盲安慰剂对照试验中期分析；485例随机；多中心",
+   "tags": [
+    "肾内科",
+    "补体抑制",
+    "IgA肾病"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42670968",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42670968/",
+   "title_en": "Prasugrel versus Ticagrelor in Acute Coronary Syndromes.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "急性冠脉综合征中普拉格雷与替格瑞洛的比较：SWITCH-SWEDEHEART试验",
+   "one_liner": "急性冠脉综合征PCI术后，默认使用普拉格雷未比替格瑞洛降低缺血事件风险。",
+   "key_finding": "1年主要终点（全因死亡、致死/非致死性心梗或卒中）：替格瑞洛策略组11.8% vs 普拉格雷策略组11.1%，校正OR 0.90（95%CI 0.77-1.06）；大出血4.4% vs 4.2%，校正OR 0.80（95%CI 0.64-0.99）。",
+   "why_it_matters": "在未经选择的真实世界ACS人群中，两种P2Y12抑制剂策略的缺血获益相当，大出血风险普拉格雷策略略低，为药物选择提供参考。",
+   "clinical_note": "瑞典注册研究，阶梯楔形整群随机；平均年龄69.8岁，36.8%≥75岁，为政策层面估计。",
+   "evidence": "注册为基础的开放标签阶梯楔形整群RCT；17 095例；瑞典7个地区",
+   "tags": [
+    "心内科",
+    "抗血小板",
+    "急性冠脉综合征"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42437501",
+   "journal": "N Engl J Med",
+   "date": "2026-11-12",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42437501/",
+   "title_en": "Rivaroxaban Then Aspirin vs. Aspirin Alone after Total Hip or Knee Arthroplasty.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "全髋或全膝关节置换术后：先利伐沙班后阿司匹林 vs. 单用阿司匹林",
+   "one_liner": "关节置换术后单用阿司匹林预防血栓不劣于先用利伐沙班再用阿司匹林。",
+   "key_finding": "静脉血栓栓塞发生率：单用阿司匹林组0.48%（13/2718），利伐沙班-阿司匹林组0.45%（12/2647），风险差0.02个百分点（95% CI -0.34至0.39），非劣效P<0.001。",
+   "why_it_matters": "提示关节置换术后可简化预防方案，单用阿司匹林即可，且大出血或临床相关非大出血无临床相关差异。",
+   "clinical_note": "纳入5429例随机分组，随访90天；非劣效界值0.7个百分点，结论限于症状性静脉血栓栓塞。",
+   "evidence": "多中心双盲随机对照试验，5429例，加拿大研究资助",
+   "tags": [
+    "骨科",
+    "抗凝",
+    "静脉血栓栓塞"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43014822",
+   "journal": "BMJ",
+   "date": "2026-11-11",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43014822/",
+   "title_en": "Effect of discontinuing antihypertensives on perioperative hypotension in older patients before non-cardiac surgery: multicentre, randomised, double blind, controlled trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "外科"
+   ],
+   "title_zh": "老年患者非心脏手术前停用降压药对围术期低血压的影响：多中心随机双盲对照试验",
+   "one_liner": "手术当日早晨停用ACE抑制剂或ARB可减少老年患者围术期低血压。",
+   "key_finding": "围术期低血压发生率：停药组31.2%（314/1008）vs 用药组45.5%（457/1004），校正OR 0.52（95% CI 0.43至0.63），绝对风险差-14.4%（95% CI -18.5%至-10.1%），P<0.001。",
+   "why_it_matters": "简单停药策略减少低血压和升压药需求，且未增加30天并发症或死亡，为术前用药管理提供高确定性证据。",
+   "clinical_note": "适用60-80岁、已用ACE抑制剂或ARB至少两周、全麻下非心脏手术者；低血压持续时间与升压药需求均降低。",
+   "evidence": "多中心随机双盲安慰剂对照试验，2012例，中国5家医院",
+   "tags": [
+    "麻醉",
+    "心血管",
+    "围术期管理"
+   ],
+   "confidence": "high"
+  }
+ ]
+}

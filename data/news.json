@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-14T07:29:06+00:00",
+ "generated_at": "2026-11-15T07:41:03+00:00",
  "window_days": 180,
- "count": 989,
+ "count": 1012,
  "journals": [
   {
    "abbr": "N Engl J Med",
@@ -17,7 +17,7 @@
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 202
+   "count": 203
   },
   {
    "abbr": "BMJ",
@@ -27,7 +27,7 @@
   {
    "abbr": "Nat Med",
    "name": "Nature Medicine",
-   "count": 115
+   "count": 137
   },
   {
    "abbr": "Cell",
@@ -42,9 +42,9 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 46,
-  "cache_size": 949,
-  "translate_fails": 5
+  "translate_used": 28,
+  "cache_size": 973,
+  "translate_fails": 2
  },
  "articles": [
   {
@@ -182,7 +182,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "Evidence and gaps for preventing postpartum haemorrhage.",
-   "title_zh": "预防产后出血的证据和不足之处。",
+   "title_zh": "预防产后出血的证据与空白",
    "summary_en": "",
    "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10568): 2066-2067",
@@ -668,6 +668,52 @@
    "departments": [
     "感染",
     "儿科"
+   ]
+  },
+  {
+   "pmid": "43026662",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Fluid eMTBR-tau243 as a Biomarker of Mixed 3-Repeat and 4-Repeat Tau Pathology.",
+   "title_zh": "作为混合3重复和4重复Tau蛋白病理的生物标志物的体液eMTBR-tau243。",
+   "summary_en": "IMPORTANCE: Neurodegenerative diseases with abnormal tau protein aggregation in the brain (ie, tauopathies) can be classified by the tau isoform that accumulates: 3-repeat (3R), 4-repeat (4R), or mixed 3R/4R tauopathies, which include chronic traumatic encephalopathy (CTE), some forms of frontotemporal lobar degeneration, and Alzheimer disease (AD). The endogenously cleaved form of tau microtubule binding region containing the residue 243 (eMTBR-tau243) can be detected in cerebrospinal fluid (CSF) and blood and has been associated with AD tau pathology, but its specificity and biological interpretation in non-AD tauopathies remains unclear. OBJECTIVE: To evaluate biofluid eMTBR-tau243 in a range of tauopathies. DESIGN, SETTING, AND PARTICIPANTS: This case-control study included 4 bioreposi",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43026662/",
+   "date": "2026-11-13",
+   "authors": "Horie K, Koppisetti RK, VandeVrede L, Asken BM, Li Y, Yen D",
+   "author_count": 15,
+   "doi": "10.1001/jama.2026.24689",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43026301",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Vaccines could be a new frontier in KRAS targeting.",
+   "title_zh": "疫苗可能是 KRAS 靶向治疗的新领域。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43026301/",
+   "date": "2026-11-13",
+   "authors": "Pai HV, Phillips R, Sivakumar S",
+   "author_count": 3,
+   "doi": "10.1038/s41591-026-04772-1",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "疫苗"
    ]
   },
   {
@@ -1280,52 +1326,6 @@
    "mesh": [],
    "departments": [
     "综合"
-   ]
-  },
-  {
-   "pmid": "43020901",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Effect of two common GVHD prophylaxis regimens on the gut microbiome in a randomized phase 3 trial.",
-   "title_zh": "一项随机 3 期试验中两种常见 GVHD 预防方案对肠道微生物群的影响。",
-   "summary_en": "Allogeneic hematopoietic cell transplantation can cure certain hematological disorders but has many complications. In retrospective studies, low gut microbiome diversity is associated with adverse clinical outcomes. In 2023, the Blood and Marrow Transplant Clinical Trials Network 1703 randomized phase 3 trial demonstrated the superiority of post-transplant cyclophosphamide (PTCy) and mycophenolate mofetil to tacrolimus and methotrexate (Tac/MTX) for graft-versus-host disease prophylaxis in participants with hematological malignancies undergoing allogeneic hematopoietic cell transplantation. Here we report on the microbiome-focused companion study to 1703, Blood and Marrow Transplant Clinical Trials Network 1801, which coenrolled participants and shared trial registration. The primary endpo",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43020901/",
-   "date": "2026-11-12",
-   "authors": "Wirbel J, Saber W, Martens MJ, Peled JU, Andermann TM, Fei T",
-   "author_count": 38,
-   "doi": "10.1038/s41591-026-04712-z",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "43020900",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Young people with obesity deserve better care.",
-   "title_zh": "肥胖的年轻人理应得到更好的护理。",
-   "summary_en": "",
-   "summary_zh": "【述评】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43020900/",
-   "date": "2026-11-12",
-   "authors": "",
-   "author_count": 0,
-   "doi": "10.1038/s41591-026-04784-x",
-   "study_type": "述评",
-   "pubtypes": [
-    "Editorial"
-   ],
-   "mesh": [],
-   "departments": [
-    "内分泌/代谢"
    ]
   },
   {
@@ -5694,29 +5694,6 @@
    ]
   },
   {
-   "pmid": "43003904",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Deep learning-based gait analysis predicts multisystem health phenotypes.",
-   "title_zh": "基于深度学习的步态分析可预测多系统健康表型。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43003904/",
-   "date": "2026-11-09",
-   "authors": "",
-   "author_count": 0,
-   "doi": "10.1038/s41591-026-04725-8",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "43003903",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -7468,29 +7445,6 @@
    "authors": "Armstrong S",
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101381",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42995231",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motion.",
-   "title_zh": "一种从三维骨骼运动预测多系统健康表型的步态基础模型。",
-   "summary_en": "Gait is increasingly recognized as a vital sign, yet current approaches treat it as a symptom of specific pathologies rather than a systemic biomarker. Here we developed a gait foundation model for three-dimensional skeletal motion, which was recorded via a single-depth camera during 5 motor tasks, from 3,328 deeply phenotyped adults. Our purpose was to capture the full pattern of a person's movement and use it to predict health phenotypes such as grip strength and sleep quality across 18 body systems. Gait is conventionally described by engineered features (for example, calculated measurements such as cadence and stride length), which may fail to capture the fine detail of how a person moves. Our model instead translates movement into learned embeddings: sets of numbers that describe how ",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42995231/",
-   "date": "2026-11-06",
-   "authors": "Gabet A, Kohn S, Lutsker G, Gelman S, Godneva A, Sasson G",
-   "author_count": 14,
-   "doi": "10.1038/s41591-026-04724-9",
    "study_type": "研究论文",
    "pubtypes": [
     "Journal Article"
@@ -10116,29 +10070,6 @@
    ]
   },
   {
-   "pmid": "42977758",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "A live biotherapeutic product for adult allogeneic hematopoietic cell transplantation recipients: a partially randomized, placebo-controlled phase 1b trial.",
-   "title_zh": "用于成人异基因造血细胞移植受者的活体生物治疗产品：一项部分随机、安慰剂对照的1b期试验。",
-   "summary_en": "Gastrointestinal (GI) microbiome disruption and impaired GI barrier integrity increase the risk of bloodstream infection (BSI) following allogeneic hematopoietic cell transplant. Here we report results from a two-cohort (open-label, n = 15; randomized, placebo-controlled, n = 45) phase 1b study of SER-155, an investigational, cultivated, multi-strain, oral live biotherapeutic designed to address GI microbiome disruption GI epithelial barrier integrity in allogeneic hematopoietic cell transplant recipients. In cohort 2, 34 of 45 participants received either SER-155 treatment (n = 20, SER-155 following microbiome conditioning with oral vancomycin), or placebo (n = 14), and subsequently received transplant. For the primary safety endpoint, SER-155 was well tolerated, with a safety profile com",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42977758/",
-   "date": "2026-11-03",
-   "authors": "Ponce DM, DeFilipp Z, Ford CB, Tejura B, Lombardo MJ, Lichter DI",
-   "author_count": 24,
-   "doi": "10.1038/s41591-026-04686-y",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "移植"
-   ]
-  },
-  {
    "pmid": "42977757",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -11532,52 +11463,6 @@
    ]
   },
   {
-   "pmid": "42972108",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Neoadjuvant botensilimab with or without balstilimab in pMMR and dMMR colon cancer: the phase 2 UNICORN trial.",
-   "title_zh": "新辅助botensilimab联合或不联合balstilimab治疗pMMR和dMMR结肠癌：2期UNICORN试验",
-   "summary_en": "Preoperative immune checkpoint inhibitors (ICIs) are active in patients with deficient mismatch repair (dMMR) colon cancer (CC), whereas proficient mismatch repair (pMMR) CC has been consistently considered resistant to first-generation ICIs. In the phase 2 UNICORN trial, we evaluated short-course preoperative botensilimab (BOT; multifunctional Fc-enhanced anti-CTLA-4 monoclonal antibody) alone or in combination with the anti-PD-1 monoclonal antibody balstilimab (BOT + BAL) in 56 patients with resectable, locally advanced CC. Twenty-eight patients with pMMR CC were sequentially enrolled in BOT (n = 14) and BOT + BAL (n = 14) cohorts. Twenty-eight patients with dMMR CC followed the same sequential allocation strategy. The primary endpoint of centrally assessed pathological major response (p",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42972108/",
-   "date": "2026-11-02",
-   "authors": "Ghelardi F, Ambrosini M, Raimondi A, Tyshevich A, Palermo F, Bergamo F",
-   "author_count": 54,
-   "doi": "10.1038/s41591-026-04710-1",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤"
-   ]
-  },
-  {
-   "pmid": "42972107",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Global, regional and national burden of cervical cancer in 1990-2023 with forecasts to 2050: a Global Burden of Disease study.",
-   "title_zh": "1990-2023年全球、区域和国家宫颈癌负担及至2050年的预测：全球疾病负担研究",
-   "summary_en": "Although highly preventable, cervical cancer remains one of the most common malignancies among women worldwide. As part of the Global Burden of Disease study, we estimated cervical cancer incidence, mortality and disability-adjusted life-years (DALYs) across 204 countries and territories from 1990 to 2023, with forecasts to 2050. In 2023, 887,000 new cases (95% uncertainty interval 682,000-1,170,000), 369,000 deaths (292,000-475,000) and 13.3 million DALYs (10.1-17.4) were estimated globally. Age-standardized incidence rate (ASIR) and age-standardized mortality rates (ASMR) were more than four and seven times higher in low- versus high-income countries. Between 1990 and 2023, global ASIR was largely stable (-0.4% (-26.6 to 34.7)), whereas ASMR changed by -17.5% (-36.2 to 13.4). All cervica",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42972107/",
-   "date": "2026-11-02",
-   "authors": "GBD 2023 Cervical Cancer Collaborators",
-   "author_count": 1,
-   "doi": "10.1038/s41591-026-04729-4",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤"
-   ]
-  },
-  {
    "pmid": "42971587",
    "journal": "BMJ",
    "journal_abbr": "BMJ",
@@ -12107,6 +11992,230 @@
    ]
   },
   {
+   "pmid": "43020901",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Effect of two common GVHD prophylaxis regimens on the gut microbiome in a randomized phase 3 trial.",
+   "title_zh": "一项随机 3 期试验中两种常见 GVHD 预防方案对肠道微生物群的影响。",
+   "summary_en": "Allogeneic hematopoietic cell transplantation can cure certain hematological disorders but has many complications. In retrospective studies, low gut microbiome diversity is associated with adverse clinical outcomes. In 2023, the Blood and Marrow Transplant Clinical Trials Network 1703 randomized phase 3 trial demonstrated the superiority of post-transplant cyclophosphamide (PTCy) and mycophenolate mofetil to tacrolimus and methotrexate (Tac/MTX) for graft-versus-host disease prophylaxis in participants with hematological malignancies undergoing allogeneic hematopoietic cell transplantation. Here we report on the microbiome-focused companion study to 1703, Blood and Marrow Transplant Clinical Trials Network 1801, which coenrolled participants and shared trial registration. The primary endpo",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4234-4243",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020901/",
+   "date": "2026-11-01",
+   "authors": "Wirbel J, Saber W, Martens MJ, Peled JU, Andermann TM, Fei T",
+   "author_count": 38,
+   "doi": "10.1038/s41591-026-04712-z",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III"
+   ],
+   "mesh": [
+    "Humans",
+    "Graft vs Host Disease",
+    "Female",
+    "Gastrointestinal Microbiome",
+    "Hematopoietic Stem Cell Transplantation",
+    "Methotrexate",
+    "Tacrolimus",
+    "Male",
+    "Cyclophosphamide",
+    "Middle Aged"
+   ],
+   "departments": [
+    "消化器",
+    "移植"
+   ]
+  },
+  {
+   "pmid": "43020900",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Young people with obesity deserve better care.",
+   "title_zh": "肥胖的年轻人理应得到更好的护理。",
+   "summary_en": "",
+   "summary_zh": "【述评】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3915",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020900/",
+   "date": "2026-11-01",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1038/s41591-026-04784-x",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43003904",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Deep learning-based gait analysis predicts multisystem health phenotypes.",
+   "title_zh": "基于深度学习的步态分析可预测多系统健康表型。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3962-3963",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003904/",
+   "date": "2026-11-01",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1038/s41591-026-04725-8",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42995231",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motion.",
+   "title_zh": "一种从三维骨骼运动预测多系统健康表型的步态基础模型。",
+   "summary_en": "Gait is increasingly recognized as a vital sign, yet current approaches treat it as a symptom of specific pathologies rather than a systemic biomarker. Here we developed a gait foundation model for three-dimensional skeletal motion, which was recorded via a single-depth camera during 5 motor tasks, from 3,328 deeply phenotyped adults. Our purpose was to capture the full pattern of a person's movement and use it to predict health phenotypes such as grip strength and sleep quality across 18 body systems. Gait is conventionally described by engineered features (for example, calculated measurements such as cadence and stride length), which may fail to capture the fine detail of how a person moves. Our model instead translates movement into learned embeddings: sets of numbers that describe how ",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4256-4267",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42995231/",
+   "date": "2026-11-01",
+   "authors": "Gabet A, Kohn S, Lutsker G, Gelman S, Godneva A, Sasson G",
+   "author_count": 14,
+   "doi": "10.1038/s41591-026-04724-9",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Gait",
+    "Male",
+    "Female",
+    "Phenotype",
+    "Adult",
+    "Models, Biological",
+    "Movement",
+    "Hand Strength",
+    "Body Mass Index"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42977758",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A live biotherapeutic product for adult allogeneic hematopoietic cell transplantation recipients: a partially randomized, placebo-controlled phase 1b trial.",
+   "title_zh": "用于成人异基因造血细胞移植受者的活体生物治疗产品：一项部分随机、安慰剂对照的1b期试验。",
+   "summary_en": "Gastrointestinal (GI) microbiome disruption and impaired GI barrier integrity increase the risk of bloodstream infection (BSI) following allogeneic hematopoietic cell transplant. Here we report results from a two-cohort (open-label, n = 15; randomized, placebo-controlled, n = 45) phase 1b study of SER-155, an investigational, cultivated, multi-strain, oral live biotherapeutic designed to address GI microbiome disruption GI epithelial barrier integrity in allogeneic hematopoietic cell transplant recipients. In cohort 2, 34 of 45 participants received either SER-155 treatment (n = 20, SER-155 following microbiome conditioning with oral vancomycin), or placebo (n = 14), and subsequently received transplant. For the primary safety endpoint, SER-155 was well tolerated, with a safety profile com",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4221-4233",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42977758/",
+   "date": "2026-11-01",
+   "authors": "Ponce DM, DeFilipp Z, Ford CB, Tejura B, Lombardo MJ, Lichter DI",
+   "author_count": 24,
+   "doi": "10.1038/s41591-026-04686-y",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase I"
+   ],
+   "mesh": [
+    "Humans",
+    "Hematopoietic Stem Cell Transplantation",
+    "Female",
+    "Adult",
+    "Male",
+    "Middle Aged",
+    "Transplantation, Homologous",
+    "Aged",
+    "Microbiota",
+    "Graft vs Host Disease"
+   ],
+   "departments": [
+    "移植"
+   ]
+  },
+  {
+   "pmid": "42972108",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Neoadjuvant botensilimab with or without balstilimab in pMMR and dMMR colon cancer: the phase 2 UNICORN trial.",
+   "title_zh": "新辅助botensilimab联合或不联合balstilimab治疗pMMR和dMMR结肠癌：2期UNICORN试验",
+   "summary_en": "Preoperative immune checkpoint inhibitors (ICIs) are active in patients with deficient mismatch repair (dMMR) colon cancer (CC), whereas proficient mismatch repair (pMMR) CC has been consistently considered resistant to first-generation ICIs. In the phase 2 UNICORN trial, we evaluated short-course preoperative botensilimab (BOT; multifunctional Fc-enhanced anti-CTLA-4 monoclonal antibody) alone or in combination with the anti-PD-1 monoclonal antibody balstilimab (BOT + BAL) in 56 patients with resectable, locally advanced CC. Twenty-eight patients with pMMR CC were sequentially enrolled in BOT (n = 14) and BOT + BAL (n = 14) cohorts. Twenty-eight patients with dMMR CC followed the same sequential allocation strategy. The primary endpoint of centrally assessed pathological major response (p",
+   "summary_zh": "【II 期临床试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4172-4184",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42972108/",
+   "date": "2026-11-01",
+   "authors": "Ghelardi F, Ambrosini M, Raimondi A, Tyshevich A, Palermo F, Bergamo F",
+   "author_count": 54,
+   "doi": "10.1038/s41591-026-04710-1",
+   "study_type": "II 期临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase II"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Male",
+    "DNA Mismatch Repair",
+    "Aged",
+    "Colonic Neoplasms",
+    "Middle Aged",
+    "Antibodies, Monoclonal, Humanized",
+    "Neoadjuvant Therapy",
+    "Antineoplastic Combined Chemotherapy Protocols"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42972107",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Global, regional and national burden of cervical cancer in 1990-2023 with forecasts to 2050: a Global Burden of Disease study.",
+   "title_zh": "1990-2023年全球、区域和国家宫颈癌负担及至2050年的预测：全球疾病负担研究",
+   "summary_en": "Although highly preventable, cervical cancer remains one of the most common malignancies among women worldwide. As part of the Global Burden of Disease study, we estimated cervical cancer incidence, mortality and disability-adjusted life-years (DALYs) across 204 countries and territories from 1990 to 2023, with forecasts to 2050. In 2023, 887,000 new cases (95% uncertainty interval 682,000-1,170,000), 369,000 deaths (292,000-475,000) and 13.3 million DALYs (10.1-17.4) were estimated globally. Age-standardized incidence rate (ASIR) and age-standardized mortality rates (ASMR) were more than four and seven times higher in low- versus high-income countries. Between 1990 and 2023, global ASIR was largely stable (-0.4% (-26.6 to 34.7)), whereas ASMR changed by -17.5% (-36.2 to 13.4). All cervica",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4185-4207",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42972107/",
+   "date": "2026-11-01",
+   "authors": "GBD 2023 Cervical Cancer Collaborators",
+   "author_count": 1,
+   "doi": "10.1038/s41591-026-04729-4",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Uterine Cervical Neoplasms",
+    "Incidence",
+    "Global Burden of Disease",
+    "Disability-Adjusted Life Years",
+    "Papillomavirus Infections",
+    "Global Health",
+    "Forecasting",
+    "Human Papillomavirus Viruses"
+   ],
+   "departments": [
+    "肿瘤",
+    "感染",
+    "公共卫生"
+   ]
+  },
+  {
    "pmid": "42969897",
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
@@ -12127,6 +12236,1517 @@
    "mesh": [],
    "departments": [
     "循环器"
+   ]
+  },
+  {
+   "pmid": "42963406",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Climate change threatens malaria elimination in the Asia Pacific.",
+   "title_zh": "气候变化威胁亚太地区疟疾消除",
+   "summary_en": "Climate change threatens decades of progress toward malaria elimination across the Asia Pacific. In recent years, reported cases have increased sharply in several regions, including Pakistan following the 2022 floods. However, current research and adaptation strategies have largely focused on gradual warming and shifting transmission seasons and may not fully capture acute operational disruptions in endemic settings. Here we examine how climate change influences malaria through cascading disruptions to health systems, population displacement and ecological change. As a multidisciplinary group of policymakers and researchers, we identify priority actions: integrating malaria control into disaster response, deploying adaptive vector control for displaced populations, strengthening cross-bord",
+   "summary_zh": "【综述】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3964-3974",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42963406/",
+   "date": "2026-11-01",
+   "authors": "Fornace K, Hein PS, Djaafara B, Ashad-Uz-Zaman MN, Chang CC, Elyazar I",
+   "author_count": 26,
+   "doi": "10.1038/s41591-026-04722-x",
+   "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [
+    "Humans",
+    "Climate Change",
+    "Malaria",
+    "Asia",
+    "Disease Eradication",
+    "Animals"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42957777",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A clinical multimodal vision language foundation model with fine-grain explainability.",
+   "title_zh": "具有细粒度可解释性的临床多模态视觉语言基础模型",
+   "summary_en": "Despite their considerable promise, many current medical foundation models remain modality specific and lack transparent reasoning, limiting clinical adoption. To address this gap, we introduce Explainable Vision Language Foundation Model for Medicine (EVLF-FM), a multimodal vision language foundation model that combines broad diagnostic capabilities with fine-grained explainability. The development and testing of EVLF-FM encompassed more than 1.3 million total samples from 18 global datasets across 10 imaging modalities related to six clinical specialties: dermatology, hepatology, ophthalmology, pathology, pulmonology and radiology. External validation employed 13,443 independent test samples from 17 additional datasets across 10 imaging modalities. EVLF-FM supports disease diagnosis, vis",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4208-4220",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42957777/",
+   "date": "2026-11-01",
+   "authors": "Bai Y, Cheng H, Zhou Y, Zhou J, Thirunavukarasu A, Ke Y",
+   "author_count": 49,
+   "doi": "10.1038/s41591-026-04655-5",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42946879",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Metabolic heterogeneity of obesity.",
+   "title_zh": "肥胖的代谢异质性",
+   "summary_en": "Multi-organ-system insulin resistance is the key pathogenic driver of obesity-related metabolic complications and diseases, such as atherogenic dyslipidemia, metabolic dysfunction-associated steatotic liver disease and type 2 diabetes. However, there is considerable heterogeneity in insulin sensitivity among people with obesity. Some are considered to have metabolically healthy obesity, with normal insulin sensitivity in conjunction with normal fasting blood glucose, oral glucose tolerance, plasma lipid profile and intrahepatic triglyceride content. In this Review, we discuss metabolic differences at the cellular, organ-system and systemic levels between people with metabolically healthy and metabolically unhealthy obesity; we also discuss heterogeneity in the therapeutic effects of weight",
+   "summary_zh": "【综述】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3975-3989",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42946879/",
+   "date": "2026-11-01",
+   "authors": "Smith GI, Petersen MC, Hartig SM, Klein S",
+   "author_count": 4,
+   "doi": "10.1038/s41591-026-04718-7",
+   "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [
+    "Humans",
+    "Obesity",
+    "Insulin Resistance",
+    "Diabetes Mellitus, Type 2",
+    "Weight Loss",
+    "Blood Glucose",
+    "Animals"
+   ],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42934327",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: Sex-specific biological aging clocks across organs and omics.",
+   "title_zh": "作者更正：跨器官和多组学的性别特异性生物学衰老时钟",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4350",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42934327/",
+   "date": "2026-11-01",
+   "authors": "MULTI Consortium, Song Z, Fong D, Rahman NA, Duggan MR, Tian Q",
+   "author_count": 20,
+   "doi": "10.1038/s41591-026-04776-x",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42918895",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: β-catenin confers resistance to PI3K and AKT inhibitors and subverts FOXO3a to promote metastasis in colon cancer.",
+   "title_zh": "作者更正：β-catenin赋予对PI3K和AKT抑制剂的耐药性并通过颠覆FOXO3a促进结肠癌转移。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4354",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42918895/",
+   "date": "2026-11-01",
+   "authors": "Tenbaum SP, Ordóñez-Morán P, Puig I, Chicote I, Arqués O, Landolfi S",
+   "author_count": 20,
+   "doi": "10.1038/s41591-026-04750-7",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42907531",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Editorial Expression of Concern: Oncogenic transformation of diverse gastrointestinal tissues in primary organoid culture.",
+   "title_zh": "编辑关注声明：原代类器官培养中多种胃肠道组织的致癌转化",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4358",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42907531/",
+   "date": "2026-11-01",
+   "authors": "Li X, Nadauld L, Ootani A, Corney DC, Pai RK, Gevaert O",
+   "author_count": 21,
+   "doi": "10.1038/s41591-026-04749-0",
+   "study_type": "",
+   "pubtypes": [
+    "Expression of Concern"
+   ],
+   "mesh": [],
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "42907530",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: Povorcitinib for hidradenitis suppurativa: the randomized, double-blind, placebo-controlled STOP-HS1 and STOP-HS2 phase 3 trials.",
+   "title_zh": "作者更正：Povorcitinib治疗化脓性汗腺炎：随机、双盲、安慰剂对照的STOP-HS1和STOP-HS2 3期试验",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4352",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42907530/",
+   "date": "2026-11-01",
+   "authors": "Porter ML, Martorell A, Sayed CJ, Bechara FG, Lev-Tov H, Hsiao JL",
+   "author_count": 23,
+   "doi": "10.1038/s41591-026-04747-2",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42907529",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Global and regional burden of measles and vaccine coverage among children under 5 years, 1990-2023: a Global Burden of Disease Study.",
+   "title_zh": "1990-2023年全球及区域5岁以下儿童麻疹负担与疫苗覆盖率：全球疾病负担研究",
+   "summary_en": "Measles remains a leading cause of vaccine-preventable burden among children, particularly in low-income settings. Despite decades of progress, there are indications of measles resurgence due to stagnation in vaccine coverage. Here, using the Global Burden of Diseases, Injuries and Risk Factors Study (GBD) 2023, we systematically assessed measles incidence, mortality, disability-adjusted life years (DALYs) and vaccine coverage (measles-containing vaccine 1 (MCV1) and measles-containing vaccine 2 (MCV2)) among children under 5 years of age across 204 countries and territories from 1990 to 2023. Between 1990 and 2019, global measles incidence and mortality declined by approximately 80% and 90%, respectively, but rebounded sharply after 2020, with 15.6 million cases and 118,000 deaths estimat",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4002-4020",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42907529/",
+   "date": "2026-11-01",
+   "authors": "GBD 2023 Measles Collaborators",
+   "author_count": 1,
+   "doi": "10.1038/s41591-026-04661-7",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Measles",
+    "Measles Vaccine",
+    "Child, Preschool",
+    "Global Burden of Disease",
+    "Infant",
+    "Vaccination Coverage",
+    "Global Health",
+    "Incidence",
+    "Disability-Adjusted Life Years"
+   ],
+   "departments": [
+    "儿科",
+    "公共卫生",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42907528",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "The need for resilience in global vaccination programs.",
+   "title_zh": "全球疫苗接种规划需要韧性",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3952-3953",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42907528/",
+   "date": "2026-11-01",
+   "authors": "Winter AK, Ferrari MJ",
+   "author_count": 2,
+   "doi": "10.1038/s41591-026-04690-2",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42907527",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Global, regional and national burden of pertussis in 1990-2023: a Global Burden of Disease study.",
+   "title_zh": "1990-2023年全球、区域及国家百日咳负担：全球疾病负担研究",
+   "summary_en": "Despite long-standing immunization programs, pertussis remains a major cause of vaccine-preventable mortality, particularly among infants. Here we present a primary assessment of global pertussis incidence, mortality and disability-adjusted life years across 204 countries and territories from 1990 to 2023. We show that despite short-term pandemic-period fluctuations, the dominant global pattern from 1990 to 2023 was long-term decline: age-standardized mortality decreased by 61.2% and age-standardized incidence by 41.6%. Relative to the anomalously low pandemic-period estimates, incidence and mortality rebounded by 102.6% (95% uncertainty interval, 77.0-128.2%) and 66.1% (95% uncertainty interval, 2.4-174.5%), respectively, between 2020 and 2023. In 2023 alone, we estimated 18.9 million cas",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4021-4035",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42907527/",
+   "date": "2026-11-01",
+   "authors": "GBD 2023 Pertussis Collaborators, Mosser JF, Liu J",
+   "author_count": 3,
+   "doi": "10.1038/s41591-026-04660-8",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Whooping Cough",
+    "Humans",
+    "Incidence",
+    "Infant",
+    "Global Burden of Disease",
+    "Global Health",
+    "Disability-Adjusted Life Years",
+    "Pertussis Vaccine",
+    "Vaccination"
+   ],
+   "departments": [
+    "儿科",
+    "公共卫生",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42901991",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: FcRH5×CD3 bispecific antibody cevostamab in relapsed or refractory multiple myeloma: a phase 1 trial.",
+   "title_zh": "作者更正：FcRH5×CD3双特异性抗体cevostamab治疗复发或难治性多发性骨髓瘤：1期试验",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4353",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42901991/",
+   "date": "2026-11-01",
+   "authors": "Cohen AD, Richter J, Trudel S, Lesokhin A, Laubach JP, Thomas SK",
+   "author_count": 24,
+   "doi": "10.1038/s41591-026-04757-0",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42897348",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Molecular predictors of minimal residual disease in newly diagnosed multiple myeloma treated with quadruplet therapy.",
+   "title_zh": "接受四联疗法的新诊断多发性骨髓瘤微小残留病的分子预测因子",
+   "summary_en": "Quadruplet therapy, combining anti-CD38 antibodies, immunomodulatory drugs, proteasome inhibitors and dexamethasone, is now the standard induction treatment for newly diagnosed multiple myeloma (NDMM). However, treatment response is heterogeneous and molecular predictors are needed to guide early therapeutic decisions. We performed integrated genomic, transcriptomic and epigenomic profiling of 423 tumor samples from patients with NDMM from the MIDAS cohort to characterize molecular heterogeneity and its association with measurable residual disease (MRD) after quadruplet induction with isatuximab, carfilzomib, lenalidomide and dexamethasone (Isa-KRd). Postinduction MRD-negativity rates varied significantly across gene expression subtypes, with HP1/HP3 and MS groups showing superior response",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4103-4116",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42897348/",
+   "date": "2026-11-01",
+   "authors": "Magrangeas F, Cherkaoui M, Bessonneau-Gaborit V, Derrien J, Chevalier C, Guérin-Charbonnel C",
+   "author_count": 23,
+   "doi": "10.1038/s41591-026-04692-0",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Multiple Myeloma",
+    "Neoplasm, Residual",
+    "Humans",
+    "Dexamethasone",
+    "Genomic Instability",
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "Lenalidomide",
+    "Gene Expression Regulation, Neoplastic",
+    "Gene Expression Profiling"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42897347",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Waiting to get sick enough.",
+   "title_zh": "等待病情足够严重",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3933",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42897347/",
+   "date": "2026-11-01",
+   "authors": "Lazarus JV",
+   "author_count": 1,
+   "doi": "10.1038/s41591-026-04701-2",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42888250",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Conversational brain AI for adaptive epilepsy care.",
+   "title_zh": "对话式脑部AI用于适应性癫痫护理",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3957-3959",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42888250/",
+   "date": "2026-11-01",
+   "authors": "Lhatoo S, Vashin V",
+   "author_count": 2,
+   "doi": "10.1038/s41591-026-04719-6",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42888249",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Real-world, digital-first delivery of GLP-1 receptor agonist therapy in women.",
+   "title_zh": "女性中GLP-1受体激动剂治疗的数字化优先真实世界实施",
+   "summary_en": "Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have demonstrated substantial weight reduction and cardiometabolic benefit in randomized trials; however, prospective implementation evidence from digital care models and female sex community populations remains limited. Here we report outcomes from an observational study of 8,127 women initiating GLP-1RA therapy (99.8% tirzepatide) through a structured digital program incorporating mandatory biochemical monitoring, weekly video-supported follow-up and clinician-guided dose titration in the UK. Mean weight reduction was 16.1 kg (95% confidence interval 15.9 to 16.2; P < 0.001), representing 15.5% of baseline weight; 83.1% achieved ≥10% and 22.4% achieved ≥20% weight loss, with consistent responses across age, baseline weight and socioeco",
+   "summary_zh": "【观察性研究】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4319-4329",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42888249/",
+   "date": "2026-11-01",
+   "authors": "Deanfield J, Wong JLC, Katsoulis M, Deanfield E, Thakkar R, Patel R",
+   "author_count": 9,
+   "doi": "10.1038/s41591-026-04687-x",
+   "study_type": "观察性研究",
+   "pubtypes": [
+    "Journal Article",
+    "Observational Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Glucagon-Like Peptide-1 Receptor Agonists",
+    "Tirzepatide",
+    "Middle Aged",
+    "Glycated Hemoglobin",
+    "Weight Loss",
+    "Diabetes Mellitus, Type 2",
+    "Hypoglycemic Agents",
+    "Glucagon-Like Peptide-1 Receptor"
+   ],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42888248",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Only time will tell.",
+   "title_zh": "只有时间能证明",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3919-3922",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42888248/",
+   "date": "2026-11-01",
+   "authors": "Healey N",
+   "author_count": 1,
+   "doi": "10.1038/s41591-026-04699-7",
+   "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42875560",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Editorial Expression of Concern: Thyroid hormone inhibits lung fibrosis in mice by improving epithelial mitochondrial function.",
+   "title_zh": "编辑关注声明：甲状腺激素通过改善上皮线粒体功能抑制小鼠肺纤维化",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4356",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42875560/",
+   "date": "2026-11-01",
+   "authors": "Yu G, Tzouvelekis A, Wang R, Herazo-Maya JD, Ibarra GH, Srivastava A",
+   "author_count": 22,
+   "doi": "10.1038/s41591-026-04733-8",
+   "study_type": "",
+   "pubtypes": [
+    "Expression of Concern"
+   ],
+   "mesh": [],
+   "departments": [
+    "呼吸器",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42875559",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Talazoparib plus enzalutamide in high-volume metastatic hormone-naive prostate cancer: a randomized phase 2 trial.",
+   "title_zh": "Talazoparib联合enzalutamide治疗高瘤负荷转移性激素初治前列腺癌：一项随机2期试验",
+   "summary_en": "Combining inhibition of poly(ADP-ribose) polymerase and androgen receptor (AR) pathway has demonstrated clinical activity in men with metastatic prostate cancer, although the extent of benefit in tumors lacking homologous recombination repair (HRR) gene alterations remains uncertain. We conducted a randomized phase 2 trial evaluating talazoparib plus enzalutamide versus enzalutamide alone in men with high-volume metastatic hormone-naive prostate cancer (mHNPC). Fifty-four patients starting androgen deprivation therapy received two cycles of enzalutamide lead-in before 1:2 randomization to enzalutamide (n = 17) or enzalutamide plus talazoparib (n = 37). The primary endpoint was met, with a 73% prostate-specific antigen (PSA) <0.2 ng ml-1 response rate at 12 months in the combination arm (95",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4079-4090",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42875559/",
+   "date": "2026-11-01",
+   "authors": "Zacchi F, Castro E, Imbach K, Rodriguez-Vida A, Simonetti S, Mellado B",
+   "author_count": 38,
+   "doi": "10.1038/s41591-026-04671-5",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase II",
+    "Randomized Controlled Trial"
+   ],
+   "mesh": [
+    "Humans",
+    "Male",
+    "Nitriles",
+    "Prostatic Neoplasms",
+    "Benzamides",
+    "Phenylthiohydantoin",
+    "Aged",
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "Phthalazines",
+    "Middle Aged"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42875558",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial.",
+   "title_zh": "个性化新抗原靶向癌症疫苗治疗卵巢癌：一项1期试验",
+   "summary_en": "Personalized neoantigen-targeting cancer vaccines in the adjuvant setting are of increasing interest across malignancies. Here we report the results of a phase 1 clinical trial testing the feasibility and safety of personalized neoantigen-targeting cancer vaccines for high-grade epithelial ovarian cancer. 'NeoVax' consisted of pools of synthetic long peptides targeting patient-specific neoantigens admixed with the immunostimulant poly-ICLC, was combined with delayed administration of anti-PD-1 antibody, and was tested in ten patients (one newly diagnosed patient (Cohort A) and nine patients at first recurrence (Cohort B)) with platinum-sensitive ovarian cancer following standard-of-care platinum doublet chemotherapy. Nine of 12 evaluable Cohort B patients were vaccinated (75%, 90% CI 47-93",
+   "summary_zh": "【I 期临床试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4160-4171",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42875558/",
+   "date": "2026-11-01",
+   "authors": "Sellars MC, Frank JA, Shim B, Vanasse A, Liu R, Forman C",
+   "author_count": 42,
+   "doi": "10.1038/s41591-026-04717-8",
+   "study_type": "I 期临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase I"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Cancer Vaccines",
+    "Ovarian Neoplasms",
+    "Antigens, Neoplasm",
+    "Middle Aged",
+    "Aged",
+    "Precision Medicine",
+    "Carcinoma, Ovarian Epithelial",
+    "Poly I-C"
+   ],
+   "departments": [
+    "肿瘤",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42869996",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Characterizing the onset and progression of cancer cachexia using routine clinical data.",
+   "title_zh": "利用常规临床数据刻画癌症恶病质的起病与进展",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3960-3961",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42869996/",
+   "date": "2026-11-01",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1038/s41591-026-04720-z",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42869995",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Autologous and broadly neutralizing antibodies drive ART-free HIV control.",
+   "title_zh": "自体抗体和广谱中和抗体驱动无需ART的HIV控制",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3950-3951",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42869995/",
+   "date": "2026-11-01",
+   "authors": "Nasomsong W, Li JZ",
+   "author_count": 2,
+   "doi": "10.1038/s41591-026-04714-x",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42869994",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Human-artificial intelligence collaboration for comanaging epilepsy in real time.",
+   "title_zh": "人机协作实时共同管理癫痫",
+   "summary_en": "One-third of the world's 70 million people with epilepsy have seizures uncontrolled by medication, and implantable devices are a promising treatment. These devices can detect impending seizures, missed medication and impaired cognition, but, like most medical devices, they cannot share this information with patients in real time. This is a missed opportunity for devices to learn from clinical events and teach patients how their behaviors affect their health. Here we present a device platform that converses with patients to help them manage their epilepsy. The inpatient prototype links scalp and intracranial electroencephalography (EEG) to a secure, large language model-based artificial intelligence (AI) that communicates bidirectionally through a smartphone app. The AI processes biomarkers",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4280-4288",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42869994/",
+   "date": "2026-11-01",
+   "authors": "Goldblum Z, Shi H, Xu Z, Ojemann WKS, Aguila CA, Long K",
+   "author_count": 17,
+   "doi": "10.1038/s41591-026-04680-4",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Epilepsy",
+    "Artificial Intelligence",
+    "Electroencephalography",
+    "Female",
+    "Seizures",
+    "Male",
+    "Adult",
+    "Smartphone"
+   ],
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42864412",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A health-system-scale, episode-resolved multimodal atlas of cancer cachexia.",
+   "title_zh": "健康系统规模、按发作解析的癌症恶病质多模态图谱",
+   "summary_en": "Cancer cachexia is a wasting syndrome with outsized impact on morbidity and mortality, yet its drivers and systemic consequences remain poorly defined. In this study, we repurposed longitudinal clinicogenomic data from 52,236 patients with cancer profiled by MSK-IMPACT (2010-2024) at Memorial Sloan Kettering Cancer Center to define episode-resolved trajectories of consensus-defined cachectic weight loss and linked these events to outcomes, serology and tumor genotypes. Cachectic episodes clustered near periods of disease progression and were associated with inferior outcomes in nearly all cancer types. Across diverse malignancies, cachectic weight loss episodes exhibited a consistent serologic signature characterized by lower albumin and hemoglobin and higher levels of liver enzymes. Numer",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4148-4159",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42864412/",
+   "date": "2026-11-01",
+   "authors": "Castillon VJ, Xie AX, Boscenco S, Tse E, Ruthen N, Wang J",
+   "author_count": 22,
+   "doi": "10.1038/s41591-026-04689-9",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Cachexia",
+    "Neoplasms",
+    "Male",
+    "Female",
+    "Weight Loss",
+    "Disease Progression",
+    "Middle Aged",
+    "Mutation",
+    "Genotype"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42855585",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Addendum: Aberrant epithelial GREM1 expression initiates colonic tumorigenesis from cells outside the stem cell niche.",
+   "title_zh": "补遗：异常上皮GREM1表达从干细胞龛外细胞启动结肠肿瘤发生",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4355",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42855585/",
+   "date": "2026-11-01",
+   "authors": "Davis H, Irshad S, Bansal M, Rafferty H, Boitsova T, Bardella C",
+   "author_count": 26,
+   "doi": "10.1038/s41591-026-04736-5",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42850439",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: Natural killer T cells and CD8+ T cells are dispensable for T cell-dependent allergic airway inflammation.",
+   "title_zh": "作者更正：自然杀伤T细胞和CD8+ T细胞对T细胞依赖性过敏性气道炎症并非必需。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4351",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42850439/",
+   "date": "2026-11-01",
+   "authors": "Das J, Eynott P, Jupp R, Bothwell A, Van Kaer L, Shi Y",
+   "author_count": 7,
+   "doi": "10.1038/s41591-026-04709-8",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42839103",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Extended follow-up of in vivo BCMA CAR-T therapy in relapsed/refractory multiple myeloma.",
+   "title_zh": "体内BCMA CAR-T疗法治疗复发/难治性多发性骨髓瘤的延长随访。",
+   "summary_en": "Data on long-term outcomes of in vivo chimeric antigen receptor T cell (CAR‑T) therapy remain scarce. We previously reported preliminary safety and efficacy data of in vivo B-cell maturation antigen (BCMA) CAR‑T (ESO-T01), in four patients with relapsed/refractory multiple myeloma, without leukapheresis and lymphodepletion, with up to 3 months of follow-up. The primary endpoints included safety and tolerability, while the secondary endpoints comprised efficacy, pharmacokinetics and pharmacodynamics. All patients developed dual-phase cytokine release syndrome (grades 1-3) and hematotoxicities (grade ≥3). One patient developed grade 1 immune effector cell-associated neurotoxicity syndrome. The objective response rate reached 100% (two stringent complete response and two partial response). He",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4117-4126",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42839103/",
+   "date": "2026-11-01",
+   "authors": "Xu J, Liu L, Xie W, Su L, Wang W, Li C",
+   "author_count": 15,
+   "doi": "10.1038/s41591-026-04704-z",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Multiple Myeloma",
+    "B-Cell Maturation Antigen",
+    "Immunotherapy, Adoptive",
+    "Female",
+    "Receptors, Chimeric Antigen",
+    "Male",
+    "Follow-Up Studies",
+    "Middle Aged",
+    "Aged"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42834229",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial.",
+   "title_zh": "口服小分子GLP-1RA safiglipron对比达格列净治疗2型糖尿病：一项随机、双盲、活性对照3期试验。",
+   "summary_en": "Safiglipron is an oral small-molecule glucagon-like peptide-1 (GLP-1) receptor agonist administered without fasting or dietary restrictions. We evaluated its efficacy and safety versus dapagliflozin in OUTSTAND-2, a phase 3, multicenter, randomized, double-blind, double-dummy, active-comparator-controlled trial conducted at 98 sites in China. We randomized 810 adults (mean hemoglobin A1C (HbA1c) 8.60%, median diabetes duration 5.0 years, 35.7% women) to safiglipron 30 mg (n = 202), safiglipron 60 mg (n = 203), safiglipron 90 mg (n = 203) or dapagliflozin 10 mg (n = 202) for 32 weeks, followed by a 20-week active-treatment extension. For the primary endpoint, treatment differences versus dapagliflozin in change from baseline in HbA1c at week 32 under the primary non-inferiority estimand wer",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4340-4349",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42834229/",
+   "date": "2026-11-01",
+   "authors": "Guo L, Yu D, Xu Y, Tang G, Peng L, Meng C",
+   "author_count": 17,
+   "doi": "10.1038/s41591-026-04713-y",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Diabetes Mellitus, Type 2",
+    "Glucosides",
+    "Benzhydryl Compounds",
+    "Female",
+    "Double-Blind Method",
+    "Glycated Hemoglobin",
+    "Middle Aged",
+    "Hypoglycemic Agents",
+    "Male"
+   ],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42834228",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Global and regional reference curves for pain across the lifespan in 6.1 million individuals in 118 countries.",
+   "title_zh": "118个国家610万个体全生命周期疼痛的全球和区域参考曲线。",
+   "summary_en": "Pain is the leading cause of disability worldwide, yet no harmonized self-reported reference framework exists to characterize how its burden is distributed across the lifespan and world regions. In this study, we harmonized individual-level self-reported pain data from 6,125,459 participants across 902 population-based data sources in 118 countries to establish global reference trajectories of pain. We implemented these trajectories in an open-access benchmarking platform for positioning external datasets against global pain norms. Pain prevalence ranged from roughly 2% for facial pain to 40% for back pain, was consistently higher in women across all 11 anatomical sites (risk ratio range: 1.08-1.83) and increased most steeply before age 55 years. Contrary to existing estimates that general",
+   "summary_zh": "【研究论文】Nat Med 刊载。关键数据：95%。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4298-4306",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42834228/",
+   "date": "2026-11-01",
+   "authors": "Fillingim M, Tanguay-Sabourin C, Neuert L, Zare A, Norman J, Guglietti GV",
+   "author_count": 94,
+   "doi": "10.1038/s41591-026-04696-w",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Middle Aged",
+    "Pain",
+    "Aged",
+    "Adult",
+    "Male",
+    "Prevalence",
+    "Risk Factors",
+    "Adolescent"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42827132",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Urine cell-free RNA for bladder cancer detection and treatment response prediction.",
+   "title_zh": "尿液游离RNA用于膀胱癌检测和治疗反应预测。",
+   "summary_en": "Urine biomarkers promise to improve noninvasive detection and molecular characterization of genitourinary malignancies. Here we describe urine random priming and affinity capture of cell-free RNA (cfRNA) fragments for enrichment analysis by sequencing (uRARE-seq), a liquid biopsy method for urine cfRNA profiling, and apply it to 683 urine samples from patients with cancer and controls. Urine cfRNA contained transcripts from genitourinary tissues and, in patients with prostate, kidney or bladder cancer, tumor-derived transcripts. uRARE-seq demonstrated 95% sensitivity at 90% specificity for detecting localized bladder cancer. The method outperformed urine tumor DNA analysis and was unaffected by the presence of field-effect mutations. Urine cfRNA analysis also sensitively detected minimal r",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4091-4102",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42827132/",
+   "date": "2026-11-01",
+   "authors": "Liu KJ, Shi WY, Nesselbush MC, Phillips NA, Mach KE, Luca B",
+   "author_count": 42,
+   "doi": "10.1038/s41591-026-04673-3",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Urinary Bladder Neoplasms",
+    "Biomarkers, Tumor",
+    "Cell-Free Nucleic Acids",
+    "Male",
+    "Female",
+    "BCG Vaccine",
+    "Middle Aged",
+    "Aged",
+    "Liquid Biopsy"
+   ],
+   "departments": [
+    "肿瘤",
+    "肾脏/泌尿",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42823486",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Five-year survival with neoadjuvant therapy in melanoma: updated pooled analysis from the International Neoadjuvant Melanoma Consortium (INMC).",
+   "title_zh": "黑色素瘤新辅助治疗的五年生存：国际新辅助黑色素瘤联盟（INMC）更新的汇总分析",
+   "summary_en": "Neoadjuvant immune checkpoint inhibitors (ICIs) are standard of care for resectable stage IIIB-D melanoma, but knowledge gaps remain regarding optimal treatment type, long-term survival, postsurgical management and clinical, histopathological or molecular subgroups. We analyzed 1,038 patients treated with neoadjuvant ICIs (n = 735), BRAF and MEK inhibitors (BRAF/MEKis; n = 119) or ICI plus any targeted therapy (ICI + TT; n = 184) from 26 international sites in both trial (755, 72.7%) and nontrial (283, 27.3%) settings. ICI regimens included anti-programmed cell death protein 1 (PD-1) alone (PD-1 alone; n = 242) and anti-PD-1 plus other immuno-oncology agent(s) (PD-1 + IO; n = 489). Outcomes included major pathological response (MPR), recurrence-free survival (RFS) and overall survival (OS)",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4136-4147",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42823486/",
+   "date": "2026-11-01",
+   "authors": "Long GV, Pires da Silva I, Perry KA, Romano J, Lo SN, Grover P",
+   "author_count": 53,
+   "doi": "10.1038/s41591-026-04677-z",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Melanoma",
+    "Neoadjuvant Therapy",
+    "Female",
+    "Male",
+    "Middle Aged",
+    "Proto-Oncogene Proteins B-raf",
+    "Immune Checkpoint Inhibitors",
+    "Aged",
+    "Adult"
+   ],
+   "departments": [
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "42823485",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Effects of semaglutide on kidney disease in type 2 diabetes: a randomized placebo-controlled trial.",
+   "title_zh": "semaglutide对2型糖尿病肾脏疾病的影响：一项随机安慰剂对照试验",
+   "summary_en": "The GLP-1 receptor agonist semaglutide preserves kidney function in people with type 2 diabetes and chronic kidney disease, but the underlying mechanisms are unclear. Here we report a 52-week randomized trial of subcutaneous semaglutide 1 mg once weekly versus placebo (n = 106 (n = 25 women, n = 81 men)) in participants with type 2 diabetes and chronic kidney disease. To identify kidney-specific mechanisms of action for semaglutide, we performed integrated multiparametric magnetic resonance imaging of the kidney and biopsy for histology (n = 33), alongside single-nucleus (n = 22) and spatial transcriptomics (n = 13) on paired samples with before- and after-treatment measurements. Coprimary magnetic resonance imaging outcomes (oxygenation by R2*, global perfusion and tissue inflammation by ",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4307-4318",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42823485/",
+   "date": "2026-11-01",
+   "authors": "Tuttle KR, Bjornstad P, Smith C, Pruijm M, McCown PJ, Hodgin JB",
+   "author_count": 15,
+   "doi": "10.1038/s41591-026-04674-2",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "mesh": [
+    "Humans",
+    "Semaglutide",
+    "Diabetes Mellitus, Type 2",
+    "Female",
+    "Glucagon-Like Peptides",
+    "Male",
+    "Middle Aged",
+    "Magnetic Resonance Imaging",
+    "Kidney",
+    "Aged"
+   ],
+   "departments": [
+    "内分泌/代谢",
+    "肾脏/泌尿",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42811189",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Werner helicase inhibitor for advanced microsatellite instability solid tumors: a phase 1 trial.",
+   "title_zh": "用于晚期微卫星不稳定性实体瘤的维尔纳解旋酶抑制剂：一项1期试验。",
+   "summary_en": "Werner syndrome helicase (WRN) is a synthetic lethal target for microsatellite instability (MSI) cancers. In part 1 of this ongoing first-in-human, phase 1 trial, escalating doses of RO7589831 (VVD-133214), a first-in-class, WRN covalent inhibitor, were evaluated in 88 patients with MSI and/or deficient DNA mismatch repair advanced solid tumors. RO7589831 was administered once daily (150 mg), twice daily (BID; 150-1,000 mg) or three-times daily (TID; 200-600 mg). Primary objectives were to evaluate safety and tolerability, and identify the recommended phase 2 dose and schedule (RP2D). Secondary objectives included evaluation of antitumor activity (end points: disease control rate (DCR), objective response rate (ORR), duration of response (DOR), progression-free survival (PFS) and overall s",
+   "summary_zh": "【I 期临床试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4068-4078",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42811189/",
+   "date": "2026-11-01",
+   "authors": "Yap TA, Fontana E, Cook N, Fakih M, Bechter O, Tsang ES",
+   "author_count": 40,
+   "doi": "10.1038/s41591-026-04657-3",
+   "study_type": "I 期临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase I"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Microsatellite Instability",
+    "Werner Syndrome Helicase",
+    "Male",
+    "Neoplasms",
+    "Aged",
+    "Middle Aged",
+    "Adult",
+    "Antineoplastic Agents"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42811188",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A synthetic lethal drug for microsatellite instability cancers.",
+   "title_zh": "一种用于微卫星不稳定性癌症的合成致死药物。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3954-3956",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42811188/",
+   "date": "2026-11-01",
+   "authors": "Liu J",
+   "author_count": 1,
+   "doi": "10.1038/s41591-026-04693-z",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42811187",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Oral small-molecule GLP-1 receptor agonist safiglipron in early type 2 diabetes: a randomized, double-blind, placebo-controlled trial.",
+   "title_zh": "口服小分子GLP-1受体激动剂safiglipron用于早期2型糖尿病：一项随机、双盲、安慰剂对照试验。",
+   "summary_en": "Safiglipron is an oral small-molecule glucagon-like peptide-1 (GLP-1) receptor agonist administered without fasting or dietary restrictions. We evaluated its efficacy and safety in OUTSTAND-1, a phase 3, multicenter, randomized, double-blind, placebo-controlled trial at 46 sites in China. We randomized 284 adults with type 2 diabetes managed with diet and exercise alone (mean baseline HbA1c 7.95%, median diabetes duration 1.6 years, 33.1% women) to once-daily safiglipron 30 mg (n = 70), 60 mg (n = 70), 90 mg (n = 72) or placebo (n = 72) for 32 weeks, followed by a 20-week active-treatment extension. For the primary endpoint, placebo-adjusted treatment differences in HbA1c change from baseline to week 32 were -1.22% (95% CI, -1.53 to -0.91), -1.20% (95% CI, -1.52 to -0.89) and -1.45% (95% C",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4330-4339",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42811187/",
+   "date": "2026-11-01",
+   "authors": "Yu M, Peng L, Jiang C, Zhang X, Li Q, Zhang L",
+   "author_count": 20,
+   "doi": "10.1038/s41591-026-04651-9",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Multicenter Study",
+    "Clinical Trial, Phase III"
+   ],
+   "mesh": [
+    "Humans",
+    "Diabetes Mellitus, Type 2",
+    "Female",
+    "Double-Blind Method",
+    "Middle Aged",
+    "Glycated Hemoglobin",
+    "Glucagon-Like Peptide-1 Receptor Agonists",
+    "Male",
+    "Administration, Oral",
+    "Hypoglycemic Agents"
+   ],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42791376",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "The next phase of translational medicine must bridge the gap between innovation to impact.",
+   "title_zh": "转化医学的下一阶段必须弥合创新与影响之间的鸿沟。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3943-3945",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42791376/",
+   "date": "2026-11-01",
+   "authors": "Cavalli G, Seyfert-Margolis V, Cairns C, Gregorio C, Compton S, Prakken B",
+   "author_count": 7,
+   "doi": "10.1038/s41591-026-04681-3",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42791373",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Polygenic scores in the NHS: the debate is not primarily about the evidence.",
+   "title_zh": "英国国民保健制度中的多基因评分：争论的焦点并非证据。",
+   "summary_en": "",
+   "summary_zh": "【通信】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3928-3929",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42791373/",
+   "date": "2026-11-01",
+   "authors": "Wilson H, Babb de Villiers C, Mills P",
+   "author_count": 3,
+   "doi": "10.1038/s41591-026-04684-0",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42786304",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Developing cancer-control policies to address the cancer burden among young adults.",
+   "title_zh": "制定癌症防控政策，以应对青年人面临的癌症负担。",
+   "summary_en": "",
+   "summary_zh": "【通信】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3930-3932",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42786304/",
+   "date": "2026-11-01",
+   "authors": "Alessy SA, Teuwen LA, Segelov E, Alqahtani SA",
+   "author_count": 4,
+   "doi": "10.1038/s41591-026-04653-7",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42778766",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Embryo editing and embryo selection need joint governance.",
+   "title_zh": "胚胎编辑和胚胎选择需要共同治理。",
+   "summary_en": "",
+   "summary_zh": "【通信】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3923-3924",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42778766/",
+   "date": "2026-11-01",
+   "authors": "Chneiweiss H, Hirsch F, Bourgain C, INSERM Ethics Committee",
+   "author_count": 4,
+   "doi": "10.1038/s41591-026-04669-z",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42773212",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Blood proteomics of menopause map to brain aging and dementia risk.",
+   "title_zh": "绝经期血液蛋白质组学与大脑衰老和痴呆风险的关联。",
+   "summary_en": "Menopause is a hallmark process in biological aging that has been implicated in later neurodegenerative risk, but the pathways underlying this connection remain unclear. Here we used blood proteomics data from several cohorts to identify biological changes associated with menopause and its links to brain aging. In n = 80 rigorously staged (STRAW+10) pre-, peri- and postmenopausal women (aged 43-58 years) with serum NULISAseq proteomics, we show that spontaneous menopause is characterized by dysregulation in inflammatory, synaptic, metabolic and Alzheimer's disease biologic processes, which tracked more strongly with hormones than with age. Validation analyses in age-matched pre-/peri- and postmenopausal women (n = 2,814) with plasma Olink proteomics replicated the observed proteomic shifts",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4244-4255",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42773212/",
+   "date": "2026-11-01",
+   "authors": "Wood Alexander M, Rabin JS, Caunca M, Iadipaolo A, Cornelis L, Warrier R",
+   "author_count": 27,
+   "doi": "10.1038/s41591-026-04648-4",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Middle Aged",
+    "Proteomics",
+    "Brain",
+    "Aging",
+    "Menopause",
+    "Dementia",
+    "Aged",
+    "Adult"
+   ],
+   "departments": [
+    "神经",
+    "老年医学",
+    "精神"
+   ]
+  },
+  {
+   "pmid": "42773210",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Trastuzumab plus nivolumab with gemcitabine and cisplatin as first-line therapy for HER2-positive unresectable biliary tract cancer: a phase 1b/2 trial.",
+   "title_zh": "曲妥珠单抗联合纳武利尤单抗加吉西他滨和顺铂作为HER2阳性不可切除胆道癌的一线治疗：一项1b/2期试验。",
+   "summary_en": "Biliary tract cancers (BTCs) are associated with poor outcomes despite recent incorporation of immune checkpoint inhibitors into first-line chemotherapy. Human epidermal growth factor receptor 2 (HER2) overexpression or amplification defines a therapeutically targetable subset of BTC but its integration into first-line chemoimmunotherapy has not been prospectively evaluated. This multi-institutional, open-label, phase 1b/2 HERBOT study (KCSG-HB23-05) aimed to evaluate first-line HER2-targeted quadruplet regimen consisting of trastuzumab, nivolumab, gemcitabine and cisplatin in participants with HER2-positive advanced BTC. Here the primary endpoint was met with an objective response rate of 55% (95% confidence interval (CI) 38.5-70.7; one complete response and 21 partial responses among 40 ",
+   "summary_zh": "【II 期临床试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4127-4135",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42773210/",
+   "date": "2026-11-01",
+   "authors": "Lee CK, Chung T, Kim IH, Chon HJ, Kim JW, Park SJ",
+   "author_count": 19,
+   "doi": "10.1038/s41591-026-04679-x",
+   "study_type": "II 期临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Clinical Trial, Phase I",
+    "Clinical Trial, Phase II",
+    "Multicenter Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Gemcitabine",
+    "Deoxycytidine",
+    "Erb-b2 Receptor Tyrosine Kinases",
+    "Cisplatin",
+    "Biliary Tract Neoplasms",
+    "Female",
+    "Trastuzumab",
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "Middle Aged"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42760338",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Editorial Expression of Concern: SWI/SNF-mutant cancers depend on catalytic and non-catalytic activity of EZH2.",
+   "title_zh": "编辑关注意见：SWI/SNF突变型癌症依赖于EZH2的催化和非催化活性。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4357",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42760338/",
+   "date": "2026-11-01",
+   "authors": "Kim KH, Kim W, Howard TP, Vazquez F, Tsherniak A, Wu JN",
+   "author_count": 12,
+   "doi": "10.1038/s41591-026-04708-9",
+   "study_type": "",
+   "pubtypes": [
+    "Expression of Concern"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42749890",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Sex-specific biological aging clocks across organs and omics.",
+   "title_zh": "跨器官和组学的性别特异性生物衰老时钟。",
+   "summary_en": "Sex differentially shapes aging, neurodevelopment and neurodegenerative diseases such as Alzheimer's disease (AD). However, most biological aging clocks (artificial intelligence-predicted age minus chronological age) were trained on sex-pooled samples and implicitly assume sex invariance.Here we developed 38 sex-specific biological aging clocks across 15 organ systems. We first demonstrate the importance of sex-stratified training for constructing sex-specific healthy normative references and then reveal marked divergence between female and male clocks. Key genetic parameters and Mendelian randomization results indicate that organ-specific aging liability and its relationships to cardiometabolic, endocrine and mental traits are configured differently in females and males. Proteomic analyse",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4268-4279",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42749890/",
+   "date": "2026-11-01",
+   "authors": "MULTI Consortium, Song Z, Fong D, Rahman NA, Duggan MR, Tian Q",
+   "author_count": 20,
+   "doi": "10.1038/s41591-026-04662-6",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Female",
+    "Humans",
+    "Aging",
+    "Male",
+    "Sex Characteristics",
+    "Proteomics",
+    "Biological Clocks",
+    "Brain",
+    "Alzheimer Disease",
+    "Sex Factors"
+   ],
+   "departments": [
+    "神经",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42749888",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "EBV reactivation priming of the peripheral immune system in multiple sclerosis relapse.",
+   "title_zh": "多发性硬化症复发时外周免疫系统的EBV再激活诱导。",
+   "summary_en": "Despite decades of research, the cellular and molecular events preceding multiple sclerosis (MS) relapse remain incompletely understood. Here, in this observational study of longitudinal blood samples from patients with relapsing-remitting MS, we used single-cell RNA sequencing, bulk transcriptomics, multiparameter flow cytometry and targeted viral reverse transcription quantitative polymerase chain reaction (RT-qPCR) to construct a time-resolved atlas of immune perturbations surrounding relapse. A reproducible pre-relapse signature in monocytes and B cells, emerging up to 3 months before clinical onset, was enriched for host genes responsive to Epstein-Barr virus (EBV) lytic reactivation factors. RT-qPCR confirmed elevated EBV LMP-1 transcripts in pre-relapse B cells, and flow cytometry d",
+   "summary_zh": "【观察性研究】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4056-4067",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42749888/",
+   "date": "2026-11-01",
+   "authors": "King DA, Saxena S, Caefer D, Downer KC, Saucier LE, Goodman E",
+   "author_count": 14,
+   "doi": "10.1038/s41591-026-04665-3",
+   "study_type": "观察性研究",
+   "pubtypes": [
+    "Journal Article",
+    "Observational Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Herpesvirus 4, Human",
+    "Virus Activation",
+    "Multiple Sclerosis, Relapsing-Remitting",
+    "B-Lymphocytes",
+    "Epstein-Barr Virus Infections",
+    "Recurrence",
+    "Genome-Wide Association Study",
+    "Female",
+    "Viral Matrix Proteins"
+   ],
+   "departments": [
+    "感染",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "42744897",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Broadly neutralizing antibodies in adult males living with HIV undergoing analytical treatment interruption: secondary and exploratory outcomes of the phase II randomized controlled RIO trial.",
+   "title_zh": "接受分析性停药的成年男性艾滋病患者体内的广谱中和抗体：II期随机对照RIO试验的次要和探索性结果。",
+   "summary_en": "RIO is an ongoing phase 2 double-blind randomized placebo-controlled human trial. Sixty-eight adult men living with human immunodeficiency virus (HIV), who were predominantly white and initiated antiretroviral therapy (ART) during primary or early-stage infection, underwent treatment interruption and were randomly assigned to a group receiving one or two doses of two long-acting broadly neutralizing antibodies (bNAbs) 3BNC117-LS and 10-1074-LS (arm A, n = 34) or saline (arm B, n = 34). The primary clinical study met its primary endpoint and was published elsewhere, demonstrating significantly delayed viral rebound and prolonged ART-free control in participants receiving bNAbs compared with placebo. The infusions were generally safe and well tolerated, with no study-related serious adverse ",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3990-4001",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42744897/",
+   "date": "2026-11-01",
+   "authors": "Fumagalli MJ, Kaczynska A, Allombert M, Lopes-Ribeiro Á, de Oliveira Silva M, Hernandez BJ",
+   "author_count": 35,
+   "doi": "10.1038/s41591-026-04644-8",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase II"
+   ],
+   "mesh": [
+    "Humans",
+    "Male",
+    "HIV Infections",
+    "Adult",
+    "HIV-1",
+    "Treatment Interruption",
+    "HIV Antibodies",
+    "Middle Aged",
+    "Viral Load",
+    "Double-Blind Method"
+   ],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "42742182",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Eplontersen with and without background transthyretin stabilizers in transthyretin amyloid cardiomyopathy: secondary analysis of a phase 3, randomized controlled trial.",
+   "title_zh": "在伴有和不伴有基础甲状腺素运载蛋白稳定剂的甲状腺素运载蛋白淀粉样心肌病中应用依普磺腾：一项III期随机对照试验的次要分析。",
+   "summary_en": "Transthyretin (TTR) amyloid cardiomyopathy (ATTR-CM) therapies include both TTR gene silencers and TTR stabilizers. The role of TTR gene silencers added to background TTR stabilizer therapy is unknown, and the effects of silencer treatment in the absence of stabilizer use are unclear. In the CARDIO-TTRansform study, 1,432 patients (n = 135 (9.4%) women and n = 1,297 (90.6%) men) with ATTR-CM were randomized (1:1) and treated with the antisense oligonucleotide eplontersen (45 mg every 4 weeks) that targets TTR or with placebo for up to 140 weeks. At baseline, 57% of the patients were taking TTR stabilizers. In the overall study, treatment with eplontersen did not reduce the primary composite endpoint. Here, in a prespecified analysis, we show that the primary endpoint (a composite of cardio",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4047-4055",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42742182/",
+   "date": "2026-11-01",
+   "authors": "García-Pavía P, Cappelli F, Davis MK, Fontana M, Gillmore JD, Hanna M",
+   "author_count": 24,
+   "doi": "10.1038/s41591-026-04670-6",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III"
+   ],
+   "mesh": [
+    "Humans",
+    "Prealbumin",
+    "Female",
+    "Amyloid Neuropathies, Familial",
+    "Cardiomyopathies",
+    "Male",
+    "Aged",
+    "Middle Aged",
+    "Oligonucleotides, Antisense",
+    "Oligonucleotides"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42728380",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk.",
+   "title_zh": "病理负担和认知韧性对阿尔茨海默病风险的共同影响。",
+   "summary_en": "Alzheimer's disease (AD) is conventionally framed as a consequence of progressive amyloid-β and tau pathology, yet substantial heterogeneity in cognitive outcome at any given level of pathological burden indicates that cognitive resilience constitutes a parallel determinant of disease risk. Here we test whether pathology and resilience function as independent and synergistic dimensions of incident AD dementia. In 3,119 older adults from the China Cognition and Aging Study, followed for a median of 13.7 years, we derived two longitudinal indices from repeated measurements: a pathology score indexed by tau phosphorylated at threonine 181/amyloid-β42, and a cognitive resilience score defined as the residual of the cognitive slope after adjustment for pathology, age and sex. Both indices indep",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4289-4297",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42728380/",
+   "date": "2026-11-01",
+   "authors": "Wang Z, Wang S, Liang Y, Chen X, Wang S, Qin W",
+   "author_count": 13,
+   "doi": "10.1038/s41591-026-04635-9",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Alzheimer Disease",
+    "Female",
+    "Male",
+    "Aged",
+    "Cognition",
+    "Amyloid beta-Peptides",
+    "Aged, 80 and over",
+    "Risk Factors",
+    "Longitudinal Studies"
+   ],
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42717036",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Consensus framework for the validation of generative AI: call for collaborators on the Validation Accords.",
+   "title_zh": "生成式人工智能验证的共识框架：征集《验证协议》的合作者。",
+   "summary_en": "",
+   "summary_zh": "【通信】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3925",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42717036/",
+   "date": "2026-11-01",
+   "authors": "Huo B, Chartash D, Tsang L, Collins GS, Cacciamani GE, Ruurda J",
+   "author_count": 9,
+   "doi": "10.1038/s41591-026-04647-5",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42706369",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Strengthening clinical trial ethics and regulatory oversight in Africa: lessons from the TRACE initiative.",
+   "title_zh": "加强非洲的临床试验伦理和监管监督：TRACE 倡议的经验教训。",
+   "summary_en": "",
+   "summary_zh": "【通信】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3926-3927",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42706369/",
+   "date": "2026-11-01",
+   "authors": "Neil KL, Condo J, TRACE Author Group",
+   "author_count": 3,
+   "doi": "10.1038/s41591-026-04645-7",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42668287",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Dual antithrombotic therapy using potent antiplatelet inhibitors in atrial fibrillation and acute coronary syndrome: a randomized controlled trial.",
+   "title_zh": "在房颤和急性冠脉综合征中使用强效抗血小板抑制剂的双重抗血栓治疗：一项随机对照试验。",
+   "summary_en": "The selection of the optimal antithrombotic regimen in patients with atrial fibrillation and acute coronary syndrome remains challenging. Previous trials have demonstrated that dual antithrombotic therapy (DAT), consisting of direct oral anticoagulants (DOACs) plus a P2Y12 inhibitor, reduces bleeding compared to a triple-therapy regimen using vitamin K antagonists. However, subsequent meta-analyses have suggested an increased risk of ischemic events with DAT, particularly within the first month of treatment. Clopidogrel has been the predominant P2Y12 inhibitor used across these studies, despite the risk of high on-treatment platelet reactivity when using this drug. In this study, we conducted an open-label, randomized controlled trial (EPIDAURUS) in patients with atrial fibrillation and ac",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026; 32(11): 4036-4046",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42668287/",
+   "date": "2026-11-01",
+   "authors": "Rizas KD, Mourouzis K, Rath D, Olivier CB, Villegas Sierra LE, Korovesis T",
+   "author_count": 61,
+   "doi": "10.1038/s41591-026-04629-7",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "mesh": [
+    "Humans",
+    "Acute Coronary Syndrome",
+    "Female",
+    "Platelet Aggregation Inhibitors",
+    "Clopidogrel",
+    "Atrial Fibrillation",
+    "Male",
+    "Aged",
+    "Hemorrhage",
+    "Purinergic P2Y Receptor Antagonists"
+   ],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42601486",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "An AI-Health infrastructure for the Nordic region: technical foundations, data assets, and a roadmap for deployment.",
+   "title_zh": "北欧地区的人工智能健康基础设施：技术基础、数据资产和部署路线图。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3938-3942",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42601486/",
+   "date": "2026-11-01",
+   "authors": "Andreassen OA, Heimer H, Aarsland D, Dale AM, Gudbjartsson D, Jacobsson B",
+   "author_count": 22,
+   "doi": "10.1038/s41591-026-04575-4",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42521819",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Reducing the diagnostic odyssey in rare disease: why screening is not the only answer.",
+   "title_zh": "缩短罕见病诊断的漫长过程：为什么筛查不是唯一的答案。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3934-3937",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42521819/",
+   "date": "2026-11-01",
+   "authors": "Wright CF, Phillips A, Wynn SL, Meade N, Baple EL, Lucassen AM",
+   "author_count": 7,
+   "doi": "10.1038/s41591-026-04542-z",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42481853",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Genomas Brasil program: building precision public health within Brazil's Unified Health System.",
+   "title_zh": "Genomas Brasil计划：在巴西统一卫生系统中建立精准公共卫生体系。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3946-3949",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42481853/",
+   "date": "2026-11-01",
+   "authors": "Araújo de França GV, Lupatini EO, Rocha RT, Toledo RCP, Figueiredo GSF, Gonçalves CEI",
+   "author_count": 14,
+   "doi": "10.1038/s41591-026-04523-2",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "公共卫生"
    ]
   },
   {
@@ -12802,30 +14422,6 @@
    ]
   },
   {
-   "pmid": "42963406",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Climate change threatens malaria elimination in the Asia Pacific.",
-   "title_zh": "气候变化威胁亚太地区疟疾消除",
-   "summary_en": "Climate change threatens decades of progress toward malaria elimination across the Asia Pacific. In recent years, reported cases have increased sharply in several regions, including Pakistan following the 2022 floods. However, current research and adaptation strategies have largely focused on gradual warming and shifting transmission seasons and may not fully capture acute operational disruptions in endemic settings. Here we examine how climate change influences malaria through cascading disruptions to health systems, population displacement and ecological change. As a multidisciplinary group of policymakers and researchers, we identify priority actions: integrating malaria control into disaster response, deploying adaptive vector control for displaced populations, strengthening cross-bord",
-   "summary_zh": "【综述】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42963406/",
-   "date": "2026-10-30",
-   "authors": "Fornace K, Hein PS, Djaafara B, Ashad-Uz-Zaman MN, Chang CC, Elyazar I",
-   "author_count": 26,
-   "doi": "10.1038/s41591-026-04722-x",
-   "study_type": "综述",
-   "pubtypes": [
-    "Journal Article",
-    "Review"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "42963054",
    "journal": "BMJ",
    "journal_abbr": "BMJ",
@@ -13260,29 +14856,6 @@
    "mesh": [],
    "departments": [
     "肿瘤"
-   ]
-  },
-  {
-   "pmid": "42957777",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "A clinical multimodal vision language foundation model with fine-grain explainability.",
-   "title_zh": "具有细粒度可解释性的临床多模态视觉语言基础模型",
-   "summary_en": "Despite their considerable promise, many current medical foundation models remain modality specific and lack transparent reasoning, limiting clinical adoption. To address this gap, we introduce Explainable Vision Language Foundation Model for Medicine (EVLF-FM), a multimodal vision language foundation model that combines broad diagnostic capabilities with fine-grained explainability. The development and testing of EVLF-FM encompassed more than 1.3 million total samples from 18 global datasets across 10 imaging modalities related to six clinical specialties: dermatology, hepatology, ophthalmology, pathology, pulmonology and radiology. External validation employed 13,443 independent test samples from 17 additional datasets across 10 imaging modalities. EVLF-FM supports disease diagnosis, vis",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42957777/",
-   "date": "2026-10-29",
-   "authors": "Bai Y, Cheng H, Zhou Y, Zhou J, Thirunavukarasu A, Ke Y",
-   "author_count": 49,
-   "doi": "10.1038/s41591-026-04655-5",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
    ]
   },
   {
@@ -16180,30 +17753,6 @@
    ]
   },
   {
-   "pmid": "42946879",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Metabolic heterogeneity of obesity.",
-   "title_zh": "肥胖的代谢异质性",
-   "summary_en": "Multi-organ-system insulin resistance is the key pathogenic driver of obesity-related metabolic complications and diseases, such as atherogenic dyslipidemia, metabolic dysfunction-associated steatotic liver disease and type 2 diabetes. However, there is considerable heterogeneity in insulin sensitivity among people with obesity. Some are considered to have metabolically healthy obesity, with normal insulin sensitivity in conjunction with normal fasting blood glucose, oral glucose tolerance, plasma lipid profile and intrahepatic triglyceride content. In this Review, we discuss metabolic differences at the cellular, organ-system and systemic levels between people with metabolically healthy and metabolically unhealthy obesity; we also discuss heterogeneity in the therapeutic effects of weight",
-   "summary_zh": "【综述】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42946879/",
-   "date": "2026-10-27",
-   "authors": "Smith GI, Petersen MC, Hartig SM, Klein S",
-   "author_count": 4,
-   "doi": "10.1038/s41591-026-04718-7",
-   "study_type": "综述",
-   "pubtypes": [
-    "Journal Article",
-    "Review"
-   ],
-   "mesh": [],
-   "departments": [
-    "内分泌/代谢"
-   ]
-  },
-  {
    "pmid": "42946878",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -16725,29 +18274,6 @@
    "departments": [
     "肿瘤",
     "消化器"
-   ]
-  },
-  {
-   "pmid": "42934327",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Author Correction: Sex-specific biological aging clocks across organs and omics.",
-   "title_zh": "作者更正：跨器官和多组学的性别特异性生物学衰老时钟",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42934327/",
-   "date": "2026-10-26",
-   "authors": "MULTI Consortium, Song Z, Fong D, Rahman NA, Duggan MR, Tian Q",
-   "author_count": 20,
-   "doi": "10.1038/s41591-026-04776-x",
-   "study_type": "",
-   "pubtypes": [
-    "Published Erratum"
-   ],
-   "mesh": [],
-   "departments": [
-    "老年医学"
    ]
   },
   {
@@ -18369,29 +19895,6 @@
    ]
   },
   {
-   "pmid": "42918895",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Author Correction: β-catenin confers resistance to PI3K and AKT inhibitors and subverts FOXO3a to promote metastasis in colon cancer.",
-   "title_zh": "作者更正：β-catenin赋予对PI3K和AKT抑制剂的耐药性并通过颠覆FOXO3a促进结肠癌转移。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42918895/",
-   "date": "2026-10-22",
-   "authors": "Tenbaum SP, Ordóñez-Morán P, Puig I, Chicote I, Arqués O, Landolfi S",
-   "author_count": 20,
-   "doi": "10.1038/s41591-026-04750-7",
-   "study_type": "",
-   "pubtypes": [
-    "Published Erratum"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤"
-   ]
-  },
-  {
    "pmid": "42918862",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -19318,122 +20821,6 @@
    ]
   },
   {
-   "pmid": "42907531",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Editorial Expression of Concern: Oncogenic transformation of diverse gastrointestinal tissues in primary organoid culture.",
-   "title_zh": "编辑关注声明：原代类器官培养中多种胃肠道组织的致癌转化",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42907531/",
-   "date": "2026-10-21",
-   "authors": "Li X, Nadauld L, Ootani A, Corney DC, Pai RK, Gevaert O",
-   "author_count": 21,
-   "doi": "10.1038/s41591-026-04749-0",
-   "study_type": "",
-   "pubtypes": [
-    "Expression of Concern"
-   ],
-   "mesh": [],
-   "departments": [
-    "消化器"
-   ]
-  },
-  {
-   "pmid": "42907530",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Author Correction: Povorcitinib for hidradenitis suppurativa: the randomized, double-blind, placebo-controlled STOP-HS1 and STOP-HS2 phase 3 trials.",
-   "title_zh": "作者更正：Povorcitinib治疗化脓性汗腺炎：随机、双盲、安慰剂对照的STOP-HS1和STOP-HS2 3期试验",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42907530/",
-   "date": "2026-10-21",
-   "authors": "Porter ML, Martorell A, Sayed CJ, Bechara FG, Lev-Tov H, Hsiao JL",
-   "author_count": 23,
-   "doi": "10.1038/s41591-026-04747-2",
-   "study_type": "",
-   "pubtypes": [
-    "Published Erratum"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42907529",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Global and regional burden of measles and vaccine coverage among children under 5 years, 1990-2023: a Global Burden of Disease Study.",
-   "title_zh": "1990-2023年全球及区域5岁以下儿童麻疹负担与疫苗覆盖率：全球疾病负担研究",
-   "summary_en": "Measles remains a leading cause of vaccine-preventable burden among children, particularly in low-income settings. Despite decades of progress, there are indications of measles resurgence due to stagnation in vaccine coverage. Here, using the Global Burden of Diseases, Injuries and Risk Factors Study (GBD) 2023, we systematically assessed measles incidence, mortality, disability-adjusted life years (DALYs) and vaccine coverage (measles-containing vaccine 1 (MCV1) and measles-containing vaccine 2 (MCV2)) among children under 5 years of age across 204 countries and territories from 1990 to 2023. Between 1990 and 2019, global measles incidence and mortality declined by approximately 80% and 90%, respectively, but rebounded sharply after 2020, with 15.6 million cases and 118,000 deaths estimat",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42907529/",
-   "date": "2026-10-21",
-   "authors": "GBD 2023 Measles Collaborators",
-   "author_count": 1,
-   "doi": "10.1038/s41591-026-04661-7",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "儿科",
-    "疫苗"
-   ]
-  },
-  {
-   "pmid": "42907528",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "The need for resilience in global vaccination programs.",
-   "title_zh": "全球疫苗接种规划需要韧性",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42907528/",
-   "date": "2026-10-21",
-   "authors": "Winter AK, Ferrari MJ",
-   "author_count": 2,
-   "doi": "10.1038/s41591-026-04690-2",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "疫苗"
-   ]
-  },
-  {
-   "pmid": "42907527",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Global, regional and national burden of pertussis in 1990-2023: a Global Burden of Disease study.",
-   "title_zh": "1990-2023年全球、区域及国家百日咳负担：全球疾病负担研究",
-   "summary_en": "Despite long-standing immunization programs, pertussis remains a major cause of vaccine-preventable mortality, particularly among infants. Here we present a primary assessment of global pertussis incidence, mortality and disability-adjusted life years across 204 countries and territories from 1990 to 2023. We show that despite short-term pandemic-period fluctuations, the dominant global pattern from 1990 to 2023 was long-term decline: age-standardized mortality decreased by 61.2% and age-standardized incidence by 41.6%. Relative to the anomalously low pandemic-period estimates, incidence and mortality rebounded by 102.6% (95% uncertainty interval, 77.0-128.2%) and 66.1% (95% uncertainty interval, 2.4-174.5%), respectively, between 2020 and 2023. In 2023 alone, we estimated 18.9 million cas",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42907527/",
-   "date": "2026-10-21",
-   "authors": "GBD 2023 Pertussis Collaborators, Mosser JF, Liu J",
-   "author_count": 3,
-   "doi": "10.1038/s41591-026-04660-8",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "42906542",
    "journal": "Cell",
    "journal_abbr": "Cell",
@@ -19815,29 +21202,6 @@
    ]
   },
   {
-   "pmid": "42901991",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Author Correction: FcRH5×CD3 bispecific antibody cevostamab in relapsed or refractory multiple myeloma: a phase 1 trial.",
-   "title_zh": "作者更正：FcRH5×CD3双特异性抗体cevostamab治疗复发或难治性多发性骨髓瘤：1期试验",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42901991/",
-   "date": "2026-10-20",
-   "authors": "Cohen AD, Richter J, Trudel S, Lesokhin A, Laubach JP, Thomas SK",
-   "author_count": 24,
-   "doi": "10.1038/s41591-026-04757-0",
-   "study_type": "",
-   "pubtypes": [
-    "Published Erratum"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "42901165",
    "journal": "Cell",
    "journal_abbr": "Cell",
@@ -19854,52 +21218,6 @@
    "study_type": "",
    "pubtypes": [
     "Published Erratum"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42897348",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Molecular predictors of minimal residual disease in newly diagnosed multiple myeloma treated with quadruplet therapy.",
-   "title_zh": "接受四联疗法的新诊断多发性骨髓瘤微小残留病的分子预测因子",
-   "summary_en": "Quadruplet therapy, combining anti-CD38 antibodies, immunomodulatory drugs, proteasome inhibitors and dexamethasone, is now the standard induction treatment for newly diagnosed multiple myeloma (NDMM). However, treatment response is heterogeneous and molecular predictors are needed to guide early therapeutic decisions. We performed integrated genomic, transcriptomic and epigenomic profiling of 423 tumor samples from patients with NDMM from the MIDAS cohort to characterize molecular heterogeneity and its association with measurable residual disease (MRD) after quadruplet induction with isatuximab, carfilzomib, lenalidomide and dexamethasone (Isa-KRd). Postinduction MRD-negativity rates varied significantly across gene expression subtypes, with HP1/HP3 and MS groups showing superior response",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42897348/",
-   "date": "2026-10-19",
-   "authors": "Magrangeas F, Cherkaoui M, Bessonneau-Gaborit V, Derrien J, Chevalier C, Guérin-Charbonnel C",
-   "author_count": 23,
-   "doi": "10.1038/s41591-026-04692-0",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42897347",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Waiting to get sick enough.",
-   "title_zh": "等待病情足够严重",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42897347/",
-   "date": "2026-10-19",
-   "authors": "Lazarus JV",
-   "author_count": 1,
-   "doi": "10.1038/s41591-026-04701-2",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
    ],
    "mesh": [],
    "departments": [
@@ -20371,82 +21689,13 @@
    ]
   },
   {
-   "pmid": "42888250",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Conversational brain AI for adaptive epilepsy care.",
-   "title_zh": "对话式脑部AI用于适应性癫痫护理",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42888250/",
-   "date": "2026-10-16",
-   "authors": "Lhatoo S, Vashin V",
-   "author_count": 2,
-   "doi": "10.1038/s41591-026-04719-6",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "神经"
-   ]
-  },
-  {
-   "pmid": "42888249",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Real-world, digital-first delivery of GLP-1 receptor agonist therapy in women.",
-   "title_zh": "女性中GLP-1受体激动剂治疗的数字化优先真实世界实施",
-   "summary_en": "Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have demonstrated substantial weight reduction and cardiometabolic benefit in randomized trials; however, prospective implementation evidence from digital care models and female sex community populations remains limited. Here we report outcomes from an observational study of 8,127 women initiating GLP-1RA therapy (99.8% tirzepatide) through a structured digital program incorporating mandatory biochemical monitoring, weekly video-supported follow-up and clinician-guided dose titration in the UK. Mean weight reduction was 16.1 kg (95% confidence interval 15.9 to 16.2; P < 0.001), representing 15.5% of baseline weight; 83.1% achieved ≥10% and 22.4% achieved ≥20% weight loss, with consistent responses across age, baseline weight and socioeco",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42888249/",
-   "date": "2026-10-16",
-   "authors": "Deanfield J, Wong JLC, Katsoulis M, Deanfield E, Thakkar R, Patel R",
-   "author_count": 9,
-   "doi": "10.1038/s41591-026-04687-x",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "消化器"
-   ]
-  },
-  {
-   "pmid": "42888248",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Only time will tell.",
-   "title_zh": "只有时间能证明",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42888248/",
-   "date": "2026-10-16",
-   "authors": "Healey N",
-   "author_count": 1,
-   "doi": "10.1038/s41591-026-04699-7",
-   "study_type": "",
-   "pubtypes": [
-    "News"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "42888247",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
    "title_en": "EGFR-targeted antibody-toxin conjugate in recurrent glioma: a phase 1 trial.",
    "title_zh": "EGFR靶向抗体-毒素偶联物治疗复发性胶质瘤：一项1期试验",
    "summary_en": "D2C7-ATC is a recombinant antibody-toxin conjugate (ATC) targeting wild-type epidermal growth factor receptor (EGFR) and mutant EGFR variant III (EGFRvIII). We conducted a single-arm, single-site, open-label phase 1 trial evaluating a single infusion of D2C7-ATC via convection-enhanced delivery in the enhancing disease of 81 patients with biopsy-confirmed recurrent malignant glioma. The primary objective was to determine toxicity and the recommended phase 2 dose (RP2D) of D2C7-ATC. Secondary objectives included describing overall survival (OS) and assessing the association between EGFR expression and OS. The median overall survival (mOS) was 7.9 months among 72 patients with isocitrate dehydrogenase wild-type recurrent glioblastoma (IDHwt rGBM), including 35 patients in the dose-escalation",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42888247/",
    "date": "2026-10-16",
@@ -21358,78 +22607,6 @@
    ]
   },
   {
-   "pmid": "42875560",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Editorial Expression of Concern: Thyroid hormone inhibits lung fibrosis in mice by improving epithelial mitochondrial function.",
-   "title_zh": "编辑关注声明：甲状腺激素通过改善上皮线粒体功能抑制小鼠肺纤维化",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42875560/",
-   "date": "2026-10-14",
-   "authors": "Yu G, Tzouvelekis A, Wang R, Herazo-Maya JD, Ibarra GH, Srivastava A",
-   "author_count": 22,
-   "doi": "10.1038/s41591-026-04733-8",
-   "study_type": "",
-   "pubtypes": [
-    "Expression of Concern"
-   ],
-   "mesh": [],
-   "departments": [
-    "呼吸器",
-    "内分泌/代谢"
-   ]
-  },
-  {
-   "pmid": "42875559",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Talazoparib plus enzalutamide in high-volume metastatic hormone-naive prostate cancer: a randomized phase 2 trial.",
-   "title_zh": "Talazoparib联合enzalutamide治疗高瘤负荷转移性激素初治前列腺癌：一项随机2期试验",
-   "summary_en": "Combining inhibition of poly(ADP-ribose) polymerase and androgen receptor (AR) pathway has demonstrated clinical activity in men with metastatic prostate cancer, although the extent of benefit in tumors lacking homologous recombination repair (HRR) gene alterations remains uncertain. We conducted a randomized phase 2 trial evaluating talazoparib plus enzalutamide versus enzalutamide alone in men with high-volume metastatic hormone-naive prostate cancer (mHNPC). Fifty-four patients starting androgen deprivation therapy received two cycles of enzalutamide lead-in before 1:2 randomization to enzalutamide (n = 17) or enzalutamide plus talazoparib (n = 37). The primary endpoint was met, with a 73% prostate-specific antigen (PSA) <0.2 ng ml-1 response rate at 12 months in the combination arm (95",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42875559/",
-   "date": "2026-10-14",
-   "authors": "Zacchi F, Castro E, Imbach K, Rodriguez-Vida A, Simonetti S, Mellado B",
-   "author_count": 38,
-   "doi": "10.1038/s41591-026-04671-5",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤",
-    "肾脏/泌尿"
-   ]
-  },
-  {
-   "pmid": "42875558",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial.",
-   "title_zh": "个性化新抗原靶向癌症疫苗治疗卵巢癌：一项1期试验",
-   "summary_en": "Personalized neoantigen-targeting cancer vaccines in the adjuvant setting are of increasing interest across malignancies. Here we report the results of a phase 1 clinical trial testing the feasibility and safety of personalized neoantigen-targeting cancer vaccines for high-grade epithelial ovarian cancer. 'NeoVax' consisted of pools of synthetic long peptides targeting patient-specific neoantigens admixed with the immunostimulant poly-ICLC, was combined with delayed administration of anti-PD-1 antibody, and was tested in ten patients (one newly diagnosed patient (Cohort A) and nine patients at first recurrence (Cohort B)) with platinum-sensitive ovarian cancer following standard-of-care platinum doublet chemotherapy. Nine of 12 evaluable Cohort B patients were vaccinated (75%, 90% CI 47-93",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42875558/",
-   "date": "2026-10-14",
-   "authors": "Sellars MC, Frank JA, Shim B, Vanasse A, Liu R, Forman C",
-   "author_count": 42,
-   "doi": "10.1038/s41591-026-04717-8",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤",
-    "疫苗"
-   ]
-  },
-  {
    "pmid": "42874590",
    "journal": "Cell",
    "journal_abbr": "Cell",
@@ -21789,75 +22966,6 @@
    ]
   },
   {
-   "pmid": "42869996",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Characterizing the onset and progression of cancer cachexia using routine clinical data.",
-   "title_zh": "利用常规临床数据刻画癌症恶病质的起病与进展",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42869996/",
-   "date": "2026-10-13",
-   "authors": "",
-   "author_count": 0,
-   "doi": "10.1038/s41591-026-04720-z",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤"
-   ]
-  },
-  {
-   "pmid": "42869995",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Autologous and broadly neutralizing antibodies drive ART-free HIV control.",
-   "title_zh": "自体抗体和广谱中和抗体驱动无需ART的HIV控制",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42869995/",
-   "date": "2026-10-13",
-   "authors": "Nasomsong W, Li JZ",
-   "author_count": 2,
-   "doi": "10.1038/s41591-026-04714-x",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42869994",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Human-artificial intelligence collaboration for comanaging epilepsy in real time.",
-   "title_zh": "人机协作实时共同管理癫痫",
-   "summary_en": "One-third of the world's 70 million people with epilepsy have seizures uncontrolled by medication, and implantable devices are a promising treatment. These devices can detect impending seizures, missed medication and impaired cognition, but, like most medical devices, they cannot share this information with patients in real time. This is a missed opportunity for devices to learn from clinical events and teach patients how their behaviors affect their health. Here we present a device platform that converses with patients to help them manage their epilepsy. The inpatient prototype links scalp and intracranial electroencephalography (EEG) to a secure, large language model-based artificial intelligence (AI) that communicates bidirectionally through a smartphone app. The AI processes biomarkers",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42869994/",
-   "date": "2026-10-13",
-   "authors": "Goldblum Z, Shi H, Xu Z, Ojemann WKS, Aguila CA, Long K",
-   "author_count": 17,
-   "doi": "10.1038/s41591-026-04680-4",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "老年医学"
-   ]
-  },
-  {
    "pmid": "42869023",
    "journal": "Cell",
    "journal_abbr": "Cell",
@@ -21950,59 +23058,13 @@
    ]
   },
   {
-   "pmid": "42864412",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "A health-system-scale, episode-resolved multimodal atlas of cancer cachexia.",
-   "title_zh": "健康系统规模、按发作解析的癌症恶病质多模态图谱",
-   "summary_en": "Cancer cachexia is a wasting syndrome with outsized impact on morbidity and mortality, yet its drivers and systemic consequences remain poorly defined. In this study, we repurposed longitudinal clinicogenomic data from 52,236 patients with cancer profiled by MSK-IMPACT (2010-2024) at Memorial Sloan Kettering Cancer Center to define episode-resolved trajectories of consensus-defined cachectic weight loss and linked these events to outcomes, serology and tumor genotypes. Cachectic episodes clustered near periods of disease progression and were associated with inferior outcomes in nearly all cancer types. Across diverse malignancies, cachectic weight loss episodes exhibited a consistent serologic signature characterized by lower albumin and hemoglobin and higher levels of liver enzymes. Numer",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42864412/",
-   "date": "2026-10-12",
-   "authors": "Castillon VJ, Xie AX, Boscenco S, Tse E, Ruthen N, Wang J",
-   "author_count": 22,
-   "doi": "10.1038/s41591-026-04689-9",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤"
-   ]
-  },
-  {
-   "pmid": "42855585",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Addendum: Aberrant epithelial GREM1 expression initiates colonic tumorigenesis from cells outside the stem cell niche.",
-   "title_zh": "补遗：异常上皮GREM1表达从干细胞龛外细胞启动结肠肿瘤发生",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42855585/",
-   "date": "2026-10-09",
-   "authors": "Davis H, Irshad S, Bansal M, Rafferty H, Boitsova T, Bardella C",
-   "author_count": 26,
-   "doi": "10.1038/s41591-026-04736-5",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤"
-   ]
-  },
-  {
    "pmid": "42855584",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
    "title_en": "AI-assisted scoping review of code sharing in clinical prediction model research.",
    "title_zh": "人工智能辅助的范围综述：临床预测模型研究中的代码共享",
    "summary_en": "Clinical prediction models are increasingly deployed to support diagnostic and prognostic decisions, making reproducibility essential for assessing their reliability and generalizability. Analytical code supports independent assessment of these processes, yet its availability in the literature remains limited. This scoping review quantifies current practices in sharing analytical code to inform the development of TRIPOD-Code, a reporting guideline for code availability and reproducibility. Here a large-language-model-assisted pipeline was developed to screen articles citing TRIPOD or TRIPOD+AI, extract repository links and assess retrieved repositories against 14 predefined reproducibility-related features. Among 3,967 articles, 482 (12.2%) included code-sharing statements. Sharing prevale",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42855584/",
    "date": "2026-10-09",
@@ -22035,29 +23097,6 @@
    "study_type": "研究论文",
    "pubtypes": [
     "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42850439",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Author Correction: Natural killer T cells and CD8+ T cells are dispensable for T cell-dependent allergic airway inflammation.",
-   "title_zh": "作者更正：自然杀伤T细胞和CD8+ T细胞对T细胞依赖性过敏性气道炎症并非必需。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42850439/",
-   "date": "2026-10-08",
-   "authors": "Das J, Eynott P, Jupp R, Bothwell A, Van Kaer L, Shi Y",
-   "author_count": 7,
-   "doi": "10.1038/s41591-026-04709-8",
-   "study_type": "",
-   "pubtypes": [
-    "Published Erratum"
    ],
    "mesh": [],
    "departments": [
@@ -22357,29 +23396,6 @@
    ]
   },
   {
-   "pmid": "42839103",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Extended follow-up of in vivo BCMA CAR-T therapy in relapsed/refractory multiple myeloma.",
-   "title_zh": "体内BCMA CAR-T疗法治疗复发/难治性多发性骨髓瘤的延长随访。",
-   "summary_en": "Data on long-term outcomes of in vivo chimeric antigen receptor T cell (CAR‑T) therapy remain scarce. We previously reported preliminary safety and efficacy data of in vivo B-cell maturation antigen (BCMA) CAR‑T (ESO-T01), in four patients with relapsed/refractory multiple myeloma, without leukapheresis and lymphodepletion, with up to 3 months of follow-up. The primary endpoints included safety and tolerability, while the secondary endpoints comprised efficacy, pharmacokinetics and pharmacodynamics. All patients developed dual-phase cytokine release syndrome (grades 1-3) and hematotoxicities (grade ≥3). One patient developed grade 1 immune effector cell-associated neurotoxicity syndrome. The objective response rate reached 100% (two stringent complete response and two partial response). He",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42839103/",
-   "date": "2026-10-06",
-   "authors": "Xu J, Liu L, Xie W, Su L, Wang W, Li C",
-   "author_count": 15,
-   "doi": "10.1038/s41591-026-04704-z",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "42839102",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -22496,76 +23512,6 @@
    ]
   },
   {
-   "pmid": "42834229",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial.",
-   "title_zh": "口服小分子GLP-1RA safiglipron对比达格列净治疗2型糖尿病：一项随机、双盲、活性对照3期试验。",
-   "summary_en": "Safiglipron is an oral small-molecule glucagon-like peptide-1 (GLP-1) receptor agonist administered without fasting or dietary restrictions. We evaluated its efficacy and safety versus dapagliflozin in OUTSTAND-2, a phase 3, multicenter, randomized, double-blind, double-dummy, active-comparator-controlled trial conducted at 98 sites in China. We randomized 810 adults (mean hemoglobin A1C (HbA1c) 8.60%, median diabetes duration 5.0 years, 35.7% women) to safiglipron 30 mg (n = 202), safiglipron 60 mg (n = 203), safiglipron 90 mg (n = 203) or dapagliflozin 10 mg (n = 202) for 32 weeks, followed by a 20-week active-treatment extension. For the primary endpoint, treatment differences versus dapagliflozin in change from baseline in HbA1c at week 32 under the primary non-inferiority estimand wer",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42834229/",
-   "date": "2026-10-05",
-   "authors": "Guo L, Yu D, Xu Y, Tang G, Peng L, Meng C",
-   "author_count": 17,
-   "doi": "10.1038/s41591-026-04713-y",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "内分泌/代谢"
-   ]
-  },
-  {
-   "pmid": "42834228",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Global and regional reference curves for pain across the lifespan in 6.1 million individuals in 118 countries.",
-   "title_zh": "118个国家610万个体全生命周期疼痛的全球和区域参考曲线。",
-   "summary_en": "Pain is the leading cause of disability worldwide, yet no harmonized self-reported reference framework exists to characterize how its burden is distributed across the lifespan and world regions. In this study, we harmonized individual-level self-reported pain data from 6,125,459 participants across 902 population-based data sources in 118 countries to establish global reference trajectories of pain. We implemented these trajectories in an open-access benchmarking platform for positioning external datasets against global pain norms. Pain prevalence ranged from roughly 2% for facial pain to 40% for back pain, was consistently higher in women across all 11 anatomical sites (risk ratio range: 1.08-1.83) and increased most steeply before age 55 years. Contrary to existing estimates that general",
-   "summary_zh": "【研究论文】Nat Med 刊载。关键数据：95%。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42834228/",
-   "date": "2026-10-05",
-   "authors": "Fillingim M, Tanguay-Sabourin C, Neuert L, Zare A, Norman J, Guglietti GV",
-   "author_count": 94,
-   "doi": "10.1038/s41591-026-04696-w",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42827132",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Urine cell-free RNA for bladder cancer detection and treatment response prediction.",
-   "title_zh": "尿液游离RNA用于膀胱癌检测和治疗反应预测。",
-   "summary_en": "Urine biomarkers promise to improve noninvasive detection and molecular characterization of genitourinary malignancies. Here we describe urine random priming and affinity capture of cell-free RNA (cfRNA) fragments for enrichment analysis by sequencing (uRARE-seq), a liquid biopsy method for urine cfRNA profiling, and apply it to 683 urine samples from patients with cancer and controls. Urine cfRNA contained transcripts from genitourinary tissues and, in patients with prostate, kidney or bladder cancer, tumor-derived transcripts. uRARE-seq demonstrated 95% sensitivity at 90% specificity for detecting localized bladder cancer. The method outperformed urine tumor DNA analysis and was unaffected by the presence of field-effect mutations. Urine cfRNA analysis also sensitively detected minimal r",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42827132/",
-   "date": "2026-10-02",
-   "authors": "Liu KJ, Shi WY, Nesselbush MC, Phillips NA, Mach KE, Luca B",
-   "author_count": 42,
-   "doi": "10.1038/s41591-026-04673-3",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤",
-    "肾脏/泌尿"
-   ]
-  },
-  {
    "pmid": "42875669",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -22595,7 +23541,7 @@
    "title_en": "Population-scale reconstruction of menopause dynamics reveals a physiological cliff at the final menstrual period.",
    "title_zh": "人群尺度的绝经动态重建揭示末次月经时的生理断崖",
    "summary_en": "Menopause reshapes female physiology, yet current understanding is limited by small longitudinal cohorts that characterize it as a gradual transition. Large-scale biomedical datasets remain underutilized because the final menstrual period (FMP) age is rarely recorded. Here we present a computational framework, inspired by astronomy, that reconstructs FMP-anchored trajectories from cross-sectional data by removing the blurring caused by variation in FMP age across individuals. Applying this to two independent cohorts totaling 300 million laboratory tests revealed a step-like physiological cliff at the FMP including endocrine, skeletal, hepatic, renal and lipid systems. These discontinuities are absent in male individuals, are concordant across populations and appear markedly attenuated by m",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3823-3831",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42864411/",
    "date": "2026-10-01",
@@ -22626,7 +23572,7 @@
    "title_en": "An open vision-language model for diverse medical applications.",
    "title_zh": "面向多样化医学应用的开放式视觉语言模型",
    "summary_en": "Artificial intelligence has high potential for impact in healthcare applications, but its training and deployment are challenging due to diverse data, a complex spectrum of possible tasks and important privacy needs. High-performing foundation models that enable data-efficient fine-tuning for diverse downstream tasks can meaningfully accelerate development in this domain. We introduce MedGemma, a collection of medical vision-language foundation models based on Gemma 3. MedGemma demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while maintaining the general capabilities of the Gemma base models. For out-of-distribution tasks, MedGemma achieves improvements of 2",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3695-3704",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42839104/",
    "date": "2026-10-01",
@@ -22653,7 +23599,7 @@
    "title_en": "Small quantity lipid-based nutritional supplementation and measles vaccination coverage in children aged 6-23 months: a pragmatic cluster-randomized trial.",
    "title_zh": "小剂量脂质基营养补充与6-23月龄儿童麻疹疫苗接种覆盖率：一项实用性整群随机试验",
    "summary_en": "Undernutrition and infectious diseases pose a double threat to child survival, especially in areas with a high malnutrition burden and low vaccination coverage. In this study, we evaluated whether distributing preventive small-quantity lipid-based nutrient supplements (SQ-LNS) alongside routine immunization services may increase vaccine uptake in a pediatric, pragmatic, cluster-randomized controlled trial in northern Nigeria. Twenty geographically defined clusters across two Local Government Areas were randomized 1:1 to the NutriVax strategy (intervention) or standard National Program of Immunization (NPI) services (control). NutriVax provided a monthly ration of SQ-LNS to children aged 6-23 months after routine NPI delivery at primary healthcare centers. The primary outcome was coverage o",
-   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3622-3632",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42827131/",
    "date": "2026-10-01",
@@ -22704,53 +23650,6 @@
    "mesh": [],
    "departments": [
     "综合"
-   ]
-  },
-  {
-   "pmid": "42823486",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Five-year survival with neoadjuvant therapy in melanoma: updated pooled analysis from the International Neoadjuvant Melanoma Consortium (INMC).",
-   "title_zh": "黑色素瘤新辅助治疗的五年生存：国际新辅助黑色素瘤联盟（INMC）更新的汇总分析",
-   "summary_en": "Neoadjuvant immune checkpoint inhibitors (ICIs) are standard of care for resectable stage IIIB-D melanoma, but knowledge gaps remain regarding optimal treatment type, long-term survival, postsurgical management and clinical, histopathological or molecular subgroups. We analyzed 1,038 patients treated with neoadjuvant ICIs (n = 735), BRAF and MEK inhibitors (BRAF/MEKis; n = 119) or ICI plus any targeted therapy (ICI + TT; n = 184) from 26 international sites in both trial (755, 72.7%) and nontrial (283, 27.3%) settings. ICI regimens included anti-programmed cell death protein 1 (PD-1) alone (PD-1 alone; n = 242) and anti-PD-1 plus other immuno-oncology agent(s) (PD-1 + IO; n = 489). Outcomes included major pathological response (MPR), recurrence-free survival (RFS) and overall survival (OS)",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42823486/",
-   "date": "2026-10-01",
-   "authors": "Long GV, Pires da Silva I, Perry KA, Romano J, Lo SN, Grover P",
-   "author_count": 53,
-   "doi": "10.1038/s41591-026-04677-z",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42823485",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Effects of semaglutide on kidney disease in type 2 diabetes: a randomized placebo-controlled trial.",
-   "title_zh": "semaglutide对2型糖尿病肾脏疾病的影响：一项随机安慰剂对照试验",
-   "summary_en": "The GLP-1 receptor agonist semaglutide preserves kidney function in people with type 2 diabetes and chronic kidney disease, but the underlying mechanisms are unclear. Here we report a 52-week randomized trial of subcutaneous semaglutide 1 mg once weekly versus placebo (n = 106 (n = 25 women, n = 81 men)) in participants with type 2 diabetes and chronic kidney disease. To identify kidney-specific mechanisms of action for semaglutide, we performed integrated multiparametric magnetic resonance imaging of the kidney and biopsy for histology (n = 33), alongside single-nucleus (n = 22) and spatial transcriptomics (n = 13) on paired samples with before- and after-treatment measurements. Coprimary magnetic resonance imaging outcomes (oxygenation by R2*, global perfusion and tissue inflammation by ",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42823485/",
-   "date": "2026-10-01",
-   "authors": "Tuttle KR, Bjornstad P, Smith C, Pruijm M, McCown PJ, Hodgin JB",
-   "author_count": 15,
-   "doi": "10.1038/s41591-026-04674-2",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "内分泌/代谢",
-    "肾脏/泌尿"
    ]
   },
   {
@@ -23015,7 +23914,7 @@
    "title_en": "Reproducibility in biomedical research.",
    "title_zh": "生物医学研究的可重复性",
    "summary_en": "Reproducibility has long been considered a foundation of trustworthy science, yet practices that enable reproducible research remain inconsistently implemented, despite widespread awareness and establishment of policies and guidelines. Biomedical research that cannot be reproduced can lead to resource waste and adversely impact patient safety, public health outcomes, scientific progress and public trust. Rapid advances in technology, scientific dissemination and clinical translation have prompted renewed emphasis on validating research methods and findings to ensure transparency, rigor and credibility. Here we provide an overview of the current landscape of reproducible research in the biomedical sciences, summarize current efforts to harmonize terminology and implementation, and highlight",
-   "summary_zh": "【综述】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3564-3577",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42811190/",
    "date": "2026-10-01",
@@ -23043,7 +23942,7 @@
    "title_en": "Redesigning cardiovascular medicine around sex differences.",
    "title_zh": "围绕性别差异重新设计心血管医学",
    "summary_en": "Cardiovascular disease remains the leading cause of death in women and a major contributor to disability, yet the evidence guiding diagnosis and treatment is still largely derived from studies in which men and male-pattern disease phenotypes have predominated. Women exhibit distinct cardiovascular physiology that contributes to sex differences in cardiovascular health and disease across the life course. However, these biological differences rarely inform clinical decision-making and remain incompletely understood, owing to a research ecosystem that inadequately addresses sex-specific biology. Conditions such as spontaneous coronary artery dissection, Takotsubo syndrome and coronary vasomotor disorders disproportionately affect women but were historically under-recognized as distinct clinic",
-   "summary_zh": "【综述】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3551-3563",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42791374/",
    "date": "2026-10-01",
@@ -23121,7 +24020,7 @@
    "title_en": "AI-based characterization of Alzheimer's disease phenotypes from population-scale single-cell data.",
    "title_zh": "基于AI从人群尺度单细胞数据刻画阿尔茨海默病表型",
    "summary_en": "The complexity of Alzheimer's disease (AD) manifests in diverse clinical phenotypes, including cognitive impairment and neuropsychiatric symptoms. However, the etiology of these phenotypes remains elusive. To address this, the PsychAD project generated a population-level single-nucleus RNA sequencing dataset comprising over 6 million nuclei from the prefrontal cortex of >1,000 individual brains, covering a variety of disease phenotypes. Here, leveraging this dataset, we developed a computational framework, called Phenotype Associated Single Cell encoder (PASCode), to score single-cell phenotype associations, and identified ∼1.5 million phenotype-associated cells (PACs) from 584 donors with AD-related phenotypes. PASCode ensembles multiple statistical methods into a graph neural model for r",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3682-3694",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42778763/",
    "date": "2026-10-01",
@@ -23155,7 +24054,7 @@
    "title_en": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence.",
    "title_zh": "通过平扫计算机断层扫描与人工智能进行大规模食管癌筛查",
    "summary_en": "The absence of accurate, noninvasive, scalable screening tools keeps early esophageal cancer (EC) detection a global health challenge. Although noncontrast computed tomography (NC CT) is widely accessible, the esophagus is a hollow tubular structure prone to collapse and motion artifacts, making small early malignant lesions difficult to distinguish from normal tissue. Here we developed the Esophageal AI-Guided malignant Lesion Evaluation (EAGLE) model to detect precancerous lesions and cancer from chest NC CT, a task historically considered impossible. EAGLE was trained on 6,813 patients from two centers and validated across 12 centers in three countries involving 80,612 patients in opportunistic and population-based screening settings. For opportunistic screening on existing CT scans, mu",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3748-3759",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42773211/",
    "date": "2026-10-01",
@@ -23190,7 +24089,7 @@
    "title_en": "Performance of a multi-cancer early detection test in the randomized controlled NHS-Galleri trial.",
    "title_zh": "多癌种早期检测在随机对照NHS-Galleri试验中的表现",
    "summary_en": "The NHS-Galleri trial was a randomized controlled trial evaluating a multi-cancer early detection (MCED) test added to usual care. We reported elsewhere that the primary endpoint of a reduction in the incidence of stage III/IV cancer diagnoses in the intervention arm versus control arm was not met. Here we report prespecified secondary test performance endpoints among evaluable intervention arm participants across three annual screening rounds. These analyses were descriptive; there was no hypothesis testing. Participants aged 50-77 years (N = 142,250) were randomized 1:1 into intervention (MCED) or control arms. Intervention arm participants with positive MCED results were referred to National Health Service (NHS) standard-of-care pathways for diagnostic workup, with referrals informed by",
-   "summary_zh": "【随机对照试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3770-3780",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42773209/",
    "date": "2026-10-01",
@@ -23246,7 +24145,7 @@
    "title_en": "Performance and safety of a multi-cancer early detection test: the PATHFINDER 2 study.",
    "title_zh": "多癌种早期检测试验的表现与安全性：PATHFINDER 2研究",
    "summary_en": "Early cancer detection improves survival; however, most cancer types do not have guideline-recommended screening. We previously reported the first PATHFINDER study that established feasibility of cancer screening with a blood-based multi-cancer early detection (MCED) test that predicts cancer signal origin (CSO) to guide diagnostic workup. The prospective, interventional PATHFINDER 2 study expands clinical evidence for the MCED test by evaluating co-primary endpoints of MCED performance metrics and safety in participants aged 50 years or older without clinical suspicion of cancer. Performance measures included cancer detection rate, positive and negative predictive values, episode sensitivity, specificity and CSO prediction accuracy. Safety was evaluated in terms of number and type of inva",
-   "summary_zh": "【临床试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【临床试验】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3760-3769",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42773207/",
    "date": "2026-10-01",
@@ -23310,7 +24209,7 @@
    "title_en": "A consensus-based guideline for personalized bacteriophage therapy.",
    "title_zh": "基于共识的个性化噬菌体治疗指南",
    "summary_en": "Bacteriophages (phages) - viruses that selectively infect bacteria - are a promising option for personalized therapy of difficult-to-treat bacterial infections. Clinical implementation in many countries worldwide, however, faces multiple hurdles, including a lack of consensus on general principles for phage therapy, infrastructural requirements, procedures for quality-assured phage selection and preparation, clinical administration, monitoring and documentation. Existing guidance provides limited practical direction across the entire translational pathway and lacks inspection-ready specifications to support both pharmacies and clinical sites. These gaps impede safe and transparent clinical use and effective regulatory oversight. Likewise, there are no established processes to identify rese",
-   "summary_zh": "【临床指南】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【临床指南】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3578-3594",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42768217/",
    "date": "2026-10-01",
@@ -23342,7 +24241,7 @@
    "title_en": "Levetiracetam therapeutically targets GABAergic synapses in diffuse midline glioma.",
    "title_zh": "左乙拉西坦治疗性靶向弥漫性中线胶质瘤中的GABA能突触",
    "summary_en": "Antiseizure medications, such as levetiracetam, are commonly used in glioma patients. Retrospective analyses evaluating effects of antiseizure medications on glioma patient survival have yielded inconsistent results, probably due to confounding factors of glioma subtype and drug class. Here we present retrospective real-world clinical data that demonstrate longer overall survival for children with diffuse midline glioma (DMG) who were taking levetiracetam, which was not evident in pediatric patients with hemispheric high-grade glioma. In preclinical models, levetiracetam reduces glioma proliferation and tumor burden, extending survival of mice bearing DMG orthotopic xenografts. These beneficial effects were not found in hemispheric high-grade glioma patient-derived orthotopic xenograft mod",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3792-3800",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42754728/",
    "date": "2026-10-01",
@@ -23378,7 +24277,7 @@
    "title_en": "Factor IX Padua AAV gene therapy in adolescents with hemophilia B: a phase 1 trial.",
    "title_zh": "Factor IX Padua AAV基因治疗青少年血友病B：一项1期试验",
    "summary_en": "Adeno-associated virus (AAV)-mediated factor IX Padua gene therapy has demonstrated good safety and efficacy in adult patients with hemophilia B, but its safety and efficacy in adolescent patients with hemophilia B remain unknown. Here we report a multicenter, single-arm, phase 1 study involving 11 adolescent participants (aged 12-18 years) with severe or moderately severe hemophilia B (factor IX coagulant activity (FIX:C) ≤2 IU dl-1) in China. All of them received the AAV gene therapy BBM-H901 at a dose of 5 × 1012 vector genomes per kilogram of body weight and were then enrolled in a 52-week follow-up. The primary endpoint was safety. No dose-limiting toxicity was observed throughout the study. The most common adverse events included elevation of white blood cell count, elevation of neut",
-   "summary_zh": "【I 期临床试验】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【I 期临床试验】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026; 32(10): 3853-3861",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42749889/",
    "date": "2026-10-01",

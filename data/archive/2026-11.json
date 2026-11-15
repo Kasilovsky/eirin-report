@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
  "month": "2026-11",
- "count": 485,
+ "count": 539,
  "articles": [
   {
    "pmid": "42962694",
@@ -216,6 +216,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "Evidence and gaps for preventing postpartum haemorrhage.",
+   "title_zh": "预防产后出血的证据与空白",
    "citation": "Lancet. 2026; 408(10568): 2067",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43020093/",
    "date": "2026-11-14",
@@ -231,7 +232,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "Evidence and gaps for preventing postpartum haemorrhage.",
-   "title_zh": "预防产后出血的证据和不足之处。",
+   "title_zh": "预防产后出血的证据与空白",
    "citation": "Lancet. 2026; 408(10568): 2066-2067",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43020092/",
    "date": "2026-11-14",
@@ -263,6 +264,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "The Perth Declaration to eliminate rheumatic fever and rheumatic heart disease.",
+   "title_zh": "消除风湿热与风湿性心脏病的珀斯宣言",
    "citation": "Lancet. 2026; 408(10568): 2065",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43020090/",
    "date": "2026-11-14",
@@ -805,6 +807,38 @@
    "study_type": "研究论文",
    "departments": [
     "综合"
+   ]
+  },
+  {
+   "pmid": "43026662",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Fluid eMTBR-tau243 as a Biomarker of Mixed 3-Repeat and 4-Repeat Tau Pathology.",
+   "title_zh": "作为混合3重复和4重复Tau蛋白病理的生物标志物的体液eMTBR-tau243。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43026662/",
+   "date": "2026-11-13",
+   "authors": "Horie K, Koppisetti RK, VandeVrede L, Asken BM, Li Y, Yen D",
+   "doi": "10.1001/jama.2026.24689",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43026301",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Vaccines could be a new frontier in KRAS targeting.",
+   "title_zh": "疫苗可能是 KRAS 靶向治疗的新领域。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43026301/",
+   "date": "2026-11-13",
+   "authors": "Pai HV, Phillips R, Sivakumar S",
+   "doi": "10.1038/s41591-026-04772-1",
+   "study_type": "研究论文",
+   "departments": [
+    "疫苗"
    ]
   },
   {
@@ -2001,37 +2035,6 @@
    "study_type": "研究论文",
    "departments": [
     "遗传/基因"
-   ]
-  },
-  {
-   "pmid": "43020901",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Effect of two common GVHD prophylaxis regimens on the gut microbiome in a randomized phase 3 trial.",
-   "title_zh": "一项随机 3 期试验中两种常见 GVHD 预防方案对肠道微生物群的影响。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43020901/",
-   "date": "2026-11-12",
-   "authors": "Wirbel J, Saber W, Martens MJ, Peled JU, Andermann TM, Fei T",
-   "doi": "10.1038/s41591-026-04712-z",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "43020900",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Young people with obesity deserve better care.",
-   "title_zh": "肥胖的年轻人理应得到更好的护理。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43020900/",
-   "date": "2026-11-12",
-   "doi": "10.1038/s41591-026-04784-x",
-   "study_type": "述评",
-   "departments": [
-    "内分泌/代谢"
    ]
   },
   {
@@ -3859,21 +3862,6 @@
    ]
   },
   {
-   "pmid": "43003904",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Deep learning-based gait analysis predicts multisystem health phenotypes.",
-   "title_zh": "基于深度学习的步态分析可预测多系统健康表型。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43003904/",
-   "date": "2026-11-09",
-   "doi": "10.1038/s41591-026-04725-8",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "43003903",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -4734,22 +4722,6 @@
    "date": "2026-11-06",
    "authors": "Schweitzer K",
    "doi": "10.1001/jama.2026.18249",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42995231",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motion.",
-   "title_zh": "一种从三维骨骼运动预测多系统健康表型的步态基础模型。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42995231/",
-   "date": "2026-11-06",
-   "authors": "Gabet A, Kohn S, Lutsker G, Gelman S, Godneva A, Sasson G",
-   "doi": "10.1038/s41591-026-04724-9",
    "study_type": "研究论文",
    "departments": [
     "综合"
@@ -6438,22 +6410,6 @@
    ]
   },
   {
-   "pmid": "42977758",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "A live biotherapeutic product for adult allogeneic hematopoietic cell transplantation recipients: a partially randomized, placebo-controlled phase 1b trial.",
-   "title_zh": "用于成人异基因造血细胞移植受者的活体生物治疗产品：一项部分随机、安慰剂对照的1b期试验。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42977758/",
-   "date": "2026-11-03",
-   "authors": "Ponce DM, DeFilipp Z, Ford CB, Tejura B, Lombardo MJ, Lichter DI",
-   "doi": "10.1038/s41591-026-04686-y",
-   "study_type": "研究论文",
-   "departments": [
-    "移植"
-   ]
-  },
-  {
    "pmid": "42977757",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -7380,38 +7336,6 @@
    ]
   },
   {
-   "pmid": "42972108",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Neoadjuvant botensilimab with or without balstilimab in pMMR and dMMR colon cancer: the phase 2 UNICORN trial.",
-   "title_zh": "新辅助botensilimab联合或不联合balstilimab治疗pMMR和dMMR结肠癌：2期UNICORN试验",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42972108/",
-   "date": "2026-11-02",
-   "authors": "Ghelardi F, Ambrosini M, Raimondi A, Tyshevich A, Palermo F, Bergamo F",
-   "doi": "10.1038/s41591-026-04710-1",
-   "study_type": "研究论文",
-   "departments": [
-    "肿瘤"
-   ]
-  },
-  {
-   "pmid": "42972107",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "Global, regional and national burden of cervical cancer in 1990-2023 with forecasts to 2050: a Global Burden of Disease study.",
-   "title_zh": "1990-2023年全球、区域和国家宫颈癌负担及至2050年的预测：全球疾病负担研究",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42972107/",
-   "date": "2026-11-02",
-   "authors": "GBD 2023 Cervical Cancer Collaborators",
-   "doi": "10.1038/s41591-026-04729-4",
-   "study_type": "研究论文",
-   "departments": [
-    "肿瘤"
-   ]
-  },
-  {
    "pmid": "42971587",
    "journal": "BMJ",
    "journal_abbr": "BMJ",
@@ -7779,6 +7703,119 @@
    ]
   },
   {
+   "pmid": "43020901",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Effect of two common GVHD prophylaxis regimens on the gut microbiome in a randomized phase 3 trial.",
+   "title_zh": "一项随机 3 期试验中两种常见 GVHD 预防方案对肠道微生物群的影响。",
+   "citation": "Nat Med. 2026; 32(11): 4234-4243",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020901/",
+   "date": "2026-11-01",
+   "authors": "Wirbel J, Saber W, Martens MJ, Peled JU, Andermann TM, Fei T",
+   "doi": "10.1038/s41591-026-04712-z",
+   "study_type": "随机对照试验",
+   "departments": [
+    "消化器",
+    "移植"
+   ]
+  },
+  {
+   "pmid": "43020900",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Young people with obesity deserve better care.",
+   "title_zh": "肥胖的年轻人理应得到更好的护理。",
+   "citation": "Nat Med. 2026; 32(11): 3915",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020900/",
+   "date": "2026-11-01",
+   "doi": "10.1038/s41591-026-04784-x",
+   "study_type": "述评",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43003904",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Deep learning-based gait analysis predicts multisystem health phenotypes.",
+   "title_zh": "基于深度学习的步态分析可预测多系统健康表型。",
+   "citation": "Nat Med. 2026; 32(11): 3962-3963",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003904/",
+   "date": "2026-11-01",
+   "doi": "10.1038/s41591-026-04725-8",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42995231",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motion.",
+   "title_zh": "一种从三维骨骼运动预测多系统健康表型的步态基础模型。",
+   "citation": "Nat Med. 2026; 32(11): 4256-4267",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42995231/",
+   "date": "2026-11-01",
+   "authors": "Gabet A, Kohn S, Lutsker G, Gelman S, Godneva A, Sasson G",
+   "doi": "10.1038/s41591-026-04724-9",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42977758",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A live biotherapeutic product for adult allogeneic hematopoietic cell transplantation recipients: a partially randomized, placebo-controlled phase 1b trial.",
+   "title_zh": "用于成人异基因造血细胞移植受者的活体生物治疗产品：一项部分随机、安慰剂对照的1b期试验。",
+   "citation": "Nat Med. 2026; 32(11): 4221-4233",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42977758/",
+   "date": "2026-11-01",
+   "authors": "Ponce DM, DeFilipp Z, Ford CB, Tejura B, Lombardo MJ, Lichter DI",
+   "doi": "10.1038/s41591-026-04686-y",
+   "study_type": "随机对照试验",
+   "departments": [
+    "移植"
+   ]
+  },
+  {
+   "pmid": "42972108",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Neoadjuvant botensilimab with or without balstilimab in pMMR and dMMR colon cancer: the phase 2 UNICORN trial.",
+   "title_zh": "新辅助botensilimab联合或不联合balstilimab治疗pMMR和dMMR结肠癌：2期UNICORN试验",
+   "citation": "Nat Med. 2026; 32(11): 4172-4184",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42972108/",
+   "date": "2026-11-01",
+   "authors": "Ghelardi F, Ambrosini M, Raimondi A, Tyshevich A, Palermo F, Bergamo F",
+   "doi": "10.1038/s41591-026-04710-1",
+   "study_type": "II 期临床试验",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42972107",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Global, regional and national burden of cervical cancer in 1990-2023 with forecasts to 2050: a Global Burden of Disease study.",
+   "title_zh": "1990-2023年全球、区域和国家宫颈癌负担及至2050年的预测：全球疾病负担研究",
+   "citation": "Nat Med. 2026; 32(11): 4185-4207",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42972107/",
+   "date": "2026-11-01",
+   "authors": "GBD 2023 Cervical Cancer Collaborators",
+   "doi": "10.1038/s41591-026-04729-4",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "感染",
+    "公共卫生"
+   ]
+  },
+  {
    "pmid": "42969897",
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
@@ -7792,6 +7829,842 @@
    "study_type": "研究论文",
    "departments": [
     "循环器"
+   ]
+  },
+  {
+   "pmid": "42963406",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Climate change threatens malaria elimination in the Asia Pacific.",
+   "title_zh": "气候变化威胁亚太地区疟疾消除",
+   "citation": "Nat Med. 2026; 32(11): 3964-3974",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42963406/",
+   "date": "2026-11-01",
+   "authors": "Fornace K, Hein PS, Djaafara B, Ashad-Uz-Zaman MN, Chang CC, Elyazar I",
+   "doi": "10.1038/s41591-026-04722-x",
+   "study_type": "综述",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42957777",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A clinical multimodal vision language foundation model with fine-grain explainability.",
+   "title_zh": "具有细粒度可解释性的临床多模态视觉语言基础模型",
+   "citation": "Nat Med. 2026; 32(11): 4208-4220",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42957777/",
+   "date": "2026-11-01",
+   "authors": "Bai Y, Cheng H, Zhou Y, Zhou J, Thirunavukarasu A, Ke Y",
+   "doi": "10.1038/s41591-026-04655-5",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42946879",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Metabolic heterogeneity of obesity.",
+   "title_zh": "肥胖的代谢异质性",
+   "citation": "Nat Med. 2026; 32(11): 3975-3989",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42946879/",
+   "date": "2026-11-01",
+   "authors": "Smith GI, Petersen MC, Hartig SM, Klein S",
+   "doi": "10.1038/s41591-026-04718-7",
+   "study_type": "综述",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42934327",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: Sex-specific biological aging clocks across organs and omics.",
+   "title_zh": "作者更正：跨器官和多组学的性别特异性生物学衰老时钟",
+   "citation": "Nat Med. 2026; 32(11): 4350",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42934327/",
+   "date": "2026-11-01",
+   "authors": "MULTI Consortium, Song Z, Fong D, Rahman NA, Duggan MR, Tian Q",
+   "doi": "10.1038/s41591-026-04776-x",
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42918895",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: β-catenin confers resistance to PI3K and AKT inhibitors and subverts FOXO3a to promote metastasis in colon cancer.",
+   "title_zh": "作者更正：β-catenin赋予对PI3K和AKT抑制剂的耐药性并通过颠覆FOXO3a促进结肠癌转移。",
+   "citation": "Nat Med. 2026; 32(11): 4354",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42918895/",
+   "date": "2026-11-01",
+   "authors": "Tenbaum SP, Ordóñez-Morán P, Puig I, Chicote I, Arqués O, Landolfi S",
+   "doi": "10.1038/s41591-026-04750-7",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42907531",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Editorial Expression of Concern: Oncogenic transformation of diverse gastrointestinal tissues in primary organoid culture.",
+   "title_zh": "编辑关注声明：原代类器官培养中多种胃肠道组织的致癌转化",
+   "citation": "Nat Med. 2026; 32(11): 4358",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42907531/",
+   "date": "2026-11-01",
+   "authors": "Li X, Nadauld L, Ootani A, Corney DC, Pai RK, Gevaert O",
+   "doi": "10.1038/s41591-026-04749-0",
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "42907530",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: Povorcitinib for hidradenitis suppurativa: the randomized, double-blind, placebo-controlled STOP-HS1 and STOP-HS2 phase 3 trials.",
+   "title_zh": "作者更正：Povorcitinib治疗化脓性汗腺炎：随机、双盲、安慰剂对照的STOP-HS1和STOP-HS2 3期试验",
+   "citation": "Nat Med. 2026; 32(11): 4352",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42907530/",
+   "date": "2026-11-01",
+   "authors": "Porter ML, Martorell A, Sayed CJ, Bechara FG, Lev-Tov H, Hsiao JL",
+   "doi": "10.1038/s41591-026-04747-2",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42907529",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Global and regional burden of measles and vaccine coverage among children under 5 years, 1990-2023: a Global Burden of Disease Study.",
+   "title_zh": "1990-2023年全球及区域5岁以下儿童麻疹负担与疫苗覆盖率：全球疾病负担研究",
+   "citation": "Nat Med. 2026; 32(11): 4002-4020",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42907529/",
+   "date": "2026-11-01",
+   "authors": "GBD 2023 Measles Collaborators",
+   "doi": "10.1038/s41591-026-04661-7",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科",
+    "公共卫生",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42907528",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "The need for resilience in global vaccination programs.",
+   "title_zh": "全球疫苗接种规划需要韧性",
+   "citation": "Nat Med. 2026; 32(11): 3952-3953",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42907528/",
+   "date": "2026-11-01",
+   "authors": "Winter AK, Ferrari MJ",
+   "doi": "10.1038/s41591-026-04690-2",
+   "study_type": "研究论文",
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42907527",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Global, regional and national burden of pertussis in 1990-2023: a Global Burden of Disease study.",
+   "title_zh": "1990-2023年全球、区域及国家百日咳负担：全球疾病负担研究",
+   "citation": "Nat Med. 2026; 32(11): 4021-4035",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42907527/",
+   "date": "2026-11-01",
+   "authors": "GBD 2023 Pertussis Collaborators, Mosser JF, Liu J",
+   "doi": "10.1038/s41591-026-04660-8",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科",
+    "公共卫生",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42901991",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: FcRH5×CD3 bispecific antibody cevostamab in relapsed or refractory multiple myeloma: a phase 1 trial.",
+   "title_zh": "作者更正：FcRH5×CD3双特异性抗体cevostamab治疗复发或难治性多发性骨髓瘤：1期试验",
+   "citation": "Nat Med. 2026; 32(11): 4353",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42901991/",
+   "date": "2026-11-01",
+   "authors": "Cohen AD, Richter J, Trudel S, Lesokhin A, Laubach JP, Thomas SK",
+   "doi": "10.1038/s41591-026-04757-0",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42897348",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Molecular predictors of minimal residual disease in newly diagnosed multiple myeloma treated with quadruplet therapy.",
+   "title_zh": "接受四联疗法的新诊断多发性骨髓瘤微小残留病的分子预测因子",
+   "citation": "Nat Med. 2026; 32(11): 4103-4116",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42897348/",
+   "date": "2026-11-01",
+   "authors": "Magrangeas F, Cherkaoui M, Bessonneau-Gaborit V, Derrien J, Chevalier C, Guérin-Charbonnel C",
+   "doi": "10.1038/s41591-026-04692-0",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42897347",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Waiting to get sick enough.",
+   "title_zh": "等待病情足够严重",
+   "citation": "Nat Med. 2026; 32(11): 3933",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42897347/",
+   "date": "2026-11-01",
+   "authors": "Lazarus JV",
+   "doi": "10.1038/s41591-026-04701-2",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42888250",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Conversational brain AI for adaptive epilepsy care.",
+   "title_zh": "对话式脑部AI用于适应性癫痫护理",
+   "citation": "Nat Med. 2026; 32(11): 3957-3959",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42888250/",
+   "date": "2026-11-01",
+   "authors": "Lhatoo S, Vashin V",
+   "doi": "10.1038/s41591-026-04719-6",
+   "study_type": "研究论文",
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42888249",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Real-world, digital-first delivery of GLP-1 receptor agonist therapy in women.",
+   "title_zh": "女性中GLP-1受体激动剂治疗的数字化优先真实世界实施",
+   "citation": "Nat Med. 2026; 32(11): 4319-4329",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42888249/",
+   "date": "2026-11-01",
+   "authors": "Deanfield J, Wong JLC, Katsoulis M, Deanfield E, Thakkar R, Patel R",
+   "doi": "10.1038/s41591-026-04687-x",
+   "study_type": "观察性研究",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42888248",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Only time will tell.",
+   "title_zh": "只有时间能证明",
+   "citation": "Nat Med. 2026; 32(11): 3919-3922",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42888248/",
+   "date": "2026-11-01",
+   "authors": "Healey N",
+   "doi": "10.1038/s41591-026-04699-7",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42875560",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Editorial Expression of Concern: Thyroid hormone inhibits lung fibrosis in mice by improving epithelial mitochondrial function.",
+   "title_zh": "编辑关注声明：甲状腺激素通过改善上皮线粒体功能抑制小鼠肺纤维化",
+   "citation": "Nat Med. 2026; 32(11): 4356",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42875560/",
+   "date": "2026-11-01",
+   "authors": "Yu G, Tzouvelekis A, Wang R, Herazo-Maya JD, Ibarra GH, Srivastava A",
+   "doi": "10.1038/s41591-026-04733-8",
+   "departments": [
+    "呼吸器",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42875559",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Talazoparib plus enzalutamide in high-volume metastatic hormone-naive prostate cancer: a randomized phase 2 trial.",
+   "title_zh": "Talazoparib联合enzalutamide治疗高瘤负荷转移性激素初治前列腺癌：一项随机2期试验",
+   "citation": "Nat Med. 2026; 32(11): 4079-4090",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42875559/",
+   "date": "2026-11-01",
+   "authors": "Zacchi F, Castro E, Imbach K, Rodriguez-Vida A, Simonetti S, Mellado B",
+   "doi": "10.1038/s41591-026-04671-5",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42875558",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial.",
+   "title_zh": "个性化新抗原靶向癌症疫苗治疗卵巢癌：一项1期试验",
+   "citation": "Nat Med. 2026; 32(11): 4160-4171",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42875558/",
+   "date": "2026-11-01",
+   "authors": "Sellars MC, Frank JA, Shim B, Vanasse A, Liu R, Forman C",
+   "doi": "10.1038/s41591-026-04717-8",
+   "study_type": "I 期临床试验",
+   "departments": [
+    "肿瘤",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42869996",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Characterizing the onset and progression of cancer cachexia using routine clinical data.",
+   "title_zh": "利用常规临床数据刻画癌症恶病质的起病与进展",
+   "citation": "Nat Med. 2026; 32(11): 3960-3961",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42869996/",
+   "date": "2026-11-01",
+   "doi": "10.1038/s41591-026-04720-z",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42869995",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Autologous and broadly neutralizing antibodies drive ART-free HIV control.",
+   "title_zh": "自体抗体和广谱中和抗体驱动无需ART的HIV控制",
+   "citation": "Nat Med. 2026; 32(11): 3950-3951",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42869995/",
+   "date": "2026-11-01",
+   "authors": "Nasomsong W, Li JZ",
+   "doi": "10.1038/s41591-026-04714-x",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42869994",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Human-artificial intelligence collaboration for comanaging epilepsy in real time.",
+   "title_zh": "人机协作实时共同管理癫痫",
+   "citation": "Nat Med. 2026; 32(11): 4280-4288",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42869994/",
+   "date": "2026-11-01",
+   "authors": "Goldblum Z, Shi H, Xu Z, Ojemann WKS, Aguila CA, Long K",
+   "doi": "10.1038/s41591-026-04680-4",
+   "study_type": "研究论文",
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42864412",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A health-system-scale, episode-resolved multimodal atlas of cancer cachexia.",
+   "title_zh": "健康系统规模、按发作解析的癌症恶病质多模态图谱",
+   "citation": "Nat Med. 2026; 32(11): 4148-4159",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42864412/",
+   "date": "2026-11-01",
+   "authors": "Castillon VJ, Xie AX, Boscenco S, Tse E, Ruthen N, Wang J",
+   "doi": "10.1038/s41591-026-04689-9",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42855585",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Addendum: Aberrant epithelial GREM1 expression initiates colonic tumorigenesis from cells outside the stem cell niche.",
+   "title_zh": "补遗：异常上皮GREM1表达从干细胞龛外细胞启动结肠肿瘤发生",
+   "citation": "Nat Med. 2026; 32(11): 4355",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42855585/",
+   "date": "2026-11-01",
+   "authors": "Davis H, Irshad S, Bansal M, Rafferty H, Boitsova T, Bardella C",
+   "doi": "10.1038/s41591-026-04736-5",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42850439",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: Natural killer T cells and CD8+ T cells are dispensable for T cell-dependent allergic airway inflammation.",
+   "title_zh": "作者更正：自然杀伤T细胞和CD8+ T细胞对T细胞依赖性过敏性气道炎症并非必需。",
+   "citation": "Nat Med. 2026; 32(11): 4351",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42850439/",
+   "date": "2026-11-01",
+   "authors": "Das J, Eynott P, Jupp R, Bothwell A, Van Kaer L, Shi Y",
+   "doi": "10.1038/s41591-026-04709-8",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42839103",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Extended follow-up of in vivo BCMA CAR-T therapy in relapsed/refractory multiple myeloma.",
+   "title_zh": "体内BCMA CAR-T疗法治疗复发/难治性多发性骨髓瘤的延长随访。",
+   "citation": "Nat Med. 2026; 32(11): 4117-4126",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42839103/",
+   "date": "2026-11-01",
+   "authors": "Xu J, Liu L, Xie W, Su L, Wang W, Li C",
+   "doi": "10.1038/s41591-026-04704-z",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42834229",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial.",
+   "title_zh": "口服小分子GLP-1RA safiglipron对比达格列净治疗2型糖尿病：一项随机、双盲、活性对照3期试验。",
+   "citation": "Nat Med. 2026; 32(11): 4340-4349",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42834229/",
+   "date": "2026-11-01",
+   "authors": "Guo L, Yu D, Xu Y, Tang G, Peng L, Meng C",
+   "doi": "10.1038/s41591-026-04713-y",
+   "study_type": "随机对照试验",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42834228",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Global and regional reference curves for pain across the lifespan in 6.1 million individuals in 118 countries.",
+   "title_zh": "118个国家610万个体全生命周期疼痛的全球和区域参考曲线。",
+   "citation": "Nat Med. 2026; 32(11): 4298-4306",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42834228/",
+   "date": "2026-11-01",
+   "authors": "Fillingim M, Tanguay-Sabourin C, Neuert L, Zare A, Norman J, Guglietti GV",
+   "doi": "10.1038/s41591-026-04696-w",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42827132",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Urine cell-free RNA for bladder cancer detection and treatment response prediction.",
+   "title_zh": "尿液游离RNA用于膀胱癌检测和治疗反应预测。",
+   "citation": "Nat Med. 2026; 32(11): 4091-4102",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42827132/",
+   "date": "2026-11-01",
+   "authors": "Liu KJ, Shi WY, Nesselbush MC, Phillips NA, Mach KE, Luca B",
+   "doi": "10.1038/s41591-026-04673-3",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "肾脏/泌尿",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "42823486",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Five-year survival with neoadjuvant therapy in melanoma: updated pooled analysis from the International Neoadjuvant Melanoma Consortium (INMC).",
+   "title_zh": "黑色素瘤新辅助治疗的五年生存：国际新辅助黑色素瘤联盟（INMC）更新的汇总分析",
+   "citation": "Nat Med. 2026; 32(11): 4136-4147",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42823486/",
+   "date": "2026-11-01",
+   "authors": "Long GV, Pires da Silva I, Perry KA, Romano J, Lo SN, Grover P",
+   "doi": "10.1038/s41591-026-04677-z",
+   "study_type": "研究论文",
+   "departments": [
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "42823485",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Effects of semaglutide on kidney disease in type 2 diabetes: a randomized placebo-controlled trial.",
+   "title_zh": "semaglutide对2型糖尿病肾脏疾病的影响：一项随机安慰剂对照试验",
+   "citation": "Nat Med. 2026; 32(11): 4307-4318",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42823485/",
+   "date": "2026-11-01",
+   "authors": "Tuttle KR, Bjornstad P, Smith C, Pruijm M, McCown PJ, Hodgin JB",
+   "doi": "10.1038/s41591-026-04674-2",
+   "study_type": "随机对照试验",
+   "departments": [
+    "内分泌/代谢",
+    "肾脏/泌尿",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42811189",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Werner helicase inhibitor for advanced microsatellite instability solid tumors: a phase 1 trial.",
+   "title_zh": "用于晚期微卫星不稳定性实体瘤的维尔纳解旋酶抑制剂：一项1期试验。",
+   "citation": "Nat Med. 2026; 32(11): 4068-4078",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42811189/",
+   "date": "2026-11-01",
+   "authors": "Yap TA, Fontana E, Cook N, Fakih M, Bechter O, Tsang ES",
+   "doi": "10.1038/s41591-026-04657-3",
+   "study_type": "I 期临床试验",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42811188",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A synthetic lethal drug for microsatellite instability cancers.",
+   "title_zh": "一种用于微卫星不稳定性癌症的合成致死药物。",
+   "citation": "Nat Med. 2026; 32(11): 3954-3956",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42811188/",
+   "date": "2026-11-01",
+   "authors": "Liu J",
+   "doi": "10.1038/s41591-026-04693-z",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42811187",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Oral small-molecule GLP-1 receptor agonist safiglipron in early type 2 diabetes: a randomized, double-blind, placebo-controlled trial.",
+   "title_zh": "口服小分子GLP-1受体激动剂safiglipron用于早期2型糖尿病：一项随机、双盲、安慰剂对照试验。",
+   "citation": "Nat Med. 2026; 32(11): 4330-4339",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42811187/",
+   "date": "2026-11-01",
+   "authors": "Yu M, Peng L, Jiang C, Zhang X, Li Q, Zhang L",
+   "doi": "10.1038/s41591-026-04651-9",
+   "study_type": "随机对照试验",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42791376",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "The next phase of translational medicine must bridge the gap between innovation to impact.",
+   "title_zh": "转化医学的下一阶段必须弥合创新与影响之间的鸿沟。",
+   "citation": "Nat Med. 2026; 32(11): 3943-3945",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42791376/",
+   "date": "2026-11-01",
+   "authors": "Cavalli G, Seyfert-Margolis V, Cairns C, Gregorio C, Compton S, Prakken B",
+   "doi": "10.1038/s41591-026-04681-3",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42791373",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Polygenic scores in the NHS: the debate is not primarily about the evidence.",
+   "title_zh": "英国国民保健制度中的多基因评分：争论的焦点并非证据。",
+   "citation": "Nat Med. 2026; 32(11): 3928-3929",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42791373/",
+   "date": "2026-11-01",
+   "authors": "Wilson H, Babb de Villiers C, Mills P",
+   "doi": "10.1038/s41591-026-04684-0",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42786304",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Developing cancer-control policies to address the cancer burden among young adults.",
+   "title_zh": "制定癌症防控政策，以应对青年人面临的癌症负担。",
+   "citation": "Nat Med. 2026; 32(11): 3930-3932",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42786304/",
+   "date": "2026-11-01",
+   "authors": "Alessy SA, Teuwen LA, Segelov E, Alqahtani SA",
+   "doi": "10.1038/s41591-026-04653-7",
+   "study_type": "通信",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42778766",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Embryo editing and embryo selection need joint governance.",
+   "title_zh": "胚胎编辑和胚胎选择需要共同治理。",
+   "citation": "Nat Med. 2026; 32(11): 3923-3924",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42778766/",
+   "date": "2026-11-01",
+   "authors": "Chneiweiss H, Hirsch F, Bourgain C, INSERM Ethics Committee",
+   "doi": "10.1038/s41591-026-04669-z",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42773212",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Blood proteomics of menopause map to brain aging and dementia risk.",
+   "title_zh": "绝经期血液蛋白质组学与大脑衰老和痴呆风险的关联。",
+   "citation": "Nat Med. 2026; 32(11): 4244-4255",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42773212/",
+   "date": "2026-11-01",
+   "authors": "Wood Alexander M, Rabin JS, Caunca M, Iadipaolo A, Cornelis L, Warrier R",
+   "doi": "10.1038/s41591-026-04648-4",
+   "study_type": "研究论文",
+   "departments": [
+    "神经",
+    "老年医学",
+    "精神"
+   ]
+  },
+  {
+   "pmid": "42773210",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Trastuzumab plus nivolumab with gemcitabine and cisplatin as first-line therapy for HER2-positive unresectable biliary tract cancer: a phase 1b/2 trial.",
+   "title_zh": "曲妥珠单抗联合纳武利尤单抗加吉西他滨和顺铂作为HER2阳性不可切除胆道癌的一线治疗：一项1b/2期试验。",
+   "citation": "Nat Med. 2026; 32(11): 4127-4135",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42773210/",
+   "date": "2026-11-01",
+   "authors": "Lee CK, Chung T, Kim IH, Chon HJ, Kim JW, Park SJ",
+   "doi": "10.1038/s41591-026-04679-x",
+   "study_type": "II 期临床试验",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42760338",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Editorial Expression of Concern: SWI/SNF-mutant cancers depend on catalytic and non-catalytic activity of EZH2.",
+   "title_zh": "编辑关注意见：SWI/SNF突变型癌症依赖于EZH2的催化和非催化活性。",
+   "citation": "Nat Med. 2026; 32(11): 4357",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42760338/",
+   "date": "2026-11-01",
+   "authors": "Kim KH, Kim W, Howard TP, Vazquez F, Tsherniak A, Wu JN",
+   "doi": "10.1038/s41591-026-04708-9",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42749890",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Sex-specific biological aging clocks across organs and omics.",
+   "title_zh": "跨器官和组学的性别特异性生物衰老时钟。",
+   "citation": "Nat Med. 2026; 32(11): 4268-4279",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42749890/",
+   "date": "2026-11-01",
+   "authors": "MULTI Consortium, Song Z, Fong D, Rahman NA, Duggan MR, Tian Q",
+   "doi": "10.1038/s41591-026-04662-6",
+   "study_type": "研究论文",
+   "departments": [
+    "神经",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42749888",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "EBV reactivation priming of the peripheral immune system in multiple sclerosis relapse.",
+   "title_zh": "多发性硬化症复发时外周免疫系统的EBV再激活诱导。",
+   "citation": "Nat Med. 2026; 32(11): 4056-4067",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42749888/",
+   "date": "2026-11-01",
+   "authors": "King DA, Saxena S, Caefer D, Downer KC, Saucier LE, Goodman E",
+   "doi": "10.1038/s41591-026-04665-3",
+   "study_type": "观察性研究",
+   "departments": [
+    "感染",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "42744897",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Broadly neutralizing antibodies in adult males living with HIV undergoing analytical treatment interruption: secondary and exploratory outcomes of the phase II randomized controlled RIO trial.",
+   "title_zh": "接受分析性停药的成年男性艾滋病患者体内的广谱中和抗体：II期随机对照RIO试验的次要和探索性结果。",
+   "citation": "Nat Med. 2026; 32(11): 3990-4001",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42744897/",
+   "date": "2026-11-01",
+   "authors": "Fumagalli MJ, Kaczynska A, Allombert M, Lopes-Ribeiro Á, de Oliveira Silva M, Hernandez BJ",
+   "doi": "10.1038/s41591-026-04644-8",
+   "study_type": "随机对照试验",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "42742182",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Eplontersen with and without background transthyretin stabilizers in transthyretin amyloid cardiomyopathy: secondary analysis of a phase 3, randomized controlled trial.",
+   "title_zh": "在伴有和不伴有基础甲状腺素运载蛋白稳定剂的甲状腺素运载蛋白淀粉样心肌病中应用依普磺腾：一项III期随机对照试验的次要分析。",
+   "citation": "Nat Med. 2026; 32(11): 4047-4055",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42742182/",
+   "date": "2026-11-01",
+   "authors": "García-Pavía P, Cappelli F, Davis MK, Fontana M, Gillmore JD, Hanna M",
+   "doi": "10.1038/s41591-026-04670-6",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42728380",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk.",
+   "title_zh": "病理负担和认知韧性对阿尔茨海默病风险的共同影响。",
+   "citation": "Nat Med. 2026; 32(11): 4289-4297",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42728380/",
+   "date": "2026-11-01",
+   "authors": "Wang Z, Wang S, Liang Y, Chen X, Wang S, Qin W",
+   "doi": "10.1038/s41591-026-04635-9",
+   "study_type": "研究论文",
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42717036",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Consensus framework for the validation of generative AI: call for collaborators on the Validation Accords.",
+   "title_zh": "生成式人工智能验证的共识框架：征集《验证协议》的合作者。",
+   "citation": "Nat Med. 2026; 32(11): 3925",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42717036/",
+   "date": "2026-11-01",
+   "authors": "Huo B, Chartash D, Tsang L, Collins GS, Cacciamani GE, Ruurda J",
+   "doi": "10.1038/s41591-026-04647-5",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42706369",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Strengthening clinical trial ethics and regulatory oversight in Africa: lessons from the TRACE initiative.",
+   "title_zh": "加强非洲的临床试验伦理和监管监督：TRACE 倡议的经验教训。",
+   "citation": "Nat Med. 2026; 32(11): 3926-3927",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42706369/",
+   "date": "2026-11-01",
+   "authors": "Neil KL, Condo J, TRACE Author Group",
+   "doi": "10.1038/s41591-026-04645-7",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42668287",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Dual antithrombotic therapy using potent antiplatelet inhibitors in atrial fibrillation and acute coronary syndrome: a randomized controlled trial.",
+   "title_zh": "在房颤和急性冠脉综合征中使用强效抗血小板抑制剂的双重抗血栓治疗：一项随机对照试验。",
+   "citation": "Nat Med. 2026; 32(11): 4036-4046",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42668287/",
+   "date": "2026-11-01",
+   "authors": "Rizas KD, Mourouzis K, Rath D, Olivier CB, Villegas Sierra LE, Korovesis T",
+   "doi": "10.1038/s41591-026-04629-7",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42601486",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "An AI-Health infrastructure for the Nordic region: technical foundations, data assets, and a roadmap for deployment.",
+   "title_zh": "北欧地区的人工智能健康基础设施：技术基础、数据资产和部署路线图。",
+   "citation": "Nat Med. 2026; 32(11): 3938-3942",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42601486/",
+   "date": "2026-11-01",
+   "authors": "Andreassen OA, Heimer H, Aarsland D, Dale AM, Gudbjartsson D, Jacobsson B",
+   "doi": "10.1038/s41591-026-04575-4",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42521819",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Reducing the diagnostic odyssey in rare disease: why screening is not the only answer.",
+   "title_zh": "缩短罕见病诊断的漫长过程：为什么筛查不是唯一的答案。",
+   "citation": "Nat Med. 2026; 32(11): 3934-3937",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42521819/",
+   "date": "2026-11-01",
+   "authors": "Wright CF, Phillips A, Wynn SL, Meade N, Baple EL, Lucassen AM",
+   "doi": "10.1038/s41591-026-04542-z",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42481853",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Genomas Brasil program: building precision public health within Brazil's Unified Health System.",
+   "title_zh": "Genomas Brasil计划：在巴西统一卫生系统中建立精准公共卫生体系。",
+   "citation": "Nat Med. 2026; 32(11): 3946-3949",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42481853/",
+   "date": "2026-11-01",
+   "authors": "Araújo de França GV, Lupatini EO, Rocha RT, Toledo RCP, Figueiredo GSF, Gonçalves CEI",
+   "doi": "10.1038/s41591-026-04523-2",
+   "study_type": "研究论文",
+   "departments": [
+    "公共卫生"
    ]
   }
  ]

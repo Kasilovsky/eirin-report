@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "date": "2026-11-15",
- "generated_at": "2026-11-15T07:41:24+00:00",
+ "date": "2026-11-16",
+ "generated_at": "2026-11-16T07:46:18+00:00",
  "provider": "deepseek-chat",
  "degraded": false,
  "window_days": 3,
@@ -18,12 +18,12 @@
     "感染",
     "儿科"
    ],
-   "title_zh": "非洲HIV感染婴儿重症肺炎的经验性结核治疗（EMPIRICAL）：多中心、随机、开放标签、2×2析因、对照优效性试验",
-   "one_liner": "经验性结核治疗未改善HIV感染重症肺炎婴儿的生存。",
-   "key_finding": "12个月时eTB-T组死亡132/276（48%），非eTB-T组121/282（43%）；校正HR 1.12（95% CI 0.87-1.43，p=0.3868）。",
-   "why_it_matters": "对无结核证据的HIV感染重症肺炎婴儿，常规加用6个月抗结核治疗并无生存获益，提示应坚持病原学与临床指导的治疗策略。",
-   "clinical_note": "纳入28-365天、无现症结核诊断或接触史的婴儿；非eTB-T组46%后续因阳性结果或临床判断启动抗结核。",
-   "evidence": "随机对照优效性试验，558例，非洲6国19家医院",
+   "title_zh": "非洲HIV感染婴儿重症肺炎的经验性结核治疗（EMPIRICAL）：多中心、随机、开放标签、2×2析因、优效性对照试验",
+   "one_liner": "经验性抗结核治疗未改善HIV感染重症肺炎婴儿的生存。",
+   "key_finding": "12个月死亡率：经验性结核治疗组48%（132/276）vs 非经验性组43%（121/282），校正HR 1.12（95% CI 0.87-1.43；p=0.3868）；15天OR 1.24（0.83-1.84）。",
+   "why_it_matters": "对无结核证据的HIV感染重症肺炎婴儿，常规经验性启动6个月抗结核治疗并不能降低死亡，支持现行按微生物学和临床线索指导治疗的策略。",
+   "clinical_note": "纳入28-365天、无现症结核诊断或接触史的婴儿；非经验性组46%最终因阳性结果或临床判断启动抗结核治疗。",
+   "evidence": "随机对照优效性试验，558例，6国19家医院",
    "tags": [
     "儿科",
     "感染科",
@@ -43,13 +43,13 @@
    ],
    "title_zh": "一线pembrolizumab对比卡铂联合紫杉醇治疗错配修复缺陷晚期或复发子宫内膜癌（KEYNOTE-C93/GOG-3064/ENGOT-en15）：多中心、开放标签、随机、阳性对照3期试验中期分析",
    "one_liner": "一线pembrolizumab较化疗显著延长dMMR子宫内膜癌无进展生存。",
-   "key_finding": "中位PFS 38.2个月 vs 8.4个月（HR 0.57，95% CI 0.42-0.79；p=0.0002）；总生存未达预设显著性（HR 0.77，95% CI 0.52-1.15；p=0.10）。",
-   "why_it_matters": "为dMMR晚期或复发子宫内膜癌提供无化疗的一线选择，且3级及以上治疗相关不良事件更少（18% vs 51%）。",
-   "clinical_note": "未与当前标准（免疫联合化疗）比较；pembrolizumab 400 mg每6周，最多18周期。",
+   "key_finding": "中位PFS：pembrolizumab组38.2个月（95% CI 17.9-未达到）vs 卡铂+紫杉醇组8.4个月（6.8-10.4），HR 0.57（95% CI 0.42-0.79；p=0.0002）；OS未达预设显著性（HR 0.77，0.52-1.15；p=0.10）。",
+   "why_it_matters": "为dMMR晚期或复发子宫内膜癌提供免化疗的一线选择，且3级及以上治疗相关不良事件更少（18% vs 51%）。",
+   "clinical_note": "中期分析，OS尚未成熟；未与当前标准（免疫联合化疗）直接比较。",
    "evidence": "3期随机对照试验，299例，24国122中心",
    "tags": [
     "肿瘤科",
-    "妇科",
+    "妇科肿瘤",
     "免疫治疗"
    ],
    "confidence": "high"
@@ -65,16 +65,16 @@
     "肿瘤",
     "消化器"
    ],
-   "title_zh": "14天对比28天trifluridine-tipiracil联合bevacizumab治疗难治性转移性结直肠癌（PRABITAS）：日本实用型、多中心、开放标签、随机、3期非劣效性试验",
+   "title_zh": "14天对比28天trifluridine-tipiracil联合bevacizumab治疗难治性转移性结直肠癌（PRABITAS）：日本实用性、多中心、开放标签、随机、3期非劣效性试验",
    "one_liner": "14天方案生存不劣于28天方案，且毒性更低。",
-   "key_finding": "中位OS 11.3个月 vs 10.3个月（分层HR 0.93，95% CI 0.80-1.08）；3级及以上中性粒细胞减少13% vs 39%。",
-   "why_it_matters": "简化14天方案在保持生存的同时显著减少血液学和胃肠道毒性，可成为FTD-TPI联合bevacizumab的新标准。",
-   "clinical_note": "14天组有2例治疗相关死亡，28天组无；非劣效界值1.25。",
-   "evidence": "3期非劣效随机试验，970例，日本178家医院",
+   "key_finding": "中位OS：14天组11.3个月（95% CI 10.2-12.5）vs 28天组10.3个月（9.5-11.6），分层HR 0.93（95% CI 0.80-1.08）；3级及以上中性粒细胞减少13% vs 39%。",
+   "why_it_matters": "简化14天方案在保持生存的同时明显减少血液学和胃肠道毒性，可支持其成为FTD-TPI联合bevacizumab的新标准方案。",
+   "clinical_note": "日本人群，入组标准较宽、贴近真实临床；14天组有2例治疗相关死亡，28天组无。",
+   "evidence": "3期非劣效性随机试验，970例，日本178家医院",
    "tags": [
     "肿瘤科",
-    "消化科",
-    "结直肠癌"
+    "消化系统肿瘤",
+    "化疗"
    ],
    "confidence": "high"
   },
@@ -89,152 +89,153 @@
     "感染",
     "儿科"
    ],
-   "title_zh": "非洲HIV感染合并重症肺炎住院婴儿经验性valganciclovir治疗：多中心、开放标签、析因、随机、对照优效性试验",
+   "title_zh": "非洲HIV感染合并重症肺炎住院婴儿的经验性valganciclovir治疗：多中心、开放标签、析因、随机、对照、优效性试验",
    "one_liner": "经验性valganciclovir或与重症HIV相关肺炎婴儿死亡风险降低相关。",
-   "key_finding": "15天时时变模型校正HR 0.60（95% CI 0.41-0.87，p=0.0063）；12个月死亡43% vs 48%（0.88，95% CI 0.74-1.05，p=0.15）。",
-   "why_it_matters": "提示对非洲HIV感染重症肺炎婴儿经验性抗巨细胞病毒治疗可能带来早期生存获益，且未见明显额外伤害。",
-   "clinical_note": "15天口服valganciclovir 16 mg/kg每12小时；主要终点总体比较未达统计学显著。",
-   "evidence": "2×2析因随机对照试验，558例，非洲6国19家医院",
+   "key_finding": "15天死亡率23%（64/276）vs 27%（76/282），率比0.81（95% CI 0.61-1.08；p=0.15）；时变模型15天校正HR 0.60（0.41-0.87；p=0.0063）；12个月43% vs 48%（0.88，0.74-1.05；p=0.15）。",
+   "why_it_matters": "提示对非洲HIV感染重症肺炎婴儿经验性抗巨细胞病毒治疗可能带来早期生存获益，且未见明显额外伤害，值得进一步评估。",
+   "clinical_note": "主要终点总体未达统计学显著，早期获益为时变模型结果；随访丢失两组分别为9%和5%。",
+   "evidence": "2×2析因随机对照优效性试验，558例，6国19家医院",
    "tags": [
     "儿科",
     "感染科",
-    "HIV"
+    "抗病毒治疗"
    ],
    "confidence": "medium"
   },
   {
-   "pmid": "43020520",
-   "journal": "BMJ",
-   "date": "2026-11-12",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43020520/",
-   "title_en": "Effect of intensive blood pressure control on cognitive outcomes and brain structures in adults with type 2 diabetes: prespecified analysis of secondary outcomes of BPROAD randomised controlled trial.",
-   "study_type": "随机对照试验",
+   "pmid": "43035098",
+   "journal": "JAMA",
+   "date": "2026-11-15",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035098/",
+   "title_en": "Once-Weekly Ribupatide for Weight Loss in Adults in China With Overweight or Obesity: The GEMINI-1 Randomized Clinical Trial.",
+   "study_type": "研究论文",
    "departments": [
-    "循环器",
-    "神经",
     "内分泌/代谢"
    ],
-   "title_zh": "强化血压控制对2型糖尿病成人认知结局与脑结构的影响：BPROAD随机对照试验预设次要结局分析",
-   "one_liner": "强化降压未显著降低痴呆或轻度认知障碍风险，但或减缓脑白质病变进展。",
-   "key_finding": "主要认知结局强化组747例 vs 标准组783例（HR 0.96，95% CI 0.86-1.06；P=0.38）；脑白质病变体积增幅强化组更小（差值-0.09 asinh cm3，95% CI -0.15至-0.02；P=0.01）。",
-   "why_it_matters": "对糖尿病患者，把收缩压降到120以下并未带来认知获益，但可能对脑小血管病变有益；降压目标需权衡。",
-   "clinical_note": "纳入≥50岁、收缩压升高且心血管风险高的2型糖尿病患者；随访中位3.8年，MRI亚组样本较小。",
-   "evidence": "多中心开放标签盲法评定RCT，12434例，中国145中心",
+   "title_zh": "每周一次 ribupatide 用于中国超重或肥胖成人减重：GEMINI-1 随机临床试验",
+   "one_liner": "中国超重或肥胖无糖尿病成人，每周一次 ribupatide 48 周减重明显优于安慰剂。",
+   "key_finding": "48 周体重变化：2/4/6 mg 组分别 -10.7%、-16.4%、-17.7%，安慰剂 -1.4%；减重≥5% 比例 68.1%、88.0%、85.7% vs 16.0%。",
+   "why_it_matters": "为国内长期体重管理增加一种双靶点药物选择，但胃肠道不良反应较常见。",
+   "clinical_note": "入组为无糖尿病、BMI≥28 或≥24 伴合并症者；48 周，停药后体重变化未报告。",
+   "evidence": "3 期双盲安慰剂对照，567 人，中国 55 家中心",
    "tags": [
-    "内分泌科",
-    "神经内科",
-    "高血压"
+    "内分泌",
+    "肥胖",
+    "药物治疗"
    ],
    "confidence": "high"
   },
   {
-   "pmid": "43013818",
-   "journal": "N Engl J Med",
-   "date": "2026-11-12",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43013818/",
-   "title_en": "Prevention of Venous Thromboembolism after Total Hip or Knee Replacement.",
-   "study_type": "随机对照试验",
+   "pmid": "43035097",
+   "journal": "JAMA",
+   "date": "2026-11-15",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035097/",
+   "title_en": "Pediatric Obesity Pharmacotherapy: From Therapeutic Scarcity to Therapeutic Choice.",
+   "study_type": "研究论文",
    "departments": [
-    "血液"
+    "内分泌/代谢",
+    "儿科"
    ],
-   "title_zh": "全髋或全膝关节置换术后静脉血栓栓塞的预防",
-   "one_liner": "关节置换后阿司匹林预防血栓不劣于利伐沙班或华法林的说法未获证实。",
-   "key_finding": "主要有效性事件：阿司匹林1.26%、华法林1.23%、利伐沙班0.94%；阿司匹林 vs 利伐沙班差值0.30个百分点（95% CI -0.20至0.81），未达非劣效。",
-   "why_it_matters": "术后选药不能简单以阿司匹林替代抗凝药；三种方案在有效性与出血风险上各有差异，需个体化。",
-   "clinical_note": "择期髋/膝关节置换成人，用药30天，随访6个月；符合方案分析15317例。",
-   "evidence": "比较有效性非劣效RCT，18883例随机，多中心",
+   "title_zh": "儿童肥胖药物治疗：从治疗选择匮乏到多种选择",
+   "one_liner": "摘要未给出结果。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计",
    "tags": [
-    "骨科",
-    "血液科",
-    "抗凝"
+    "儿科",
+    "肥胖"
    ],
-   "confidence": "high"
+   "confidence": "low"
   },
   {
-   "pmid": "42912700",
-   "journal": "N Engl J Med",
-   "date": "2026-11-12",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42912700/",
-   "title_en": "Ravulizumab in IgA Nephropathy - Interim Analysis of a Phase 3 Trial.",
-   "study_type": "随机对照试验",
+   "pmid": "43035096",
+   "journal": "JAMA",
+   "date": "2026-11-15",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035096/",
+   "title_en": "Tirzepatide in Adolescents With Obesity: The SURMOUNT-ADOLESCENTS Randomized Clinical Trial.",
+   "study_type": "研究论文",
    "departments": [
-    "综合"
+    "内分泌/代谢"
    ],
-   "title_zh": "Ravulizumab治疗IgA肾病：3期试验中期分析",
-   "one_liner": "Ravulizumab显著降低IgA肾病患者第34周尿蛋白水平。",
-   "key_finding": "第34周24小时尿蛋白/肌酐比值几何均值：ravulizumab组1.56降至0.83（-46.6%），安慰剂组1.60降至1.48（-5.6%）；校正后低43.4%（99% CI 30.1-54.2；P<0.001）。",
-   "why_it_matters": "补体抑制为IgA肾病提供了新的降蛋白尿手段，但这是中期分析，长期肾功能获益尚待验证。",
-   "clinical_note": "成人IgA肾病，eGFR≥30 ml/min/1.73 m2且蛋白尿达标；中期分析仅352例。",
-   "evidence": "3期双盲RCT中期分析，485例随机，多中心",
+   "title_zh": "tirzepatide 用于肥胖青少年：SURMOUNT-ADOLESCENTS 随机临床试验",
+   "one_liner": "肥胖青少年用 tirzepatide 72 周，BMI 降幅明显大于安慰剂。",
+   "key_finding": "72 周 BMI 变化 -18.5% vs 安慰剂 +0.5%，差值 -19.0（95% CI -23.9 至 -14.1）个百分点；BMI 降≥5% 者 79.6% vs 28.5%。",
+   "why_it_matters": "为青少年肥胖药物治疗提供 3 期证据，胃肠道不良反应多为轻中度。",
+   "clinical_note": "12 至 <18 岁、肥胖或超重伴至少 1 项并发症；样本 160 人，规模有限。",
+   "evidence": "3 期双盲安慰剂对照，160 人，6 国 31 中心",
    "tags": [
-    "肾内科",
-    "补体抑制"
+    "儿科",
+    "肥胖",
+    "药物治疗"
    ],
    "confidence": "high"
   },
   {
-   "pmid": "42670968",
-   "journal": "N Engl J Med",
-   "date": "2026-11-12",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42670968/",
-   "title_en": "Prasugrel versus Ticagrelor in Acute Coronary Syndromes.",
-   "study_type": "随机对照试验",
-   "departments": [
-    "循环器"
-   ],
-   "title_zh": "急性冠脉综合征中Prasugrel与Ticagrelor的比较",
-   "one_liner": "急性冠脉综合征PCI后，默认用prasugrel并未比ticagrelor降低缺血事件风险。",
-   "key_finding": "1年主要终点：ticagrelor策略组11.8% vs prasugrel策略组11.1%（校正OR 0.90，95% CI 0.77-1.06）；大出血4.4% vs 4.2%（校正OR 0.80，95% CI 0.64-0.99）。",
-   "why_it_matters": "两种P2Y12抑制剂在真实人群中缺血获益相当，prasugrel策略大出血略低，选择可更多考虑出血风险。",
-   "clinical_note": "瑞典未选择人群，平均年龄69.8岁，36.8%≥75岁；开放标签、注册登记为基础。",
-   "evidence": "阶梯楔形整群随机RCT，17095例，瑞典7地区",
-   "tags": [
-    "心内科",
-    "抗血小板"
-   ],
-   "confidence": "high"
-  },
-  {
-   "pmid": "42437501",
-   "journal": "N Engl J Med",
-   "date": "2026-11-12",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42437501/",
-   "title_en": "Rivaroxaban Then Aspirin vs. Aspirin Alone after Total Hip or Knee Arthroplasty.",
-   "study_type": "随机对照试验",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "全髋或全膝关节置换术后：单用阿司匹林不劣于利伐沙班后接阿司匹林",
-   "one_liner": "关节置换后单用阿司匹林预防血栓，效果不输先用利伐沙班再用阿司匹林。",
-   "key_finding": "静脉血栓栓塞发生率：单用阿司匹林组13/2718（0.48%），利伐沙班组12/2647（0.45%），风险差0.02个百分点（95% CI -0.34至0.39），非劣效P<0.001。",
-   "why_it_matters": "为关节置换术后简化抗凝方案提供依据，单用阿司匹林或可减少用药步骤，出血风险未见临床相关差异。",
-   "clinical_note": "多中心双盲随机试验，随访90天；主要终点为有症状的近端深静脉血栓或肺栓塞，非劣效界值0.7个百分点。",
-   "evidence": "多中心双盲随机对照试验，5429例，加拿大资助",
-   "tags": [
-    "骨科",
-    "抗凝",
-    "静脉血栓栓塞"
-   ],
-   "confidence": "high"
-  },
-  {
-   "pmid": "43020089",
-   "journal": "Lancet",
-   "date": "2026-11-14",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43020089/",
-   "title_en": "Ron McCoy.",
+   "pmid": "43035095",
+   "journal": "JAMA",
+   "date": "2026-11-15",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035095/",
+   "title_en": "Tale of Two Estimands: Distinguishing What Is Observed From What Is Inferred.",
    "study_type": "研究论文",
    "departments": [
     "综合"
    ],
-   "title_zh": "Ron McCoy",
+   "title_zh": "两种估计目标之辨：区分观察到的事实与推断出的结论",
    "one_liner": "摘要未给出结果。",
    "key_finding": "摘要未给出结果",
-   "why_it_matters": "摘要为空，无法评估该研究对临床或公众的意义。",
+   "why_it_matters": "摘要未给出结果",
    "clinical_note": "",
-   "evidence": "摘要未提供研究设计、样本量及地点",
+   "evidence": "摘要未提供研究设计",
    "tags": [
-    "未分类"
+    "统计方法",
+    "临床试验"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43035094",
+   "journal": "JAMA",
+   "date": "2026-11-15",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035094/",
+   "title_en": "Tirzepatide in Adolescents With Obesity: Research Summary.",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢"
+   ],
+   "title_zh": "Tirzepatide 用于青少年肥胖：研究摘要",
+   "one_liner": "摘要未给出结果，无法判断 tirzepatide 对青少年肥胖的效果。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "青少年肥胖治疗选择有限，但本条仅有标题信息，不能据此形成任何临床或公众建议。",
+   "clinical_note": "",
+   "evidence": "摘要缺失，研究设计、样本量与地点均未知",
+   "tags": [
+    "内分泌科",
+    "儿科",
+    "肥胖"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43035093",
+   "journal": "JAMA",
+   "date": "2026-11-15",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035093/",
+   "title_en": "Once-Weekly Ribupatide for Weight Loss in Adults in China With Overweight or Obesity: Research Summary.",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢"
+   ],
+   "title_zh": "每周一次 Ribupatide 用于中国超重或肥胖成人减重：研究摘要",
+   "one_liner": "摘要未给出结果，无法判断 ribupatide 在中国成人中的减重效果。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "中国超重与肥胖人群基数大，但本条仅有标题信息，尚不能评价该药的疗效与安全性。",
+   "clinical_note": "",
+   "evidence": "摘要缺失，研究设计、样本量与地点均未知",
+   "tags": [
+    "内分泌科",
+    "肥胖",
+    "减重"
    ],
    "confidence": "low"
   }

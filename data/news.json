@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-15T07:41:03+00:00",
+ "generated_at": "2026-11-16T07:45:59+00:00",
  "window_days": 180,
- "count": 1012,
+ "count": 1019,
  "journals": [
   {
    "abbr": "N Engl J Med",
@@ -17,12 +17,12 @@
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 203
+   "count": 209
   },
   {
    "abbr": "BMJ",
    "name": "BMJ",
-   "count": 154
+   "count": 155
   },
   {
    "abbr": "Nat Med",
@@ -42,11 +42,173 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 28,
-  "cache_size": 973,
+  "translate_used": 12,
+  "cache_size": 981,
   "translate_fails": 2
  },
  "articles": [
+  {
+   "pmid": "43035247",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Critical condition: what are we doing about nuclear war?",
+   "title_zh": "危急情况：我们对核战争该怎么办？",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101273",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035247/",
+   "date": "2026-11-15",
+   "authors": "Abbasi K, Ali P, Barbour V, Birch M, Bivens M, Blum I",
+   "author_count": 18,
+   "doi": "10.1136/bmj-2026-101273",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43035098",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Once-Weekly Ribupatide for Weight Loss in Adults in China With Overweight or Obesity: The GEMINI-1 Randomized Clinical Trial.",
+   "title_zh": "每周一次利巴派肽用于中国超重或肥胖成人减重的研究：GEMINI-1随机临床试验。",
+   "summary_en": "IMPORTANCE: Obesity is a major health problem in China; more pharmacotherapy choices for long-term weight management are needed. OBJECTIVE: To evaluate the efficacy and safety of once-weekly subcutaneous ribupatide, a dual glucose-dependent insulinotropic polypeptide/glucagon-like peptide-1 receptor agonist, for weight loss in adults in China with overweight or obesity without diabetes. DESIGN, SETTING, AND PARTICIPANTS: This multicenter, randomized, double-blind, placebo-controlled, phase 3 clinical trial was conducted at 55 sites in China. From May to June 2024, adults without diabetes who had a body mass index of 28 or greater or 24 or greater with at least 1 weight-related comorbidity were enrolled, with final follow-up on June 20, 2025. INTERVENTIONS: Participants were randomized to r",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035098/",
+   "date": "2026-11-15",
+   "authors": "Zhao L, Chen Y, Cheng Z, Zhu D, Li Q, Cai H",
+   "author_count": 27,
+   "doi": "10.1001/jama.2026.24796",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43035097",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Pediatric Obesity Pharmacotherapy: From Therapeutic Scarcity to Therapeutic Choice.",
+   "title_zh": "儿童肥胖症药物治疗：从治疗稀缺到治疗选择。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035097/",
+   "date": "2026-11-15",
+   "authors": "Heerman WJ, Suarez L, Armstrong SC",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.22895",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43035096",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Tirzepatide in Adolescents With Obesity: The SURMOUNT-ADOLESCENTS Randomized Clinical Trial.",
+   "title_zh": "替尔泊肽用于肥胖青少年：SURMOUNT-ADOLESCENTS随机临床试验。",
+   "summary_en": "IMPORTANCE: Information on the effects of tirzepatide, a once-weekly glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist approved for obesity management in adults with obesity, remains limited in adolescents. OBJECTIVE: To evaluate the efficacy and safety of once-weekly tirzepatide in adolescents with obesity or overweight with at least 1 obesity-related complication. DESIGN, SETTING, AND PARTICIPANTS: This phase 3, randomized, double-blind, 72-week clinical trial was conducted at 31 medical research centers and hospitals in Canada, the Czech Republic, Israel, Italy, Poland, and the US from October 16, 2023, to June 2, 2026, among adolescents aged 12 years to younger than 18 years with obesity or overweight with at least 1 obesity-related complication.",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035096/",
+   "date": "2026-11-15",
+   "authors": "Kelly AS, Pamidipati KC, Rachmiel M, Srivastava G, Hsia DS, Fox CK",
+   "author_count": 10,
+   "doi": "10.1001/jama.2026.23420",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43035095",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Tale of Two Estimands: Distinguishing What Is Observed From What Is Inferred.",
+   "title_zh": "两个估值量的故事：区分观察到的内容和推断出的内容。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035095/",
+   "date": "2026-11-15",
+   "authors": "Heagerty PJ, Lewis RJ",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.24386",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43035094",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Tirzepatide in Adolescents With Obesity: Research Summary.",
+   "title_zh": "替尔泊肽用于肥胖青少年：研究综述。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2623448",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035094/",
+   "date": "2026-11-15",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.23448",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43035093",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Once-Weekly Ribupatide for Weight Loss in Adults in China With Overweight or Obesity: Research Summary.",
+   "title_zh": "每周一次利巴派肽用于中国超重或肥胖成人减重的研究摘要。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2624848",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43035093/",
+   "date": "2026-11-15",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.24848",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
   {
    "pmid": "43020097",
    "journal": "The Lancet",
@@ -5124,7 +5286,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "See One.",
-   "title_zh": "",
+   "title_zh": "请参阅第 1 条。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(18): 1606-1607",
@@ -8149,7 +8311,7 @@
    "title_en": "Nonreceipt of Newborn Vitamin K and Risk of Bleeding.",
    "title_zh": "新生儿未接受维生素K与出血风险",
    "summary_en": "IMPORTANCE: Refusal of newborn prophylactic vitamin K has been increasing in the US, placing more infants at risk for vitamin K deficiency bleeding. OBJECTIVE: To describe US trends in nonreceipt of newborn vitamin K and infant bleeding, and to compare risks of bleeding and mortality with concurrent bleeding among infants who did and did not receive newborn intramuscular (IM) vitamin K. DESIGN, SETTING, AND PARTICIPANTS: This retrospective cohort study included infants born at 35 to 43 weeks' gestation between January 1, 2017, and December 31, 2025, at hospitals and health systems from 50 states contributing to the Epic Cosmos dataset. EXPOSURE: Nonreceipt of newborn IM vitamin K. MAIN OUTCOMES AND MEASURES: The primary outcome was bleeding within the first 6 months of life based on Intern",
-   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42986716/",
    "date": "2026-11-05",

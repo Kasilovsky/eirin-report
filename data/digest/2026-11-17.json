@@ -1,0 +1,240 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-17",
+ "generated_at": "2026-11-17T08:55:53+00:00",
+ "provider": "deepseek-chat",
+ "degraded": false,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "43020097",
+   "journal": "Lancet",
+   "date": "2026-11-14",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43020097/",
+   "title_en": "Empirical tuberculosis treatment in infants living with HIV hospitalised with severe pneumonia in Africa (EMPIRICAL): a multicentre, randomised, open-label, 2 × 2 factorial, controlled superiority trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "感染",
+    "儿科"
+   ],
+   "title_zh": "非洲HIV感染婴儿重症肺炎的经验性抗结核治疗（EMPIRICAL）：多中心、随机、开放标签、2×2析因、优效性对照试验",
+   "one_liner": "经验性抗结核治疗未改善HIV感染重症肺炎婴儿的生存。",
+   "key_finding": "12个月死亡率48% vs 43%，校正HR 1.12（95% CI 0.87-1.43，p=0.3868）；15天OR 1.24（0.83-1.84）。",
+   "why_it_matters": "提示对这类婴儿常规经验性用抗结核药并不能降低死亡，应依赖微生物学与临床判断决定是否用药。",
+   "clinical_note": "纳入28-365天、无现症结核诊断或接触史的HIV感染重症肺炎婴儿；开放标签设计。",
+   "evidence": "随机对照优效性试验，558例，非洲6国19家医院",
+   "tags": [
+    "儿科",
+    "感染科",
+    "结核病"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42933458",
+   "journal": "Lancet",
+   "date": "2026-11-14",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933458/",
+   "title_en": "First-line pembrolizumab versus carboplatin plus paclitaxel in participants with mismatch repair-deficient advanced or recurrent endometrial cancer (KEYNOTE-C93/GOG-3064/ENGOT-en15): interim analysis of a multicentre, open-label, randomised, active-comparator controlled, phase 3 trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "一线pembrolizumab对比卡铂联合紫杉醇治疗错配修复缺陷晚期或复发子宫内膜癌（KEYNOTE-C93/GOG-3064/ENGOT-en15）：3期试验中期分析",
+   "one_liner": "一线pembrolizumab单药显著延长dMMR子宫内膜癌无进展生存。",
+   "key_finding": "中位PFS 38.2个月 vs 8.4个月，HR 0.57（95% CI 0.42-0.79，p=0.0002）；总生存未达预设显著性（HR 0.77，p=0.10）。",
+   "why_it_matters": "为dMMR晚期或复发子宫内膜癌提供免化疗的一线选择，且3级及以上治疗相关不良事件更少（18% vs 51%）。",
+   "clinical_note": "中期分析，总生存尚未达统计学显著；未与当前标准（免疫联合化疗）直接比较。",
+   "evidence": "3期开放标签随机对照试验，299例，24国122中心",
+   "tags": [
+    "肿瘤科",
+    "妇科肿瘤",
+    "免疫治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42925880",
+   "journal": "Lancet",
+   "date": "2026-11-14",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42925880/",
+   "title_en": "14-day versus 28-day trifluridine-tipiracil plus bevacizumab for refractory metastatic colorectal cancer (PRABITAS): a pragmatic, multicentre, open-label, randomised, phase 3, non-inferiority trial in Japan.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "消化器"
+   ],
+   "title_zh": "14天对比28天trifluridine-tipiracil联合bevacizumab治疗难治性转移性结直肠癌（PRABITAS）：日本实用型、多中心、开放标签、随机、3期非劣效性试验",
+   "one_liner": "14天方案生存不劣于28天方案，且毒性更低。",
+   "key_finding": "中位OS 11.3 vs 10.3个月，分层HR 0.93（95% CI 0.80-1.08）；3级及以上中性粒细胞减少13% vs 39%。",
+   "why_it_matters": "简化14天方案可作FTD-TPI联合bevacizumab的新标准，减少血液学和胃肠道毒性。",
+   "clinical_note": "非劣效界值1.25；14天组有2例治疗相关死亡，28天组无。",
+   "evidence": "3期非劣效性随机试验，970例，日本178家医院",
+   "tags": [
+    "肿瘤科",
+    "消化系统肿瘤"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42468541",
+   "journal": "Lancet",
+   "date": "2026-11-14",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42468541/",
+   "title_en": "Empirical treatment with valganciclovir in infants living with HIV and hospitalised with severe pneumonia in Africa: a multicentre, open-label, factorial, randomised, controlled, superiority trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "感染",
+    "儿科"
+   ],
+   "title_zh": "非洲HIV感染合并重症肺炎住院婴儿的经验性valganciclovir治疗：多中心、开放标签、析因、随机、对照、优效性试验",
+   "one_liner": "经验性valganciclovir或与这类婴儿死亡风险降低相关。",
+   "key_finding": "15天死亡率23% vs 27%（率比0.81，95% CI 0.61-1.08，p=0.15）；时变模型15天校正HR 0.60（0.41-0.87，p=0.0063）。",
+   "why_it_matters": "提示对HIV感染重症肺炎婴儿经验性抗巨细胞病毒治疗可能有益，且未见明显额外伤害。",
+   "clinical_note": "总体终点未达显著，时变模型结果属探索性；开放标签设计。",
+   "evidence": "2×2析因随机对照优效性试验，558例，非洲6国19家医院",
+   "tags": [
+    "儿科",
+    "感染科",
+    "HIV"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "pmid": "43039449",
+   "journal": "BMJ",
+   "date": "2026-11-16",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039449/",
+   "title_en": "How to make the most of your geriatrics placement.",
+   "study_type": "研究论文",
+   "departments": [
+    "老年医学"
+   ],
+   "title_zh": "如何充分利用老年医学轮转",
+   "one_liner": "摘要未给出结果，无法总结结论",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断对临床或公众的意义",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "老年医学",
+    "医学教育"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43039444",
+   "journal": "BMJ",
+   "date": "2026-11-16",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039444/",
+   "title_en": "Doctor burnout on maternity wards risks \"critical impact\" on patients, GMC warns.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "GMC 警告：产科病房医生职业倦怠可能对患者造成「严重影响」",
+   "one_liner": "摘要未给出结果，无法总结结论",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断对临床或公众的意义",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "产科",
+    "职业倦怠",
+    "医疗管理"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43039441",
+   "journal": "BMJ",
+   "date": "2026-11-16",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039441/",
+   "title_en": "Doctor suspended for \"predatory\" behaviour must be struck off, High Court rules.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "因「掠夺性」行为被停职的医生，高等法院裁定必须除名",
+   "one_liner": "摘要未给出结果，无法总结结论",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断对临床或公众的意义",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "医疗监管",
+    "职业伦理"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43039425",
+   "journal": "BMJ",
+   "date": "2026-11-16",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039425/",
+   "title_en": "Detecting deterioration of children in emergency departments requires more than a score alone.",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科"
+   ],
+   "title_zh": "识别急诊科患儿病情恶化，仅靠评分不够",
+   "one_liner": "摘要未给出结果，无法总结结论",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断对临床或公众的意义",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "急诊医学",
+    "儿科"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43039424",
+   "journal": "BMJ",
+   "date": "2026-11-16",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039424/",
+   "title_en": "BMI based system may have led to overdiagnosis of obesity, new study suggests.",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢"
+   ],
+   "title_zh": "新研究提示，基于 BMI 的分类系统可能导致肥胖过度诊断",
+   "one_liner": "新研究提示，按 BMI 判定肥胖可能造成过度诊断。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "若 BMI 分类确实导致过度诊断，可能影响大量被贴上肥胖标签者的诊疗与心理负担。",
+   "clinical_note": "",
+   "evidence": "研究论文，摘要未提供样本量与设计细节",
+   "tags": [
+    "内分泌科",
+    "公共卫生",
+    "肥胖"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43039422",
+   "journal": "BMJ",
+   "date": "2026-11-16",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039422/",
+   "title_en": "\"Sponge on a string\" cancer test is recommended by NICE.",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "NICE 推荐「海绵拉绳」式癌症检测",
+   "one_liner": "NICE 推荐使用「海绵拉绳」式检测用于癌症筛查。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "若被纳入指南推荐，可能改变相关癌症的筛查路径与患者接受度。",
+   "clinical_note": "",
+   "evidence": "研究论文，摘要未提供样本量与设计细节",
+   "tags": [
+    "肿瘤科",
+    "筛查",
+    "指南"
+   ],
+   "confidence": "low"
+  }
+ ]
+}

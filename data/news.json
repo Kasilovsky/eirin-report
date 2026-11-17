@@ -1,33 +1,33 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-16T07:45:59+00:00",
+ "generated_at": "2026-11-17T08:55:36+00:00",
  "window_days": 180,
- "count": 1019,
+ "count": 1040,
  "journals": [
   {
    "abbr": "N Engl J Med",
    "name": "New England Journal of Medicine",
-   "count": 141
+   "count": 146
   },
   {
    "abbr": "Lancet",
    "name": "The Lancet",
-   "count": 142
+   "count": 144
   },
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 209
+   "count": 214
   },
   {
    "abbr": "BMJ",
    "name": "BMJ",
-   "count": 155
+   "count": 163
   },
   {
    "abbr": "Nat Med",
    "name": "Nature Medicine",
-   "count": 137
+   "count": 138
   },
   {
    "abbr": "Cell",
@@ -42,19 +42,412 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 12,
-  "cache_size": 981,
-  "translate_fails": 2
+  "translate_used": 24,
+  "cache_size": 999,
+  "translate_fails": 4
  },
  "articles": [
+  {
+   "pmid": "43039449",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "How to make the most of your geriatrics placement.",
+   "title_zh": "如何充分利用您的老年医学实习机会。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101358",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039449/",
+   "date": "2026-11-16",
+   "authors": "Kumanan D, Ibrahim M",
+   "author_count": 2,
+   "doi": "10.1136/bmj-2026-101358",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43039446",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Electronic records: flicking through paper notes is so much easier.",
+   "title_zh": "电子记录：翻阅纸质笔记要容易得多。",
+   "summary_en": "",
+   "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101430",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039446/",
+   "date": "2026-11-16",
+   "authors": "Sundar S",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101430",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43039444",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Doctor burnout on maternity wards risks \"critical impact\" on patients, GMC warns.",
+   "title_zh": "英国医学总委员会（GMC）警告称，产科医生出现职业倦怠可能会对患者产生“严重影响”。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101471",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039444/",
+   "date": "2026-11-16",
+   "authors": "Iacobucci G",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101471",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43039441",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Doctor suspended for \"predatory\" behaviour must be struck off, High Court rules.",
+   "title_zh": "高等法院裁定，因“掠夺性”行为而被停职的医生必须被吊销执照。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101458",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039441/",
+   "date": "2026-11-16",
+   "authors": "Dyer C",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101458",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43039440",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Chair of government's Obesity Healthcare Goals programme was paid nearly £80 000 by GLP-1 drug firms.",
+   "title_zh": "政府肥胖症医疗保健目标计划的主席从GLP-1药物公司获得了近8万英镑的报酬。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101434",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039440/",
+   "date": "2026-11-16",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1136/bmj-2026-101434",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43039425",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Detecting deterioration of children in emergency departments requires more than a score alone.",
+   "title_zh": "在急诊科发现儿童病情恶化，需要的不仅仅是一个评分。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101457",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039425/",
+   "date": "2026-11-16",
+   "authors": "Roland D",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101457",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43039424",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "BMI based system may have led to overdiagnosis of obesity, new study suggests.",
+   "title_zh": "一项新研究表明，基于BMI的系统可能导致肥胖的过度诊断。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101464",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039424/",
+   "date": "2026-11-16",
+   "authors": "Furneaux R",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101464",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43039422",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "\"Sponge on a string\" cancer test is recommended by NICE.",
+   "title_zh": "NICE建议使用“系绳海绵”癌症筛查。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101467",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039422/",
+   "date": "2026-11-16",
+   "authors": "Furneaux R",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101467",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43039361",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "An open agentic AI co-scientist for clinical and biomedical discovery.",
+   "title_zh": "一位用于临床和生物医学发现的开放式自主人工智能合作科学家。",
+   "summary_en": "Biomedical research is constrained by the time and domain expertise required to analyze increasingly large and complex datasets. Here we present OpenScientist, an open-source agentic AI co-scientist designed to address this gap by investigating scientist-defined queries and generating verifiable, data-grounded analyses. OpenScientist was evaluated by domain experts across five biomedical case studies, completing analyses in minutes that otherwise would take months of human time and expertise. It accurately quantified Alzheimer's blood biomarker performance, generated a plasma proteomic survival model that predicted survival in a hidden-evaluation cohort, proposed a reproducible mechanism linking tau pathology to altered lysosomal acidification, generated multiple myeloma hypotheses validat",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039361/",
+   "date": "2026-11-16",
+   "authors": "Roberts KF, Abrams ZB, Cappelletti L, Moqri M, Heugel N, Caufield JH",
+   "author_count": 35,
+   "doi": "10.1038/s41591-026-04808-6",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43039013",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Critical condition: what are we doing about nuclear war?",
+   "title_zh": "危急情况：我们对核战争该怎么办？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039013/",
+   "date": "2026-11-16",
+   "authors": "Abbasi K, Ali P, Barbour V, Birch M, Bivens M, Blum I",
+   "author_count": 18,
+   "doi": "10.1016/S0140-6736(26)02246-4",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43039012",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Helen Branswell.",
+   "title_zh": "Helen Branswell。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039012/",
+   "date": "2026-11-16",
+   "authors": "Loewenberg S",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02302-0",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43038566",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Plasma eMTBR-Tau Immunoassay for Detection of Advanced Insoluble Tau Pathology.",
+   "title_zh": "用于检测晚期不溶性Tau蛋白病理的血浆eMTBR-Tau免疫测定。",
+   "summary_en": "IMPORTANCE: Blood biomarkers that reflect neurofibrillary tau burden, a defining hallmark of Alzheimer disease (AD), remain limited. Endogenously cleaved microtubule-binding region tau 243 (eMTBR-tau243) has shown promise when measured by mass spectrometry; a scalable immunoassay could broaden research access and support clinical evaluation. OBJECTIVE: To determine whether plasma levels of eMTBR-tau measured by a novel immunoassay are associated with tau neurofibrillary tangle pathology defined by neuropathology and tau positron emission tomography (PET). DESIGN, SETTING, AND PARTICIPANTS: This cross-sectional study included brain donors with antemortem plasma from 2 US autopsy cohorts, and individuals with plasma samples and tau PET from 2 imaging cohorts in Canada and Sweden, with visits",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43038566/",
+   "date": "2026-11-16",
+   "authors": "Brum WS, Janelidze S, Singh A, Rahmouni N, Hosseini SA, Denkinger MN",
+   "author_count": 41,
+   "doi": "10.1001/jama.2026.25143",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43037993",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Alcohol Consumption During Pregnancy in the US-Reply.",
+   "title_zh": "美国孕期饮酒——回复",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037993/",
+   "date": "2026-11-16",
+   "authors": "Bruzelius E, Bandoli G, Martins S",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.19738",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "43037978",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Blood Conservation and Choice in Surgical Transfusion.",
+   "title_zh": "手术输血中的血液保护和选择。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037978/",
+   "date": "2026-11-16",
+   "authors": "de Oliveira JG, Borba LAB, Esteves Veiga JC",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.22620",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "外科"
+   ]
+  },
+  {
+   "pmid": "43037973",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Glucagon-Like Peptide-1 Utilization Following Withdrawal of Medicaid Coverage for Weight Loss.",
+   "title_zh": "在停止Medicaid减肥保险后使用胰高血糖素样肽-1。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037973/",
+   "date": "2026-11-16",
+   "authors": "Shuey B, Wharam JF, Luo J, Nguyen E, Anderson TS",
+   "author_count": 5,
+   "doi": "10.1001/jama.2026.22008",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43037962",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Alcohol Consumption During Pregnancy in the US.",
+   "title_zh": "美国孕期饮酒",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037962/",
+   "date": "2026-11-16",
+   "authors": "Fan D, Lin D, Rao J",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.19735",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "43037562",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Semaglutide for the Treatment of Obesity in Children 6 to <12 Years of Age.",
+   "title_zh": "司美格鲁肽用于治疗6至<12岁儿童的肥胖症。",
+   "summary_en": "BACKGROUND: Childhood obesity is a chronic, neurometabolic disease with limited options for medical treatments that are efficacious and durable. Once-weekly subcutaneous semaglutide is approved for the treatment of obesity in adolescents and adults, but data for its use in young children are lacking. METHODS: We conducted a phase 3, double-blind, randomized, placebo-controlled trial involving children (6 to <12 years of age) with obesity. Participants were randomly assigned in a 2:1 ratio to receive once-weekly subcutaneous semaglutide or placebo for a period of 104 weeks, after which participants stopped taking semaglutide or placebo for a 7-week washout period. Both groups received counseling for lifestyle modification. The primary end point was the percent change in the body-mass index ",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037562/",
+   "date": "2026-11-16",
+   "authors": "Jastreboff AM, Harder-Lauridsen NM, Van Name M, Körner A, Kelly AS, Weghuber D",
+   "author_count": 12,
+   "doi": "10.1056/NEJMoa2604058",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢",
+    "儿科"
+   ]
+  },
   {
    "pmid": "43035247",
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Critical condition: what are we doing about nuclear war?",
    "title_zh": "危急情况：我们对核战争该怎么办？",
-   "summary_en": "",
-   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "summary_en": "Health professionals must ensure discussions on nuclear risk maintain a health focus",
+   "summary_zh": "【述评】BMJ 刊载。结论要点见下方原文摘要。",
    "citation": "BMJ. 2026; 395: e101273",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43035247/",
    "date": "2026-11-15",
@@ -207,6 +600,99 @@
    "mesh": [],
    "departments": [
     "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43037246",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "The Unexamined Subsidy - Rethinking Incentives for Outpatient Clinical Preceptors.",
+   "title_zh": "未加审视的补贴——重新思考对门诊临床带教老师的激励措施。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037246/",
+   "date": "2026-11-14",
+   "authors": "Maxey HL, Moore M",
+   "author_count": 2,
+   "doi": "10.1056/NEJMp2611160",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43037244",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "What the Robot Still Can't Do.",
+   "title_zh": "机器人仍无法做到的事情。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037244/",
+   "date": "2026-11-14",
+   "authors": "Nundy S",
+   "author_count": 1,
+   "doi": "10.1056/NEJMp2606894",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43037241",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Reimagining Health Policy Research.",
+   "title_zh": "重新构想卫生政策研究。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037241/",
+   "date": "2026-11-14",
+   "authors": "McGinty EE",
+   "author_count": 1,
+   "doi": "10.1056/NEJMp2611665",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "43037238",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Functional Fixed Dystonia of the Foot.",
+   "title_zh": "足部功能性固定性肌张力障碍。",
+   "summary_en": "",
+   "summary_zh": "【病例报告】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037238/",
+   "date": "2026-11-14",
+   "authors": "Nonnekes J, de Greef-Rotteveel A",
+   "author_count": 2,
+   "doi": "10.1056/NEJMicm2608021",
+   "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
    ]
   },
   {
@@ -1202,9 +1688,9 @@
    "authors": "",
    "author_count": 0,
    "doi": "10.1001/jama.2025.16129",
-   "study_type": "研究论文",
+   "study_type": "",
    "pubtypes": [
-    "Journal Article"
+    "Webcast"
    ],
    "mesh": [],
    "departments": [
@@ -12450,7 +12936,10 @@
     "Journal Article"
    ],
    "mesh": [
-    "Humans"
+    "Humans",
+    "Medical Informatics",
+    "Artificial Intelligence",
+    "Large Language Models"
    ],
    "departments": [
     "综合"
@@ -12754,6 +13243,29 @@
    ]
   },
   {
+   "pmid": "42888252",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "A reality check for autoimmune CAR T cells.",
+   "title_zh": "自身免疫性CAR T细胞的现实检验。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026; 32(11): 3916-3918",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42888252/",
+   "date": "2026-11-01",
+   "authors": "Guenot M",
+   "author_count": 1,
+   "doi": "10.1038/d41591-026-00052-0",
+   "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
+   "mesh": [],
+   "departments": [
+    "免疫/风湿"
+   ]
+  },
+  {
    "pmid": "42888250",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -12796,16 +13308,16 @@
     "Observational Study"
    ],
    "mesh": [
-    "Humans",
+    "Adult",
+    "Aged",
     "Female",
-    "Glucagon-Like Peptide-1 Receptor Agonists",
-    "Tirzepatide",
+    "Humans",
     "Middle Aged",
-    "Glycated Hemoglobin",
-    "Weight Loss",
     "Diabetes Mellitus, Type 2",
-    "Hypoglycemic Agents",
-    "Glucagon-Like Peptide-1 Receptor"
+    "Digital Health",
+    "Glucagon-Like Peptide-1 Receptor Agonists",
+    "Glycated Hemoglobin",
+    "Hypoglycemic Agents"
    ],
    "departments": [
     "内分泌/代谢"
@@ -13317,20 +13829,21 @@
    "doi": "10.1038/s41591-026-04657-3",
    "study_type": "I 期临床试验",
    "pubtypes": [
+    "Clinical Trial, Phase I",
     "Journal Article",
-    "Clinical Trial, Phase I"
+    "Multicenter Study"
    ],
    "mesh": [
-    "Humans",
-    "Female",
-    "Microsatellite Instability",
-    "Werner Syndrome Helicase",
-    "Male",
-    "Neoplasms",
-    "Aged",
-    "Middle Aged",
     "Adult",
-    "Antineoplastic Agents"
+    "Aged",
+    "Female",
+    "Humans",
+    "Male",
+    "Middle Aged",
+    "Antineoplastic Agents",
+    "DNA Mismatch Repair",
+    "Maximum Tolerated Dose",
+    "Microsatellite Instability"
    ],
    "departments": [
     "肿瘤"
@@ -16627,7 +17140,7 @@
    "title_en": "Tozorakimab to Prevent COPD Exacerbations.",
    "title_zh": "Tozorakimab预防COPD急性加重",
    "summary_en": "BACKGROUND: Many patients with chronic obstructive pulmonary disease (COPD) have exacerbations despite receiving standard-of-care inhaled maintenance therapy. Dysregulated interleukin-33 signaling is implicated in the pathogenesis of COPD. Tozorakimab is a monoclonal antibody that inhibits the activity of interleukin-33. METHODS: In two replicate phase 3 trials (OBERON and TITANIA), we enrolled adults with COPD who were current or former smokers and had a history of exacerbations in the previous year despite receiving stable standard-of-care inhaled maintenance therapy. There were no eligibility criteria related to blood eosinophil count. Patients were randomly assigned to receive add-on subcutaneous tozorakimab (300 mg) or placebo every 4 weeks for 52 weeks. The primary end point was the ",
-   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026; 395(17): 1703-1716",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42708515/",
    "date": "2026-10-29",
@@ -16761,7 +17274,7 @@
    "title_en": "Immediate Ambulatory Electrocardiographic Monitoring in Syncope.",
    "title_zh": "晕厥的即时动态心电图监测",
    "summary_en": "BACKGROUND: In patients with syncope who present to the emergency department for evaluation, diagnosing an underlying cardiac arrhythmia remains difficult. METHODS: We conducted an open-label, randomized, controlled trial at 45 hospitals in the United Kingdom to assess the effects of 14-day cardiac monitoring on diagnosis, treatment, and outcomes among patients with syncope. Adults with syncope that remained unexplained after an evaluation in the emergency department were assigned in a 1:1 ratio to undergo 14-day ambulatory electrocardiographic (ECG) monitoring (the intervention group) or to receive the standard care provided for patients with unexplained syncope at each participating site (the standard-care group). The primary outcome was the mean number of patient-reported episodes of sy",
-   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026; 395(17): 1691-1702",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42670977/",
    "date": "2026-10-29",
@@ -17875,7 +18388,7 @@
    "title_en": "In Vitro Fertilization or Intrauterine Insemination in Unexplained Infertility.",
    "title_zh": "不明原因不孕症的体外受精或宫腔内人工授精",
    "summary_en": "BACKGROUND: Although international guidelines recommend intrauterine insemination (IUI) with ovarian stimulation as first-line treatment for unexplained infertility, evidence from comparisons of this method with in vitro fertilization (IVF) is limited. METHODS: We conducted a sequential, multicenter, randomized, controlled trial involving couples with unexplained infertility. Stage 1 was a noninferiority comparison between IUI with ovarian stimulation (up to four cycles) and IVF (one complete cycle, with transfer of all embryos). After 7 months, couples without live birth or ongoing pregnancy could proceed to stage 2: couples in the IUI group could undergo up to two IVF cycles, and those in the IVF group could undergo one further IVF cycle. The primary outcome was the cumulative live-birth",
-   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42950222/",
    "date": "2026-10-27",
@@ -18734,7 +19247,7 @@
    "title_en": "Sacituzumab Tirumotecan plus Pembrolizumab in PD-L1-Negative Advanced NSCLC.",
    "title_zh": "Sacituzumab Tirumotecan联合Pembrolizumab治疗PD-L1阴性晚期NSCLC。",
    "summary_en": "BACKGROUND: Pembrolizumab plus chemotherapy with a platinum-based agent and pemetrexed is a widely used standard first-line treatment option for patients with programmed death ligand 1 (PD-L1)-negative advanced nonsquamous non-small-cell lung cancer (NSCLC) without targetable genomic alterations, but outcomes remain suboptimal. METHODS: In this phase 3, open-label, randomized trial, we evaluated sacituzumab tirumotecan plus pembrolizumab in patients with previously untreated locally advanced or metastatic nonsquamous NSCLC without targetable genomic alterations and a PD-L1 tumor proportion score of less than 1%. Patients were randomly assigned in a 1:1 ratio to receive sacituzumab tirumotecan plus pembrolizumab or chemotherapy plus pembrolizumab. The primary end point was progression-free ",
-   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42929694/",
    "date": "2026-10-25",
@@ -18757,7 +19270,7 @@
    "title_en": "Osimertinib-Savolitinib in Advanced NSCLC after Progression during EGFR-TKI Therapy.",
    "title_zh": "Osimertinib-Savolitinib治疗EGFR-TKI治疗期间进展的晚期NSCLC。",
    "summary_en": "BACKGROUND: Savolitinib is an oral, potent, highly selective MET-tyrosine kinase inhibitor (TKI). Combination therapy with savolitinib and osimertinib, an epidermal growth factor receptor (EGFR)-TKI, has shown activity in patients with EGFR-mutated, advanced non-small-cell lung cancer (NSCLC) with MET overexpression, MET amplification, or both, after progression during EGFR-TKI therapy. METHODS: In this international, phase 3, open-label trial, we randomly assigned, in a 1:1 ratio, patients with EGFR-mutated, locally advanced or metastatic NSCLC with MET overexpression (staining intensity of 3+ for MET in ≥90% of tumor cells on immunohistochemical analysis), MET amplification (≥10 gene copies on fluorescence in situ hybridization), or both whose disease had progressed during osimertinib th",
-   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42929693/",
    "date": "2026-10-25",
@@ -21825,29 +22338,6 @@
    "departments": [
     "循环器",
     "内分泌/代谢"
-   ]
-  },
-  {
-   "pmid": "42888252",
-   "journal": "Nature Medicine",
-   "journal_abbr": "Nat Med",
-   "title_en": "A reality check for autoimmune CAR T cells.",
-   "title_zh": "自身免疫性CAR T细胞的现实检验。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
-   "citation": "Nat Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42888252/",
-   "date": "2026-10-16",
-   "authors": "Guenot M",
-   "author_count": 1,
-   "doi": "10.1038/d41591-026-00052-0",
-   "study_type": "",
-   "pubtypes": [
-    "News"
-   ],
-   "mesh": [],
-   "departments": [
-    "免疫/风湿"
    ]
   },
   {

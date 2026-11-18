@@ -1,0 +1,238 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18T08:21:28+00:00",
+ "provider": "deepseek-chat",
+ "degraded": false,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "42848371",
+   "journal": "JAMA",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42848371/",
+   "title_en": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: The NOPARK Randomized Clinical Trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "烟酰胺核糖用于早期帕金森病患者：NOPARK 随机临床试验",
+   "one_liner": "烟酰胺核糖未能改善早期帕金森病，结局反而略差于安慰剂。",
+   "key_finding": "52周时MDS-UPDRS总分烟酰胺核糖组增加2.45分，安慰剂组减少0.27分，校正均差2.72分（95% CI 0.47-4.98；P=.02），利于安慰剂；NMSS非运动症状负担加重更多（均差4.22分，95% CI 1.07-7.37；P=.009）。",
+   "why_it_matters": "不支持将烟酰胺核糖作为帕金森病的疾病修饰治疗，患者不应自行长期服用期待获益。",
+   "clinical_note": "纳入确诊2年内、Hoehn-Yahr<3期且多巴胺转运体显像异常者；11个挪威中心，52周。",
+   "evidence": "随机双盲安慰剂对照3期试验，410例随机、393例主分析，挪威11中心",
+   "tags": [
+    "神经内科",
+    "帕金森病",
+    "营养补充剂"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43045169",
+   "journal": "BMJ",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045169/",
+   "title_en": "Lessons from the East End: what neighbourhood health looks like in practice.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "来自东区的经验：社区健康在实践中的样貌",
+   "one_liner": "摘要未给出结果。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断对临床或公众的意义。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量与地点",
+   "tags": [
+    "公共卫生",
+    "社区健康"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43045168",
+   "journal": "BMJ",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045168/",
+   "title_en": "GMC invested over £285 000 in McDonald's, Coca-Cola, and AI chip firm Nvidia in 2026.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "GMC 于2026年向麦当劳、可口可乐和AI芯片公司Nvidia投资逾28.5万英镑",
+   "one_liner": "摘要未给出结果。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断其影响。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量与地点",
+   "tags": [
+    "医学伦理",
+    "机构治理"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43045166",
+   "journal": "BMJ",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045166/",
+   "title_en": "Hilary Cass withdraws her backing on conversion practices bill.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Hilary Cass 撤回对转换治疗法案的支持",
+   "one_liner": "摘要未给出结果。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断其政策与临床影响。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量与地点",
+   "tags": [
+    "政策",
+    "心理健康"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43045165",
+   "journal": "BMJ",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045165/",
+   "title_en": "Indian doctors seek Bollywood ban over portrayal of violence and corruption in healthcare.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "印度医生呼吁禁止宝莱坞影视作品：因其对医疗行业暴力与腐败的刻画",
+   "one_liner": "印度医生要求禁止宝莱坞作品，因其渲染医疗行业的暴力与腐败。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "影视刻画可能影响公众对医生的信任，但摘要未提供具体数据或影响评估。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量或地点",
+   "tags": [
+    "医疗行业",
+    "媒体与健康",
+    "印度"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43045164",
+   "journal": "BMJ",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045164/",
+   "title_en": "Palantir's NHS contract to end-but not until 2029, ministers say.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Palantir的NHS合同将终止——但部长们表示要到2029年",
+   "one_liner": "Palantir与NHS的合同将终止，但终止时间推迟至2029年。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "涉及NHS数据合同安排，但摘要未提供合同细节或影响评估。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量或地点",
+   "tags": [
+    "NHS",
+    "医疗数据",
+    "英国"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43045163",
+   "journal": "BMJ",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045163/",
+   "title_en": "Does the CDC still control or prevent diseases?",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "CDC还能控制或预防疾病吗？",
+   "one_liner": "文章质疑美国CDC是否仍具备控制或预防疾病的能力。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "涉及公共卫生机构职能，但摘要未提供具体证据或结论。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量或地点",
+   "tags": [
+    "公共卫生",
+    "CDC",
+    "美国"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43045158",
+   "journal": "BMJ",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045158/",
+   "title_en": "Milburn review: GPs should not issue long term \"fit notes\" in radical welfare shake-up.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Milburn审查：在激进福利改革中，全科医生不应开具长期「fit notes」",
+   "one_liner": "Milburn审查建议全科医生不应开具长期病假证明，属福利改革的一部分。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "若实施将改变全科医生开具病假证明的职责，但摘要未提供具体方案细节。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量或地点",
+   "tags": [
+    "全科医学",
+    "福利政策",
+    "英国"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43044617",
+   "journal": "Lancet",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43044617/",
+   "title_en": "Natural ligand-based CAR T-cell therapy targeting BCMA and TACI for relapsed or refractory multiple myeloma (TriPRIL): a non-randomised, phase 1, first-in-human trial.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "基于天然配体的BCMA/TACI双靶点CAR-T疗法治疗复发或难治性多发性骨髓瘤（TriPRIL）：一项非随机、1期、首次人体试验",
+   "one_liner": "双靶点TriPRIL CAR-T在复发难治骨髓瘤中安全性可控，未出现剂量限制毒性。",
+   "key_finding": "15例输注，无剂量限制毒性；细胞因子释放综合征13例（87%，95% CI 60-98）均为1-2级；推荐2期剂量为3·0 × 108细胞。",
+   "why_it_matters": "为已用过BCMA靶向CAR-T后复发的骨髓瘤患者提供新选择，双靶点有望减少抗原逃逸。",
+   "clinical_note": "单中心、样本量小、非随机；多数患者既往接受过BCMA CAR-T，随访尚短。",
+   "evidence": "1期首次人体、剂量递增+扩展，15例输注，美国单中心",
+   "tags": [
+    "血液肿瘤",
+    "CAR-T细胞治疗",
+    "多发性骨髓瘤"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "pmid": "43044616",
+   "journal": "Lancet",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43044616/",
+   "title_en": "APRIL-based CAR T-cell targeting of BCMA and TACI in multiple myeloma.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "靶向BCMA和TACI的APRIL基CAR-T细胞治疗多发性骨髓瘤",
+   "one_liner": "摘要未给出结果，无法判断疗效与安全性。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要为空，无法评估该疗法对临床或公众的意义。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计与样本量",
+   "tags": [
+    "血液肿瘤",
+    "CAR-T细胞治疗",
+    "多发性骨髓瘤"
+   ],
+   "confidence": "low"
+  }
+ ]
+}

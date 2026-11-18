@@ -1,8 +1,836 @@
 {
  "schema_version": 2,
  "month": "2026-11",
- "count": 568,
+ "count": 621,
  "articles": [
+  {
+   "pmid": "43045169",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Lessons from the East End: what neighbourhood health looks like in practice.",
+   "title_zh": "来自东区的经验教训：社区健康在实践中是什么样子。",
+   "citation": "BMJ. 2026; 395: e101421",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045169/",
+   "date": "2026-11-17",
+   "authors": "Esmail-Yakas A",
+   "doi": "10.1136/bmj-2026-101421",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43045168",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "GMC invested over £285 000 in McDonald's, Coca-Cola, and AI chip firm Nvidia in 2026.",
+   "title_zh": "2026年，GMC向麦当劳、可口可乐和人工智能芯片公司英伟达投资了超过28.5万英镑。",
+   "citation": "BMJ. 2026; 395: e101487",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045168/",
+   "date": "2026-11-17",
+   "authors": "Rimmer A",
+   "doi": "10.1136/bmj-2026-101487",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43045166",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Hilary Cass withdraws her backing on conversion practices bill.",
+   "title_zh": "希拉里·卡斯（Hilary Cass）撤回了她对转化疗法法案的支持。",
+   "citation": "BMJ. 2026; 395: e101493",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045166/",
+   "date": "2026-11-17",
+   "authors": "Wise J",
+   "doi": "10.1136/bmj-2026-101493",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43045165",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Indian doctors seek Bollywood ban over portrayal of violence and corruption in healthcare.",
+   "title_zh": "印度医生要求禁止宝莱坞影视作品中对医疗保健行业的暴力和腐败行为的描写。",
+   "citation": "BMJ. 2026; 395: e101470",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045165/",
+   "date": "2026-11-17",
+   "authors": "Mudur G",
+   "doi": "10.1136/bmj-2026-101470",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43045164",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Palantir's NHS contract to end-but not until 2029, ministers say.",
+   "title_zh": "英国政府部长表示，Palantir与英国国民保健服务局（NHS）的合同将终止，但要到2029年才会终止。",
+   "citation": "BMJ. 2026; 395: e101495",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045164/",
+   "date": "2026-11-17",
+   "authors": "Armstrong S",
+   "doi": "10.1136/bmj-2026-101495",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43045163",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Does the CDC still control or prevent diseases?",
+   "title_zh": "美国疾控中心是否仍在控制或预防疾病？",
+   "citation": "BMJ. 2026; 395: e101232",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045163/",
+   "date": "2026-11-17",
+   "authors": "Owens B",
+   "doi": "10.1136/bmj-2026-101232",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43045161",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Helen Salisbury: The Health Bill's threat to patient confidentiality.",
+   "title_zh": "海伦·索尔兹伯里：医疗法案对患者隐私的威胁。",
+   "citation": "BMJ. 2026; 395: e101462",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045161/",
+   "date": "2026-11-17",
+   "authors": "Salisbury H",
+   "doi": "10.1136/bmj-2026-101462",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43045158",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Milburn review: GPs should not issue long term \"fit notes\" in radical welfare shake-up.",
+   "title_zh": "米尔本审查：在激进的福利改革中，全科医生不应开具长期“病假证明”。",
+   "citation": "BMJ. 2026; 395: e101492",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045158/",
+   "date": "2026-11-17",
+   "authors": "Iacobucci G",
+   "doi": "10.1136/bmj-2026-101492",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43044617",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Natural ligand-based CAR T-cell therapy targeting BCMA and TACI for relapsed or refractory multiple myeloma (TriPRIL): a non-randomised, phase 1, first-in-human trial.",
+   "title_zh": "靶向 BCMA 和 TACI 的基于天然配体的 CAR T 细胞疗法用于治疗复发性或难治性多发性骨髓瘤（TriPRIL）：一项非随机、1 期、首次人体试验。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43044617/",
+   "date": "2026-11-17",
+   "authors": "Puliafito BR, Graham CE, Raje NS, Yee AJ, Cirstea DD, Branagan AR",
+   "doi": "10.1016/S0140-6736(26)01806-4",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43044616",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "APRIL-based CAR T-cell targeting of BCMA and TACI in multiple myeloma.",
+   "title_zh": "靶向多发性骨髓瘤中BCMA和TACI的APRIL介导的CAR T细胞。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43044616/",
+   "date": "2026-11-17",
+   "authors": "Gyau BB, Freeman CL",
+   "doi": "10.1016/S0140-6736(26)02157-4",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43044583",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Paleogenomics illuminates mobility and changing lifeways in Chalcolithic Anatolia.",
+   "title_zh": "古基因组学揭示了铜石器时代安纳托利亚的人口流动和生活方式的变迁。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43044583/",
+   "date": "2026-11-17",
+   "authors": "Aydoğan A, Vural KB, Kazancı DD, Sevkar A, Yüncü E, Sağlıcan E",
+   "doi": "10.1016/j.cell.2026.10.041",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43044582",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Evolutionary repurposing of a pore-forming toxin drives epithelial remodeling during terrestrial adaptation.",
+   "title_zh": "孔道形成毒素的进化性再利用推动了陆地适应过程中的上皮重塑。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43044582/",
+   "date": "2026-11-17",
+   "authors": "Siciliani D, Benedicenti O, Posavi M, Omotade T, Amortegui SX, Garcia BJ",
+   "doi": "10.1016/j.cell.2026.10.038",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43043386",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Social History.",
+   "citation": "JAMA. 2026; 336(19): 1784",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43043386/",
+   "date": "2026-11-17",
+   "authors": "Valentine L",
+   "doi": "10.1001/jama.2026.14373",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43043385",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "\"He Lives Alone\": The Social History and Detachment in Poetry and Medicine.",
+   "title_zh": "《他独居》：诗歌与医学中的社会史与疏离感。",
+   "citation": "JAMA. 2026; 336(19): 1784",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43043385/",
+   "date": "2026-11-17",
+   "authors": "Campo R",
+   "doi": "10.1001/jama.2026.14376",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43042892",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Toward a Healthier Future Through Obesity Prevention and Care: The JAMA Summit Report on Obesity.",
+   "title_zh": "通过预防和治疗肥胖迈向更健康的未来：《JAMA》肥胖症峰会报告。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43042892/",
+   "date": "2026-11-17",
+   "authors": "Cappola AR, Angus DC, Ahima RS, Aronne LJ, Bibbins-Domingo K, Dawson L",
+   "doi": "10.1001/jama.2026.19759",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42912495",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "JAMA Editors' Summary Podcast: October 23, 2026.",
+   "title_zh": "《JAMA》编辑摘要播客：2026年10月23日。",
+   "citation": "JAMA. 2026; 336(19): e2516105",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912495/",
+   "date": "2026-11-17",
+   "doi": "10.1001/jama.2025.16105",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42912410",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Testosterone Use Rises Among Women, but Does the Evidence Support It?",
+   "title_zh": "女性使用睾丸激素的情况有所增加，但有证据支持这样做吗？",
+   "citation": "JAMA. 2026; 336(19): 1701-1703",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912410/",
+   "date": "2026-11-17",
+   "authors": "Schweitzer K",
+   "doi": "10.1001/jama.2026.18998",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42912408",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "WHO Reports Highest Number of Cholera Deaths in Decades.",
+   "title_zh": "世卫组织报告称，霍乱死亡人数创数十年新高。",
+   "citation": "JAMA. 2026; 336(19): 1707",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912408/",
+   "date": "2026-11-17",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.20029",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42912404",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "New Guidelines Issued for Diagnosing Iron Deficiency.",
+   "citation": "JAMA. 2026; 336(19): 1707",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912404/",
+   "date": "2026-11-17",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.20028",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42912403",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Steatotic Liver Disease Is Becoming a Higher Priority Worldwide.",
+   "title_zh": "脂肪性肝病正在成为全球日益重视的问题。",
+   "citation": "JAMA. 2026; 336(19): 1704-1706",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912403/",
+   "date": "2026-11-17",
+   "authors": "Rubin R",
+   "doi": "10.1001/jama.2026.18418",
+   "study_type": "研究论文",
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "42912402",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "AAP Advises Against Raw Milk and Other Unpasteurized Dairy.",
+   "title_zh": "AAP建议不要饮用生乳和其他未经巴氏杀菌的乳制品。",
+   "citation": "JAMA. 2026; 336(19): 1708",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912402/",
+   "date": "2026-11-17",
+   "authors": "Anderer S",
+   "doi": "10.1001/jama.2026.20032",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42912401",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "WHO Publishes First Guidelines for Managing Obesity in Children.",
+   "title_zh": "世界卫生组织发布首份儿童肥胖症管理指南。",
+   "citation": "JAMA. 2026; 336(19): 1708",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912401/",
+   "date": "2026-11-17",
+   "authors": "Anderer S",
+   "doi": "10.1001/jama.2026.20033",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢",
+    "儿科",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42912386",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Global Heart Failure Burden Increased Between 1990 and 2023.",
+   "title_zh": "1990年至2023年间，全球心力衰竭负担有所增加。",
+   "citation": "JAMA. 2026; 336(19): 1707",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912386/",
+   "date": "2026-11-17",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.20030",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42912385",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "ACC Releases Guidance for Managing Resistant Hypertension.",
+   "title_zh": "ACC发布《难治性高血压管理指南》。",
+   "citation": "JAMA. 2026; 336(19): 1707-1708",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42912385/",
+   "date": "2026-11-17",
+   "authors": "Anderer S",
+   "doi": "10.1001/jama.2026.20031",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "42911603",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Breast Cancer's Transformation From Terminal to Manageable: A Healthy Dialogue With Nancy E. Davidson.",
+   "title_zh": "乳腺癌从晚期到可控的转变：与Nancy E. Davidson的健康对话。",
+   "citation": "JAMA. 2026; 336(19): e2621078",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911603/",
+   "date": "2026-11-17",
+   "authors": "Angus DC, O'Connor MB, Young LJ",
+   "doi": "10.1001/jama.2026.21078",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42911602",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Compounded GLP-1 Dispensing Patterns and Vitamin B12 Coformulation.",
+   "title_zh": "复方 GLP-1 配药模式和维生素 B12 复方制剂。",
+   "citation": "JAMA. 2026; 336(19): 1773-1776",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911602/",
+   "date": "2026-11-17",
+   "authors": "Mattingly TJ, Duru EE, Maciejewski ML, Conti RM",
+   "doi": "10.1001/jama.2026.21223",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42911601",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Clinical Practice Guidelines on Antiviral Therapies for Adults With COVID-19 Infection-Reply.",
+   "title_zh": "成人新冠病毒感染抗病毒治疗临床实践指南——答复。",
+   "citation": "JAMA. 2026; 336(19): 1783",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911601/",
+   "date": "2026-11-17",
+   "authors": "Leung PB, Davis AM, Marks KM",
+   "doi": "10.1001/jama.2026.17751",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "42911572",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Obesity and Starvation.",
+   "citation": "JAMA. 2026; 336(19): 1785",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911572/",
+   "date": "2026-11-17",
+   "doi": "10.1001/jama.2025.16106",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42911567",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Clinical Practice Guidelines on Antiviral Therapies for Adults With COVID-19 Infection.",
+   "title_zh": "《新冠病毒感染成人抗病毒治疗临床实践指南》。",
+   "citation": "JAMA. 2026; 336(19): 1782-1783",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911567/",
+   "date": "2026-11-17",
+   "authors": "Tseng CH, Liu PY, Yeh TK",
+   "doi": "10.1001/jama.2026.17748",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "42905722",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Metabolic Dysfunction-Associated Steatotic Liver Disease in Children and Adolescents.",
+   "citation": "JAMA. 2026; 336(19): 1769-1770",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42905722/",
+   "date": "2026-11-17",
+   "authors": "Mann JP, Byrne CD, Targher G",
+   "doi": "10.1001/jama.2026.16766",
+   "study_type": "研究论文",
+   "departments": [
+    "消化器",
+    "内分泌/代谢",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "42905699",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Prone Positioning for Infants With Bronchiolitis and HFNC Support.",
+   "title_zh": "患有细支气管炎并接受高流量鼻导管（HFNC）支持的婴儿的俯卧位。",
+   "citation": "JAMA. 2026; 336(19): 1780-1781",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42905699/",
+   "date": "2026-11-17",
+   "authors": "van Egmond J, Mulier JP",
+   "doi": "10.1001/jama.2026.17454",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "42905688",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Obesity in Children Aged 2 to 12 Years: A Review.",
+   "title_zh": "2至12岁儿童肥胖症：综述。",
+   "citation": "JAMA. 2026; 336(19): 1757-1766",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42905688/",
+   "date": "2026-11-17",
+   "authors": "Fox CK, Armstrong SC, Kelly AS",
+   "doi": "10.1001/jama.2026.18806",
+   "study_type": "综述",
+   "departments": [
+    "内分泌/代谢",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "42905685",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "What Is Childhood Obesity?",
+   "title_zh": "什么是儿童肥胖？",
+   "citation": "JAMA. 2026; 336(19): 1788",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42905685/",
+   "date": "2026-11-17",
+   "authors": "Walter KL",
+   "doi": "10.1001/jama.2026.19264",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "42905674",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Prone Positioning for Infants With Bronchiolitis and HFNC Support-Reply.",
+   "title_zh": "患有细支气管炎并接受高流量鼻导管（HFNC）支持的婴儿的俯卧位。-回复。",
+   "citation": "JAMA. 2026; 336(19): 1781-1782",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42905674/",
+   "date": "2026-11-17",
+   "authors": "Baudin F, Mortamet G, Milési C",
+   "doi": "10.1001/jama.2026.17457",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "42895717",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Illicit Injectable Peptides-Reply.",
+   "title_zh": "非法注射肽-回复。",
+   "citation": "JAMA. 2026; 336(19): 1780",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42895717/",
+   "date": "2026-11-17",
+   "authors": "Piatkowski T, Ganson KT, Nagata JM",
+   "doi": "10.1001/jama.2026.17242",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42895715",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Illicit Injectable Peptides.",
+   "citation": "JAMA. 2026; 336(19): 1779-1780",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42895715/",
+   "date": "2026-11-17",
+   "authors": "Janovsky CCPS",
+   "doi": "10.1001/jama.2026.17239",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42848414",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: Research Summary.",
+   "title_zh": "用于早期帕金森病患者的烟酰胺核苷：研究综述。",
+   "citation": "JAMA. 2026; 336(19): e2618859",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42848414/",
+   "date": "2026-11-17",
+   "doi": "10.1001/jama.2026.18859",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42848371",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: The NOPARK Randomized Clinical Trial.",
+   "title_zh": "用于早期帕金森病患者的烟酰胺核苷：NOPARK随机临床试验。",
+   "citation": "JAMA. 2026; 336(19): 1723-1733",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42848371/",
+   "date": "2026-11-17",
+   "authors": "Brakedal B, Skeie GO, Derad C, Alstadhaug KB, Anundskås I, Berven H",
+   "doi": "10.1001/jama.2026.18828",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42842267",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Trials of Treatment Deescalation, Deimplementation, and Discontinuation-Reply.",
+   "citation": "JAMA. 2026; 336(19): 1777",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42842267/",
+   "date": "2026-11-17",
+   "authors": "Huang AJ, Schonberg MA, Grady D",
+   "doi": "10.1001/jama.2026.16914",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42842239",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Trials of Treatment Deescalation, Deimplementation, and Discontinuation.",
+   "citation": "JAMA. 2026; 336(19): 1776-1777",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42842239/",
+   "date": "2026-11-17",
+   "authors": "Mathioudakis AG, Chatzimavridou-Grigoriadou V",
+   "doi": "10.1001/jama.2026.16911",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42832238",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Medicare and Bureau of Health Workforce and Funded Primary Care Residency Positions-Reply.",
+   "title_zh": "Medicare 和卫生人力资源局以及资助的初级保健住院医师职位——回复。",
+   "citation": "JAMA. 2026; 336(19): 1778-1779",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42832238/",
+   "date": "2026-11-17",
+   "authors": "Ramesh T, Yu H",
+   "doi": "10.1001/jama.2026.17126",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42832212",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Medicare and Bureau of Health Workforce and Funded Primary Care Residency Positions.",
+   "title_zh": "Medicare、卫生人力资源局和资助的初级保健住院医师职位。",
+   "citation": "JAMA. 2026; 336(19): 1777-1778",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42832212/",
+   "date": "2026-11-17",
+   "authors": "Hayes RW, Dapkins IP",
+   "doi": "10.1001/jama.2026.17123",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42821295",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Building Effective Multimodal Care for Obesity and Comorbidities in the GLP-1 Therapy Era.",
+   "title_zh": "在 GLP-1 疗法时代建立针对肥胖症和合并症的有效多模式护理。",
+   "citation": "JAMA. 2026; 336(19): 1709-1712",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42821295/",
+   "date": "2026-11-17",
+   "authors": "Celletti F, Manne-Goehler J, Franco JVA, De Regil LM",
+   "doi": "10.1001/jama.2026.16540",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42821286",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Postpartum Initiation of GLP-1 Receptor Agonists Among Commercially Insured Women in the US.",
+   "title_zh": "美国商业保险女性产后开始使用GLP-1受体激动剂。",
+   "citation": "JAMA. 2026; 336(19): 1771-1773",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42821286/",
+   "date": "2026-11-17",
+   "authors": "Cai ST, Simon K, Shanks AL, Wing C",
+   "doi": "10.1001/jama.2026.16841",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42821279",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Equitable Access to GLP-1 Receptor Agonists-Essential but Not Accessible.",
+   "title_zh": "公平获得GLP-1受体激动剂——至关重要，但难以实现。",
+   "citation": "JAMA. 2026; 336(19): 1713-1716",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42821279/",
+   "date": "2026-11-17",
+   "authors": "Abdool Karim S, Faden RR, Searchinger C, Bollyky TJ",
+   "doi": "10.1001/jama.2026.15762",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42814439",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Histologic Features and Clinical Outcomes of Lean Metabolic Dysfunction-Associated Steatotic Liver Disease.",
+   "title_zh": "非肥胖型代谢功能障碍相关性脂肪性肝病的组织学特征和临床结局。",
+   "citation": "JAMA. 2026; 336(19): 1745-1756",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42814439/",
+   "date": "2026-11-17",
+   "authors": "de Avila L, AlNaamani KM, Papatheodoridi M, Petta S, Hagström H, Kim SU",
+   "doi": "10.1001/jama.2026.18491",
+   "study_type": "观察性研究",
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "42814421",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Lean MASLD and Limits of Body Size in Risk Stratification.",
+   "title_zh": "消瘦型MASLD和体型在风险分层中的局限性。",
+   "citation": "JAMA. 2026; 336(19): 1721-1722",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42814421/",
+   "date": "2026-11-17",
+   "authors": "Bugianesi E",
+   "doi": "10.1001/jama.2026.16793",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42747828",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Diagnosis and Treatment of Patients With Primary Aldosteronism.",
+   "title_zh": "原发性醛固酮增多症患者的诊断和治疗。",
+   "citation": "JAMA. 2026; 336(19): 1767-1768",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42747828/",
+   "date": "2026-11-17",
+   "authors": "Rafey MA, Davis AM, Hamrahian AH",
+   "doi": "10.1001/jama.2026.13077",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42690619",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Model Patient.",
+   "citation": "JAMA. 2026; 336(19): 1717-1718",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42690619/",
+   "date": "2026-11-17",
+   "authors": "Steigerwald AJ",
+   "doi": "10.1001/jama.2026.14245",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42663169",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Cardiovascular Magnetic Resonance to Guide Defibrillator Implantation for LVEF of 36% to 50%: The CMR GUIDE Randomized Clinical Trial.",
+   "title_zh": "心血管磁共振引导除颤器植入用于LVEF为36%至50%的患者：CMR GUIDE随机临床试验。",
+   "citation": "JAMA. 2026; 336(19): 1734-1744",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42663169/",
+   "date": "2026-11-17",
+   "authors": "Selvanayagam JB, Cleland JGF, Hillis GS, Pasupathy S, Billot L, George KE",
+   "doi": "10.1001/jama.2026.17078",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42663165",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Implantable Cardioverter-Defibrillators for Preventing Sudden Cardiac Death in Patients With an LVEF >35.",
+   "title_zh": "用于预防LVEF >35的患者发生猝死的植入式心脏复律除颤器。",
+   "citation": "JAMA. 2026; 336(19): 1719-1720",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42663165/",
+   "date": "2026-11-17",
+   "authors": "Al-Khatib SM",
+   "doi": "10.1001/jama.2026.16582",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42663164",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Cardiovascular Magnetic Resonance to Guide Defibrillator Implantation for LVEF of 36% to 50%: Research Summary.",
+   "title_zh": "心血管磁共振引导除颤器植入用于LVEF为36%至50%的患者：研究综述。",
+   "citation": "JAMA. 2026; 336(19): e2617332",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42663164/",
+   "date": "2026-11-17",
+   "doi": "10.1001/jama.2026.17332",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
   {
    "pmid": "43039449",
    "journal": "BMJ",
@@ -199,6 +1027,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Alcohol Consumption During Pregnancy in the US-Reply.",
+   "title_zh": "美国孕期饮酒——回复",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43037993/",
    "date": "2026-11-16",
@@ -246,6 +1075,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Alcohol Consumption During Pregnancy in the US.",
+   "title_zh": "美国孕期饮酒",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43037962/",
    "date": "2026-11-16",
@@ -271,6 +1101,22 @@
    "departments": [
     "内分泌/代谢",
     "儿科"
+   ]
+  },
+  {
+   "pmid": "43040107",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Addendum: A meta-analysis of GFR slope as a surrogate endpoint for kidney failure.",
+   "title_zh": "附录：以GFR斜率作为肾衰竭替代终点的荟萃分析。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43040107/",
+   "date": "2026-11-16",
+   "authors": "Inker LA, Collier W, Greene T, Miao S, Chaudhari J, Appel GB",
+   "doi": "10.1038/s41591-026-04798-5",
+   "study_type": "研究论文",
+   "departments": [
+    "肾脏/泌尿"
    ]
   },
   {
@@ -8160,8 +9006,9 @@
    "doi": "10.1038/s41591-026-04712-z",
    "study_type": "随机对照试验",
    "departments": [
+    "肿瘤",
     "消化器",
-    "移植"
+    "血液"
    ]
   },
   {
@@ -8981,7 +9828,7 @@
    "doi": "10.1038/s41591-026-04644-8",
    "study_type": "随机对照试验",
    "departments": [
-    "感染"
+    "综合"
    ]
   },
   {

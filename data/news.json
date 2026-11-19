@@ -1,13 +1,13 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-18T08:21:11+00:00",
+ "generated_at": "2026-11-19T08:32:45+00:00",
  "window_days": 180,
- "count": 1093,
+ "count": 1140,
  "journals": [
   {
    "abbr": "N Engl J Med",
    "name": "New England Journal of Medicine",
-   "count": 146
+   "count": 159
   },
   {
    "abbr": "Lancet",
@@ -17,17 +17,17 @@
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 254
+   "count": 261
   },
   {
    "abbr": "BMJ",
    "name": "BMJ",
-   "count": 171
+   "count": 190
   },
   {
    "abbr": "Nat Med",
    "name": "Nature Medicine",
-   "count": 139
+   "count": 140
   },
   {
    "abbr": "Cell",
@@ -37,16 +37,1504 @@
   {
    "abbr": "Sci Transl Med",
    "name": "Science Translational Medicine",
-   "count": 107
+   "count": 114
   }
  ],
  "failures": [],
  "stats": {
-  "translate_used": 57,
-  "cache_size": 1046,
-  "translate_fails": 4
+  "translate_used": 48,
+  "cache_size": 1094,
+  "translate_fails": 3
  },
  "articles": [
+  {
+   "pmid": "43050671",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Meningococcal B Vaccine to Prevent Gonorrhea. Reply.",
+   "title_zh": "B型脑膜炎球菌疫苗可预防淋病。回复。",
+   "summary_en": "",
+   "summary_zh": "【评论】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2075-2076",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050671/",
+   "date": "2026-11-19",
+   "authors": "Seib KL, Grulich AE",
+   "author_count": 2,
+   "doi": "10.1056/NEJMc2611609",
+   "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
+   "mesh": [],
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43050670",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Meningococcal B Vaccine to Prevent Gonorrhea.",
+   "title_zh": "预防淋病的B型脑膜炎球菌疫苗。",
+   "summary_en": "",
+   "summary_zh": "【评论】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2075",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050670/",
+   "date": "2026-11-19",
+   "authors": "Lambert SB, Wang B, Marshall HS",
+   "author_count": 3,
+   "doi": "10.1056/NEJMc2611609",
+   "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
+   "mesh": [],
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43050669",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Enfortumab Vedotin and Pembrolizumab for Cisplatin-Eligible Bladder Cancer. Reply.",
+   "title_zh": "恩福妥单抗vedotin和帕博利珠单抗用于适合顺铂治疗的膀胱癌。答复。",
+   "summary_en": "",
+   "summary_zh": "【评论】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2074-2075",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050669/",
+   "date": "2026-11-19",
+   "authors": "Galsky MD",
+   "author_count": 1,
+   "doi": "10.1056/NEJMc2610895",
+   "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "43050668",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Enfortumab Vedotin and Pembrolizumab for Cisplatin-Eligible Bladder Cancer.",
+   "title_zh": "恩福妥单抗vedotin和帕博利珠单抗用于适合顺铂治疗的膀胱癌。",
+   "summary_en": "",
+   "summary_zh": "【评论】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2073-2074",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050668/",
+   "date": "2026-11-19",
+   "authors": "Kıkılı Cİ, Kemik F, Tural D",
+   "author_count": 3,
+   "doi": "10.1056/NEJMc2610895",
+   "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "43050667",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Enfortumab Vedotin and Pembrolizumab for Cisplatin-Eligible Bladder Cancer.",
+   "title_zh": "恩福妥单抗vedotin和帕博利珠单抗用于适合顺铂治疗的膀胱癌。",
+   "summary_en": "",
+   "summary_zh": "【评论】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2073",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050667/",
+   "date": "2026-11-19",
+   "authors": "Takemura K, Miura Y, Kitano S",
+   "author_count": 3,
+   "doi": "10.1056/NEJMc2610895",
+   "study_type": "评论",
+   "pubtypes": [
+    "Letter",
+    "Comment"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "43050666",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Revertant Autograft Replacement in Recessive Dystrophic Epidermolysis Bullosa.",
+   "title_zh": "隐性营养不良性大疱性表皮松解症的回复性自体移植替代。",
+   "summary_en": "",
+   "summary_zh": "【通信】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2070-2073",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050666/",
+   "date": "2026-11-19",
+   "authors": "Kubo A, Suzuki H, Ono N, Saito S, Aoki S, Ogawa Y",
+   "author_count": 13,
+   "doi": "10.1056/NEJMc2517823",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43050665",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Healing Health Care in Rural America - Toward Community-Centered Learning Health Systems.",
+   "title_zh": "治愈美国农村的医疗保健——迈向以社区为中心的学习型医疗体系。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2063-2067",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050665/",
+   "date": "2026-11-19",
+   "authors": "Bertagnolli MM",
+   "author_count": 1,
+   "doi": "10.1056/NEJMsr2607321",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43050664",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Too Soon to Say Goodbye - Aspirin at the Door in STEMI.",
+   "title_zh": "告别为时尚早——STEMI患者入院时服用阿司匹林。",
+   "summary_en": "",
+   "summary_zh": "【述评】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2058-2060",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050664/",
+   "date": "2026-11-19",
+   "authors": "Bainey KR",
+   "author_count": 1,
+   "doi": "10.1056/NEJMe2612576",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43050663",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Case 33-2026: A 73-Year-Old Woman with Fever, Weight Loss, and Leg Weakness.",
+   "title_zh": "病例33-2026：一名73岁女性，有发热、体重减轻和腿部无力症状。",
+   "summary_en": "",
+   "summary_zh": "【病例报告】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2044-2054",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050663/",
+   "date": "2026-11-19",
+   "authors": "Janjigian MP, Cheng M, Perugino CA, Hausmann JS",
+   "author_count": 4,
+   "doi": "10.1056/NEJMcpc2603186",
+   "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43050662",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Cutaneous Anthrax.",
+   "title_zh": "皮肤炭疽",
+   "summary_en": "",
+   "summary_zh": "【病例报告】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2043",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050662/",
+   "date": "2026-11-19",
+   "authors": "Tepe D, Yilmaz G",
+   "author_count": 2,
+   "doi": "10.1056/NEJMicm2608816",
+   "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43050661",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Acute Respiratory Distress Syndrome.",
+   "title_zh": "急性呼吸窘迫综合征",
+   "summary_en": "Acute respiratory distress syndrome (ARDS) is a common cause of acute hypoxemic respiratory failure in patients with pneumonia, sepsis, aspiration of gastric contents, severe trauma, or other inciting triggers. Although the definition of the syndrome has evolved over the past several decades, the core elements (acute onset, hypoxemia, and bilateral radiographic opacities) remain consistent. Critical components of management include identification and treatment of the underlying cause of ARDS as well as avoidance of ventilator-induced lung injury and volume overload. Ongoing areas of controversy include the best strategy for supporting nonintubated patients, personalization of positive end-expiratory pressure, the role of innovative ventilatory strategies, and the use of glucocorticoids. Ne",
+   "summary_zh": "【综述】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2027-2042",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050661/",
+   "date": "2026-11-19",
+   "authors": "Calfee CS, McAuley DF",
+   "author_count": 2,
+   "doi": "10.1056/NEJMra2601172",
+   "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [
+    "Humans",
+    "Respiratory Distress Syndrome",
+    "Respiration, Artificial",
+    "Positive-Pressure Respiration",
+    "Glucocorticoids"
+   ],
+   "departments": [
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "43050660",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Closing the Gap.",
+   "title_zh": "弥合差距",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): e29",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050660/",
+   "date": "2026-11-19",
+   "authors": "Ravindra L, Knoper K, Tan N, Solomon CG",
+   "author_count": 4,
+   "doi": "10.1056/NEJMp2516854",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43037246",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "The Unexamined Subsidy - Rethinking Incentives for Outpatient Clinical Preceptors.",
+   "title_zh": "未加审视的补贴——重新思考对门诊临床带教老师的激励措施。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 1975-1977",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037246/",
+   "date": "2026-11-19",
+   "authors": "Maxey HL, Moore M",
+   "author_count": 2,
+   "doi": "10.1056/NEJMp2611160",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43037244",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "What the Robot Still Can't Do.",
+   "title_zh": "机器人仍无法做到的事情。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 1977-1979",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037244/",
+   "date": "2026-11-19",
+   "authors": "Nundy S",
+   "author_count": 1,
+   "doi": "10.1056/NEJMp2606894",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43037241",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Reimagining Health Policy Research.",
+   "title_zh": "重新构想卫生政策研究。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 1973-1975",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037241/",
+   "date": "2026-11-19",
+   "authors": "McGinty EE",
+   "author_count": 1,
+   "doi": "10.1056/NEJMp2611665",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "43037238",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Functional Fixed Dystonia of the Foot.",
+   "title_zh": "足部功能性固定性肌张力障碍。",
+   "summary_en": "",
+   "summary_zh": "【病例报告】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): e30",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43037238/",
+   "date": "2026-11-19",
+   "authors": "Nonnekes J, de Greef-Rotteveel A",
+   "author_count": 2,
+   "doi": "10.1056/NEJMicm2608021",
+   "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42969894",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Extended Outcomes of the ADAPT AF-DES Trial.",
+   "title_zh": "ADAPT AF-DES试验的扩展结局",
+   "summary_en": "",
+   "summary_zh": "【通信】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2068-2070",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42969894/",
+   "date": "2026-11-19",
+   "authors": "Lee SH, Lee YJ, Heo JH, Ahn SG, Shin S, Doh JH",
+   "author_count": 51,
+   "doi": "10.1056/NEJMc2612608",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42929707",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Targeting HER2 - A Triumph of Science.",
+   "title_zh": "靶向HER2——科学的胜利。",
+   "summary_en": "",
+   "summary_zh": "【述评】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2056-2057",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929707/",
+   "date": "2026-11-19",
+   "authors": "Swain SM",
+   "author_count": 1,
+   "doi": "10.1056/NEJMe2611466",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42929681",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Anbenitamab plus HB1801 for HER2-Positive Advanced Breast Cancer.",
+   "title_zh": "Anbenitamab联合HB1801治疗HER2阳性晚期乳腺癌。",
+   "summary_en": "BACKGROUND: The combination of docetaxel, trastuzumab, and pertuzumab (THP) is an established first-line treatment for human epidermal growth factor receptor 2 (HER2)-positive advanced breast cancer. The efficacy and safety of anbenitamab, a HER2-targeted bispecific antibody, plus albumin-bound docetaxel (HB1801) in this context are unknown. METHODS: In this phase 3, multicenter, open-label, randomized trial conducted in China, we randomly assigned patients with HER2-positive advanced breast cancer in a 1:1 ratio to receive either anbenitamab plus HB1801 or THP. The primary end point was progression-free survival, as assessed by blinded independent central review. Objective response was a secondary end point. RESULTS: A total of 885 patients were enrolled (445 were assigned to receive anbe",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 1981-1992",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929681/",
+   "date": "2026-11-19",
+   "authors": "Wang J, Li H, Xu F, Wu T, Tong Z, Cui J",
+   "author_count": 42,
+   "doi": "10.1056/NEJMoa2610345",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Breast Neoplasms",
+    "Erb-b2 Receptor Tyrosine Kinases",
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "Middle Aged",
+    "Aged",
+    "Adult",
+    "Progression-Free Survival",
+    "Docetaxel"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42929679",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Expanding the Evidence and Indications for Thrombectomy in Ischemic Stroke.",
+   "title_zh": "扩大缺血性卒中取栓治疗的证据与适应证",
+   "summary_en": "",
+   "summary_zh": "【述评】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2060-2062",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929679/",
+   "date": "2026-11-19",
+   "authors": "Marnat G",
+   "author_count": 1,
+   "doi": "10.1056/NEJMe2612692",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "神经",
+    "血液"
+   ]
+  },
+  {
+   "pmid": "42929671",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Trial of Endovascular Therapy for Mild Stroke with Large-Vessel Occlusion.",
+   "title_zh": "大血管闭塞性轻型卒中的血管内治疗试验",
+   "summary_en": "BACKGROUND: Whether endovascular therapy benefits patients with mild acute ischemic stroke from large-vessel occlusion involving the anterior circulation is uncertain. METHODS: We conducted a multicenter, open-label, randomized trial in China involving patients with acute ischemic stroke of mild clinical severity (defined by a score of <6 on the National Institutes of Health Stroke Scale) that had resulted from large-vessel occlusion involving the anterior circulation. Patients also had neuroimaging features of a small infarct core and a large perfusion-mismatch volume, representing substantial at-risk tissue, within 24 hours after symptom onset or after they were last known to be well. The patients were randomly assigned to undergo endovascular therapy and receive medical management or to",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2015-2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929671/",
+   "date": "2026-11-19",
+   "authors": "Liu J, Yi T, Xing P, Wu M, Zhang L, Zheng T",
+   "author_count": 35,
+   "doi": "10.1056/NEJMoa2609149",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Multicenter Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Endovascular Procedures",
+    "Male",
+    "Aged",
+    "Middle Aged",
+    "Intention to Treat Analysis",
+    "Ischemic Stroke",
+    "Stroke",
+    "Severity of Illness Index"
+   ],
+   "departments": [
+    "循环器",
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42929656",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Mechanical Thrombectomy 24 to 72 Hours after Large-Vessel Ischemic Stroke.",
+   "title_zh": "大血管闭塞性缺血性卒中后24至72小时行机械取栓",
+   "summary_en": "BACKGROUND: Endovascular thrombectomy is an established treatment for acute ischemic stroke. Whether the benefit extends to patients with salvageable brain tissue in the infarct who present more than 24 hours after symptom onset or the time when they were last known to be well is uncertain. METHODS: We conducted an open-label, randomized trial with blinded outcome assessment at comprehensive stroke centers in China. Patients with acute ischemic stroke from large-vessel occlusion of the anterior circulation and imaging-identified salvageable brain tissue at 24 to 72 hours were assigned to receive endovascular therapy plus standard medical care (intervention group) or standard medical care alone (control group). The primary outcome was functional status, defined by the score on the modified ",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 2004-2014",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929656/",
+   "date": "2026-11-19",
+   "authors": "Yang P, Shen H, Yi T, Xing P, Su J, Wen C",
+   "author_count": 64,
+   "doi": "10.1056/NEJMoa2609362",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Multicenter Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Ischemic Stroke",
+    "Aged",
+    "Male",
+    "Thrombectomy",
+    "Middle Aged",
+    "Intention to Treat Analysis",
+    "Endovascular Procedures",
+    "Time-to-Treatment"
+   ],
+   "departments": [
+    "循环器",
+    "神经",
+    "血液"
+   ]
+  },
+  {
+   "pmid": "42670955",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Aspirin Omission at the Time of Primary Percutaneous Coronary Intervention in STEMI.",
+   "title_zh": "STEMI患者行原发性经皮冠状动脉介入治疗时未用阿司匹林。",
+   "summary_en": "BACKGROUND: The safety of omitting up-front treatment with aspirin during primary percutaneous coronary intervention (PCI) in patients with ST-segment elevation myocardial infarction (STEMI) remains unclear. METHODS: We conducted a multicenter, open-label, randomized trial in Japan involving patients with STEMI who were undergoing primary PCI. Patients were randomly assigned in a 1:1 ratio before PCI to receive low-dose prasugrel monotherapy or dual antiplatelet therapy (DAPT) with aspirin and low-dose prasugrel for 12 months. The primary outcome was a composite of death from any cause, stroke, or myocardial infarction at 12 months, which was assessed for noninferiority with a prespecified noninferiority margin of 1.50 for the 95% confidence interval of the hazard ratio. The major secondar",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026; 395(20): 1993-2003",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42670955/",
+   "date": "2026-11-19",
+   "authors": "Takahashi K, Kozuma K, Morino Y, Kashiwabara K, Otake H, Suwa S",
+   "author_count": 28,
+   "doi": "10.1056/NEJMoa2606997",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Equivalence Trial"
+   ],
+   "mesh": [
+    "Humans",
+    "Aspirin",
+    "Female",
+    "Platelet Aggregation Inhibitors",
+    "Hemorrhage",
+    "Percutaneous Coronary Intervention",
+    "Male",
+    "Prasugrel Hydrochloride",
+    "ST Elevation Myocardial Infarction",
+    "Middle Aged"
+   ],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43052007",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Physical activity coaching and text messaging for adults with mobility limitations (ComeBACK): hybrid type 1 effectiveness implementation randomised controlled trial.",
+   "title_zh": "针对行动受限成年人的体育活动指导和短信服务（ComeBACK）：混合型1类有效性实施随机对照试验。",
+   "summary_en": "OBJECTIVE: To evaluate the effectiveness of a physical activity coaching intervention compared with text messaging intervention and waitlist control in adults with mobility limitations. DESIGN: Three arm, pragmatic, superiority, hybrid type 1 effectiveness implementation randomised controlled trial. SETTING: Health services and general communities across five Australian states, 19 December 2018 to 7 March 2023. PARTICIPANTS: 512 community dwelling adults (≥18 years) who self-reported mobility limitations (difficulty or inability to walk 800 m, with or without a walking aid) but were still able to leave home without physical assistance from another person. INTERVENTIONS: Participants were randomly assigned in a 1:1:1 allocation ratio to: a six month, multicomponent intervention including fo",
+   "summary_zh": "【随机对照试验】BMJ 刊载。结论要点见下方原文摘要。",
+   "citation": "BMJ. 2026; 395: e101157",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43052007/",
+   "date": "2026-11-18",
+   "authors": "Pearce LMN, Sherrington C, Tiedemann A, Hinman RS, Crotty M, Taylor NF",
+   "author_count": 26,
+   "doi": "10.1136/bmj-2026-101157",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Pragmatic Clinical Trial",
+    "Equivalence Trial"
+   ],
+   "mesh": [
+    "Humans",
+    "Text Messaging",
+    "Female",
+    "Mobility Limitation",
+    "Mentoring",
+    "Aged",
+    "Male",
+    "Middle Aged",
+    "Exercise",
+    "Australia"
+   ],
+   "departments": [
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43051686",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Corridor care crisis: Over half of NHS hospitals are putting vulnerable patients in public areas.",
+   "title_zh": "走廊护理危机：超过半数的国民保健服务（NHS）医院将弱势患者安置在公共区域。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101441",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051686/",
+   "date": "2026-11-18",
+   "authors": "Borland S",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101441",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051685",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Effect of intrapartum hyoscine butylbromide and sodium bicarbonate on spontaneous vaginal birth in nulliparous women after induction of labour (SAINT): multicentre randomised placebo controlled factorial trial.",
+   "title_zh": "分娩期丁溴东莨菪碱和碳酸氢钠对初产妇诱导分娩后自发性阴道分娩的影响（SAINT）：一项多中心随机安慰剂对照析因试验。",
+   "summary_en": "OBJECTIVE: To determine whether intrapartum hyoscine butylbromide, sodium bicarbonate, and their combination increase the rate of spontaneous vaginal birth in nulliparous women undergoing induction of labour. DESIGN: Multicentre, randomised, double blind, placebo controlled, 2×2 factorial phase 3 trial (SAINT). SETTING: 11 Norwegian hospitals providing comprehensive obstetric care. PARTICIPANTS: Nulliparous women aged 18-50 years with a singleton live fetus in cephalic presentation at term with an indication for induction of labour. INTERVENTIONS: Participants were randomly assigned (1:1:1:1) to oral sodium bicarbonate (4×1 g per dose) plus intravenous hyoscine butylbromide (20 mg per dose), oral sodium bicarbonate plus intravenous placebo, oral placebo plus intravenous hyoscine butylbromi",
+   "summary_zh": "【随机对照试验】BMJ 刊载。结论要点见下方原文摘要。",
+   "citation": "BMJ. 2026; 395: e101069",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051685/",
+   "date": "2026-11-18",
+   "authors": "Michelsen TM, Leeves LT, Solhoff AV, Nilsen NG, Kjøllesdal AM, Pettersen ÅTR",
+   "author_count": 16,
+   "doi": "10.1136/bmj-2026-101069",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Multicenter Study",
+    "Clinical Trial, Phase III"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Pregnancy",
+    "Adult",
+    "Butylscopolammonium Bromide",
+    "Double-Blind Method",
+    "Parity",
+    "Sodium Bicarbonate",
+    "Labor, Induced",
+    "Young Adult"
+   ],
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "43051676",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Social media ban: Researchers get £9.3m to study impact on body image, addiction, school engagement, and circumvention.",
+   "title_zh": "社交媒体禁令：研究人员获得930万英镑的资助，用于研究社交媒体对体形认知、成瘾、学校参与度和规避行为的影响。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101482",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051676/",
+   "date": "2026-11-18",
+   "authors": "Mahase E",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101482",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051675",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "GMC data leak: Regulator exposes details of 223 doctors after media query on antisemitism and Islamophobia complaints.",
+   "title_zh": "GMC数据泄露：监管机构在媒体就反犹太主义和仇视伊斯兰的投诉提出质询后，披露了223名医生的详细信息。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101509",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051675/",
+   "date": "2026-11-18",
+   "authors": "Mahase E",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101509",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051674",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Medicine often mistakes disenchantment for burnout.",
+   "title_zh": "医学界常常将幻灭感误认为是倦怠。",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101484",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051674/",
+   "date": "2026-11-18",
+   "authors": "Beardsell I",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101484",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051673",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "GLP-1s: FDA issues warning over rare eye condition.",
+   "title_zh": "GLP-1：FDA发布罕见眼疾警告。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101488",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051673/",
+   "date": "2026-11-18",
+   "authors": "Cozzolino A",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101488",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051672",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Medical research gender gap in focus in new programme.",
+   "title_zh": "新项目聚焦医学研究中的性别差距。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101497",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051672/",
+   "date": "2026-11-18",
+   "authors": "Furneaux R",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101497",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051671",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Help me get ready to go home.",
+   "title_zh": "帮我准备好回家。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e100882",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051671/",
+   "date": "2026-11-18",
+   "authors": "Wheeler A",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-100882",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051670",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "We still want to see everything.",
+   "title_zh": "我们还是想把所有东西都看一看。",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101500",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051670/",
+   "date": "2026-11-18",
+   "authors": "Mazer BL",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101500",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051659",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "The art of medicine cannot be devoid of the arts.",
+   "title_zh": "医学艺术不能脱离艺术",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e100385",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051659/",
+   "date": "2026-11-18",
+   "authors": "Khan Z",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-100385",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051658",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "The Pitt v ER lawsuit.",
+   "title_zh": "皮特诉ER的诉讼。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101474",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051658/",
+   "date": "2026-11-18",
+   "authors": "Furneaux R",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101474",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051657",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Randox's new £400m testing deal explained, and why doctors are concerned.",
+   "title_zh": "Randox的新4亿英镑检测合同解析，以及医生为何感到担忧。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101499",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051657/",
+   "date": "2026-11-18",
+   "authors": "Mahase E",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101499",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051656",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "David Oliver: Learning to hold risk is a key part of practising medicine, but the context has changed considerably.",
+   "title_zh": "David Oliver：学会承担风险是从事医疗工作的关键部分，但背景情况已发生很大变化。",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101425",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051656/",
+   "date": "2026-11-18",
+   "authors": "Oliver D",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101425",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43051655",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Trump administration appoints John Powers as new infectious disease chief but pulls FDA nominee.",
+   "title_zh": "特朗普政府任命约翰·鲍尔斯为新任传染病主管，但撤回了FDA提名人选。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101510",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051655/",
+   "date": "2026-11-18",
+   "authors": "Taylor L, Looi MK",
+   "author_count": 2,
+   "doi": "10.1136/bmj-2026-101510",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051652",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "China blocks technology exports to Polish university.",
+   "title_zh": "中国禁止向波兰大学出口技术。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101238",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051652/",
+   "date": "2026-11-18",
+   "authors": "Murphy F",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101238",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051651",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Abortion: Pro-choice campaigners celebrate pardons.",
+   "title_zh": "堕胎：堕胎权支持者庆祝赦免。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101481",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051651/",
+   "date": "2026-11-18",
+   "authors": "Shepherd A",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101481",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051650",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Menopause: workplace support should complement good healthcare.",
+   "title_zh": "更年期：工作场所的支持应与良好的医疗保健相辅相成。",
+   "summary_en": "",
+   "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101436",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051650/",
+   "date": "2026-11-18",
+   "authors": "Kenny LA",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101436",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43051649",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "US loses measles elimination status as \"once beaten\" disease sweeps nation.",
+   "title_zh": "随着“曾被消灭”的疾病席卷全国，美国失去了麻疹消除国的地位。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101505",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051649/",
+   "date": "2026-11-18",
+   "authors": "Taylor L",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101505",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43050506",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Erratum for the Research Article \"Full-length premembrane protein is not required for mature Zika virus particle assembly\".",
+   "title_zh": "研究论文《全长前膜蛋白并非成熟寨卡病毒颗粒组装的必要条件》的勘误。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。原文未附结构化摘要。",
+   "citation": "Sci Transl Med. 2026; 18(876): eaen8897",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050506/",
+   "date": "2026-11-18",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1126/scitranslmed.aen8897",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43050505",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Rescue of glutaric aciduria type I by GalNAc-conjugated siRNA against aminoadipate semialdehyde synthase.",
+   "title_zh": "通过靶向氨基己二酸半醛合酶的GalNAc偶联siRNA对I型戊二酸尿症的治疗。",
+   "summary_en": "Glutaric aciduria type I (GA-1) is a severe metabolic disorder caused by a deficiency of glutaryl-CoA dehydrogenase (GCDH), leading to accumulation of organic acids in the brain and resulting in striatal injury and progressive movement disorders. Although early diagnosis and dietary management reduce risk, one-third of patients still develop debilitating neurological complications. We previously demonstrated that liver-specific deletion of aminoadipate semialdehyde synthase (AASS), an upstream enzyme in lysine degradation, is a promising therapeutic strategy. Here, we tested an N-acetylgalactosamine (GalNAc)-conjugated siRNA against Aass. Treatment of neonatal Gcdh-/- mice rescued lethality and improved the brain pathology while reducing toxic metabolites in the brain and other organs. Ser",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Sci Transl Med. 2026; 18(876): eaej2067",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050505/",
+   "date": "2026-11-18",
+   "authors": "Ma Y, Fujiwara M, Murugan N, Zhang H, Belozerova S, Beasley J",
+   "author_count": 15,
+   "doi": "10.1126/scitranslmed.aej2067",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "RNA, Small Interfering",
+    "Glutaryl-CoA Dehydrogenase",
+    "Amino Acid Metabolism, Inborn Errors",
+    "Glutarates",
+    "Brain Diseases, Metabolic",
+    "Acetylgalactosamine",
+    "Mice, Knockout",
+    "Brain",
+    "Intramolecular Transferases"
+   ],
+   "departments": [
+    "神经",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "43050504",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Targeting cancer immune evasion with anti-FOLR1 antibody-drug conjugate potentiates anti-PD-1 efficacy in colorectal cancer.",
+   "title_zh": "靶向抗FOLR1抗体-药物偶联物的癌症免疫逃逸可增强结直肠癌的抗PD-1疗效。",
+   "summary_en": "Loss of major histocompatibility complex class I (MHC-I) antigen presentation in tumor cells drives immune evasion and resistance to immune checkpoint blockade (ICB) in colorectal cancer (CRC). To identify therapeutic targets reversing this, we conducted fluorescence-activated cell sorting-based CRISPR activation screens using a druggable genome library and identified folate receptor α (FOLR1) as a top negative regulator. FOLR1 was heterogeneously expressed in CRC tumors but undetectable in adjacent normal tissues. High expression of FOLR1 predicted a poor ICB response, enhanced cancer stemness, and unfavorable patient outcomes. Functional assays showed that FOLR1 promoted CRC stemness-associated properties and fostered an immunosuppressive tumor microenvironment (TME) with impaired CD8+ T",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Sci Transl Med. 2026; 18(876): eaed2106",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050504/",
+   "date": "2026-11-18",
+   "authors": "Chen S, Liu Q, Ye S, Yu J, Xie Y, Yuan Y",
+   "author_count": 21,
+   "doi": "10.1126/scitranslmed.aed2106",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Colorectal Neoplasms",
+    "Animals",
+    "Folate Receptor 1",
+    "Proto-Oncogene Mas",
+    "Cell Line, Tumor",
+    "Immunoconjugates",
+    "Programmed Cell Death 1 Receptor",
+    "Tumor Microenvironment",
+    "STAT1 Transcription Factor"
+   ],
+   "departments": [
+    "肿瘤",
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43050503",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Temporal interference stimulation targeting the ventromedial prefrontal cortex enhances reward learning and improves depression scores.",
+   "title_zh": "靶向腹内侧前额叶皮层的时间干涉刺激增强奖赏学习并改善抑郁评分",
+   "summary_en": "Reward learning depends on dynamic interactions within frontostriatal circuits that encode reward prediction errors (RPEs). Disruptions in these interactions contribute to neuropsychiatric disorders, yet noninvasive modulation of deep reward circuits remains challenging. Here, we identify frontostriatal neural dynamics underlying reward learning and develop a circuit-targeted neuromodulation approach based on transcranial temporal interference stimulation (tTIS). Neuroimaging and computational modeling in healthy adults revealed a bidirectional excitatory-inhibitory loop between the ventromedial prefrontal cortex (vmPFC) and ventral striatum (VS), encoding RPEs and scaling with individual learning rates. Oscillatory signatures suggested that vmPFC alpha and theta frequencies tracked RPEs, ",
+   "summary_zh": "【随机对照试验】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Sci Transl Med. 2026; 18(876): eadz9823",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050503/",
+   "date": "2026-11-18",
+   "authors": "Wang F, Jiang M, Tang Y, Chen J, Jiang L, Zhang H",
+   "author_count": 12,
+   "doi": "10.1126/scitranslmed.adz9823",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+   ],
+   "mesh": [
+    "Humans",
+    "Prefrontal Cortex",
+    "Reward",
+    "Learning",
+    "Depression",
+    "Male",
+    "Adult",
+    "Female",
+    "Ventral Striatum",
+    "Magnetic Resonance Imaging"
+   ],
+   "departments": [
+    "老年医学",
+    "精神"
+   ]
+  },
+  {
+   "pmid": "43050502",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Oligonucleotide-mediated AASS silencing as a potential therapeutic strategy for ALDH7A1 deficiency and glutaric aciduria type I.",
+   "title_zh": "寡核苷酸介导的AASS沉默作为ALDH7A1缺陷和I型戊二酸尿症的潜在治疗策略。",
+   "summary_en": "α-Aminoadipic semialdehyde synthase (AASS) catalyzes the first two steps of lysine catabolism. Inherited metabolic disorders affecting enzymes downstream of AASS, including α-aminoadipic semialdehyde dehydrogenase (ALDH7A1) deficiency, which causes pyridoxine-dependent epilepsy, and glutaric aciduria type I, cause accumulation of potentially neurotoxic lysine-derived metabolites. Current therapies incompletely prevent metabolite accumulation and neurological sequelae. We evaluated whether hepatic AASS silencing could reduce conversion of lysine into downstream metabolites. Antisense oligonucleotides and small interfering RNAs targeting AASS reduced disease-associated metabolites in patient-derived cells from individuals with ALDH7A1 deficiency and glutaric aciduria type I. Hepatocyte-selec",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Sci Transl Med. 2026; 18(876): eaei9706",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050502/",
+   "date": "2026-11-18",
+   "authors": "Vootukuri RS, Dyjach K, Khalil Y, Toporowska J, Rowley S, Demetriou C",
+   "author_count": 17,
+   "doi": "10.1126/scitranslmed.aei9706",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Humans",
+    "Animals",
+    "Mice, Knockout",
+    "Aldehyde Dehydrogenase",
+    "Amino Acid Metabolism, Inborn Errors",
+    "Gene Silencing",
+    "Liver",
+    "Oligonucleotides",
+    "Oligonucleotides, Antisense",
+    "Mice"
+   ],
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43050501",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "RIPK1 inhibition limits expansion of pathogenic double-negative T cells in preclinical autoimmune lymphoproliferative syndrome models.",
+   "title_zh": "RIPK1抑制可限制临床前自身免疫性淋巴增生综合征模型中致病性双阴性T细胞的增殖。",
+   "summary_en": "Autoimmune lymphoproliferative syndrome (ALPS) is an immune disorder characterized by defective lymphocyte apoptosis, leading to lymphoproliferation, autoimmunity, and increased lymphoma risk. Although disease severity correlates with the expansion of double-negative T (DNT) cells, the mechanisms governing their aberrant generation and pathogenicity remain elusive. Through single-cell transcriptomics of peripheral blood from pediatric patients with ALPS, including patients harboring new FAS cell surface death receptor (FAS) mutations (FAS mutations), we identified a pathogenic effector DNT subset (GRANZYMEhiCXCR5hi) exhibiting cytotoxic and tissue-infiltrating features, a population conserved in ALPS mouse models. Using an apoptosis-defective murine model that develops early-onset ALPS wit",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Sci Transl Med. 2026; 18(876): eaeb1037",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050501/",
+   "date": "2026-11-18",
+   "authors": "Li J, Du Y, Qiu J, Yu X, Li Z, Ma H",
+   "author_count": 18,
+   "doi": "10.1126/scitranslmed.aeb1037",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Autoimmune Lymphoproliferative Syndrome",
+    "Humans",
+    "Receptor-Interacting Protein Serine-Threonine Kinases",
+    "Disease Models, Animal",
+    "Apoptosis",
+    "T-Lymphocytes",
+    "Mice",
+    "fas Receptor",
+    "CD8-Positive T-Lymphocytes"
+   ],
+   "departments": [
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "43050500",
+   "journal": "Science Translational Medicine",
+   "journal_abbr": "Sci Transl Med",
+   "title_en": "Noradrenergic input from sympathetic nerves to fibroblasts regulates lung fibrosis.",
+   "title_zh": "来自交感神经的去甲肾上腺素能传入信号作用于成纤维细胞，从而调节肺纤维化。",
+   "summary_en": "Pulmonary fibrosis is a progressive, irreversible condition in which expansion of effector fibroblasts and extracellular matrix obliterates alveolar gas exchange regions of the lung through incompletely understood mechanisms. We found sympathetic nerve fibers in fibrotic alveolar regions enriched for alpha-smooth muscle actin-positive (α-SMA+) effector fibroblasts and noradrenaline by applying optical clearing and whole-lung imaging to the bleomycin mouse model of lung fibrosis and multichannel immunofluorescence to explanted lung tissues from patients with idiopathic pulmonary fibrosis (IPF) or systemic sclerosis-associated interstitial lung disease (SSc-ILD). Human lung fibroblasts cultured with sympathetic nerves displayed enhanced production of fibrotic markers, and sympathetic nerve-s",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Sci Transl Med. 2026; 18(876): eadw3631",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050500/",
+   "date": "2026-11-18",
+   "authors": "Ishikawa G, Ghincea A, Peng X, Shao S, McGovern J, Zielonka J",
+   "author_count": 30,
+   "doi": "10.1126/scitranslmed.adw3631",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [
+    "Animals",
+    "Fibroblasts",
+    "Humans",
+    "Bleomycin",
+    "Pulmonary Fibrosis",
+    "Norepinephrine",
+    "Sympathetic Nervous System",
+    "Receptors, Adrenergic, alpha-1",
+    "Lung",
+    "Actins"
+   ],
+   "departments": [
+    "神经",
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "43050232",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Conversations With Vaccine-Hesitant Patients.",
+   "title_zh": "与疫苗犹豫患者的沟通",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050232/",
+   "date": "2026-11-18",
+   "authors": "Lewandowsky S, Holford D, Anderson E",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.18067",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43050230",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Poetry, and Medicine's Hidden Curriculum.",
+   "title_zh": "诗歌与医学的隐性课程。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050230/",
+   "date": "2026-11-18",
+   "authors": "Campo R",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.16779",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43050218",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Terminating Trials Early-Reply.",
+   "title_zh": "提前终止试验——回复。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2621646",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050218/",
+   "date": "2026-11-18",
+   "authors": "Huang AJ, Lewis RJ",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.21646",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43050211",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "M&M.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050211/",
+   "date": "2026-11-18",
+   "authors": "Nahum R",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.16776",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43050206",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Blood-Based Biomarker Testing for Alzheimer Disease in US Clinical Practice.",
+   "title_zh": "美国临床实践中用于阿尔茨海默病的血液生物标志物检测。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050206/",
+   "date": "2026-11-18",
+   "authors": "Fu M, Andersen M, Ramachandran R, Berg KM, Ross JS",
+   "author_count": 5,
+   "doi": "10.1001/jama.2026.23534",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "43050205",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Terminating Trials Early.",
+   "title_zh": "提前终止试验",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2621648",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050205/",
+   "date": "2026-11-18",
+   "authors": "Dal-Ré R, Bierer BE, Caplan AL",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.21648",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43050186",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Vaccines: The Best of Times, the Worst of Times: A Healthy Dialogue With Paul Offit.",
+   "title_zh": "疫苗：最好的时代，最坏的时代：与Paul Offit的健康对话。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2624032",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050186/",
+   "date": "2026-11-18",
+   "authors": "Angus DC, O'Connor MB",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.24032",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Video-Audio Media"
+   ],
+   "mesh": [],
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43045795",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Generational gains in cognitive capacity and dementia incidence rates in Western countries.",
+   "title_zh": "西方国家认知能力的代际提升与痴呆发病率",
+   "summary_en": "The risk of developing dementia at any given age has fallen steadily in Europe and the United States over recent decades. A key unresolved question is whether recent generations reach older age with better cognitive capacity, experience slower cognitive decline, or both, as this has implications for when preventive interventions are likely to have the greatest impact. Analyzing ~783,000 episodic-memory assessments from ~219,000 individuals in five longitudinal studies followed for up to 30 years, we find that later-born generations benefit from a double dividend, with higher memory levels entering old age and slower decline thereafter. The combined advantage is large enough to plausibly account for the reported 13% per-decade decline in dementia incidence. Improvements are concentrated amo",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43045795/",
+   "date": "2026-11-17",
+   "authors": "Fjell AM, Grødem EOS, Lunansky G, Vidal-Piñeiro D, Rogeberg O, Walhovd KB",
+   "author_count": 6,
+   "doi": "10.1038/s41591-026-04759-y",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "精神"
+   ]
+  },
   {
    "pmid": "43045169",
    "journal": "BMJ",
@@ -84,9 +1572,9 @@
    "authors": "Rimmer A",
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101487",
-   "study_type": "研究论文",
+   "study_type": "",
    "pubtypes": [
-    "Journal Article"
+    "News"
    ],
    "mesh": [],
    "departments": [
@@ -786,16 +2274,19 @@
     "Review"
    ],
    "mesh": [
-    "Humans",
     "Child",
     "Child, Preschool",
-    "Body Mass Index",
-    "Pediatric Obesity",
+    "Humans",
     "Anti-Obesity Agents",
-    "Life Style",
-    "Health Behavior"
+    "Body Mass Index",
+    "Diabetes Mellitus, Type 2",
+    "Dyslipidemias",
+    "Health Behavior",
+    "Hypertension",
+    "Life Style"
    ],
    "departments": [
+    "循环器",
     "内分泌/代谢",
     "儿科"
    ]
@@ -938,16 +2429,16 @@
     "Clinical Trial, Phase III"
    ],
    "mesh": [
-    "Humans",
-    "Niacinamide",
-    "Parkinson Disease",
-    "Double-Blind Method",
-    "Female",
     "Aged",
+    "Female",
+    "Humans",
     "Male",
     "Middle Aged",
-    "Treatment Outcome",
-    "Administration, Oral"
+    "Administration, Oral",
+    "Double-Blind Method",
+    "Niacinamide",
+    "Parkinson Disease",
+    "Treatment Outcome"
    ],
    "departments": [
     "综合"
@@ -1130,25 +2621,27 @@
    "doi": "10.1001/jama.2026.18491",
    "study_type": "观察性研究",
    "pubtypes": [
+    "Comparative Study",
     "Journal Article",
-    "Observational Study",
     "Multicenter Study",
-    "Comment"
+    "Observational Study"
    ],
    "mesh": [
-    "Humans",
+    "Adult",
+    "Aged",
     "Female",
-    "Retrospective Studies",
-    "Middle Aged",
+    "Humans",
     "Male",
+    "Middle Aged",
     "Body Mass Index",
-    "Liver Cirrhosis",
-    "Prognosis",
-    "Waist Circumference",
-    "Thinness"
+    "Carcinoma, Hepatocellular",
+    "Elasticity Imaging Techniques",
+    "Liver"
    ],
    "departments": [
-    "消化器"
+    "肿瘤",
+    "消化器",
+    "老年医学"
    ]
   },
   {
@@ -1158,16 +2651,17 @@
    "title_en": "Lean MASLD and Limits of Body Size in Risk Stratification.",
    "title_zh": "消瘦型MASLD和体型在风险分层中的局限性。",
    "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "summary_zh": "【评论】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(19): 1721-1722",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42814421/",
    "date": "2026-11-17",
    "authors": "Bugianesi E",
    "author_count": 1,
    "doi": "10.1001/jama.2026.16793",
-   "study_type": "研究论文",
+   "study_type": "评论",
    "pubtypes": [
-    "Journal Article"
+    "Journal Article",
+    "Comment"
    ],
    "mesh": [],
    "departments": [
@@ -1237,25 +2731,23 @@
    "study_type": "随机对照试验",
    "pubtypes": [
     "Journal Article",
-    "Randomized Controlled Trial",
     "Multicenter Study",
-    "Comment"
+    "Randomized Controlled Trial"
    ],
    "mesh": [
-    "Humans",
-    "Female",
-    "Defibrillators, Implantable",
-    "Stroke Volume",
-    "Death, Sudden, Cardiac",
-    "Middle Aged",
     "Aged",
+    "Female",
+    "Humans",
     "Male",
+    "Middle Aged",
+    "Arrhythmias, Cardiac",
+    "Cardiomyopathies",
     "Cicatrix",
-    "Cardiomyopathies"
+    "Death, Sudden, Cardiac",
+    "Defibrillators, Implantable"
    ],
    "departments": [
-    "循环器",
-    "神经"
+    "循环器"
    ]
   },
   {
@@ -1265,16 +2757,17 @@
    "title_en": "Implantable Cardioverter-Defibrillators for Preventing Sudden Cardiac Death in Patients With an LVEF >35.",
    "title_zh": "用于预防LVEF >35的患者发生猝死的植入式心脏复律除颤器。",
    "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "summary_zh": "【评论】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(19): 1719-1720",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42663165/",
    "date": "2026-11-17",
    "authors": "Al-Khatib SM",
    "author_count": 1,
    "doi": "10.1001/jama.2026.16582",
-   "study_type": "研究论文",
+   "study_type": "评论",
    "pubtypes": [
-    "Journal Article"
+    "Journal Article",
+    "Comment"
    ],
    "mesh": [],
    "departments": [
@@ -1880,99 +3373,6 @@
    "mesh": [],
    "departments": [
     "内分泌/代谢"
-   ]
-  },
-  {
-   "pmid": "43037246",
-   "journal": "New England Journal of Medicine",
-   "journal_abbr": "N Engl J Med",
-   "title_en": "The Unexamined Subsidy - Rethinking Incentives for Outpatient Clinical Preceptors.",
-   "title_zh": "未加审视的补贴——重新思考对门诊临床带教老师的激励措施。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
-   "citation": "N Engl J Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43037246/",
-   "date": "2026-11-14",
-   "authors": "Maxey HL, Moore M",
-   "author_count": 2,
-   "doi": "10.1056/NEJMp2611160",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "43037244",
-   "journal": "New England Journal of Medicine",
-   "journal_abbr": "N Engl J Med",
-   "title_en": "What the Robot Still Can't Do.",
-   "title_zh": "机器人仍无法做到的事情。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
-   "citation": "N Engl J Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43037244/",
-   "date": "2026-11-14",
-   "authors": "Nundy S",
-   "author_count": 1,
-   "doi": "10.1056/NEJMp2606894",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "43037241",
-   "journal": "New England Journal of Medicine",
-   "journal_abbr": "N Engl J Med",
-   "title_en": "Reimagining Health Policy Research.",
-   "title_zh": "重新构想卫生政策研究。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
-   "citation": "N Engl J Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43037241/",
-   "date": "2026-11-14",
-   "authors": "McGinty EE",
-   "author_count": 1,
-   "doi": "10.1056/NEJMp2611665",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "公共卫生"
-   ]
-  },
-  {
-   "pmid": "43037238",
-   "journal": "New England Journal of Medicine",
-   "journal_abbr": "N Engl J Med",
-   "title_en": "Functional Fixed Dystonia of the Foot.",
-   "title_zh": "足部功能性固定性肌张力障碍。",
-   "summary_en": "",
-   "summary_zh": "【病例报告】N Engl J Med 刊载。原文未附结构化摘要。",
-   "citation": "N Engl J Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43037238/",
-   "date": "2026-11-14",
-   "authors": "Nonnekes J, de Greef-Rotteveel A",
-   "author_count": 2,
-   "doi": "10.1056/NEJMicm2608021",
-   "study_type": "病例报告",
-   "pubtypes": [
-    "Case Reports",
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
    ]
   },
   {
@@ -11077,7 +12477,7 @@
    "title_en": "Perioperative respiratory adverse events in children undergoing adenotonsillectomy with laryngeal mask airway versus endotracheal tube ventilation: multicentre, randomised controlled trial.",
    "title_zh": "儿童腺扁桃体切除术中喉罩通气与气管插管通气的围手术期呼吸不良事件：多中心随机对照试验",
    "summary_en": "OBJECTIVE: To assess the effect of ventilation with a laryngeal mask airway (LMA) compared with endotracheal tube (ETT) on perioperative respiratory adverse events (PRAEs) in children undergoing adenotonsillectomy. DESIGN: Multicentre, randomised, parallel group trial. SETTING: Four tertiary hospitals in China, 2023-24. PARTICIPANTS: 400 children aged ≥2 years and <7 years who were scheduled for adenotonsillectomy under general anaesthesia. INTERVENTIONS: Participants were randomised 1:1 to receive ventilation with a laryngeal mask airway (n=200) or an endotracheal tube (n=200) during adenotonsillectomy. MAIN OUTCOME MEASURE: The primary outcome was the proportion of participants who developed any perioperative respiratory adverse event (PRAE): laryngospasm, bronchospasm, desaturation, air",
-   "summary_zh": "【随机对照试验】BMJ 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101019",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42982504/",
    "date": "2026-11-04",
@@ -11230,7 +12630,7 @@
    "title_en": "Interventions for adhesive capsulitis: systematic review and network meta-analysis of randomised controlled trials.",
    "title_zh": "粘连性关节囊炎的干预措施：随机对照试验的系统评价和网络荟萃分析",
    "summary_en": "OBJECTIVE: To compare the benefits and harms of therapeutic interventions for adhesive capsulitis. DESIGN: Systematic review and network meta-analysis of randomised controlled trials. DATA SOURCES: Medline, Cochrane Library, Embase, Web of Science, and Scopus were searched from inception to 1 May 2025, with an update in November 2025. ELIGIBILITY CRITERIA FOR SELECTING STUDIES: Randomised controlled trials enrolling adults with adhesive capsulitis, comparing active treatment with another intervention, placebo, or usual care. MAIN OUTCOME MEASURES: Pain, function, range of motion, and adverse events. RESULTS: A total of 189 randomised controlled trials involving 12 988 participants and 59 interventions were included. Most trials contributing to principal outcomes were at high risk of bias (",
-   "summary_zh": "【系统综述】BMJ 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【系统综述】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101057",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42982479/",
    "date": "2026-11-04",
@@ -14890,31 +16290,32 @@
    "title_en": "Extended follow-up of in vivo BCMA CAR-T therapy in relapsed/refractory multiple myeloma.",
    "title_zh": "体内BCMA CAR-T疗法治疗复发/难治性多发性骨髓瘤的延长随访。",
    "summary_en": "Data on long-term outcomes of in vivo chimeric antigen receptor T cell (CAR‑T) therapy remain scarce. We previously reported preliminary safety and efficacy data of in vivo B-cell maturation antigen (BCMA) CAR‑T (ESO-T01), in four patients with relapsed/refractory multiple myeloma, without leukapheresis and lymphodepletion, with up to 3 months of follow-up. The primary endpoints included safety and tolerability, while the secondary endpoints comprised efficacy, pharmacokinetics and pharmacodynamics. All patients developed dual-phase cytokine release syndrome (grades 1-3) and hematotoxicities (grade ≥3). One patient developed grade 1 immune effector cell-associated neurotoxicity syndrome. The objective response rate reached 100% (two stringent complete response and two partial response). He",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【I 期临床试验】Nat Med 刊载。结论要点见下方原文摘要。",
    "citation": "Nat Med. 2026; 32(11): 4117-4126",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42839103/",
    "date": "2026-11-01",
    "authors": "Xu J, Liu L, Xie W, Su L, Wang W, Li C",
    "author_count": 15,
    "doi": "10.1038/s41591-026-04704-z",
-   "study_type": "研究论文",
+   "study_type": "I 期临床试验",
    "pubtypes": [
+    "Clinical Trial, Phase I",
     "Journal Article"
    ],
    "mesh": [
-    "Humans",
-    "Multiple Myeloma",
-    "B-Cell Maturation Antigen",
-    "Immunotherapy, Adoptive",
+    "Aged",
     "Female",
-    "Receptors, Chimeric Antigen",
+    "Humans",
     "Male",
-    "Follow-Up Studies",
     "Middle Aged",
-    "Aged"
+    "B-Cell Maturation Antigen",
+    "Follow-Up Studies",
+    "Immunotherapy, Adoptive",
+    "Multiple Myeloma",
+    "Neoplasm Recurrence, Local"
    ],
    "departments": [
-    "综合"
+    "肿瘤"
    ]
   },
   {
@@ -15530,31 +16931,33 @@
    "title_en": "Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk.",
    "title_zh": "病理负担和认知韧性对阿尔茨海默病风险的共同影响。",
    "summary_en": "Alzheimer's disease (AD) is conventionally framed as a consequence of progressive amyloid-β and tau pathology, yet substantial heterogeneity in cognitive outcome at any given level of pathological burden indicates that cognitive resilience constitutes a parallel determinant of disease risk. Here we test whether pathology and resilience function as independent and synergistic dimensions of incident AD dementia. In 3,119 older adults from the China Cognition and Aging Study, followed for a median of 13.7 years, we derived two longitudinal indices from repeated measurements: a pathology score indexed by tau phosphorylated at threonine 181/amyloid-β42, and a cognitive resilience score defined as the residual of the cognitive slope after adjustment for pathology, age and sex. Both indices indep",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【观察性研究】Nat Med 刊载。结论要点见下方原文摘要。",
    "citation": "Nat Med. 2026; 32(11): 4289-4297",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42728380/",
    "date": "2026-11-01",
    "authors": "Wang Z, Wang S, Liang Y, Chen X, Wang S, Qin W",
    "author_count": 13,
    "doi": "10.1038/s41591-026-04635-9",
-   "study_type": "研究论文",
+   "study_type": "观察性研究",
    "pubtypes": [
-    "Journal Article"
+    "Journal Article",
+    "Observational Study"
    ],
    "mesh": [
-    "Humans",
-    "Alzheimer Disease",
-    "Female",
-    "Male",
     "Aged",
-    "Cognition",
-    "Amyloid beta-Peptides",
     "Aged, 80 and over",
-    "Risk Factors",
-    "Longitudinal Studies"
+    "Female",
+    "Humans",
+    "Male",
+    "Aging",
+    "Alzheimer Disease",
+    "Amyloid beta-Peptides",
+    "China",
+    "Cognition"
    ],
    "departments": [
-    "神经"
+    "神经",
+    "老年医学"
    ]
   },
   {
@@ -15706,29 +17109,6 @@
    "mesh": [],
    "departments": [
     "公共卫生"
-   ]
-  },
-  {
-   "pmid": "42969894",
-   "journal": "New England Journal of Medicine",
-   "journal_abbr": "N Engl J Med",
-   "title_en": "Extended Outcomes of the ADAPT AF-DES Trial.",
-   "title_zh": "ADAPT AF-DES试验的扩展结局",
-   "summary_en": "",
-   "summary_zh": "【通信】N Engl J Med 刊载。原文未附结构化摘要。",
-   "citation": "N Engl J Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42969894/",
-   "date": "2026-10-31",
-   "authors": "Lee SH, Lee YJ, Heo JH, Ahn SG, Shin S, Doh JH",
-   "author_count": 51,
-   "doi": "10.1056/NEJMc2612608",
-   "study_type": "通信",
-   "pubtypes": [
-    "Letter"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
    ]
   },
   {
@@ -17863,7 +19243,7 @@
    "title_en": "Gram-Negative Bacterial Resistance.",
    "title_zh": "革兰阴性菌耐药",
    "summary_en": "The rapid worldwide spread of antimicrobial resistance among gram-negative bacteria is driven by a complex interplay of human, environmental, and health care-associated factors and accelerated by mobile genetic elements that facilitate the dissemination of resistance genes. Resistance in gram-negative bacteria arises primarily through reduced drug entry, active drug efflux, modification of antibiotic targets, and enzymatic drug inactivation, most notably through β-lactamase production. Clinically important resistant pathogens include extended-spectrum β-lactamase-producing Enterobacterales, carbapenem-resistant Enterobacterales, Pseudomonas aeruginosa with difficult-to-treat resistance, and carbapenem-resistant Acinetobacter baumannii. Limited access to effective antibiotics and the contin",
-   "summary_zh": "【综述】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026; 395(17): 1728-1743",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42950203/",
    "date": "2026-10-29",
@@ -18014,7 +19394,7 @@
    "title_en": "Continuous Glucose Monitoring in Non-Insulin-Treated Type 2 Diabetes.",
    "title_zh": "非胰岛素治疗的2型糖尿病中的持续葡萄糖监测",
    "summary_en": "BACKGROUND: Continuous glucose monitoring (CGM) has been shown to be beneficial in persons with type 1 diabetes and others with insulin-treated type 2 diabetes, but its role in the treatment of persons with type 2 diabetes not being treated with insulin has needed further study. METHODS: In a 26-week trial conducted at 22 primary care practices in the United States, we randomly assigned adults with type 2 diabetes who were not using insulin to either CGM or routine care (control). The primary outcome was the glycated hemoglobin level at 26 weeks. Key CGM-measured secondary outcomes were tested hierarchically to control the type I error rate. RESULTS: A total of 145 participants were assigned to the CGM group, and 138 to the routine-care group. Participants ranged in age from 21 to 84 years",
-   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026; 395(17): 1717-1727",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42878622/",
    "date": "2026-10-29",
@@ -18097,7 +19477,7 @@
    "title_en": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury.",
    "title_zh": "急性肾损伤中的间歇性或持续性肾脏替代治疗",
    "summary_en": "BACKGROUND: The preferred method of renal-replacement therapy for acute kidney injury in critically ill patients remains uncertain. METHODS: In this multicenter, open-label, noninferiority trial, we randomly assigned critically ill adults with acute kidney injury who had indications for renal-replacement therapy to undergo intermittent hemodialysis or continuous renal-replacement therapy as the initial treatment. The primary outcome was a major adverse kidney event - defined as death, dependence on renal-replacement therapy, or a serum creatinine concentration more than 25% above the baseline value - by day 90. RESULTS: The trial was stopped early after sequential interim analyses showed a sustained signal of higher mortality with intermittent hemodialysis than with continuous renal-replac",
-   "summary_zh": "【随机对照试验】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】N Engl J Med 刊载。原文未附结构化摘要。",
    "citation": "N Engl J Med. 2026; 395(17): 1677-1690",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42873070/",
    "date": "2026-10-29",
@@ -20594,29 +21974,6 @@
    ]
   },
   {
-   "pmid": "42929707",
-   "journal": "New England Journal of Medicine",
-   "journal_abbr": "N Engl J Med",
-   "title_en": "Targeting HER2 - A Triumph of Science.",
-   "title_zh": "靶向HER2——科学的胜利。",
-   "summary_en": "",
-   "summary_zh": "【述评】N Engl J Med 刊载。原文未附结构化摘要。",
-   "citation": "N Engl J Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42929707/",
-   "date": "2026-10-24",
-   "authors": "Swain SM",
-   "author_count": 1,
-   "doi": "10.1056/NEJMe2611466",
-   "study_type": "述评",
-   "pubtypes": [
-    "Editorial"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "42929702",
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
@@ -20662,29 +22019,6 @@
    "departments": [
     "肿瘤",
     "肾脏/泌尿"
-   ]
-  },
-  {
-   "pmid": "42929681",
-   "journal": "New England Journal of Medicine",
-   "journal_abbr": "N Engl J Med",
-   "title_en": "Anbenitamab plus HB1801 for HER2-Positive Advanced Breast Cancer.",
-   "title_zh": "Anbenitamab联合HB1801治疗HER2阳性晚期乳腺癌。",
-   "summary_en": "BACKGROUND: The combination of docetaxel, trastuzumab, and pertuzumab (THP) is an established first-line treatment for human epidermal growth factor receptor 2 (HER2)-positive advanced breast cancer. The efficacy and safety of anbenitamab, a HER2-targeted bispecific antibody, plus albumin-bound docetaxel (HB1801) in this context are unknown. METHODS: In this phase 3, multicenter, open-label, randomized trial conducted in China, we randomly assigned patients with HER2-positive advanced breast cancer in a 1:1 ratio to receive either anbenitamab plus HB1801 or THP. The primary end point was progression-free survival, as assessed by blinded independent central review. Objective response was a secondary end point. RESULTS: A total of 885 patients were enrolled (445 were assigned to receive anbe",
-   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
-   "citation": "N Engl J Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42929681/",
-   "date": "2026-10-24",
-   "authors": "Wang J, Li H, Xu F, Wu T, Tong Z, Cui J",
-   "author_count": 42,
-   "doi": "10.1056/NEJMoa2610345",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤"
    ]
   },
   {
@@ -21501,78 +22835,6 @@
    ]
   },
   {
-   "pmid": "42929679",
-   "journal": "New England Journal of Medicine",
-   "journal_abbr": "N Engl J Med",
-   "title_en": "Expanding the Evidence and Indications for Thrombectomy in Ischemic Stroke.",
-   "title_zh": "扩大缺血性卒中取栓治疗的证据与适应证",
-   "summary_en": "",
-   "summary_zh": "【述评】N Engl J Med 刊载。原文未附结构化摘要。",
-   "citation": "N Engl J Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42929679/",
-   "date": "2026-10-23",
-   "authors": "Marnat G",
-   "author_count": 1,
-   "doi": "10.1056/NEJMe2612692",
-   "study_type": "述评",
-   "pubtypes": [
-    "Editorial"
-   ],
-   "mesh": [],
-   "departments": [
-    "神经",
-    "血液"
-   ]
-  },
-  {
-   "pmid": "42929671",
-   "journal": "New England Journal of Medicine",
-   "journal_abbr": "N Engl J Med",
-   "title_en": "Trial of Endovascular Therapy for Mild Stroke with Large-Vessel Occlusion.",
-   "title_zh": "大血管闭塞性轻型卒中的血管内治疗试验",
-   "summary_en": "BACKGROUND: Whether endovascular therapy benefits patients with mild acute ischemic stroke from large-vessel occlusion involving the anterior circulation is uncertain. METHODS: We conducted a multicenter, open-label, randomized trial in China involving patients with acute ischemic stroke of mild clinical severity (defined by a score of <6 on the National Institutes of Health Stroke Scale) that had resulted from large-vessel occlusion involving the anterior circulation. Patients also had neuroimaging features of a small infarct core and a large perfusion-mismatch volume, representing substantial at-risk tissue, within 24 hours after symptom onset or after they were last known to be well. The patients were randomly assigned to undergo endovascular therapy and receive medical management or to",
-   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
-   "citation": "N Engl J Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42929671/",
-   "date": "2026-10-23",
-   "authors": "Liu J, Yi T, Xing P, Wu M, Zhang L, Zheng T",
-   "author_count": 35,
-   "doi": "10.1056/NEJMoa2609149",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "循环器",
-    "神经"
-   ]
-  },
-  {
-   "pmid": "42929656",
-   "journal": "New England Journal of Medicine",
-   "journal_abbr": "N Engl J Med",
-   "title_en": "Mechanical Thrombectomy 24 to 72 Hours after Large-Vessel Ischemic Stroke.",
-   "title_zh": "大血管闭塞性缺血性卒中后24至72小时行机械取栓",
-   "summary_en": "BACKGROUND: Endovascular thrombectomy is an established treatment for acute ischemic stroke. Whether the benefit extends to patients with salvageable brain tissue in the infarct who present more than 24 hours after symptom onset or the time when they were last known to be well is uncertain. METHODS: We conducted an open-label, randomized trial with blinded outcome assessment at comprehensive stroke centers in China. Patients with acute ischemic stroke from large-vessel occlusion of the anterior circulation and imaging-identified salvageable brain tissue at 24 to 72 hours were assigned to receive endovascular therapy plus standard medical care (intervention group) or standard medical care alone (control group). The primary outcome was functional status, defined by the score on the modified ",
-   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
-   "citation": "N Engl J Med. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42929656/",
-   "date": "2026-10-23",
-   "authors": "Yang P, Shen H, Yi T, Xing P, Su J, Wen C",
-   "author_count": 64,
-   "doi": "10.1056/NEJMoa2609362",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "神经",
-    "血液"
-   ]
-  },
-  {
    "pmid": "42919966",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -21650,7 +22912,7 @@
    "title_en": "Bispecific dual T cell agonist invikafusp alfa in solid tumors: the phase 1/2 START-001 trial.",
    "title_zh": "双特异性双T细胞激动剂invikafusp alfa治疗实体瘤：1/2期START-001试验",
    "summary_en": "Invikafusp alfa (invika), a first-in-class, bispecific, dual T cell agonistic antibody selectively targeting Vβ6/Vβ10 T cell subsets, is being evaluated in START-001, a multicenter phase 1/2 monotherapy trial in participants with mostly immune checkpoint blockade (ICB)-resistant, antigen-rich solid tumors. Primary outcomes were safety/tolerability and recommended phase 2 dose (RP2D) in phase 1 and anti-tumor activity in phase 2. As of 12 March 2025, phase 1 completed dose escalation (n = 34) through dose levels of 0.01, 0.02, 0.04, 0.08, 0.12 and 0.16 mg kg-1 without reaching maximum tolerated dose, and initial phase 2 enrolled 18 participants. Two participants experienced reversible dose-limiting toxicities, one at each of the 0.08 mg kg-1 and 0.16 mg kg-1 dose levels. The most common tre",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42919963/",
    "date": "2026-10-23",
@@ -28206,7 +29468,7 @@
    "title_en": "Urea transporter B-mediated urea uptake-induced protein carbamylation in platelets underlies bleeding in chronic kidney disease.",
    "title_zh": "尿素转运体B介导的尿素摄取诱导血小板蛋白氨甲酰化是慢性肾脏病出血的基础",
    "summary_en": "Platelet dysfunction drives bleeding complications in patients with advanced chronic kidney disease (CKD), worsening clinical outcomes. However, the underlying mechanisms remain unclear, limiting treatment options. In this study, we identified the expression of urea transporter B (SLC14A1/UT-B) in human and mouse platelets. By analyzing a clinical cohort of patients with CKD, we demonstrated that single-nucleotide polymorphisms in SLC14A1 were associated with bleeding events in CKD. Using a 5/6 nephrectomy (5/6 Nx) mouse model and blood samples from patients with advanced CKD, we found that SLC14A1/UT-B-mediated urea influx underlies platelet dysfunction in advanced CKD given that both genetic knockout of Slc14a1 or pharmacological inhibition of UT-B reversed mouse and human platelet dysfu",
-   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。原文未附结构化摘要。",
    "citation": "Sci Transl Med. 2026; 18(863): eaed4678",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42616841/",
    "date": "2026-08-19",
@@ -28240,7 +29502,7 @@
    "title_en": "Organ-specific colonization and niche remodeling in a human tissue model of metastasis.",
    "title_zh": "人类转移组织模型中的器官特异性定植与生态位重塑",
    "summary_en": "For metastatic colonization to occur, disseminated tumor cells must survive, adapt to, and remodel distant microenvironments in an organ-specific manner. We established a human multitissue model of cancer spread, with engineered bone and lung linked by vascular flow containing circulating cancer cells. Parental MDA-MB-231 cells extravasated toward both tissues, remodeled their niches, and acquired transcriptional programs reflecting adaptation to the local microenvironment, particularly upon homing to bone. Tissue-specific colonization by the bone- and lung-tropic MDA-MB-231 derivatives was quantified in independently perfused bone or lung platforms. Consistent with in vivo behavior, bone-tropic cells showed stronger bone colonization than lung-tropic cells and induced more pronounced oste",
-   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。原文未附结构化摘要。",
    "citation": "Sci Transl Med. 2026; 18(863): eadv6871",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42616840/",
    "date": "2026-08-19",
@@ -28276,7 +29538,7 @@
    "title_en": "A population-scale transcriptional atlas of blood and tissue in lupus nephritis.",
    "title_zh": "狼疮性肾炎血液与组织的群体规模转录图谱",
    "summary_en": "Lupus nephritis (LN), a severe manifestation of systemic lupus erythematosus (SLE), is a heterogeneous disease driven by diverse immune and tissue cell types. We obtained 538,194 single-cell and 142,881 single-nuclear profiles from kidney biopsies of 155 patients with LN and 30 preimplantation transplant biopsy controls, along with 327,326 single-cell blood profiles. We characterized key stromal and immune cell types and cell states; moreover, we distinguished cell states that were tissue specific from those that were also present in the blood. We observed that LN pathological features were associated with particular cell states. For example, after controlling for the effects of chronic tissue damage, we observed that expansion of glomerular and scar-associated macrophage populations corre",
-   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。原文未附结构化摘要。",
    "citation": "Sci Transl Med. 2026; 18(863): eaec0512",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42616839/",
    "date": "2026-08-19",
@@ -28311,7 +29573,7 @@
    "title_en": "A phase 1 feasibility trial of BE-CAR33, an \"off-the-shelf\" base-edited CAR33 T cell therapy for acute myeloid leukemia.",
    "title_zh": "BE-CAR33——一种用于急性髓系白血病的“现货型”碱基编辑CAR33 T细胞疗法的1期可行性试验",
    "summary_en": "Chimeric antigen receptor (CAR) T cell therapy for acute myeloid leukemia (AML) is constrained by antigen heterogeneity and shared expression with healthy compartments, and there are often challenges in obtaining autologous T cells from heavily pretreated patients. To address these challenges, we developed universal donor-derived, base-edited, anti-CD33 CAR T cells (BE-CAR33) that used precise multiplexed cytidine deamination to simultaneously disrupt the TRAC, CD52, and CD7 loci to prevent graft-versus-host disease and evade immunotherapy effects. An open-label, nonrandomized, single-center phase 1 study (ISRCTN14430213) evaluated the safety, feasibility, and activity of BE-CAR33 cell therapy ahead of allogeneic stem cell transplantation (allo-SCT) for patients with AML. Eligible particip",
-   "summary_zh": "【I 期临床试验】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【I 期临床试验】Sci Transl Med 刊载。原文未附结构化摘要。",
    "citation": "Sci Transl Med. 2026; 18(863): eaei0875",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42616838/",
    "date": "2026-08-19",
@@ -28346,7 +29608,7 @@
    "title_en": "MAPT splicing modulators reduce 4R tau and rescue tauopathy phenotypes in human neurons and in a mouse model.",
    "title_zh": "MAPT剪接调节剂减少4R tau并在人神经元和小鼠模型中挽救tau蛋白病表型",
    "summary_en": "Tauopathies are neurodegenerative diseases characterized by the pathological accumulation of microtubule-associated protein tau (MAPT) in the brain. These disorders, like frontotemporal dementia (FTD-tau), currently lack effective therapies and can occur sporadically or be inherited when associated with MAPT gene mutations. Exon 10 and adjacent introns of the MAPT gene are a hotspot for pathogenic variants, including splicing mutations that enhance exon 10 inclusion and increase 4R tau expression and 4R-specific gain-of-function mutations that generate aggregation-prone tau. For these 4R tauopathies, a targeted messenger RNA (mRNA) splicing approach that promotes exon 10 exclusion may offer therapeutic benefit. We have developed splicing modulator compounds (SMCs) that promote MAPT exon 10",
-   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。原文未附结构化摘要。",
    "citation": "Sci Transl Med. 2026; 18(863): eady6759",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42616837/",
    "date": "2026-08-19",
@@ -28380,7 +29642,7 @@
    "title_en": "Antigen avidity potentiates the durability of the vaccine immune response.",
    "title_zh": "抗原亲和力增强疫苗免疫应答的持久性",
    "summary_en": "The protective benefits of vaccination can critically depend on the durability of the corresponding immune response. However, the factors influencing vaccine durability are poorly understood. Here, we tested whether antigen avidity (i.e., cumulative multivalent binding strength) affected the durability, magnitude, and diversity of the humoral immune response in preclinical HIV vaccine models. We developed neoteric mosaic nanoparticle platforms to vary antigen avidity through precise modulation of its key constituents, epitope affinity and valency, while keeping other variables constant. High-valency immunogens elicited durable and clonally diverse memory B cell (MBC) responses that were detectable for more than 1 year postprime. Increased antigen valency also drove the formation and persis",
-   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。原文未附结构化摘要。",
    "citation": "Sci Transl Med. 2026; 18(862): eaee5273",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42585296/",
    "date": "2026-08-12",
@@ -28414,7 +29676,7 @@
    "title_en": "Full-length premembrane protein is not required for mature Zika virus particle assembly.",
    "title_zh": "成熟寨卡病毒颗粒组装不需要全长前膜蛋白",
    "summary_en": "Assembly of flaviviruses such as Zika virus (ZIKV), dengue virus, and West Nile virus in the host cell endoplasmic reticulum is driven by the structural envelope (E) and premembrane (prM) proteins. The formation of an infectious virion requires cleavage of prM by the host furin protease during a maturation step that is dependent on a conformational change in virion structure. Here, we demonstrate that the biogenesis of flavivirus particles does not require an intact prM protein or proteolytic activation. The expression of E protein preceded by a truncated version of prM (M-E) was sufficient for the formation of noninfectious ZIKV subviral particles and pseudo-infectious reporter virions. Subviral particles encoded by a ZIKV M-E DNA vaccine elicited a neutralizing antibody response in macaq",
-   "summary_zh": "【研究论文】Sci Transl Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Sci Transl Med 刊载。原文未附结构化摘要。",
    "citation": "Sci Transl Med. 2026; 18(862): eads8464",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42585295/",
    "date": "2026-08-12",

@@ -1,0 +1,242 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T08:33:06+00:00",
+ "provider": "deepseek-chat",
+ "degraded": false,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "42929681",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929681/",
+   "title_en": "Anbenitamab plus HB1801 for HER2-Positive Advanced Breast Cancer.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "Anbenitamab联合HB1801治疗HER2阳性晚期乳腺癌",
+   "one_liner": "新双抗联合方案比标准THP方案显著延长无进展生存。",
+   "key_finding": "24个月PFS率58.5% vs 34.4%，HR 0.46（95%CI 0.37-0.56），P<0.001；客观缓解率87.6% vs 73.4%。",
+   "why_it_matters": "为HER2阳性晚期乳腺癌一线治疗提供了可能更优的新选择，但≥3级不良事件更多（45.9% vs 34.4%）。",
+   "clinical_note": "中国多中心3期试验，开放标签，预设中期分析；随访中位21.0个月。",
+   "evidence": "3期随机对照试验，885例，中国多中心",
+   "tags": [
+    "乳腺癌",
+    "肿瘤内科",
+    "HER2靶向治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42929671",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929671/",
+   "title_en": "Trial of Endovascular Therapy for Mild Stroke with Large-Vessel Occlusion.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "神经"
+   ],
+   "title_zh": "血管内治疗用于大血管闭塞的轻型卒中试验",
+   "one_liner": "轻型卒中伴大血管闭塞，取栓加药物比单用药功能结局更好。",
+   "key_finding": "90天mRS 0-1比例69.4% vs 50.0%，OR 2.32（95%CI 1.41-3.81），P<0.001；症状性颅内出血两组各3例。",
+   "why_it_matters": "提示有高危影像特征的轻型卒中患者也可能从取栓获益，但13.2%出现严重操作相关并发症。",
+   "clinical_note": "中国多中心开放标签试验；入组需小梗死核心+大灌注错配，24小时内。",
+   "evidence": "多中心开放标签随机试验，300例，中国",
+   "tags": [
+    "卒中",
+    "神经内科",
+    "血管内治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42929656",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929656/",
+   "title_en": "Mechanical Thrombectomy 24 to 72 Hours after Large-Vessel Ischemic Stroke.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "神经",
+    "血液"
+   ],
+   "title_zh": "大血管缺血性卒中24至72小时机械取栓",
+   "one_liner": "晚时间窗取栓功能结局更好，但出血和死亡风险升高。",
+   "key_finding": "90天mRS分布更优，common OR 1.74（95%CI 1.19-2.55）；症状性颅内出血4.8% vs 0%，90天病死率6.0% vs 1.8%。",
+   "why_it_matters": "为超24小时但仍有可挽救脑组织的患者提供治疗依据，同时提示需权衡出血与死亡风险。",
+   "clinical_note": "中国综合卒中中心开放标签试验，结局评估盲法；随机中位时间38.5小时。",
+   "evidence": "开放标签随机试验，336例，中国多中心",
+   "tags": [
+    "卒中",
+    "神经内科",
+    "机械取栓"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42670955",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42670955/",
+   "title_en": "Aspirin Omission at the Time of Primary Percutaneous Coronary Intervention in STEMI.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "STEMI直接PCI时省略阿司匹林的研究",
+   "one_liner": "单用prasugrel未达到不劣于阿司匹林联合DAPT。",
+   "key_finding": "12个月死亡/卒中/心梗11.0% vs 8.5%，HR 1.34（95%CI 1.02-1.75），非劣效P=0.40；大出血5.6% vs 8.4%。",
+   "why_it_matters": "不支持在直接PCI的STEMI患者中省略阿司匹林；单药虽减少大出血，但缺血事件更多。",
+   "clinical_note": "日本多中心开放标签试验；非劣效界值HR 95%CI上限1.50。",
+   "evidence": "多中心开放标签随机试验，2216例，日本",
+   "tags": [
+    "心血管",
+    "STEMI",
+    "抗血小板治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43052007",
+   "journal": "BMJ",
+   "date": "2026-11-18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43052007/",
+   "title_en": "Physical activity coaching and text messaging for adults with mobility limitations (ComeBACK): hybrid type 1 effectiveness implementation randomised controlled trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "老年医学"
+   ],
+   "title_zh": "ComeBACK 试验：体力活动教练与短信干预对行动受限成人的效果",
+   "one_liner": "电话教练比短信或不干预更能让行动受限者多走路，但增幅有限。",
+   "key_finding": "6个月时教练组日均步数比等待组高931步（95%CI 409-1452），比短信组高571步（58-1084）；短信组比等待组高359步（-91-810），无统计学意义。",
+   "why_it_matters": "对行动受限的社区成人，由物理治疗师主导的电话教练可小幅提升活动量，短信单独使用效果不明确。",
+   "clinical_note": "纳入能自行外出的行动受限成人，平均69岁，76%为女性；参与者和治疗师未设盲。",
+   "evidence": "三臂随机对照试验，512人，澳大利亚五州",
+   "tags": [
+    "康复医学",
+    "老年医学",
+    "体力活动"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43051685",
+   "journal": "BMJ",
+   "date": "2026-11-18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051685/",
+   "title_en": "Effect of intrapartum hyoscine butylbromide and sodium bicarbonate on spontaneous vaginal birth in nulliparous women after induction of labour (SAINT): multicentre randomised placebo controlled factorial trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "妇产"
+   ],
+   "title_zh": "SAINT 试验：产时丁溴东莨菪碱与碳酸氢钠对初产妇诱导分娩后自然阴道分娩的影响",
+   "one_liner": "产时用丁溴东莨菪碱或碳酸氢钠，都没能明显提高自然阴道分娩率。",
+   "key_finding": "自然阴道分娩率：联合组57%、碳酸氢钠组61%、丁溴东莨菪碱组61%、双安慰剂组56%；与安慰剂相比风险差分别为-0.2、3.1、4.0个百分点，均无统计学意义。",
+   "why_it_matters": "结果不支持在诱导分娩后常规使用这两种药物来促进自然阴道分娩。",
+   "clinical_note": "挪威11家医院、足月初产妇；小样本获益不能排除，但不足以支持常规使用。",
+   "evidence": "多中心双盲安慰剂对照2×2析因试验，2963人分析",
+   "tags": [
+    "产科",
+    "分娩管理"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43050503",
+   "journal": "Sci Transl Med",
+   "date": "2026-11-18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050503/",
+   "title_en": "Temporal interference stimulation targeting the ventromedial prefrontal cortex enhances reward learning and improves depression scores.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "老年医学",
+    "精神"
+   ],
+   "title_zh": "靶向腹内侧前额叶皮层的时域干涉刺激增强奖赏学习并改善抑郁评分",
+   "one_liner": "10赫兹时域干涉刺激可增强奖赏学习，并减轻亚临床抑郁症状。",
+   "key_finding": "健康成人中10赫兹tTIS增强奖赏学习并重塑额纹状体连接，5赫兹无效；69名亚临床抑郁者每日3次10赫兹tTIS后症状减轻，7天随访仍有延迟获益。",
+   "why_it_matters": "提供了一种无创、靶向奖赏环路的潜在干预手段，但样本为亚临床抑郁人群，需进一步验证。",
+   "clinical_note": "受试者为亚临床抑郁，非临床抑郁症；样本量小，随访仅7天。",
+   "evidence": "随机试验，69名亚临床抑郁者（另含健康成人机制研究）",
+   "tags": [
+    "精神科",
+    "神经调控",
+    "抑郁症"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "pmid": "42848371",
+   "journal": "JAMA",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42848371/",
+   "title_en": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: The NOPARK Randomized Clinical Trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "NOPARK 随机临床试验：烟酰胺核糖用于早期帕金森病患者",
+   "one_liner": "烟酰胺核糖连用52周未改善早期帕金森病，结果反而略差于安慰剂。",
+   "key_finding": "52周时MDS-UPDRS总分烟酰胺核糖组升2.45分、安慰剂组降0.27分，校正均差2.72分（95%CI 0.47-4.98，P=0.02）偏向安慰剂；非运动症状负担也加重（NMSS均差4.22，P=0.009）。",
+   "why_it_matters": "不支持将烟酰胺核糖作为帕金森病的疾病修饰治疗。",
+   "clinical_note": "挪威11中心，确诊2年内、Hoehn-Yahr<3期且多巴胺转运体显像异常者；500 mg每日两次。",
+   "evidence": "双盲安慰剂对照3期试验，393人纳入主分析",
+   "tags": [
+    "神经内科",
+    "帕金森病"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42663169",
+   "journal": "JAMA",
+   "date": "2026-11-17",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42663169/",
+   "title_en": "Cardiovascular Magnetic Resonance to Guide Defibrillator Implantation for LVEF of 36% to 50%: The CMR GUIDE Randomized Clinical Trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "CMR GUIDE 随机临床试验：心血管磁共振指导 LVEF 36%～50% 患者植入除颤器",
+   "one_liner": "LVEF 36%～50% 且有心肌瘢痕者，植入 ICD 未减少猝死或恶性室性心律失常。",
+   "key_finding": "主要复合终点 ICD 组 7.8% vs ILR 组 9.2%（HR 0.76，95% CI 0.37-1.58）；猝死 1.7% vs 5.8%（HR 0.26，95% CI 0.07-0.95）。",
+   "why_it_matters": "现行以 LVEF≤35% 为 ICD 指征的做法，暂不支持仅凭 CMR 瘢痕扩大到 36%～50% 人群。",
+   "clinical_note": "样本 353 例、中位随访 6.3 年；70% 患者 LVEF≥40%，复合终点未达统计学差异。",
+   "evidence": "开放标签随机对照试验，353 例，澳/德/英 18 个中心",
+   "tags": [
+    "心血管",
+    "心律失常",
+    "器械治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43050665",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050665/",
+   "title_en": "Healing Health Care in Rural America - Toward Community-Centered Learning Health Systems.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "治愈美国乡村医疗——走向以社区为中心的学习型健康系统",
+   "one_liner": "摘要未给出结果",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计与样本量",
+   "tags": [
+    "卫生政策",
+    "基层医疗"
+   ],
+   "confidence": "low"
+  }
+ ]
+}

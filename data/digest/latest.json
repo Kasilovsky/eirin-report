@@ -1,12 +1,176 @@
 {
  "schema_version": 1,
- "date": "2026-11-18",
- "generated_at": "2026-11-18T08:21:28+00:00",
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T08:33:06+00:00",
  "provider": "deepseek-chat",
  "degraded": false,
  "window_days": 3,
  "count": 10,
  "items": [
+  {
+   "pmid": "42929681",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929681/",
+   "title_en": "Anbenitamab plus HB1801 for HER2-Positive Advanced Breast Cancer.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "Anbenitamab联合HB1801治疗HER2阳性晚期乳腺癌",
+   "one_liner": "新双抗联合方案比标准THP方案显著延长无进展生存。",
+   "key_finding": "24个月PFS率58.5% vs 34.4%，HR 0.46（95%CI 0.37-0.56），P<0.001；客观缓解率87.6% vs 73.4%。",
+   "why_it_matters": "为HER2阳性晚期乳腺癌一线治疗提供了可能更优的新选择，但≥3级不良事件更多（45.9% vs 34.4%）。",
+   "clinical_note": "中国多中心3期试验，开放标签，预设中期分析；随访中位21.0个月。",
+   "evidence": "3期随机对照试验，885例，中国多中心",
+   "tags": [
+    "乳腺癌",
+    "肿瘤内科",
+    "HER2靶向治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42929671",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929671/",
+   "title_en": "Trial of Endovascular Therapy for Mild Stroke with Large-Vessel Occlusion.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "神经"
+   ],
+   "title_zh": "血管内治疗用于大血管闭塞的轻型卒中试验",
+   "one_liner": "轻型卒中伴大血管闭塞，取栓加药物比单用药功能结局更好。",
+   "key_finding": "90天mRS 0-1比例69.4% vs 50.0%，OR 2.32（95%CI 1.41-3.81），P<0.001；症状性颅内出血两组各3例。",
+   "why_it_matters": "提示有高危影像特征的轻型卒中患者也可能从取栓获益，但13.2%出现严重操作相关并发症。",
+   "clinical_note": "中国多中心开放标签试验；入组需小梗死核心+大灌注错配，24小时内。",
+   "evidence": "多中心开放标签随机试验，300例，中国",
+   "tags": [
+    "卒中",
+    "神经内科",
+    "血管内治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42929656",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929656/",
+   "title_en": "Mechanical Thrombectomy 24 to 72 Hours after Large-Vessel Ischemic Stroke.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "神经",
+    "血液"
+   ],
+   "title_zh": "大血管缺血性卒中24至72小时机械取栓",
+   "one_liner": "晚时间窗取栓功能结局更好，但出血和死亡风险升高。",
+   "key_finding": "90天mRS分布更优，common OR 1.74（95%CI 1.19-2.55）；症状性颅内出血4.8% vs 0%，90天病死率6.0% vs 1.8%。",
+   "why_it_matters": "为超24小时但仍有可挽救脑组织的患者提供治疗依据，同时提示需权衡出血与死亡风险。",
+   "clinical_note": "中国综合卒中中心开放标签试验，结局评估盲法；随机中位时间38.5小时。",
+   "evidence": "开放标签随机试验，336例，中国多中心",
+   "tags": [
+    "卒中",
+    "神经内科",
+    "机械取栓"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42670955",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42670955/",
+   "title_en": "Aspirin Omission at the Time of Primary Percutaneous Coronary Intervention in STEMI.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "STEMI直接PCI时省略阿司匹林的研究",
+   "one_liner": "单用prasugrel未达到不劣于阿司匹林联合DAPT。",
+   "key_finding": "12个月死亡/卒中/心梗11.0% vs 8.5%，HR 1.34（95%CI 1.02-1.75），非劣效P=0.40；大出血5.6% vs 8.4%。",
+   "why_it_matters": "不支持在直接PCI的STEMI患者中省略阿司匹林；单药虽减少大出血，但缺血事件更多。",
+   "clinical_note": "日本多中心开放标签试验；非劣效界值HR 95%CI上限1.50。",
+   "evidence": "多中心开放标签随机试验，2216例，日本",
+   "tags": [
+    "心血管",
+    "STEMI",
+    "抗血小板治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43052007",
+   "journal": "BMJ",
+   "date": "2026-11-18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43052007/",
+   "title_en": "Physical activity coaching and text messaging for adults with mobility limitations (ComeBACK): hybrid type 1 effectiveness implementation randomised controlled trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "老年医学"
+   ],
+   "title_zh": "ComeBACK 试验：体力活动教练与短信干预对行动受限成人的效果",
+   "one_liner": "电话教练比短信或不干预更能让行动受限者多走路，但增幅有限。",
+   "key_finding": "6个月时教练组日均步数比等待组高931步（95%CI 409-1452），比短信组高571步（58-1084）；短信组比等待组高359步（-91-810），无统计学意义。",
+   "why_it_matters": "对行动受限的社区成人，由物理治疗师主导的电话教练可小幅提升活动量，短信单独使用效果不明确。",
+   "clinical_note": "纳入能自行外出的行动受限成人，平均69岁，76%为女性；参与者和治疗师未设盲。",
+   "evidence": "三臂随机对照试验，512人，澳大利亚五州",
+   "tags": [
+    "康复医学",
+    "老年医学",
+    "体力活动"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43051685",
+   "journal": "BMJ",
+   "date": "2026-11-18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051685/",
+   "title_en": "Effect of intrapartum hyoscine butylbromide and sodium bicarbonate on spontaneous vaginal birth in nulliparous women after induction of labour (SAINT): multicentre randomised placebo controlled factorial trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "妇产"
+   ],
+   "title_zh": "SAINT 试验：产时丁溴东莨菪碱与碳酸氢钠对初产妇诱导分娩后自然阴道分娩的影响",
+   "one_liner": "产时用丁溴东莨菪碱或碳酸氢钠，都没能明显提高自然阴道分娩率。",
+   "key_finding": "自然阴道分娩率：联合组57%、碳酸氢钠组61%、丁溴东莨菪碱组61%、双安慰剂组56%；与安慰剂相比风险差分别为-0.2、3.1、4.0个百分点，均无统计学意义。",
+   "why_it_matters": "结果不支持在诱导分娩后常规使用这两种药物来促进自然阴道分娩。",
+   "clinical_note": "挪威11家医院、足月初产妇；小样本获益不能排除，但不足以支持常规使用。",
+   "evidence": "多中心双盲安慰剂对照2×2析因试验，2963人分析",
+   "tags": [
+    "产科",
+    "分娩管理"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43050503",
+   "journal": "Sci Transl Med",
+   "date": "2026-11-18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050503/",
+   "title_en": "Temporal interference stimulation targeting the ventromedial prefrontal cortex enhances reward learning and improves depression scores.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "老年医学",
+    "精神"
+   ],
+   "title_zh": "靶向腹内侧前额叶皮层的时域干涉刺激增强奖赏学习并改善抑郁评分",
+   "one_liner": "10赫兹时域干涉刺激可增强奖赏学习，并减轻亚临床抑郁症状。",
+   "key_finding": "健康成人中10赫兹tTIS增强奖赏学习并重塑额纹状体连接，5赫兹无效；69名亚临床抑郁者每日3次10赫兹tTIS后症状减轻，7天随访仍有延迟获益。",
+   "why_it_matters": "提供了一种无创、靶向奖赏环路的潜在干预手段，但样本为亚临床抑郁人群，需进一步验证。",
+   "clinical_note": "受试者为亚临床抑郁，非临床抑郁症；样本量小，随访仅7天。",
+   "evidence": "随机试验，69名亚临床抑郁者（另含健康成人机制研究）",
+   "tags": [
+    "精神科",
+    "神经调控",
+    "抑郁症"
+   ],
+   "confidence": "medium"
+  },
   {
    "pmid": "42848371",
    "journal": "JAMA",
@@ -17,220 +181,60 @@
    "departments": [
     "综合"
    ],
-   "title_zh": "烟酰胺核糖用于早期帕金森病患者：NOPARK 随机临床试验",
-   "one_liner": "烟酰胺核糖未能改善早期帕金森病，结局反而略差于安慰剂。",
-   "key_finding": "52周时MDS-UPDRS总分烟酰胺核糖组增加2.45分，安慰剂组减少0.27分，校正均差2.72分（95% CI 0.47-4.98；P=.02），利于安慰剂；NMSS非运动症状负担加重更多（均差4.22分，95% CI 1.07-7.37；P=.009）。",
-   "why_it_matters": "不支持将烟酰胺核糖作为帕金森病的疾病修饰治疗，患者不应自行长期服用期待获益。",
-   "clinical_note": "纳入确诊2年内、Hoehn-Yahr<3期且多巴胺转运体显像异常者；11个挪威中心，52周。",
-   "evidence": "随机双盲安慰剂对照3期试验，410例随机、393例主分析，挪威11中心",
+   "title_zh": "NOPARK 随机临床试验：烟酰胺核糖用于早期帕金森病患者",
+   "one_liner": "烟酰胺核糖连用52周未改善早期帕金森病，结果反而略差于安慰剂。",
+   "key_finding": "52周时MDS-UPDRS总分烟酰胺核糖组升2.45分、安慰剂组降0.27分，校正均差2.72分（95%CI 0.47-4.98，P=0.02）偏向安慰剂；非运动症状负担也加重（NMSS均差4.22，P=0.009）。",
+   "why_it_matters": "不支持将烟酰胺核糖作为帕金森病的疾病修饰治疗。",
+   "clinical_note": "挪威11中心，确诊2年内、Hoehn-Yahr<3期且多巴胺转运体显像异常者；500 mg每日两次。",
+   "evidence": "双盲安慰剂对照3期试验，393人纳入主分析",
    "tags": [
     "神经内科",
-    "帕金森病",
-    "营养补充剂"
+    "帕金森病"
    ],
    "confidence": "high"
   },
   {
-   "pmid": "43045169",
-   "journal": "BMJ",
+   "pmid": "42663169",
+   "journal": "JAMA",
    "date": "2026-11-17",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43045169/",
-   "title_en": "Lessons from the East End: what neighbourhood health looks like in practice.",
-   "study_type": "研究论文",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42663169/",
+   "title_en": "Cardiovascular Magnetic Resonance to Guide Defibrillator Implantation for LVEF of 36% to 50%: The CMR GUIDE Randomized Clinical Trial.",
+   "study_type": "随机对照试验",
    "departments": [
-    "综合"
+    "循环器"
    ],
-   "title_zh": "来自东区的经验：社区健康在实践中的样貌",
-   "one_liner": "摘要未给出结果。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "摘要未给出结果，无法判断对临床或公众的意义。",
-   "clinical_note": "",
-   "evidence": "摘要未提供研究设计、样本量与地点",
+   "title_zh": "CMR GUIDE 随机临床试验：心血管磁共振指导 LVEF 36%～50% 患者植入除颤器",
+   "one_liner": "LVEF 36%～50% 且有心肌瘢痕者，植入 ICD 未减少猝死或恶性室性心律失常。",
+   "key_finding": "主要复合终点 ICD 组 7.8% vs ILR 组 9.2%（HR 0.76，95% CI 0.37-1.58）；猝死 1.7% vs 5.8%（HR 0.26，95% CI 0.07-0.95）。",
+   "why_it_matters": "现行以 LVEF≤35% 为 ICD 指征的做法，暂不支持仅凭 CMR 瘢痕扩大到 36%～50% 人群。",
+   "clinical_note": "样本 353 例、中位随访 6.3 年；70% 患者 LVEF≥40%，复合终点未达统计学差异。",
+   "evidence": "开放标签随机对照试验，353 例，澳/德/英 18 个中心",
    "tags": [
-    "公共卫生",
-    "社区健康"
+    "心血管",
+    "心律失常",
+    "器械治疗"
    ],
-   "confidence": "low"
+   "confidence": "high"
   },
   {
-   "pmid": "43045168",
-   "journal": "BMJ",
-   "date": "2026-11-17",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43045168/",
-   "title_en": "GMC invested over £285 000 in McDonald's, Coca-Cola, and AI chip firm Nvidia in 2026.",
+   "pmid": "43050665",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050665/",
+   "title_en": "Healing Health Care in Rural America - Toward Community-Centered Learning Health Systems.",
    "study_type": "研究论文",
    "departments": [
     "综合"
    ],
-   "title_zh": "GMC 于2026年向麦当劳、可口可乐和AI芯片公司Nvidia投资逾28.5万英镑",
-   "one_liner": "摘要未给出结果。",
+   "title_zh": "治愈美国乡村医疗——走向以社区为中心的学习型健康系统",
+   "one_liner": "摘要未给出结果",
    "key_finding": "摘要未给出结果",
-   "why_it_matters": "摘要未给出结果，无法判断其影响。",
-   "clinical_note": "",
-   "evidence": "摘要未提供研究设计、样本量与地点",
-   "tags": [
-    "医学伦理",
-    "机构治理"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43045166",
-   "journal": "BMJ",
-   "date": "2026-11-17",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43045166/",
-   "title_en": "Hilary Cass withdraws her backing on conversion practices bill.",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "Hilary Cass 撤回对转换治疗法案的支持",
-   "one_liner": "摘要未给出结果。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "摘要未给出结果，无法判断其政策与临床影响。",
-   "clinical_note": "",
-   "evidence": "摘要未提供研究设计、样本量与地点",
-   "tags": [
-    "政策",
-    "心理健康"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43045165",
-   "journal": "BMJ",
-   "date": "2026-11-17",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43045165/",
-   "title_en": "Indian doctors seek Bollywood ban over portrayal of violence and corruption in healthcare.",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "印度医生呼吁禁止宝莱坞影视作品：因其对医疗行业暴力与腐败的刻画",
-   "one_liner": "印度医生要求禁止宝莱坞作品，因其渲染医疗行业的暴力与腐败。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "影视刻画可能影响公众对医生的信任，但摘要未提供具体数据或影响评估。",
-   "clinical_note": "",
-   "evidence": "摘要未提供研究设计、样本量或地点",
-   "tags": [
-    "医疗行业",
-    "媒体与健康",
-    "印度"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43045164",
-   "journal": "BMJ",
-   "date": "2026-11-17",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43045164/",
-   "title_en": "Palantir's NHS contract to end-but not until 2029, ministers say.",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "Palantir的NHS合同将终止——但部长们表示要到2029年",
-   "one_liner": "Palantir与NHS的合同将终止，但终止时间推迟至2029年。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "涉及NHS数据合同安排，但摘要未提供合同细节或影响评估。",
-   "clinical_note": "",
-   "evidence": "摘要未提供研究设计、样本量或地点",
-   "tags": [
-    "NHS",
-    "医疗数据",
-    "英国"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43045163",
-   "journal": "BMJ",
-   "date": "2026-11-17",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43045163/",
-   "title_en": "Does the CDC still control or prevent diseases?",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "CDC还能控制或预防疾病吗？",
-   "one_liner": "文章质疑美国CDC是否仍具备控制或预防疾病的能力。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "涉及公共卫生机构职能，但摘要未提供具体证据或结论。",
-   "clinical_note": "",
-   "evidence": "摘要未提供研究设计、样本量或地点",
-   "tags": [
-    "公共卫生",
-    "CDC",
-    "美国"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43045158",
-   "journal": "BMJ",
-   "date": "2026-11-17",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43045158/",
-   "title_en": "Milburn review: GPs should not issue long term \"fit notes\" in radical welfare shake-up.",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "Milburn审查：在激进福利改革中，全科医生不应开具长期「fit notes」",
-   "one_liner": "Milburn审查建议全科医生不应开具长期病假证明，属福利改革的一部分。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "若实施将改变全科医生开具病假证明的职责，但摘要未提供具体方案细节。",
-   "clinical_note": "",
-   "evidence": "摘要未提供研究设计、样本量或地点",
-   "tags": [
-    "全科医学",
-    "福利政策",
-    "英国"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43044617",
-   "journal": "Lancet",
-   "date": "2026-11-17",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43044617/",
-   "title_en": "Natural ligand-based CAR T-cell therapy targeting BCMA and TACI for relapsed or refractory multiple myeloma (TriPRIL): a non-randomised, phase 1, first-in-human trial.",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "基于天然配体的BCMA/TACI双靶点CAR-T疗法治疗复发或难治性多发性骨髓瘤（TriPRIL）：一项非随机、1期、首次人体试验",
-   "one_liner": "双靶点TriPRIL CAR-T在复发难治骨髓瘤中安全性可控，未出现剂量限制毒性。",
-   "key_finding": "15例输注，无剂量限制毒性；细胞因子释放综合征13例（87%，95% CI 60-98）均为1-2级；推荐2期剂量为3·0 × 108细胞。",
-   "why_it_matters": "为已用过BCMA靶向CAR-T后复发的骨髓瘤患者提供新选择，双靶点有望减少抗原逃逸。",
-   "clinical_note": "单中心、样本量小、非随机；多数患者既往接受过BCMA CAR-T，随访尚短。",
-   "evidence": "1期首次人体、剂量递增+扩展，15例输注，美国单中心",
-   "tags": [
-    "血液肿瘤",
-    "CAR-T细胞治疗",
-    "多发性骨髓瘤"
-   ],
-   "confidence": "medium"
-  },
-  {
-   "pmid": "43044616",
-   "journal": "Lancet",
-   "date": "2026-11-17",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43044616/",
-   "title_en": "APRIL-based CAR T-cell targeting of BCMA and TACI in multiple myeloma.",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "靶向BCMA和TACI的APRIL基CAR-T细胞治疗多发性骨髓瘤",
-   "one_liner": "摘要未给出结果，无法判断疗效与安全性。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "摘要为空，无法评估该疗法对临床或公众的意义。",
+   "why_it_matters": "摘要未给出结果",
    "clinical_note": "",
    "evidence": "摘要未提供研究设计与样本量",
    "tags": [
-    "血液肿瘤",
-    "CAR-T细胞治疗",
-    "多发性骨髓瘤"
+    "卫生政策",
+    "基层医疗"
    ],
    "confidence": "low"
   }

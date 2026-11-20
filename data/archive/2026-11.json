@@ -1,8 +1,153 @@
 {
  "schema_version": 2,
  "month": "2026-11",
- "count": 674,
+ "count": 711,
  "articles": [
+  {
+   "pmid": "43039013",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Critical condition: what are we doing about nuclear war?",
+   "title_zh": "危急情况：我们对核战争该怎么办？",
+   "citation": "Lancet. 2026; 408(10569): 2182-2184",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039013/",
+   "date": "2026-11-21",
+   "authors": "Abbasi K, Ali P, Barbour V, Birch M, Bivens M, Blum I",
+   "doi": "10.1016/S0140-6736(26)02246-4",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43025430",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Emerging Shamonda virus: a new threat to pregnancy?",
+   "title_zh": "新出现的沙蒙达病毒：对妊娠的新威胁？",
+   "citation": "Lancet. 2026; 408(10569): 2195",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025430/",
+   "date": "2026-11-21",
+   "authors": "Baud D, Alves MP, Pomar L, Musso D, Vouga M",
+   "doi": "10.1016/S0140-6736(26)02232-4",
+   "study_type": "通信",
+   "departments": [
+    "感染",
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "43025428",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Lula's new term-safeguarding science, health, and the Amazon.",
+   "title_zh": "卢拉的新任期——捍卫科学、健康和亚马逊雨林。",
+   "citation": "Lancet. 2026; 408(10569): 2195-2196",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025428/",
+   "date": "2026-11-21",
+   "authors": "Noll M, Sousa MM, Nogueira SM, Cardoso FMCB, E Silva PR",
+   "doi": "10.1016/S0140-6736(26)02234-8",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42982078",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Climate-health actions: global scale-up yields economic and fiscal benefits.",
+   "title_zh": "气候-健康行动：全球扩大规模可产生经济和财政效益",
+   "citation": "Lancet. 2026; 408(10569): 2179-2182",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42982078/",
+   "date": "2026-11-21",
+   "authors": "Pega F, Momen NC, Krech R, Edwards S, Gordon B, Johnston R",
+   "doi": "10.1016/S0140-6736(26)02057-X",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42956794",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Irritable bowel syndrome and related disorders of gut-brain interaction.",
+   "title_zh": "肠易激综合征及相关脑肠互动障碍。",
+   "citation": "Lancet. 2026; 408(10569): 2254-2270",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956794/",
+   "date": "2026-11-21",
+   "authors": "Black CJ, Chuah KH, Nasser Y, Remes-Troche JM, Shin A, Ford AC",
+   "doi": "10.1016/S0140-6736(26)01500-X",
+   "study_type": "综述",
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42933461",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Izalontamab brengitecan versus platinum-based chemotherapy in EGFR-mutated advanced non-squamous non-small-cell lung cancer after progression on third-generation EGFR tyrosine kinase inhibitors (PANKU-Lung01): a multicentre, randomised, open-label, phase 3 trial in China.",
+   "title_zh": "Izalontamab brengitecan对比铂类化疗治疗第三代EGFR酪氨酸激酶抑制剂进展后的EGFR突变晚期非鳞状非小细胞肺癌（PANKU-Lung01）：中国多中心、随机、开放标签、3期试验",
+   "citation": "Lancet. 2026; 408(10569): 2212-2223",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933461/",
+   "date": "2026-11-21",
+   "authors": "Hong S, Zhou T, Hou X, Meng X, Hu Z, Zheng W",
+   "doi": "10.1016/S0140-6736(26)02026-X",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "42933460",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Sacituzumab tirumotecan versus treatment of physician's choice in previously treated endometrial cancer (TroFuse-005/ENGOT-en23/GOG-3095): a randomised, open-label, phase 3 trial.",
+   "title_zh": "Sacituzumab tirumotecan对比医生选择方案治疗经治子宫内膜癌（TroFuse-005/ENGOT-en23/GOG-3095）：随机、开放标签、3期试验",
+   "citation": "Lancet. 2026; 408(10569): 2224-2238",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933460/",
+   "date": "2026-11-21",
+   "authors": "Lorusso D, Martin-Babau J, Backes F, Ginesta MPB, Korach J, Nicum S",
+   "doi": "10.1016/S0140-6736(26)02099-4",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42915009",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Remibrutinib versus teriflunomide in relapsing multiple sclerosis (REMODEL-1 and REMODEL-2): two randomised, phase 3 trials.",
+   "title_zh": "remibrutinib对比teriflunomide治疗复发型多发性硬化（REMODEL-1和REMODEL-2）：两项随机3期试验",
+   "citation": "Lancet. 2026; 408(10569): 2201-2211",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42915009/",
+   "date": "2026-11-21",
+   "authors": "Wiendl H, Bermel R, Airas L, Chitnis T, Nakahara J, Williams M",
+   "doi": "10.1016/S0140-6736(26)02058-1",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42843399",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Migraine.",
+   "citation": "Lancet. 2026; 408(10569): 2239-2253",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42843399/",
+   "date": "2026-11-21",
+   "authors": "Tassorelli C, Wang SJ, Pozo-Rosich P, Ashina M",
+   "doi": "10.1016/S0140-6736(26)01366-8",
+   "study_type": "综述",
+   "departments": [
+    "综合"
+   ]
+  },
   {
    "pmid": "43037246",
    "journal": "New England Journal of Medicine",
@@ -219,6 +364,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Cutaneous Anthrax.",
+   "title_zh": "皮肤炭疽",
    "citation": "N Engl J Med. 2026; 395(20): 2043",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43050662/",
    "date": "2026-11-19",
@@ -242,6 +388,7 @@
    "doi": "10.1056/NEJMra2601172",
    "study_type": "综述",
    "departments": [
+    "感染",
     "呼吸器"
    ]
   },
@@ -250,6 +397,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Closing the Gap.",
+   "title_zh": "弥合差距",
    "citation": "N Engl J Med. 2026; 395(20): e29",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43050660/",
    "date": "2026-11-19",
@@ -339,7 +487,8 @@
    "study_type": "随机对照试验",
    "departments": [
     "循环器",
-    "神经"
+    "神经",
+    "血液"
    ]
   },
   {
@@ -356,8 +505,7 @@
    "study_type": "随机对照试验",
    "departments": [
     "循环器",
-    "神经",
-    "血液"
+    "神经"
    ]
   },
   {
@@ -373,7 +521,519 @@
    "doi": "10.1056/NEJMoa2606997",
    "study_type": "随机对照试验",
    "departments": [
+    "药学"
+   ]
+  },
+  {
+   "pmid": "43057712",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Doctor who gave cancer patient vitamin C injections in Norway is struck off in UK.",
+   "title_zh": "在挪威为癌症患者注射维生素C的医生在英国被吊销执照。",
+   "citation": "BMJ. 2026; 395: e101517",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057712/",
+   "date": "2026-11-19",
+   "authors": "Dyer C",
+   "doi": "10.1136/bmj-2026-101517",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43057709",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Martha's rule might not help those most at risk in emergency departments.",
+   "title_zh": "“玛莎法则”可能无法帮助急诊科中风险最高的人群。",
+   "citation": "BMJ. 2026; 395: e101507",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057709/",
+   "date": "2026-11-19",
+   "authors": "Boyle A, Lindsay C",
+   "doi": "10.1136/bmj-2026-101507",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057707",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Choosing dialysis in older people . . . and other research.",
+   "title_zh": "老年人选择透析……以及其他研究。",
+   "citation": "BMJ. 2026; 395: e101388",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057707/",
+   "date": "2026-11-19",
+   "authors": "Nolan T",
+   "doi": "10.1136/bmj-2026-101388",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057706",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Understanding the threat from evolving strains of meningitis B.",
+   "title_zh": "了解不断变异的B型脑膜炎菌株所带来的威胁。",
+   "citation": "BMJ. 2026; 395: e101417",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057706/",
+   "date": "2026-11-19",
+   "authors": "Preston A",
+   "doi": "10.1136/bmj-2026-101417",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057705",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Covid inquiry: UK was \"woefully ill prepared\" for Test and Trace and spent £25bn trying to catch up.",
+   "title_zh": "新冠疫情调查：英国在“检测与追踪”方面“准备得非常糟糕”，并花费了250亿英镑试图赶上进度。",
+   "citation": "BMJ. 2026; 395: e101523",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057705/",
+   "date": "2026-11-19",
+   "authors": "Mahase E",
+   "doi": "10.1136/bmj-2026-101523",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43057703",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Neighbourhood support teams: Experts question how NHS will find money or capacity for Yvette Cooper's new scheme.",
+   "title_zh": "社区支持团队：专家们质疑国民保健服务体系（NHS）将如何为伊薇特·库珀（Yvette Cooper）的新计划筹措资金或人力。",
+   "citation": "BMJ. 2026; 395: e101519",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057703/",
+   "date": "2026-11-19",
+   "authors": "Mahase E",
+   "doi": "10.1136/bmj-2026-101519",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057702",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Shaping the future: the breast surgeon inspiring the next generation.",
+   "title_zh": "塑造未来：激励下一代的乳腺外科医生。",
+   "citation": "BMJ. 2026; 395: e101476",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057702/",
+   "date": "2026-11-19",
+   "authors": "Oxtoby K",
+   "doi": "10.1136/bmj-2026-101476",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057701",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "NHS reform: getting the neighbourhood contracts right from the start.",
+   "title_zh": "国民保健服务（NHS）改革：从一开始就正确签订社区合同。",
+   "citation": "BMJ. 2026; 395: e101442",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057701/",
+   "date": "2026-11-19",
+   "authors": "Varma R",
+   "doi": "10.1136/bmj-2026-101442",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057699",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Partha Kar: NICE recommendations need dedicated funding for implementation.",
+   "title_zh": "Partha Kar：NICE的建议需要专门的资金才能实施。",
+   "citation": "BMJ. 2026; 395: e101475",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057699/",
+   "date": "2026-11-19",
+   "authors": "Kar P",
+   "doi": "10.1136/bmj-2026-101475",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057279",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Spontaneous coronary artery dissection: implications for women's health, clinical care, and future research.",
+   "title_zh": "自发性冠状动脉夹层：对女性健康、临床护理和未来研究的影响。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057279/",
+   "date": "2026-11-19",
+   "authors": "Bay B, Magnussen C, Adlam D, Al-Nasser LA, Al-Lamee R, Appelman Y",
+   "doi": "10.1016/S0140-6736(26)01485-6",
+   "study_type": "综述",
+   "departments": [
     "循环器"
+   ]
+  },
+  {
+   "pmid": "43057278",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Seasonal mass vaccination for malaria control in west Africa.",
+   "title_zh": "西非疟疾防控季节性大规模疫苗接种。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057278/",
+   "date": "2026-11-19",
+   "authors": "Kajubi R, Parikh S",
+   "doi": "10.1016/S0140-6736(26)01870-2",
+   "study_type": "研究论文",
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43057277",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Seasonal mass vaccination with R21/Matrix-M against malaria in The Gambia and Burkina Faso: an open-label, cluster-randomised, controlled trial.",
+   "title_zh": "在冈比亚和布基纳法索开展的R21/Matrix-M季节性大规模疟疾疫苗接种：一项开放标签、群组随机、对照试验。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057277/",
+   "date": "2026-11-19",
+   "authors": "Dabira ED, Natama HM, Erhart A, Bihoun B, Keita ML, Derra K",
+   "doi": "10.1016/S0140-6736(26)01562-X",
+   "study_type": "研究论文",
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43057276",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Reproductive health in women in Britain from 2010 to 2024: findings from repeated, cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
+   "title_zh": "2010年至2024年英国女性的生殖健康：来自重复性横断面全国性态度和生活方式调查（Natsal）的结果。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057276/",
+   "date": "2026-11-19",
+   "authors": "Pathak N, Gascoyne C, Hough A, Paul E, Bonell C, Field N",
+   "doi": "10.1016/S0140-6736(26)01551-5",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057230",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Genome writing reveals SVA retrotransposon consequences in X-linked dystonia-parkinsonism.",
+   "title_zh": "基因组编辑揭示了SVA逆转座子在X连锁肌张力障碍-帕金森综合征中的影响。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057230/",
+   "date": "2026-11-19",
+   "authors": "Zhang W, Zhao Y, Prakash P, Appleby H, Barriball K, Capponi S",
+   "doi": "10.1016/j.cell.2026.07.057",
+   "study_type": "研究论文",
+   "departments": [
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43057229",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Myelin pathology is a key feature of X-linked dystonia-parkinsonism.",
+   "title_zh": "髓鞘病变是X连锁肌张力障碍-帕金森综合征的关键特征。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057229/",
+   "date": "2026-11-19",
+   "authors": "Prakash P, Limberg KC, Zhang W, Zhao Y, Laborc KF, O'Keeffe A",
+   "doi": "10.1016/j.cell.2026.10.046",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057228",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "CD19 CAR T cell therapy alters disease-associated immune signatures in multiple sclerosis.",
+   "title_zh": "CD19 CAR T细胞疗法改变了多发性硬化症中与疾病相关的免疫特征。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057228/",
+   "date": "2026-11-19",
+   "authors": "Fischbach F, Pfeffer LK, Engler JB, Neziraj T, Richter J, Sattarnezhad N",
+   "doi": "10.1016/j.cell.2026.10.044",
+   "study_type": "研究论文",
+   "departments": [
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "43057227",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "RNA folding drives species-dependent host mRNA partitioning in Ebola virus condensates.",
+   "title_zh": "RNA折叠驱动埃博拉病毒凝聚物中宿主mRNA的物种依赖性分隔。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057227/",
+   "date": "2026-11-19",
+   "authors": "Fang J, Lam DC, Mah CK, Watanabe R, Tanner HM, Comi T",
+   "doi": "10.1016/j.cell.2026.10.047",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43057226",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "A natural mutation of timeless enhances mosquito thermal adaptation and malaria parasite transmission.",
+   "title_zh": "timeless的自然突变增强了蚊子的热适应性和疟原虫的传播。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057226/",
+   "date": "2026-11-19",
+   "authors": "Wang G, Sun P, Yang B, Wang Y, Zhou T, Shi Y",
+   "doi": "10.1016/j.cell.2026.10.049",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057225",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Genomic surveillance reveals age-structured SARS-CoV-2 transmission across settings.",
+   "title_zh": "基因组监测揭示了不同环境下的SARS-CoV-2年龄结构性传播。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057225/",
+   "date": "2026-11-19",
+   "authors": "Moreno GK, Brock-Fisher T, Krasilnikova LA, Schaffner SF, Burns M, Casiello CE",
+   "doi": "10.1016/j.cell.2026.10.051",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056497",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Plasma eMTBR-tau as a Biomarker for Chronic Traumatic Encephalopathy Tau Tangle Neuropathology.",
+   "title_zh": "血浆eMTBR-tau作为慢性创伤性脑病tau蛋白缠结神经病理学的生物标志物。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056497/",
+   "date": "2026-11-19",
+   "authors": "Miner AE, Stein TD, McKee AC, Mez J, Asken BM, Singh A",
+   "doi": "10.1001/jama.2026.24780",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056493",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Plasma eMTBR-Tau as a Potential Biomarker Across Tauopathies.",
+   "title_zh": "血浆eMTBR-Tau作为tau蛋白病潜在生物标志物。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056493/",
+   "date": "2026-11-19",
+   "authors": "Palleis C, Höglinger GU",
+   "doi": "10.1001/jama.2026.24588",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056226",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Slightly Alive - Improving Antituberculosis Therapy.",
+   "title_zh": "Slightly Alive - 改善抗结核病治疗。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056226/",
+   "date": "2026-11-19",
+   "authors": "Rubin EJ",
+   "doi": "10.1056/NEJMe2614653",
+   "study_type": "述评",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43056221",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Assessing Multiple Treatment Regimens for Tuberculosis.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056221/",
+   "date": "2026-11-19",
+   "authors": "Esmail H, Paton NI, Schildkraut JA, Motta I, Szubert AJ, Dufault SM",
+   "doi": "10.1056/NEJMoa2611913",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43056124",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Global Burden of Disease Assessment of Elevated LDL-C.",
+   "title_zh": "高LDL-C的全球疾病负担评估。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056124/",
+   "date": "2026-11-19",
+   "authors": "Tan JS, Fu Z, Hua L",
+   "doi": "10.1001/jama.2026.21732",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056112",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Some Anniversaries of 1926.",
+   "title_zh": "1926年的几个周年纪念日。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056112/",
+   "date": "2026-11-19",
+   "doi": "10.1001/jama.2025.16138",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056111",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Pediatric Medical Imaging and Brain Tumor Risk.",
+   "title_zh": "儿科医学影像学与脑瘤风险。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056111/",
+   "date": "2026-11-19",
+   "authors": "Persiani F, Boldrini L, De Maria R",
+   "doi": "10.1001/jama.2026.20669",
+   "study_type": "研究论文",
+   "departments": [
+    "神经",
+    "肿瘤",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43056100",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Global Burden of Disease Assessment of Elevated LDL-C-Reply.",
+   "title_zh": "高LDL-C的全球疾病负担评估——答复。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056100/",
+   "date": "2026-11-19",
+   "authors": "Razo C, Roth G",
+   "doi": "10.1001/jama.2026.21735",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056099",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Make It Beautiful.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056099/",
+   "date": "2026-11-19",
+   "authors": "Brandeland M",
+   "doi": "10.1001/jama.2026.22996",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056087",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Trends in Menopause Hormone Therapy.",
+   "title_zh": "更年期激素治疗的趋势。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056087/",
+   "date": "2026-11-19",
+   "authors": "Sarnak DO, Shen W, Alexander GC",
+   "doi": "10.1001/jama.2026.22619",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056077",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Like Self-Driving Cars, Who or What Do We Actually Want Driving Health Care?: A Conversation With Wilko Schulz-Mahlendorf.",
+   "title_zh": "就像自动驾驶汽车一样，我们实际上希望由谁或由什么来“驾驶”医疗保健？：与Wilko Schulz-Mahlendorf的对话。",
+   "citation": "JAMA. 2026: e2616050",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056077/",
+   "date": "2026-11-19",
+   "authors": "Hswen Y",
+   "doi": "10.1001/jama.2026.16050",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056071",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "What Is Motion Sickness?",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056071/",
+   "date": "2026-11-19",
+   "authors": "Agarwal S, Malani PN",
+   "doi": "10.1001/jama.2026.21697",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056070",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Medical Imaging and Pediatric and Adolescent Brain Tumor Risk.",
+   "title_zh": "医学影像学与儿童及青少年脑瘤风险。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056070/",
+   "date": "2026-11-19",
+   "authors": "Miglioretti DL, Alber SA, Kwan ML, Pequeno P, Bowles EJA, Greenlee RT",
+   "doi": "10.1001/jama.2026.20441",
+   "study_type": "研究论文",
+   "departments": [
+    "神经",
+    "肿瘤",
+    "儿科"
    ]
   },
   {
@@ -541,6 +1201,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "The art of medicine cannot be devoid of the arts.",
+   "title_zh": "医学艺术不能脱离艺术",
    "citation": "BMJ. 2026; 395: e100385",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43051659/",
    "date": "2026-11-18",
@@ -733,6 +1394,7 @@
    "journal": "Science Translational Medicine",
    "journal_abbr": "Sci Transl Med",
    "title_en": "Temporal interference stimulation targeting the ventromedial prefrontal cortex enhances reward learning and improves depression scores.",
+   "title_zh": "靶向腹内侧前额叶皮层的时间干涉刺激增强奖赏学习并改善抑郁评分",
    "citation": "Sci Transl Med. 2026; 18(876): eadz9823",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43050503/",
    "date": "2026-11-18",
@@ -798,6 +1460,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Conversations With Vaccine-Hesitant Patients.",
+   "title_zh": "与疫苗犹豫患者的沟通",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43050232/",
    "date": "2026-11-18",
@@ -876,6 +1539,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Terminating Trials Early.",
+   "title_zh": "提前终止试验",
    "citation": "JAMA. 2026: e2621648",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43050205/",
    "date": "2026-11-18",
@@ -1655,7 +2319,7 @@
    "date": "2026-11-17",
    "authors": "Bugianesi E",
    "doi": "10.1001/jama.2026.16793",
-   "study_type": "评论",
+   "study_type": "述评",
    "departments": [
     "综合"
    ]
@@ -1719,7 +2383,7 @@
    "date": "2026-11-17",
    "authors": "Al-Khatib SM",
    "doi": "10.1001/jama.2026.16582",
-   "study_type": "评论",
+   "study_type": "述评",
    "departments": [
     "循环器"
    ]
@@ -1744,6 +2408,7 @@
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
    "title_en": "Generational gains in cognitive capacity and dementia incidence rates in Western countries.",
+   "title_zh": "西方国家认知能力的代际提升与痴呆发病率",
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43045795/",
    "date": "2026-11-17",
@@ -1892,22 +2557,6 @@
    "date": "2026-11-16",
    "authors": "Roberts KF, Abrams ZB, Cappelletti L, Moqri M, Heugel N, Caufield JH",
    "doi": "10.1038/s41591-026-04808-6",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "43039013",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Critical condition: what are we doing about nuclear war?",
-   "title_zh": "危急情况：我们对核战争该怎么办？",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43039013/",
-   "date": "2026-11-16",
-   "authors": "Abbasi K, Ali P, Barbour V, Birch M, Bivens M, Blum I",
-   "doi": "10.1016/S0140-6736(26)02246-4",
    "study_type": "研究论文",
    "departments": [
     "综合"
@@ -2702,23 +3351,6 @@
    ]
   },
   {
-   "pmid": "43025430",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Emerging Shamonda virus: a new threat to pregnancy?",
-   "title_zh": "新出现的沙蒙达病毒：对妊娠的新威胁？",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43025430/",
-   "date": "2026-11-13",
-   "authors": "Baud D, Alves MP, Pomar L, Musso D, Vouga M",
-   "doi": "10.1016/S0140-6736(26)02232-4",
-   "study_type": "通信",
-   "departments": [
-    "感染",
-    "妇产"
-   ]
-  },
-  {
    "pmid": "43025429",
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
@@ -2732,22 +3364,6 @@
    "study_type": "研究论文",
    "departments": [
     "循环器"
-   ]
-  },
-  {
-   "pmid": "43025428",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Lula's new term-safeguarding science, health, and the Amazon.",
-   "title_zh": "卢拉的新任期——捍卫科学、健康和亚马逊雨林。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43025428/",
-   "date": "2026-11-13",
-   "authors": "Noll M, Sousa MM, Nogueira SM, Cardoso FMCB, E Silva PR",
-   "doi": "10.1016/S0140-6736(26)02234-8",
-   "study_type": "通信",
-   "departments": [
-    "综合"
    ]
   },
   {
@@ -8182,22 +8798,6 @@
    "date": "2026-11-04",
    "authors": "Shartova N, Liu X, Janoš T, Chen ZY, Mishra N, Ruiz-Cabrejos J",
    "doi": "10.1038/s41591-026-04793-w",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42982078",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Climate-health actions: global scale-up yields economic and fiscal benefits.",
-   "title_zh": "气候-健康行动：全球扩大规模可产生经济和财政效益",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42982078/",
-   "date": "2026-11-04",
-   "authors": "Pega F, Momen NC, Krech R, Edwards S, Gordon B, Johnston R",
-   "doi": "10.1016/S0140-6736(26)02057-X",
    "study_type": "研究论文",
    "departments": [
     "综合"

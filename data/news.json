@@ -1,28 +1,28 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-19T08:32:45+00:00",
+ "generated_at": "2026-11-20T08:14:51+00:00",
  "window_days": 180,
- "count": 1140,
+ "count": 1173,
  "journals": [
   {
    "abbr": "N Engl J Med",
    "name": "New England Journal of Medicine",
-   "count": 159
+   "count": 161
   },
   {
    "abbr": "Lancet",
    "name": "The Lancet",
-   "count": 146
+   "count": 151
   },
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 261
+   "count": 272
   },
   {
    "abbr": "BMJ",
    "name": "BMJ",
-   "count": 190
+   "count": 199
   },
   {
    "abbr": "Nat Med",
@@ -32,7 +32,7 @@
   {
    "abbr": "Cell",
    "name": "Cell",
-   "count": 130
+   "count": 136
   },
   {
    "abbr": "Sci Transl Med",
@@ -42,11 +42,1016 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 48,
-  "cache_size": 1094,
+  "translate_used": 36,
+  "cache_size": 1130,
   "translate_fails": 3
  },
  "articles": [
+  {
+   "pmid": "43039013",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Critical condition: what are we doing about nuclear war?",
+   "title_zh": "危急情况：我们对核战争该怎么办？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2182-2184",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039013/",
+   "date": "2026-11-21",
+   "authors": "Abbasi K, Ali P, Barbour V, Birch M, Bivens M, Blum I",
+   "author_count": 18,
+   "doi": "10.1016/S0140-6736(26)02246-4",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43025430",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Emerging Shamonda virus: a new threat to pregnancy?",
+   "title_zh": "新出现的沙蒙达病毒：对妊娠的新威胁？",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2195",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025430/",
+   "date": "2026-11-21",
+   "authors": "Baud D, Alves MP, Pomar L, Musso D, Vouga M",
+   "author_count": 5,
+   "doi": "10.1016/S0140-6736(26)02232-4",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染",
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "43025428",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Lula's new term-safeguarding science, health, and the Amazon.",
+   "title_zh": "卢拉的新任期——捍卫科学、健康和亚马逊雨林。",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2195-2196",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43025428/",
+   "date": "2026-11-21",
+   "authors": "Noll M, Sousa MM, Nogueira SM, Cardoso FMCB, E Silva PR",
+   "author_count": 5,
+   "doi": "10.1016/S0140-6736(26)02234-8",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42982078",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Climate-health actions: global scale-up yields economic and fiscal benefits.",
+   "title_zh": "气候-健康行动：全球扩大规模可产生经济和财政效益",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2179-2182",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42982078/",
+   "date": "2026-11-21",
+   "authors": "Pega F, Momen NC, Krech R, Edwards S, Gordon B, Johnston R",
+   "author_count": 25,
+   "doi": "10.1016/S0140-6736(26)02057-X",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42956794",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Irritable bowel syndrome and related disorders of gut-brain interaction.",
+   "title_zh": "肠易激综合征及相关脑肠互动障碍。",
+   "summary_en": "Irritable bowel syndrome, chronic constipation, and functional diarrhoea are disorders of gut-brain interaction, the symptoms of which include abnormal stool consistency or frequency accompanied by varying degrees of abdominal pain, discomfort, bloating, or distension. These conditions affect 20% of the global population with a relapsing and remitting course. Risk factors include female sex, younger age, a history of common mental disorders, and acute enteric infection. The pathophysiology of irritable bowel syndrome, chronic constipation, and functional diarrhoea remain incompletely understood, but are thought to be secondary to aberrant interactions throughout the gut-brain axis, resulting in disordered gut motility and visceral hypersensitivity. These conditions are diagnosed with a com",
+   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2254-2270",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42956794/",
+   "date": "2026-11-21",
+   "authors": "Black CJ, Chuah KH, Nasser Y, Remes-Troche JM, Shin A, Ford AC",
+   "author_count": 6,
+   "doi": "10.1016/S0140-6736(26)01500-X",
+   "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [
+    "Humans",
+    "Irritable Bowel Syndrome",
+    "Constipation",
+    "Diarrhea",
+    "Risk Factors",
+    "Brain",
+    "Female",
+    "Brain-Gut Axis"
+   ],
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "42933461",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Izalontamab brengitecan versus platinum-based chemotherapy in EGFR-mutated advanced non-squamous non-small-cell lung cancer after progression on third-generation EGFR tyrosine kinase inhibitors (PANKU-Lung01): a multicentre, randomised, open-label, phase 3 trial in China.",
+   "title_zh": "Izalontamab brengitecan对比铂类化疗治疗第三代EGFR酪氨酸激酶抑制剂进展后的EGFR突变晚期非鳞状非小细胞肺癌（PANKU-Lung01）：中国多中心、随机、开放标签、3期试验",
+   "summary_en": "BACKGROUND: Izalontamab brengitecan (iza-bren) is a first-in-class bispecific antibody-drug conjugate targeting epidermal growth factor receptor (EGFR) and human epidermal growth factor receptor 3 (HER3) and has shown antitumour activity in EGFR-mutated non-small-cell lung cancer (NSCLC). We compared iza-bren with platinum-based chemotherapy in participants with EGFR-mutated advanced non-squamous NSCLC after progression on third-generation EGFR tyrosine kinase inhibitors (TKIs). METHODS: In this multicentre, randomised, open-label, phase 3 trial (PANKU-Lung01) conducted at 73 sites in China, eligible participants had EGFR-mutated locally advanced or metastatic non-squamous NSCLC, disease progression after third-generation EGFR TKIs, and had received no previous chemotherapy for advanced di",
+   "summary_zh": "【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2212-2223",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933461/",
+   "date": "2026-11-21",
+   "authors": "Hong S, Zhou T, Hou X, Meng X, Hu Z, Zheng W",
+   "author_count": 46,
+   "doi": "10.1016/S0140-6736(26)02026-X",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III"
+   ],
+   "mesh": [
+    "Humans",
+    "Carcinoma, Non-Small-Cell Lung",
+    "ErbB Receptors",
+    "Female",
+    "Lung Neoplasms",
+    "China",
+    "Middle Aged",
+    "Male",
+    "Protein Kinase Inhibitors",
+    "Aged"
+   ],
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "42933460",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Sacituzumab tirumotecan versus treatment of physician's choice in previously treated endometrial cancer (TroFuse-005/ENGOT-en23/GOG-3095): a randomised, open-label, phase 3 trial.",
+   "title_zh": "Sacituzumab tirumotecan对比医生选择方案治疗经治子宫内膜癌（TroFuse-005/ENGOT-en23/GOG-3095）：随机、开放标签、3期试验",
+   "summary_en": "BACKGROUND: Therapeutic options for patients with endometrial cancer who progress after platinum-based chemotherapy and immunotherapy are scarce, and prognosis is poor. Sacituzumab tirumotecan (sac-TMT) is a trophoblast cell-surface antigen 2-directed antibody-drug conjugate with a unique, bifunctional linker that maximises delivery of a belotecan-derived topoisomerase I inhibitor payload to tumour cells. This study aimed to compare sac-TMT with the treatment of physician's choice (TPC) in patients with endometrial cancer who had been previously treated with platinum-based chemotherapy and immunotherapy. METHODS: In this randomised, open-label, phase 3 trial, patients were recruited from 242 gynaecological oncology centres across 31 countries and regions. Participating centres were selecte",
+   "summary_zh": "【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2224-2238",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933460/",
+   "date": "2026-11-21",
+   "authors": "Lorusso D, Martin-Babau J, Backes F, Ginesta MPB, Korach J, Nicum S",
+   "author_count": 33,
+   "doi": "10.1016/S0140-6736(26)02099-4",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
+   "mesh": [
+    "Female",
+    "Humans",
+    "Endometrial Neoplasms",
+    "Antibodies, Monoclonal, Humanized",
+    "Middle Aged",
+    "Immunoconjugates",
+    "Aged",
+    "Camptothecin"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42915009",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Remibrutinib versus teriflunomide in relapsing multiple sclerosis (REMODEL-1 and REMODEL-2): two randomised, phase 3 trials.",
+   "title_zh": "remibrutinib对比teriflunomide治疗复发型多发性硬化（REMODEL-1和REMODEL-2）：两项随机3期试验",
+   "summary_en": "BACKGROUND: Remibrutinib is a highly selective, potent, covalent, CNS-penetrant, oral BTK inhibitor. We assessed the efficacy and safety of remibrutinib in adult patients with relapsing multiple sclerosis. METHODS: REMODEL-1 and REMODEL-2 are two identical, randomised, double-blind, double-dummy, active comparator-controlled, parallel-group, event-driven, phase 3 trials conducted at 407 centres in 46 countries. Patients aged 18-55 years with relapsing multiple sclerosis, an Expanded Disability Status Scale score of 0-5·5, and evidence of recent disease activity were randomly assigned 1:1 to oral remibrutinib 100 mg twice daily or teriflunomide 14 mg once daily via interactive response technology. Randomisation was stratified by geographical region, MRI cohort participation, and multiple sc",
+   "summary_zh": "【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2201-2211",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42915009/",
+   "date": "2026-11-21",
+   "authors": "Wiendl H, Bermel R, Airas L, Chitnis T, Nakahara J, Williams M",
+   "author_count": 18,
+   "doi": "10.1016/S0140-6736(26)02058-1",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Toluidines",
+    "Hydroxybutyrates",
+    "Nitriles",
+    "Crotonates",
+    "Adult",
+    "Female",
+    "Multiple Sclerosis, Relapsing-Remitting",
+    "Double-Blind Method",
+    "Male"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42843399",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Migraine.",
+   "title_zh": "",
+   "summary_en": "Migraine is a chronic neurovascular disorder characterised by recurrent attacks of moderate-to-severe head pain, accompanied by transient but disabling symptoms such as aura, nausea, vomiting, phonophobia, and photophobia, reflecting the involvement of multiple systems. Migraine affects and disables a large proportion of the global population. The pathogenesis of migraine involves the interplay of genetic and epigenetic factors across complex neurosensory and neurovascular networks. Decades of research have elucidated key components of these pathways, driving the development of mechanism-based therapies that are now transforming clinical practice and substantially improving patients' lives.",
+   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2239-2253",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42843399/",
+   "date": "2026-11-21",
+   "authors": "Tassorelli C, Wang SJ, Pozo-Rosich P, Ashina M",
+   "author_count": 4,
+   "doi": "10.1016/S0140-6736(26)01366-8",
+   "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [
+    "Humans",
+    "Migraine Disorders"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057712",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Doctor who gave cancer patient vitamin C injections in Norway is struck off in UK.",
+   "title_zh": "在挪威为癌症患者注射维生素C的医生在英国被吊销执照。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101517",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057712/",
+   "date": "2026-11-19",
+   "authors": "Dyer C",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101517",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43057709",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Martha's rule might not help those most at risk in emergency departments.",
+   "title_zh": "“玛莎法则”可能无法帮助急诊科中风险最高的人群。",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101507",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057709/",
+   "date": "2026-11-19",
+   "authors": "Boyle A, Lindsay C",
+   "author_count": 2,
+   "doi": "10.1136/bmj-2026-101507",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057707",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Choosing dialysis in older people . . . and other research.",
+   "title_zh": "老年人选择透析……以及其他研究。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101388",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057707/",
+   "date": "2026-11-19",
+   "authors": "Nolan T",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101388",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057706",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Understanding the threat from evolving strains of meningitis B.",
+   "title_zh": "了解不断变异的B型脑膜炎菌株所带来的威胁。",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101417",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057706/",
+   "date": "2026-11-19",
+   "authors": "Preston A",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101417",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057705",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Covid inquiry: UK was \"woefully ill prepared\" for Test and Trace and spent £25bn trying to catch up.",
+   "title_zh": "新冠疫情调查：英国在“检测与追踪”方面“准备得非常糟糕”，并花费了250亿英镑试图赶上进度。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101523",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057705/",
+   "date": "2026-11-19",
+   "authors": "Mahase E",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101523",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43057703",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Neighbourhood support teams: Experts question how NHS will find money or capacity for Yvette Cooper's new scheme.",
+   "title_zh": "社区支持团队：专家们质疑国民保健服务体系（NHS）将如何为伊薇特·库珀（Yvette Cooper）的新计划筹措资金或人力。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101519",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057703/",
+   "date": "2026-11-19",
+   "authors": "Mahase E",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101519",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057702",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Shaping the future: the breast surgeon inspiring the next generation.",
+   "title_zh": "塑造未来：激励下一代的乳腺外科医生。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101476",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057702/",
+   "date": "2026-11-19",
+   "authors": "Oxtoby K",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101476",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057701",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "NHS reform: getting the neighbourhood contracts right from the start.",
+   "title_zh": "国民保健服务（NHS）改革：从一开始就正确签订社区合同。",
+   "summary_en": "",
+   "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101442",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057701/",
+   "date": "2026-11-19",
+   "authors": "Varma R",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101442",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057699",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Partha Kar: NICE recommendations need dedicated funding for implementation.",
+   "title_zh": "Partha Kar：NICE的建议需要专门的资金才能实施。",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101475",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057699/",
+   "date": "2026-11-19",
+   "authors": "Kar P",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101475",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057279",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Spontaneous coronary artery dissection: implications for women's health, clinical care, and future research.",
+   "title_zh": "自发性冠状动脉夹层：对女性健康、临床护理和未来研究的影响。",
+   "summary_en": "Spontaneous coronary artery dissection (SCAD) is an increasingly recognised cause of acute coronary syndromes, characterised by spontaneous separation of the layers of the coronary arterial wall. It predominantly affects younger women, and recent registry and imaging studies indicate that SCAD is more common than previously appreciated, challenging its historical classification as a rare condition. Clinically, SCAD is associated with a substantial early risk of adverse events, particularly in the first weeks after the index dissection. Given the high frequency of spontaneous healing, conservative management is preferred for most patients, whereas revascularisation is generally reserved for ongoing ischaemia or haemodynamic compromise. However, evidence to guide both pharmacological and int",
+   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057279/",
+   "date": "2026-11-19",
+   "authors": "Bay B, Magnussen C, Adlam D, Al-Nasser LA, Al-Lamee R, Appelman Y",
+   "author_count": 14,
+   "doi": "10.1016/S0140-6736(26)01485-6",
+   "study_type": "综述",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43057278",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Seasonal mass vaccination for malaria control in west Africa.",
+   "title_zh": "西非疟疾防控季节性大规模疫苗接种。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057278/",
+   "date": "2026-11-19",
+   "authors": "Kajubi R, Parikh S",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)01870-2",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43057277",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Seasonal mass vaccination with R21/Matrix-M against malaria in The Gambia and Burkina Faso: an open-label, cluster-randomised, controlled trial.",
+   "title_zh": "在冈比亚和布基纳法索开展的R21/Matrix-M季节性大规模疟疾疫苗接种：一项开放标签、群组随机、对照试验。",
+   "summary_en": "BACKGROUND: The R21/Matrix-M (R21) malaria vaccine candidate, recommended by WHO for use in young children, could be extended to the whole population. Seasonal mass vaccination (SMV) before peak malaria transmission could be a promising tool to accelerate progress towards malaria elimination. We aimed to evaluate the safety and effectiveness of SMV with R21 in two malaria-endemic settings in west Africa. METHODS: This open-label, cluster-randomised, controlled trial was conducted in The Gambia, a setting with low-to-moderate seasonal transmission, and Burkina Faso, a setting with intense seasonal transmission. 54 medium-sized villages (30 in The Gambia and 24 in Burkina Faso) were randomly assigned (1:1) by use of computer-restricted randomisation to receive either SMV with R21 (interventi",
+   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057277/",
+   "date": "2026-11-19",
+   "authors": "Dabira ED, Natama HM, Erhart A, Bihoun B, Keita ML, Derra K",
+   "author_count": 25,
+   "doi": "10.1016/S0140-6736(26)01562-X",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43057276",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Reproductive health in women in Britain from 2010 to 2024: findings from repeated, cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
+   "title_zh": "2010年至2024年英国女性的生殖健康：来自重复性横断面全国性态度和生活方式调查（Natsal）的结果。",
+   "summary_en": "BACKGROUND: Major policy and funding shifts threaten access to essential reproductive services and reproductive autonomy in Britain (England, Scotland, and Wales) amid growing attention towards hormone hesitancy and declining birth rates. We report on prevalence, changes, and sociodemographic differences in reproductive health indicators among women of reproductive age in Britain from 2010 to 2024. METHODS: Britain's National Surveys of Sexual Attitudes and Lifestyles (Natsal) are cross-sectional, nationally representative surveys (Natsal-3 Sept 6, 2010, to Aug 31, 2012; Natsal-4 Sept 20, 2022, to April 5, 2024). Using 3198 Natsal-4 probability sample participants (assigned female at birth, aged 16-54 years, and reported vaginal sex ever), we estimated weighted prevalences of key health in",
+   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057276/",
+   "date": "2026-11-19",
+   "authors": "Pathak N, Gascoyne C, Hough A, Paul E, Bonell C, Field N",
+   "author_count": 21,
+   "doi": "10.1016/S0140-6736(26)01551-5",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057230",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Genome writing reveals SVA retrotransposon consequences in X-linked dystonia-parkinsonism.",
+   "title_zh": "基因组编辑揭示了SVA逆转座子在X连锁肌张力障碍-帕金森综合征中的影响。",
+   "summary_en": "Human retrotransposon insertions are often associated with diseases. Regarding neurodegenerative X-linked dystonia-parkinsonism (XDP), a human-specific SINE-VNTR-Alu (SVA) subfamily F retrotransposon was inserted in intron 32 of the TAF1 gene. Here, we genomically rewrote a portion of the mouse Taf1 allele with the corresponding 78-kb XDP patient-derived TAF1 allele. In mouse embryonic stem cells (mESCs), the presence of the intronic SVA-rather than the hybrid gene structure-reduces hyTAF1 (hybrid TAF1 mRNA) levels. This leads to transcriptional downregulation of genes with TATA boxes enriched in their promoters and triggers apoptosis. Chromatin and transcriptome profiling revealed that intronic SVAs are actively transcribed, forming barriers that likely impede transcription elongation. In",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057230/",
+   "date": "2026-11-19",
+   "authors": "Zhang W, Zhao Y, Prakash P, Appleby H, Barriball K, Capponi S",
+   "author_count": 26,
+   "doi": "10.1016/j.cell.2026.07.057",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43057229",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Myelin pathology is a key feature of X-linked dystonia-parkinsonism.",
+   "title_zh": "髓鞘病变是X连锁肌张力障碍-帕金森综合征的关键特征。",
+   "summary_en": "X-linked dystonia-parkinsonism (XDP) is an adult-onset movement disorder predominantly affecting males of Filipino descent. It is caused by the insertion of a SINE-variable number of tandem repeat (VNTR)-Alu subfamily F (SVA_F) retrotransposon in the TATA-box binding protein-associated factor 1 (TAF1) gene. A barrier to XDP research has been the lack of animal models. Here, we introduce a conditional humanized XDP mouse model harboring a hybrid mouse-human Taf1/TAF1 gene (hyTAF1) containing the pathogenic SVA_F. We activated hyTAF1 in Nestin+ cells and found the resulting XDP male mice recapitulate features of human XDP, including severe motor impairment and striatal atrophy. Transcriptomic, histological, and electron microscopy analyses revealed a reduction in oligodendrocyte-lineage cell",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057229/",
+   "date": "2026-11-19",
+   "authors": "Prakash P, Limberg KC, Zhang W, Zhao Y, Laborc KF, O'Keeffe A",
+   "author_count": 23,
+   "doi": "10.1016/j.cell.2026.10.046",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057228",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "CD19 CAR T cell therapy alters disease-associated immune signatures in multiple sclerosis.",
+   "title_zh": "CD19 CAR T细胞疗法改变了多发性硬化症中与疾病相关的免疫特征。",
+   "summary_en": "Multiple sclerosis (MS) is a chronic inflammatory central nervous system (CNS) disease. Although current immunotherapies control relapses, they have limited impact on progression, which might reflect incomplete access to or modulation of compartmentalized CNS inflammation. Chimeric antigen receptor (CAR) T cells can infiltrate tissues, but their ability to access and eliminate immune cells residing in the CNS remains elusive. We report the treatment of five individuals with progressive or relapsing-remitting MS with autologous CD19 CAR T cells to assess safety-relevant aspects, CNS bioavailability, and compartment-specific effects. The intervention induces remodeling of the cerebrospinal fluid (CSF) B cell pool, with a sustained reduction in CSF humoral biomarkers. Notably, CSF-infiltratin",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057228/",
+   "date": "2026-11-19",
+   "authors": "Fischbach F, Pfeffer LK, Engler JB, Neziraj T, Richter J, Sattarnezhad N",
+   "author_count": 31,
+   "doi": "10.1016/j.cell.2026.10.044",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "43057227",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "RNA folding drives species-dependent host mRNA partitioning in Ebola virus condensates.",
+   "title_zh": "RNA折叠驱动埃博拉病毒凝聚物中宿主mRNA的物种依赖性分隔。",
+   "summary_en": "RNA viruses form membraneless condensates in host cells to drive replication, but whether these compartments regulate host RNAs remains unclear. Using multiplexed error-robust fluorescence in situ hybridization (MERFISH)-based subcellular transcriptomics, we quantified cellular mRNA recruitment into Ebola virus condensates under basal and interferon (IFN)-stimulated states. We find that, in the basal state, cellular RNAs with minimally folded coding regions are selectively recruited. Under IFN stimulation, however, IFN-stimulated genes (ISGs) with structured 3' UTRs concentrate in viral condensates. We find that both RNA structural features are conserved in the viral genome and support its retention in condensates. In parallel, for cellular mRNAs, we find that partitioning into condensates",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057227/",
+   "date": "2026-11-19",
+   "authors": "Fang J, Lam DC, Mah CK, Watanabe R, Tanner HM, Comi T",
+   "author_count": 12,
+   "doi": "10.1016/j.cell.2026.10.047",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43057226",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "A natural mutation of timeless enhances mosquito thermal adaptation and malaria parasite transmission.",
+   "title_zh": "timeless的自然突变增强了蚊子的热适应性和疟原虫的传播。",
+   "summary_en": "Anopheles stephensi, a malaria-transmitting mosquito, has invaded Africa and rapidly adapts to the high temperatures in urban settings. However, the molecular basis of its thermal adaptation remains unclear. Here, we identified a variant of a 5-kb deletion in the circadian clock gene timeless (tim-5kb) that rose to high frequency after 3 years of rearing at high laboratory temperatures. The tim+/-5kb heterozygous males maintain stable expression of the period gene at high temperatures, conferring a competitive mating advantage through the increased expression of the adipokinetic hormone gene AKH1 to promote energy mobilization and flight activity, together with the upregulation of fatty acyl-CoA reductase genes FAR3 and FAR5 to enhance the production of heptacosane pheromone. Moreover, het",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057226/",
+   "date": "2026-11-19",
+   "authors": "Wang G, Sun P, Yang B, Wang Y, Zhou T, Shi Y",
+   "author_count": 18,
+   "doi": "10.1016/j.cell.2026.10.049",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057225",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Genomic surveillance reveals age-structured SARS-CoV-2 transmission across settings.",
+   "title_zh": "基因组监测揭示了不同环境下的SARS-CoV-2年龄结构性传播。",
+   "summary_en": "Understanding respiratory virus transmission requires integrating pathogen genomic data with detailed epidemiological context. We analyzed >85,000 SARS-CoV-2 genomes linked to epidemiological data collected in Massachusetts from November 2021 to January 2023. Collected in 666 settings, including schools, colleges, and skilled nursing facilities, this dataset enabled direct comparison of within-setting transmission to community-wide risk. Elevated transmission was concentrated in specific age-defined subpopulations-older adolescents in schools, undergraduates in colleges, and residents in nursing facilities-with little additional risk among other groups, notably including staff. Young adults, particularly in colleges, played a disproportionate role in spread, and new viral lineages consiste",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057225/",
+   "date": "2026-11-19",
+   "authors": "Moreno GK, Brock-Fisher T, Krasilnikova LA, Schaffner SF, Burns M, Casiello CE",
+   "author_count": 22,
+   "doi": "10.1016/j.cell.2026.10.051",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056497",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Plasma eMTBR-tau as a Biomarker for Chronic Traumatic Encephalopathy Tau Tangle Neuropathology.",
+   "title_zh": "血浆eMTBR-tau作为慢性创伤性脑病tau蛋白缠结神经病理学的生物标志物。",
+   "summary_en": "IMPORTANCE: Chronic traumatic encephalopathy (CTE) is a neurodegenerative disease that cannot accurately be diagnosed during life due to the absence of in vivo biomarkers for CTE neuropathology. OBJECTIVE: To evaluate plasma endogenously cleaved microtubule-binding region tau (eMTBR-tau) as a candidate biomarker for CTE tau tangle neuropathology. DESIGN, SETTING, AND PARTICIPANTS: This case series included 21 former American-style football players who completed a blood draw as part of participation in clinical research at Boston University beginning April 17, 2008, and who subsequently died, donated their brain, and had completed autopsy by October 9, 2026. EXPOSURES: Plasma eMTBR-tau nucleic acid-linked immunosandwich assay single-plex immunoassay and plasma phosphorylated tau 217 (p-tau2",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056497/",
+   "date": "2026-11-19",
+   "authors": "Miner AE, Stein TD, McKee AC, Mez J, Asken BM, Singh A",
+   "author_count": 29,
+   "doi": "10.1001/jama.2026.24780",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056493",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Plasma eMTBR-Tau as a Potential Biomarker Across Tauopathies.",
+   "title_zh": "血浆eMTBR-Tau作为tau蛋白病潜在生物标志物。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056493/",
+   "date": "2026-11-19",
+   "authors": "Palleis C, Höglinger GU",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.24588",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056226",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Slightly Alive - Improving Antituberculosis Therapy.",
+   "title_zh": "Slightly Alive - 改善抗结核病治疗。",
+   "summary_en": "",
+   "summary_zh": "【述评】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056226/",
+   "date": "2026-11-19",
+   "authors": "Rubin EJ",
+   "author_count": 1,
+   "doi": "10.1056/NEJMe2614653",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43056221",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Assessing Multiple Treatment Regimens for Tuberculosis.",
+   "title_zh": "结核病多种治疗方案的评估",
+   "summary_en": "BACKGROUND: Ganfeborole and BTZ-043 are new drugs that may improve tuberculosis treatment. METHODS: In this phase 2, randomized, controlled trial, we assigned participants with rifampin-susceptible pulmonary tuberculosis to receive the standard four-drug combination (isoniazid-rifampin-pyrazinamide-ethambutol; HRZE) for 24 weeks; bedaquiline-delamanid-moxifloxacin for 16 weeks; or one of 10 new four-drug combinations for 16 weeks. The new regimens contained ganfeborole, BTZ-043, or both, with combinations of bedaquiline, delamanid, moxifloxacin, pyrazinamide, pretomanid, and linezolid. The primary end point was the log10(time to positivity) slope (rate of change from baseline to week 12 in the time to Mycobacterium tuberculosis growth in a positive sputum culture). The treatment effect was",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。结论要点见下方原文摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056221/",
+   "date": "2026-11-19",
+   "authors": "Esmail H, Paton NI, Schildkraut JA, Motta I, Szubert AJ, Dufault SM",
+   "author_count": 31,
+   "doi": "10.1056/NEJMoa2611913",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43056124",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Global Burden of Disease Assessment of Elevated LDL-C.",
+   "title_zh": "高LDL-C的全球疾病负担评估。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056124/",
+   "date": "2026-11-19",
+   "authors": "Tan JS, Fu Z, Hua L",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.21732",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056112",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Some Anniversaries of 1926.",
+   "title_zh": "1926年的几个周年纪念日。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056112/",
+   "date": "2026-11-19",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2025.16138",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056111",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Pediatric Medical Imaging and Brain Tumor Risk.",
+   "title_zh": "儿科医学影像学与脑瘤风险。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056111/",
+   "date": "2026-11-19",
+   "authors": "Persiani F, Boldrini L, De Maria R",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.20669",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "神经",
+    "肿瘤",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43056100",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Global Burden of Disease Assessment of Elevated LDL-C-Reply.",
+   "title_zh": "高LDL-C的全球疾病负担评估——答复。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056100/",
+   "date": "2026-11-19",
+   "authors": "Razo C, Roth G",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.21735",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056099",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Make It Beautiful.",
+   "title_zh": "使之美丽",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056099/",
+   "date": "2026-11-19",
+   "authors": "Brandeland M",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.22996",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056087",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Trends in Menopause Hormone Therapy.",
+   "title_zh": "更年期激素治疗的趋势。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056087/",
+   "date": "2026-11-19",
+   "authors": "Sarnak DO, Shen W, Alexander GC",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.22619",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056077",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Like Self-Driving Cars, Who or What Do We Actually Want Driving Health Care?: A Conversation With Wilko Schulz-Mahlendorf.",
+   "title_zh": "就像自动驾驶汽车一样，我们实际上希望由谁或由什么来“驾驶”医疗保健？：与Wilko Schulz-Mahlendorf的对话。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2616050",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056077/",
+   "date": "2026-11-19",
+   "authors": "Hswen Y",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.16050",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Video-Audio Media"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056071",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "What Is Motion Sickness?",
+   "title_zh": "什么是晕动病？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056071/",
+   "date": "2026-11-19",
+   "authors": "Agarwal S, Malani PN",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.21697",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43056070",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Medical Imaging and Pediatric and Adolescent Brain Tumor Risk.",
+   "title_zh": "医学影像学与儿童及青少年脑瘤风险。",
+   "summary_en": "IMPORTANCE: Ionizing radiation from medical imaging may increase brain tumor risk. OBJECTIVE: To quantify brain tumor risk associated with radiation exposure from medical imaging in children and adolescents. DESIGN, SETTING, AND PARTICIPANTS: Retrospective cohort study of children born from 1996 through 2016 who were enrolled from birth in 6 US health care systems or Ontario, Canada, and were alive and cancer-free at age 2 years, with follow-up through December 31, 2017 (US sites), and December 31, 2024 (Ontario). EXPOSURES: Cumulative radiation dose to the brain from medical imaging, lagged by 2 years. MAIN OUTCOMES AND MEASURES: Incident brain or other central nervous system tumors. Hazard ratios (HRs) were estimated using Cox proportional hazards models for categorical dose, and excess ",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43056070/",
+   "date": "2026-11-19",
+   "authors": "Miglioretti DL, Alber SA, Kwan ML, Pequeno P, Bowles EJA, Greenlee RT",
+   "author_count": 16,
+   "doi": "10.1001/jama.2026.20441",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "神经",
+    "肿瘤",
+    "儿科"
+   ]
+  },
   {
    "pmid": "43050671",
    "journal": "New England Journal of Medicine",
@@ -308,12 +1313,17 @@
    ],
    "mesh": [
     "Humans",
-    "Respiratory Distress Syndrome",
-    "Respiration, Artificial",
+    "Glucocorticoids",
     "Positive-Pressure Respiration",
-    "Glucocorticoids"
+    "Respiration, Artificial",
+    "Respiratory Distress Syndrome",
+    "Respiratory Insufficiency",
+    "Sepsis",
+    "Respiratory Aspiration of Gastric Contents",
+    "Wounds and Injuries"
    ],
    "departments": [
+    "感染",
     "呼吸器"
    ]
   },
@@ -501,15 +1511,15 @@
     "Clinical Trial, Phase III"
    ],
    "mesh": [
-    "Humans",
-    "Female",
-    "Breast Neoplasms",
-    "Erb-b2 Receptor Tyrosine Kinases",
-    "Antineoplastic Combined Chemotherapy Protocols",
-    "Middle Aged",
-    "Aged",
     "Adult",
-    "Progression-Free Survival",
+    "Aged",
+    "Female",
+    "Humans",
+    "Middle Aged",
+    "Antibodies, Bispecific",
+    "Antibodies, Monoclonal, Humanized",
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "Breast Neoplasms",
     "Docetaxel"
    ],
    "departments": [
@@ -561,20 +1571,21 @@
     "Multicenter Study"
    ],
    "mesh": [
-    "Humans",
-    "Female",
-    "Endovascular Procedures",
-    "Male",
     "Aged",
+    "Female",
+    "Humans",
+    "Male",
     "Middle Aged",
+    "Endovascular Procedures",
     "Intention to Treat Analysis",
     "Ischemic Stroke",
-    "Stroke",
-    "Severity of Illness Index"
+    "Severity of Illness Index",
+    "Thrombectomy"
    ],
    "departments": [
     "循环器",
-    "神经"
+    "神经",
+    "血液"
    ]
   },
   {
@@ -598,21 +1609,20 @@
     "Multicenter Study"
    ],
    "mesh": [
-    "Humans",
-    "Female",
-    "Ischemic Stroke",
     "Aged",
+    "Female",
+    "Humans",
     "Male",
-    "Thrombectomy",
     "Middle Aged",
-    "Intention to Treat Analysis",
+    "Brain Ischemia",
     "Endovascular Procedures",
-    "Time-to-Treatment"
+    "Functional Status",
+    "Intention to Treat Analysis",
+    "Ischemic Stroke"
    ],
    "departments": [
     "循环器",
-    "神经",
-    "血液"
+    "神经"
    ]
   },
   {
@@ -637,19 +1647,19 @@
     "Equivalence Trial"
    ],
    "mesh": [
-    "Humans",
-    "Aspirin",
+    "Aged",
     "Female",
-    "Platelet Aggregation Inhibitors",
-    "Hemorrhage",
-    "Percutaneous Coronary Intervention",
+    "Humans",
     "Male",
-    "Prasugrel Hydrochloride",
-    "ST Elevation Myocardial Infarction",
-    "Middle Aged"
+    "Middle Aged",
+    "Aspirin",
+    "Drug Therapy, Combination",
+    "Dual Anti-Platelet Therapy",
+    "Hemorrhage",
+    "Kaplan-Meier Estimate"
    ],
    "departments": [
-    "循环器"
+    "药学"
    ]
   },
   {
@@ -2651,16 +3661,16 @@
    "title_en": "Lean MASLD and Limits of Body Size in Risk Stratification.",
    "title_zh": "消瘦型MASLD和体型在风险分层中的局限性。",
    "summary_en": "",
-   "summary_zh": "【评论】JAMA 刊载。原文未附结构化摘要。",
+   "summary_zh": "【述评】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(19): 1721-1722",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42814421/",
    "date": "2026-11-17",
    "authors": "Bugianesi E",
    "author_count": 1,
    "doi": "10.1001/jama.2026.16793",
-   "study_type": "评论",
+   "study_type": "述评",
    "pubtypes": [
-    "Journal Article",
+    "Editorial",
     "Comment"
    ],
    "mesh": [],
@@ -2757,16 +3767,16 @@
    "title_en": "Implantable Cardioverter-Defibrillators for Preventing Sudden Cardiac Death in Patients With an LVEF >35.",
    "title_zh": "用于预防LVEF >35的患者发生猝死的植入式心脏复律除颤器。",
    "summary_en": "",
-   "summary_zh": "【评论】JAMA 刊载。原文未附结构化摘要。",
+   "summary_zh": "【述评】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(19): 1719-1720",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42663165/",
    "date": "2026-11-17",
    "authors": "Al-Khatib SM",
    "author_count": 1,
    "doi": "10.1001/jama.2026.16582",
-   "study_type": "评论",
+   "study_type": "述评",
    "pubtypes": [
-    "Journal Article",
+    "Editorial",
     "Comment"
    ],
    "mesh": [],
@@ -3019,29 +4029,6 @@
    "authors": "Roberts KF, Abrams ZB, Cappelletti L, Moqri M, Heugel N, Caufield JH",
    "author_count": 35,
    "doi": "10.1038/s41591-026-04808-6",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "43039013",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Critical condition: what are we doing about nuclear war?",
-   "title_zh": "危急情况：我们对核战争该怎么办？",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43039013/",
-   "date": "2026-11-16",
-   "authors": "Abbasi K, Ali P, Barbour V, Birch M, Bivens M, Blum I",
-   "author_count": 18,
-   "doi": "10.1016/S0140-6736(26)02246-4",
    "study_type": "研究论文",
    "pubtypes": [
     "Journal Article"
@@ -4285,30 +5272,6 @@
    ]
   },
   {
-   "pmid": "43025430",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Emerging Shamonda virus: a new threat to pregnancy?",
-   "title_zh": "新出现的沙蒙达病毒：对妊娠的新威胁？",
-   "summary_en": "",
-   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43025430/",
-   "date": "2026-11-13",
-   "authors": "Baud D, Alves MP, Pomar L, Musso D, Vouga M",
-   "author_count": 5,
-   "doi": "10.1016/S0140-6736(26)02232-4",
-   "study_type": "通信",
-   "pubtypes": [
-    "Letter"
-   ],
-   "mesh": [],
-   "departments": [
-    "感染",
-    "妇产"
-   ]
-  },
-  {
    "pmid": "43025429",
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
@@ -4329,29 +5292,6 @@
    "mesh": [],
    "departments": [
     "循环器"
-   ]
-  },
-  {
-   "pmid": "43025428",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Lula's new term-safeguarding science, health, and the Amazon.",
-   "title_zh": "卢拉的新任期——捍卫科学、健康和亚马逊雨林。",
-   "summary_en": "",
-   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43025428/",
-   "date": "2026-11-13",
-   "authors": "Noll M, Sousa MM, Nogueira SM, Cardoso FMCB, E Silva PR",
-   "author_count": 5,
-   "doi": "10.1016/S0140-6736(26)02234-8",
-   "study_type": "通信",
-   "pubtypes": [
-    "Letter"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
    ]
   },
   {
@@ -11232,7 +12172,7 @@
    "title_en": "Thoracic epidural versus paravertebral blockade for reducing chronic post-thoracotomy pain (TOPIC-2): open label, parallel group, superiority, multicentre, randomised controlled trial.",
    "title_zh": "胸段硬膜外阻滞与椎旁阻滞减少慢性开胸术后疼痛的比较（TOPIC-2）：开放标签、平行组、优效性、多中心、随机对照试验。",
    "summary_en": "OBJECTIVES: To evaluate the effectiveness of paravertebral blockade versus thoracic epidural during the perioperative period in reducing chronic post-thoracotomy pain. DESIGN: Open label, parallel group, superiority, multicentre, randomised controlled trial. SETTING: 15 thoracic centres in the UK. PARTICIPANTS: Adult patients undergoing thoracotomy randomised (1:1) to either paravertebral blockade or thoracic epidural using a web based service between January 2019 and September 2023. INTERVENTIONS: Participants in the paravertebral group received three single-shot paravertebral injections of local anaesthetic before incision followed by placement of a paravertebral catheter. Participants in the epidural group had a thoracic epidural catheter placed and loaded with local anaesthetic before ",
-   "summary_zh": "【随机对照试验】BMJ 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】BMJ 刊载。原文未附结构化摘要。",
    "citation": "BMJ. 2026; 395: e101114",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42988384/",
    "date": "2026-11-05",
@@ -12784,29 +13724,6 @@
    "authors": "Shartova N, Liu X, Janoš T, Chen ZY, Mishra N, Ruiz-Cabrejos J",
    "author_count": 8,
    "doi": "10.1038/s41591-026-04793-w",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42982078",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Climate-health actions: global scale-up yields economic and fiscal benefits.",
-   "title_zh": "气候-健康行动：全球扩大规模可产生经济和财政效益",
-   "summary_en": "",
-   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42982078/",
-   "date": "2026-11-04",
-   "authors": "Pega F, Momen NC, Krech R, Edwards S, Gordon B, Johnston R",
-   "author_count": 25,
-   "doi": "10.1016/S0140-6736(26)02057-X",
    "study_type": "研究论文",
    "pubtypes": [
     "Journal Article"
@@ -18406,30 +19323,6 @@
    ]
   },
   {
-   "pmid": "42956794",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Irritable bowel syndrome and related disorders of gut-brain interaction.",
-   "title_zh": "肠易激综合征及相关脑肠互动障碍。",
-   "summary_en": "Irritable bowel syndrome, chronic constipation, and functional diarrhoea are disorders of gut-brain interaction, the symptoms of which include abnormal stool consistency or frequency accompanied by varying degrees of abdominal pain, discomfort, bloating, or distension. These conditions affect 20% of the global population with a relapsing and remitting course. Risk factors include female sex, younger age, a history of common mental disorders, and acute enteric infection. The pathophysiology of irritable bowel syndrome, chronic constipation, and functional diarrhoea remain incompletely understood, but are thought to be secondary to aberrant interactions throughout the gut-brain axis, resulting in disordered gut motility and visceral hypersensitivity. These conditions are diagnosed with a com",
-   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42956794/",
-   "date": "2026-10-29",
-   "authors": "Black CJ, Chuah KH, Nasser Y, Remes-Troche JM, Shin A, Ford AC",
-   "author_count": 6,
-   "doi": "10.1016/S0140-6736(26)01500-X",
-   "study_type": "综述",
-   "pubtypes": [
-    "Journal Article",
-    "Review"
-   ],
-   "mesh": [],
-   "departments": [
-    "神经"
-   ]
-  },
-  {
    "pmid": "42956739",
    "journal": "Cell",
    "journal_abbr": "Cell",
@@ -21812,60 +22705,13 @@
    ]
   },
   {
-   "pmid": "42933461",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Izalontamab brengitecan versus platinum-based chemotherapy in EGFR-mutated advanced non-squamous non-small-cell lung cancer after progression on third-generation EGFR tyrosine kinase inhibitors (PANKU-Lung01): a multicentre, randomised, open-label, phase 3 trial in China.",
-   "title_zh": "Izalontamab brengitecan对比铂类化疗治疗第三代EGFR酪氨酸激酶抑制剂进展后的EGFR突变晚期非鳞状非小细胞肺癌（PANKU-Lung01）：中国多中心、随机、开放标签、3期试验",
-   "summary_en": "BACKGROUND: Izalontamab brengitecan (iza-bren) is a first-in-class bispecific antibody-drug conjugate targeting epidermal growth factor receptor (EGFR) and human epidermal growth factor receptor 3 (HER3) and has shown antitumour activity in EGFR-mutated non-small-cell lung cancer (NSCLC). We compared iza-bren with platinum-based chemotherapy in participants with EGFR-mutated advanced non-squamous NSCLC after progression on third-generation EGFR tyrosine kinase inhibitors (TKIs). METHODS: In this multicentre, randomised, open-label, phase 3 trial (PANKU-Lung01) conducted at 73 sites in China, eligible participants had EGFR-mutated locally advanced or metastatic non-squamous NSCLC, disease progression after third-generation EGFR TKIs, and had received no previous chemotherapy for advanced di",
-   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42933461/",
-   "date": "2026-10-26",
-   "authors": "Hong S, Zhou T, Hou X, Meng X, Hu Z, Zheng W",
-   "author_count": 46,
-   "doi": "10.1016/S0140-6736(26)02026-X",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤",
-    "呼吸器"
-   ]
-  },
-  {
-   "pmid": "42933460",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Sacituzumab tirumotecan versus treatment of physician's choice in previously treated endometrial cancer (TroFuse-005/ENGOT-en23/GOG-3095): a randomised, open-label, phase 3 trial.",
-   "title_zh": "Sacituzumab tirumotecan对比医生选择方案治疗经治子宫内膜癌（TroFuse-005/ENGOT-en23/GOG-3095）：随机、开放标签、3期试验",
-   "summary_en": "BACKGROUND: Therapeutic options for patients with endometrial cancer who progress after platinum-based chemotherapy and immunotherapy are scarce, and prognosis is poor. Sacituzumab tirumotecan (sac-TMT) is a trophoblast cell-surface antigen 2-directed antibody-drug conjugate with a unique, bifunctional linker that maximises delivery of a belotecan-derived topoisomerase I inhibitor payload to tumour cells. This study aimed to compare sac-TMT with the treatment of physician's choice (TPC) in patients with endometrial cancer who had been previously treated with platinum-based chemotherapy and immunotherapy. METHODS: In this randomised, open-label, phase 3 trial, patients were recruited from 242 gynaecological oncology centres across 31 countries and regions. Participating centres were selecte",
-   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42933460/",
-   "date": "2026-10-26",
-   "authors": "Lorusso D, Martin-Babau J, Backes F, Ginesta MPB, Korach J, Nicum S",
-   "author_count": 33,
-   "doi": "10.1016/S0140-6736(26)02099-4",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤"
-   ]
-  },
-  {
    "pmid": "42933459",
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "Izalontamab brengitecan for HR+/HER2- breast cancer in China (PANKU-Breast01): a randomised, phase 3 trial.",
    "title_zh": "Izalontamab brengitecan治疗中国HR+/HER2-乳腺癌（PANKU-Breast01）：一项随机、3期试验。",
    "summary_en": "BACKGROUND: Patients with heavily pretreated hormone receptor-positive and human epidermal growth factor receptor 2-negative (HR+/HER2-) breast cancer have few treatment options. Izalontamab brengitecan (iza-bren) is a first-in-class, epidermal growth factor receptor and HER3 bispecific antibody-drug conjugate that contains a potent topoisomerase I inhibitor payload (Ed-04). The aim of PANKU-Breast01 was to compare the efficacy and safety of iza-bren versus chemotherapy in patients with pretreated HR+/HER2- breast cancer. METHODS: In this randomised, phase 3, open-label, multicentre study in 72 hospitals in China, patients with HR+/HER2- breast cancer who had disease progression after endocrine therapy, cyclin-dependent kinase (CDK) 4/6 inhibitors, and one or two lines of chemotherapy were",
-   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42933459/",
    "date": "2026-10-26",
@@ -22075,7 +22921,7 @@
    "title_en": "Efficacy and safety of mitapivat in patients with sickle cell disease (RISE UP): a phase 3, double-blind, global, randomised, placebo-controlled trial.",
    "title_zh": "mitapivat治疗镰状细胞病的疗效和安全性（RISE UP）：一项3期、双盲、全球、随机、安慰剂对照试验。",
    "summary_en": "BACKGROUND: Persistent haemolytic anaemia and recurrent vaso-occlusion drive complications and accelerate mortality in sickle cell disease. Mitapivat, an oral allosteric activator of pyruvate kinase, increases ATP and decreases 2,3-DPG with the potential to improve haemolytic anaemia and reduce sickling. We aimed to evaluate the efficacy and safety of mitapivat in patients with sickle cell disease. METHODS: We report results from RISE UP, a phase 3, double-blind, global, randomised, placebo-controlled trial from 69 sites across 15 countries. Patients older than 16 years with anaemia and recurrent sickle cell pain crises were randomly assigned (2:1) to either mitapivat 100 mg or placebo twice a day using permuted-block randomisation. Primary endpoints, assessed in all randomly assigned pati",
-   "summary_zh": "【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10565): 1705-1716",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42913682/",
    "date": "2026-10-24",
@@ -23019,29 +23865,6 @@
    "departments": [
     "肿瘤",
     "肾脏/泌尿"
-   ]
-  },
-  {
-   "pmid": "42915009",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Remibrutinib versus teriflunomide in relapsing multiple sclerosis (REMODEL-1 and REMODEL-2): two randomised, phase 3 trials.",
-   "title_zh": "remibrutinib对比teriflunomide治疗复发型多发性硬化（REMODEL-1和REMODEL-2）：两项随机3期试验",
-   "summary_en": "BACKGROUND: Remibrutinib is a highly selective, potent, covalent, CNS-penetrant, oral BTK inhibitor. We assessed the efficacy and safety of remibrutinib in adult patients with relapsing multiple sclerosis. METHODS: REMODEL-1 and REMODEL-2 are two identical, randomised, double-blind, double-dummy, active comparator-controlled, parallel-group, event-driven, phase 3 trials conducted at 407 centres in 46 countries. Patients aged 18-55 years with relapsing multiple sclerosis, an Expanded Disability Status Scale score of 0-5·5, and evidence of recent disease activity were randomly assigned 1:1 to oral remibrutinib 100 mg twice daily or teriflunomide 14 mg once daily via interactive response technology. Randomisation was stratified by geographical region, MRI cohort participation, and multiple sc",
-   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42915009/",
-   "date": "2026-10-23",
-   "authors": "Wiendl H, Bermel R, Airas L, Chitnis T, Nakahara J, Williams M",
-   "author_count": 18,
-   "doi": "10.1016/S0140-6736(26)02058-1",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
    ]
   },
   {
@@ -25260,7 +26083,7 @@
    "title_en": "Cellular scaling laws in the mammalian brain.",
    "title_zh": "哺乳动物大脑中的细胞缩放规律",
    "summary_en": "Recent whole-brain cell atlases have uncovered a consistent cytoarchitectural feature: the greatest diversity of discrete neuronal cell types resides not in the regions with the most neurons (e.g., the cortex and cerebellum) but rather in deep subcortical structures like the hypothalamus and brain stem. We propose that this discrepancy reflects a fundamental algorithmic division in the vertebrate brain between a \"learning subsystem\" and a \"steering subsystem.\" The learning subsystem (cortex, striatum, and cerebellum) scales via the replication of repetitive modules to maximize computational capacity, analogous to scaling up parameters in machine learning models. By contrast, the steering subsystem (hypothalamus, pallidum, and brainstem) scales via diversification of bespoke cell types to e",
-   "summary_zh": "【综述】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6564-6573",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42880229/",
    "date": "2026-10-15",
@@ -25292,7 +26115,7 @@
    "title_en": "Milking the niche: Microbial control of neonatal hematopoiesis.",
    "title_zh": "挤占生态位：微生物对新生儿造血的调控",
    "summary_en": "In this issue of Cell, Howard et al. reveal how the milk glycoprotein osteopontin shapes the neonatal microbiome to regulate hematopoiesis, promoting dendritic cell development and protection from severe respiratory infection. These findings uncover a maternal milk-microbiota pathway linking early-life nutrition to immune development and long-term disease susceptibility.",
-   "summary_zh": "【评论】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【评论】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6561-6563",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42880228/",
    "date": "2026-10-15",
@@ -25324,7 +26147,7 @@
    "title_en": "Immunoregulatory gene GIMAP6 suppresses lethal atherosclerotic vasculopathy and ischemic heart failure.",
    "title_zh": "免疫调节基因GIMAP6抑制致死性动脉粥样硬化性血管病和缺血性心力衰竭",
    "summary_en": "Controlling hyperlipidemia has reduced but not eliminated atherosclerotic cardiovascular disease (ASCVD) as a major cause of human mortality. Here, we report that loss of the immunoregulatory gene GTPase of immunity-associated protein 6 (Gimap6) in mice causes an inflammatory vasculopathy and accelerated atherosclerosis in the absence of hyperlipidemia. These vascular abnormalities cause progressive cardiac ischemia, myocardial infarction, and heart failure, culminating in early death. GIMAP6 loss precipitates early endothelial barrier failure and a mitochondrial reactive oxygen species (ROS)-PPARγ-CD36 lipid-influx cascade that lowers the threshold for foam-cell formation and induces IL-6/MCP-1/TNF-mediated inflammation. Human hypomorphic GIMAP6 variants, including the African-ancestry-en",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6792-6809.e21",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42849439/",
    "date": "2026-10-15",
@@ -25358,7 +26181,7 @@
    "title_en": "Arabidopsis uses distinct coumarins and bacterial pathways for pH-adaptive iron acquisition.",
    "title_zh": "拟南芥利用不同的香豆素和细菌途径实现pH适应性铁获取",
    "summary_en": "Iron (Fe) limitation restricts plant growth in diverse soils, and root-associated microbes can alleviate plant Fe starvation. Whether plants integrate the edaphic environment and microbial activities into their Fe uptake strategies remains unclear. We show that bacterium-mediated alleviation of Fe deficiency in Arabidopsis functions at varying environmental pH and is taxonomically widespread among root microbiota isolates from soils with different edaphic profiles. This process is regulated by host-controlled and pH-adapted root exudation of different coumarin chemotypes. These exometabolites interact with root-associated bacteria to mobilize Fe either via bacterial siderophore-mediated chelation at circumneutral pH or redox-sensing-controlled, reduction-based pathways at acidic pH. The co",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6829-6846.e9",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42849437/",
    "date": "2026-10-15",
@@ -25390,7 +26213,7 @@
    "title_en": "STING reprogramming by estrogen promotes neutrophil extracellular trap formation and sex-biased resistance to ADC therapy.",
    "title_zh": "雌激素重编程STING促进中性粒细胞胞外诱捕网形成及ADC治疗的性别偏倚耐药",
    "summary_en": "Sex differences in cancer therapy response remain poorly understood. Using a \"phase II-like preclinical trial\" across 55 CLDN18.2+ pancreatic cancer patient-derived xenografts, we identify marked female-biased resistance to CLDN18.2-targeted antibody-drug conjugate (ADC) therapy despite equivalent antigen expression. Mechanistically, estrogen signals through GPER1 to upregulate TRAF6, redirecting tumor-intrinsic STING signaling from IRF3-mediated interferon production toward nuclear factor κB (NF-κB) activation. This drives CXCL1 secretion, neutrophil recruitment, and neutrophil extracellular trap (NET) formation. NETs form a charged extracellular network that restricts antibody access to tumor-cell-surface antigens-a mechanism we term functional antigen shielding-reducing ADC cytotoxicity",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6752-6770.e21",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42838045/",
    "date": "2026-10-15",

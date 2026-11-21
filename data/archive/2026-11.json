@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
  "month": "2026-11",
- "count": 711,
+ "count": 754,
  "articles": [
   {
    "pmid": "43039013",
@@ -146,6 +146,590 @@
    "study_type": "综述",
    "departments": [
     "综合"
+   ]
+  },
+  {
+   "pmid": "43057270",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "citation": "Lancet. 2026; 408(10569): 2200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057270/",
+   "date": "2026-11-21",
+   "doi": "10.1016/S0140-6736(26)02308-1",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057269",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "citation": "Lancet. 2026; 408(10569): 2200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057269/",
+   "date": "2026-11-21",
+   "doi": "10.1016/S0140-6736(26)02306-8",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057268",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "citation": "Lancet. 2026; 408(10569): 2200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057268/",
+   "date": "2026-11-21",
+   "doi": "10.1016/S0140-6736(26)02307-X",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057267",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "citation": "Lancet. 2026; 408(10569): 2200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057267/",
+   "date": "2026-11-21",
+   "doi": "10.1016/S0140-6736(26)02347-0",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057266",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Defining success in kidney xenotransplantation.",
+   "citation": "Lancet. 2026; 408(10569): 2199",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057266/",
+   "date": "2026-11-21",
+   "authors": "Kim CH, Beaman LR, Fipps DC, Diwan TS",
+   "doi": "10.1016/S0140-6736(26)01999-9",
+   "study_type": "通信",
+   "departments": [
+    "肾脏/泌尿",
+    "移植"
+   ]
+  },
+  {
+   "pmid": "43057265",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Defining success in kidney xenotransplantation - Authors' reply.",
+   "citation": "Lancet. 2026; 408(10569): 2199-2200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057265/",
+   "date": "2026-11-21",
+   "authors": "Riella LV, Kawai T",
+   "doi": "10.1016/S0140-6736(26)02235-X",
+   "study_type": "通信",
+   "departments": [
+    "肾脏/泌尿",
+    "移植"
+   ]
+  },
+  {
+   "pmid": "43057264",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "The Lancet Group's guidance on reporting disability: make link to the ICF explicit.",
+   "citation": "Lancet. 2026; 408(10569): 2198-2199",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057264/",
+   "date": "2026-11-21",
+   "authors": "Maribo T, Sykes C, Snyman S, Napel HT",
+   "doi": "10.1016/S0140-6736(26)02149-5",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057263",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Disability-inclusive research: operational challenges.",
+   "citation": "Lancet. 2026; 408(10569): 2198",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057263/",
+   "date": "2026-11-21",
+   "authors": "Mittinty MM, Shakespeare T",
+   "doi": "10.1016/S0140-6736(26)02148-3",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057262",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "The F-words for Child Development: Lessons Learned.",
+   "citation": "Lancet. 2026; 408(10569): 2197-2198",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057262/",
+   "date": "2026-11-21",
+   "authors": "Rosenbaum P, Gorter JW, Cross A, Teplicky R, Tomas V, Kraus De Camargo O",
+   "doi": "10.1016/S0140-6736(26)02147-1",
+   "study_type": "通信",
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43057261",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Agatha Christie: medicine, diagnosis, and the art of detection.",
+   "citation": "Lancet. 2026; 408(10569): 2196-2197",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057261/",
+   "date": "2026-11-21",
+   "authors": "Galassi FM, Smith DL, Varotto E",
+   "doi": "10.1016/S0140-6736(26)02089-1",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057260",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Gopinath Balakrish Nair.",
+   "citation": "Lancet. 2026; 408(10569): 2194",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057260/",
+   "date": "2026-11-21",
+   "authors": "Burki T",
+   "doi": "10.1016/S0140-6736(26)02305-6",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057259",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "What do artists know?",
+   "citation": "Lancet. 2026; 408(10569): 2191-2193",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057259/",
+   "date": "2026-11-21",
+   "authors": "Norwood T",
+   "doi": "10.1016/S0140-6736(26)02304-4",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057258",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Monica Geingos: advocate for adolescent health joins PMNCH.",
+   "citation": "Lancet. 2026; 408(10569): 2190",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057258/",
+   "date": "2026-11-21",
+   "authors": "Prasad A",
+   "doi": "10.1016/S0140-6736(26)02303-2",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057257",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Offline: A manifesto for protecting public health.",
+   "citation": "Lancet. 2026; 408(10569): 2185",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057257/",
+   "date": "2026-11-21",
+   "authors": "Horton R",
+   "doi": "10.1016/S0140-6736(26)02336-6",
+   "study_type": "述评",
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "43057256",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Retraction: Pharmacogenetics of morphine poisoning in a breastfed neonate of a codeine-prescribed mother.",
+   "citation": "Lancet. 2026; 408(10569): 2184",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057256/",
+   "date": "2026-11-21",
+   "authors": "The Editors Of The Lancet",
+   "doi": "10.1016/S0140-6736(26)02255-5",
+   "departments": [
+    "儿科",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43057255",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Sacituzumab tirumotecan in previously treated endometrial cancer.",
+   "citation": "Lancet. 2026; 408(10569): 2177-2179",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057255/",
+   "date": "2026-11-21",
+   "authors": "Mileshkin L, Au-Yeung G",
+   "doi": "10.1016/S0140-6736(26)02250-6",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43057254",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Expanding the post-EGFR TKI landscape with antibody-drug conjugates.",
+   "citation": "Lancet. 2026; 408(10569): 2175-2177",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057254/",
+   "date": "2026-11-21",
+   "authors": "Lim TL, Piotrowska Z",
+   "doi": "10.1016/S0140-6736(26)02260-9",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057253",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Remibrutinib: a high-efficacy disease-modifying drug for relapsing multiple sclerosis?",
+   "citation": "Lancet. 2026; 408(10569): 2174-2175",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057253/",
+   "date": "2026-11-21",
+   "authors": "Edan G, Page EL",
+   "doi": "10.1016/S0140-6736(26)02240-3",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057252",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Multiple sclerosis: beyond controlling relapses.",
+   "citation": "Lancet. 2026; 408(10569): 2173",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057252/",
+   "date": "2026-11-21",
+   "authors": "The Lancet",
+   "doi": "10.1016/S0140-6736(26)02345-7",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064415",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Resident doctors in Northern Ireland begin latest strike over pay.",
+   "citation": "BMJ. 2026; 395: e101540",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064415/",
+   "date": "2026-11-20",
+   "authors": "O'Dowd A",
+   "doi": "10.1136/bmj-2026-101540",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064413",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "UK is \"dangerously exposed\" by reliance on international medical supply chains, committee warns.",
+   "citation": "BMJ. 2026; 395: e101531",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064413/",
+   "date": "2026-11-20",
+   "authors": "Furneaux R",
+   "doi": "10.1136/bmj-2026-101531",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064411",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "GMC data leak: BMA may seek compensation for 223 doctors affected by \"unacceptable\" breach.",
+   "citation": "BMJ. 2026; 395: e101542",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064411/",
+   "date": "2026-11-20",
+   "authors": "Rimmer A",
+   "doi": "10.1136/bmj-2026-101542",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064406",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Childhood vaccination rates will keep falling if we fail to improve access, sustain trust, and strengthen accountability.",
+   "citation": "BMJ. 2026; 395: e101527",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064406/",
+   "date": "2026-11-20",
+   "authors": "Walmsey JM",
+   "doi": "10.1136/bmj-2026-101527",
+   "study_type": "述评",
+   "departments": [
+    "儿科",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43064405",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "How to make the most of your paediatric emergency department placement.",
+   "citation": "BMJ. 2026; 395: e101319",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064405/",
+   "date": "2026-11-20",
+   "authors": "Schlesinger E, Armstrong G, de Beer A",
+   "doi": "10.1136/bmj-2026-101319",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064396",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Capturing the value of antimicrobial resistance innovation.",
+   "citation": "BMJ. 2026; 395: e101501",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064396/",
+   "date": "2026-11-20",
+   "authors": "Zhu N, Abreu A, Ahmad R, Holmes A",
+   "doi": "10.1136/bmj-2026-101501",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064394",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Covid origins and Fauci row: Scientists slam \"pathetic\" attempts to claim officials \"ghostwrote\" paper.",
+   "citation": "BMJ. 2026; 395: e101535",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064394/",
+   "date": "2026-11-20",
+   "authors": "Baraniuk C",
+   "doi": "10.1136/bmj-2026-101535",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43064393",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "UK-US drug deal: Industry claim of improved access for 15 400 patients is \"PR spin,\" say experts.",
+   "citation": "BMJ. 2026; 395: e101529",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064393/",
+   "date": "2026-11-20",
+   "authors": "Wise J",
+   "doi": "10.1136/bmj-2026-101529",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064392",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "US restrictions on youth gender care: What is happening to patients, clinicians, and the evidence?",
+   "citation": "BMJ. 2026; 395: e101333",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064392/",
+   "date": "2026-11-20",
+   "authors": "Liang L",
+   "doi": "10.1136/bmj-2026-101333",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064390",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Building a stronger NHS: reinstate on-call duties.",
+   "citation": "BMJ. 2026; 395: e101460",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064390/",
+   "date": "2026-11-20",
+   "authors": "Slater SD",
+   "doi": "10.1136/bmj-2026-101460",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43063955",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Health professionals cannot abandon their Palestinian colleagues.",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43063955/",
+   "date": "2026-11-20",
+   "authors": "London L, Ruff K, Nuwayhid I, Habib RR, Watterson A, Collegium Ramazzini",
+   "doi": "10.1016/S0140-6736(26)02088-X",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062988",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "JAMA Editors' Summary Podcast: November 20, 2026.",
+   "citation": "JAMA. 2026: e2516137",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062988/",
+   "date": "2026-11-20",
+   "doi": "10.1001/jama.2025.16137",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062844",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Delirium During Hospitalization Linked to Long-Term Cognitive Decline.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062844/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.24051",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062843",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "FDA Approves Weekly Insulin for Pediatric Type 2 Diabetes.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062843/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.24049",
+   "study_type": "研究论文",
+   "departments": [
+    "内分泌/代谢",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43062841",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "NASEM Report Calls for New Funding Model to Strengthen Primary Care Access.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062841/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.24054",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062838",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Symptom Misrepresentation May Contribute to Antibiotic Overuse.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062838/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.24053",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062826",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Lp(a) Lowering, a GLP-1 Drug for Sleep Apnea, Stopping Statins in Older Age, and More From AHA 2026.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062826/",
+   "date": "2026-11-20",
+   "authors": "Abbasi J",
+   "doi": "10.1001/jama.2026.22534",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062823",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "CDC Imposes New Ebola-Related Air Travel Regulations.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062823/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.24050",
+   "study_type": "研究论文",
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43062810",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Global Burden of Anorexia and Bulimia Continues to Rise.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062810/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "doi": "10.1001/jama.2026.24052",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062808",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "\"Bikini Medicine\" No More-Major Medical Societies Propose New Framework for Female Heart Health.",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062808/",
+   "date": "2026-11-20",
+   "authors": "Anderer S",
+   "doi": "10.1001/jama.2026.24772",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
    ]
   },
   {
@@ -720,7 +1304,7 @@
    "pmid": "43057276",
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
-   "title_en": "Reproductive health in women in Britain from 2010 to 2024: findings from repeated, cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
+   "title_en": "TEMPORARILY REMOVED: Reproductive health in women in Britain from 2010 to 2024: findings from repeated, cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
    "title_zh": "2010年至2024年英国女性的生殖健康：来自重复性横断面全国性态度和生活方式调查（Natsal）的结果。",
    "citation": "Lancet. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43057276/",
@@ -881,6 +1465,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Assessing Multiple Treatment Regimens for Tuberculosis.",
+   "title_zh": "结核病多种治疗方案的评估",
    "citation": "N Engl J Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43056221/",
    "date": "2026-11-19",
@@ -961,6 +1546,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Make It Beautiful.",
+   "title_zh": "使之美丽",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43056099/",
    "date": "2026-11-19",
@@ -1008,6 +1594,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "What Is Motion Sickness?",
+   "title_zh": "什么是晕动病？",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43056071/",
    "date": "2026-11-19",
@@ -1034,6 +1621,66 @@
     "神经",
     "肿瘤",
     "儿科"
+   ]
+  },
+  {
+   "pmid": "43058223",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: Prospective validation of imaging and serum diagnostic biomarkers of steatohepatitis and fibrosis in MASLD: the LITMUS Imaging Study.",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43058223/",
+   "date": "2026-11-19",
+   "authors": "Pavlides M, Vali Y, Mózes FE, Wonders K, Akhtar S, Hockings PD",
+   "doi": "10.1038/s41591-026-04803-x",
+   "departments": [
+    "感染",
+    "消化器",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43058222",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Multicenter characterization of enterocolitis associated with BCMA-directed CAR T cell therapy.",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43058222/",
+   "date": "2026-11-19",
+   "authors": "Mikkilineni L, Hamilton MP, Jensen A, Lim KJ, Galarza-Fortuna GM, Kumar AD",
+   "doi": "10.1038/s41591-026-04783-y",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43058221",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Expansion and cytotoxicity of mucosal CAR+ T cells in enterocolitis associated with BCMA CAR-T cell therapy.",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43058221/",
+   "date": "2026-11-19",
+   "authors": "Sainz TP, Dong S, Mundhada A, Wang W, Pleitez HG, Villela C",
+   "doi": "10.1038/s41591-026-04731-w",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43058219",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Harnessing smartwatches to spot undiagnosed hypertension.",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43058219/",
+   "date": "2026-11-19",
+   "authors": "O'Leary K",
+   "doi": "10.1038/d41591-026-00058-8",
+   "departments": [
+    "循环器"
    ]
   },
   {

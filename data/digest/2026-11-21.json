@@ -1,0 +1,245 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-21",
+ "generated_at": "2026-11-21T08:06:48+00:00",
+ "provider": "deepseek-chat",
+ "degraded": false,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "42933461",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933461/",
+   "title_en": "Izalontamab brengitecan versus platinum-based chemotherapy in EGFR-mutated advanced non-squamous non-small-cell lung cancer after progression on third-generation EGFR tyrosine kinase inhibitors (PANKU-Lung01): a multicentre, randomised, open-label, phase 3 trial in China.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ],
+   "title_zh": "Izalontamab brengitecan 对比铂类化疗治疗第三代 EGFR TKI 进展后的 EGFR 突变晚期非鳞状非小细胞肺癌（PANKU-Lung01）：中国多中心、随机、开放标签、3 期试验",
+   "one_liner": "新药 iza-bren 把无进展生存期从 5.7 个月延长到 11.1 个月。",
+   "key_finding": "中位 BICR 评估 PFS：iza-bren 11.1 个月 vs 化疗 5.7 个月，HR 0.40（95% CI 0.31-0.51），单侧 p<0.0001。",
+   "why_it_matters": "为第三代 EGFR TKI 耐药后的患者提供了首个 3 期证据支持的双特异性抗体偶联药物选项，但 3 级及以上不良事件更多。",
+   "clinical_note": "入组为未接受过晚期化疗者；3 级及以上治疗相关不良事件 79% vs 62%，以血液学为主。",
+   "evidence": "随机对照 3 期，432 例随机分组，中国 73 个中心",
+   "tags": [
+    "肺癌",
+    "肿瘤内科",
+    "抗体偶联药物"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42933460",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933460/",
+   "title_en": "Sacituzumab tirumotecan versus treatment of physician's choice in previously treated endometrial cancer (TroFuse-005/ENGOT-en23/GOG-3095): a randomised, open-label, phase 3 trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "Sacituzumab tirumotecan 对比医生选择方案治疗经治子宫内膜癌（TroFuse-005/ENGOT-en23/GOG-3095）：随机、开放标签、3 期试验",
+   "one_liner": "新药 sac-TMT 在经治子宫内膜癌中同时改善无进展生存和总生存。",
+   "key_finding": "中位 PFS 7.2 vs 3.9 个月（HR 0.59，95% CI 0.50-0.70，p<0.0001）；中位 OS 19.0 vs 12.1 个月（HR 0.68，95% CI 0.55-0.84，p=0.0001）。",
+   "why_it_matters": "铂类化疗和免疫治疗后进展的子宫内膜癌治疗选择很少、预后差，该结果支持 sac-TMT 成为新的治疗选择。",
+   "clinical_note": "入组为既往≤3 线治疗、含铂类化疗及抗 PD-1/PD-L1 治疗者；安全性数据摘要不完整。",
+   "evidence": "随机对照 3 期，776 例，31 个国家/地区 242 个中心",
+   "tags": [
+    "妇科肿瘤",
+    "子宫内膜癌",
+    "抗体偶联药物"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42915009",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42915009/",
+   "title_en": "Remibrutinib versus teriflunomide in relapsing multiple sclerosis (REMODEL-1 and REMODEL-2): two randomised, phase 3 trials.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Remibrutinib 对比特立氟胺治疗复发型多发性硬化（REMODEL-1 与 REMODEL-2）：两项随机 3 期试验",
+   "one_liner": "口服新药 remibrutinib 的年化复发率低于特立氟胺，安全性良好。",
+   "key_finding": "ARR：REMODEL-1 为 0.073 vs 0.112（RR 0.648，95% CI 0.453-0.927，p=0.018）；REMODEL-2 为 0.080 vs 0.116（RR 0.688，0.487-0.972，p=0.034）。",
+   "why_it_matters": "为复发型多发性硬化提供一个潜在的新口服治疗选择，且因不良事件停药的比例更低（3.1% vs 5.8%）。",
+   "clinical_note": "入组 18-55 岁、EDSS 0-5.5 且有近期疾病活动证据者；两项试验设计相同。",
+   "evidence": "两项相同设计的随机双盲 3 期试验，共 2007 例，46 国 407 中心",
+   "tags": [
+    "神经内科",
+    "多发性硬化"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42929681",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929681/",
+   "title_en": "Anbenitamab plus HB1801 for HER2-Positive Advanced Breast Cancer.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "Anbenitamab 联合 HB1801 治疗 HER2 阳性晚期乳腺癌",
+   "one_liner": "新联合方案较标准 THP 方案显著延长 HER2 阳性晚期乳腺癌的无进展生存。",
+   "key_finding": "24 个月 PFS 估计值 58.5% vs 34.4%，HR 0.46（95% CI 0.37-0.56），P<0.001；客观缓解率 87.6% vs 73.4%。",
+   "why_it_matters": "若获批，可能成为 HER2 阳性晚期乳腺癌一线治疗的新选择，但 3 级及以上不良事件更多（45.9% vs 34.4%）。",
+   "clinical_note": "为中国人群 3 期试验的中期分析，中位随访 21.0 个月；总生存数据尚未报告。",
+   "evidence": "随机对照 3 期，885 例，中国多中心",
+   "tags": [
+    "乳腺癌",
+    "肿瘤内科",
+    "HER2"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42929671",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929671/",
+   "title_en": "Trial of Endovascular Therapy for Mild Stroke with Large-Vessel Occlusion.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "神经",
+    "血液"
+   ],
+   "title_zh": "血管内治疗用于大血管闭塞的轻型卒中：MILD-MT 随机试验",
+   "one_liner": "轻型卒中合并大血管闭塞，血管内治疗加药物比单用药物恢复更好。",
+   "key_finding": "90 天 mRS 0-1 比例：血管内治疗组 69.4%，药物组 50.0%（OR 2.32；95% CI 1.41-3.81；P<0.001）。",
+   "why_it_matters": "提示部分症状轻但影像显示高危脑组织的患者，可从取栓样治疗中获益。",
+   "clinical_note": "中国多中心；入组需小梗死核心+大灌注错配，24 小时内；操作相关严重并发症 13.2%。",
+   "evidence": "多中心开放标签随机试验，304 例随机、300 例分析，中国",
+   "tags": [
+    "神经内科",
+    "卒中",
+    "血管内治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42929656",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929656/",
+   "title_en": "Mechanical Thrombectomy 24 to 72 Hours after Large-Vessel Ischemic Stroke.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器",
+    "神经"
+   ],
+   "title_zh": "大血管闭塞卒中 24 至 72 小时行机械取栓：LATE-MT 随机试验",
+   "one_liner": "晚到 24-72 小时的卒中患者取栓功能结局更好，但出血和死亡更多。",
+   "key_finding": "90 天 mRS 分布更优（common OR 1.74；95% CI 1.19-2.55）；症状性颅内出血 4.8% vs 0%，90 天病死率 6.0% vs 1.8%。",
+   "why_it_matters": "为超时间窗但影像仍有可挽救脑组织的患者提供选择，同时需权衡出血与死亡风险。",
+   "clinical_note": "中国综合卒中中心；入组需影像证实的可挽救脑组织；中位随机化时间 38.5 小时。",
+   "evidence": "开放标签、结局盲法随机试验，336 例意向治疗，中国",
+   "tags": [
+    "神经内科",
+    "卒中",
+    "机械取栓"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42670955",
+   "journal": "N Engl J Med",
+   "date": "2026-11-19",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42670955/",
+   "title_en": "Aspirin Omission at the Time of Primary Percutaneous Coronary Intervention in STEMI.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "药学"
+   ],
+   "title_zh": "STEMI 直接 PCI 时省略阿司匹林：低剂量 prasugrel 单药对比 DAPT 的 PREMIUM 试验",
+   "one_liner": "STEMI 直接 PCI 时不用阿司匹林、单用 prasugrel 未达非劣效。",
+   "key_finding": "12 个月死亡/卒中/心梗：单药组 11.0%，DAPT 组 8.5%（HR 1.34；95% CI 1.02-1.75；非劣效 P=0.40）；大出血 5.6% vs 8.4%（HR 0.66；95% CI 0.47-0.91）。",
+   "why_it_matters": "单药虽减少出血，但缺血事件增加，不支持在直接 PCI 中常规省略阿司匹林。",
+   "clinical_note": "日本多中心；低剂量 prasugrel 单药于 PCI 前启动，疗程 12 个月；非劣效界值 HR 95% CI 上限 1.50。",
+   "evidence": "多中心开放标签随机试验，2216 例全分析集，日本",
+   "tags": [
+    "心内科",
+    "急性冠脉综合征",
+    "抗血小板治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43052007",
+   "journal": "BMJ",
+   "date": "2026-11-18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43052007/",
+   "title_en": "Physical activity coaching and text messaging for adults with mobility limitations (ComeBACK): hybrid type 1 effectiveness implementation randomised controlled trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "老年医学"
+   ],
+   "title_zh": "活动受限成人的身体活动教练与短信干预（ComeBACK）随机试验",
+   "one_liner": "电话教练比短信或不干预更能让活动受限者多走路，但增幅有限。",
+   "key_finding": "6 个月日均步数：教练组比等待组多 931 步（95% CI 409-1452；P=0.001），比短信组多 571 步（58-1084；P=0.03）；短信组比等待组多 359 步（-91 至 810；P=0.12）。",
+   "why_it_matters": "个体化教练是可推广的轻度增效手段，短信单独效果未达统计学显著。",
+   "clinical_note": "澳大利亚五州社区成人，自报步行 800 米困难；平均 69 岁，76% 女性；不良事件少且无严重。",
+   "evidence": "三臂实用型优效随机试验，512 例，澳大利亚",
+   "tags": [
+    "康复医学",
+    "老年医学",
+    "身体活动"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43051685",
+   "journal": "BMJ",
+   "date": "2026-11-18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43051685/",
+   "title_en": "Effect of intrapartum hyoscine butylbromide and sodium bicarbonate on spontaneous vaginal birth in nulliparous women after induction of labour (SAINT): multicentre randomised placebo controlled factorial trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "妇产"
+   ],
+   "title_zh": "SAINT试验：分娩期丁溴东莨菪碱与碳酸氢钠对初产妇引产后自然阴道分娩的影响",
+   "one_liner": "两种药物单用或联用均未明显提高引产后自然分娩率",
+   "key_finding": "自然分娩率：联用57%、碳酸氢钠61%、丁溴东莨菪碱61%、双安慰剂56%；与安慰剂相比风险差分别为-0.2、3.1、4.0个百分点，均无统计学意义",
+   "why_it_matters": "不支持在引产后常规使用这两种药物来促进自然分娩，可避免不必要的用药",
+   "clinical_note": "足月初产妇、单胎头位、有引产指征；未排除小幅获益可能",
+   "evidence": "多中心双盲安慰剂对照2×2析因试验，2963例，挪威11家医院",
+   "tags": [
+    "产科",
+    "引产",
+    "随机对照试验"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43050503",
+   "journal": "Sci Transl Med",
+   "date": "2026-11-18",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43050503/",
+   "title_en": "Temporal interference stimulation targeting the ventromedial prefrontal cortex enhances reward learning and improves depression scores.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "老年医学",
+    "精神"
+   ],
+   "title_zh": "靶向腹内侧前额叶皮层的时间干涉刺激增强奖赏学习并改善抑郁评分",
+   "one_liner": "10赫兹脑刺激可增强奖赏学习，并减轻亚临床抑郁症状",
+   "key_finding": "健康成人中10 Hz tTIS增强奖赏学习并重塑额纹状体连接，5 Hz无效；69例亚临床抑郁者每日3次α频率tTIS后症状减轻，7天随访仍有延迟获益",
+   "why_it_matters": "为奖赏功能异常相关疾病提供了一种无创、靶向深部环路的潜在干预手段",
+   "clinical_note": "受试者为亚临床抑郁人群，样本69例，尚需更大规模验证",
+   "evidence": "神经影像与计算建模＋随机试验，69例亚临床抑郁者",
+   "tags": [
+    "精神科",
+    "神经调控",
+    "抑郁症"
+   ],
+   "confidence": "medium"
+  }
+ ]
+}

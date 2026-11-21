@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-20T08:14:51+00:00",
+ "generated_at": "2026-11-21T08:06:20+00:00",
  "window_days": 180,
- "count": 1173,
+ "count": 1216,
  "journals": [
   {
    "abbr": "N Engl J Med",
@@ -12,22 +12,22 @@
   {
    "abbr": "Lancet",
    "name": "The Lancet",
-   "count": 151
+   "count": 171
   },
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 272
+   "count": 281
   },
   {
    "abbr": "BMJ",
    "name": "BMJ",
-   "count": 199
+   "count": 209
   },
   {
    "abbr": "Nat Med",
    "name": "Nature Medicine",
-   "count": 140
+   "count": 144
   },
   {
    "abbr": "Cell",
@@ -42,11 +42,451 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 36,
-  "cache_size": 1130,
-  "translate_fails": 3
+  "translate_used": 0,
+  "cache_size": 1133,
+  "translate_fails": 5
  },
  "articles": [
+  {
+   "pmid": "43057270",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057270/",
+   "date": "2026-11-21",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1016/S0140-6736(26)02308-1",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057269",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057269/",
+   "date": "2026-11-21",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1016/S0140-6736(26)02306-8",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057268",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057268/",
+   "date": "2026-11-21",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1016/S0140-6736(26)02307-X",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057267",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Department of Error.",
+   "title_zh": "勘误。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057267/",
+   "date": "2026-11-21",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1016/S0140-6736(26)02347-0",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057266",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Defining success in kidney xenotransplantation.",
+   "title_zh": "界定肾异种移植的成功",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2199",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057266/",
+   "date": "2026-11-21",
+   "authors": "Kim CH, Beaman LR, Fipps DC, Diwan TS",
+   "author_count": 4,
+   "doi": "10.1016/S0140-6736(26)01999-9",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "肾脏/泌尿",
+    "移植"
+   ]
+  },
+  {
+   "pmid": "43057265",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Defining success in kidney xenotransplantation - Authors' reply.",
+   "title_zh": "界定肾异种移植的成功——作者回复",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2199-2200",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057265/",
+   "date": "2026-11-21",
+   "authors": "Riella LV, Kawai T",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)02235-X",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "肾脏/泌尿",
+    "移植"
+   ]
+  },
+  {
+   "pmid": "43057264",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "The Lancet Group's guidance on reporting disability: make link to the ICF explicit.",
+   "title_zh": "柳叶刀集团关于残疾报告的指南：明确与ICF的关联",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2198-2199",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057264/",
+   "date": "2026-11-21",
+   "authors": "Maribo T, Sykes C, Snyman S, Napel HT",
+   "author_count": 4,
+   "doi": "10.1016/S0140-6736(26)02149-5",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057263",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Disability-inclusive research: operational challenges.",
+   "title_zh": "包容残疾的研究：实施挑战",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2198",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057263/",
+   "date": "2026-11-21",
+   "authors": "Mittinty MM, Shakespeare T",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)02148-3",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057262",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "The F-words for Child Development: Lessons Learned.",
+   "title_zh": "儿童发展F词框架：经验教训",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2197-2198",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057262/",
+   "date": "2026-11-21",
+   "authors": "Rosenbaum P, Gorter JW, Cross A, Teplicky R, Tomas V, Kraus De Camargo O",
+   "author_count": 6,
+   "doi": "10.1016/S0140-6736(26)02147-1",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43057261",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Agatha Christie: medicine, diagnosis, and the art of detection.",
+   "title_zh": "阿加莎·克里斯蒂：医学、诊断与侦探艺术",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2196-2197",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057261/",
+   "date": "2026-11-21",
+   "authors": "Galassi FM, Smith DL, Varotto E",
+   "author_count": 3,
+   "doi": "10.1016/S0140-6736(26)02089-1",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057260",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Gopinath Balakrish Nair.",
+   "title_zh": "Gopinath Balakrish Nair",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2194",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057260/",
+   "date": "2026-11-21",
+   "authors": "Burki T",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02305-6",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057259",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "What do artists know?",
+   "title_zh": "艺术家知道什么？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2191-2193",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057259/",
+   "date": "2026-11-21",
+   "authors": "Norwood T",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02304-4",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057258",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Monica Geingos: advocate for adolescent health joins PMNCH.",
+   "title_zh": "Monica Geingos：青少年健康倡导者加入PMNCH",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2190",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057258/",
+   "date": "2026-11-21",
+   "authors": "Prasad A",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02303-2",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057257",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Offline: A manifesto for protecting public health.",
+   "title_zh": "线下：保护公共卫生的宣言",
+   "summary_en": "",
+   "summary_zh": "【述评】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2185",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057257/",
+   "date": "2026-11-21",
+   "authors": "Horton R",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02336-6",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "43057256",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Retraction: Pharmacogenetics of morphine poisoning in a breastfed neonate of a codeine-prescribed mother.",
+   "title_zh": "撤稿：服用可待因母亲哺乳新生儿中吗啡中毒的药物遗传学",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2184",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057256/",
+   "date": "2026-11-21",
+   "authors": "The Editors Of The Lancet",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02255-5",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "儿科",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "43057255",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Sacituzumab tirumotecan in previously treated endometrial cancer.",
+   "title_zh": "Sacituzumab tirumotecan用于经治子宫内膜癌",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2177-2179",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057255/",
+   "date": "2026-11-21",
+   "authors": "Mileshkin L, Au-Yeung G",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)02250-6",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43057254",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Expanding the post-EGFR TKI landscape with antibody-drug conjugates.",
+   "title_zh": "以抗体偶联药物拓展EGFR TKI后治疗格局",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2175-2177",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057254/",
+   "date": "2026-11-21",
+   "authors": "Lim TL, Piotrowska Z",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)02260-9",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057253",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Remibrutinib: a high-efficacy disease-modifying drug for relapsing multiple sclerosis?",
+   "title_zh": "Remibrutinib：治疗复发型多发性硬化的一种高效疾病修饰药物？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2174-2175",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057253/",
+   "date": "2026-11-21",
+   "authors": "Edan G, Page EL",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)02240-3",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43057252",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Multiple sclerosis: beyond controlling relapses.",
+   "title_zh": "多发性硬化：超越控制复发",
+   "summary_en": "",
+   "summary_zh": "【述评】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10569): 2173",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057252/",
+   "date": "2026-11-21",
+   "authors": "The Lancet",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02345-7",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
   {
    "pmid": "43039013",
    "journal": "The Lancet",
@@ -308,6 +748,562 @@
    ],
    "departments": [
     "综合"
+   ]
+  },
+  {
+   "pmid": "43064415",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Resident doctors in Northern Ireland begin latest strike over pay.",
+   "title_zh": "北爱尔兰住院医师就薪酬问题开始最新一轮罢工",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101540",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064415/",
+   "date": "2026-11-20",
+   "authors": "O'Dowd A",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101540",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064413",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "UK is \"dangerously exposed\" by reliance on international medical supply chains, committee warns.",
+   "title_zh": "委员会警告：英国对国际医疗供应链的依赖使其处于“危险暴露”状态",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101531",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064413/",
+   "date": "2026-11-20",
+   "authors": "Furneaux R",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101531",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064411",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "GMC data leak: BMA may seek compensation for 223 doctors affected by \"unacceptable\" breach.",
+   "title_zh": "GMC数据泄露：BMA可能为受“不可接受”泄露影响的223名医生寻求赔偿",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101542",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064411/",
+   "date": "2026-11-20",
+   "authors": "Rimmer A",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101542",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064406",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Childhood vaccination rates will keep falling if we fail to improve access, sustain trust, and strengthen accountability.",
+   "title_zh": "若不能改善可及性、维持信任并加强问责，儿童疫苗接种率将持续下降",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101527",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064406/",
+   "date": "2026-11-20",
+   "authors": "Walmsey JM",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101527",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "儿科",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43064405",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "How to make the most of your paediatric emergency department placement.",
+   "title_zh": "如何充分利用儿科急诊科轮转",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101319",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064405/",
+   "date": "2026-11-20",
+   "authors": "Schlesinger E, Armstrong G, de Beer A",
+   "author_count": 3,
+   "doi": "10.1136/bmj-2026-101319",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064396",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Capturing the value of antimicrobial resistance innovation.",
+   "title_zh": "捕捉抗菌药物耐药创新的价值",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101501",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064396/",
+   "date": "2026-11-20",
+   "authors": "Zhu N, Abreu A, Ahmad R, Holmes A",
+   "author_count": 4,
+   "doi": "10.1136/bmj-2026-101501",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064394",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Covid origins and Fauci row: Scientists slam \"pathetic\" attempts to claim officials \"ghostwrote\" paper.",
+   "title_zh": "Covid起源与Fauci争议：科学家抨击声称官员“代写”论文的“可悲”企图",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101535",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064394/",
+   "date": "2026-11-20",
+   "authors": "Baraniuk C",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101535",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43064393",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "UK-US drug deal: Industry claim of improved access for 15 400 patients is \"PR spin,\" say experts.",
+   "title_zh": "英美药品协议：专家称业界关于15400名患者获得改善的说法是“公关噱头”",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101529",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064393/",
+   "date": "2026-11-20",
+   "authors": "Wise J",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101529",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064392",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "US restrictions on youth gender care: What is happening to patients, clinicians, and the evidence?",
+   "title_zh": "美国对青少年性别医疗的限制：患者、临床医生和证据正在经历什么？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101333",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064392/",
+   "date": "2026-11-20",
+   "authors": "Liang L",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101333",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064390",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Building a stronger NHS: reinstate on-call duties.",
+   "title_zh": "建设更强大的NHS：恢复值班职责",
+   "summary_en": "",
+   "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101460",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064390/",
+   "date": "2026-11-20",
+   "authors": "Slater SD",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101460",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43063955",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Health professionals cannot abandon their Palestinian colleagues.",
+   "title_zh": "卫生专业人员不能抛弃他们的巴勒斯坦同事",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43063955/",
+   "date": "2026-11-20",
+   "authors": "London L, Ruff K, Nuwayhid I, Habib RR, Watterson A, Collegium Ramazzini",
+   "author_count": 6,
+   "doi": "10.1016/S0140-6736(26)02088-X",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062988",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "JAMA Editors' Summary Podcast: November 20, 2026.",
+   "title_zh": "JAMA编辑摘要播客：2026年11月20日",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2516137",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062988/",
+   "date": "2026-11-20",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2025.16137",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062844",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Delirium During Hospitalization Linked to Long-Term Cognitive Decline.",
+   "title_zh": "住院期间谵妄与长期认知功能下降相关",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062844/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.24051",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062843",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "FDA Approves Weekly Insulin for Pediatric Type 2 Diabetes.",
+   "title_zh": "FDA批准每周一次胰岛素用于儿童2型糖尿病",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062843/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.24049",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "内分泌/代谢",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43062841",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "NASEM Report Calls for New Funding Model to Strengthen Primary Care Access.",
+   "title_zh": "NASEM报告呼吁建立新资助模式以加强初级保健可及性",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062841/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.24054",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062838",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Symptom Misrepresentation May Contribute to Antibiotic Overuse.",
+   "title_zh": "症状虚假陈述可能导致抗生素过度使用",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062838/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.24053",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062826",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Lp(a) Lowering, a GLP-1 Drug for Sleep Apnea, Stopping Statins in Older Age, and More From AHA 2026.",
+   "title_zh": "降低Lp(a)、GLP-1药物治疗睡眠呼吸暂停、老年停用他汀等——来自AHA 2026的更多内容",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062826/",
+   "date": "2026-11-20",
+   "authors": "Abbasi J",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.22534",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062823",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "CDC Imposes New Ebola-Related Air Travel Regulations.",
+   "title_zh": "CDC实施新的埃博拉相关航空旅行规定",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062823/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.24050",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43062810",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Global Burden of Anorexia and Bulimia Continues to Rise.",
+   "title_zh": "神经性厌食症和贪食症的全球负担持续上升",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062810/",
+   "date": "2026-11-20",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.24052",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43062808",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "\"Bikini Medicine\" No More-Major Medical Societies Propose New Framework for Female Heart Health.",
+   "title_zh": "不再只是“比基尼医学”——主要医学学会提出女性心脏健康新框架",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43062808/",
+   "date": "2026-11-20",
+   "authors": "Anderer S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.24772",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43058223",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: Prospective validation of imaging and serum diagnostic biomarkers of steatohepatitis and fibrosis in MASLD: the LITMUS Imaging Study.",
+   "title_zh": "作者更正：MASLD中脂肪性肝炎和纤维化影像学及血清诊断生物标志物的前瞻性验证：LITMUS Imaging Study",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43058223/",
+   "date": "2026-11-19",
+   "authors": "Pavlides M, Vali Y, Mózes FE, Wonders K, Akhtar S, Hockings PD",
+   "author_count": 40,
+   "doi": "10.1038/s41591-026-04803-x",
+   "study_type": "",
+   "pubtypes": [
+    "Published Erratum"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染",
+    "消化器",
+    "老年医学"
+   ]
+  },
+  {
+   "pmid": "43058222",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Multicenter characterization of enterocolitis associated with BCMA-directed CAR T cell therapy.",
+   "title_zh": "BCMA靶向CAR T细胞治疗相关小肠结肠炎的多中心特征分析",
+   "summary_en": "Immune effector cell-associated enterocolitis (IEC-EC) is a delayed toxicity of ciltacabtagene autoleucel. The US Multiple Myeloma Immunotherapy Consortium retrospectively adjudicated 54 suspected cases from 8 institutions: 41 were IEC-EC (31 confirmed by anti-camelid variable heavy-chain immunohistochemistry, 10 probable). Through September 2025, cumulative incidence was 3.0% (39 of 1,308 ciltacabtagene autoleucel recipients; 95% CI 2.1-4.1%); 12-month competing-risk incidence was 3.0% (95% CI 2.1-4.1%). Median symptom onset was 75 days after infusion. Grade ≥3 diarrhea occurred in 85% (34 of 40 with diarrhea); 73% (30 of 41) required parenteral nutrition. Despite normal upper endoscopy in 41% (9 of 22), duodenal biopsies showed villous blunting, apoptotic bodies and a dense cytotoxic T c",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43058222/",
+   "date": "2026-11-19",
+   "authors": "Mikkilineni L, Hamilton MP, Jensen A, Lim KJ, Galarza-Fortuna GM, Kumar AD",
+   "author_count": 41,
+   "doi": "10.1038/s41591-026-04783-y",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43058221",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Expansion and cytotoxicity of mucosal CAR+ T cells in enterocolitis associated with BCMA CAR-T cell therapy.",
+   "title_zh": "BCMA CAR-T细胞治疗相关小肠结肠炎中黏膜CAR+ T细胞的扩增与细胞毒性",
+   "summary_en": "Ciltacabtagene autoleucel (cilta-cel) is a B cell maturation-antigen-targeting chimeric antigen receptor (CAR) T cell product approved for relapsed/refractory multiple myeloma treatment. Previously reported cases of post-cilta-cel immune effector cell enterocolitis (IEC-EC) have been described as a severe diarrhea associated with clonal CAR T cell populations. Here we report nine cases of cilta-cel-associated IEC-EC with CAR T cell-positive (CAR+) infiltration in 158 cilta-cel-treated patients at MD Anderson Cancer Center (incidence of 5.1% at a 6-month landmark and 5.7% globally). Cilta-cel infiltration was the primary cause of IEC-EC, and all cases demonstrated monoclonal or oligoclonal T cell populations as measured by vector integration analysis, flow cytometry and T cell receptor sequ",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43058221/",
+   "date": "2026-11-19",
+   "authors": "Sainz TP, Dong S, Mundhada A, Wang W, Pleitez HG, Villela C",
+   "author_count": 37,
+   "doi": "10.1038/s41591-026-04731-w",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43058219",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Harnessing smartwatches to spot undiagnosed hypertension.",
+   "title_zh": "利用智能手表发现未诊断的高血压",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43058219/",
+   "date": "2026-11-19",
+   "authors": "O'Leary K",
+   "author_count": 1,
+   "doi": "10.1038/d41591-026-00058-8",
+   "study_type": "",
+   "pubtypes": [
+    "News"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
    ]
   },
   {
@@ -591,10 +1587,10 @@
    "pmid": "43057276",
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
-   "title_en": "Reproductive health in women in Britain from 2010 to 2024: findings from repeated, cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
+   "title_en": "TEMPORARILY REMOVED: Reproductive health in women in Britain from 2010 to 2024: findings from repeated, cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
    "title_zh": "2010年至2024年英国女性的生殖健康：来自重复性横断面全国性态度和生活方式调查（Natsal）的结果。",
-   "summary_en": "BACKGROUND: Major policy and funding shifts threaten access to essential reproductive services and reproductive autonomy in Britain (England, Scotland, and Wales) amid growing attention towards hormone hesitancy and declining birth rates. We report on prevalence, changes, and sociodemographic differences in reproductive health indicators among women of reproductive age in Britain from 2010 to 2024. METHODS: Britain's National Surveys of Sexual Attitudes and Lifestyles (Natsal) are cross-sectional, nationally representative surveys (Natsal-3 Sept 6, 2010, to Aug 31, 2012; Natsal-4 Sept 20, 2022, to April 5, 2024). Using 3198 Natsal-4 probability sample participants (assigned female at birth, aged 16-54 years, and reported vaginal sex ever), we estimated weighted prevalences of key health in",
-   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43057276/",
    "date": "2026-11-19",
@@ -603,7 +1599,8 @@
    "doi": "10.1016/S0140-6736(26)01551-5",
    "study_type": "研究论文",
    "pubtypes": [
-    "Journal Article"
+    "Journal Article",
+    "Retraction Notice"
    ],
    "mesh": [],
    "departments": [
@@ -2434,7 +3431,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "M&M.",
-   "title_zh": "",
+   "title_zh": "M&M。",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
@@ -8306,7 +9303,7 @@
    "title_en": "HOPO 14-1, an Oral Actinide Chelator: A Phase 1 Nonrandomized Clinical Trial.",
    "title_zh": "HOPO 14-1，一种口服锕系元素螯合剂：一项非随机1期临床试验。",
    "summary_en": "IMPORTANCE: Current treatments approved by the US Food and Drug Administration for internal actinide contamination (pentetate calcium trisodium and pentetate zinc trisodium) require intravenous injection or nebulized inhalation under medical supervision and have limited radionuclide coverage. HOPO 14-1, an oral form of 3,4,3-LI(1,2-HOPO), is the first shelf-stable, broad-spectrum actinide chelator in clinical development that does not require intravenous access or trained personnel. In preclinical models, 3,4,3-LI(1,2-HOPO) removed a broad range of actinides, and its oral route supports scalable emergency medical use. OBJECTIVE: To evaluate the safety, tolerability, pharmacokinetic parameters, and excretion of a single dose of HOPO 14-1 in healthy adults. DESIGN, SETTING, AND PARTICIPANTS:",
-   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43013314/",
    "date": "2026-11-11",
@@ -18069,7 +19066,7 @@
    "title_en": "Charting a course to men's health and wellbeing: applying a lens of power and politics to improve men's health outcomes.",
    "title_zh": "规划男性健康与福祉的路径：运用权力与政治视角改善男性健康结局",
    "summary_en": "Despite long-standing evidence of poor health and life expectancy outcomes among men, particularly among men who are socially or structurally marginalised, men's health has generally received little and uneven attention in health policy and practice. Its gendered and intersectional aspects have been especially overlooked. This third paper in the Lancet Men's Health Series examines why men's health has received so little policy attention and proposes strategies to raise men's health on national and global agendas. We applied a gender lens to the 3-i theory-based framework and analysed how ideas, interests, and institutions shape the prioritisation of men's health within national and global policy agendas. We review the modest development of men's health policies and assess how power and pol",
-   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10566): 1899-1911",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42956775/",
    "date": "2026-10-31",
@@ -18100,7 +19097,7 @@
    "title_en": "A global men's health epidemiology within an intersectional framework.",
    "title_zh": "交叉性框架下的全球男性健康流行病学",
    "summary_en": "Males have lower life expectancies and greater disability-adjusted life-years (DALYs) than females, and particularly poor outcomes are seen among males in marginalised contexts. In this paper, we provide an epidemiological overview and highlight the intersectional nature of men's health. We analyse mortality and DALYs data from the 1990-2023 Global Burden of Diseases, Injuries, and Risk Factors Studies to illustrate our intersectional framework and draw attention to how health varies in men and to show key themes. Conditions that contribute most to the poor health of males include non-communicable diseases (eg, cardiovascular diseases and cancers), substance use, suicide, injuries (eg, road traffic incidents and interpersonal violence), and respiratory infections (eg, tuberculosis and COVI",
-   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10566): 1881-1898",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42956774/",
    "date": "2026-10-31",
@@ -18137,7 +19134,7 @@
    "title_en": "Men's health: an intersectional and multilevel framework for understanding syndemic patterns of health.",
    "title_zh": "男性健康：理解健康 syndemic 模式的交叉性与多层次框架",
    "summary_en": "Men occupy a privileged position within gender power relations: the male body has been the default reference point for biomedical research and therapeutic development (with the historical exclusion of women from medical trials), and men dominate health services leadership and exercise well documented medical misogyny. Yet despite their privileged position, many aspects of men's health outcomes are neglected and undertheorised because they are not examined through an intersectional gender lens. Although consideration of gender and masculinity is important for understanding men's health, research thus far has focused predominantly on men's harmful health behaviours, overemphasising individual determinants of health, and a deficit-based approach. Little attention has been paid to the influenc",
-   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10566): 1866-1880",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42956773/",
    "date": "2026-10-31",
@@ -18168,7 +19165,7 @@
    "title_en": "Non-invasive tests in metabolic dysfunction-associated steatotic liver disease: the LITMUS prospective multicentre diagnostic accuracy study.",
    "title_zh": "代谢功能障碍相关脂肪性肝病的无创检测：LITMUS前瞻性多中心诊断准确性研究",
    "summary_en": "BACKGROUND: The advent of regulatory-approved pharmacological treatments for metabolic dysfunction-associated steatotic liver disease (MASLD) calls for precise, non-invasive biomarkers that facilitate early diagnosis, support therapy selection, and aid clinical trial enrolment. The European multicentre LITMUS study aimed to evaluate the diagnostic performance of a broad range of non-invasive biomarkers for identifying patients with metabolic dysfunction-associated steatohepatitis (MASH), at-risk MASH, advanced fibrosis, and cirrhosis. METHODS: In this prospective, multicentre, diagnostic accuracy study, adults with biopsy-confirmed MASLD were prospectively recruited across 13 countries in Europe and the USA. We assessed 12 single markers and 18 multimarker panels. The reference standard wa",
-   "summary_zh": "【观察性研究】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【观察性研究】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10566): 1850-1865",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42956772/",
    "date": "2026-10-31",
@@ -18204,7 +19201,7 @@
    "title_en": "Prone positioning and high-frequency oscillatory ventilation in early paediatric acute respiratory distress syndrome (PROSpect): an international, two-by-two factorial, response-adaptive, phase 3, randomised controlled trial.",
    "title_zh": "俯卧位通气与高频振荡通气在早期儿童急性呼吸窘迫综合征中的应用（PROSpect）：一项国际、二乘二析因、反应适应性、3期随机对照试验",
    "summary_en": "BACKGROUND: Data on prone positioning and high-frequency oscillatory ventilation (HFOV) used separately or in combination in patients with paediatric acute respiratory distress syndrome (PARDS) are inconclusive, leading to wide practice variability. We aimed to compare the effects of prone positioning with supine positioning and the effects of HFOV with conventional mechanical ventilation on ventilator-free days in children with early, moderate-to-severe PARDS. METHODS: PROSpect was an international, two-by-two factorial, response-adaptive, phase 3, randomised controlled trial done in 75 paediatric intensive care units in 18 countries. Eligible patients were aged 2 weeks to 20 years, and were intubated and mechanically ventilated for less than 96 h before meeting criteria for moderate-to-s",
-   "summary_zh": "【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10566): 1815-1827",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42956771/",
    "date": "2026-10-31",
@@ -18495,7 +19492,7 @@
    "title_en": "Endometrial ablation plus levonorgestrel-releasing intrauterine system versus endometrial ablation alone in women with heavy menstrual bleeding in The Netherlands (MIRA2): a multicentre, open-label, randomised, controlled, superiority trial.",
    "title_zh": "荷兰月经过多女性中子宫内膜消融联合左炔诺孕酮宫内释放系统对比单纯子宫内膜消融（MIRA2）：一项多中心、开放标签、随机、对照、优效性试验",
    "summary_en": "BACKGROUND: Endometrial ablation is an established and effective treatment for women with heavy menstrual bleeding, but many patients require further treatment, with approximately 10% ultimately undergoing a hysterectomy within 2 years. The insertion of a levonorgestrel-releasing intrauterine system (LNG-IUS) immediately after endometrial ablation might inactivate residual untreated endometrium or prevent its regeneration, thereby preventing recurrent symptoms necessitating a hysterectomy. The aim of the study was to assess whether LNG-IUS insertion immediately after endometrial ablation in women with heavy menstrual bleeding reduced the need for subsequent hysterectomy within 2 years compared with endometrial ablation alone. METHODS: This multicentre, open-label, randomised, controlled, s",
-   "summary_zh": "【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10566): 1828-1838",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42906565/",
    "date": "2026-10-31",
@@ -18532,7 +19529,7 @@
    "title_en": "Disease-free survival and overall survival after neoadjuvant immunotherapy in mismatch repair-deficient colon cancer in the Netherlands: results of the single-arm, multicentre, phase 2, NICHE-2 trial.",
    "title_zh": "荷兰错配修复缺陷结肠癌新辅助免疫治疗后的无病生存期和总生存期：单臂、多中心、2期NICHE-2试验结果",
    "summary_en": "BACKGROUND: Neoadjuvant immune checkpoint blockade induces high pathological response rates in patients with locally advanced mismatch repair-deficient (dMMR) colon cancer, yet long-term survival outcomes have not been established. Previously, we reported safety (a primary endpoint) and pathological response (a secondary endpoint) data from the NICHE-2 trial. Here, we report the primary efficacy endpoint of 3-year disease-free survival and the exploratory endpoint of 5-year overall survival. METHODS: In this single-arm, multicentre, phase 2, NICHE-2 trial, patients with previously untreated, clinical stage 2 or 3, resectable dMMR colon cancer received a single dose of intravenous ipilimumab (1 mg per kg) on day 1, and two doses of intravenous nivolumab (3 mg per kg) on days 1 and 15, follo",
-   "summary_zh": "【II 期临床试验】Lancet 刊载。关键数据：100%。结论要点见下方原文摘要。",
+   "summary_zh": "【II 期临床试验】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10566): 1839-1849",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42906564/",
    "date": "2026-10-31",
@@ -22898,7 +23895,7 @@
    "title_en": "Relatlimab plus nivolumab versus nivolumab for advanced melanoma: 5-year survival and biomarker analyses of the phase 3 RELATIVITY-047 trial.",
    "title_zh": "Relatlimab联合nivolumab对比nivolumab治疗晚期黑色素瘤：3期RELATIVITY-047试验的5年生存和生物标志物分析。",
    "summary_en": "Nivolumab plus relatlimab is approved for advanced melanoma based on the RELATIVITY-047 trial; however, long-term data are needed. Here we report data from RELATIVITY-047 with the longest follow-up at present. In this phase 2-3, double-blind trial, patients with metastatic/unresectable melanoma were randomized 1:1 to nivolumab 480 mg plus relatlimab 160 mg (n = 355) or nivolumab 480 mg (n = 359) intravenously every 4 weeks. The primary endpoint was progression-free survival (PFS) by blinded independent central review. Secondary endpoints were overall survival (OS), response and safety. Additional post hoc analyses, such as melanoma-specific survival (MSS) and exploratory biomarker analyses, are also reported. This analysis shows clear separation in survival curves with the largest absolute",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42926136/",
    "date": "2026-10-24",
@@ -23687,7 +24684,7 @@
    "title_en": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial.",
    "title_zh": "靶向淋巴结的mKRAS特异性两亲性疫苗治疗胰腺癌：随机2期AMPLIFY-7P试验",
    "summary_en": "Camupepimut (ELI-002 7P) drives mutated KRAS (mKRAS)-specific T cell responses that correlated with disease-free survival (DFS) and overall survival (OS) in patients with mKRAS pancreatic adenocarcinoma (PDAC) in the phase 1 AMPLIFY-201 trial. In the phase 2 AMPLIFY-7P trial, patients with stage I-III KRAS-mutated PDAC without recurrence within 6 months of standard therapy were randomized 2:1 to camupepimut (n = 96) or standard-of-care/observation (n = 48). Stratification balanced nodal status. The primary DFS endpoint was not met (median 23.8 versus 21.2 months; HR 0.85, P = 0.5329). However, prespecified and exploratory analyses were informative. A numerical DFS advantage at 6 months of 14.0% (75.7% versus 61.7%; HR 0.55, P = 0.0557) corresponded to camupepimut dosing. Post hoc multivari",
-   "summary_zh": "【研究论文】Nat Med 刊载。关键数据：P = 0.0280、P = 0.0221。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42919966/",
    "date": "2026-10-23",
@@ -23735,7 +24732,7 @@
    "title_en": "Determinants of response to CAR T cell therapy in a multicenter, multi-trial cohort analysis of patients with lymphoma.",
    "title_zh": "淋巴瘤患者多中心多试验队列分析中CAR T细胞治疗应答的决定因素",
    "summary_en": "In patients with non-Hodgkin lymphoma (NHL) treated with chimeric antigen receptor (CAR) T cell therapy, factors associated with efficacy overlap with prognostic biomarkers. Currently, there is no consensus on optimal product characteristics. We analyzed the phenotypic attributes of the anti-CD19 CAR T therapy axicabtagene ciloleucel (axi-cel) from 580 patients with NHL across multiple clinical trials with long-term follow-up (median, 41.9 months). A high proportion of naive-like (CCR7+CD45RA+) T cells was the most significant feature associated with prolonged progression-free survival (PFS; hazard ratio = 0.46, 95% confidence interval: 0.31-0.68, P = 9.8 × 10-5, high versus low naive-like T cell groups) without impacting safety. The relationship between naive-like T cells and efficacy was",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42919964/",
    "date": "2026-10-23",

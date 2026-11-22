@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-21T08:06:20+00:00",
+ "generated_at": "2026-11-22T07:52:30+00:00",
  "window_days": 180,
- "count": 1216,
+ "count": 1218,
  "journals": [
   {
    "abbr": "N Engl J Med",
@@ -27,7 +27,7 @@
   {
    "abbr": "Nat Med",
    "name": "Nature Medicine",
-   "count": 144
+   "count": 146
   },
   {
    "abbr": "Cell",
@@ -42,9 +42,9 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 0,
-  "cache_size": 1133,
-  "translate_fails": 5
+  "translate_used": 6,
+  "cache_size": 1176,
+  "translate_fails": 2
  },
  "articles": [
   {
@@ -746,6 +746,52 @@
     "Humans",
     "Migraine Disorders"
    ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064783",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Reply to: Concerns about use of placebo control in clinical trials of Obinutuzumab β for aquaporin-4 antibody positive neuromyelitis optica spectrum disorder.",
+   "title_zh": "回复：对在奥比妥珠单抗β用于水通道蛋白-4抗体阳性视神经脊髓炎谱系疾病的临床试验中使用安慰剂对照的关切。",
+   "summary_en": "",
+   "summary_zh": "【通信】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064783/",
+   "date": "2026-11-20",
+   "authors": "Huang D, Wu L, Li F, Chen J, Wei M",
+   "author_count": 5,
+   "doi": "10.1038/s41591-026-04782-z",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43064782",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Concerns about use of placebo control in clinical trials of Obinutuzumab β for aquaporin-4 antibody positive neuromyelitis optica spectrum disorder.",
+   "title_zh": "对在水通道蛋白-4抗体阳性视神经脊髓炎谱系疾病的Obinutuzumab β临床试验中使用安慰剂对照的担忧。",
+   "summary_en": "",
+   "summary_zh": "【通信】Nat Med 刊载。原文未附结构化摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43064782/",
+   "date": "2026-11-20",
+   "authors": "Sotirchos ES, Saylor D",
+   "author_count": 2,
+   "doi": "10.1038/s41591-026-04781-0",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
    "departments": [
     "综合"
    ]
@@ -1588,7 +1634,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "TEMPORARILY REMOVED: Reproductive health in women in Britain from 2010 to 2024: findings from repeated, cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
-   "title_zh": "2010年至2024年英国女性的生殖健康：来自重复性横断面全国性态度和生活方式调查（Natsal）的结果。",
+   "title_zh": "暂时移除：2010年至2024年英国女性的生殖健康：来自重复性横断面全国性态度和生活方式调查（Natsal）的结果。",
    "summary_en": "",
    "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026",
@@ -10343,7 +10389,7 @@
    "journal": "JAMA",
    "journal_abbr": "JAMA",
    "title_en": "Word Origins.",
-   "title_zh": "Word Origins.",
+   "title_zh": "词语起源",
    "summary_en": "",
    "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(18): 1689",
@@ -23512,7 +23558,7 @@
    "title_en": "Neoadjuvant durvalumab plus chemotherapy in resectable or borderline resectable non-small-cell lung cancer: the phase 2 MDT-BRIDGE trial.",
    "title_zh": "新辅助durvalumab联合化疗治疗可切除或临界可切除非小细胞肺癌：2期MDT-BRIDGE试验",
    "summary_en": "The phase 2 MDT-BRIDGE study is investigating perioperative durvalumab plus neoadjuvant chemotherapy (AEGEAN regimen) in resectable and borderline resectable non-small-cell lung cancer and chemoradiotherapy (CRT) followed by consolidation durvalumab (PACIFIC regimen) in patients who become unresectable after neoadjuvant chemoimmunotherapy guided by multidisciplinary team assessments during the neoadjuvant period. The primary endpoint was the overall resection rate (descriptive with no formal hypothesis testing). Secondary endpoints included event-free survival, progression-free survival, pathological complete response rate (resectable patients cohort), circulating tumor DNA clearance between baseline and presurgery/pre-CRT and safety. Overall, 142 patients received neoadjuvant treatment; 6",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42934326/",
    "date": "2026-10-26",
@@ -23871,7 +23917,7 @@
    "title_en": "Neoadjuvant nivolumab with or without visugromab in muscle-invasive bladder cancer: the phase 2a GDFATHER-NEO trial.",
    "title_zh": "新辅助nivolumab联合或不联合visugromab治疗肌层浸润性膀胱癌：2a期GDFATHER-NEO试验。",
    "summary_en": "Growth differentiation factor-15 (GDF-15) is overexpressed in muscle-invasive bladder cancer (MIBC) and was recently identified as a potential therapeutic target to overcome resistance to programmed cell death protein 1/programmed death ligand 1 (PDL1) blockade. We investigated the safety and efficacy of GDF-15 blockade in an exploratory, stratified, placebo-controlled, single-blinded, nonrandomized phase 2a trial (GDFATHER-NEO). Thirty-one cisplatin-ineligible or cisplatin-refusing patients with newly diagnosed MIBC (clinical T2-T4aN0M0) were stratified by tumor stage and PDL1 combined positive score (CPS) and allocated sequentially to receive three cycles of neoadjuvant nivolumab (N, 480 mg 4-weekly) plus the GDF-15-neutralizing antibody visugromab (V, 20 mg kg-1 4-weekly; n = 16) or pla",
-   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Nat Med 刊载。原文未附结构化摘要。",
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42926233/",
    "date": "2026-10-24",

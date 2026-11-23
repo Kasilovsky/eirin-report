@@ -1,0 +1,236 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T08:44:24+00:00",
+ "provider": "deepseek-chat",
+ "degraded": false,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "42933461",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933461/",
+   "title_en": "Izalontamab brengitecan versus platinum-based chemotherapy in EGFR-mutated advanced non-squamous non-small-cell lung cancer after progression on third-generation EGFR tyrosine kinase inhibitors (PANKU-Lung01): a multicentre, randomised, open-label, phase 3 trial in China.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ],
+   "title_zh": "Izalontamab brengitecan 对比铂类化疗治疗第三代 EGFR TKI 耐药后 EGFR 突变晚期非鳞非小细胞肺癌（PANKU-Lung01）：中国多中心、随机、开放标签、3 期试验",
+   "one_liner": "新型双抗 ADC 在 EGFR TKI 耐药后肺癌中显著延长无进展生存。",
+   "key_finding": "中位 PFS 11.1 个月 vs 化疗 5.7 个月，HR 0.40（95% CI 0.31-0.51），p<0.0001；3 级及以上治疗相关不良事件 79% vs 62%。",
+   "why_it_matters": "为第三代 EGFR TKI 进展后的患者提供了新的治疗方向，但不良反应更常见，需权衡获益与耐受性。",
+   "clinical_note": "入组为晚期非鳞 NSCLC、三代 EGFR TKI 进展后且未接受过晚期化疗者；随访仍在进行。",
+   "evidence": "随机对照 3 期，432 例，中国 73 家中心",
+   "tags": [
+    "肺癌",
+    "肿瘤内科",
+    "ADC"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42933460",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933460/",
+   "title_en": "Sacituzumab tirumotecan versus treatment of physician's choice in previously treated endometrial cancer (TroFuse-005/ENGOT-en23/GOG-3095): a randomised, open-label, phase 3 trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "Sacituzumab tirumotecan 对比医生选择方案治疗经治子宫内膜癌（TroFuse-005/ENGOT-en23/GOG-3095）：随机、开放标签、3 期试验",
+   "one_liner": "新型 ADC 在铂类与免疫治疗后进展的子宫内膜癌中改善生存。",
+   "key_finding": "中位 PFS 7.2 个月 vs 3.9 个月（HR 0.59，95% CI 0.50-0.70，p<0.0001）；中位 OS 19.0 个月 vs 12.1 个月（HR 0.68，95% CI 0.55-0.84，p=0.0001）。",
+   "why_it_matters": "为铂类化疗和免疫治疗失败后选择有限的子宫内膜癌患者提供了新的潜在方案。",
+   "clinical_note": "入组为晚期或复发子宫内膜癌/癌肉瘤，既往≤3 线治疗；安全性数据摘要未完整给出。",
+   "evidence": "随机对照 3 期，776 例，31 个国家/地区 242 中心",
+   "tags": [
+    "妇科肿瘤",
+    "肿瘤内科",
+    "ADC"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42915009",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42915009/",
+   "title_en": "Remibrutinib versus teriflunomide in relapsing multiple sclerosis (REMODEL-1 and REMODEL-2): two randomised, phase 3 trials.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Remibrutinib 对比特立氟胺治疗复发型多发性硬化（REMODEL-1 与 REMODEL-2）：两项随机 3 期试验",
+   "one_liner": "口服 BTK 抑制剂 remibrutinib 在复发型多发性硬化中优于特立氟胺。",
+   "key_finding": "年化复发率 REMODEL-1 为 0.073 vs 0.112（RR 0.648，95% CI 0.453-0.927，p=0.018）；REMODEL-2 为 0.080 vs 0.116（RR 0.688，95% CI 0.487-0.972，p=0.034）。",
+   "why_it_matters": "提示一种新的口服治疗选择，且因不良事件停药的比例低于特立氟胺。",
+   "clinical_note": "入组 18-55 岁、EDSS 0-5.5 且有近期疾病活动证据者；试验仍在进行。",
+   "evidence": "两项相同设计的随机双盲 3 期，共 2007 例，46 国 407 中心",
+   "tags": [
+    "神经内科",
+    "多发性硬化"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43057260",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057260/",
+   "title_en": "Gopinath Balakrish Nair.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Gopinath Balakrish Nair",
+   "one_liner": "摘要未给出结果。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断其临床或公众意义。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计信息",
+   "tags": [
+    "其他"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43057259",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057259/",
+   "title_en": "What do artists know?",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "艺术家知道什么？",
+   "one_liner": "摘要未给出结果，无法总结结论。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要缺失，无法判断对临床或公众的意义。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "医学人文",
+    "艺术与医学"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43057258",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057258/",
+   "title_en": "Monica Geingos: advocate for adolescent health joins PMNCH.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Monica Geingos：青少年健康倡导者加入 PMNCH",
+   "one_liner": "摘要未给出结果，无法总结结论。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要缺失，无法判断对临床或公众的意义。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "青少年健康",
+    "全球卫生政策"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43057255",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057255/",
+   "title_en": "Sacituzumab tirumotecan in previously treated endometrial cancer.",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "Sacituzumab tirumotecan 用于经治子宫内膜癌",
+   "one_liner": "摘要未给出结果，无法总结疗效。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要缺失，无法判断该药对经治子宫内膜癌患者的潜在价值。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "妇科肿瘤",
+    "抗体偶联药物"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43057254",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057254/",
+   "title_en": "Expanding the post-EGFR TKI landscape with antibody-drug conjugates.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "以抗体偶联药物拓展 EGFR TKI 后治疗格局",
+   "one_liner": "摘要未给出结果，无法总结结论。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要缺失，无法判断对 EGFR TKI 耐药后治疗策略的意义。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "肿瘤内科",
+    "抗体偶联药物",
+    "EGFR"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43057253",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057253/",
+   "title_en": "Remibrutinib: a high-efficacy disease-modifying drug for relapsing multiple sclerosis?",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Remibrutinib：复发型多发性硬化的一种高效疾病修饰药物？",
+   "one_liner": "摘要未给出结果，无法判断疗效。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "若确有高效疾病修饰作用，可能影响复发型多发性硬化的治疗选择，但需待数据公布。",
+   "clinical_note": "标题为提问式评论/研究，适用人群与局限需见全文。",
+   "evidence": "摘要缺失，设计、样本量与地点不明",
+   "tags": [
+    "神经内科",
+    "多发性硬化",
+    "药物研发"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43039013",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039013/",
+   "title_en": "Critical condition: what are we doing about nuclear war?",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "危急状态：我们该如何应对核战争？",
+   "one_liner": "摘要未给出结果，无法提炼结论。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "核战争属公共卫生与全球健康议题，具体论点与建议需见全文。",
+   "clinical_note": "",
+   "evidence": "摘要缺失，设计、样本量与地点不明",
+   "tags": [
+    "公共卫生",
+    "全球健康",
+    "灾害医学"
+   ],
+   "confidence": "low"
+  }
+ ]
+}

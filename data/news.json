@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-22T07:52:30+00:00",
+ "generated_at": "2026-11-23T08:44:08+00:00",
  "window_days": 180,
  "count": 1218,
  "journals": [
@@ -42,9 +42,9 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 6,
+  "translate_used": 3,
   "cache_size": 1176,
-  "translate_fails": 2
+  "translate_fails": 3
  },
  "articles": [
   {

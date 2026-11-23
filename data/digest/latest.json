@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "date": "2026-11-22",
- "generated_at": "2026-11-22T07:52:51+00:00",
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T08:44:24+00:00",
  "provider": "deepseek-chat",
  "degraded": false,
  "window_days": 3,
@@ -18,11 +18,11 @@
     "肿瘤",
     "呼吸器"
    ],
-   "title_zh": "Izalontamab brengitecan 对比铂类化疗治疗第三代 EGFR TKI 进展后的 EGFR 突变晚期非鳞非小细胞肺癌（PANKU-Lung01）：中国多中心、随机、开放标签、3 期试验",
-   "one_liner": "新型双抗 ADC 在 EGFR 突变肺癌后线治疗中显著延长无进展生存。",
-   "key_finding": "中位 PFS：iza-bren 11.1 个月 vs 化疗 5.7 个月，HR 0.40（95% CI 0.31-0.51），单侧 p<0.0001；≥3 级治疗相关不良事件 79% vs 62%。",
-   "why_it_matters": "为第三代 EGFR TKI 耐药后患者提供首个 3 期证据支持的双抗 ADC 选择，但毒性更高需权衡。",
-   "clinical_note": "入组为未接受过晚期化疗者；随访期内总生存为期中分析，尚未成熟。",
+   "title_zh": "Izalontamab brengitecan 对比铂类化疗治疗第三代 EGFR TKI 耐药后 EGFR 突变晚期非鳞非小细胞肺癌（PANKU-Lung01）：中国多中心、随机、开放标签、3 期试验",
+   "one_liner": "新型双抗 ADC 在 EGFR TKI 耐药后肺癌中显著延长无进展生存。",
+   "key_finding": "中位 PFS 11.1 个月 vs 化疗 5.7 个月，HR 0.40（95% CI 0.31-0.51），p<0.0001；3 级及以上治疗相关不良事件 79% vs 62%。",
+   "why_it_matters": "为第三代 EGFR TKI 进展后的患者提供了新的治疗方向，但不良反应更常见，需权衡获益与耐受性。",
+   "clinical_note": "入组为晚期非鳞 NSCLC、三代 EGFR TKI 进展后且未接受过晚期化疗者；随访仍在进行。",
    "evidence": "随机对照 3 期，432 例，中国 73 家中心",
    "tags": [
     "肺癌",
@@ -42,14 +42,14 @@
     "肿瘤"
    ],
    "title_zh": "Sacituzumab tirumotecan 对比医生选择方案治疗经治子宫内膜癌（TroFuse-005/ENGOT-en23/GOG-3095）：随机、开放标签、3 期试验",
-   "one_liner": "新型 TROP2 ADC 在经治子宫内膜癌中同时改善无进展生存和总生存。",
-   "key_finding": "中位 PFS 7.2 vs 3.9 个月（HR 0.59，95% CI 0.50-0.70，p<0.0001）；中位 OS 19.0 vs 12.1 个月（HR 0.68，95% CI 0.55-0.84，p=0.0001）。",
-   "why_it_matters": "铂类化疗和免疫治疗进展后选择匮乏，该结果支持 sac-TMT 成为新的后线治疗选项。",
-   "clinical_note": "入组含癌肉瘤，既往治疗≤3 线；安全性数据摘要中未完整给出。",
+   "one_liner": "新型 ADC 在铂类与免疫治疗后进展的子宫内膜癌中改善生存。",
+   "key_finding": "中位 PFS 7.2 个月 vs 3.9 个月（HR 0.59，95% CI 0.50-0.70，p<0.0001）；中位 OS 19.0 个月 vs 12.1 个月（HR 0.68，95% CI 0.55-0.84，p=0.0001）。",
+   "why_it_matters": "为铂类化疗和免疫治疗失败后选择有限的子宫内膜癌患者提供了新的潜在方案。",
+   "clinical_note": "入组为晚期或复发子宫内膜癌/癌肉瘤，既往≤3 线治疗；安全性数据摘要未完整给出。",
    "evidence": "随机对照 3 期，776 例，31 个国家/地区 242 中心",
    "tags": [
     "妇科肿瘤",
-    "子宫内膜癌",
+    "肿瘤内科",
     "ADC"
    ],
    "confidence": "high"
@@ -65,109 +65,14 @@
     "综合"
    ],
    "title_zh": "Remibrutinib 对比特立氟胺治疗复发型多发性硬化（REMODEL-1 与 REMODEL-2）：两项随机 3 期试验",
-   "one_liner": "口服 BTK 抑制剂 remibrutinib 年复发率低于特立氟胺，安全性良好。",
-   "key_finding": "ARR：REMODEL-1 为 0.073 vs 0.112（RR 0.648，95% CI 0.453-0.927，p=0.018）；REMODEL-2 为 0.080 vs 0.116（RR 0.688，95% CI 0.487-0.972，p=0.034）。",
-   "why_it_matters": "为复发型多发性硬化提供潜在的新口服治疗选择，且因不良事件停药比例更低（3.1% vs 5.8%）。",
-   "clinical_note": "入组 18-55 岁、EDSS 0-5.5 且有近期疾病活动证据者；随访最长 30 个月。",
+   "one_liner": "口服 BTK 抑制剂 remibrutinib 在复发型多发性硬化中优于特立氟胺。",
+   "key_finding": "年化复发率 REMODEL-1 为 0.073 vs 0.112（RR 0.648，95% CI 0.453-0.927，p=0.018）；REMODEL-2 为 0.080 vs 0.116（RR 0.688，95% CI 0.487-0.972，p=0.034）。",
+   "why_it_matters": "提示一种新的口服治疗选择，且因不良事件停药的比例低于特立氟胺。",
+   "clinical_note": "入组 18-55 岁、EDSS 0-5.5 且有近期疾病活动证据者；试验仍在进行。",
    "evidence": "两项相同设计的随机双盲 3 期，共 2007 例，46 国 407 中心",
    "tags": [
     "神经内科",
     "多发性硬化"
-   ],
-   "confidence": "high"
-  },
-  {
-   "pmid": "42929681",
-   "journal": "N Engl J Med",
-   "date": "2026-11-19",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42929681/",
-   "title_en": "Anbenitamab plus HB1801 for HER2-Positive Advanced Breast Cancer.",
-   "study_type": "随机对照试验",
-   "departments": [
-    "肿瘤"
-   ],
-   "title_zh": "Anbenitamab 联合 HB1801 治疗 HER2 阳性晚期乳腺癌",
-   "one_liner": "双抗联合白蛋白结合型多西他赛一线治疗显著优于标准 THP 方案。",
-   "key_finding": "24 个月 PFS 率 58.5% vs 34.4%，HR 0.46（95% CI 0.37-0.56，P<0.001）；客观缓解率 87.6% vs 73.4%；≥3 级不良事件 45.9% vs 34.4%。",
-   "why_it_matters": "可能挑战 THP 的一线标准地位，但不良事件发生率更高，需关注安全性管理。",
-   "clinical_note": "中国人群，期中分析；总生存数据尚未报告。",
-   "evidence": "随机对照 3 期，885 例，中国多中心",
-   "tags": [
-    "乳腺癌",
-    "肿瘤内科",
-    "HER2"
-   ],
-   "confidence": "high"
-  },
-  {
-   "pmid": "42929671",
-   "journal": "N Engl J Med",
-   "date": "2026-11-19",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42929671/",
-   "title_en": "Trial of Endovascular Therapy for Mild Stroke with Large-Vessel Occlusion.",
-   "study_type": "随机对照试验",
-   "departments": [
-    "循环器",
-    "神经",
-    "血液"
-   ],
-   "title_zh": "血管内治疗用于大血管闭塞的轻型卒中：MILD-MT 随机试验",
-   "one_liner": "轻型卒中合并大血管闭塞，取栓加药物比单用药更能改善90天功能。",
-   "key_finding": "90天 mRS 0或1比例：取栓组69.4% vs 药物组50.0%（OR 2.32；95% CI 1.41–3.81；P<0.001）。",
-   "why_it_matters": "提示部分症状轻但影像显示大量可挽救脑组织的患者，仍可能从取栓获益。",
-   "clinical_note": "中国多中心；入组需小梗死核心+大灌注错配，24小时内；操作相关严重并发症13.2%。",
-   "evidence": "多中心开放标签随机试验，304例随机、300例分析，中国",
-   "tags": [
-    "神经内科",
-    "卒中",
-    "血管内治疗"
-   ],
-   "confidence": "high"
-  },
-  {
-   "pmid": "42929656",
-   "journal": "N Engl J Med",
-   "date": "2026-11-19",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42929656/",
-   "title_en": "Mechanical Thrombectomy 24 to 72 Hours after Large-Vessel Ischemic Stroke.",
-   "study_type": "随机对照试验",
-   "departments": [
-    "循环器",
-    "神经"
-   ],
-   "title_zh": "大血管缺血性卒中24至72小时行机械取栓：LATE-MT 随机试验",
-   "one_liner": "发病24至72小时仍有可挽救脑组织者，取栓功能结局更好但出血和死亡更多。",
-   "key_finding": "90天 mRS 分布更优（common OR 1.74；95% CI 1.19–2.55）；症状性颅内出血4.8% vs 0%，90天病死率6.0% vs 1.8%。",
-   "why_it_matters": "把取栓时间窗讨论延伸到24小时之后，但需权衡出血与死亡风险升高。",
-   "clinical_note": "中国综合卒中中心；入组需影像证实的可挽救脑组织；随机前中位时间38.5小时。",
-   "evidence": "开放标签、结局盲法评估随机试验，336例，中国",
-   "tags": [
-    "神经内科",
-    "卒中",
-    "机械取栓"
-   ],
-   "confidence": "high"
-  },
-  {
-   "pmid": "42670955",
-   "journal": "N Engl J Med",
-   "date": "2026-11-19",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42670955/",
-   "title_en": "Aspirin Omission at the Time of Primary Percutaneous Coronary Intervention in STEMI.",
-   "study_type": "随机对照试验",
-   "departments": [
-    "药学"
-   ],
-   "title_zh": "STEMI 直接 PCI 时省略阿司匹林：低剂量 prasugrel 单药对比 DAPT",
-   "one_liner": "STEMI 直接 PCI 前用低剂量 prasugrel 单药，未能证明不劣于含阿司匹林的 DAPT。",
-   "key_finding": "12个月死亡/卒中/心梗：单药11.0% vs DAPT 8.5%（HR 1.34；95% CI 1.02–1.75；非劣效P=0.40）；大出血5.6% vs 8.4%（HR 0.66；95% CI 0.47–0.91）。",
-   "why_it_matters": "单药虽减少大出血，但缺血事件未达非劣效，暂不支持常规省略阿司匹林。",
-   "clinical_note": "日本多中心；低剂量 prasugrel 单药于 PCI 前启动，疗程12个月；开放标签。",
-   "evidence": "多中心开放标签随机试验，2216例，日本",
-   "tags": [
-    "心内科",
-    "STEMI",
-    "抗血小板治疗"
    ],
    "confidence": "high"
   },
@@ -184,11 +89,11 @@
    "title_zh": "Gopinath Balakrish Nair",
    "one_liner": "摘要未给出结果。",
    "key_finding": "摘要未给出结果",
-   "why_it_matters": "摘要为空，无法判断研究内容与意义。",
+   "why_it_matters": "摘要未给出结果，无法判断其临床或公众意义。",
    "clinical_note": "",
-   "evidence": "摘要未提供研究设计、样本量与地点",
+   "evidence": "摘要未提供研究设计信息",
    "tags": [
-    "未分类"
+    "其他"
    ],
    "confidence": "low"
   },
@@ -205,9 +110,9 @@
    "title_zh": "艺术家知道什么？",
    "one_liner": "摘要未给出结果，无法总结结论。",
    "key_finding": "摘要未给出结果",
-   "why_it_matters": "摘要未提供内容，无法判断对临床或公众的意义。",
+   "why_it_matters": "摘要缺失，无法判断对临床或公众的意义。",
    "clinical_note": "",
-   "evidence": "摘要未提供研究设计与样本量",
+   "evidence": "摘要未提供研究设计、样本量及地点",
    "tags": [
     "医学人文",
     "艺术与医学"
@@ -227,12 +132,103 @@
    "title_zh": "Monica Geingos：青少年健康倡导者加入 PMNCH",
    "one_liner": "摘要未给出结果，无法总结结论。",
    "key_finding": "摘要未给出结果",
-   "why_it_matters": "摘要未提供内容，无法判断对临床或公众的意义。",
+   "why_it_matters": "摘要缺失，无法判断对临床或公众的意义。",
    "clinical_note": "",
-   "evidence": "摘要未提供研究设计与样本量",
+   "evidence": "摘要未提供研究设计、样本量及地点",
    "tags": [
     "青少年健康",
     "全球卫生政策"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43057255",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057255/",
+   "title_en": "Sacituzumab tirumotecan in previously treated endometrial cancer.",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "Sacituzumab tirumotecan 用于经治子宫内膜癌",
+   "one_liner": "摘要未给出结果，无法总结疗效。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要缺失，无法判断该药对经治子宫内膜癌患者的潜在价值。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "妇科肿瘤",
+    "抗体偶联药物"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43057254",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057254/",
+   "title_en": "Expanding the post-EGFR TKI landscape with antibody-drug conjugates.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "以抗体偶联药物拓展 EGFR TKI 后治疗格局",
+   "one_liner": "摘要未给出结果，无法总结结论。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要缺失，无法判断对 EGFR TKI 耐药后治疗策略的意义。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "肿瘤内科",
+    "抗体偶联药物",
+    "EGFR"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43057253",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43057253/",
+   "title_en": "Remibrutinib: a high-efficacy disease-modifying drug for relapsing multiple sclerosis?",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Remibrutinib：复发型多发性硬化的一种高效疾病修饰药物？",
+   "one_liner": "摘要未给出结果，无法判断疗效。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "若确有高效疾病修饰作用，可能影响复发型多发性硬化的治疗选择，但需待数据公布。",
+   "clinical_note": "标题为提问式评论/研究，适用人群与局限需见全文。",
+   "evidence": "摘要缺失，设计、样本量与地点不明",
+   "tags": [
+    "神经内科",
+    "多发性硬化",
+    "药物研发"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43039013",
+   "journal": "Lancet",
+   "date": "2026-11-21",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039013/",
+   "title_en": "Critical condition: what are we doing about nuclear war?",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "危急状态：我们该如何应对核战争？",
+   "one_liner": "摘要未给出结果，无法提炼结论。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "核战争属公共卫生与全球健康议题，具体论点与建议需见全文。",
+   "clinical_note": "",
+   "evidence": "摘要缺失，设计、样本量与地点不明",
+   "tags": [
+    "公共卫生",
+    "全球健康",
+    "灾害医学"
    ],
    "confidence": "low"
   }

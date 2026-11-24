@@ -1,13 +1,13 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-23T08:44:08+00:00",
+ "generated_at": "2026-11-24T10:45:55+00:00",
  "window_days": 180,
- "count": 1218,
+ "count": 1248,
  "journals": [
   {
    "abbr": "N Engl J Med",
    "name": "New England Journal of Medicine",
-   "count": 161
+   "count": 165
   },
   {
    "abbr": "Lancet",
@@ -17,12 +17,12 @@
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 281
+   "count": 294
   },
   {
    "abbr": "BMJ",
    "name": "BMJ",
-   "count": 209
+   "count": 219
   },
   {
    "abbr": "Nat Med",
@@ -32,7 +32,7 @@
   {
    "abbr": "Cell",
    "name": "Cell",
-   "count": 136
+   "count": 139
   },
   {
    "abbr": "Sci Transl Med",
@@ -42,11 +42,712 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 3,
-  "cache_size": 1176,
-  "translate_fails": 3
+  "translate_used": 30,
+  "cache_size": 1200,
+  "translate_fails": 5
  },
  "articles": [
+  {
+   "pmid": "43072860",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Plastic surgeon who performed operation while suspended is struck off.",
+   "title_zh": "在被停职期间仍执刀手术的整形外科医生被吊销执照。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101543",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072860/",
+   "date": "2026-11-23",
+   "authors": "Dyer C",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101543",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072859",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Healthwatch has narrowly escaped abolition: it must come back stronger.",
+   "title_zh": "Healthwatch险些被废除：它必须以更强有力的姿态回归。",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101541",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072859/",
+   "date": "2026-11-23",
+   "authors": "Graham C",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101541",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072858",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Alexandra Adams: the UK's first deaf-blind doctor.",
+   "title_zh": "Alexandra Adams：英国首位聋盲医生。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e100967",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072858/",
+   "date": "2026-11-23",
+   "authors": "Ahillan T",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-100967",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072857",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "From Gaza to Ukraine: more than four \"cruel\" attacks on healthcare each day.",
+   "title_zh": "从加沙到乌克兰：每天发生四次以上的“残忍”袭击医疗设施事件。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101379",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072857/",
+   "date": "2026-11-23",
+   "authors": "Li C",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101379",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072856",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Former NIH scientist has over 30 papers retracted.",
+   "title_zh": "前美国国立卫生研究院（NIH）科学家有超过30篇论文被撤稿。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101565",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072856/",
+   "date": "2026-11-23",
+   "authors": "Liang L",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101565",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072855",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Practice Pointer: Anaphylaxis: recognition and management.",
+   "title_zh": "实践要点：过敏性休克：识别和处理。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e100960",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072855/",
+   "date": "2026-11-23",
+   "authors": "Smith E, Harty E, Farooque S",
+   "author_count": 3,
+   "doi": "10.1136/bmj-2026-100960",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072854",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Lucy Letby case: Key medical witness was barred from treating patients during trial.",
+   "title_zh": "露西·莱特比（Lucy Letby）案：关键医学证人在审判期间被禁止为患者提供治疗。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101553",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072854/",
+   "date": "2026-11-23",
+   "authors": "Dyer C",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101553",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072853",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "AI rules for doctors must include organisational responsibility.",
+   "title_zh": "针对医生的AI规则必须包括组织责任。",
+   "summary_en": "",
+   "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101504",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072853/",
+   "date": "2026-11-23",
+   "authors": "Modi G, Modi Z",
+   "author_count": 2,
+   "doi": "10.1136/bmj-2026-101504",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072852",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Addressing shortcomings in the management of anaphylaxis.",
+   "title_zh": "解决过敏性休克管理方面的不足。",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101411",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072852/",
+   "date": "2026-11-23",
+   "authors": "Savic L, Higginson I, Bethune C",
+   "author_count": 3,
+   "doi": "10.1136/bmj-2026-101411",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072851",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "World's largest AI assisted breast screening trial begins in England.",
+   "title_zh": "全球最大规模的AI辅助乳腺筛查试验在英国启动。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101564",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072851/",
+   "date": "2026-11-23",
+   "authors": "Furneaux R",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101564",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072812",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Trial for Pediatric Agitation in the Emergency Department-New Calm in the Chaos.",
+   "title_zh": "急诊科儿科躁动症的临床试验——混乱中的新平静。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072812/",
+   "date": "2026-11-23",
+   "authors": "Duffy SJ, McManus J, Chun TH",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.26569",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43072799",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Intramuscular Olanzapine or Droperidol for Acute Behavioral Disturbance in Children and Adolescents: The PEAChY-M Randomized Clinical Trial.",
+   "title_zh": "用于治疗儿童和青少年急性行为障碍的肌内注射奥氮平或氟哌啶醇：PEAChY-M随机临床试验。",
+   "summary_en": "IMPORTANCE: Acute behavioral disturbance is a high-risk emergency department presentation. There is limited evidence for the comparative effectiveness of intramuscular sedative medications in children and adolescents, which may be required when there is imminent risk of serious harm due to agitation. OBJECTIVE: To determine whether olanzapine is more effective than droperidol intramuscularly in achieving behavioral containment. DESIGN, SETTING, AND PARTICIPANTS: This investigator-initiated, open-label, multicenter, superiority, randomized clinical trial recruited children and adolescents aged 9 to 17 years presenting to 10 Australian emergency departments with acute behavioral disturbance clinically deemed to require intramuscular medication from November 8, 2021, to February 16, 2026. The",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072799/",
+   "date": "2026-11-23",
+   "authors": "Bourke EM, Kochar A, Shellshear D, Borland ML, Jani S, Perkins K",
+   "author_count": 21,
+   "doi": "10.1001/jama.2026.25561",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43072798",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Intramuscular Olanzapine or Droperidol for Acute Behavioral Disturbance in Children and Adolescents: Research Summary.",
+   "title_zh": "用于儿童和青少年急性行为障碍的肌内注射奥氮平或氟哌啶醇：研究综述。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2625613",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072798/",
+   "date": "2026-11-23",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.25613",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43072372",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Fate patterns self-organize through the coupling of structures across cell and supracellular levels of organization.",
+   "title_zh": "命运模式通过细胞与超细胞组织层次间结构的耦合而自组织形成",
+   "summary_en": "How patterns of cell state emerge across a tissue field is a fundamental question brought into renewed focus by spatial omics tools that map molecular states onto tissue organization. Here, we investigate how a field of limb progenitor mesenchyme transforms into distinct, adjacent cartilage and soft tissue compartments. We find that mesenchymal tissue fields self-organize their own differentiation through co-constitutive relationships between cell and supracellular structures, which produce cell-extracellular matrix (ECM) or cell-cell-based supracellular cues that canalize cartilage or soft tissue cell fate change, respectively. At the tissue level, bifurcation in intrinsically generated supracellular structures guides the specification of tissue compartment size. We find that Wnt secreted",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072372/",
+   "date": "2026-11-23",
+   "authors": "Ko CS, Chen R, Magid NT, Courtemanche K, Miller PW, Rodrigues AR",
+   "author_count": 7,
+   "doi": "10.1016/j.cell.2026.11.003",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072371",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Autoantibody origins in lupus and upon recurrence post CAR-T therapy.",
+   "title_zh": "狼疮中以及CAR-T治疗后复发时的自身抗体来源。",
+   "summary_en": "Anti-CD19 chimeric antigen receptor (CAR)-T therapy induces profound remissions in lupus by depleting B cells, challenging the view that disease is sustained by long-lived plasma cells. Using molecular antibody tagging in mouse models of monogenic childhood-onset lupus, we show that autoantibody-producing plasma cells are short-lived and require continuous replenishment from T-bet-dependent precursors derived from long-lived B cell cohorts. The spleen is a major plasma cell reservoir, with perivascular enrichment observed in patients with lupus. Both anti-CD19 and anti-B-cell maturation antigen (BCMA) CAR-T therapies eliminate anti-DNA antibodies. Recurrent autoantibodies after anti-CD19 CAR-T therapy derive exclusively from newly generated B cells, whereas those following anti-BCMA CAR-T ",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072371/",
+   "date": "2026-11-23",
+   "authors": "Grenov A, Yoon J, Samelis VA, Snell DM, Mikolajczak A, Wang H",
+   "author_count": 17,
+   "doi": "10.1016/j.cell.2026.10.045",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "43072370",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Neural correlates of facial recognition in a social wasp.",
+   "title_zh": "一种社会性黄蜂的面部识别神经关联。",
+   "summary_en": "In humans and other primates, faces are special visual objects that are encoded by circuits selective to faces. If specialized circuits are the most efficient way to encode and discriminate among similar-looking objects of high relevance, then we expect that analogous circuits should evolve in other taxa with specialized visual individual recognition abilities. Thus, we surveyed the neural responses to visual objects across the brain of a wasp that has independently evolved specialized facial recognition, Polistes fuscatus. We found a localized population of neurons analogous to face cells, which we term \"wasp cells,\" that selectively fire to front-facing wasp images. Some of these wasp cells encode information about facial patterns, which possibly underlie the unique visual recognition ab",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072370/",
+   "date": "2026-11-23",
+   "authors": "Jernigan CM, Mammen LCC, Freiwald WA, Sheehan MJ",
+   "author_count": 4,
+   "doi": "10.1016/j.cell.2026.10.052",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071537",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Next WHO Director-General Must Lead With Strategic Science.",
+   "title_zh": "下一任世卫组织总干事必须以战略科学为指导。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071537/",
+   "date": "2026-11-23",
+   "authors": "Omer SB",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.25491",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071400",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery.",
+   "title_zh": "全静脉麻醉与挥发性吸入麻醉以及非心脏大手术后的苏醒。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071400/",
+   "date": "2026-11-23",
+   "authors": "van Zuylen ML, Sperna Weiland NH, Kampman JM",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.21847",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器",
+    "外科",
+    "麻醉/重症"
+   ]
+  },
+  {
+   "pmid": "43071399",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery.",
+   "title_zh": "全静脉麻醉与挥发性吸入麻醉以及非心脏大手术后的苏醒。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071399/",
+   "date": "2026-11-23",
+   "authors": "Zhang W, Bo L",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.21850",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器",
+    "外科",
+    "麻醉/重症"
+   ]
+  },
+  {
+   "pmid": "43071397",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Hypertrophic Cardiomyopathy: A Review.",
+   "title_zh": "肥厚型心肌病：综述。",
+   "summary_en": "IMPORTANCE: Hypertrophic cardiomyopathy is defined as left ventricular hypertrophy of greater than 15 mm in any part of the left ventricular wall in the absence of valvular disease, uncontrolled hypertension, or other chronic conditions causing severe left ventricular hypertrophy such as uncontrolled hypertension or cardiac amyloidosis. Most people with hypertrophic cardiomyopathy have a normal lifespan; however, hypertrophic cardiomyopathy is associated with a 0.8% annual incidence of sudden cardiac death. OBSERVATIONS: Hypertrophic cardiomyopathy affects an estimated 0.2% of people worldwide (including more than 600 000 people in the US) and is typically diagnosed with echocardiography. Approximately 35% to 40% of patients report effort-related dyspnea, chest pain or pressure, or lighthe",
+   "summary_zh": "【研究论文】JAMA 刊载。关键数据：30%、40%、0.8%。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071397/",
+   "date": "2026-11-23",
+   "authors": "Ommen SR",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.21415",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071387",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery.",
+   "title_zh": "全静脉麻醉与挥发性吸入麻醉以及非心脏大手术后的苏醒。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071387/",
+   "date": "2026-11-23",
+   "authors": "Yang G, Chu Q",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.21844",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器",
+    "外科",
+    "麻醉/重症"
+   ]
+  },
+  {
+   "pmid": "43071384",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery-Reply.",
+   "title_zh": "全静脉麻醉与挥发性吸入麻醉以及非心脏大手术后的苏醒——答复。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071384/",
+   "date": "2026-11-23",
+   "authors": "Yeung J, Hill L, Jhanji S",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.21838",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器",
+    "外科",
+    "麻醉/重症"
+   ]
+  },
+  {
+   "pmid": "43071365",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "The Stories We Tell Ourselves.",
+   "title_zh": "我們 只是 我們 告訴 自己 的 故事 。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071365/",
+   "date": "2026-11-23",
+   "authors": "Andoh JE",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.23153",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071363",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Postherpetic Neuralgia.",
+   "title_zh": "带状疱疹后神经痛。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071363/",
+   "date": "2026-11-23",
+   "authors": "Vollert J, Attal N, Baron R",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.19825",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071359",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery.",
+   "title_zh": "全静脉麻醉与挥发性吸入麻醉以及非心脏大手术后的苏醒。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071359/",
+   "date": "2026-11-23",
+   "authors": "Vikram S, Tse C, Coeckelenbergh S",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.21841",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器",
+    "外科",
+    "麻醉/重症"
+   ]
+  },
+  {
+   "pmid": "43071358",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Some Lessons of War-Time Undernutrition.",
+   "title_zh": "战争时期营养不良的一些教训。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071358/",
+   "date": "2026-11-23",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2025.16146",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071597",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "From Cold War Politics to Hot Domestic Politics - The Epidemic Intelligence Service at 75.",
+   "title_zh": "从冷战政治到国内热点政治——流行病情报处成立75周年。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071597/",
+   "date": "2026-11-21",
+   "authors": "Fairchild AL, Colgrove J",
+   "author_count": 2,
+   "doi": "10.1056/NEJMp2606018",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071596",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Papulopustular Rosacea Associated with Demodex Mites.",
+   "title_zh": "与蠕形螨相关的丘疹脓疱型酒糟鼻。",
+   "summary_en": "",
+   "summary_zh": "【病例报告】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071596/",
+   "date": "2026-11-21",
+   "authors": "Rivera Silva G, Martinez Fernandez P",
+   "author_count": 2,
+   "doi": "10.1056/NEJMicm2609236",
+   "study_type": "病例报告",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071589",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Declining Fertility Rates - The Role of Assisted Reproductive Technology.",
+   "title_zh": "生育率下降——辅助生殖技术的作用",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071589/",
+   "date": "2026-11-21",
+   "authors": "Dahdouh EM, Balayla J",
+   "author_count": 2,
+   "doi": "10.1056/NEJMp2611049",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071587",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Two Ways of Seeing.",
+   "title_zh": "两种观察方式",
+   "summary_en": "",
+   "summary_zh": "【研究论文】N Engl J Med 刊载。原文未附结构化摘要。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071587/",
+   "date": "2026-11-21",
+   "authors": "Lee J",
+   "author_count": 1,
+   "doi": "10.1056/NEJMp2606324",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
   {
    "pmid": "43057270",
    "journal": "The Lancet",
@@ -601,13 +1302,11 @@
    ],
    "mesh": [
     "Humans",
-    "Irritable Bowel Syndrome",
+    "Brain-Gut Axis",
     "Constipation",
     "Diarrhea",
-    "Risk Factors",
-    "Brain",
-    "Female",
-    "Brain-Gut Axis"
+    "Irritable Bowel Syndrome",
+    "Risk Factors"
    ],
    "departments": [
     "神经"
@@ -635,16 +1334,16 @@
     "Clinical Trial, Phase III"
    ],
    "mesh": [
-    "Humans",
-    "Carcinoma, Non-Small-Cell Lung",
-    "ErbB Receptors",
+    "Aged",
     "Female",
-    "Lung Neoplasms",
-    "China",
-    "Middle Aged",
+    "Humans",
     "Male",
-    "Protein Kinase Inhibitors",
-    "Aged"
+    "Middle Aged",
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "Carboplatin",
+    "Carcinoma, Non-Small-Cell Lung",
+    "China",
+    "Cisplatin"
    ],
    "departments": [
     "肿瘤",
@@ -708,16 +1407,16 @@
     "Multicenter Study"
    ],
    "mesh": [
-    "Humans",
-    "Toluidines",
-    "Hydroxybutyrates",
-    "Nitriles",
-    "Crotonates",
     "Adult",
     "Female",
-    "Multiple Sclerosis, Relapsing-Remitting",
+    "Humans",
+    "Male",
+    "Middle Aged",
+    "Crotonates",
     "Double-Blind Method",
-    "Male"
+    "Hydroxybutyrates",
+    "Multiple Sclerosis, Relapsing-Remitting",
+    "Nitriles"
    ],
    "departments": [
     "综合"
@@ -1064,9 +1763,9 @@
    "authors": "",
    "author_count": 0,
    "doi": "10.1001/jama.2025.16137",
-   "study_type": "研究论文",
+   "study_type": "",
    "pubtypes": [
-    "Journal Article"
+    "Webcast"
    ],
    "mesh": [],
    "departments": [
@@ -7774,7 +8473,7 @@
    "title_en": "Treatment of Acute Ischemic Stroke: A Review.",
    "title_zh": "急性缺血性卒中的治疗：综述。",
    "summary_en": "IMPORTANCE: Acute ischemic stroke, caused by thrombotic or embolic occlusion of a cervical or cerebral artery, leads to neurologic injury due to sudden disruption of blood flow to the brain. Ischemic stroke is a leading cause of disability and death and accounts for about 85% of strokes in the US. OBSERVATIONS: Symptoms of acute ischemic stroke vary based on the area of the affected brain. Common presentations include sudden arm or leg weakness, aphasia or slurred speech, sudden loss of balance or coordination, sudden visual difficulties, and/or facial drooping. Patients with suspected stroke should be transported to the nearest emergency department for urgent brain imaging, typically noncontrast computed tomography (CT). Based on 2026 American Heart Association/American Stroke Association",
-   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43018963/",
    "date": "2026-11-12",
@@ -7866,7 +8565,7 @@
    "title_en": "Izalontamab Brengitecan in Recurrent or Metastatic Esophageal Squamous Cell Carcinoma: The PANKU-Esophagus01 Randomized Clinical Trial.",
    "title_zh": "伊扎仑单抗联合布伦吉替康治疗复发性或转移性食管鳞状细胞癌：PANKU-Esophagus01随机临床试验。",
    "summary_en": "IMPORTANCE: Effective therapy remains lacking for patients with advanced esophageal squamous cell carcinoma (ESCC) whose disease progressed after standard treatment. Izalontamab brengitecan, an epidermal growth factor receptor and human epidermal growth factor receptor 3 bispecific antibody-drug conjugate with a topoisomerase I inhibitor, Ed-04, has shown clinical activity in ESCC in a phase 1b study. OBJECTIVE: To evaluate the efficacy and safety of izalontamab brengitecan compared with chemotherapy in patients with advanced ESCC who progressed after first-line programmed cell death 1 protein (PD-1)/programmed cell death 1 ligand 1 (PD-L1) inhibitor plus platinum-containing chemotherapy. DESIGN, SETTING, AND PARTICIPANTS: This phase 3, open-label, randomized clinical trial was conducted a",
-   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43018949/",
    "date": "2026-11-12",
@@ -27031,7 +27730,7 @@
    "title_en": "Somatic epimutations cap genetic determinism in the human diploid chromatin epigenome.",
    "title_zh": "体细胞表观突变限制人类二倍体染色质表观基因组中的遗传决定论",
    "summary_en": "Diploid human cells contain two non-identical genomes, and differences in their regulation underlie human development and disease. We present Fiber-seq inferred regulatory elements (FIRE) and show that FIRE provides a more comprehensive and quantitative snapshot of the accessible chromatin landscape across the 6 Gbp diploid human genome, overcoming previously unrecognized biases in existing regulatory element catalogs. FIRE enables comprehensive detection of haplotype-selective chromatin accessibility (HSCA), exposing imprinted elements lacking underlying parent-of-origin differences in DNA methylation and gene regulatory modules that permit genes to escape X chromosome inactivation. We uncover that the human leukocyte antigen (HLA) locus harbors the most HSCA in immune cells, where we res",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6613-6629.e9",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42880232/",
    "date": "2026-10-15",
@@ -27065,7 +27764,7 @@
    "title_en": "Comprehensive benchmarking of somatic mutation detection by the SMaHT Network.",
    "title_zh": "SMaHT Network对体细胞突变检测的综合基准测试",
    "summary_en": "Somatic mosaicism is increasingly recognized as a fundamental feature of human biology, yet the detection of somatic mutations remains challenging. The Somatic Mosaicism across Human Tissues (SMaHT) Network conducted large-scale benchmarking experiments involving cell lines and donor tissues to evaluate sequencing technologies, experimental approaches, and computational methods for detecting different types of somatic mutations, generating community resources with >1,000× short-read and 100-400× long-read data for nine analyzed samples. We determined effective strategies for utilizing short- and long-read sequencing for mutation detection and demonstrated that using donor-specific and pangenome-inferred diploid assemblies improved calling, extending mutation catalogs to challenging genomic",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6594-6612.e21",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42880231/",
    "date": "2026-10-15",
@@ -27097,7 +27796,7 @@
    "title_en": "Charting the silent variation within us.",
    "title_zh": "绘制我们体内的沉默变异",
    "summary_en": "Every cell in the human body carries its own genome, shaped by mutations acquired over a lifetime, yet this vast somatic variation has been nearly impossible to measure. The SMaHT Network now delivers benchmarked tools and the first body-wide map of somatic mosaicism, establishing a baseline of \"normal\" against which its roles in development, aging, and disease can finally be tested.",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6589-6593",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42880230/",
    "date": "2026-10-15",

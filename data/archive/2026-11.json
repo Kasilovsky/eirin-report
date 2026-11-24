@@ -1,8 +1,431 @@
 {
  "schema_version": 2,
  "month": "2026-11",
- "count": 756,
+ "count": 786,
  "articles": [
+  {
+   "pmid": "43072860",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Plastic surgeon who performed operation while suspended is struck off.",
+   "title_zh": "在被停职期间仍执刀手术的整形外科医生被吊销执照。",
+   "citation": "BMJ. 2026; 395: e101543",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072860/",
+   "date": "2026-11-23",
+   "authors": "Dyer C",
+   "doi": "10.1136/bmj-2026-101543",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072859",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Healthwatch has narrowly escaped abolition: it must come back stronger.",
+   "title_zh": "Healthwatch险些被废除：它必须以更强有力的姿态回归。",
+   "citation": "BMJ. 2026; 395: e101541",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072859/",
+   "date": "2026-11-23",
+   "authors": "Graham C",
+   "doi": "10.1136/bmj-2026-101541",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072858",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Alexandra Adams: the UK's first deaf-blind doctor.",
+   "title_zh": "Alexandra Adams：英国首位聋盲医生。",
+   "citation": "BMJ. 2026; 395: e100967",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072858/",
+   "date": "2026-11-23",
+   "authors": "Ahillan T",
+   "doi": "10.1136/bmj-2026-100967",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072857",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "From Gaza to Ukraine: more than four \"cruel\" attacks on healthcare each day.",
+   "title_zh": "从加沙到乌克兰：每天发生四次以上的“残忍”袭击医疗设施事件。",
+   "citation": "BMJ. 2026; 395: e101379",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072857/",
+   "date": "2026-11-23",
+   "authors": "Li C",
+   "doi": "10.1136/bmj-2026-101379",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072856",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Former NIH scientist has over 30 papers retracted.",
+   "title_zh": "前美国国立卫生研究院（NIH）科学家有超过30篇论文被撤稿。",
+   "citation": "BMJ. 2026; 395: e101565",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072856/",
+   "date": "2026-11-23",
+   "authors": "Liang L",
+   "doi": "10.1136/bmj-2026-101565",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072855",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Practice Pointer: Anaphylaxis: recognition and management.",
+   "title_zh": "实践要点：过敏性休克：识别和处理。",
+   "citation": "BMJ. 2026; 395: e100960",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072855/",
+   "date": "2026-11-23",
+   "authors": "Smith E, Harty E, Farooque S",
+   "doi": "10.1136/bmj-2026-100960",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072854",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Lucy Letby case: Key medical witness was barred from treating patients during trial.",
+   "title_zh": "露西·莱特比（Lucy Letby）案：关键医学证人在审判期间被禁止为患者提供治疗。",
+   "citation": "BMJ. 2026; 395: e101553",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072854/",
+   "date": "2026-11-23",
+   "authors": "Dyer C",
+   "doi": "10.1136/bmj-2026-101553",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072853",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "AI rules for doctors must include organisational responsibility.",
+   "title_zh": "针对医生的AI规则必须包括组织责任。",
+   "citation": "BMJ. 2026; 395: e101504",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072853/",
+   "date": "2026-11-23",
+   "authors": "Modi G, Modi Z",
+   "doi": "10.1136/bmj-2026-101504",
+   "study_type": "通信",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072852",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Addressing shortcomings in the management of anaphylaxis.",
+   "title_zh": "解决过敏性休克管理方面的不足。",
+   "citation": "BMJ. 2026; 395: e101411",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072852/",
+   "date": "2026-11-23",
+   "authors": "Savic L, Higginson I, Bethune C",
+   "doi": "10.1136/bmj-2026-101411",
+   "study_type": "述评",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072851",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "World's largest AI assisted breast screening trial begins in England.",
+   "title_zh": "全球最大规模的AI辅助乳腺筛查试验在英国启动。",
+   "citation": "BMJ. 2026; 395: e101564",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072851/",
+   "date": "2026-11-23",
+   "authors": "Furneaux R",
+   "doi": "10.1136/bmj-2026-101564",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072812",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Trial for Pediatric Agitation in the Emergency Department-New Calm in the Chaos.",
+   "title_zh": "急诊科儿科躁动症的临床试验——混乱中的新平静。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072812/",
+   "date": "2026-11-23",
+   "authors": "Duffy SJ, McManus J, Chun TH",
+   "doi": "10.1001/jama.2026.26569",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43072799",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Intramuscular Olanzapine or Droperidol for Acute Behavioral Disturbance in Children and Adolescents: The PEAChY-M Randomized Clinical Trial.",
+   "title_zh": "用于治疗儿童和青少年急性行为障碍的肌内注射奥氮平或氟哌啶醇：PEAChY-M随机临床试验。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072799/",
+   "date": "2026-11-23",
+   "authors": "Bourke EM, Kochar A, Shellshear D, Borland ML, Jani S, Perkins K",
+   "doi": "10.1001/jama.2026.25561",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43072798",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Intramuscular Olanzapine or Droperidol for Acute Behavioral Disturbance in Children and Adolescents: Research Summary.",
+   "title_zh": "用于儿童和青少年急性行为障碍的肌内注射奥氮平或氟哌啶醇：研究综述。",
+   "citation": "JAMA. 2026: e2625613",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072798/",
+   "date": "2026-11-23",
+   "doi": "10.1001/jama.2026.25613",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43072372",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Fate patterns self-organize through the coupling of structures across cell and supracellular levels of organization.",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072372/",
+   "date": "2026-11-23",
+   "authors": "Ko CS, Chen R, Magid NT, Courtemanche K, Miller PW, Rodrigues AR",
+   "doi": "10.1016/j.cell.2026.11.003",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43072371",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Autoantibody origins in lupus and upon recurrence post CAR-T therapy.",
+   "title_zh": "狼疮中以及CAR-T治疗后复发时的自身抗体来源。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072371/",
+   "date": "2026-11-23",
+   "authors": "Grenov A, Yoon J, Samelis VA, Snell DM, Mikolajczak A, Wang H",
+   "doi": "10.1016/j.cell.2026.10.045",
+   "study_type": "研究论文",
+   "departments": [
+    "免疫/风湿"
+   ]
+  },
+  {
+   "pmid": "43072370",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Neural correlates of facial recognition in a social wasp.",
+   "title_zh": "一种社会性黄蜂的面部识别神经关联。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43072370/",
+   "date": "2026-11-23",
+   "authors": "Jernigan CM, Mammen LCC, Freiwald WA, Sheehan MJ",
+   "doi": "10.1016/j.cell.2026.10.052",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071537",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Next WHO Director-General Must Lead With Strategic Science.",
+   "title_zh": "下一任世卫组织总干事必须以战略科学为指导。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071537/",
+   "date": "2026-11-23",
+   "authors": "Omer SB",
+   "doi": "10.1001/jama.2026.25491",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071400",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery.",
+   "title_zh": "全静脉麻醉与挥发性吸入麻醉以及非心脏大手术后的苏醒。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071400/",
+   "date": "2026-11-23",
+   "authors": "van Zuylen ML, Sperna Weiland NH, Kampman JM",
+   "doi": "10.1001/jama.2026.21847",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "外科",
+    "麻醉/重症"
+   ]
+  },
+  {
+   "pmid": "43071399",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery.",
+   "title_zh": "全静脉麻醉与挥发性吸入麻醉以及非心脏大手术后的苏醒。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071399/",
+   "date": "2026-11-23",
+   "authors": "Zhang W, Bo L",
+   "doi": "10.1001/jama.2026.21850",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "外科",
+    "麻醉/重症"
+   ]
+  },
+  {
+   "pmid": "43071397",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Hypertrophic Cardiomyopathy: A Review.",
+   "title_zh": "肥厚型心肌病：综述。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071397/",
+   "date": "2026-11-23",
+   "authors": "Ommen SR",
+   "doi": "10.1001/jama.2026.21415",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071387",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery.",
+   "title_zh": "全静脉麻醉与挥发性吸入麻醉以及非心脏大手术后的苏醒。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071387/",
+   "date": "2026-11-23",
+   "authors": "Yang G, Chu Q",
+   "doi": "10.1001/jama.2026.21844",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "外科",
+    "麻醉/重症"
+   ]
+  },
+  {
+   "pmid": "43071384",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery-Reply.",
+   "title_zh": "全静脉麻醉与挥发性吸入麻醉以及非心脏大手术后的苏醒——答复。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071384/",
+   "date": "2026-11-23",
+   "authors": "Yeung J, Hill L, Jhanji S",
+   "doi": "10.1001/jama.2026.21838",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "外科",
+    "麻醉/重症"
+   ]
+  },
+  {
+   "pmid": "43071365",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "The Stories We Tell Ourselves.",
+   "title_zh": "我們 只是 我們 告訴 自己 的 故事 。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071365/",
+   "date": "2026-11-23",
+   "authors": "Andoh JE",
+   "doi": "10.1001/jama.2026.23153",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071363",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Postherpetic Neuralgia.",
+   "title_zh": "带状疱疹后神经痛。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071363/",
+   "date": "2026-11-23",
+   "authors": "Vollert J, Attal N, Baron R",
+   "doi": "10.1001/jama.2026.19825",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071359",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Total Intravenous vs Volatile Inhalational Anesthesia and Recovery From Major Noncardiac Surgery.",
+   "title_zh": "全静脉麻醉与挥发性吸入麻醉以及非心脏大手术后的苏醒。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071359/",
+   "date": "2026-11-23",
+   "authors": "Vikram S, Tse C, Coeckelenbergh S",
+   "doi": "10.1001/jama.2026.21841",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器",
+    "外科",
+    "麻醉/重症"
+   ]
+  },
+  {
+   "pmid": "43071358",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Some Lessons of War-Time Undernutrition.",
+   "title_zh": "战争时期营养不良的一些教训。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071358/",
+   "date": "2026-11-23",
+   "doi": "10.1001/jama.2025.16146",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
   {
    "pmid": "43039013",
    "journal": "The Lancet",
@@ -447,6 +870,68 @@
    ]
   },
   {
+   "pmid": "43071597",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "From Cold War Politics to Hot Domestic Politics - The Epidemic Intelligence Service at 75.",
+   "title_zh": "从冷战政治到国内热点政治——流行病情报处成立75周年。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071597/",
+   "date": "2026-11-21",
+   "authors": "Fairchild AL, Colgrove J",
+   "doi": "10.1056/NEJMp2606018",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071596",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Papulopustular Rosacea Associated with Demodex Mites.",
+   "title_zh": "与蠕形螨相关的丘疹脓疱型酒糟鼻。",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071596/",
+   "date": "2026-11-21",
+   "authors": "Rivera Silva G, Martinez Fernandez P",
+   "doi": "10.1056/NEJMicm2609236",
+   "study_type": "病例报告",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071589",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Declining Fertility Rates - The Role of Assisted Reproductive Technology.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071589/",
+   "date": "2026-11-21",
+   "authors": "Dahdouh EM, Balayla J",
+   "doi": "10.1056/NEJMp2611049",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43071587",
+   "journal": "New England Journal of Medicine",
+   "journal_abbr": "N Engl J Med",
+   "title_en": "Two Ways of Seeing.",
+   "citation": "N Engl J Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43071587/",
+   "date": "2026-11-21",
+   "authors": "Lee J",
+   "doi": "10.1056/NEJMp2606324",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
    "pmid": "43064415",
    "journal": "BMJ",
    "journal_abbr": "BMJ",
@@ -633,7 +1118,6 @@
    "link": "https://pubmed.ncbi.nlm.nih.gov/43062988/",
    "date": "2026-11-20",
    "doi": "10.1001/jama.2025.16137",
-   "study_type": "研究论文",
    "departments": [
     "综合"
    ]

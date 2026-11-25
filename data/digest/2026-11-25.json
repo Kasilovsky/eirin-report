@@ -1,0 +1,242 @@
+{
+ "schema_version": 1,
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25T09:42:20+00:00",
+ "provider": "deepseek-chat",
+ "degraded": false,
+ "window_days": 3,
+ "count": 10,
+ "items": [
+  {
+   "pmid": "42911562",
+   "journal": "JAMA",
+   "date": "2026-11-24",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911562/",
+   "title_en": "Rituximab vs Azathioprine for Eosinophilic Granulomatosis With Polyangiitis Maintenance Therapy: A Randomized Clinical Trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "Rituximab 与 Azathioprine 用于嗜酸性肉芽肿性多血管炎维持治疗：一项随机临床试验",
+   "one_liner": "对 EGPA 维持治疗，rituximab 未优于 azathioprine。",
+   "key_finding": "28个月内泼尼松≤7.5 mg/d的缓解时间：rituximab 91.1周 vs azathioprine 96.0周（P=.38）；严重感染46.9% vs 24.5%。",
+   "why_it_matters": "两种维持方案疗效相当，但 rituximab 严重感染更多，选药需权衡感染风险。",
+   "clinical_note": "法国36家医院98例新诊断或复发EGPA，双盲双模拟；主要感染为新冠。",
+   "evidence": "双盲双模拟随机对照试验，98例，法国36家医院",
+   "tags": [
+    "风湿免疫科",
+    "血管炎",
+    "维持治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42832220",
+   "journal": "JAMA",
+   "date": "2026-11-24",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42832220/",
+   "title_en": "Smoking Cessation Among Underserved Patients Referred for Lung Cancer Screening: A Randomized Clinical Trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ],
+   "title_zh": "转诊肺癌筛查的弱势吸烟患者中的戒烟干预：一项随机临床试验",
+   "one_liner": "加经济激励可提高弱势人群戒烟率。",
+   "key_finding": "6个月持续戒烟率：常规4.3%、免费药物5.1%、经济激励8.8%、激励加移动工具7.2%；激励较常规高4.6%。",
+   "why_it_matters": "免费药物单独加常规无额外获益，经济激励是提升戒烟的有效手段。",
+   "clinical_note": "美国4个医疗系统3220例弱势吸烟者；戒烟率整体偏低，随访6个月。",
+   "evidence": "随机对照试验，3220例，美国4系统5中心",
+   "tags": [
+    "戒烟",
+    "肺癌筛查",
+    "公共卫生"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42669065",
+   "journal": "JAMA",
+   "date": "2026-11-24",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42669065/",
+   "title_en": "Gene Silencer Therapy in Transthyretin Amyloid Cardiomyopathy: A Meta-Analysis of Outcomes Trials.",
+   "study_type": "Meta 分析",
+   "departments": [
+    "循环器",
+    "遗传/基因"
+   ],
+   "title_zh": "转甲状腺素蛋白淀粉样心肌病中的基因沉默治疗：结局试验的 Meta 分析",
+   "one_liner": "基因沉默治疗可降低 ATTR-CM 死亡和心血管事件。",
+   "key_finding": "主要终点降低19%（RR 0.81，95% CI 0.69-0.94）；全因死亡 HR 0.74；未用稳定剂者获益更明显（RR 0.69）。",
+   "why_it_matters": "支持基因沉默用于 ATTR-CM，但已用 TTR 稳定剂者额外获益不显著。",
+   "clinical_note": "仅2项3期试验、2086例，以男性为主；稳定剂亚组差异可能受混杂影响。",
+   "evidence": "Meta 分析，2项3期试验，2086例",
+   "tags": [
+    "心内科",
+    "淀粉样变",
+    "基因治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43078533",
+   "journal": "BMJ",
+   "date": "2026-11-24",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078533/",
+   "title_en": "GP who saved Premier League footballer struck off for sexual relationship with patient.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "曾救治英超球员的全科医生因与患者发生性关系被除名",
+   "one_liner": "摘要未给出结果。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计",
+   "tags": [
+    "医疗伦理",
+    "职业规范"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43078528",
+   "journal": "BMJ",
+   "date": "2026-11-24",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078528/",
+   "title_en": "Far right Polish politician is indicted for allegedly detaining doctor after she performed an abortion.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "波兰极右翼政客因涉嫌在医生实施堕胎后将其拘留而被起诉",
+   "one_liner": "波兰极右翼政客因医生实施堕胎后将其拘留而遭起诉。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "涉及医生执业安全与堕胎相关法律冲突，值得关注医疗法律环境。",
+   "clinical_note": "",
+   "evidence": "新闻简讯，无研究设计与样本量",
+   "tags": [
+    "医疗法律",
+    "妇产科",
+    "公共卫生政策"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43078527",
+   "journal": "BMJ",
+   "date": "2026-11-24",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078527/",
+   "title_en": "NHS Grampian: Inquiry will be held over surgical deaths \"cover-up\".",
+   "study_type": "研究论文",
+   "departments": [
+    "外科"
+   ],
+   "title_zh": "NHS Grampian：将就手术死亡「掩盖」事件展开调查",
+   "one_liner": "NHS Grampian 将就手术死亡被指掩盖一事展开调查。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "涉及手术安全与医疗事故透明度，关系患者信任与监管问责。",
+   "clinical_note": "",
+   "evidence": "新闻简讯，无研究设计与样本量",
+   "tags": [
+    "医疗质量",
+    "外科",
+    "卫生政策"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43078524",
+   "journal": "BMJ",
+   "date": "2026-11-24",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078524/",
+   "title_en": "Breastfeeding and codeine: Lancet retracts influential study.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "母乳喂养与可待因：Lancet 撤回一项有影响力的研究",
+   "one_liner": "Lancet 撤回一项关于母乳喂养与可待因的研究。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "影响产后镇痛用药与哺乳期安全建议的证据基础。",
+   "clinical_note": "",
+   "evidence": "新闻简讯，无研究设计与样本量",
+   "tags": [
+    "妇产科",
+    "临床药理",
+    "证据质量"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43078523",
+   "journal": "BMJ",
+   "date": "2026-11-24",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078523/",
+   "title_en": "UK GPs are most stressed and likely to quit profession, international survey reports.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "国际调查显示英国全科医生压力最大、最可能离职",
+   "one_liner": "国际调查称英国全科医生压力最大、最想离职。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "反映基层医疗人力危机，关系医疗服务可持续性。",
+   "clinical_note": "",
+   "evidence": "国际调查，样本量与规模未在摘要给出",
+   "tags": [
+    "全科医学",
+    "职业健康",
+    "卫生人力"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43078113",
+   "journal": "Lancet",
+   "date": "2026-11-24",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078113/",
+   "title_en": "Sexual wellbeing in Britain: findings from the fourth National Survey of Sexual Attitudes and Lifestyles (Natsal-4).",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "英国性福祉状况：第四次全国性态度与生活方式调查（Natsal-4）结果",
+   "one_liner": "英国约七分之一成年人当前性福祉偏低，女性和男性比例相近。",
+   "key_finding": "加权患病率女性14.3%（95% CI 12.6-16.3）、男性13.7%（11.7-15.9）；高性福祉女性20.7%低于男性24.4%（p=0.024）。",
+   "why_it_matters": "性福祉不平等分布，且与性健康模式不同，提示人口健康政策与干预应将其纳入评估。",
+   "clinical_note": "横断面关联研究，16-59岁有性经历者4160人；不能推断因果。",
+   "evidence": "全国代表性横断面调查，4160人，英国",
+   "tags": [
+    "性健康",
+    "心理健康",
+    "公共卫生"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "43078112",
+   "journal": "Lancet",
+   "date": "2026-11-24",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078112/",
+   "title_en": "Prevalence and trends in sexual behaviour in Britain from 1990 to 2024: findings from the repeated cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "1990至2024年英国性行为患病率与趋势：重复横断面Natsal调查结果",
+   "one_liner": "英国年轻人无性经历比例上升，同性性行为报告增加，性频率下降。",
+   "key_finding": "16-24岁女性从未有性经历从18.9%升至37.7%，男性18.2%升至28.4%；16-44岁同性性行为女性6.8%升至14.0%、男性4.0%升至12.3%。",
+   "why_it_matters": "性行为模式显著变化，性与生殖健康服务需适应新需求与网络性活动等新风险。",
+   "clinical_note": "重复横断面概率抽样，Natsal-4共6719人；趋势为群体层面描述。",
+   "evidence": "重复横断面调查，6719人，英国",
+   "tags": [
+    "性健康",
+    "公共卫生",
+    "青少年健康"
+   ],
+   "confidence": "high"
+  }
+ ]
+}

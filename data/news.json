@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-24T10:45:55+00:00",
+ "generated_at": "2026-11-25T09:42:03+00:00",
  "window_days": 180,
- "count": 1248,
+ "count": 1290,
  "journals": [
   {
    "abbr": "N Engl J Med",
@@ -12,17 +12,17 @@
   {
    "abbr": "Lancet",
    "name": "The Lancet",
-   "count": 171
+   "count": 178
   },
   {
    "abbr": "JAMA",
    "name": "JAMA",
-   "count": 294
+   "count": 320
   },
   {
    "abbr": "BMJ",
    "name": "BMJ",
-   "count": 219
+   "count": 226
   },
   {
    "abbr": "Nat Med",
@@ -32,7 +32,7 @@
   {
    "abbr": "Cell",
    "name": "Cell",
-   "count": 139
+   "count": 141
   },
   {
    "abbr": "Sci Transl Med",
@@ -42,11 +42,1465 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 30,
-  "cache_size": 1200,
-  "translate_fails": 5
+  "translate_used": 48,
+  "cache_size": 1242,
+  "translate_fails": 2
  },
  "articles": [
+  {
+   "pmid": "43078533",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "GP who saved Premier League footballer struck off for sexual relationship with patient.",
+   "title_zh": "因与患者发生性关系而被除名的全科医生曾救治过英超足球运动员。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101566",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078533/",
+   "date": "2026-11-24",
+   "authors": "Dyer C",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101566",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078529",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Calcium and vitamin D: balancing population prevention with safety.",
+   "title_zh": "钙和维生素D：在人群预防与安全性之间取得平衡。",
+   "summary_en": "",
+   "summary_zh": "【通信】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101508",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078529/",
+   "date": "2026-11-24",
+   "authors": "Bolland MJ, Avenell A, Grey A",
+   "author_count": 3,
+   "doi": "10.1136/bmj-2026-101508",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078528",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Far right Polish politician is indicted for allegedly detaining doctor after she performed an abortion.",
+   "title_zh": "波兰极右翼政治家因涉嫌在一名医生实施堕胎手术后将其拘留而被起诉。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101570",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078528/",
+   "date": "2026-11-24",
+   "authors": "Howard S",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101570",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078527",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "NHS Grampian: Inquiry will be held over surgical deaths \"cover-up\".",
+   "title_zh": "NHS Grampian：将就手术死亡“掩盖”事件进行调查。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101571",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078527/",
+   "date": "2026-11-24",
+   "authors": "Christie B",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101571",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "外科"
+   ]
+  },
+  {
+   "pmid": "43078525",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "New non-invasive endometriosis tests lack evidence.",
+   "title_zh": "新的非侵入性子宫内膜异位症检测缺乏证据。",
+   "summary_en": "",
+   "summary_zh": "【述评】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101513",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078525/",
+   "date": "2026-11-24",
+   "authors": "Hapangama DK, Maclean A, Morton H",
+   "author_count": 3,
+   "doi": "10.1136/bmj-2026-101513",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078524",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Breastfeeding and codeine: Lancet retracts influential study.",
+   "title_zh": "母乳喂养与可待因：柳叶刀撤回具有影响力的研究。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101568",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078524/",
+   "date": "2026-11-24",
+   "authors": "Iacobucci G",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101568",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078523",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "UK GPs are most stressed and likely to quit profession, international survey reports.",
+   "title_zh": "国际调查报告显示，英国全科医生压力最大，最有可能退出该行业。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】BMJ 刊载。原文未附结构化摘要。",
+   "citation": "BMJ. 2026; 395: e101572",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078523/",
+   "date": "2026-11-24",
+   "authors": "Wise J",
+   "author_count": 1,
+   "doi": "10.1136/bmj-2026-101572",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078113",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Sexual wellbeing in Britain: findings from the fourth National Survey of Sexual Attitudes and Lifestyles (Natsal-4).",
+   "title_zh": "英国的性健康：第四次全国性态度和生活方式调查（Natsal-4）的结果。",
+   "summary_en": "BACKGROUND: Sexual wellbeing is an individual state of feeling respected, safe, and comfortable with sex and sexuality, and having self-esteem, agency, and support in one's sexual life. It is related to, but distinct from, sexual function and sexual health. The epidemiology of sexual wellbeing in a general population is not well understood. We aimed to examine inequalities in low sexual wellbeing, and discover associations with sexual behaviour, sexual and reproductive health experiences, and general and mental health. We sought to understand which individual items within our validated 13-item measure of sexual wellbeing (the Natsal-SW) are most strongly associated with key sexual health behaviours and indicators. METHODS: We conducted the fourth National Survey of Sexual Attitudes and Lif",
+   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078113/",
+   "date": "2026-11-24",
+   "authors": "Mitchell KR, Wybrant M, Gascoyne C, Palmer M, Macdowall W, Bonell C",
+   "author_count": 20,
+   "doi": "10.1016/S0140-6736(26)01713-7",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078112",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Prevalence and trends in sexual behaviour in Britain from 1990 to 2024: findings from the repeated cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
+   "title_zh": "1990年至2024年英国性行为的流行情况和趋势：来自重复性横断面全国性态度和生活方式调查（Natsal）的结果。",
+   "summary_en": "BACKGROUND: Contemporary data on sexual behaviour are needed to inform and evaluate sexual and reproductive health strategies and services and understand societal shifts. In this assessment of the National Surveys of Sexual Attitudes and Lifestyles (Natsal), we aimed to provide up-to-date prevalence estimates and examine changes in key sexual behaviours in Britain reported between 1990 and 2024. METHODS: The Natsal study is repeat cross-sectional probability-sample surveys of the British population, undertaken approximately decennially since 1990. Natsal-4 (2022-24) used interviewer-administered and self-completion questionnaires, among two probability samples: an address-based sample and a probability panel. Data were weighted to broadly align with Britain's sociodemographic structure. In",
+   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078112/",
+   "date": "2026-11-24",
+   "authors": "Clifton S, Muschialli L, Paul E, Knuppel A, Mitchell KR, Lewis R",
+   "author_count": 23,
+   "doi": "10.1016/S0140-6736(26)01766-6",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078111",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Sexually transmitted infections, behavioural risks, and uptake of sexual health services in Britain from 2010 to 2024: findings from the repeated cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
+   "title_zh": "2010年至2024年英国的性传播感染、行为风险和性健康服务利用情况：来自重复性横断面全国性态度和生活方式调查（Natsal）的结果。",
+   "summary_en": "BACKGROUND: Sexually transmitted infection (STI) diagnoses have increased in Britain since 2010, alongside major changes to sexual health policy, services, and disruptions owing to the COVID-19 pandemic. Meanwhile, sexual activity has decreased at population level, and more people report same-sex behaviours. To understand implications for HIV and STI control, we examined the general population prevalence of three STIs, sexual behaviours associated with STIs, and uptake of sexual health services, including HIV and chlamydia testing. METHODS: We conducted the fourth National Surveys of Sexual Attitudes and Lifestyles (Natsal-4) between Sept 20, 2022, and April 5, 2024. In this analysis, we used cross-sectional data from 5949 sexually experienced (who reported ever having sex) participants ag",
+   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078111/",
+   "date": "2026-11-24",
+   "authors": "Knuppel A, Ogaz D, Trickett E, Gibbs J, Koumi X, Copas A",
+   "author_count": 22,
+   "doi": "10.1016/S0140-6736(26)01605-3",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43078110",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Human papillomavirus (HPV) infection, vaccination, and cervical screening in Britain from 1999 to 2024: findings from the repeated cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
+   "title_zh": "1999年至2024年英国的人乳头瘤病毒（HPV）感染、疫苗接种和宫颈筛查：来自重复性横断面全国性态度和生活方式调查（Natsal）的结果。",
+   "summary_en": "BACKGROUND: Human papillomavirus (HPV) vaccination and cervical screening have substantially reduced overall cervical cancer risk, but differences in uptake must be quantified to inform equitable access. This study aimed to provide population-level evidence of the impact of HPV vaccination on HPV types 16 and 18 (hereafter HPV-16/18) prevalence in England, Scotland, and Wales (hereafter Britain), and uptake of cervical cancer prevention interventions (ie, vaccination and screening), 15 years after the introduction of the vaccination programme in 2008. METHODS: We conducted the National Surveys of Sexual Attitudes and Lifestyles (Natsal), which are nationally representative, cross-sectional population surveys with individual-level data and HPV testing of biosamples. Data from Natsal-2 (1999",
+   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078110/",
+   "date": "2026-11-24",
+   "authors": "Trickett E, Soldan K, Beddows S, Gascoyne C, Panwar K, Copas A",
+   "author_count": 21,
+   "doi": "10.1016/S0140-6736(26)01554-0",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43078109",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Population surveys reveal generational changes in sexual and reproductive health.",
+   "title_zh": "人口调查揭示了性健康和生殖健康方面的代际变化。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078109/",
+   "date": "2026-11-24",
+   "authors": "Carter A, Guy R, Ogilvie E, Low N",
+   "author_count": 4,
+   "doi": "10.1016/S0140-6736(26)02340-8",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078108",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Sexual and reproductive health: beyond the headlines.",
+   "title_zh": "性健康和生殖健康：超越头条新闻。",
+   "summary_en": "",
+   "summary_zh": "【述评】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078108/",
+   "date": "2026-11-24",
+   "authors": "The Lancet",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02353-6",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078107",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Strengthened inequality monitoring is needed to progress global health equity goals.",
+   "title_zh": "需要加强对不平等现象的监测，以推动实现全球健康公平目标。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078107/",
+   "date": "2026-11-24",
+   "authors": "Hosseinpoor AR, Kirkby K, Bergen N, Schlotheuber A, Badache A, Yusupov Y",
+   "author_count": 7,
+   "doi": "10.1016/S0140-6736(26)02259-2",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "公共卫生"
+   ]
+  },
+  {
+   "pmid": "43078101",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "A shared interbacterial membrane underlies mycobacterial cording.",
+   "title_zh": "分枝杆菌索状结构的基础是共有的菌间膜。",
+   "summary_en": "Virulent mycobacteria grow into mechanically resilient serpentine cords, yet how individual cells coordinate growth, division, and adhesion to form cords remains unknown. Here, combining live-cell fluorescence microscopy with cryo-electron tomography, we show that snapping division generates a shared interbacterial membrane (IBM) between daughter cells, in which each bacterium contributes one leaflet continuous with the inner leaflet of the mycomembrane. During cord formation, the IBM extends laterally as the daughter cells align along a common axis, restricting the outer mycomembrane leaflet largely to the exterior. The increased IBM interleaflet spacing is consistent with the retention of trehalose mycolates in both leaflets. In Mycobacterium tuberculosis, an interleaflet density is asso",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078101/",
+   "date": "2026-11-24",
+   "authors": "Petersen M, Mishra R, Weber MS, Rafalik A, Acharya B, Brown TP",
+   "author_count": 23,
+   "doi": "10.1016/j.cell.2026.11.002",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43076905",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Signs.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【评论】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1879",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43076905/",
+   "date": "2026-11-24",
+   "authors": "Geskey J",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.14852",
+   "study_type": "评论",
+   "pubtypes": [
+    "Journal Article",
+    "Comment"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43076904",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Signs, Both Clinical and Poetic.",
+   "title_zh": "征兆，既有临床的，也有诗意的。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1879",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43076904/",
+   "date": "2026-11-24",
+   "authors": "Campo R",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.14855",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43076225",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Prehospital Antibiotics for Patients With Suspected Sepsis: Research Summary.",
+   "title_zh": "疑似脓毒症患者的院前抗生素治疗：研究综述。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2625756",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43076225/",
+   "date": "2026-11-24",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.25756",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43076208",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Prehospital Fluid Resuscitation for Patients With Suspected Sepsis: The PITSTOP-Fluids Factorial Randomized Clinical Trial.",
+   "title_zh": "疑似脓毒症患者的院前液体复苏：PITSTOP-Fluids因子随机临床试验。",
+   "summary_en": "IMPORTANCE: Early resuscitation with intravenous fluids is recommended for patients with sepsis. OBJECTIVE: To determine the effect of liberal vs more conservative fluid resuscitation strategies in the ambulance on mortality among patients with suspected sepsis. DESIGN, SETTING, AND PARTICIPANTS: Multicenter, 2 × 2 factorial randomized clinical trial conducted by 4 paramedic services and their destination hospitals in Ontario, Canada. Participants were adults with suspected sepsis, defined as suspected infection, fever (≥38.0 °C), and hypotension (systolic blood pressure [SBP] <100 mm Hg), and obtainable intravenous access. Patients were enrolled between March 23, 2020, and August 20, 2025, with last follow-up in December 2025. INTERVENTION: Patients were randomized to receive liberal flui",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43076208/",
+   "date": "2026-11-24",
+   "authors": "Scales DC, Rogowsky A, Seymour CW, Burry L, Christenson J, Daneman N",
+   "author_count": 20,
+   "doi": "10.1001/jama.2026.25614",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43076185",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Prehospital Fluid Resuscitation for Patients With Suspected Sepsis: Research Summary.",
+   "title_zh": "疑似脓毒症患者的院前液体复苏：研究摘要。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026: e2625735",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43076185/",
+   "date": "2026-11-24",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.25735",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "43076168",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Prehospital Antibiotics for Patients With Suspected Sepsis: The PITSTOP-Antibiotics Factorial Randomized Clinical Trial.",
+   "title_zh": "疑似脓毒症患者的院前抗生素治疗：PITSTOP-抗生素因子随机临床试验。",
+   "summary_en": "IMPORTANCE: Early treatment with antibiotics is considered an important intervention to reduce mortality for patients with sepsis. OBJECTIVE: To determine the effect of earlier treatment with antibiotics in the ambulance on 90-day mortality compared with usual treatment in the emergency department. DESIGN, SETTING, AND PARTICIPANTS: This multicenter, 2 × 2 factorial randomized, placebo-controlled trial was conducted among 4 paramedic services and their destination hospitals in Ontario, Canada. Participants were adults with suspected sepsis, defined as suspected infection, fever (≥38.0 °C), and hypotension (systolic blood pressure <100 mm Hg). Patients were enrolled between March 23, 2020, and August 20, 2025, with final follow-up in December 2025. INTERVENTIONS: Patients were randomized to",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43076168/",
+   "date": "2026-11-24",
+   "authors": "Scales DC, Rogowsky A, Seymour CW, Burry L, Christenson J, Daneman N",
+   "author_count": 20,
+   "doi": "10.1001/jama.2026.25627",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "42961779",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "JAMA Editors' Summary Podcast: October 30, 2026.",
+   "title_zh": "JAMA编辑摘要播客：2026年10月30日",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): e2516113",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42961779/",
+   "date": "2026-11-24",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2025.16113",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42961445",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Survey Suggests GLP-1 Drugs May Curb Alcohol Use for Many Patients.",
+   "title_zh": "调查提示GLP-1药物或可减少许多患者的酒精使用",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1797",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42961445/",
+   "date": "2026-11-24",
+   "authors": "Anderer S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20035",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42961443",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Hypertensive Disorders During Pregnancy Increased 74% in the US.",
+   "title_zh": "美国妊娠期高血压疾病增加74%",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1797",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42961443/",
+   "date": "2026-11-24",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20036",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "妇产"
+   ]
+  },
+  {
+   "pmid": "42961441",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Annual Dementia Incidence May Reach 25 Million by 2050.",
+   "title_zh": "到2050年年度痴呆发病率或达2500万",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1797",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42961441/",
+   "date": "2026-11-24",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20037",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "精神"
+   ]
+  },
+  {
+   "pmid": "42961439",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "FDA Approves New Drug to Treat Herpes Simplex Virus Lesions.",
+   "title_zh": "FDA批准新药治疗单纯疱疹病毒皮损",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1797",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42961439/",
+   "date": "2026-11-24",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20034",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
+   ]
+  },
+  {
+   "pmid": "42961434",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Long-Term Steroid Use Tied to Adverse Cardiovascular Effects.",
+   "title_zh": "长期使用类固醇与不良心血管效应相关",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1797-1798",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42961434/",
+   "date": "2026-11-24",
+   "authors": "Anderer S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20038",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42961433",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Is the Pennsylvania Measles Outbreak the New Normal?",
+   "title_zh": "宾夕法尼亚州麻疹疫情是新常态吗？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1795-1796",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42961433/",
+   "date": "2026-11-24",
+   "authors": "Anderer S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.22533",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42961427",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Intensive BP Lowering Reduces Cardiovascular Risk in Adults With CKD.",
+   "title_zh": "强化降压降低CKD成人心血管风险",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1798",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42961427/",
+   "date": "2026-11-24",
+   "authors": "Richmond S",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.20039",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42961402",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Analysis Asks: Are GLP-1 Drugs Safe in People With Frailty?",
+   "title_zh": "分析提问：GLP-1药物在衰弱人群中安全吗？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1793-1794",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42961402/",
+   "date": "2026-11-24",
+   "authors": "Bock A",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.22482",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42955019",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Review of Low Back Pain-Reply.",
+   "title_zh": "腰痛综述——答复。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1876",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42955019/",
+   "date": "2026-11-24",
+   "authors": "Cashin AG, Chou R, McAuley JH",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.18629",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42954982",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "US Deaths Caused by Law Enforcement-Reply.",
+   "title_zh": "美国执法导致的死亡——回复。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1878",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42954982/",
+   "date": "2026-11-24",
+   "authors": "Raymond-King C, Alang S, Melnick ER",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.18684",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42954971",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "US Deaths Caused by Law Enforcement.",
+   "title_zh": "美国执法导致的死亡。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1877",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42954971/",
+   "date": "2026-11-24",
+   "authors": "Vadher H, Everett M, Dolovich S",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.18681",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42954969",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "US Deaths Caused by Law Enforcement.",
+   "title_zh": "美国执法导致的死亡。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1876-1877",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42954969/",
+   "date": "2026-11-24",
+   "authors": "Sun X, Wang S",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.18678",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42954968",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Review of Low Back Pain.",
+   "title_zh": "下背痛综述",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1874-1875",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42954968/",
+   "date": "2026-11-24",
+   "authors": "Grenier JP",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.18626",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42954966",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Editorials.",
+   "title_zh": "",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1880",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42954966/",
+   "date": "2026-11-24",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2025.16114",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42954964",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Review of Low Back Pain.",
+   "title_zh": "下背痛综述",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1875-1876",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42954964/",
+   "date": "2026-11-24",
+   "authors": "Yahanda AT, Ray WZ, Greenberg JK",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.18623",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42949715",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Diagnosis of Suspected Pulmonary Embolism in Patients With Cancer.",
+   "title_zh": "癌症患者疑似肺栓塞的诊断",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1873-1874",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42949715/",
+   "date": "2026-11-24",
+   "authors": "Freund Y, Douillet D, Kline J",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.18617",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "42949714",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Diagnosis of Suspected Pulmonary Embolism in Patients With Cancer-Reply.",
+   "title_zh": "癌症患者疑似肺栓塞的诊断——回复",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1874",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42949714/",
+   "date": "2026-11-24",
+   "authors": "Akerboom B, Klok FA, Huisman MV",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.18620",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "42931748",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Orforglipron for Type 2 Diabetes and Pancreatic Risk Assessment-Reply.",
+   "title_zh": "Orforglipron用于2型糖尿病和胰腺风险评估——答复。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1872-1873",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42931748/",
+   "date": "2026-11-24",
+   "authors": "Giorgino F, Ludwig L, Denning M",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.18107",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "消化器",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42931747",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Orforglipron for Type 2 Diabetes and Pancreatic Risk Assessment.",
+   "title_zh": "用于2型糖尿病和胰腺风险评估的Orforglipron。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1871-1872",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42931747/",
+   "date": "2026-11-24",
+   "authors": "Biswas S, Srivastava Y, Jadvani D",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.18104",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "消化器",
+    "内分泌/代谢"
+   ]
+  },
+  {
+   "pmid": "42911580",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Visitors Must Check In.",
+   "title_zh": "访客须登记。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1804-1805",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911580/",
+   "date": "2026-11-24",
+   "authors": "Cohen C",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.21313",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42911577",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Rituximab vs Azathioprine for Eosinophilic Granulomatosis With Polyangiitis Maintenance Therapy: Research Summary.",
+   "title_zh": "利妥昔单抗与硫唑嘌呤用于伴多血管炎的嗜酸性肉芽肿的维持治疗：研究综述。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): e2619124",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911577/",
+   "date": "2026-11-24",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.19124",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42911571",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Rituximab Maintenance in Eosinophilic Granulomatosis With Polyangiitis.",
+   "title_zh": "利妥昔单抗在伴多血管炎的嗜酸性肉芽肿性疾病中的维持治疗。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1809-1811",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911571/",
+   "date": "2026-11-24",
+   "authors": "Cartin-Ceba R, Wechsler ME",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.17893",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42911568",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "A Technology Journalist Looks at AI and Health: A Conversation With Kevin Roose.",
+   "title_zh": "科技记者谈人工智能与健康：与凯文·鲁斯（Kevin Roose）的对话。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): e2617245",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911568/",
+   "date": "2026-11-24",
+   "authors": "Perlis R",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.17245",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Video-Audio Media"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42911562",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Rituximab vs Azathioprine for Eosinophilic Granulomatosis With Polyangiitis Maintenance Therapy: A Randomized Clinical Trial.",
+   "title_zh": "利妥昔单抗与硫唑嘌呤用于伴多血管炎的嗜酸性肉芽肿的维持治疗：一项随机临床试验。",
+   "summary_en": "IMPORTANCE: For patients with eosinophilic granulomatosis with polyangiitis (EGPA), guidelines recommend considering maintenance therapy after achieving remission. Data comparing maintenance therapeutic options are limited. OBJECTIVE: To compare the effects of rituximab and azathioprine maintenance therapies on remission duration for patients with EGPA who recently achieved remission of vasculitis after standard therapy, including prednisone tapering or withdrawal. DESIGN, SETTING, AND PARTICIPANTS: From March 7, 2018, to June 2, 2022, this double-blind, double-dummy, investigator-initiated, superiority, randomized clinical trial enrolled 98 participants with EGPA from 36 hospitals in France. Inclusion eligibility required a new EGPA diagnosis or relapsing EGPA within 30 to 360 days of ach",
+   "summary_zh": "【随机对照试验】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026; 336(20): 1857-1865",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42911562/",
+   "date": "2026-11-24",
+   "authors": "Puéchal X, Pugnet G, Thoreau B, de Moreuil C, Jouneau S, Quéméneur T",
+   "author_count": 25,
+   "doi": "10.1001/jama.2026.15278",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Comparative Study",
+    "Multicenter Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Rituximab",
+    "Azathioprine",
+    "Female",
+    "Male",
+    "Middle Aged",
+    "Double-Blind Method",
+    "Maintenance Chemotherapy",
+    "Immunosuppressive Agents",
+    "Churg-Strauss Syndrome"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42895740",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Accessibility of Publicly Posted Kidney Transplant Waitlist Criteria Under IOTA.",
+   "title_zh": "根据IOTA，公开发布的肾脏移植等待名单标准的无障碍性。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1868-1869",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42895740/",
+   "date": "2026-11-24",
+   "authors": "Lee EY, Rentas CM, McElroy LM, Sheetz KH",
+   "author_count": 4,
+   "doi": "10.1001/jama.2026.18906",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肾脏/泌尿",
+    "移植"
+   ]
+  },
+  {
+   "pmid": "42848392",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "The Ethics of Germline Gene Editing, Revisited.",
+   "title_zh": "再论种系基因编辑的伦理问题。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1799-1800",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42848392/",
+   "date": "2026-11-24",
+   "authors": "Dawson EP, Ross LF",
+   "author_count": 2,
+   "doi": "10.1001/jama.2026.18143",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42842358",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Achieving Better Hypertension Control in Low- and Middle-Income Settings.",
+   "title_zh": "在低收入和中等收入地区实现更好的高血压控制。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1812-1814",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42842358/",
+   "date": "2026-11-24",
+   "authors": "Parati G",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.21519",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42842282",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Hypertension Management and Control in Cienfuegos, Cuba.",
+   "title_zh": "古巴西恩富戈斯的高血压管理和控制。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1869-1871",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42842282/",
+   "date": "2026-11-24",
+   "authors": "Morejón Giraldoni AF, Valdés González Y, Benet Rodríguez M, Pedraza Alejo DL, Ondarsuhu D, Tamayo Muñiz S",
+   "author_count": 8,
+   "doi": "10.1001/jama.2026.19916",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42832244",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Opportunities and Challenges in Tobacco Treatment.",
+   "title_zh": "烟草治疗的机遇与挑战。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1806-1808",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42832244/",
+   "date": "2026-11-24",
+   "authors": "Kathuria H, Fiore MC, McCarthy DE",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.17144",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42832220",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Smoking Cessation Among Underserved Patients Referred for Lung Cancer Screening: A Randomized Clinical Trial.",
+   "title_zh": "被转介进行肺癌筛查的医疗服务不足患者的戒烟情况：一项随机临床试验。",
+   "summary_en": "IMPORTANCE: The Centers for Medicare & Medicaid Services requires that health systems offer smoking cessation services to patients undergoing lung cancer screening. However, the most effective methods to achieve smoking cessation among medically underserved patients undergoing lung cancer screening are unknown. OBJECTIVE: To compare the effectiveness of 4 strategies for promoting smoking cessation among medically underserved persons referred for lung cancer screening. DESIGN, SETTING, AND PARTICIPANTS: This randomized clinical trial included currently smoking individuals referred for lung cancer screening at 4 US health systems (5 centers) who identified as Black, Hispanic, living in a rural area, or being of low socioeconomic status. The first participant was enrolled on May 17, 2021, and",
+   "summary_zh": "【随机对照试验】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026; 336(20): 1815-1824",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42832220/",
+   "date": "2026-11-24",
+   "authors": "Hart JL, Vachani A, Neslund-Dudas CM, Gould MK, Facktor MA, Blady S",
+   "author_count": 22,
+   "doi": "10.1001/jama.2026.17192",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Multicenter Study",
+    "Comparative Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Smoking Cessation",
+    "Female",
+    "Lung Neoplasms",
+    "Male",
+    "Middle Aged",
+    "Aged",
+    "Nicotine Replacement Therapy",
+    "Referral and Consultation",
+    "Early Detection of Cancer"
+   ],
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "42832211",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Smoking Cessation Among Underserved Patients Referred for Lung Cancer Screening: Research Summary.",
+   "title_zh": "被转介进行肺癌筛查的医疗服务不足患者的戒烟情况：研究摘要。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): e2617345",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42832211/",
+   "date": "2026-11-24",
+   "authors": "",
+   "author_count": 0,
+   "doi": "10.1001/jama.2026.17345",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "42804193",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Critically Ill Neonates and Secondary Genomic Findings.",
+   "title_zh": "危重症新生儿和继发性基因组发现。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1801-1803",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42804193/",
+   "date": "2026-11-24",
+   "authors": "Thompson WS, Amendola LM, Korf BR, Giovanni MA",
+   "author_count": 4,
+   "doi": "10.1001/jama.2026.18687",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "42782919",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "What Is Hodgkin Lymphoma?",
+   "title_zh": "什么是霍奇金淋巴瘤？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1884",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42782919/",
+   "date": "2026-11-24",
+   "authors": "Walter KL",
+   "author_count": 1,
+   "doi": "10.1001/jama.2026.16940",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "42776516",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Medicolegal Evaluations for Asylum Seekers.",
+   "title_zh": "对寻求庇护者的医疗法律评估。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
+   "citation": "JAMA. 2026; 336(20): 1866-1867",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42776516/",
+   "date": "2026-11-24",
+   "authors": "Crosby SS, Musalo KB, Heisler M",
+   "author_count": 3,
+   "doi": "10.1001/jama.2026.13082",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42669065",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Gene Silencer Therapy in Transthyretin Amyloid Cardiomyopathy: A Meta-Analysis of Outcomes Trials.",
+   "title_zh": "甲状腺素运载蛋白淀粉样心肌病的基因沉默疗法：一项结果试验的荟萃分析。",
+   "summary_en": "IMPORTANCE: Gene-silencing therapies reduce hepatic transthyretin (TTR) production and have been evaluated in phase 3 trials in TTR amyloid cardiomyopathy (ATTR-CM). However, differences in trial design and background therapies have limited assessment of the overall treatment effect and its consistency according to baseline TTR stabilizer use. OBJECTIVE: To assess the effect of TTR gene-silencing therapies in patients with ATTR-CM. DATA SOURCES AND STUDY SELECTION: PubMed was searched through June 15, 2026, for randomized, placebo-controlled, phase 3 outcome trials of gene-silencing therapies in ATTR-CM. DATA EXTRACTION AND SYNTHESIS: Two reviewers independently extracted data, following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guideline. Fixed-effect",
+   "summary_zh": "【Meta 分析】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026; 336(20): 1846-1856",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42669065/",
+   "date": "2026-11-24",
+   "authors": "Gillmore JD, Hamatani Y, Fontana M, Vaduganathan M, Claggett BL, Garcia-Pavia P",
+   "author_count": 12,
+   "doi": "10.1001/jama.2026.17246",
+   "study_type": "Meta 分析",
+   "pubtypes": [
+    "Journal Article",
+    "Meta-Analysis"
+   ],
+   "mesh": [
+    "Humans",
+    "Cardiomyopathies",
+    "Amyloid Neuropathies, Familial",
+    "Genetic Therapy",
+    "Randomized Controlled Trials as Topic",
+    "Prealbumin",
+    "Cardiovascular Diseases",
+    "Clinical Trials, Phase III as Topic"
+   ],
+   "departments": [
+    "循环器",
+    "遗传/基因"
+   ]
+  },
+  {
+   "pmid": "42669054",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "124I-Evuzamitide Positron Emission Tomography/Computed Tomography for Diagnosing Cardiac Amyloidosis: The REVEAL Nonrandomized Clinical Trial.",
+   "title_zh": "124I-Evuzamitide正电子发射断层扫描/计算机断层扫描用于诊断心脏淀粉样变：REVEAL非随机临床试验。",
+   "summary_en": "IMPORTANCE: Diagnosing cardiac amyloidosis remains challenging because current imaging approaches are limited to transthyretin amyloidosis. A noninvasive test capable of directly imaging cardiac amyloidosis from various amyloid types and in multiple organs could address an important unmet diagnostic need. OBJECTIVE: To evaluate the sensitivity and specificity of 124I-evuzamitide positron emission tomography (PET)/computed tomography (CT) for diagnosing cardiac amyloidosis. DESIGN, SETTING, AND PARTICIPANTS: Prospective, multicenter (18 US centers), single-group study evaluating the efficacy of 124I-evuzamitide to diagnose cardiac amyloidosis. This study was conducted from January 14, 2025, to March 12, 2026, including a 60-day follow-up period. Three physicians with cardiac PET/CT experien",
+   "summary_zh": "【临床试验】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026; 336(20): 1837-1845",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42669054/",
+   "date": "2026-11-24",
+   "authors": "Dorbala S, Maurer MS, Cuddy SAM, AbouEzzeddine OF, Di Carli MF, Dilsizian V",
+   "author_count": 25,
+   "doi": "10.1001/jama.2026.17361",
+   "study_type": "临床试验",
+   "pubtypes": [
+    "Journal Article",
+    "Multicenter Study",
+    "Clinical Trial"
+   ],
+   "mesh": [
+    "Humans",
+    "Positron Emission Tomography Computed Tomography",
+    "Male",
+    "Female",
+    "Amyloidosis",
+    "Aged",
+    "Prospective Studies",
+    "Sensitivity and Specificity",
+    "Middle Aged",
+    "Iodine Radioisotopes"
+   ],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42663420",
+   "journal": "JAMA",
+   "journal_abbr": "JAMA",
+   "title_en": "Electrocardiogram-Based Deep Learning to Prioritize Testing for Transthyretin Amyloid Cardiomyopathy.",
+   "title_zh": "基于心电图的深度学习，用于确定甲状腺素运载蛋白淀粉样心肌病的检测优先级。",
+   "summary_en": "IMPORTANCE: Transthyretin amyloid cardiomyopathy (ATTR-CM) is a treatable cause of heart failure, but diagnosis is often delayed. Accessible tools to prioritize confirmatory evaluation could reduce missed diagnoses when cardiac imaging is limited. OBJECTIVE: To develop and validate a locally deployable artificial intelligence (AI)-enabled system that identifies patients for further ATTR-CM evaluation from routine electrocardiography (ECG) images. DESIGN, SETTING, AND PARTICIPANTS: This diagnostic test study used an AI-ECG model developed within Yale New Haven Health (using ECGs from August 2015-June 2023) and temporally validated (July 2023-July 2025). External validation included 5 multinational cohorts and 3 screening cohorts (older Black and Hispanic adults with heart failure; adults wi",
+   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "citation": "JAMA. 2026; 336(20): 1825-1836",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42663420/",
+   "date": "2026-11-24",
+   "authors": "Croon PM, Batinica B, Dhingra LS, Choi RB, Oikonomou EK, Shankar SV",
+   "author_count": 29,
+   "doi": "10.1001/jama.2026.16785",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article",
+    "Validation Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Electrocardiography",
+    "Cardiomyopathies",
+    "Amyloid Neuropathies, Familial",
+    "Aged",
+    "Deep Learning",
+    "Male",
+    "Sensitivity and Specificity",
+    "Middle Aged"
+   ],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43078100",
+   "journal": "Cell",
+   "journal_abbr": "Cell",
+   "title_en": "Cardiomyocyte-derived circulating extracellular vesicles enable a non-invasive liquid biopsy of human myocardium.",
+   "title_zh": "心肌细胞衍生的循环细胞外囊泡实现了对人肌心的无创液体活检。",
+   "summary_en": "Non-invasive interrogation of difficult-to-sample tissues remains a central challenge in human health. Here, we identify and characterize cardiomyocyte-derived extracellular vesicles (EVs; \"cardiovesicles\") as a liquid interface to the myocardium. Integrating induced pluripotent stem cell-derived cardiomyocytes, genetic models, and multi-omics, we identify two cardiomyocyte-enriched surface markers (POPDC2 and CHRNE), enabling antibody-based cardiovesicle immunocapture from human plasma. Cardiovesicles are enriched for cardiomyocyte transcripts, exhibiting disease-specific transcriptional signatures in heart failure and myocardial infarction. Paired human myocardial tissue-plasma analyses demonstrate cardiac enrichment (versus bulk EVs) and concordance with myocardial single-nucleus transc",
+   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "citation": "Cell. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43078100/",
+   "date": "2026-11-23",
+   "authors": "Gokulnath P, Spanos M, Hutchins E, Meechoovet B, Sheng Q, Lin P",
+   "author_count": 49,
+   "doi": "10.1016/j.cell.2026.10.050",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
   {
    "pmid": "43072860",
    "journal": "BMJ",
@@ -1427,7 +2881,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "Migraine.",
-   "title_zh": "",
+   "title_zh": "偏头痛。",
    "summary_en": "Migraine is a chronic neurovascular disorder characterised by recurrent attacks of moderate-to-severe head pain, accompanied by transient but disabling symptoms such as aura, nausea, vomiting, phonophobia, and photophobia, reflecting the involvement of multiple systems. Migraine affects and disables a large proportion of the global population. The pathogenesis of migraine involves the interplay of genetic and epigenetic factors across complex neurosensory and neurovascular networks. Decades of research have elucidated key components of these pathways, driving the development of mechanism-based therapies that are now transforming clinical practice and substantially improving patients' lives.",
    "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
    "citation": "Lancet. 2026; 408(10569): 2239-2253",
@@ -5166,7 +6620,7 @@
    "title_en": "Nicotinamide Riboside for Patients With Early-Stage Parkinson Disease: The NOPARK Randomized Clinical Trial.",
    "title_zh": "用于早期帕金森病患者的烟酰胺核苷：NOPARK随机临床试验。",
    "summary_en": "IMPORTANCE: Nicotinamide riboside, a nicotinamide adenine dinucleotide precursor, has been proposed as a potential disease-modifying therapy for Parkinson disease based on preclinical and early studies. Whether prolonged oral nicotinamide riboside improves clinical outcomes in Parkinson disease is unknown. OBJECTIVE: To determine whether nicotinamide riboside improves clinical outcomes in Parkinson disease compared with placebo. DESIGN, SETTING, AND PARTICIPANTS: Randomized, double-blind, placebo-controlled, phase 3 clinical trial conducted at 11 centers in Norway. Eligible participants were patients aged 35 years or older with Parkinson disease diagnosed within 2 years before enrollment, Hoehn and Yahr disease stage less than 3, abnormal dopamine transporter scintigraphy findings confirmi",
-   "summary_zh": "【随机对照试验】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(19): 1723-1733",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42848371/",
    "date": "2026-11-17",
@@ -5364,7 +6818,7 @@
    "title_en": "Histologic Features and Clinical Outcomes of Lean Metabolic Dysfunction-Associated Steatotic Liver Disease.",
    "title_zh": "非肥胖型代谢功能障碍相关性脂肪性肝病的组织学特征和临床结局。",
    "summary_en": "IMPORTANCE: Although metabolic dysfunction-associated steatotic liver disease (MASLD) is traditionally associated with obesity, it is increasingly recognized in individuals with normal weight (ie, lean MASLD). OBJECTIVE: To characterize the clinical, histologic, and prognostic features of lean MASLD, and evaluate the performance of noninvasive tests for advanced fibrosis. DESIGN, SETTING, AND PARTICIPANTS: Multinational, retrospective observational study of adults with biopsy-confirmed MASLD from 41 countries from the Global MASLD project. EXPOSURES: Lean vs overweight/obese MASLD, defined by body mass index (BMI) and waist circumference. MAIN OUTCOMES AND MEASURES: Primary outcomes were all-cause mortality and clinical events (hepatocellular carcinoma, hepatic decompensation, liver transp",
-   "summary_zh": "【观察性研究】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【观察性研究】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(19): 1745-1756",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42814439/",
    "date": "2026-11-17",
@@ -5473,7 +6927,7 @@
    "title_en": "Cardiovascular Magnetic Resonance to Guide Defibrillator Implantation for LVEF of 36% to 50%: The CMR GUIDE Randomized Clinical Trial.",
    "title_zh": "心血管磁共振引导除颤器植入用于LVEF为36%至50%的患者：CMR GUIDE随机临床试验。",
    "summary_en": "IMPORTANCE: Current guidelines do not recommend primary prevention implantable cardioverter-defibrillators (ICDs) unless a patient's left ventricular ejection fraction (LVEF) is 35% or less. Many sudden cardiac deaths (SCD) occur when LVEF is 36% to 50%. Myocardial scar (a key arrhythmic substrate) can be assessed by late gadolinium enhancement on cardiovascular magnetic resonance (CMR), but robust evidence is lacking regarding a scar-based approach to ICD insertion. OBJECTIVE: To determine whether implantation of ICDs reduces SCD or hemodynamically significant ventricular arrhythmia (HSVA) in patients with an LVEF of 36% to 50% and myocardial scar. DESIGN, SETTING, AND PARTICIPANTS: An open-label randomized clinical trial enrolled adults between 2015 and 2022 who had ischemic or nonischem",
-   "summary_zh": "【随机对照试验】JAMA 刊载。关键数据：36%、50%。结论要点见下方原文摘要。",
+   "summary_zh": "【随机对照试验】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026; 336(19): 1734-1744",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42663169/",
    "date": "2026-11-17",
@@ -5810,7 +7264,7 @@
    "title_en": "A Plasma eMTBR-Tau Immunoassay for Detection of Advanced Insoluble Tau Pathology.",
    "title_zh": "用于检测晚期不溶性Tau蛋白病理的血浆eMTBR-Tau免疫测定。",
    "summary_en": "IMPORTANCE: Blood biomarkers that reflect neurofibrillary tau burden, a defining hallmark of Alzheimer disease (AD), remain limited. Endogenously cleaved microtubule-binding region tau 243 (eMTBR-tau243) has shown promise when measured by mass spectrometry; a scalable immunoassay could broaden research access and support clinical evaluation. OBJECTIVE: To determine whether plasma levels of eMTBR-tau measured by a novel immunoassay are associated with tau neurofibrillary tangle pathology defined by neuropathology and tau positron emission tomography (PET). DESIGN, SETTING, AND PARTICIPANTS: This cross-sectional study included brain donors with antemortem plasma from 2 US autopsy cohorts, and individuals with plasma samples and tau PET from 2 imaging cohorts in Canada and Sweden, with visits",
-   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43038566/",
    "date": "2026-11-16",
@@ -5972,7 +7426,7 @@
    "title_en": "Once-Weekly Ribupatide for Weight Loss in Adults in China With Overweight or Obesity: The GEMINI-1 Randomized Clinical Trial.",
    "title_zh": "每周一次利巴派肽用于中国超重或肥胖成人减重的研究：GEMINI-1随机临床试验。",
    "summary_en": "IMPORTANCE: Obesity is a major health problem in China; more pharmacotherapy choices for long-term weight management are needed. OBJECTIVE: To evaluate the efficacy and safety of once-weekly subcutaneous ribupatide, a dual glucose-dependent insulinotropic polypeptide/glucagon-like peptide-1 receptor agonist, for weight loss in adults in China with overweight or obesity without diabetes. DESIGN, SETTING, AND PARTICIPANTS: This multicenter, randomized, double-blind, placebo-controlled, phase 3 clinical trial was conducted at 55 sites in China. From May to June 2024, adults without diabetes who had a body mass index of 28 or greater or 24 or greater with at least 1 weight-related comorbidity were enrolled, with final follow-up on June 20, 2025. INTERVENTIONS: Participants were randomized to r",
-   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43035098/",
    "date": "2026-11-15",
@@ -6019,7 +7473,7 @@
    "title_en": "Tirzepatide in Adolescents With Obesity: The SURMOUNT-ADOLESCENTS Randomized Clinical Trial.",
    "title_zh": "替尔泊肽用于肥胖青少年：SURMOUNT-ADOLESCENTS随机临床试验。",
    "summary_en": "IMPORTANCE: Information on the effects of tirzepatide, a once-weekly glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist approved for obesity management in adults with obesity, remains limited in adolescents. OBJECTIVE: To evaluate the efficacy and safety of once-weekly tirzepatide in adolescents with obesity or overweight with at least 1 obesity-related complication. DESIGN, SETTING, AND PARTICIPANTS: This phase 3, randomized, double-blind, 72-week clinical trial was conducted at 31 medical research centers and hospitals in Canada, the Czech Republic, Israel, Italy, Poland, and the US from October 16, 2023, to June 2, 2026, among adolescents aged 12 years to younger than 18 years with obesity or overweight with at least 1 obesity-related complication.",
-   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43035096/",
    "date": "2026-11-15",
@@ -6734,7 +8188,7 @@
    "title_en": "Fluid eMTBR-tau243 as a Biomarker of Mixed 3-Repeat and 4-Repeat Tau Pathology.",
    "title_zh": "作为混合3重复和4重复Tau蛋白病理的生物标志物的体液eMTBR-tau243。",
    "summary_en": "IMPORTANCE: Neurodegenerative diseases with abnormal tau protein aggregation in the brain (ie, tauopathies) can be classified by the tau isoform that accumulates: 3-repeat (3R), 4-repeat (4R), or mixed 3R/4R tauopathies, which include chronic traumatic encephalopathy (CTE), some forms of frontotemporal lobar degeneration, and Alzheimer disease (AD). The endogenously cleaved form of tau microtubule binding region containing the residue 243 (eMTBR-tau243) can be detected in cerebrospinal fluid (CSF) and blood and has been associated with AD tau pathology, but its specificity and biological interpretation in non-AD tauopathies remains unclear. OBJECTIVE: To evaluate biofluid eMTBR-tau243 in a range of tauopathies. DESIGN, SETTING, AND PARTICIPANTS: This case-control study included 4 bioreposi",
-   "summary_zh": "【研究论文】JAMA 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
    "citation": "JAMA. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43026662/",
    "date": "2026-11-13",
@@ -15482,7 +16936,7 @@
    "title_en": "Retinoblastoma.",
    "title_zh": "视网膜母细胞瘤。",
    "summary_en": "Retinoblastoma, the most common primary intraocular malignancy of childhood, represents a substantial global health equity concern, exemplifying profound disparities in global burden and outcome despite being a largely curable cancer. Retinoblastoma is thought to arise from cone photoreceptor precursor cells of the developing retina, mainly driven by biallelic inactivation of the RB1 tumour suppressor gene. Fewer than 2% of cases have no detectable RB1 pathogenic variant; approximately half of these cases instead show high-level amplification of the MYCN oncogene. Diagnosis and monitoring currently rely on clinical examination and multimodal imaging. Emerging molecular diagnostic approaches such as aqueous humour liquid biopsy hold promise for minimally invasive tumour characterisation and",
-   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42982077/",
    "date": "2026-11-04",
@@ -15506,7 +16960,7 @@
    "title_en": "Preparing for responsive management versus renal dialysis in older people living with kidney failure and frailty or multimorbidity in the UK (Prepare for Kidney Care): a two-arm, superiority, parallel-group, open-label, pragmatic, phase 3, individually randomised controlled trial.",
    "title_zh": "英国老年肾衰竭合并衰弱或多种疾病患者接受反应性管理对比肾脏透析的准备（Prepare for Kidney Care）：一项双臂、优效性、平行组、开放标签、实用性、3期、个体随机对照试验。",
    "summary_en": "BACKGROUND: The comparative effectiveness of conservative kidney management and dialysis in older people (aged ≥80 years regardless of frailty and comorbidity or aged 65-79 years if frailty or multimorbidity are present) living with kidney failure is unknown. We aimed to assess the relative effectiveness of preparing for responsive management-a protocolised version of conservative kidney management-and preparing for renal dialysis. METHODS: Prepare for Kidney Care was a two-arm, superiority, parallel-group, open-label, pragmatic, phase 3, individually randomised controlled trial conducted in 31 kidney centres in England, Wales, Scotland, and Northern Ireland. Eligible patients had an estimated glomerular filtration rate below 15 mL/min per 1·73 m2, confirmed by at least one additional read",
-   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42982076/",
    "date": "2026-11-04",
@@ -16385,7 +17839,7 @@
    "title_en": "Long-term outcomes after percutaneous coronary intervention with drug-eluting stents versus coronary artery bypass grafting for left main coronary artery disease: a prospective analysis of the multicentre IRIS-MAIN registry.",
    "title_zh": "药物洗脱支架经皮冠状动脉介入治疗与冠状动脉旁路移植术治疗左主干冠状动脉疾病的长期结局：多中心IRIS-MAIN注册研究的前瞻性分析。",
    "summary_en": "BACKGROUND: Percutaneous coronary intervention (PCI) with drug-eluting stents has been widely used to treat patients with left main coronary artery disease; however, long-term comparative outcomes versus coronary artery bypass grafting (CABG) in real-world populations remain poorly characterised. We aimed to compare long-term all-cause mortality after PCI or CABG in Asian patients with unprotected left main coronary artery disease. METHODS: We analysed prospectively collected data from the multicentre IRIS-MAIN registry, conducted at 46 hospitals in South Korea, India, Japan, Indonesia, and Malaysia. The registry enrolled adults aged 18 years or older with unprotected left main coronary artery disease (defined as a stenosis diameter of ≥50% as visually estimated on angiography), who had be",
-   "summary_zh": "【研究论文】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42976899/",
    "date": "2026-11-03",
@@ -19777,7 +21231,7 @@
    "title_en": "Reframing the manosphere: a public health response to a commercial ecosystem.",
    "title_zh": "重新审视男性圈：对商业生态系统的公共卫生应对",
    "summary_en": "The manosphere, a diffuse commercial ecosystem and loose collection of online communities united by shared beliefs about masculinity, misogyny, and male victimisation, is an under-recognised determinant of health harms. This network has been implicated in considerable health harms: widespread mental health impacts, especially in young people; violence against women, girls, and gender minorities; and delegitimising help-seeking in boys and men. In this Viewpoint, we argue that the manosphere is best understood and addressed as a public health problem.",
-   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10566): 1912-1916",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42956776/",
    "date": "2026-10-31",
@@ -20627,213 +22081,6 @@
    ]
   },
   {
-   "pmid": "42961779",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "JAMA Editors' Summary Podcast: October 30, 2026.",
-   "title_zh": "JAMA编辑摘要播客：2026年10月30日",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026: e2516113",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42961779/",
-   "date": "2026-10-30",
-   "authors": "",
-   "author_count": 0,
-   "doi": "10.1001/jama.2025.16113",
-   "study_type": "",
-   "pubtypes": [
-    "Webcast"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42961445",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "Survey Suggests GLP-1 Drugs May Curb Alcohol Use for Many Patients.",
-   "title_zh": "调查提示GLP-1药物或可减少许多患者的酒精使用",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42961445/",
-   "date": "2026-10-30",
-   "authors": "Anderer S",
-   "author_count": 1,
-   "doi": "10.1001/jama.2026.20035",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42961443",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "Hypertensive Disorders During Pregnancy Increased 74% in the US.",
-   "title_zh": "美国妊娠期高血压疾病增加74%",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42961443/",
-   "date": "2026-10-30",
-   "authors": "Richmond S",
-   "author_count": 1,
-   "doi": "10.1001/jama.2026.20036",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "妇产"
-   ]
-  },
-  {
-   "pmid": "42961441",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "Annual Dementia Incidence May Reach 25 Million by 2050.",
-   "title_zh": "到2050年年度痴呆发病率或达2500万",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42961441/",
-   "date": "2026-10-30",
-   "authors": "Richmond S",
-   "author_count": 1,
-   "doi": "10.1001/jama.2026.20037",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "精神"
-   ]
-  },
-  {
-   "pmid": "42961439",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "FDA Approves New Drug to Treat Herpes Simplex Virus Lesions.",
-   "title_zh": "FDA批准新药治疗单纯疱疹病毒皮损",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42961439/",
-   "date": "2026-10-30",
-   "authors": "Richmond S",
-   "author_count": 1,
-   "doi": "10.1001/jama.2026.20034",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "感染"
-   ]
-  },
-  {
-   "pmid": "42961434",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "Long-Term Steroid Use Tied to Adverse Cardiovascular Effects.",
-   "title_zh": "长期使用类固醇与不良心血管效应相关",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42961434/",
-   "date": "2026-10-30",
-   "authors": "Anderer S",
-   "author_count": 1,
-   "doi": "10.1001/jama.2026.20038",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "循环器"
-   ]
-  },
-  {
-   "pmid": "42961433",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "Is the Pennsylvania Measles Outbreak the New Normal?",
-   "title_zh": "宾夕法尼亚州麻疹疫情是新常态吗？",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42961433/",
-   "date": "2026-10-30",
-   "authors": "Anderer S",
-   "author_count": 1,
-   "doi": "10.1001/jama.2026.22533",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42961427",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "Intensive BP Lowering Reduces Cardiovascular Risk in Adults With CKD.",
-   "title_zh": "强化降压降低CKD成人心血管风险",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42961427/",
-   "date": "2026-10-30",
-   "authors": "Richmond S",
-   "author_count": 1,
-   "doi": "10.1001/jama.2026.20039",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "循环器"
-   ]
-  },
-  {
-   "pmid": "42961402",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "Analysis Asks: Are GLP-1 Drugs Safe in People With Frailty?",
-   "title_zh": "分析提问：GLP-1药物在衰弱人群中安全吗？",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42961402/",
-   "date": "2026-10-30",
-   "authors": "Bock A",
-   "author_count": 1,
-   "doi": "10.1001/jama.2026.22482",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "42957778",
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
@@ -21235,29 +22482,6 @@
    ]
   },
   {
-   "pmid": "42955019",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "A Review of Low Back Pain-Reply.",
-   "title_zh": "低 back pain 综述——回复。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42955019/",
-   "date": "2026-10-29",
-   "authors": "Cashin AG, Chou R, McAuley JH",
-   "author_count": 3,
-   "doi": "10.1001/jama.2026.18629",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "42955014",
    "journal": "JAMA",
    "journal_abbr": "JAMA",
@@ -21317,144 +22541,6 @@
    "authors": "Baselga-Garriga C",
    "author_count": 1,
    "doi": "10.1001/jama.2026.21582",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42954982",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "US Deaths Caused by Law Enforcement-Reply.",
-   "title_zh": "美国执法导致的死亡——回复。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42954982/",
-   "date": "2026-10-29",
-   "authors": "Raymond-King C, Alang S, Melnick ER",
-   "author_count": 3,
-   "doi": "10.1001/jama.2026.18684",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42954971",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "US Deaths Caused by Law Enforcement.",
-   "title_zh": "美国执法导致的死亡。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42954971/",
-   "date": "2026-10-29",
-   "authors": "Vadher H, Everett M, Dolovich S",
-   "author_count": 3,
-   "doi": "10.1001/jama.2026.18681",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42954969",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "US Deaths Caused by Law Enforcement.",
-   "title_zh": "美国执法导致的死亡。",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42954969/",
-   "date": "2026-10-29",
-   "authors": "Sun X, Wang S",
-   "author_count": 2,
-   "doi": "10.1001/jama.2026.18678",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42954968",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "A Review of Low Back Pain.",
-   "title_zh": "下背痛综述",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42954968/",
-   "date": "2026-10-29",
-   "authors": "Grenier JP",
-   "author_count": 1,
-   "doi": "10.1001/jama.2026.18626",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42954966",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "Editorials.",
-   "title_zh": "",
-   "summary_en": "",
-   "summary_zh": "【述评】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42954966/",
-   "date": "2026-10-29",
-   "authors": "",
-   "author_count": 0,
-   "doi": "10.1001/jama.2025.16114",
-   "study_type": "述评",
-   "pubtypes": [
-    "Editorial"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "42954964",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "A Review of Low Back Pain.",
-   "title_zh": "下背痛综述",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42954964/",
-   "date": "2026-10-29",
-   "authors": "Yahanda AT, Ray WZ, Greenberg JK",
-   "author_count": 3,
-   "doi": "10.1001/jama.2026.18623",
    "study_type": "研究论文",
    "pubtypes": [
     "Journal Article"
@@ -23607,54 +24693,6 @@
    "mesh": [],
    "departments": [
     "综合"
-   ]
-  },
-  {
-   "pmid": "42949715",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "Diagnosis of Suspected Pulmonary Embolism in Patients With Cancer.",
-   "title_zh": "癌症患者疑似肺栓塞的诊断",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42949715/",
-   "date": "2026-10-28",
-   "authors": "Freund Y, Douillet D, Kline J",
-   "author_count": 3,
-   "doi": "10.1001/jama.2026.18617",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤",
-    "呼吸器"
-   ]
-  },
-  {
-   "pmid": "42949714",
-   "journal": "JAMA",
-   "journal_abbr": "JAMA",
-   "title_en": "Diagnosis of Suspected Pulmonary Embolism in Patients With Cancer-Reply.",
-   "title_zh": "癌症患者疑似肺栓塞的诊断——回复",
-   "summary_en": "",
-   "summary_zh": "【研究论文】JAMA 刊载。原文未附结构化摘要。",
-   "citation": "JAMA. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42949714/",
-   "date": "2026-10-28",
-   "authors": "Akerboom B, Klok FA, Huisman MV",
-   "author_count": 3,
-   "doi": "10.1001/jama.2026.18620",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤",
-    "呼吸器"
    ]
   },
   {
@@ -27665,7 +28703,7 @@
    "title_en": "Spatiotemporal co-transcriptomics uncovers coordinated rhizobia-legume stress programs supporting nitrogen fixation in Medicago.",
    "title_zh": "时空共转录组学揭示支持苜蓿中固氮的根瘤菌-豆科植物协同胁迫程序",
    "summary_en": "Rhizobial nitrogen fixation in legume nodules requires precise spatial and temporal coordination between host and bacterial gene expression. Here, we applied spatial enhanced resolution omics sequencing (Stereo-seq) to profile Medicago nodules across five developmental stages, generating a co-transcriptomic atlas of nodule development. Using a mixed-probe capture strategy, we simultaneously detected host and rhizobial transcripts within the same tissue sections, enabling analysis of host-microbe transcriptional coordination during symbiosis. We identified dynamic changes in host cell composition and developmental trajectories and uncovered two transcription factors, MtERF82 and MtDOF53, required for maintenance of the indeterminate nodule meristem. Rhizobial and host genes exhibited stage-",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6847-6864.e8",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42880234/",
    "date": "2026-10-15",
@@ -27699,7 +28737,7 @@
    "title_en": "A telomere-to-telomere map of somatic mutation burden and functional impact in a cancer.",
    "title_zh": "一种癌症中体细胞突变负荷及功能影响的端粒到端粒图谱",
    "summary_en": "Cancer genomes harbor extensive somatic genetic and epigenetic variation, yet large portions of the genome remain inaccessible to conventional reference-based analyses. Here, we demonstrate that pairing a near-telomere-to-telomere (near-T2T) diploid assembly of a donor with deep short- and long-read sequencing of their melanoma reveals that 16% of somatic variants localize to sequences absent from GRCh38, with satellite repeats acting as hotspots for UV-associated mutagenesis. Centromere kinetochore binding domains emerge as focal sites of chromosome arm aneuploidy breakpoints and somatic genetic variation, features we further demonstrate are also present in non-cancerous tissues. By contrast, extensive epigenetic remodeling of kinetochore binding domains appears specific to oncogenesis. S",
-   "summary_zh": "【研究论文】Cell 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【研究论文】Cell 刊载。原文未附结构化摘要。",
    "citation": "Cell. 2026; 189(21): 6630-6647.e8",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42880233/",
    "date": "2026-10-15",

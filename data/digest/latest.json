@@ -1,12 +1,107 @@
 {
  "schema_version": 1,
- "date": "2026-11-25",
- "generated_at": "2026-11-25T09:42:20+00:00",
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T09:17:42+00:00",
  "provider": "deepseek-chat",
  "degraded": false,
  "window_days": 3,
  "count": 10,
  "items": [
+  {
+   "pmid": "43084787",
+   "journal": "N Engl J Med",
+   "date": "2026-11-26",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43084787/",
+   "title_en": "Blood-Pressure-Lowering Treatment across the Cardiovascular Risk Spectrum.",
+   "study_type": "Meta 分析",
+   "departments": [
+    "循环器",
+    "神经"
+   ],
+   "title_zh": "跨心血管风险谱的降压治疗：个体数据 Meta 分析",
+   "one_liner": "无论心血管风险高低，降压都能降低主要心血管事件风险。",
+   "key_finding": "51 项试验、357,440 人；收缩压每降 5 mmHg，主要心血管事件 HR 0.90（95% CI 0.88–0.92），各风险十分位无差异。",
+   "why_it_matters": "低风险人群（5 年风险<4%）也能获益，但绝对获益小：5 年需治疗人数最高十分位 38、最低 255。",
+   "clinical_note": "安全性事件相对风险随风险分层无差异；低风险者绝对获益有限，需权衡不良反应。",
+   "evidence": "个体参与者数据 Meta 分析，51 项随机试验，357,440 人",
+   "tags": [
+    "心血管",
+    "高血压",
+    "预防"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42929694",
+   "journal": "N Engl J Med",
+   "date": "2026-11-26",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42929694/",
+   "title_en": "Sacituzumab Tirumotecan plus Pembrolizumab in PD-L1-Negative Advanced NSCLC.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤",
+    "呼吸器"
+   ],
+   "title_zh": "Sacituzumab Tirumotecan 联合 Pembrolizumab 治疗 PD-L1 阴性晚期 NSCLC",
+   "one_liner": "PD-L1 阴性晚期非鳞 NSCLC 一线，新联合方案无进展生存明显更长。",
+   "key_finding": "455 人；中位 PFS 15.0 个月 vs 5.7 个月，HR 0.49（95% CI 0.36–0.65，P<0.001）；总生存数据尚不成熟，HR 0.58（95% CI 0.38–0.88）。",
+   "why_it_matters": "为 PD-L1 阴性、无靶向突变患者提供可能优于化疗联合免疫的一线选择。",
+   "clinical_note": "3 级及以上不良事件 47.6% vs 60.6%；口腔炎常见但多为 1–2 级。为预设中期分析。",
+   "evidence": "3 期开放标签随机试验，455 人，1:1 分组",
+   "tags": [
+    "肿瘤",
+    "肺癌",
+    "免疫治疗"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42678032",
+   "journal": "N Engl J Med",
+   "date": "2026-11-26",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42678032/",
+   "title_en": "Catheter-Directed Thrombolysis in Intermediate-High-Risk Pulmonary Embolism.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "呼吸器",
+    "血液"
+   ],
+   "title_zh": "中高危肺栓塞的导管导向溶栓治疗",
+   "one_liner": "中高危肺栓塞加用导管导向溶栓，7 天内不良复合结局明显减少。",
+   "key_finding": "558 人；7 天主要复合结局 0.7% vs 6.8%，RR 0.10（95% CI 0.02–0.44，P<0.001），主要因心肺失代偿减少。",
+   "why_it_matters": "提示对中高危肺栓塞，在抗凝基础上加导管导向溶栓可能改善短期结局。",
+   "clinical_note": "临床相关出血 4.6% vs 5.0%、大出血 1.4% vs 2.2%，组间无显著差异；颅内出血 2 例 vs 0 例。",
+   "evidence": "多中心开放标签随机试验，558 人",
+   "tags": [
+    "呼吸",
+    "肺栓塞",
+    "溶栓"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42663301",
+   "journal": "N Engl J Med",
+   "date": "2026-11-26",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42663301/",
+   "title_en": "Eplontersen for Transthyretin Amyloid Cardiomyopathy.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "Eplontersen 治疗转甲状腺素蛋白淀粉样心肌病",
+   "one_liner": "Eplontersen 未能降低 ATTR-CM 患者心血管死亡与复发事件复合风险。",
+   "key_finding": "1432 人；主要终点事件率比 0.89（95% CI 0.73–1.09，P=0.28）；全因死亡加心血管事件率比 0.86（95% CI 0.71–1.04）。",
+   "why_it_matters": "尽管该药降低 TTR 生成，140 周内未转化为临床结局获益，需重新评估其治疗定位。",
+   "clinical_note": "每 4 周皮下 45 mg；严重不良事件 57.8% vs 59.4%。平均年龄 76.4 岁，90.6% 为男性。",
+   "evidence": "3 期国际双盲随机试验，1432 人，140 周",
+   "tags": [
+    "心血管",
+    "淀粉样变",
+    "罕见病"
+   ],
+   "confidence": "high"
+  },
   {
    "pmid": "42911562",
    "journal": "JAMA",
@@ -18,15 +113,15 @@
     "综合"
    ],
    "title_zh": "Rituximab 与 Azathioprine 用于嗜酸性肉芽肿性多血管炎维持治疗：一项随机临床试验",
-   "one_liner": "对 EGPA 维持治疗，rituximab 未优于 azathioprine。",
-   "key_finding": "28个月内泼尼松≤7.5 mg/d的缓解时间：rituximab 91.1周 vs azathioprine 96.0周（P=.38）；严重感染46.9% vs 24.5%。",
-   "why_it_matters": "两种维持方案疗效相当，但 rituximab 严重感染更多，选药需权衡感染风险。",
-   "clinical_note": "法国36家医院98例新诊断或复发EGPA，双盲双模拟；主要感染为新冠。",
-   "evidence": "双盲双模拟随机对照试验，98例，法国36家医院",
+   "one_liner": "在 EGPA 维持治疗中，Rituximab 的疗效并不优于 Azathioprine。",
+   "key_finding": "28 个月内泼尼松≤7.5 mg/d 的缓解时间：Rituximab 91.1 周 vs Azathioprine 96.0 周（P=.38）；严重感染 46.9% vs 24.5%。",
+   "why_it_matters": "两种维持方案疗效相当，但 Rituximab 严重感染更多，选药时需权衡感染风险。",
+   "clinical_note": "法国 36 家医院、98 例新诊断或复发 EGPA 成人；双盲双模拟，样本量有限。",
+   "evidence": "双盲双模拟随机对照试验，98 例，法国 36 家医院",
    "tags": [
     "风湿免疫科",
-    "血管炎",
-    "维持治疗"
+    "呼吸科",
+    "血管炎"
    ],
    "confidence": "high"
   },
@@ -38,15 +133,14 @@
    "title_en": "Smoking Cessation Among Underserved Patients Referred for Lung Cancer Screening: A Randomized Clinical Trial.",
    "study_type": "随机对照试验",
    "departments": [
-    "肿瘤",
-    "呼吸器"
+    "肿瘤"
    ],
-   "title_zh": "转诊肺癌筛查的弱势吸烟患者中的戒烟干预：一项随机临床试验",
-   "one_liner": "加经济激励可提高弱势人群戒烟率。",
-   "key_finding": "6个月持续戒烟率：常规4.3%、免费药物5.1%、经济激励8.8%、激励加移动工具7.2%；激励较常规高4.6%。",
-   "why_it_matters": "免费药物单独加常规无额外获益，经济激励是提升戒烟的有效手段。",
-   "clinical_note": "美国4个医疗系统3220例弱势吸烟者；戒烟率整体偏低，随访6个月。",
-   "evidence": "随机对照试验，3220例，美国4系统5中心",
+   "title_zh": "被转诊进行肺癌筛查的医疗资源不足人群的戒烟：一项随机临床试验",
+   "one_liner": "对医疗资源不足的吸烟者，加经济激励比常规劝导更能帮助戒烟。",
+   "key_finding": "6 个月持续戒烟率：常规 4.3%、免费药物 5.1%、经济激励 8.8%、激励+移动工具 7.2%；激励较常规提高 4.6%（95% CI 2.1%-7.0%）。",
+   "why_it_matters": "仅提供免费药物并不比常规劝导更有效，经济激励可能是更有效的补充手段。",
+   "clinical_note": "美国 4 个医疗系统、3220 例分析；对象为黑人、西班牙裔、农村或低社会经济地位吸烟者。",
+   "evidence": "随机对照试验，3259 例随机、3220 例分析，美国 5 个中心",
    "tags": [
     "戒烟",
     "肺癌筛查",
@@ -66,11 +160,11 @@
     "遗传/基因"
    ],
    "title_zh": "转甲状腺素蛋白淀粉样心肌病中的基因沉默治疗：结局试验的 Meta 分析",
-   "one_liner": "基因沉默治疗可降低 ATTR-CM 死亡和心血管事件。",
-   "key_finding": "主要终点降低19%（RR 0.81，95% CI 0.69-0.94）；全因死亡 HR 0.74；未用稳定剂者获益更明显（RR 0.69）。",
-   "why_it_matters": "支持基因沉默用于 ATTR-CM，但已用 TTR 稳定剂者额外获益不显著。",
-   "clinical_note": "仅2项3期试验、2086例，以男性为主；稳定剂亚组差异可能受混杂影响。",
-   "evidence": "Meta 分析，2项3期试验，2086例",
+   "one_liner": "基因沉默治疗可降低 ATTR-CM 患者的死亡和心血管事件风险。",
+   "key_finding": "主要终点降低 19%（RR 0.81，95% CI 0.69-0.94）；全因死亡 HR 0.74（95% CI 0.61-0.91）；未用稳定剂者获益更明显（RR 0.69）。",
+   "why_it_matters": "支持基因沉默用于 ATTR-CM；已用 TTR 稳定剂者额外获益不明显，需进一步研究。",
+   "clinical_note": "仅纳入 HELIOS-B 与 CARDIO-TTRansform 两项试验、2086 例，以男性为主。",
+   "evidence": "固定效应 Meta 分析，2 项 III 期试验，2086 例",
    "tags": [
     "心内科",
     "淀粉样变",
@@ -79,164 +173,73 @@
    "confidence": "high"
   },
   {
-   "pmid": "43078533",
-   "journal": "BMJ",
+   "pmid": "42669054",
+   "journal": "JAMA",
    "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43078533/",
-   "title_en": "GP who saved Premier League footballer struck off for sexual relationship with patient.",
-   "study_type": "研究论文",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42669054/",
+   "title_en": "124I-Evuzamitide Positron Emission Tomography/Computed Tomography for Diagnosing Cardiac Amyloidosis: The REVEAL Nonrandomized Clinical Trial.",
+   "study_type": "III 期临床试验",
    "departments": [
-    "综合"
+    "循环器"
    ],
-   "title_zh": "曾救治英超球员的全科医生因与患者发生性关系被除名",
-   "one_liner": "摘要未给出结果。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "摘要未给出结果",
-   "clinical_note": "",
-   "evidence": "摘要未提供研究设计",
+   "title_zh": "124I-Evuzamitide PET/CT 诊断心脏淀粉样变：REVEAL 非随机临床试验",
+   "one_liner": "124I-Evuzamitide PET/CT 诊断心脏淀粉样变敏感性和特异性均较高。",
+   "key_finding": "敏感性 94%（95% CI 85%-98%），特异性 86%（95% CI 77%-92%），阳性预测值 85%，阴性预测值 94%。",
+   "why_it_matters": "现有影像多限于转甲状腺素蛋白型，该检查有望覆盖多种淀粉样类型。",
+   "clinical_note": "单组非随机、170 例疑似患者，排除已确诊者；需进一步验证。",
+   "evidence": "前瞻性单组非随机试验，170 例，美国 18 家中心",
    "tags": [
-    "医疗伦理",
-    "职业规范"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43078528",
-   "journal": "BMJ",
-   "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43078528/",
-   "title_en": "Far right Polish politician is indicted for allegedly detaining doctor after she performed an abortion.",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "波兰极右翼政客因涉嫌在医生实施堕胎后将其拘留而被起诉",
-   "one_liner": "波兰极右翼政客因医生实施堕胎后将其拘留而遭起诉。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "涉及医生执业安全与堕胎相关法律冲突，值得关注医疗法律环境。",
-   "clinical_note": "",
-   "evidence": "新闻简讯，无研究设计与样本量",
-   "tags": [
-    "医疗法律",
-    "妇产科",
-    "公共卫生政策"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43078527",
-   "journal": "BMJ",
-   "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43078527/",
-   "title_en": "NHS Grampian: Inquiry will be held over surgical deaths \"cover-up\".",
-   "study_type": "研究论文",
-   "departments": [
-    "外科"
-   ],
-   "title_zh": "NHS Grampian：将就手术死亡「掩盖」事件展开调查",
-   "one_liner": "NHS Grampian 将就手术死亡被指掩盖一事展开调查。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "涉及手术安全与医疗事故透明度，关系患者信任与监管问责。",
-   "clinical_note": "",
-   "evidence": "新闻简讯，无研究设计与样本量",
-   "tags": [
-    "医疗质量",
-    "外科",
-    "卫生政策"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43078524",
-   "journal": "BMJ",
-   "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43078524/",
-   "title_en": "Breastfeeding and codeine: Lancet retracts influential study.",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "母乳喂养与可待因：Lancet 撤回一项有影响力的研究",
-   "one_liner": "Lancet 撤回一项关于母乳喂养与可待因的研究。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "影响产后镇痛用药与哺乳期安全建议的证据基础。",
-   "clinical_note": "",
-   "evidence": "新闻简讯，无研究设计与样本量",
-   "tags": [
-    "妇产科",
-    "临床药理",
-    "证据质量"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43078523",
-   "journal": "BMJ",
-   "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43078523/",
-   "title_en": "UK GPs are most stressed and likely to quit profession, international survey reports.",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "国际调查显示英国全科医生压力最大、最可能离职",
-   "one_liner": "国际调查称英国全科医生压力最大、最想离职。",
-   "key_finding": "摘要未给出结果",
-   "why_it_matters": "反映基层医疗人力危机，关系医疗服务可持续性。",
-   "clinical_note": "",
-   "evidence": "国际调查，样本量与规模未在摘要给出",
-   "tags": [
-    "全科医学",
-    "职业健康",
-    "卫生人力"
-   ],
-   "confidence": "low"
-  },
-  {
-   "pmid": "43078113",
-   "journal": "Lancet",
-   "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43078113/",
-   "title_en": "Sexual wellbeing in Britain: findings from the fourth National Survey of Sexual Attitudes and Lifestyles (Natsal-4).",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "英国性福祉状况：第四次全国性态度与生活方式调查（Natsal-4）结果",
-   "one_liner": "英国约七分之一成年人当前性福祉偏低，女性和男性比例相近。",
-   "key_finding": "加权患病率女性14.3%（95% CI 12.6-16.3）、男性13.7%（11.7-15.9）；高性福祉女性20.7%低于男性24.4%（p=0.024）。",
-   "why_it_matters": "性福祉不平等分布，且与性健康模式不同，提示人口健康政策与干预应将其纳入评估。",
-   "clinical_note": "横断面关联研究，16-59岁有性经历者4160人；不能推断因果。",
-   "evidence": "全国代表性横断面调查，4160人，英国",
-   "tags": [
-    "性健康",
-    "心理健康",
-    "公共卫生"
+    "心内科",
+    "核医学",
+    "淀粉样变"
    ],
    "confidence": "high"
   },
   {
-   "pmid": "43078112",
-   "journal": "Lancet",
-   "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43078112/",
-   "title_en": "Prevalence and trends in sexual behaviour in Britain from 1990 to 2024: findings from the repeated cross-sectional National Surveys of Sexual Attitudes and Lifestyles (Natsal).",
+   "pmid": "43084796",
+   "journal": "N Engl J Med",
+   "date": "2026-11-26",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43084796/",
+   "title_en": "When Politics Displaces Science - How the HHS Report on Transgender Youth Care Harms Patients.",
    "study_type": "研究论文",
    "departments": [
     "综合"
    ],
-   "title_zh": "1990至2024年英国性行为患病率与趋势：重复横断面Natsal调查结果",
-   "one_liner": "英国年轻人无性经历比例上升，同性性行为报告增加，性频率下降。",
-   "key_finding": "16-24岁女性从未有性经历从18.9%升至37.7%，男性18.2%升至28.4%；16-44岁同性性行为女性6.8%升至14.0%、男性4.0%升至12.3%。",
-   "why_it_matters": "性行为模式显著变化，性与生殖健康服务需适应新需求与网络性活动等新风险。",
-   "clinical_note": "重复横断面概率抽样，Natsal-4共6719人；趋势为群体层面描述。",
-   "evidence": "重复横断面调查，6719人，英国",
+   "title_zh": "当政治取代科学——HHS 关于跨性别青少年医疗的报告如何伤害患者",
+   "one_liner": "摘要未给出结果，无法概括结论。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断对临床或公众的影响。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量或地点",
    "tags": [
-    "性健康",
-    "公共卫生",
+    "跨性别医疗",
+    "卫生政策",
     "青少年健康"
    ],
-   "confidence": "high"
+   "confidence": "low"
+  },
+  {
+   "pmid": "43084795",
+   "journal": "N Engl J Med",
+   "date": "2026-11-26",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43084795/",
+   "title_en": "The HHS Review on Pediatric Gender Dysphoria - A Call for Course Correction.",
+   "study_type": "研究论文",
+   "departments": [
+    "儿科"
+   ],
+   "title_zh": "HHS 关于儿童性别烦躁的审查——呼吁纠正方向",
+   "one_liner": "摘要未给出结果，无法概括结论。",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断对临床或公众的影响。",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量或地点",
+   "tags": [
+    "儿童性别烦躁",
+    "卫生政策",
+    "临床实践"
+   ],
+   "confidence": "low"
   }
  ]
 }

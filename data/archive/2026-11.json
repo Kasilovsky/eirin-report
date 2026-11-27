@@ -1,8 +1,169 @@
 {
  "schema_version": 2,
  "month": "2026-11",
- "count": 926,
+ "count": 943,
  "articles": [
+  {
+   "pmid": "43039012",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Helen Branswell.",
+   "title_zh": "Helen Branswell。",
+   "citation": "Lancet. 2026; 408(10570): 2292",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43039012/",
+   "date": "2026-11-28",
+   "authors": "Loewenberg S",
+   "doi": "10.1016/S0140-6736(26)02302-0",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43008768",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "A blended digital parenting intervention for the prevention of sexual violence, exploitative sex, and maltreatment of children at scale in Tanzania: a cluster-randomised, controlled trial.",
+   "title_zh": "在坦桑尼亚大规模预防性暴力、剥削性性行为和虐待儿童的混合数字育儿干预措施：一项集群随机对照试验。",
+   "citation": "Lancet. 2026; 408(10570): 2340-2354",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43008768/",
+   "date": "2026-11-28",
+   "authors": "Cluver LD, Ornellas A, Klapwijk JM, Nyalali K, Chetty AN, Mgunga S",
+   "doi": "10.1016/S0140-6736(26)01819-2",
+   "study_type": "随机对照试验",
+   "departments": [
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43008767",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Reframing disease elimination: an update from the Lancet Commission on chronic obstructive pulmonary disease.",
+   "title_zh": "重构疾病消除：柳叶刀委员会关于慢性阻塞性肺疾病的最新消息。",
+   "citation": "Lancet. 2026; 408(10570): 2355-2377",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43008767/",
+   "date": "2026-11-28",
+   "authors": "Stolz D, Hoheisel A, Sin DD, Soriano JB, Polverino F, Hawkins NM",
+   "doi": "10.1016/S0140-6736(26)01947-1",
+   "study_type": "综述",
+   "departments": [
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "43008766",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "A digital intervention to strengthening parenting in Tanzania.",
+   "title_zh": "加强坦桑尼亚育儿的数字化干预措施。",
+   "citation": "Lancet. 2026; 408(10570): 2278-2280",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43008766/",
+   "date": "2026-11-28",
+   "authors": "Jewkes R",
+   "doi": "10.1016/S0140-6736(26)02198-7",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43003105",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Efficacy and safety of efinopegdutide in adults with metabolic dysfunction-associated steatohepatitis and stage 2-3 fibrosis: a phase 2b, randomised, placebo-controlled study.",
+   "title_zh": "Efinopegdutide在代谢功能障碍相关性脂肪性肝炎和2-3期纤维化成人患者中的有效性和安全性：一项2b期、随机、安慰剂对照研究。",
+   "citation": "Lancet. 2026; 408(10570): 2324-2339",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003105/",
+   "date": "2026-11-28",
+   "authors": "Lawitz E, Wong VW, Shankar RR, Francque S, Patel K, Miele L",
+   "doi": "10.1016/S0140-6736(26)02043-X",
+   "study_type": "随机对照试验",
+   "departments": [
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "43003104",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Efinopegdutide: a step towards precision in MASH therapy?",
+   "title_zh": "Efinopegdutide ：迈向MASH疗法精准度的一步？",
+   "citation": "Lancet. 2026; 408(10570): 2276-2278",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43003104/",
+   "date": "2026-11-28",
+   "authors": "Sookoian S, Pirola CJ",
+   "doi": "10.1016/S0140-6736(26)02193-8",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "42982074",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Left main coronary artery disease: PCI or CABG for revascularisation strategy.",
+   "title_zh": "左主干冠状动脉疾病：血运重建策略选择PCI还是CABG。",
+   "citation": "Lancet. 2026; 408(10570): 2274-2276",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42982074/",
+   "date": "2026-11-28",
+   "authors": "Ehara N",
+   "doi": "10.1016/S0140-6736(26)02200-2",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42976899",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Long-term outcomes after percutaneous coronary intervention with drug-eluting stents versus coronary artery bypass grafting for left main coronary artery disease: a prospective analysis of the multicentre IRIS-MAIN registry.",
+   "title_zh": "药物洗脱支架经皮冠状动脉介入治疗与冠状动脉旁路移植术治疗左主干冠状动脉疾病的长期结局：多中心IRIS-MAIN注册研究的前瞻性分析。",
+   "citation": "Lancet. 2026; 408(10570): 2311-2323",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42976899/",
+   "date": "2026-11-28",
+   "authors": "Wee SB, Kang DY, Ahn JM, Kim JH, Kim MJ, Rha SW",
+   "doi": "10.1016/S0140-6736(26)02104-5",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "42863482",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Hepatitis C-is discrimination preventing elimination?",
+   "title_zh": "丙型肝炎——歧视是否阻碍了疾病的消除？",
+   "citation": "Lancet. 2026; 408(10570): 2280-2282",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42863482/",
+   "date": "2026-11-28",
+   "authors": "Foster GR, Dillon J, Halford R",
+   "doi": "10.1016/S0140-6736(26)01917-3",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "消化器"
+   ]
+  },
+  {
+   "pmid": "42764015",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "2026 World Health Summit Academic Alliance Declaration: health and peace in a world in turmoil.",
+   "title_zh": "2026年世界卫生峰会学术联盟宣言：动荡世界中的健康与和平。",
+   "citation": "Lancet. 2026; 408(10570): 2378-2380",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42764015/",
+   "date": "2026-11-28",
+   "authors": "World Health Summit Academic Alliance",
+   "doi": "10.1016/S0140-6736(26)01760-5",
+   "study_type": "综述",
+   "departments": [
+    "综合"
+   ]
+  },
   {
    "pmid": "43071597",
    "journal": "New England Journal of Medicine",
@@ -72,6 +233,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Placement of a Catheter for Acute Peritoneal Dialysis. Reply.",
+   "title_zh": "急性腹膜透析导管的置入。回复。",
    "citation": "N Engl J Med. 2026; 395(21): e34",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43084806/",
    "date": "2026-11-26",
@@ -87,6 +249,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Placement of a Catheter for Acute Peritoneal Dialysis.",
+   "title_zh": "急性腹膜透析导管的置入。",
    "citation": "N Engl J Med. 2026; 395(21): e34",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43084805/",
    "date": "2026-11-26",
@@ -359,6 +522,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Giant-Cell Arteritis.",
+   "title_zh": "巨细胞动脉炎。",
    "citation": "N Engl J Med. 2026; 395(21): 2133-2148",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43084788/",
    "date": "2026-11-26",
@@ -374,6 +538,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Blood-Pressure-Lowering Treatment across the Cardiovascular Risk Spectrum.",
+   "title_zh": "跨心血管风险谱的降压治疗。",
    "citation": "N Engl J Med. 2026; 395(21): 2121-2132",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43084787/",
    "date": "2026-11-26",
@@ -407,6 +572,7 @@
    "journal": "New England Journal of Medicine",
    "journal_abbr": "N Engl J Med",
    "title_en": "Catheter-Directed Thrombolysis in Intermediate-High-Risk Pulmonary Embolism.",
+   "title_zh": "中高危肺栓塞的导管定向溶栓治疗。",
    "citation": "N Engl J Med. 2026; 395(21): 2087-2097",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42678032/",
    "date": "2026-11-26",
@@ -432,6 +598,200 @@
    "study_type": "随机对照试验",
    "departments": [
     "循环器"
+   ]
+  },
+  {
+   "pmid": "43098670",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "NHS pension scheme changes: Government launches consultation on proposals.",
+   "title_zh": "英国国民保健服务（NHS）养老金计划变更：政府就相关提案启动征求意见。",
+   "citation": "BMJ. 2026; 395: e101605",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098670/",
+   "date": "2026-11-26",
+   "authors": "Rimmer A",
+   "doi": "10.1136/bmj-2026-101605",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098667",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Hospital spending in England still outpaces funding for cash starved GPs, report shows.",
+   "title_zh": "报告显示，英格兰的医院支出仍超过资金匮乏的普通全科医生的经费。",
+   "citation": "BMJ. 2026; 395: e101602",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098667/",
+   "date": "2026-11-26",
+   "authors": "Iacobucci G",
+   "doi": "10.1136/bmj-2026-101602",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098666",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Milburn's NEET review-what questions remain unanswered?",
+   "title_zh": "米尔本的NEET审查——还有哪些问题未得到解答？",
+   "citation": "BMJ. 2026; 395: e101607",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098666/",
+   "date": "2026-11-26",
+   "authors": "O'Dowd A, Iacobucci G",
+   "doi": "10.1136/bmj-2026-101607",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098665",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Cataracts: NICE guidance recommends replacement lenses that could reduce need for follow-up treatment.",
+   "title_zh": "白内障：NICE指南建议使用可以减少后续治疗需求的替换性晶状体。",
+   "citation": "BMJ. 2026; 395: e101609",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098665/",
+   "date": "2026-11-26",
+   "authors": "Rimmer A",
+   "doi": "10.1136/bmj-2026-101609",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098662",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "British doctor in Gaza bombing tells how colleague was killed.",
+   "title_zh": "在加沙空袭中的英国医生讲述同事遇难经过。",
+   "citation": "BMJ. 2026; 395: e101595",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098662/",
+   "date": "2026-11-26",
+   "authors": "Mahase E",
+   "doi": "10.1136/bmj-2026-101595",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098661",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Ebola: Gavi secures 1.5 million vaccine doses as health workers flee violence in DRC.",
+   "title_zh": "埃博拉疫情：在刚果民主共和国医护人员因暴力事件而逃离之际，免疫联盟（Gavi）已获得150万剂疫苗。",
+   "citation": "BMJ. 2026; 395: e101612",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098661/",
+   "date": "2026-11-26",
+   "authors": "Taylor L",
+   "doi": "10.1136/bmj-2026-101612",
+   "study_type": "研究论文",
+   "departments": [
+    "感染",
+    "疫苗"
+   ]
+  },
+  {
+   "pmid": "43098660",
+   "journal": "BMJ",
+   "journal_abbr": "BMJ",
+   "title_en": "Sixty seconds . . . on music therapy for coronary angiography.",
+   "title_zh": "60秒……了解冠状动脉造影的音乐疗法。",
+   "citation": "BMJ. 2026; 395: e101604",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098660/",
+   "date": "2026-11-26",
+   "authors": "Rimmer A",
+   "doi": "10.1136/bmj-2026-101604",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43098156",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Treatment selection in mHSPC: lessons from the STOPCAP meta-analysis.",
+   "title_zh": "mHSPC 的治疗选择：来自 STOPCAP Meta 分析的经验教训。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098156/",
+   "date": "2026-11-26",
+   "authors": "McKenzie J, Sandhu S",
+   "doi": "10.1016/S0140-6736(26)01702-2",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098155",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Identifying which patients with metastatic hormone-sensitive prostate cancer benefit most from androgen receptor pathway inhibitors (STOPCAP): a systematic review and meta-analysis of individual participant data.",
+   "title_zh": "确定哪些患有转移性激素敏感性前列腺癌的患者从雄激素受体通路抑制剂中获益最大（STOPCAP）：对个体参与者数据的系统综述和荟萃分析。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098155/",
+   "date": "2026-11-26",
+   "authors": "Fisher DJ, Rydzewska LH, Godolphin PJ, Vale CL, Burdett S, Agarwal N",
+   "doi": "10.1016/S0140-6736(26)01483-2",
+   "study_type": "研究论文",
+   "departments": [
+    "肿瘤",
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "43098154",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Envudeucitinib in moderate-to-severe plaque psoriasis (ONWARD1 and ONWARD2): results from two replicate, multicentre, double-blinded, placebo-controlled and active comparator-controlled, phase 3 randomised controlled trials.",
+   "title_zh": "Envudeucitinib治疗中重度斑块状银屑病（ONWARD1和ONWARD2）：两项重复、多中心、双盲、安慰剂对照和阳性对照药物对照的III期随机对照试验的结果。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098154/",
+   "date": "2026-11-26",
+   "authors": "Blauvelt A, Armstrong AW, Ehst BD, Gold LFS, Sofen H, Tyring SK",
+   "doi": "10.1016/S0140-6736(26)01649-1",
+   "study_type": "研究论文",
+   "departments": [
+    "皮肤"
+   ]
+  },
+  {
+   "pmid": "43098153",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "World AIDS Day 2026: ending preventable deaths from advanced HIV disease.",
+   "title_zh": "2026年世界艾滋病日：终结晚期艾滋病毒疾病导致的本可预防的死亡。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098153/",
+   "date": "2026-11-26",
+   "authors": "Zumla A, Aklillu E, Traore T, Marais BJ, Ippolito G, Allen S",
+   "doi": "10.1016/S0140-6736(26)02310-X",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098152",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Oral therapies for psoriasis.",
+   "title_zh": "牛皮癣的口服治疗。",
+   "citation": "Lancet. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098152/",
+   "date": "2026-11-26",
+   "authors": "Langley RG, Bergman J",
+   "doi": "10.1016/S0140-6736(26)02298-1",
+   "study_type": "研究论文",
+   "departments": [
+    "皮肤"
    ]
   },
   {
@@ -665,6 +1025,7 @@
    "journal": "BMJ",
    "journal_abbr": "BMJ",
    "title_en": "Advances in the management of myasthenia gravis.",
+   "title_zh": "重症肌无力管理进展。",
    "citation": "BMJ. 2026; 395: e085090",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43085813/",
    "date": "2026-11-25",
@@ -779,6 +1140,7 @@
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
    "title_en": "Myocardial injury with non-obstructive coronary arteries: diagnostic pathways and stratified treatment.",
+   "title_zh": "非阻塞性冠状动脉心肌损伤：诊断路径与分层治疗。",
    "citation": "Lancet. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43085372/",
    "date": "2026-11-25",
@@ -810,6 +1172,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Revisiting the chemical alphabet of nucleic acids.",
+   "title_zh": "重新审视核酸的化学字母表。",
    "citation": "Cell. 2026; 189(24): 7655-7656",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43085328/",
    "date": "2026-11-25",
@@ -1229,6 +1592,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "In-cell discovery and characterization of a non-canonical bacterial protein translocation-folding complex.",
+   "title_zh": "非经典细菌蛋白转位折叠复合体的细胞内发现与表征。",
    "citation": "Cell. 2026; 189(24): 7926-7945.e12",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42790421/",
    "date": "2026-11-25",
@@ -1310,6 +1674,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Chloroplasts balance energy production and stress resilience via a cold-induced signaling pathway.",
+   "title_zh": "叶绿体通过冷诱导信号通路平衡能量产生与应激韧性。",
    "citation": "Cell. 2026; 189(24): 7788-7805.e6",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42759513/",
    "date": "2026-11-25",
@@ -1358,6 +1723,7 @@
    "journal": "Cell",
    "journal_abbr": "Cell",
    "title_en": "Programmed ribosomal frameshifting triggers translational stress to promote viral replication.",
+   "title_zh": "程序性核糖体移码触发翻译应激以促进病毒复制。",
    "citation": "Cell. 2026; 189(24): 7890-7907.e10",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42743925/",
    "date": "2026-11-25",
@@ -1399,6 +1765,51 @@
    "departments": [
     "感染",
     "免疫/风湿",
+    "儿科"
+   ]
+  },
+  {
+   "pmid": "43086467",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Author Correction: On-premise medical AI agents for reliable clinical decision-making.",
+   "title_zh": "作者勘误：用于可靠临床决策的本地部署医疗人工智能代理。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43086467/",
+   "date": "2026-11-25",
+   "authors": "Zhang L, Wölflein G, Ferber D, Liang J, Carrero ZI, Wu X",
+   "doi": "10.1038/s41591-026-04822-8",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43086466",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Later-born generations have better memory and lose it more slowly.",
+   "title_zh": "后出生的几代人的记忆力更好，记忆力衰退的速度也更慢。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43086466/",
+   "date": "2026-11-25",
+   "doi": "10.1038/s41591-026-04758-z",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43086459",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "STEP Young trial shows semaglutide benefits in children.",
+   "title_zh": "STEP Young试验显示司美格鲁肽对儿童有益。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43086459/",
+   "date": "2026-11-25",
+   "authors": "O'Leary K",
+   "doi": "10.1038/d41591-026-00059-7",
+   "departments": [
     "儿科"
    ]
   },
@@ -2351,6 +2762,7 @@
    "journal": "Nature Medicine",
    "journal_abbr": "Nat Med",
    "title_en": "Publisher Correction: Generational gains in cognitive capacity and dementia incidence rates in Western countries.",
+   "title_zh": "出版商更正：西方国家认知能力与痴呆发病率的代际增长。",
    "citation": "Nat Med. 2026",
    "link": "https://pubmed.ncbi.nlm.nih.gov/43079096/",
    "date": "2026-11-24",
@@ -3175,6 +3587,7 @@
    "date": "2026-11-21",
    "authors": "The Editors Of The Lancet",
    "doi": "10.1016/S0140-6736(26)02255-5",
+   "study_type": "研究论文",
    "departments": [
     "儿科",
     "遗传/基因"
@@ -6041,22 +6454,6 @@
    "date": "2026-11-16",
    "authors": "Roberts KF, Abrams ZB, Cappelletti L, Moqri M, Heugel N, Caufield JH",
    "doi": "10.1038/s41591-026-04808-6",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "43039012",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Helen Branswell.",
-   "title_zh": "Helen Branswell。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43039012/",
-   "date": "2026-11-16",
-   "authors": "Loewenberg S",
-   "doi": "10.1016/S0140-6736(26)02302-0",
    "study_type": "研究论文",
    "departments": [
     "综合"
@@ -8981,54 +9378,6 @@
    ]
   },
   {
-   "pmid": "43008768",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "A blended digital parenting intervention for the prevention of sexual violence, exploitative sex, and maltreatment of children at scale in Tanzania: a cluster-randomised, controlled trial.",
-   "title_zh": "在坦桑尼亚大规模预防性暴力、剥削性性行为和虐待儿童的混合数字育儿干预措施：一项集群随机对照试验。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43008768/",
-   "date": "2026-11-10",
-   "authors": "Cluver LD, Ornellas A, Klapwijk JM, Nyalali K, Chetty AN, Mgunga S",
-   "doi": "10.1016/S0140-6736(26)01819-2",
-   "study_type": "研究论文",
-   "departments": [
-    "儿科"
-   ]
-  },
-  {
-   "pmid": "43008767",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Reframing disease elimination: an update from the Lancet Commission on chronic obstructive pulmonary disease.",
-   "title_zh": "重构疾病消除：柳叶刀委员会关于慢性阻塞性肺疾病的最新消息。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43008767/",
-   "date": "2026-11-10",
-   "authors": "Stolz D, Hoheisel A, Sin DD, Soriano JB, Polverino F, Hawkins NM",
-   "doi": "10.1016/S0140-6736(26)01947-1",
-   "study_type": "综述",
-   "departments": [
-    "呼吸器"
-   ]
-  },
-  {
-   "pmid": "43008766",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "A digital intervention to strengthening parenting in Tanzania.",
-   "title_zh": "加强坦桑尼亚育儿的数字化干预措施。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43008766/",
-   "date": "2026-11-10",
-   "authors": "Jewkes R",
-   "doi": "10.1016/S0140-6736(26)02198-7",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
-   ]
-  },
-  {
    "pmid": "43008727",
    "journal": "Cell",
    "journal_abbr": "Cell",
@@ -9903,40 +10252,6 @@
    "departments": [
     "循环器",
     "内分泌/代谢"
-   ]
-  },
-  {
-   "pmid": "43003105",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Efficacy and safety of efinopegdutide in adults with metabolic dysfunction-associated steatohepatitis and stage 2-3 fibrosis: a phase 2b, randomised, placebo-controlled study.",
-   "title_zh": "Efinopegdutide在代谢功能障碍相关性脂肪性肝炎和2-3期纤维化成人患者中的有效性和安全性：一项2b期、随机、安慰剂对照研究。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43003105/",
-   "date": "2026-11-09",
-   "authors": "Lawitz E, Wong VW, Shankar RR, Francque S, Patel K, Miele L",
-   "doi": "10.1016/S0140-6736(26)02043-X",
-   "study_type": "研究论文",
-   "departments": [
-    "感染",
-    "消化器",
-    "内分泌/代谢"
-   ]
-  },
-  {
-   "pmid": "43003104",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Efinopegdutide: a step towards precision in MASH therapy?",
-   "title_zh": "Efinopegdutide ：迈向MASH疗法精准度的一步？",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43003104/",
-   "date": "2026-11-09",
-   "authors": "Sookoian S, Pirola CJ",
-   "doi": "10.1016/S0140-6736(26)02193-8",
-   "study_type": "研究论文",
-   "departments": [
-    "综合"
    ]
   },
   {
@@ -12321,22 +12636,6 @@
    ]
   },
   {
-   "pmid": "42982074",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Left main coronary artery disease: PCI or CABG for revascularisation strategy.",
-   "title_zh": "左主干冠状动脉疾病：血运重建策略选择PCI还是CABG。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42982074/",
-   "date": "2026-11-04",
-   "authors": "Ehara N",
-   "doi": "10.1016/S0140-6736(26)02200-2",
-   "study_type": "研究论文",
-   "departments": [
-    "循环器"
-   ]
-  },
-  {
    "pmid": "42982038",
    "journal": "Cell",
    "journal_abbr": "Cell",
@@ -12851,22 +13150,6 @@
    "study_type": "述评",
    "departments": [
     "综合"
-   ]
-  },
-  {
-   "pmid": "42976899",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Long-term outcomes after percutaneous coronary intervention with drug-eluting stents versus coronary artery bypass grafting for left main coronary artery disease: a prospective analysis of the multicentre IRIS-MAIN registry.",
-   "title_zh": "药物洗脱支架经皮冠状动脉介入治疗与冠状动脉旁路移植术治疗左主干冠状动脉疾病的长期结局：多中心IRIS-MAIN注册研究的前瞻性分析。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42976899/",
-   "date": "2026-11-03",
-   "authors": "Wee SB, Kang DY, Ahn JM, Kim JH, Kim MJ, Rha SW",
-   "doi": "10.1016/S0140-6736(26)02104-5",
-   "study_type": "研究论文",
-   "departments": [
-    "循环器"
    ]
   },
   {

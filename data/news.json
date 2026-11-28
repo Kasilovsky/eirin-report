@@ -1,8 +1,8 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-27T09:31:48+00:00",
+ "generated_at": "2026-11-28T08:44:55+00:00",
  "window_days": 180,
- "count": 1382,
+ "count": 1396,
  "journals": [
   {
    "abbr": "N Engl J Med",
@@ -12,7 +12,7 @@
   {
    "abbr": "Lancet",
    "name": "The Lancet",
-   "count": 186
+   "count": 198
   },
   {
    "abbr": "JAMA",
@@ -27,7 +27,7 @@
   {
    "abbr": "Nat Med",
    "name": "Nature Medicine",
-   "count": 150
+   "count": 152
   },
   {
    "abbr": "Cell",
@@ -42,11 +42,313 @@
  ],
  "failures": [],
  "stats": {
-  "translate_used": 22,
-  "cache_size": 1334,
+  "translate_used": 16,
+  "cache_size": 1343,
   "translate_fails": 5
  },
  "articles": [
+  {
+   "pmid": "43098151",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "The PSMAddition trial in metastatic prostate cancer.",
+   "title_zh": "PSMAddition 转移性前列腺癌试验。",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2297",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098151/",
+   "date": "2026-11-28",
+   "authors": "Rahbar K, Boegemann M",
+   "author_count": 2,
+   "doi": "10.1016/S0140-6736(26)02002-7",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "43098150",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "The PSMAddition trial in metastatic prostate cancer - Authors' reply.",
+   "title_zh": "PSMAddition 转移性前列腺癌试验 - 作者回复。",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2297-2298",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098150/",
+   "date": "2026-11-28",
+   "authors": "Tagawa ST, Sartor O, Eiber M, Saad F, Beltran H, Fizazi K",
+   "author_count": 7,
+   "doi": "10.1016/S0140-6736(26)02150-1",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "43098149",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "The PSMAddition trial in metastatic prostate cancer.",
+   "title_zh": "PSMAddition 转移性前列腺癌试验。",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2296-2297",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098149/",
+   "date": "2026-11-28",
+   "authors": "Zaurito P, Gandaglia G, Montorsi F, Briganti A",
+   "author_count": 4,
+   "doi": "10.1016/S0140-6736(26)02003-9",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤",
+    "肾脏/泌尿"
+   ]
+  },
+  {
+   "pmid": "43098148",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Did you say plague?",
+   "title_zh": "你说的是瘟疫吗？",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2295-2296",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098148/",
+   "date": "2026-11-28",
+   "authors": "Raberahona M, Randremanana R, Rajerison M, Ukety T, Adroba P, Ngwafor R",
+   "author_count": 8,
+   "doi": "10.1016/S0140-6736(26)02143-4",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098147",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Indonesia's fires are a health emergency.",
+   "title_zh": "印度尼西亚的火灾是一场健康紧急事件。",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2294-2295",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098147/",
+   "date": "2026-11-28",
+   "authors": "Maharani A, Haedar A, Dartanto T, Irmansyah, Onie S",
+   "author_count": 5,
+   "doi": "10.1016/S0140-6736(26)02162-8",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098146",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Urgent Medicaid exceptions for refugees in the USA.",
+   "title_zh": "针对美国难民的紧急医疗补助例外情况。",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2294",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098146/",
+   "date": "2026-11-28",
+   "authors": "Rfat M",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02161-6",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098145",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Horology and the heart.",
+   "title_zh": "钟表学与心脏",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2290-2291",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098145/",
+   "date": "2026-11-28",
+   "authors": "Ciofani JL, Struthers R, Tang GHL, Foulkes N, Bhindi R",
+   "author_count": 5,
+   "doi": "10.1016/S0140-6736(26)02363-9",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43098144",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "A fearless vulnerability.",
+   "title_zh": "无畏的脆弱",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2289",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098144/",
+   "date": "2026-11-28",
+   "authors": "Farooki R",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02362-7",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098143",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Cecilia Linde: leading the future of cardiovascular health.",
+   "title_zh": "Cecilia Linde：引领心血管健康的未来。",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2288",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098143/",
+   "date": "2026-11-28",
+   "authors": "Wilson C",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02357-3",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "循环器"
+   ]
+  },
+  {
+   "pmid": "43098142",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Offline: Humanitarian health-the shameful silence.",
+   "title_zh": "离线：人道主义健康——令人羞愧的沉默。",
+   "summary_en": "",
+   "summary_zh": "【述评】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2283",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098142/",
+   "date": "2026-11-28",
+   "authors": "Horton R",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02396-2",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
+  {
+   "pmid": "43098141",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Izalontamab brengitecan in metastatic breast cancer: is innovation all innovative?",
+   "title_zh": "伊扎仑单抗-布伦吉替康用于转移性乳腺癌：创新是否真的都具有创新性？",
+   "summary_en": "",
+   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2272-2274",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098141/",
+   "date": "2026-11-28",
+   "authors": "de Vries EGE, Pe M, Trapani D",
+   "author_count": 3,
+   "doi": "10.1016/S0140-6736(26)02160-4",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
+   "pmid": "43098140",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "COPD as a life-course disorder: possibilities and practicalities.",
+   "title_zh": "慢性阻塞性肺病作为一种终生性疾病：可能性与实用性。",
+   "summary_en": "",
+   "summary_zh": "【述评】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2271",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098140/",
+   "date": "2026-11-28",
+   "authors": "The Lancet",
+   "author_count": 1,
+   "doi": "10.1016/S0140-6736(26)02407-4",
+   "study_type": "述评",
+   "pubtypes": [
+    "Editorial"
+   ],
+   "mesh": [],
+   "departments": [
+    "呼吸器"
+   ]
+  },
+  {
+   "pmid": "43063955",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Health professionals cannot abandon their Palestinian colleagues.",
+   "title_zh": "卫生专业人员不能抛弃他们的巴勒斯坦同事",
+   "summary_en": "",
+   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2293-2294",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43063955/",
+   "date": "2026-11-28",
+   "authors": "London L, Ruff K, Nuwayhid I, Habib RR, Watterson A, Collegium Ramazzini",
+   "author_count": 6,
+   "doi": "10.1016/S0140-6736(26)02088-X",
+   "study_type": "通信",
+   "pubtypes": [
+    "Letter"
+   ],
+   "mesh": [],
+   "departments": [
+    "综合"
+   ]
+  },
   {
    "pmid": "43039012",
    "journal": "The Lancet",
@@ -276,6 +578,43 @@
    ]
   },
   {
+   "pmid": "42933459",
+   "journal": "The Lancet",
+   "journal_abbr": "Lancet",
+   "title_en": "Izalontamab brengitecan for HR+/HER2- breast cancer in China (PANKU-Breast01): a randomised, phase 3 trial.",
+   "title_zh": "Izalontamab brengitecan治疗中国HR+/HER2-乳腺癌（PANKU-Breast01）：一项随机、3期试验。",
+   "summary_en": "BACKGROUND: Patients with heavily pretreated hormone receptor-positive and human epidermal growth factor receptor 2-negative (HR+/HER2-) breast cancer have few treatment options. Izalontamab brengitecan (iza-bren) is a first-in-class, epidermal growth factor receptor and HER3 bispecific antibody-drug conjugate that contains a potent topoisomerase I inhibitor payload (Ed-04). The aim of PANKU-Breast01 was to compare the efficacy and safety of iza-bren versus chemotherapy in patients with pretreated HR+/HER2- breast cancer. METHODS: In this randomised, phase 3, open-label, multicentre study in 72 hospitals in China, patients with HR+/HER2- breast cancer who had disease progression after endocrine therapy, cyclin-dependent kinase (CDK) 4/6 inhibitors, and one or two lines of chemotherapy were",
+   "summary_zh": "【随机对照试验】Lancet 刊载。结论要点见下方原文摘要。",
+   "citation": "Lancet. 2026; 408(10570): 2299-2310",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933459/",
+   "date": "2026-11-28",
+   "authors": "Lan B, Shi Y, Shao X, Wu F, Wang S, Xie W",
+   "author_count": 44,
+   "doi": "10.1016/S0140-6736(26)02096-9",
+   "study_type": "随机对照试验",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Clinical Trial, Phase III",
+    "Multicenter Study"
+   ],
+   "mesh": [
+    "Humans",
+    "Female",
+    "Breast Neoplasms",
+    "Erb-b2 Receptor Tyrosine Kinases",
+    "China",
+    "Middle Aged",
+    "Aged",
+    "Adult",
+    "Camptothecin",
+    "Deoxycytidine"
+   ],
+   "departments": [
+    "肿瘤"
+   ]
+  },
+  {
    "pmid": "42863482",
    "journal": "The Lancet",
    "journal_abbr": "Lancet",
@@ -321,6 +660,52 @@
    "mesh": [],
    "departments": [
     "综合"
+   ]
+  },
+  {
+   "pmid": "43099185",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Performance of intracortical microelectrode arrays in people with implanted brain-computer interfaces over a 20-year period.",
+   "title_zh": "植入脑机接口者皮层内微电极阵列20年间的性能表现",
+   "summary_en": "The silicon microelectrode 'Utah' array has enabled people with paralysis to control computer cursors, operate prosthetic limbs and communicate using high-performance brain-computer interfaces. However, reports so far have typically been limited to one or two individuals, with no systematic assessment of array longevity, decoding accuracy and day-to-day stability. Here we present a comprehensive 20-year evaluation of neural data from the BrainGate clinical trials, spanning 2,289 recording sessions, 20 arrays and 14 participants. On average, arrays successfully recorded neural spiking waveforms on 35.6% of electrodes, with a modest 7 percentage point decline over the recording period (up to 7.3 years). Using a 'decoding signal-to-noise ratio' (dSNR) metric, we found that 11 of 14 arrays pro",
+   "summary_zh": "【研究论文】Nat Med 刊载。关键数据：70%。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43099185/",
+   "date": "2026-11-26",
+   "authors": "Hahn NV, Stein E, BrainGate Consortium, Donoghue JP, Simeral JD, Hochberg LR",
+   "author_count": 7,
+   "doi": "10.1038/s41591-026-04530-3",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "神经"
+   ]
+  },
+  {
+   "pmid": "43099184",
+   "journal": "Nature Medicine",
+   "journal_abbr": "Nat Med",
+   "title_en": "Integrated wastewater and clinical genomic surveillance for high-resolution tracking of measles virus evolution and transmission.",
+   "title_zh": "整合废水与临床基因组监测实现麻疹病毒演化和传播的高分辨率追踪",
+   "summary_en": "Measles outbreaks have surged globally, challenging surveillance and control efforts. In South Africa, the 2024-2025 measles outbreak led to nearly 4,000 reported cases, triggering a nationwide vaccination campaign. However, tracking measles virus (MeV; species Morbillivirus hominis) transmission and evolution remains difficult at scale, particularly in settings with limited access to care, diagnostic testing and sequencing capacity. Wastewater can enable population-scale virus surveillance, but low MeV concentrations limit detection sensitivity and sequencing quality. Here we show that overcoming these technical challenges enables integrated wastewater and clinical genomic surveillance that expands the coverage and resolution of MeV monitoring. We developed a virus concentration and whole",
+   "summary_zh": "【研究论文】Nat Med 刊载。结论要点见下方原文摘要。",
+   "citation": "Nat Med. 2026",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43099184/",
+   "date": "2026-11-26",
+   "authors": "Gwala S, Levy JI, Mabasa V, Subramoney K, Ndlovu NL, Kent C",
+   "author_count": 24,
+   "doi": "10.1038/s41591-026-04754-3",
+   "study_type": "研究论文",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "mesh": [],
+   "departments": [
+    "感染"
    ]
   },
   {
@@ -1048,12 +1433,19 @@
     "Review"
    ],
    "mesh": [
-    "Giant Cell Arteritis",
     "Humans",
-    "Glucocorticoids"
+    "Giant Cell Arteritis",
+    "Glucocorticoids",
+    "Vascular Remodeling",
+    "Janus Kinase Inhibitors",
+    "Receptors, Interleukin-6",
+    "Ischemia",
+    "Diagnosis, Differential",
+    "Neovascularization, Pathologic",
+    "Tunica Intima"
    ],
    "departments": [
-    "综合"
+    "循环器"
    ]
   },
   {
@@ -1078,13 +1470,14 @@
    "mesh": [
     "Humans",
     "Antihypertensive Agents",
+    "Blood Pressure",
     "Cardiovascular Diseases",
+    "Heart Disease Risk Factors",
     "Hypertension",
     "Randomized Controlled Trials as Topic",
-    "Blood Pressure",
-    "Heart Disease Risk Factors",
     "Stroke",
-    "Aged"
+    "Myocardial Ischemia",
+    "Heart Failure"
    ],
    "departments": [
     "循环器",
@@ -1206,16 +1599,16 @@
     "Clinical Trial, Phase III"
    ],
    "mesh": [
-    "Humans",
-    "Antibodies, Monoclonal, Humanized",
-    "Carcinoma, Non-Small-Cell Lung",
-    "Antineoplastic Combined Chemotherapy Protocols",
-    "Lung Neoplasms",
-    "Female",
+    "Adult",
     "Aged",
-    "Middle Aged",
+    "Female",
+    "Humans",
     "Male",
-    "B7-H1 Antigen"
+    "Middle Aged",
+    "Antibodies, Monoclonal, Humanized",
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "B7-H1 Antigen",
+    "Carcinoma, Non-Small-Cell Lung"
    ],
    "departments": [
     "肿瘤",
@@ -1244,20 +1637,19 @@
     "Comparative Study"
    ],
    "mesh": [
-    "Humans",
-    "Female",
-    "Pulmonary Embolism",
-    "Thrombolytic Therapy",
-    "Fibrinolytic Agents",
-    "Tissue Plasminogen Activator",
-    "Middle Aged",
     "Aged",
+    "Female",
+    "Humans",
+    "Male",
+    "Middle Aged",
+    "Anticoagulants",
+    "Drug Therapy, Combination",
+    "Fibrinolytic Agents",
     "Hemorrhage",
-    "Male"
+    "Kaplan-Meier Estimate"
    ],
    "departments": [
-    "呼吸器",
-    "血液"
+    "药学"
    ]
   },
   {
@@ -1282,16 +1674,16 @@
     "Clinical Trial, Phase III"
    ],
    "mesh": [
-    "Humans",
-    "Double-Blind Method",
-    "Cardiomyopathies",
-    "Amyloid Neuropathies, Familial",
-    "Male",
     "Aged",
-    "Female",
     "Aged, 80 and over",
+    "Female",
+    "Humans",
+    "Male",
+    "Amyloid Neuropathies, Familial",
+    "Cardiomyopathies",
     "Cardiovascular Diseases",
-    "Prealbumin"
+    "Double-Blind Method",
+    "Oligonucleotides"
    ],
    "departments": [
     "循环器"
@@ -6125,29 +6517,6 @@
    "authors": "Slater SD",
    "author_count": 1,
    "doi": "10.1136/bmj-2026-101460",
-   "study_type": "通信",
-   "pubtypes": [
-    "Letter"
-   ],
-   "mesh": [],
-   "departments": [
-    "综合"
-   ]
-  },
-  {
-   "pmid": "43063955",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Health professionals cannot abandon their Palestinian colleagues.",
-   "title_zh": "卫生专业人员不能抛弃他们的巴勒斯坦同事",
-   "summary_en": "",
-   "summary_zh": "【通信】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/43063955/",
-   "date": "2026-11-20",
-   "authors": "London L, Ruff K, Nuwayhid I, Habib RR, Watterson A, Collegium Ramazzini",
-   "author_count": 6,
-   "doi": "10.1016/S0140-6736(26)02088-X",
    "study_type": "通信",
    "pubtypes": [
     "Letter"
@@ -17202,7 +17571,7 @@
    "title_en": "Performance of 0/1 h versus 0/3 h pathways in patients with suspected myocardial infarction: a systematic review and individual participant data meta-analysis of randomised controlled trials.",
    "title_zh": "疑似心肌梗死患者0/1 h与0/3 h路径的性能比较：随机对照试验的系统评价与个体参与者数据荟萃分析。",
    "summary_en": "BACKGROUND: In patients with suspected myocardial infarction, the 0/1 h pathway (blood draws at 0 h and 1 h) is recommended in current guidelines for early risk stratification. However, individual trials used different safety outcomes, and efficacy outcomes were inconclusive or not assessed. We conducted a systematic review and individual participant data meta-analysis of all randomised controlled trials to synthesise the totality of the evidence, assess heterogeneity across trials, and evaluate clinically relevant outcomes using harmonised definitions across trials. METHODS: In this systematic review and individual participant data meta-analysis, we searched PubMed, Cochrane Central Register of Controlled Trials, Scopus, and the International Clinical Trials Registry Platform from incepti",
-   "summary_zh": "【Meta 分析】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【Meta 分析】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10567): 1953-1968",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42956796/",
    "date": "2026-11-07",
@@ -17257,7 +17626,7 @@
    "title_en": "The 2026 report of the Lancet Countdown on health and climate change: a decade of escalating health harms and a decisive moment for all.",
    "title_zh": "2026年Lancet Countdown健康与气候变化报告：健康危害不断升级的十年与所有人的决定性时刻。",
    "summary_en": "For the French, Arabic, Spanish, Brazilian-Portuguese and Mandarin translations of the abstract see Supplementary Materials section.",
-   "summary_zh": "【综述】Lancet 刊载。结论要点见下方原文摘要。",
+   "summary_zh": "【综述】Lancet 刊载。原文未附结构化摘要。",
    "citation": "Lancet. 2026; 408(10567): 1979-2032",
    "link": "https://pubmed.ncbi.nlm.nih.gov/42950876/",
    "date": "2026-11-07",
@@ -28156,29 +28525,6 @@
    "mesh": [],
    "departments": [
     "综合"
-   ]
-  },
-  {
-   "pmid": "42933459",
-   "journal": "The Lancet",
-   "journal_abbr": "Lancet",
-   "title_en": "Izalontamab brengitecan for HR+/HER2- breast cancer in China (PANKU-Breast01): a randomised, phase 3 trial.",
-   "title_zh": "Izalontamab brengitecan治疗中国HR+/HER2-乳腺癌（PANKU-Breast01）：一项随机、3期试验。",
-   "summary_en": "BACKGROUND: Patients with heavily pretreated hormone receptor-positive and human epidermal growth factor receptor 2-negative (HR+/HER2-) breast cancer have few treatment options. Izalontamab brengitecan (iza-bren) is a first-in-class, epidermal growth factor receptor and HER3 bispecific antibody-drug conjugate that contains a potent topoisomerase I inhibitor payload (Ed-04). The aim of PANKU-Breast01 was to compare the efficacy and safety of iza-bren versus chemotherapy in patients with pretreated HR+/HER2- breast cancer. METHODS: In this randomised, phase 3, open-label, multicentre study in 72 hospitals in China, patients with HR+/HER2- breast cancer who had disease progression after endocrine therapy, cyclin-dependent kinase (CDK) 4/6 inhibitors, and one or two lines of chemotherapy were",
-   "summary_zh": "【研究论文】Lancet 刊载。原文未附结构化摘要。",
-   "citation": "Lancet. 2026",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42933459/",
-   "date": "2026-10-26",
-   "authors": "Lan B, Shi Y, Shao X, Wu F, Wang S, Xie W",
-   "author_count": 44,
-   "doi": "10.1016/S0140-6736(26)02096-9",
-   "study_type": "研究论文",
-   "pubtypes": [
-    "Journal Article"
-   ],
-   "mesh": [],
-   "departments": [
-    "肿瘤"
    ]
   },
   {

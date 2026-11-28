@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "date": "2026-11-27",
- "generated_at": "2026-11-27T09:32:10+00:00",
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T08:45:12+00:00",
  "provider": "deepseek-chat",
  "degraded": false,
  "window_days": 3,
@@ -17,11 +17,11 @@
    "departments": [
     "儿科"
    ],
-   "title_zh": "ParentApp 混合式数字育儿干预在坦桑尼亚大规模预防儿童性暴力、性剥削与虐待：整群随机对照试验",
+   "title_zh": "ParentApp 数字育儿干预在坦桑尼亚大规模预防儿童性暴力、性剥削与虐待：整群随机对照试验",
    "one_liner": "低成本手机育儿App减少了女孩遭性暴力和儿童受虐待。",
-   "key_finding": "女孩过去一月性暴力受害发生率比 IRR 0.43（95% CI 0.21-0.86），男孩无效应（1.21 [0.59-2.43]）；虐待报告 IRR 0.92（青少年）、0.87（照护者）。",
+   "key_finding": "女孩过去一个月性暴力受害发生率比 IRR 0.43（95% CI 0.21-0.86），男孩无效应（1.21 [0.59-2.43]）；虐待报告 IRR 0.92（青少年）、0.87（照护者）。",
    "why_it_matters": "每家庭规模化成本仅 6 美元，为资源有限地区提供可推广的儿童保护手段。",
-   "clinical_note": "对象为 10-17 岁青少年及其照护者；干预为 12 模块离线App，非盲法。",
+   "clinical_note": "对象为 10-17 岁青少年及其照护者；开放标签设计，结局依赖自报。",
    "evidence": "整群随机对照试验，2396 对亲子，坦桑尼亚 80 个小区",
    "tags": [
     "儿童保护",
@@ -40,16 +40,39 @@
    "departments": [
     "消化器"
    ],
-   "title_zh": "Efinopegdutide 治疗代谢功能障碍相关脂肪性肝炎合并 2-3 期纤维化成人：2b 期随机安慰剂对照研究",
-   "one_liner": "每周一次 efinopegdutide 使多数 MASH 患者肝炎消退且纤维化未恶化。",
-   "key_finding": "52 周 MASH 消退且纤维化未恶化：4mg 56%、7mg 63%、10mg 61%，安慰剂 13%；7mg 纤维化改善约半数。",
-   "why_it_matters": "为 MASH 合并纤维化人群提供新的每周一次 GLP-1-胰高血糖素受体双激动剂选择。",
-   "clinical_note": "非肝硬化 MASH、F2-F3 纤维化；10mg 组胃肠道不良事件与停药更多。",
-   "evidence": "2b 期双盲随机对照试验，381 例，26 国 176 中心",
+   "title_zh": "efinopegdutide 治疗 MASH 伴 2-3 期纤维化成人：2b 期随机安慰剂对照研究",
+   "one_liner": "每周一次 efinopegdutide 使多数 MASH 患者肝脏炎症消退。",
+   "key_finding": "52 周 MASH 消退且纤维化不恶化：4mg 56%、7mg 63%、10mg 61%，安慰剂 13%；7mg 组纤维化改善约半数。",
+   "why_it_matters": "为无肝硬化 MASH 提供新的每周一次 GLP-1-胰高血糖素受体双激动剂选择。",
+   "clinical_note": "7mg 获益风险最佳；10mg 胃肠道不良事件和停药率更高。",
+   "evidence": "2b 期双盲随机对照，381 例，26 国 176 中心",
    "tags": [
     "肝病",
-    "内分泌",
+    "代谢",
     "药物试验"
+   ],
+   "confidence": "high"
+  },
+  {
+   "pmid": "42933459",
+   "journal": "Lancet",
+   "date": "2026-11-28",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/42933459/",
+   "title_en": "Izalontamab brengitecan for HR+/HER2- breast cancer in China (PANKU-Breast01): a randomised, phase 3 trial.",
+   "study_type": "随机对照试验",
+   "departments": [
+    "肿瘤"
+   ],
+   "title_zh": "iza-bren 治疗中国 HR+/HER2- 乳腺癌（PANKU-Breast01）：3 期随机试验",
+   "one_liner": "新型双抗偶联药 iza-bren 显著延长晚期乳腺癌无进展生存。",
+   "key_finding": "中位 PFS 8.2 个月 vs 化疗 4.0 个月，HR 0.41（95% CI 0.33-0.53）；≥3 级治疗相关不良事件 85% vs 66%。",
+   "why_it_matters": "为内分泌和化疗后进展的 HR+/HER2- 患者提供新选择，但总生存获益尚未确立。",
+   "clinical_note": "仅中国女性人群；开放标签；血液学毒性常见，2 例治疗相关死亡。",
+   "evidence": "3 期开放标签随机，383 例，中国 72 家医院",
+   "tags": [
+    "肿瘤",
+    "乳腺癌",
+    "抗体偶联药物"
    ],
    "confidence": "high"
   },
@@ -65,15 +88,15 @@
     "神经"
    ],
    "title_zh": "降压治疗在不同心血管风险谱中的效果：个体数据 Meta 分析",
-   "one_liner": "无论基线风险高低，降压都能降低主要心血管事件风险。",
-   "key_finding": "收缩压每降 5 mmHg，主要心血管事件 HR 0.90（95% CI 0.88-0.92），各风险十分位无差异；5 年绝对风险降幅最高组 2.6 个百分点、最低组 0.4 个百分点。",
-   "why_it_matters": "支持即使 5 年风险低于 4% 的低危人群也可从降压中获益，但需权衡不良反应。",
-   "clinical_note": "51 项试验、357440 人；安全性事件随治疗相对增加，各风险层相似。",
-   "evidence": "个体参与者数据 Meta 分析，51 项试验，357440 人",
+   "one_liner": "降压在各风险层都降低心血管事件，低危人群也获益。",
+   "key_finding": "收缩压每降 5 mmHg，主要心血管事件 HR 0.90（95% CI 0.88-0.92），各风险十分位无差异；5 年绝对风险降幅最高 2.6 vs 最低 0.4 个百分点。",
+   "why_it_matters": "支持将降压获益扩展到预测 5 年风险低于 4% 的低危人群。",
+   "clinical_note": "安全性事件相对风险随治疗升高，但各风险层间无差异。",
+   "evidence": "个体数据 Meta 分析，51 项试验、357440 人",
    "tags": [
     "心血管",
     "高血压",
-    "预防"
+    "Meta 分析"
    ],
    "confidence": "high"
   },
@@ -88,15 +111,15 @@
     "肿瘤",
     "呼吸器"
    ],
-   "title_zh": "Sacituzumab tirumotecan 联合 Pembrolizumab 治疗 PD-L1 阴性晚期非小细胞肺癌",
-   "one_liner": "PD-L1 阴性晚期非鳞 NSCLC 一线用新联合方案，无进展生存明显延长。",
-   "key_finding": "中位 PFS 15.0 个月 vs 5.7 个月，HR 0.49（95% CI 0.36-0.65，P<0.001）；总生存数据尚不成熟，死亡 HR 0.58（0.38-0.88）。",
-   "why_it_matters": "为 PD-L1 阴性、无可用靶点的人群提供可能优于化疗联合免疫的一线选择。",
-   "clinical_note": "3 期开放标签试验中期分析；口腔炎常见但多为 1-2 级。",
-   "evidence": "3 期开放标签随机试验，455 例，中期分析",
+   "title_zh": "Sacituzumab Tirumotecan联合Pembrolizumab治疗PD-L1阴性晚期NSCLC",
+   "one_liner": "PD-L1阴性晚期非鳞NSCLC一线治疗，新联合方案无进展生存期明显更长",
+   "key_finding": "中位PFS 15.0个月 vs 5.7个月，HR 0.49（95% CI 0.36–0.65），P<0.001；总生存数据尚不成熟，HR 0.58（95% CI 0.38–0.88）",
+   "why_it_matters": "为PD-L1阴性、无可用靶向突变患者提供可能优于化疗联合免疫的一线选择，但总生存尚未成熟",
+   "clinical_note": "3期开放标签试验，中期分析；随访中位9.7个月，总生存数据未成熟；口腔炎常见但多为1–2级",
+   "evidence": "3期开放标签随机对照试验，455例，国际多中心",
    "tags": [
-    "肿瘤",
     "肺癌",
+    "肿瘤内科",
     "免疫治疗"
    ],
    "confidence": "high"
@@ -109,19 +132,18 @@
    "title_en": "Catheter-Directed Thrombolysis in Intermediate-High-Risk Pulmonary Embolism.",
    "study_type": "随机对照试验",
    "departments": [
-    "呼吸器",
-    "血液"
+    "药学"
    ],
-   "title_zh": "导管导向溶栓治疗中高危肺栓塞",
-   "one_liner": "中高危肺栓塞加用导管溶栓，7天内不良事件明显更少。",
-   "key_finding": "主要终点事件：溶栓组0.7%（2例）vs 标准治疗组6.8%（19例），RR 0.10（95% CI 0.02-0.44），P<0.001。",
-   "why_it_matters": "提示对这类血流动力学稳定的高危肺栓塞患者，导管溶栓可能减少病情恶化，且大出血未见明显增加。",
-   "clinical_note": "入选需右心功能不全加肌钙蛋白或利钠肽升高；开放标签设计，颅内出血2例 vs 0例需权衡。",
-   "evidence": "多中心开放标签随机试验，558例",
+   "title_zh": "中高危肺栓塞的导管定向溶栓治疗",
+   "one_liner": "中高危肺栓塞加用导管定向溶栓，7天内不良事件风险明显更低",
+   "key_finding": "7天内主要复合终点事件：溶栓组0.7% vs 标准治疗组6.8%，相对风险0.10（95% CI 0.02–0.44），P<0.001",
+   "why_it_matters": "提示对中高危肺栓塞患者，在抗凝基础上加导管定向溶栓可能减少病情恶化，且出血未见明显增加",
+   "clinical_note": "开放标签试验；主要差异由心肺失代偿或崩溃减少驱动；颅内出血2例 vs 0例",
+   "evidence": "多中心开放标签随机对照试验，558例",
    "tags": [
     "肺栓塞",
-    "介入治疗",
-    "心血管"
+    "心血管",
+    "介入治疗"
    ],
    "confidence": "high"
   },
@@ -136,110 +158,82 @@
     "循环器"
    ],
    "title_zh": "Eplontersen治疗转甲状腺素蛋白淀粉样心肌病",
-   "one_liner": "Eplontersen未能降低ATTR-CM患者心血管死亡与事件风险。",
-   "key_finding": "主要终点事件率比0.89（95% CI 0.73-1.09），P=0.28；全因死亡加心血管事件率比0.86（95% CI 0.71-1.04）。",
-   "why_it_matters": "该反义寡核苷酸虽降低TTR生成，但140周内未转化为临床获益，提示需重新评估其治疗定位。",
-   "clinical_note": "3期双盲试验，平均76.4岁、90.6%男性；严重不良事件两组相近（57.8% vs 59.4%）。",
-   "evidence": "国际3期双盲随机试验，1432例",
+   "one_liner": "Eplontersen未能降低ATTR-CM患者心血管死亡与复发事件风险",
+   "key_finding": "主要终点事件率比0.89（95% CI 0.73–1.09），P=0.28；全因死亡与心血管事件复合率比0.86（95% CI 0.71–1.04）",
+   "why_it_matters": "该反义寡核苷酸虽降低TTR生成，但140周内未转化为心血管结局获益，需重新评估其临床价值",
+   "clinical_note": "3期双盲试验，随访140周；平均年龄76.4岁，90.6%为男性；严重不良事件两组相近",
+   "evidence": "3期国际双盲随机对照试验，1432例",
    "tags": [
     "心肌病",
-    "淀粉样变",
+    "罕见病",
     "心血管"
    ],
    "confidence": "high"
   },
   {
-   "pmid": "42911562",
-   "journal": "JAMA",
-   "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42911562/",
-   "title_en": "Rituximab vs Azathioprine for Eosinophilic Granulomatosis With Polyangiitis Maintenance Therapy: A Randomized Clinical Trial.",
-   "study_type": "随机对照试验",
-   "departments": [
-    "综合"
-   ],
-   "title_zh": "Rituximab对比Azathioprine用于嗜酸性肉芽肿性多血管炎维持治疗",
-   "one_liner": "EGPA维持治疗中，rituximab并不优于azathioprine。",
-   "key_finding": "泼尼松≤7.5 mg/d下平均缓解时间91.1周 vs 96.0周（P=0.38）；持续缓解34.7% vs 22.4%（RR 1.51，95% CI 0.83-2.73，P=0.18）。",
-   "why_it_matters": "两种维持方案疗效相当，选择时可更多考虑安全性；rituximab组严重感染更多（46.9% vs 24.5%）。",
-   "clinical_note": "法国36家医院双盲双模拟试验，98例新诊断或复发缓解期患者；严重感染主要为SARS-CoV-2。",
-   "evidence": "双盲双模拟随机优效性试验，98例",
-   "tags": [
-    "血管炎",
-    "风湿免疫",
-    "维持治疗"
-   ],
-   "confidence": "high"
-  },
-  {
-   "pmid": "42832220",
-   "journal": "JAMA",
-   "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42832220/",
-   "title_en": "Smoking Cessation Among Underserved Patients Referred for Lung Cancer Screening: A Randomized Clinical Trial.",
-   "study_type": "随机对照试验",
-   "departments": [
-    "肿瘤"
-   ],
-   "title_zh": "肺癌筛查转诊的弱势人群戒烟干预随机试验",
-   "one_liner": "对弱势吸烟者，加经济激励比常规转诊更能帮助戒烟。",
-   "key_finding": "6个月持续戒烟率：常规4.3%、加免费药物5.1%、加经济激励8.8%、加移动工具7.2%；激励vs常规差4.6%（95% CI 2.1%-7.0%）。",
-   "why_it_matters": "免费药物单独加常规转诊未见优势，经济激励可能是提升弱势人群戒烟率的有效手段。",
-   "clinical_note": "纳入黑人、西班牙裔、农村或低社会经济地位者；戒烟经可替宁等生化确认。",
-   "evidence": "美国4个卫生系统随机试验，3220例分析",
-   "tags": [
-    "戒烟",
-    "肺癌筛查",
-    "公共卫生"
-   ],
-   "confidence": "high"
-  },
-  {
-   "pmid": "42669065",
-   "journal": "JAMA",
-   "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42669065/",
-   "title_en": "Gene Silencer Therapy in Transthyretin Amyloid Cardiomyopathy: A Meta-Analysis of Outcomes Trials.",
-   "study_type": "Meta 分析",
-   "departments": [
-    "循环器",
-    "遗传/基因"
-   ],
-   "title_zh": "基因沉默疗法治疗转甲状腺素蛋白淀粉样心肌病：结局试验的Meta分析",
-   "one_liner": "基因沉默疗法可降低ATTR-CM患者死亡和心血管事件风险。",
-   "key_finding": "2项试验共2086例，主要终点降低19%（RR 0.81，95% CI 0.69-0.94），全因死亡HR 0.74（0.61-0.91）。",
-   "why_it_matters": "为ATTR-CM提供了一种针对病因的治疗选择，但未用稳定剂者的获益更明显。",
-   "clinical_note": "基线已用TTR稳定剂者未见显著额外获益（RR 0.97），属亚组分析，需谨慎解读。",
-   "evidence": "Meta分析，2项III期RCT，2086例，HELIOS-B与CARDIO-TTRansform",
-   "tags": [
-    "心血管",
-    "淀粉样变",
-    "基因治疗"
-   ],
-   "confidence": "high"
-  },
-  {
-   "pmid": "42669054",
-   "journal": "JAMA",
-   "date": "2026-11-24",
-   "link": "https://pubmed.ncbi.nlm.nih.gov/42669054/",
-   "title_en": "124I-Evuzamitide Positron Emission Tomography/Computed Tomography for Diagnosing Cardiac Amyloidosis: The REVEAL Nonrandomized Clinical Trial.",
-   "study_type": "III 期临床试验",
+   "pmid": "43098145",
+   "journal": "Lancet",
+   "date": "2026-11-28",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098145/",
+   "title_en": "Horology and the heart.",
+   "study_type": "研究论文",
    "departments": [
     "循环器"
    ],
-   "title_zh": "124I-Evuzamitide PET/CT诊断心脏淀粉样变：REVEAL非随机临床试验",
-   "one_liner": "新型PET显像剂诊断心脏淀粉样变敏感性94%、特异性86%。",
-   "key_finding": "170例中敏感性94%（95% CI 85%-98%），特异性86%（77%-92%），阳性预测值85%，阴性预测值94%。",
-   "why_it_matters": "有望弥补现有影像仅能识别转甲状腺素蛋白型的不足，直接显示多种类型心脏淀粉样变。",
-   "clinical_note": "单组非随机、排除已确诊者，18家美国中心，需进一步验证。",
-   "evidence": "前瞻性单组非随机，18中心，170例，美国",
+   "title_zh": "钟表学与心脏",
+   "one_liner": "摘要未给出结果",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果，无法判断对临床或公众的意义",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计与样本量",
+   "tags": [
+    "心血管"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43098144",
+   "journal": "Lancet",
+   "date": "2026-11-28",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098144/",
+   "title_en": "A fearless vulnerability.",
+   "study_type": "研究论文",
+   "departments": [
+    "综合"
+   ],
+   "title_zh": "无畏的脆弱",
+   "one_liner": "摘要未给出结果",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
+   "tags": [
+    "医学人文",
+    "综合医学"
+   ],
+   "confidence": "low"
+  },
+  {
+   "pmid": "43098143",
+   "journal": "Lancet",
+   "date": "2026-11-28",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/43098143/",
+   "title_en": "Cecilia Linde: leading the future of cardiovascular health.",
+   "study_type": "研究论文",
+   "departments": [
+    "循环器"
+   ],
+   "title_zh": "Cecilia Linde：引领心血管健康的未来",
+   "one_liner": "摘要未给出结果",
+   "key_finding": "摘要未给出结果",
+   "why_it_matters": "摘要未给出结果",
+   "clinical_note": "",
+   "evidence": "摘要未提供研究设计、样本量及地点",
    "tags": [
     "心血管",
-    "核医学",
-    "淀粉样变"
+    "医学人物"
    ],
-   "confidence": "high"
+   "confidence": "low"
   }
  ]
 }
